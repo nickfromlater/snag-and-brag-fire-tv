@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "scope": "Rematch after one complete normal-speed native game; metadata only. Raw report stays private.",
+  "outcome": "FAIL",
+  "crashReason": "AppNotResponding",
+  "monitorReason": "Thread Monitor",
+  "monitoredThreadName": "Not supplied by OS",
+  "foreground": true,
+  "processState": "active",
+  "crashTimeUTC": "2026-10-18T23:48:17Z",
+  "memoryAvailableKiB": 427668,
+  "deviceTempUsedKiBBeforeRun": 0,
+  "normalSpeedCompletedGames": 1,
+  "firstGameSeconds": 403.674,
+  "totalAttemptSeconds": 463.348,
+  "audioErrors": 0,
+  "jsExceptions": 0,
+  "screensaverInterruptions": 0,
+  "diagnosis": "Watchdog timeout; blocking operation is not yet identified. Forced SIGQUIT stack is not treated as an origin stack.",
+  "memoryMeasurementTiming": "After process termination; live graphics-pool exhaustion was found separately"
+}

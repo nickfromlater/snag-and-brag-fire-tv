@@ -1,0 +1,44 @@
+[
+  {
+    "case": "baseline",
+    "n": 20,
+    "median_js_updates": 74.99468080643248,
+    "min_js_updates": 74.53264917230888,
+    "median_p95_ms": 14.378750499978196
+  },
+  {
+    "case": "rays",
+    "n": 20,
+    "median_js_updates": 74.99073470979374,
+    "min_js_updates": 73.98384067147018,
+    "median_p95_ms": 14.522583000070881
+  },
+  {
+    "case": "particles300",
+    "n": 20,
+    "median_js_updates": 62.540590825217606,
+    "min_js_updates": 8.253594750711635,
+    "median_p95_ms": 27.74689600005513
+  },
+  {
+    "case": "sprites20",
+    "n": 20,
+    "median_js_updates": 74.99774321455817,
+    "min_js_updates": 72.98630744028297,
+    "median_p95_ms": 14.535895999986678
+  },
+  {
+    "case": "full20",
+    "n": 20,
+    "median_js_updates": 60.54571812432813,
+    "min_js_updates": 44.70236694711843,
+    "median_p95_ms": 32.46197950001806
+  },
+  {
+    "case": "full40",
+    "n": 19,
+    "median_js_updates": 54.43193169912302,
+    "min_js_updates": 23.805223271245534,
+    "median_p95_ms": 40.246749999932945
+  }
+]

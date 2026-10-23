@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-10-17T23:19:13.144821+00:00",
+  "status": "PASS_INSTALL_AND_PROCESS_ONLY",
+  "target": {
+    "physical": true,
+    "product": "callie",
+    "architecture": "armv7l",
+    "os": "OS 2.0 (TV Ship/515)",
+    "inDeveloperMode": true
+  },
+  "app": "com.snagbrag.tv.main",
+  "package": {
+    "file": "~/builds/snag-and-brag/tv_armv7-live.vpkg",
+    "sha256": "8fc375fd985aa9aa7e940f87770a2d7a13b703fa931b23cb97dca044a3850abb",
+    "hashVerified": true
+  },
+  "activation": {
+    "cliStatus": "success",
+    "vendorCount": 1
+  },
+  "install": {
+    "exitCode": 0,
+    "result": "success"
+  },
+  "launch": {
+    "exitCode": 0,
+    "appRunning": true
+  },
+  "hostedHealthAtInitialLaunch": {
+    "ok": true,
+    "rooms": 1,
+    "phones": 0,
+    "aiMode": "bedrock",
+    "pollyMode": "aws"
+  },
+  "unassessed": [
+    "TV visual presentation",
+    "physical remote input",
+    "real-phone pairing and camera",
+    "full three-round game and finale",
+    "HDMI audio and live Polly playback",
+    "spoken Alexa controls",
+    "retail-stick frame rate"
+  ],
+  "privacy": "No player photos, identity documents, device serial, vendor ID or activation codes included."
+}

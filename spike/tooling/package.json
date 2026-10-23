@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@amazon-devices/amazon-devices-buildertools-mcp": "^1.0.17"
+  }
+}

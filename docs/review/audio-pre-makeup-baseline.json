@@ -1,0 +1,5034 @@
+{
+  "schemaVersion": 1,
+  "baseSeed": 1397637447,
+  "randomGenerator": "mulberry32; per-id seed = FNV-style imul hash starting at baseSeed",
+  "source": {
+    "file": "reference/src/game.js",
+    "startLine": 60,
+    "endLine": 154,
+    "sourceSha256": "d51cda535fffc268cb6e1e5d40c080e537ec1f92dbc6c701793c1877be7b69fb",
+    "audioSha256": "211a16a9ae4fdc6b8046f1a5c1744abdbf1e82628865fc034abd5ae7de37546e",
+    "verbatim": true
+  },
+  "format": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "wav": "PCM signed 16-bit little endian",
+    "ogg": "Vorbis quality 5; bitexact container; original sample count in granule position"
+  },
+  "tools": {
+    "chrome": "Chrome/155.0.8059.40",
+    "ffmpeg": "ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers",
+    "puppeteerCore": "24.43.1"
+  },
+  "render": {
+    "context": "OfflineAudioContext only",
+    "realtimeContextAttempts": 0,
+    "schedulerTimerAttempts": 0,
+    "effects": {
+      "allocatedSeconds": 6,
+      "trimThresholdDbfs": -60,
+      "trailingPadSamples": 2400,
+      "leadingTrim": false
+    },
+    "music": {
+      "scheduledLoops": 3,
+      "scheduledSteps": 192,
+      "cut": "middle loop; each boundary rounded to the nearest 48 kHz sample",
+      "crossfade": false,
+      "fades": false
+    },
+    "deterministicSumming": "Original connections recorded in source order; sums with more than two inputs are routed through balanced unity-gain binary sums before the unchanged original destination node."
+  },
+  "mix": {
+    "sourceRuntimeLevels": {
+      "sfxBus": 0.8,
+      "musicBus": 0.22,
+      "master": 0.9,
+      "reverbWet": 0.18
+    },
+    "graph": {
+      "master": 0.8999999761581421,
+      "sfx": 0.800000011920929,
+      "music": 0.2199999988079071,
+      "compressor": {
+        "thresholdDb": -12,
+        "ratio": 4,
+        "kneeDb": 30,
+        "attackSeconds": 0.003000000026077032,
+        "releaseSeconds": 0.25
+      },
+      "impulseSamples": 57600,
+      "impulseChannels": 2,
+      "noiseSamples": 48000,
+      "convolverNormalize": true
+    },
+    "gainsAndCompressorBakedIntoFiles": true,
+    "filePlaybackLevels": {
+      "sfx": 1,
+      "music": 1,
+      "master": 1
+    },
+    "adjustment": "To change nominal levels, multiply file gain by desired bus/source bus and desired master/0.9; do not apply baked bus/master gains twice.",
+    "overlap": "Each file passed through the original master compressor alone. Summed files cannot reproduce its nonlinear response to simultaneous synth voices. A TV mix compressor is a further approximation; these files are not uncompressed stems."
+  },
+  "selection": {
+    "pop": "Use n = 2,4,6,8 for hold quarters; 2 for fan; 4 for flying points; 0 is the required base variant.",
+    "beep": "0 for countdown; 1 for SNAG/GO.",
+    "mash": "Use n % 13 for the requested finite catalog. Original noise center = 1400+n*30; above n=12 this reuse preserves pitch but not the continuing noise rise.",
+    "react": "star/heart use reaction count % 10; flame/tomato cycle or randomly select v1..v3. All tomato WAVs are identical because the original tomato branch has no randomness.",
+    "mtick": "Clamp p to [0,1], round p*8, then use the matching p=step/8 file.",
+    "drumroll": "2.3 s prompt reel; 1.4 s show vote result; 2.2 s finale podium.",
+    "riser": "1.2 s hunt urgency and standings.",
+    "crowd": "Mash every 0.6 s: nearest v in [0.04,0.06,0.08,0.10,0.12] to 0.04+abs(push)*0.08. fanfare embeds crowd(2,0.18); do not layer that crowd file over fanfare. Default crowd is provided although there is no explicit default call in this revision.",
+    "boom": "Cycle or randomly choose v1..v3 for fireworks.",
+    "voice": "Cycle or randomly choose v01..v16 for host typing and brag bubbles."
+  },
+  "totals": {
+    "effects": 112,
+    "loops": 6,
+    "wavBytes": 17134292,
+    "oggBytes": 1508920,
+    "totalAudioBytes": 18643212
+  },
+  "files": [
+    {
+      "id": "sfx-aww",
+      "kind": "sfx",
+      "effect": "aww",
+      "parameters": {},
+      "seed": 2993921514,
+      "wav": "assets/audio/sfx-aww.wav",
+      "ogg": "assets/audio/ogg/sfx-aww.ogg",
+      "wavSha256": "c31e7d12098a9db2e4ced81a673fe0b2ba212a38abb8d6cbc0b5fa090e4f1be6",
+      "oggSha256": "bb0e9ba9f739b74f63ee1d1824241b6212993d59e0b0c0163c411589c9f81972",
+      "wavBytes": 122064,
+      "oggBytes": 11050,
+      "durationSeconds": 0.63552083,
+      "lengthSamples": 30505,
+      "peakDbfs": -30.20538845,
+      "rmsDbfs": -48.61111411,
+      "integratedLoudnessLufs": -43.3,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": []
+    },
+    {
+      "id": "sfx-beep-0",
+      "kind": "sfx",
+      "effect": "beep",
+      "parameters": {
+        "n": 0
+      },
+      "seed": 1097432488,
+      "wav": "assets/audio/sfx-beep-0.wav",
+      "ogg": "assets/audio/ogg/sfx-beep-0.ogg",
+      "wavSha256": "53e24d5ab55bc3ebc7a492097f30ae82a910acdc2336ad0617ba3f34888d8417",
+      "oggSha256": "01b26bd2a458a88bdb87229f4e8bfa35b5610e0bf5a8298c22b0be687c6f89e8",
+      "wavBytes": 32548,
+      "oggBytes": 6205,
+      "durationSeconds": 0.16929167,
+      "lengthSamples": 8126,
+      "peakDbfs": -29.40253912,
+      "rmsDbfs": -43.43809108,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 575,
+          "column": 122,
+          "kind": "call",
+          "expression": "SFX.beep(0)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 577,
+          "column": 123,
+          "kind": "call",
+          "expression": "SFX.beep(1)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 733,
+          "column": 42,
+          "kind": "call",
+          "expression": "SFX.beep(0)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-beep-1",
+      "kind": "sfx",
+      "effect": "beep",
+      "parameters": {
+        "n": 1
+      },
+      "seed": 1114210107,
+      "wav": "assets/audio/sfx-beep-1.wav",
+      "ogg": "assets/audio/ogg/sfx-beep-1.ogg",
+      "wavSha256": "ba89a17a9f72df8ecc05524799e60e3ead852e38cf40440ddbeb7cdde485c0ff",
+      "oggSha256": "6ab88746f206e981a56b538b853ab5e7a39782668e9d646dd6b67b2f33912a73",
+      "wavBytes": 80080,
+      "oggBytes": 7914,
+      "durationSeconds": 0.41685417,
+      "lengthSamples": 20009,
+      "peakDbfs": -27.42374322,
+      "rmsDbfs": -38.1429691,
+      "integratedLoudnessLufs": -35,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 575,
+          "column": 122,
+          "kind": "call",
+          "expression": "SFX.beep(0)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 577,
+          "column": 123,
+          "kind": "call",
+          "expression": "SFX.beep(1)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 733,
+          "column": 42,
+          "kind": "call",
+          "expression": "SFX.beep(0)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-boing",
+      "kind": "sfx",
+      "effect": "boing",
+      "parameters": {},
+      "seed": 2818013386,
+      "wav": "assets/audio/sfx-boing.wav",
+      "ogg": "assets/audio/ogg/sfx-boing.ogg",
+      "wavSha256": "0972195572c02a95e764c24fbdf4fd177d2df294a0afba89dfe6bdb5831b0832",
+      "oggSha256": "ab1d9e2cfeea16ff23cfe84f0ebc80bf63ac4a428ea4ccf7ad03f18853c5645f",
+      "wavBytes": 59188,
+      "oggBytes": 7828,
+      "durationSeconds": 0.30804167,
+      "lengthSamples": 14786,
+      "peakDbfs": -25.13146611,
+      "rmsDbfs": -36.77908347,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 406,
+          "column": 49,
+          "kind": "call",
+          "expression": "SFX.boing()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 648,
+          "column": 43,
+          "kind": "call",
+          "expression": "SFX.boing()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 653,
+          "column": 131,
+          "kind": "call",
+          "expression": "SFX.boing()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 755,
+          "column": 212,
+          "kind": "callback",
+          "expression": "SFX.boing"
+        }
+      ]
+    },
+    {
+      "id": "sfx-bonk",
+      "kind": "sfx",
+      "effect": "bonk",
+      "parameters": {},
+      "seed": 3606214953,
+      "wav": "assets/audio/sfx-bonk.wav",
+      "ogg": "assets/audio/ogg/sfx-bonk.ogg",
+      "wavSha256": "3f151bac32f6cc637fb8afce4506ddd97570e8e2744ac118a0270b767bc351c6",
+      "oggSha256": "7b857695ffbf86a166c90336e071e429e034a25ae1b7402584d430005054efcc",
+      "wavBytes": 30976,
+      "oggBytes": 5902,
+      "durationSeconds": 0.16110417,
+      "lengthSamples": 7733,
+      "peakDbfs": -28.0770282,
+      "rmsDbfs": -40.36198895,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 624,
+          "column": 24,
+          "kind": "call",
+          "expression": "SFX.bonk()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-boom-v1",
+      "kind": "sfx",
+      "effect": "boom",
+      "variant": 1,
+      "parameters": {},
+      "seed": 2565948944,
+      "wav": "assets/audio/sfx-boom-v1.wav",
+      "ogg": "assets/audio/ogg/sfx-boom-v1.ogg",
+      "wavSha256": "925010305d71cdc0461c4826aabc052ca41a91a6842216c231070c57ded13b09",
+      "oggSha256": "0f3a57b2fb86c45d0170e983e8bbbfe7ca7ecc92edbcf16e2c3af13615243ad1",
+      "wavBytes": 93468,
+      "oggBytes": 10927,
+      "durationSeconds": 0.48658333,
+      "lengthSamples": 23356,
+      "peakDbfs": -22.54342143,
+      "rmsDbfs": -34.12540592,
+      "integratedLoudnessLufs": -33.5,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 9,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 281,
+          "column": 343,
+          "kind": "call",
+          "expression": "SFX.boom()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-boom-v2",
+      "kind": "sfx",
+      "effect": "boom",
+      "variant": 2,
+      "parameters": {},
+      "seed": 2616281801,
+      "wav": "assets/audio/sfx-boom-v2.wav",
+      "ogg": "assets/audio/ogg/sfx-boom-v2.ogg",
+      "wavSha256": "58f4b262322b4269200841f86f2f486690e4cb28c502bae1cbedb95edfc4fc91",
+      "oggSha256": "9abc5d2521060eb52070c31b340e42df4045231e0dcd01fbf3be9b8b15442dd8",
+      "wavBytes": 94724,
+      "oggBytes": 10862,
+      "durationSeconds": 0.493125,
+      "lengthSamples": 23670,
+      "peakDbfs": -22.97307103,
+      "rmsDbfs": -34.08692785,
+      "integratedLoudnessLufs": -33.4,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 9,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 281,
+          "column": 343,
+          "kind": "call",
+          "expression": "SFX.boom()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-boom-v3",
+      "kind": "sfx",
+      "effect": "boom",
+      "variant": 3,
+      "parameters": {},
+      "seed": 2599504182,
+      "wav": "assets/audio/sfx-boom-v3.wav",
+      "ogg": "assets/audio/ogg/sfx-boom-v3.ogg",
+      "wavSha256": "7e34837fc5fd42c6886cd4b931ffe3ef9f6f38114808e55b6832fa463742fb29",
+      "oggSha256": "f388767dccc7fa7bd01e3bd8d7eca1edcf46d6e46e7f2e51f901f688aeb7f3b7",
+      "wavBytes": 95528,
+      "oggBytes": 11091,
+      "durationSeconds": 0.4973125,
+      "lengthSamples": 23871,
+      "peakDbfs": -22.80304393,
+      "rmsDbfs": -34.13426786,
+      "integratedLoudnessLufs": -33.4,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 9,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 281,
+          "column": 343,
+          "kind": "call",
+          "expression": "SFX.boom()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-buzzer",
+      "kind": "sfx",
+      "effect": "buzzer",
+      "parameters": {},
+      "seed": 2756148051,
+      "wav": "assets/audio/sfx-buzzer.wav",
+      "ogg": "assets/audio/ogg/sfx-buzzer.ogg",
+      "wavSha256": "2c85f4d84798b46703847d5712f7c2caf883159260925ef312d44d9176d117f5",
+      "oggSha256": "55c437bb5ab6f4242a36bf95839d796df6f0cf1e047799434729528a3be0a425",
+      "wavBytes": 139236,
+      "oggBytes": 11447,
+      "durationSeconds": 0.72495833,
+      "lengthSamples": 34798,
+      "peakDbfs": -23.31179706,
+      "rmsDbfs": -37.8068603,
+      "integratedLoudnessLufs": -35.8,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 601,
+          "column": 113,
+          "kind": "call",
+          "expression": "SFX.buzzer()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-coin",
+      "kind": "sfx",
+      "effect": "coin",
+      "parameters": {},
+      "seed": 3850534004,
+      "wav": "assets/audio/sfx-coin.wav",
+      "ogg": "assets/audio/ogg/sfx-coin.ogg",
+      "wavSha256": "641c8fbf5149af25063cd86dd30ccfd0621c932788df5f414ce9dea36ab7b75d",
+      "oggSha256": "617a861032edc3312d82586f2b319f835775982487a5b3935db405afdb833293",
+      "wavBytes": 128696,
+      "oggBytes": 11991,
+      "durationSeconds": 0.6700625,
+      "lengthSamples": 32163,
+      "peakDbfs": -25.16503018,
+      "rmsDbfs": -40.79045971,
+      "integratedLoudnessLufs": -34.6,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 6,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 312,
+          "column": 64,
+          "kind": "call",
+          "expression": "SFX.coin()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 829,
+          "column": 221,
+          "kind": "call",
+          "expression": "SFX.coin()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 854,
+          "column": 83,
+          "kind": "call",
+          "expression": "SFX.coin()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-crowd-2-18",
+      "kind": "sfx",
+      "effect": "crowd",
+      "parameters": {
+        "d": 2,
+        "v": 0.18
+      },
+      "seed": 875930525,
+      "wav": "assets/audio/sfx-crowd-2-18.wav",
+      "ogg": "assets/audio/ogg/sfx-crowd-2-18.ogg",
+      "wavSha256": "aed20a314fece457b1b8108118c256771507c234e95a48b44c6afade549c026d",
+      "oggSha256": "e967a972a89c77ed9df562a27985b727f943118a795ddaa278a3efde71c8bad3",
+      "wavBytes": 295672,
+      "oggBytes": 20820,
+      "durationSeconds": 1.53972917,
+      "lengthSamples": 73907,
+      "peakDbfs": -19.81588445,
+      "rmsDbfs": -40.65599889,
+      "integratedLoudnessLufs": -33.7,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 11,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 111,
+          "column": 209,
+          "kind": "embedded",
+          "expression": "this.crowd(2,.18)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 748,
+          "column": 39,
+          "kind": "call",
+          "expression": "SFX.crowd(.6,.04+Math.abs(p)*.08)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-crowd-default",
+      "kind": "sfx",
+      "effect": "crowd",
+      "parameters": {
+        "d": 1.6,
+        "v": 0.16
+      },
+      "seed": 243634658,
+      "wav": "assets/audio/sfx-crowd-default.wav",
+      "ogg": "assets/audio/ogg/sfx-crowd-default.ogg",
+      "wavSha256": "12e5ca262036ba85b49ee1e6f9e19e5b3598e024c873a3c7f740e3f77f1acd94",
+      "oggSha256": "286edee00a9e75d9535ce6f69517393f4ea22aabe9d9ee8cb61f7ef683459580",
+      "wavBytes": 227992,
+      "oggBytes": 14679,
+      "durationSeconds": 1.18722917,
+      "lengthSamples": 56987,
+      "peakDbfs": -19.88100614,
+      "rmsDbfs": -41.29712455,
+      "integratedLoudnessLufs": -33.5,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 11,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 111,
+          "column": 209,
+          "kind": "embedded",
+          "expression": "this.crowd(2,.18)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 748,
+          "column": 39,
+          "kind": "call",
+          "expression": "SFX.crowd(.6,.04+Math.abs(p)*.08)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-crowd-mash-04",
+      "kind": "sfx",
+      "effect": "crowd",
+      "parameters": {
+        "d": 0.6,
+        "v": 0.04
+      },
+      "seed": 2836181919,
+      "wav": "assets/audio/sfx-crowd-mash-04.wav",
+      "ogg": "assets/audio/ogg/sfx-crowd-mash-04.ogg",
+      "wavSha256": "c3c84668edcf3b9c0e94d60ae3488452436f8150e827292bf3657fcaaee4b422",
+      "oggSha256": "6f104e7f906d4ea7eb8e7dc0f70ecf3b12ca00f17960bb2192f7f9a744976b62",
+      "wavBytes": 99728,
+      "oggBytes": 10086,
+      "durationSeconds": 0.5191875,
+      "lengthSamples": 24921,
+      "peakDbfs": -34.53149638,
+      "rmsDbfs": -52.61903754,
+      "integratedLoudnessLufs": -46.8,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 11,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 111,
+          "column": 209,
+          "kind": "embedded",
+          "expression": "this.crowd(2,.18)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 748,
+          "column": 39,
+          "kind": "call",
+          "expression": "SFX.crowd(.6,.04+Math.abs(p)*.08)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-crowd-mash-06",
+      "kind": "sfx",
+      "effect": "crowd",
+      "parameters": {
+        "d": 0.6,
+        "v": 0.06
+      },
+      "seed": 2869737157,
+      "wav": "assets/audio/sfx-crowd-mash-06.wav",
+      "ogg": "assets/audio/ogg/sfx-crowd-mash-06.ogg",
+      "wavSha256": "615e733cdfef733f25360ea9b5afff3bde3f68b8128d384560aedf562b36386f",
+      "oggSha256": "ccd8b5c725eb3a85da5bc1a212f14b5f1e0a712fe385ccb08b2da54a34cc0d00",
+      "wavBytes": 98084,
+      "oggBytes": 10209,
+      "durationSeconds": 0.510625,
+      "lengthSamples": 24510,
+      "peakDbfs": -29.43389616,
+      "rmsDbfs": -49.15124901,
+      "integratedLoudnessLufs": -43.3,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 11,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 111,
+          "column": 209,
+          "kind": "embedded",
+          "expression": "this.crowd(2,.18)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 748,
+          "column": 39,
+          "kind": "call",
+          "expression": "SFX.crowd(.6,.04+Math.abs(p)*.08)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-crowd-mash-08",
+      "kind": "sfx",
+      "effect": "crowd",
+      "parameters": {
+        "d": 0.6,
+        "v": 0.08
+      },
+      "seed": 2903292395,
+      "wav": "assets/audio/sfx-crowd-mash-08.wav",
+      "ogg": "assets/audio/ogg/sfx-crowd-mash-08.ogg",
+      "wavSha256": "c347e43878bdafed7954227d92d5c1fe6fbf2c64343bef242bb6a2c0c2e52ab6",
+      "oggSha256": "3f23a3432e88723eda5bbf9b1229da4efd7d43bb5df66b151317435207f9bb78",
+      "wavBytes": 93092,
+      "oggBytes": 9937,
+      "durationSeconds": 0.484625,
+      "lengthSamples": 23262,
+      "peakDbfs": -27.47373409,
+      "rmsDbfs": -47.31421443,
+      "integratedLoudnessLufs": -41.5,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 11,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 111,
+          "column": 209,
+          "kind": "embedded",
+          "expression": "this.crowd(2,.18)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 748,
+          "column": 39,
+          "kind": "call",
+          "expression": "SFX.crowd(.6,.04+Math.abs(p)*.08)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-crowd-mash-10",
+      "kind": "sfx",
+      "effect": "crowd",
+      "parameters": {
+        "d": 0.6,
+        "v": 0.1
+      },
+      "seed": 3205142442,
+      "wav": "assets/audio/sfx-crowd-mash-10.wav",
+      "ogg": "assets/audio/ogg/sfx-crowd-mash-10.ogg",
+      "wavSha256": "b684cb747b2939459b2960c9872a242d0f6aab73b64f1b36055fa01b8c20e4f8",
+      "oggSha256": "ccb7afc310e946f24d6df5553e729bea7213ce411c9308e0aa8f2aaac6828b10",
+      "wavBytes": 96772,
+      "oggBytes": 10120,
+      "durationSeconds": 0.50379167,
+      "lengthSamples": 24182,
+      "peakDbfs": -26.88032068,
+      "rmsDbfs": -45.00712819,
+      "integratedLoudnessLufs": -39.1,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 11,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 111,
+          "column": 209,
+          "kind": "embedded",
+          "expression": "this.crowd(2,.18)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 748,
+          "column": 39,
+          "kind": "call",
+          "expression": "SFX.crowd(.6,.04+Math.abs(p)*.08)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-crowd-mash-12",
+      "kind": "sfx",
+      "effect": "crowd",
+      "parameters": {
+        "d": 0.6,
+        "v": 0.12
+      },
+      "seed": 3171587204,
+      "wav": "assets/audio/sfx-crowd-mash-12.wav",
+      "ogg": "assets/audio/ogg/sfx-crowd-mash-12.ogg",
+      "wavSha256": "b7397302f18ae73f1f33eea97530e007048594281a6aeebffe748920467cf82e",
+      "oggSha256": "a934af166e0623cc116c803f227aabec34dc7211a97981d13984dbb557df85b6",
+      "wavBytes": 99744,
+      "oggBytes": 10444,
+      "durationSeconds": 0.51927083,
+      "lengthSamples": 24925,
+      "peakDbfs": -25.12668182,
+      "rmsDbfs": -44.04788109,
+      "integratedLoudnessLufs": -38.2,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 11,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 111,
+          "column": 209,
+          "kind": "embedded",
+          "expression": "this.crowd(2,.18)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 748,
+          "column": 39,
+          "kind": "call",
+          "expression": "SFX.crowd(.6,.04+Math.abs(p)*.08)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-drumroll-1p4",
+      "kind": "sfx",
+      "effect": "drumroll",
+      "parameters": {
+        "sec": 1.4
+      },
+      "seed": 222849796,
+      "wav": "assets/audio/sfx-drumroll-1p4.wav",
+      "ogg": "assets/audio/ogg/sfx-drumroll-1p4.ogg",
+      "wavSha256": "43b55c567c49e2c3a94523e2b7df460bdf9a8eb0b1efa916d95d68d7d1741b76",
+      "oggSha256": "dc3abb026514f906220730c86a8ed4b7067c83c06a1be087d943523a8f22bb21",
+      "wavBytes": 266024,
+      "oggBytes": 25398,
+      "durationSeconds": 1.3853125,
+      "lengthSamples": 66495,
+      "peakDbfs": -18.10005427,
+      "rmsDbfs": -40.3204378,
+      "integratedLoudnessLufs": -38.5,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 35,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 568,
+          "column": 137,
+          "kind": "call",
+          "expression": "SFX.drumroll(2.3)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 795,
+          "column": 22,
+          "kind": "call",
+          "expression": "SFX.drumroll(1.4)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 851,
+          "column": 63,
+          "kind": "call",
+          "expression": "SFX.drumroll(2.2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-drumroll-2p2",
+      "kind": "sfx",
+      "effect": "drumroll",
+      "parameters": {
+        "sec": 2.2
+      },
+      "seed": 3267315443,
+      "wav": "assets/audio/sfx-drumroll-2p2.wav",
+      "ogg": "assets/audio/ogg/sfx-drumroll-2p2.ogg",
+      "wavSha256": "03fe25c1c97654dd9cf5bec0ab69b6b7f6199a35089552cab3e2ffb9c04feabc",
+      "oggSha256": "73cad58a065241dd3133d74db866f8bab96aadbc4c948b946eac603b6ae23016",
+      "wavBytes": 429424,
+      "oggBytes": 37991,
+      "durationSeconds": 2.23635417,
+      "lengthSamples": 107345,
+      "peakDbfs": -17.45575207,
+      "rmsDbfs": -40.28846494,
+      "integratedLoudnessLufs": -38.2,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 56,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 568,
+          "column": 137,
+          "kind": "call",
+          "expression": "SFX.drumroll(2.3)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 795,
+          "column": 22,
+          "kind": "call",
+          "expression": "SFX.drumroll(1.4)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 851,
+          "column": 63,
+          "kind": "call",
+          "expression": "SFX.drumroll(2.2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-drumroll-2p3",
+      "kind": "sfx",
+      "effect": "drumroll",
+      "parameters": {
+        "sec": 2.3
+      },
+      "seed": 3250537824,
+      "wav": "assets/audio/sfx-drumroll-2p3.wav",
+      "ogg": "assets/audio/ogg/sfx-drumroll-2p3.ogg",
+      "wavSha256": "08963cf78a71005f82ba016bf88066d07ac0827ea87b5639398ab7e558f785ce",
+      "oggSha256": "894975d650e6bdf7a3eb8d5979bf82ca66eb6658cd68fb00c0ef71aab9dc9fdf",
+      "wavBytes": 440816,
+      "oggBytes": 38932,
+      "durationSeconds": 2.2956875,
+      "lengthSamples": 110193,
+      "peakDbfs": -18.30043218,
+      "rmsDbfs": -39.80573065,
+      "integratedLoudnessLufs": -38.2,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 58,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 568,
+          "column": 137,
+          "kind": "call",
+          "expression": "SFX.drumroll(2.3)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 795,
+          "column": 22,
+          "kind": "call",
+          "expression": "SFX.drumroll(1.4)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 851,
+          "column": 63,
+          "kind": "call",
+          "expression": "SFX.drumroll(2.2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-fanfare",
+      "kind": "sfx",
+      "effect": "fanfare",
+      "parameters": {},
+      "seed": 3740789270,
+      "wav": "assets/audio/sfx-fanfare.wav",
+      "ogg": "assets/audio/ogg/sfx-fanfare.ogg",
+      "wavSha256": "fa21b1b29074d1d03c63443a17ff2879433ebe3f2a5109d03bc51ec00e6380d6",
+      "oggSha256": "67603ee11fd6be4937e45a9206f9f49509c870025828977272dadafe4cf63101",
+      "wavBytes": 294812,
+      "oggBytes": 24476,
+      "durationSeconds": 1.53525,
+      "lengthSamples": 73692,
+      "peakDbfs": -14.39974081,
+      "rmsDbfs": -30.13455751,
+      "integratedLoudnessLufs": -24.3,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 3,
+        "unityNodes": 41,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 699,
+          "column": 131,
+          "kind": "call",
+          "expression": "SFX.fanfare()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 759,
+          "column": 85,
+          "kind": "call",
+          "expression": "SFX.fanfare()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 798,
+          "column": 72,
+          "kind": "call",
+          "expression": "SFX.fanfare()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 857,
+          "column": 145,
+          "kind": "call",
+          "expression": "SFX.fanfare()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-flip",
+      "kind": "sfx",
+      "effect": "flip",
+      "parameters": {},
+      "seed": 593570846,
+      "wav": "assets/audio/sfx-flip.wav",
+      "ogg": "assets/audio/ogg/sfx-flip.ogg",
+      "wavSha256": "0d17f2713d31bace88a6701de60588aacfaa5c685df4d661feeb3a16403188d5",
+      "oggSha256": "ff278eb3a2b4a048ceb9a8a9b1f99dccf40d848b96c524ff5e7573566dd2422d",
+      "wavBytes": 22660,
+      "oggBytes": 5842,
+      "durationSeconds": 0.11779167,
+      "lengthSamples": 5654,
+      "peakDbfs": -34.33598579,
+      "rmsDbfs": -51.10995319,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 686,
+          "column": 5,
+          "kind": "call",
+          "expression": "SFX.flip()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-horn",
+      "kind": "sfx",
+      "effect": "horn",
+      "parameters": {},
+      "seed": 1400919784,
+      "wav": "assets/audio/sfx-horn.wav",
+      "ogg": "assets/audio/ogg/sfx-horn.ogg",
+      "wavSha256": "29886511f3e3c25ab963ef1d6937dd323e2788a310539d6932797cbd567dbcf6",
+      "oggSha256": "5384ea49e9085158ccf8701e48c9f62e0c1319be142c947c0f1d29a5e7aaab2a",
+      "wavBytes": 109644,
+      "oggBytes": 10929,
+      "durationSeconds": 0.57083333,
+      "lengthSamples": 27400,
+      "peakDbfs": -24.90008054,
+      "rmsDbfs": -38.99112353,
+      "integratedLoudnessLufs": -36.2,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 5,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 544,
+          "column": 65,
+          "kind": "call",
+          "expression": "SFX.horn()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 577,
+          "column": 135,
+          "kind": "call",
+          "expression": "SFX.horn()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 734,
+          "column": 51,
+          "kind": "call",
+          "expression": "SFX.horn()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-join",
+      "kind": "sfx",
+      "effect": "join",
+      "parameters": {},
+      "seed": 4059253937,
+      "wav": "assets/audio/sfx-join.wav",
+      "ogg": "assets/audio/ogg/sfx-join.ogg",
+      "wavSha256": "2b205963bd21d18881c5f223e8b5573895fdd03fc69801469832bb60e9f38b9c",
+      "oggSha256": "81933379f8d837cae34d1a8454ef05be85379896ee7d1dced5bace0137dc2693",
+      "wavBytes": 194228,
+      "oggBytes": 18639,
+      "durationSeconds": 1.011375,
+      "lengthSamples": 48546,
+      "peakDbfs": -16.23801273,
+      "rmsDbfs": -31.8275744,
+      "integratedLoudnessLufs": -26.9,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 3,
+        "unityNodes": 20,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 537,
+          "column": 15,
+          "kind": "call",
+          "expression": "SFX.join()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 541,
+          "column": 107,
+          "kind": "call",
+          "expression": "SFX.join()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-ko",
+      "kind": "sfx",
+      "effect": "ko",
+      "parameters": {},
+      "seed": 1719381431,
+      "wav": "assets/audio/sfx-ko.wav",
+      "ogg": "assets/audio/ogg/sfx-ko.ogg",
+      "wavSha256": "d0ff01eaf05dd5eb7d6cf1b8411e548b088214d6f1c93beb8bd018bf1a6ce3a7",
+      "oggSha256": "6cbea02290800ebff5109156009f3f31bbbece7f235f064a0c64edf9d700e3dc",
+      "wavBytes": 130796,
+      "oggBytes": 12721,
+      "durationSeconds": 0.681,
+      "lengthSamples": 32688,
+      "peakDbfs": -15.15652378,
+      "rmsDbfs": -26.72522519,
+      "integratedLoudnessLufs": -28.1,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 7,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 753,
+          "column": 3,
+          "kind": "call",
+          "expression": "SFX.ko()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 854,
+          "column": 45,
+          "kind": "call",
+          "expression": "SFX.ko()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-lock",
+      "kind": "sfx",
+      "effect": "lock",
+      "parameters": {},
+      "seed": 290560650,
+      "wav": "assets/audio/sfx-lock.wav",
+      "ogg": "assets/audio/ogg/sfx-lock.ogg",
+      "wavSha256": "52ffabbf031c9cac19b7f2e8ffe9b03c9e5a3f2adefc11ab30e074df7fe4b215",
+      "oggSha256": "c48e9efb2e6a9d3749ffaa434681b96c3ede8bf3d441dc509ce3469a67e9be7d",
+      "wavBytes": 25860,
+      "oggBytes": 5920,
+      "durationSeconds": 0.13445833,
+      "lengthSamples": 6454,
+      "peakDbfs": -32.45597802,
+      "rmsDbfs": -51.98047623,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 447,
+          "column": 101,
+          "kind": "call",
+          "expression": "SFX.lock()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-0",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 0
+      },
+      "seed": 3082640573,
+      "wav": "assets/audio/sfx-mash-0.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-0.ogg",
+      "wavSha256": "9414b87fb34d379cdfb76d6594257c47fb00593bd2b9ccca13f538818be59b2b",
+      "oggSha256": "de6f68fa429f540c3986d8a53fd4881375c2252352595154bd49f75f2d574fd4",
+      "wavBytes": 16724,
+      "oggBytes": 5442,
+      "durationSeconds": 0.086875,
+      "lengthSamples": 4170,
+      "peakDbfs": -39.13482729,
+      "rmsDbfs": -54.44018219,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-1",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 1
+      },
+      "seed": 3065862954,
+      "wav": "assets/audio/sfx-mash-1.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-1.ogg",
+      "wavSha256": "a0ff2143ec56c86655683f75d550c01e3fc584655b981b9f46a5208c9bf9a5a4",
+      "oggSha256": "14fd95875ac2d0ff0e7af0dce60f5f98449a208f791e8a2fb8b6cba1ea0c8aa7",
+      "wavBytes": 16736,
+      "oggBytes": 5462,
+      "durationSeconds": 0.0869375,
+      "lengthSamples": 4173,
+      "peakDbfs": -39.57782985,
+      "rmsDbfs": -54.50489743,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-10",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 10
+      },
+      "seed": 3323357678,
+      "wav": "assets/audio/sfx-mash-10.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-10.ogg",
+      "wavSha256": "aeb2d6aec15dbeae6232d4f900bb0616b6d8d976f7924de6d7d8419b7f0903b9",
+      "oggSha256": "dc9d7f9d2470e8f3ea72a9c7fd5e952259eab2602c13a6794778ed6889229a57",
+      "wavBytes": 16720,
+      "oggBytes": 5484,
+      "durationSeconds": 0.08685417,
+      "lengthSamples": 4169,
+      "peakDbfs": -39.13482729,
+      "rmsDbfs": -54.21034365,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-11",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 11
+      },
+      "seed": 3340135297,
+      "wav": "assets/audio/sfx-mash-11.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-11.ogg",
+      "wavSha256": "f8aab2d5c0f13dfb3b170db5a340a133dd33ff7376901cf6d2e9204687292127",
+      "oggSha256": "c18e2e5aeecb65fe582bc488bbe08f8e8730609a4679822b6d7f907cc861c346",
+      "wavBytes": 16732,
+      "oggBytes": 5499,
+      "durationSeconds": 0.08691667,
+      "lengthSamples": 4172,
+      "peakDbfs": -39.96508074,
+      "rmsDbfs": -54.15521546,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-12",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 12
+      },
+      "seed": 3289802440,
+      "wav": "assets/audio/sfx-mash-12.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-12.ogg",
+      "wavSha256": "5c7eba3bcb6a1155ded77bd6b0e40f1753a14996243d19f0c3c093b26eb759e6",
+      "oggSha256": "8fbe8a7bfc9f93b5899d9693ee381ff5183ecfdf43c3b0e5fa4db5049ebf98e8",
+      "wavBytes": 16748,
+      "oggBytes": 5467,
+      "durationSeconds": 0.087,
+      "lengthSamples": 4176,
+      "peakDbfs": -38.8052418,
+      "rmsDbfs": -53.9566208,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-2",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 2
+      },
+      "seed": 3049085335,
+      "wav": "assets/audio/sfx-mash-2.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-2.ogg",
+      "wavSha256": "be151da0478b184d3aca4d9a6e544bd80e4125b8cc43cf7998b7cce3479085c5",
+      "oggSha256": "2dafae89e0e8d7218a6de5fe9c15b5d9178d4f9d9d3f5cd127e8deca5cef08f5",
+      "wavBytes": 16680,
+      "oggBytes": 5552,
+      "durationSeconds": 0.08664583,
+      "lengthSamples": 4159,
+      "peakDbfs": -39.32893346,
+      "rmsDbfs": -54.53677415,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-3",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 3
+      },
+      "seed": 3032307716,
+      "wav": "assets/audio/sfx-mash-3.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-3.ogg",
+      "wavSha256": "055a3c364178db198e0d491ee59ce0fc907152296773f99c269955dd77b0150e",
+      "oggSha256": "8d3be62b3501473a8561d6c81ab849613400dba269724e00b49b783bb80474c5",
+      "wavBytes": 16728,
+      "oggBytes": 5472,
+      "durationSeconds": 0.08689583,
+      "lengthSamples": 4171,
+      "peakDbfs": -40.2604563,
+      "rmsDbfs": -54.62201035,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-4",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 4
+      },
+      "seed": 3015530097,
+      "wav": "assets/audio/sfx-mash-4.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-4.ogg",
+      "wavSha256": "ecc77549908e6c3ace690d1a78742e526c575796425cb450e8bf90bcb25341e8",
+      "oggSha256": "79cbe1a8750f3c4b6571494a8c7ee53a63668820c5e8b601d9a10faea4da8496",
+      "wavBytes": 16740,
+      "oggBytes": 5481,
+      "durationSeconds": 0.08695833,
+      "lengthSamples": 4174,
+      "peakDbfs": -39.6031163,
+      "rmsDbfs": -54.48428979,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-5",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 5
+      },
+      "seed": 2998752478,
+      "wav": "assets/audio/sfx-mash-5.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-5.ogg",
+      "wavSha256": "8c7a927ab81c633b664296e5b5b5004b0f3ad9fdaa9af0f6b5abcec946c2e014",
+      "oggSha256": "24011aba6d32a53c6fda1a16cf12f8570c4e36cc05c3d73479ac65e634a05483",
+      "wavBytes": 16724,
+      "oggBytes": 5463,
+      "durationSeconds": 0.086875,
+      "lengthSamples": 4170,
+      "peakDbfs": -39.67942036,
+      "rmsDbfs": -54.47166847,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-6",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 6
+      },
+      "seed": 2981974859,
+      "wav": "assets/audio/sfx-mash-6.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-6.ogg",
+      "wavSha256": "07f914b21cffc5fc2a60758027e6716ce16acd6c1edd25e0fcee35ccf3a8f077",
+      "oggSha256": "db666fe0ba4f4d7aeefee4e4961df5b49c5d66ac7cfb02eb6b38b8738a5df90d",
+      "wavBytes": 16736,
+      "oggBytes": 5503,
+      "durationSeconds": 0.0869375,
+      "lengthSamples": 4173,
+      "peakDbfs": -40.23318504,
+      "rmsDbfs": -54.42262546,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-7",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 7
+      },
+      "seed": 2965197240,
+      "wav": "assets/audio/sfx-mash-7.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-7.ogg",
+      "wavSha256": "2934576dd2803637b1f3c659a64c5f9d9351bfa98881015621b19a13de1b6f0a",
+      "oggSha256": "7ec8e4d13358f2f6c049eac3da6eeb2902373f1eefbe9e2b3066a9541b40a562",
+      "wavBytes": 16680,
+      "oggBytes": 5474,
+      "durationSeconds": 0.08664583,
+      "lengthSamples": 4159,
+      "peakDbfs": -39.88623703,
+      "rmsDbfs": -54.44588508,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-8",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 8
+      },
+      "seed": 2948419621,
+      "wav": "assets/audio/sfx-mash-8.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-8.ogg",
+      "wavSha256": "073c938b8a243c02a8efe032ed68314a7f49fbf96997499d8b47ceb1c6a2d7c6",
+      "oggSha256": "572e412b9bf54be53781e760e048012880323fd2c7fae58f48879d6eeb4e2d0a",
+      "wavBytes": 16728,
+      "oggBytes": 5511,
+      "durationSeconds": 0.08689583,
+      "lengthSamples": 4171,
+      "peakDbfs": -39.40285637,
+      "rmsDbfs": -54.57847316,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mash-9",
+      "kind": "sfx",
+      "effect": "mash",
+      "parameters": {
+        "n": 9
+      },
+      "seed": 2931642002,
+      "wav": "assets/audio/sfx-mash-9.wav",
+      "ogg": "assets/audio/ogg/sfx-mash-9.ogg",
+      "wavSha256": "6d7715632bb1f1d68461fbd392e84aff2e2055c3a351ec77efb90c7f003c665e",
+      "oggSha256": "1ed7b7910f92698c08657846dc90cd58904f13e8bac726a194ad90b90efb8b8e",
+      "wavBytes": 16636,
+      "oggBytes": 5479,
+      "durationSeconds": 0.08641667,
+      "lengthSamples": 4148,
+      "peakDbfs": -39.01567741,
+      "rmsDbfs": -54.39953053,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 767,
+          "column": 267,
+          "kind": "call",
+          "expression": "SFX.mash(n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-0000",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 0
+      },
+      "seed": 83147648,
+      "wav": "assets/audio/sfx-mtick-0000.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-0000.ogg",
+      "wavSha256": "d7a6b4e69b6cb5dd5c2f31421f5dc582a7f6d2306b8cf61de0885d4bc5290f1d",
+      "oggSha256": "bac2878fc069271234abe0bc065af4729765192211ae856e3cd4198a7625e4fe",
+      "wavBytes": 13444,
+      "oggBytes": 5265,
+      "durationSeconds": 0.06979167,
+      "lengthSamples": 3350,
+      "peakDbfs": -45.54807664,
+      "rmsDbfs": -61.35819042,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-0125",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 0.125
+      },
+      "seed": 2055706194,
+      "wav": "assets/audio/sfx-mtick-0125.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-0125.ogg",
+      "wavSha256": "e1cbbe58a745c2a32248784436aca2b7b574832369f01f74e94e229e53924fc3",
+      "oggSha256": "58ae1be15a0794e3eeb9b04f0b88ddf1345da58d045f9a5056f8d066ce06f912",
+      "wavBytes": 13548,
+      "oggBytes": 5247,
+      "durationSeconds": 0.07033333,
+      "lengthSamples": 3376,
+      "peakDbfs": -45.10757094,
+      "rmsDbfs": -61.38233683,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-0250",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 0.25
+      },
+      "seed": 4049200187,
+      "wav": "assets/audio/sfx-mtick-0250.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-0250.ogg",
+      "wavSha256": "75478210ae0f1de9acfcb8406d1e18c9a8c69b70514af4d00de10eab18674d0d",
+      "oggSha256": "b3633213e7f52541d2168ec66e9dde9e91487a09303ad65cc91377aa744792d8",
+      "wavBytes": 13532,
+      "oggBytes": 5223,
+      "durationSeconds": 0.07025,
+      "lengthSamples": 3372,
+      "peakDbfs": -44.68833135,
+      "rmsDbfs": -61.35109285,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-0375",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 0.375
+      },
+      "seed": 1694810317,
+      "wav": "assets/audio/sfx-mtick-0375.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-0375.ogg",
+      "wavSha256": "1dcd784097e0b9564fdffd957266ef28ec79b8102bb33de16a7f0a2dd70500ec",
+      "oggSha256": "3aceaa920794f8a4b8a7be371d7799728660163580dab800da31e1dcab69f38c",
+      "wavBytes": 13516,
+      "oggBytes": 5240,
+      "durationSeconds": 0.07016667,
+      "lengthSamples": 3368,
+      "peakDbfs": -44.96556413,
+      "rmsDbfs": -61.31799894,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-0500",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 0.5
+      },
+      "seed": 3207025559,
+      "wav": "assets/audio/sfx-mtick-0500.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-0500.ogg",
+      "wavSha256": "1e54bab01b6415effa4f3ab80ad42ea47232dc24d6567eed8b536e4ac554d6c8",
+      "oggSha256": "255747ba06800175225ca833416b7e6556b2cb4425ba5a86697141fc2eba57c4",
+      "wavBytes": 13504,
+      "oggBytes": 5243,
+      "durationSeconds": 0.07010417,
+      "lengthSamples": 3365,
+      "peakDbfs": -44.96556413,
+      "rmsDbfs": -61.33426864,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-0625",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 0.625
+      },
+      "seed": 396853711,
+      "wav": "assets/audio/sfx-mtick-0625.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-0625.ogg",
+      "wavSha256": "563e053f9bdd344e9c11a68308145153613a9b313c8d281749f3f8f1b277b576",
+      "oggSha256": "db204a0527fad16026813f77ffbd60f079c3a262931a64aae7637765ab60230e",
+      "wavBytes": 13496,
+      "oggBytes": 5174,
+      "durationSeconds": 0.0700625,
+      "lengthSamples": 3363,
+      "peakDbfs": -44.73392668,
+      "rmsDbfs": -61.35007355,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-0750",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 0.75
+      },
+      "seed": 4281810560,
+      "wav": "assets/audio/sfx-mtick-0750.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-0750.ogg",
+      "wavSha256": "3315ebe8fa2b7c6ef8fe27a68f5f27ff80b708f34c1c36f755dfadf1e0d7e141",
+      "oggSha256": "4e8243d65cf46c0c313d357f0b6afc1d6fad5d6ae7c1a762831f467897767164",
+      "wavBytes": 13488,
+      "oggBytes": 5115,
+      "durationSeconds": 0.07002083,
+      "lengthSamples": 3361,
+      "peakDbfs": -44.73392668,
+      "rmsDbfs": -61.32898214,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-0875",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 0.875
+      },
+      "seed": 2162998904,
+      "wav": "assets/audio/sfx-mtick-0875.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-0875.ogg",
+      "wavSha256": "693b11175d16e0c7864b76caf3d0bd5b0cbacb56ceff97ee0151101670500cbc",
+      "oggSha256": "39e5bb182fcbc2a53652adec96b104cbe435959b5d0dd20d24bbfd1f17993cd9",
+      "wavBytes": 13540,
+      "oggBytes": 5107,
+      "durationSeconds": 0.07029167,
+      "lengthSamples": 3374,
+      "peakDbfs": -45.01264224,
+      "rmsDbfs": -61.33095705,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-mtick-1000",
+      "kind": "sfx",
+      "effect": "mtick",
+      "parameters": {
+        "p": 1
+      },
+      "seed": 3091920369,
+      "wav": "assets/audio/sfx-mtick-1000.wav",
+      "ogg": "assets/audio/ogg/sfx-mtick-1000.ogg",
+      "wavSha256": "4ae9e985204fccb2aa2359c8ce2dc92da864c3200e874e4b3b5778e3b5a61207",
+      "oggSha256": "749f57e2c237010705df362d265a4b51834fd14e130d1a68ab06de40912d4c65",
+      "wavBytes": 13532,
+      "oggBytes": 5022,
+      "durationSeconds": 0.07025,
+      "lengthSamples": 3372,
+      "peakDbfs": -44.82584171,
+      "rmsDbfs": -61.27102413,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 690,
+          "column": 183,
+          "kind": "call",
+          "expression": "SFX.mtick(k)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-pop-0",
+      "kind": "sfx",
+      "effect": "pop",
+      "parameters": {
+        "n": 0
+      },
+      "seed": 547323069,
+      "wav": "assets/audio/sfx-pop-0.wav",
+      "ogg": "assets/audio/ogg/sfx-pop-0.ogg",
+      "wavSha256": "06d658f83a92d2124124813cd43beb1363ec4157a2bb3d524b42538192b905db",
+      "oggSha256": "ed06f08cf24884f00d1133040fd33f7e8fe8e9cd4646fbc279e4dcccf70f4c44",
+      "wavBytes": 25192,
+      "oggBytes": 5855,
+      "durationSeconds": 0.13097917,
+      "lengthSamples": 6287,
+      "peakDbfs": -29.41820349,
+      "rmsDbfs": -43.90263678,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 309,
+          "column": 111,
+          "kind": "call",
+          "expression": "SFX.pop(4)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 409,
+          "column": 47,
+          "kind": "call",
+          "expression": "SFX.pop(2)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 414,
+          "column": 281,
+          "kind": "call",
+          "expression": "SFX.pop(q*2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-pop-2",
+      "kind": "sfx",
+      "effect": "pop",
+      "parameters": {
+        "n": 2
+      },
+      "seed": 513767831,
+      "wav": "assets/audio/sfx-pop-2.wav",
+      "ogg": "assets/audio/ogg/sfx-pop-2.ogg",
+      "wavSha256": "9a52527b9a70f7916ded07f288c67e326b4ab5762a1e806ea9cce229048eb8cb",
+      "oggSha256": "65844dbc0043256b9605ff6bbaba4ef7205758dfbeb692f6b6a6a26ea0627aa1",
+      "wavBytes": 25164,
+      "oggBytes": 5844,
+      "durationSeconds": 0.13083333,
+      "lengthSamples": 6280,
+      "peakDbfs": -29.52865226,
+      "rmsDbfs": -43.92599044,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 309,
+          "column": 111,
+          "kind": "call",
+          "expression": "SFX.pop(4)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 409,
+          "column": 47,
+          "kind": "call",
+          "expression": "SFX.pop(2)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 414,
+          "column": 281,
+          "kind": "call",
+          "expression": "SFX.pop(q*2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-pop-4",
+      "kind": "sfx",
+      "effect": "pop",
+      "parameters": {
+        "n": 4
+      },
+      "seed": 480212593,
+      "wav": "assets/audio/sfx-pop-4.wav",
+      "ogg": "assets/audio/ogg/sfx-pop-4.ogg",
+      "wavSha256": "899aacb6c8bab66ce01178420f92c6f1d6abed69a1e2d8b99d7e546de0a58e24",
+      "oggSha256": "c56f1a2ac7c2f9d30d4466322315ff7d6d63ec9306addf8927142141969c2b07",
+      "wavBytes": 25228,
+      "oggBytes": 5828,
+      "durationSeconds": 0.13116667,
+      "lengthSamples": 6296,
+      "peakDbfs": -30.49334486,
+      "rmsDbfs": -43.92486924,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 309,
+          "column": 111,
+          "kind": "call",
+          "expression": "SFX.pop(4)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 409,
+          "column": 47,
+          "kind": "call",
+          "expression": "SFX.pop(2)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 414,
+          "column": 281,
+          "kind": "call",
+          "expression": "SFX.pop(q*2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-pop-6",
+      "kind": "sfx",
+      "effect": "pop",
+      "parameters": {
+        "n": 6
+      },
+      "seed": 446657355,
+      "wav": "assets/audio/sfx-pop-6.wav",
+      "ogg": "assets/audio/ogg/sfx-pop-6.ogg",
+      "wavSha256": "35a0bfddda6db757a0e0e73c581c2c7a4a63571ee39265fa0dfcd29debf7dbd0",
+      "oggSha256": "61f4da1bf98d0cb3487c40c4c1ef08700367939a2afb08858fec1a643a5c26a7",
+      "wavBytes": 25204,
+      "oggBytes": 5830,
+      "durationSeconds": 0.13104167,
+      "lengthSamples": 6290,
+      "peakDbfs": -30.46676894,
+      "rmsDbfs": -43.90776726,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 309,
+          "column": 111,
+          "kind": "call",
+          "expression": "SFX.pop(4)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 409,
+          "column": 47,
+          "kind": "call",
+          "expression": "SFX.pop(2)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 414,
+          "column": 281,
+          "kind": "call",
+          "expression": "SFX.pop(q*2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-pop-8",
+      "kind": "sfx",
+      "effect": "pop",
+      "parameters": {
+        "n": 8
+      },
+      "seed": 413102117,
+      "wav": "assets/audio/sfx-pop-8.wav",
+      "ogg": "assets/audio/ogg/sfx-pop-8.ogg",
+      "wavSha256": "ddac87c798debd9f1ed870a32bec35203aefa7c71f41a3da97b44b2b5104953b",
+      "oggSha256": "1278eb373fa5cb9bd942d99efc21123652ba62729198af9f5123793e4b8f34b3",
+      "wavBytes": 25188,
+      "oggBytes": 5828,
+      "durationSeconds": 0.13095833,
+      "lengthSamples": 6286,
+      "peakDbfs": -30.40507287,
+      "rmsDbfs": -43.91834701,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 309,
+          "column": 111,
+          "kind": "call",
+          "expression": "SFX.pop(4)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 409,
+          "column": 47,
+          "kind": "call",
+          "expression": "SFX.pop(2)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 414,
+          "column": 281,
+          "kind": "call",
+          "expression": "SFX.pop(q*2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-flame-v1",
+      "kind": "sfx",
+      "effect": "react",
+      "variant": 1,
+      "parameters": {
+        "kind": "flame",
+        "n": 0
+      },
+      "seed": 1858547372,
+      "wav": "assets/audio/sfx-react-flame-v1.wav",
+      "ogg": "assets/audio/ogg/sfx-react-flame-v1.ogg",
+      "wavSha256": "bdc5e4432819d15981f98cc20bdd0fba3f89906fa2e771ac83abfc68038e5a4b",
+      "oggSha256": "a05ad49d04831a79b06d1c375a8858b5e36b9e13c14af1da703dedc868167b8c",
+      "wavBytes": 20776,
+      "oggBytes": 5787,
+      "durationSeconds": 0.10797917,
+      "lengthSamples": 5183,
+      "peakDbfs": -40.59457017,
+      "rmsDbfs": -58.07924323,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-flame-v2",
+      "kind": "sfx",
+      "effect": "react",
+      "variant": 2,
+      "parameters": {
+        "kind": "flame",
+        "n": 0
+      },
+      "seed": 1908880229,
+      "wav": "assets/audio/sfx-react-flame-v2.wav",
+      "ogg": "assets/audio/ogg/sfx-react-flame-v2.ogg",
+      "wavSha256": "ba9c9f0bf8ace923aaf265a4678c8be92f6d3fa7e5dd2b7f560a537994a60373",
+      "oggSha256": "af98e9c4b7c3fc88ff2cca0308cdb4765f3525fd83a8ba313db7b219994be692",
+      "wavBytes": 21144,
+      "oggBytes": 5787,
+      "durationSeconds": 0.10989583,
+      "lengthSamples": 5275,
+      "peakDbfs": -40.79557493,
+      "rmsDbfs": -58.05561381,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-flame-v3",
+      "kind": "sfx",
+      "effect": "react",
+      "variant": 3,
+      "parameters": {
+        "kind": "flame",
+        "n": 0
+      },
+      "seed": 1892102610,
+      "wav": "assets/audio/sfx-react-flame-v3.wav",
+      "ogg": "assets/audio/ogg/sfx-react-flame-v3.ogg",
+      "wavSha256": "97925bdb44750fc818a0ec69cd8d369fddac9371086e56f4629c6450a3670905",
+      "oggSha256": "d20ddbd59c04970a910ac8793e9b0206dd9cdf812eb8e61ac4342890ec6aefd9",
+      "wavBytes": 21340,
+      "oggBytes": 5795,
+      "durationSeconds": 0.11091667,
+      "lengthSamples": 5324,
+      "peakDbfs": -38.94496422,
+      "rmsDbfs": -57.08743935,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-0",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 0
+      },
+      "seed": 1911958804,
+      "wav": "assets/audio/sfx-react-heart-0.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-0.ogg",
+      "wavSha256": "63abc42f2a495b67b7ee5f12f489353451d10a4ff02a797fe30bf5bb3887984d",
+      "oggSha256": "c0eb1610a5f649314f9db3344f8db35f2d84b053f7cc0db172c443efd3352138",
+      "wavBytes": 21780,
+      "oggBytes": 5520,
+      "durationSeconds": 0.11320833,
+      "lengthSamples": 5434,
+      "peakDbfs": -35.77445452,
+      "rmsDbfs": -49.05737606,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-1",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 1
+      },
+      "seed": 1928736423,
+      "wav": "assets/audio/sfx-react-heart-1.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-1.ogg",
+      "wavSha256": "4da12ebe2400973aec65582c4e52de84f12d1daaa4cbd99df574abf2dcde9762",
+      "oggSha256": "19645cde2c1bc41d72c60836bdeb5d5a8a64eaadd68a23ea8f4de1d1bb5d59ba",
+      "wavBytes": 21792,
+      "oggBytes": 5489,
+      "durationSeconds": 0.11327083,
+      "lengthSamples": 5437,
+      "peakDbfs": -35.83988526,
+      "rmsDbfs": -49.08605315,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-2",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 2
+      },
+      "seed": 1945514042,
+      "wav": "assets/audio/sfx-react-heart-2.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-2.ogg",
+      "wavSha256": "bc20715cf6736b5faafa850673ace4c47c30022b457633ca45cd766e2c5c3763",
+      "oggSha256": "6d98dc48f13e07c89f1a614a87c8587fb2c57c16f215baf963108f713ef28b25",
+      "wavBytes": 21808,
+      "oggBytes": 5487,
+      "durationSeconds": 0.11335417,
+      "lengthSamples": 5441,
+      "peakDbfs": -35.87278639,
+      "rmsDbfs": -49.09261873,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-3",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 3
+      },
+      "seed": 1962291661,
+      "wav": "assets/audio/sfx-react-heart-3.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-3.ogg",
+      "wavSha256": "0cdea99663973f46e33b5ec0d961ba38cc100d97b90368a1441aee40e8fa408a",
+      "oggSha256": "3ce77c4cb9bccba1c0d15c3ab4adfd51b030903b7edfdcc7a203b99dd45ea0e7",
+      "wavBytes": 21864,
+      "oggBytes": 5500,
+      "durationSeconds": 0.11364583,
+      "lengthSamples": 5455,
+      "peakDbfs": -35.70951299,
+      "rmsDbfs": -49.07969526,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-4",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 4
+      },
+      "seed": 1844848328,
+      "wav": "assets/audio/sfx-react-heart-4.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-4.ogg",
+      "wavSha256": "bad100fa3f78df1b7d5c9854e015a3bfe61a04328ca9975e597f8c5f070ae7da",
+      "oggSha256": "77bcd203fee79acdbdf2d6c6dd8ec3a4e1e027ff4daa0d1839737926cd38da97",
+      "wavBytes": 21868,
+      "oggBytes": 5490,
+      "durationSeconds": 0.11366667,
+      "lengthSamples": 5456,
+      "peakDbfs": -35.90581263,
+      "rmsDbfs": -49.08695082,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-5",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 5
+      },
+      "seed": 1861625947,
+      "wav": "assets/audio/sfx-react-heart-5.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-5.ogg",
+      "wavSha256": "84d467b0b9692a18c301d93ffcb2163a10db98f935318d8b550f4968d107af64",
+      "oggSha256": "832f1d967076f4bbf10595de47d85095db78c3b07bb79ae0c56db9937fc77351",
+      "wavBytes": 21888,
+      "oggBytes": 5488,
+      "durationSeconds": 0.11377083,
+      "lengthSamples": 5461,
+      "peakDbfs": -35.87278639,
+      "rmsDbfs": -49.09253974,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-6",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 6
+      },
+      "seed": 1878403566,
+      "wav": "assets/audio/sfx-react-heart-6.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-6.ogg",
+      "wavSha256": "d001767657e85939f16b05be1e4ef9de167c4d80b0b53f9b875c7e7d072ca620",
+      "oggSha256": "b9fd925c2e30530d086bf32dd1ac71f5e045f8ddbee64f230e03bf293a67ad1d",
+      "wavBytes": 21888,
+      "oggBytes": 5480,
+      "durationSeconds": 0.11377083,
+      "lengthSamples": 5461,
+      "peakDbfs": -35.75817356,
+      "rmsDbfs": -49.09495837,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-7",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 7
+      },
+      "seed": 1895181185,
+      "wav": "assets/audio/sfx-react-heart-7.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-7.ogg",
+      "wavSha256": "2cdf3b40812935bfb50ef246c05e440493f316d2172663033c5e0a2d3cdba71f",
+      "oggSha256": "6f182498e65c8d512f1e45cd1ddca4d31f6e39e22d990f817888ccaf1dc4227a",
+      "wavBytes": 21892,
+      "oggBytes": 5469,
+      "durationSeconds": 0.11379167,
+      "lengthSamples": 5462,
+      "peakDbfs": -35.79076605,
+      "rmsDbfs": -49.09904681,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-8",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 8
+      },
+      "seed": 1777737852,
+      "wav": "assets/audio/sfx-react-heart-8.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-8.ogg",
+      "wavSha256": "4c08ab84cdc07acf343d27e588891e0793bd9f707fe71dc5c2b4e2d78b0f012f",
+      "oggSha256": "61d0981bfe6a37bf80f720c8ab444f6beeb2ab964a99f3adeb7a96aa87fefad7",
+      "wavBytes": 21836,
+      "oggBytes": 5483,
+      "durationSeconds": 0.1135,
+      "lengthSamples": 5448,
+      "peakDbfs": -35.77445452,
+      "rmsDbfs": -49.08659867,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-heart-9",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "heart",
+        "n": 9
+      },
+      "seed": 1794515471,
+      "wav": "assets/audio/sfx-react-heart-9.wav",
+      "ogg": "assets/audio/ogg/sfx-react-heart-9.ogg",
+      "wavSha256": "66bd4270824c805323619434c756287089680ef3040b6314b3ee883b16ec1097",
+      "oggSha256": "ce1c97dfff28c3aed3e24eb6c3b1f897250757686d0541939366f2678946c80d",
+      "wavBytes": 21888,
+      "oggBytes": 5579,
+      "durationSeconds": 0.11377083,
+      "lengthSamples": 5461,
+      "peakDbfs": -35.72570291,
+      "rmsDbfs": -49.09440206,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-0",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 0
+      },
+      "seed": 1400714890,
+      "wav": "assets/audio/sfx-react-star-0.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-0.ogg",
+      "wavSha256": "c61ed06c068740e4d3522244a28daf7bda3a804ef98d564e43d562e58a01921b",
+      "oggSha256": "36e8e49fa30b60df812bdabc720fd9feaa102d3ed7419a20a76c24be4ba4fe24",
+      "wavBytes": 110688,
+      "oggBytes": 12760,
+      "durationSeconds": 0.57627083,
+      "lengthSamples": 27661,
+      "peakDbfs": -34.29465713,
+      "rmsDbfs": -44.35112698,
+      "integratedLoudnessLufs": -41.4,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-1",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 1
+      },
+      "seed": 1417492509,
+      "wav": "assets/audio/sfx-react-star-1.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-1.ogg",
+      "wavSha256": "652baf26d6649cf4e94f9c7f0683ac04a9fdcf9a79c4a6eba8622ba4c2e38282",
+      "oggSha256": "7f19d4f9a12f9af51c4260358bfd72060411abe32aeab1b3dc5b7da397b10555",
+      "wavBytes": 109908,
+      "oggBytes": 12361,
+      "durationSeconds": 0.57220833,
+      "lengthSamples": 27466,
+      "peakDbfs": -33.94448083,
+      "rmsDbfs": -43.34786997,
+      "integratedLoudnessLufs": -40.1,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-2",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 2
+      },
+      "seed": 1367159652,
+      "wav": "assets/audio/sfx-react-star-2.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-2.ogg",
+      "wavSha256": "0259e5395d84172404ee9ebd645c8d3748a3bd2879d63599d076f777c639cb50",
+      "oggSha256": "1d88c58c11167a9c27dc5a2d029ea6fcf5bfcc6f7bf4e2c38728d4fda53ed6b2",
+      "wavBytes": 121524,
+      "oggBytes": 12840,
+      "durationSeconds": 0.63270833,
+      "lengthSamples": 30370,
+      "peakDbfs": -33.95769131,
+      "rmsDbfs": -43.87134358,
+      "integratedLoudnessLufs": -41.4,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-3",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 3
+      },
+      "seed": 1383937271,
+      "wav": "assets/audio/sfx-react-star-3.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-3.ogg",
+      "wavSha256": "c33f5b26dff229155cf59bf0c6c89e88684dbef2069ddfae1bcc7aa994e572ec",
+      "oggSha256": "179f5228266cfc7d2ad559c16044f0ae8c073e26b835ad3eba6d23737a0ee36e",
+      "wavBytes": 112896,
+      "oggBytes": 12439,
+      "durationSeconds": 0.58777083,
+      "lengthSamples": 28213,
+      "peakDbfs": -33.95769131,
+      "rmsDbfs": -43.65317851,
+      "integratedLoudnessLufs": -39.7,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-4",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 4
+      },
+      "seed": 1333604414,
+      "wav": "assets/audio/sfx-react-star-4.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-4.ogg",
+      "wavSha256": "e1df40711b9d90263eaa065f6e8ce82525380c0a3c56861a0231ea66b01aab54",
+      "oggSha256": "8a5310211a378fcf736cf3ecff5d28b4514bbe5f5a25b1370321ef28fdc07f61",
+      "wavBytes": 103864,
+      "oggBytes": 11497,
+      "durationSeconds": 0.54072917,
+      "lengthSamples": 25955,
+      "peakDbfs": -34.07749858,
+      "rmsDbfs": -43.63979979,
+      "integratedLoudnessLufs": -39.7,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-5",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 5
+      },
+      "seed": 1350382033,
+      "wav": "assets/audio/sfx-react-star-5.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-5.ogg",
+      "wavSha256": "f648c449a6e5c87f2ef05526d0a84751b512ac94392a26f3f5fdd4aee2af108a",
+      "oggSha256": "d7b64c3a69aa6ffe591aa5a03070d2903941e4f1d97a636e95d308fdcec66329",
+      "wavBytes": 108060,
+      "oggBytes": 11164,
+      "durationSeconds": 0.56258333,
+      "lengthSamples": 27004,
+      "peakDbfs": -34.03737893,
+      "rmsDbfs": -43.8807205,
+      "integratedLoudnessLufs": -39,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-6",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 6
+      },
+      "seed": 1300049176,
+      "wav": "assets/audio/sfx-react-star-6.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-6.ogg",
+      "wavSha256": "0ed7451beaf160a642dc7e2c3a852d49b45e97d03802440143838a1902a1d6d5",
+      "oggSha256": "24c81ca76b856cad7aa023cdb5c467d887495f03e690eef94e1d6a20e6f99651",
+      "wavBytes": 103824,
+      "oggBytes": 10734,
+      "durationSeconds": 0.54052083,
+      "lengthSamples": 25945,
+      "peakDbfs": -34.02404678,
+      "rmsDbfs": -43.49912957,
+      "integratedLoudnessLufs": -38.4,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-7",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 7
+      },
+      "seed": 1316826795,
+      "wav": "assets/audio/sfx-react-star-7.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-7.ogg",
+      "wavSha256": "151708bceb53f165e7ab9c9c8d66e65c4f15d84efdbb56c3946adc43767bc043",
+      "oggSha256": "a401c96774472bc0646fdf689bc8454e5223cce9b321e9bedaecf3043edfcbac",
+      "wavBytes": 113288,
+      "oggBytes": 11129,
+      "durationSeconds": 0.5898125,
+      "lengthSamples": 28311,
+      "peakDbfs": -34.21258512,
+      "rmsDbfs": -44.12959186,
+      "integratedLoudnessLufs": -38.3,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-8",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 8
+      },
+      "seed": 1266493938,
+      "wav": "assets/audio/sfx-react-star-8.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-8.ogg",
+      "wavSha256": "a47a47040677a38aa463b08e3a111111e01f82f37b617006a3efec8607c76f71",
+      "oggSha256": "a1ddf5c70681e5236b69b95f615205d4ea7eab9ed7b6b2e0ed8693169f283dd0",
+      "wavBytes": 114260,
+      "oggBytes": 10816,
+      "durationSeconds": 0.594875,
+      "lengthSamples": 28554,
+      "peakDbfs": -34.13128135,
+      "rmsDbfs": -43.90532564,
+      "integratedLoudnessLufs": -37.6,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-star-9",
+      "kind": "sfx",
+      "effect": "react",
+      "parameters": {
+        "kind": "star",
+        "n": 9
+      },
+      "seed": 1283271557,
+      "wav": "assets/audio/sfx-react-star-9.wav",
+      "ogg": "assets/audio/ogg/sfx-react-star-9.ogg",
+      "wavSha256": "c2d4982c5a9b0117ebd4fc3fee9cf40f5a8800ab56efdad6780f4129cf736746",
+      "oggSha256": "8da8a3b34fd04b13320534bed95357440694a4387049af57be5dd6e6ea605ad3",
+      "wavBytes": 113916,
+      "oggBytes": 10501,
+      "durationSeconds": 0.59308333,
+      "lengthSamples": 28468,
+      "peakDbfs": -33.43189025,
+      "rmsDbfs": -43.75109365,
+      "integratedLoudnessLufs": -37.3,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-tomato-v1",
+      "kind": "sfx",
+      "effect": "react",
+      "variant": 1,
+      "parameters": {
+        "kind": "tomato",
+        "n": 0
+      },
+      "seed": 872206749,
+      "wav": "assets/audio/sfx-react-tomato-v1.wav",
+      "ogg": "assets/audio/ogg/sfx-react-tomato-v1.ogg",
+      "wavSha256": "187d5680264359d316757bd82ec36dca244c9f8faf2084d12cd1e9fa60418f59",
+      "oggSha256": "a47f01f1cac9f08dfb08874cf064bdded72645f3f88cea2693ff191ec337bd28",
+      "wavBytes": 30152,
+      "oggBytes": 6010,
+      "durationSeconds": 0.1568125,
+      "lengthSamples": 7527,
+      "peakDbfs": -40.01804365,
+      "rmsDbfs": -53.44247526,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-tomato-v2",
+      "kind": "sfx",
+      "effect": "react",
+      "variant": 2,
+      "parameters": {
+        "kind": "tomato",
+        "n": 0
+      },
+      "seed": 821873892,
+      "wav": "assets/audio/sfx-react-tomato-v2.wav",
+      "ogg": "assets/audio/ogg/sfx-react-tomato-v2.ogg",
+      "wavSha256": "187d5680264359d316757bd82ec36dca244c9f8faf2084d12cd1e9fa60418f59",
+      "oggSha256": "a47f01f1cac9f08dfb08874cf064bdded72645f3f88cea2693ff191ec337bd28",
+      "wavBytes": 30152,
+      "oggBytes": 6010,
+      "durationSeconds": 0.1568125,
+      "lengthSamples": 7527,
+      "peakDbfs": -40.01804365,
+      "rmsDbfs": -53.44247526,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-react-tomato-v3",
+      "kind": "sfx",
+      "effect": "react",
+      "variant": 3,
+      "parameters": {
+        "kind": "tomato",
+        "n": 0
+      },
+      "seed": 838651511,
+      "wav": "assets/audio/sfx-react-tomato-v3.wav",
+      "ogg": "assets/audio/ogg/sfx-react-tomato-v3.ogg",
+      "wavSha256": "187d5680264359d316757bd82ec36dca244c9f8faf2084d12cd1e9fa60418f59",
+      "oggSha256": "a47f01f1cac9f08dfb08874cf064bdded72645f3f88cea2693ff191ec337bd28",
+      "wavBytes": 30152,
+      "oggBytes": 6010,
+      "durationSeconds": 0.1568125,
+      "lengthSamples": 7527,
+      "peakDbfs": -40.01804365,
+      "rmsDbfs": -53.44247526,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 421,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.react(k[0],n)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-reveal",
+      "kind": "sfx",
+      "effect": "reveal",
+      "parameters": {},
+      "seed": 199751736,
+      "wav": "assets/audio/sfx-reveal.wav",
+      "ogg": "assets/audio/ogg/sfx-reveal.ogg",
+      "wavSha256": "1f01aab333d5715b9e6117efd7fa3d57ae3e19aa5cebbec6d26c65800ec3593c",
+      "oggSha256": "b102b7571a2163818e3f7819bca9c0e94efd0929f18545b58a3523193deb112e",
+      "wavBytes": 166968,
+      "oggBytes": 17069,
+      "durationSeconds": 0.86939583,
+      "lengthSamples": 41731,
+      "peakDbfs": -16.49090762,
+      "rmsDbfs": -31.37423356,
+      "integratedLoudnessLufs": -26.7,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 3,
+        "unityNodes": 22,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 570,
+          "column": 111,
+          "kind": "call",
+          "expression": "SFX.reveal()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 644,
+          "column": 94,
+          "kind": "call",
+          "expression": "SFX.reveal()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-riser-1p2",
+      "kind": "sfx",
+      "effect": "riser",
+      "parameters": {
+        "sec": 1.2
+      },
+      "seed": 2860492574,
+      "wav": "assets/audio/sfx-riser-1p2.wav",
+      "ogg": "assets/audio/ogg/sfx-riser-1p2.ogg",
+      "wavSha256": "b28a4c0c1b9ef3b7691a357c71d0f027ef0125954a2309facf9e59cec7147682",
+      "oggSha256": "9270a11e26efe35c4768a5e109c444be8f32804d8e028133dbf751c25dca0996",
+      "wavBytes": 230872,
+      "oggBytes": 17176,
+      "durationSeconds": 1.20222917,
+      "lengthSamples": 57707,
+      "peakDbfs": -32.48940676,
+      "rmsDbfs": -49.48250673,
+      "integratedLoudnessLufs": -44.2,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 594,
+          "column": 74,
+          "kind": "call",
+          "expression": "SFX.riser(1.2)"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 822,
+          "column": 20,
+          "kind": "call",
+          "expression": "SFX.riser(1.2)"
+        }
+      ]
+    },
+    {
+      "id": "sfx-rival",
+      "kind": "sfx",
+      "effect": "rival",
+      "parameters": {},
+      "seed": 1646438355,
+      "wav": "assets/audio/sfx-rival.wav",
+      "ogg": "assets/audio/ogg/sfx-rival.ogg",
+      "wavSha256": "78fdf7c534e10c736f5f8b3628d18db6bfca5b9958c2f968238f33d15523ed98",
+      "oggSha256": "1eabd0fd8b40b91931057b74bcbb6551400ac21fed858c4a75c6d5f18f10a0cc",
+      "wavBytes": 47824,
+      "oggBytes": 7316,
+      "durationSeconds": 0.24885417,
+      "lengthSamples": 11945,
+      "peakDbfs": -24.81660632,
+      "rmsDbfs": -37.58041963,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 592,
+          "column": 198,
+          "kind": "call",
+          "expression": "SFX.rival()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 598,
+          "column": 117,
+          "kind": "call",
+          "expression": "SFX.rival()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-rollTick",
+      "kind": "sfx",
+      "effect": "rollTick",
+      "parameters": {},
+      "seed": 3371769363,
+      "wav": "assets/audio/sfx-rollTick.wav",
+      "ogg": "assets/audio/ogg/sfx-rollTick.ogg",
+      "wavSha256": "93f54178adb67238ceacfe9d4e9b570cfc845f08bc858dc29475a110e72f3138",
+      "oggSha256": "d05aeeb0146007fcd75491b90329bea7c3c813076afc38e783398148761dfa9a",
+      "wavBytes": 12472,
+      "oggBytes": 5022,
+      "durationSeconds": 0.06472917,
+      "lengthSamples": 3107,
+      "peakDbfs": -49.96833191,
+      "rmsDbfs": -66.9622033,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 375,
+          "column": 214,
+          "kind": "call",
+          "expression": "SFX.rollTick()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-scan",
+      "kind": "sfx",
+      "effect": "scan",
+      "parameters": {},
+      "seed": 807051856,
+      "wav": "assets/audio/sfx-scan.wav",
+      "ogg": "assets/audio/ogg/sfx-scan.ogg",
+      "wavSha256": "97d485a9a30b87aa858041722c02855503ce587ca1521e11841d799a1633571e",
+      "oggSha256": "9b63bef4d158e8a1d218b9ac40940462c5a5f54cbaf79b2cba6b50a5fbf20105",
+      "wavBytes": 108720,
+      "oggBytes": 11561,
+      "durationSeconds": 0.56602083,
+      "lengthSamples": 27169,
+      "peakDbfs": -36.12359948,
+      "rmsDbfs": -47.6424578,
+      "integratedLoudnessLufs": -45,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 688,
+          "column": 43,
+          "kind": "call",
+          "expression": "SFX.scan()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-sel",
+      "kind": "sfx",
+      "effect": "sel",
+      "parameters": {},
+      "seed": 3305945091,
+      "wav": "assets/audio/sfx-sel.wav",
+      "ogg": "assets/audio/ogg/sfx-sel.ogg",
+      "wavSha256": "17bede54f783e05528e787b57bfadbaa588975864cc1acd07e98423d3dcc79ee",
+      "oggSha256": "6bf31d7cff3cf6a5f95c7377fd0b69ffaec068f598ad9e604bb041c6278e6b18",
+      "wavBytes": 34580,
+      "oggBytes": 6485,
+      "durationSeconds": 0.179875,
+      "lengthSamples": 8634,
+      "peakDbfs": -29.44175314,
+      "rmsDbfs": -45.39772497,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 407,
+          "column": 404,
+          "kind": "call",
+          "expression": "SFX.sel()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 646,
+          "column": 365,
+          "kind": "call",
+          "expression": "SFX.sel()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 650,
+          "column": 371,
+          "kind": "call",
+          "expression": "SFX.sel()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 811,
+          "column": 165,
+          "kind": "call",
+          "expression": "SFX.sel()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 898,
+          "column": 120,
+          "kind": "call",
+          "expression": "SFX.sel()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-shutter",
+      "kind": "sfx",
+      "effect": "shutter",
+      "parameters": {},
+      "seed": 537012162,
+      "wav": "assets/audio/sfx-shutter.wav",
+      "ogg": "assets/audio/ogg/sfx-shutter.ogg",
+      "wavSha256": "7faae80821ce91dffdb2e77f1a42f7f20013f38cf9943b97316cac08027d72d1",
+      "oggSha256": "69351bfd624f5a3de12c59889cea2222bd7f6962863156d3e4d7f5a75e0d1970",
+      "wavBytes": 27868,
+      "oggBytes": 6330,
+      "durationSeconds": 0.14491667,
+      "lengthSamples": 6956,
+      "peakDbfs": -23.50805235,
+      "rmsDbfs": -46.82400101,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 99,
+          "column": 40,
+          "kind": "embedded",
+          "expression": "this.shutter()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-slam",
+      "kind": "sfx",
+      "effect": "slam",
+      "parameters": {},
+      "seed": 3383279596,
+      "wav": "assets/audio/sfx-slam.wav",
+      "ogg": "assets/audio/ogg/sfx-slam.ogg",
+      "wavSha256": "862d2dec652bee486602caae945872743dd1c2b7fe0311dab4f86ad7ae1af502",
+      "oggSha256": "9c359afb8429c5becf19898c48e402e888014168ebc443345056cb63951b71c5",
+      "wavBytes": 65304,
+      "oggBytes": 7859,
+      "durationSeconds": 0.33989583,
+      "lengthSamples": 16315,
+      "peakDbfs": -17.43797133,
+      "rmsDbfs": -28.3511719,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 303,
+          "column": 44,
+          "kind": "call",
+          "expression": "SFX.slam()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 570,
+          "column": 124,
+          "kind": "call",
+          "expression": "SFX.slam()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 726,
+          "column": 20,
+          "kind": "call",
+          "expression": "SFX.slam()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-snagged",
+      "kind": "sfx",
+      "effect": "snagged",
+      "parameters": {},
+      "seed": 2871783100,
+      "wav": "assets/audio/sfx-snagged.wav",
+      "ogg": "assets/audio/ogg/sfx-snagged.ogg",
+      "wavSha256": "912fc9845afb5394d9a0e0f163c80bf5c4d26b4411d5f793ece383e400debd0e",
+      "oggSha256": "37941094260e66453a1a45bc07818f0ba162d7fb60e0d741e3ae8069b4c7366a",
+      "wavBytes": 195188,
+      "oggBytes": 17840,
+      "durationSeconds": 1.016375,
+      "lengthSamples": 48786,
+      "peakDbfs": -13.93524543,
+      "rmsDbfs": -30.53966442,
+      "integratedLoudnessLufs": -24.3,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 3,
+        "unityNodes": 23,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 617,
+          "column": 100,
+          "kind": "call",
+          "expression": "SFX.snagged()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 638,
+          "column": 23,
+          "kind": "call",
+          "expression": "SFX.snagged()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-sparkle",
+      "kind": "sfx",
+      "effect": "sparkle",
+      "parameters": {},
+      "seed": 464138205,
+      "wav": "assets/audio/sfx-sparkle.wav",
+      "ogg": "assets/audio/ogg/sfx-sparkle.ogg",
+      "wavSha256": "0ccf6fede4532e7fc207cc5f33f9dabc854ddcf975a6c4291c16f3c3a7a0fcd9",
+      "oggSha256": "4b8e6256f1b61f6277421f6aaa8e9fefaf94bb4d45c755155a37a854a4a55c2e",
+      "wavBytes": 115572,
+      "oggBytes": 12642,
+      "durationSeconds": 0.60170833,
+      "lengthSamples": 28882,
+      "peakDbfs": -26.42981914,
+      "rmsDbfs": -41.16213895,
+      "integratedLoudnessLufs": -34.7,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 3,
+        "unityNodes": 10,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 654,
+          "column": 78,
+          "kind": "call",
+          "expression": "SFX.sparkle()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 672,
+          "column": 299,
+          "kind": "call",
+          "expression": "SFX.sparkle()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 738,
+          "column": 295,
+          "kind": "call",
+          "expression": "SFX.sparkle()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 798,
+          "column": 86,
+          "kind": "call",
+          "expression": "SFX.sparkle()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-stamp",
+      "kind": "sfx",
+      "effect": "stamp",
+      "parameters": {},
+      "seed": 4290625148,
+      "wav": "assets/audio/sfx-stamp.wav",
+      "ogg": "assets/audio/ogg/sfx-stamp.ogg",
+      "wavSha256": "55d67df41d7de152ac224f4cccaad710c06dabe5d1e434eb9a72a95d163ca32a",
+      "oggSha256": "07edd9f7f054b9e7bb9d113876720bad71977ba941239ca8375a16ab6d87ee0b",
+      "wavBytes": 44592,
+      "oggBytes": 7105,
+      "durationSeconds": 0.23202083,
+      "lengthSamples": 11137,
+      "peakDbfs": -21.218199,
+      "rmsDbfs": -32.80855825,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 4,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 604,
+          "column": 76,
+          "kind": "call",
+          "expression": "SFX.stamp()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 658,
+          "column": 89,
+          "kind": "call",
+          "expression": "SFX.stamp()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 783,
+          "column": 28,
+          "kind": "call",
+          "expression": "SFX.stamp()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 799,
+          "column": 579,
+          "kind": "call",
+          "expression": "SFX.stamp()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 806,
+          "column": 86,
+          "kind": "call",
+          "expression": "SFX.stamp()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 828,
+          "column": 37,
+          "kind": "callback",
+          "expression": "SFX.stamp"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 856,
+          "column": 161,
+          "kind": "call",
+          "expression": "SFX.stamp()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-taken",
+      "kind": "sfx",
+      "effect": "taken",
+      "parameters": {},
+      "seed": 348975376,
+      "wav": "assets/audio/sfx-taken.wav",
+      "ogg": "assets/audio/ogg/sfx-taken.ogg",
+      "wavSha256": "15bbf940186a10f7f5ac7498f112c4fb0cd7811afb1a696901c41a364651cc64",
+      "oggSha256": "2734709b382ee3f23206c4850d1ffb0540adbfa4a59021da2f6efd0eb615c422",
+      "wavBytes": 56152,
+      "oggBytes": 7332,
+      "durationSeconds": 0.29222917,
+      "lengthSamples": 14027,
+      "peakDbfs": -29.75385461,
+      "rmsDbfs": -43.57669642,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 625,
+          "column": 21,
+          "kind": "call",
+          "expression": "SFX.taken()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-tap",
+      "kind": "sfx",
+      "effect": "tap",
+      "parameters": {},
+      "seed": 2715610890,
+      "wav": "assets/audio/sfx-tap.wav",
+      "ogg": "assets/audio/ogg/sfx-tap.ogg",
+      "wavSha256": "44718d8c425a04fe59f7eeb5c0295dd47500239c61a5408046eccbd214511ec4",
+      "oggSha256": "0825eb3af35ca35c9d26d1efaf1015fc6a20d35d32b9a1dcd3b11b211d1f00f3",
+      "wavBytes": 14704,
+      "oggBytes": 5169,
+      "durationSeconds": 0.07635417,
+      "lengthSamples": 3665,
+      "peakDbfs": -39.1108662,
+      "rmsDbfs": -55.32699176,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 47,
+          "column": 52,
+          "kind": "call",
+          "expression": "SFX.tap()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 459,
+          "column": 263,
+          "kind": "call",
+          "expression": "SFX.tap()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-thump",
+      "kind": "sfx",
+      "effect": "thump",
+      "parameters": {},
+      "seed": 1077540801,
+      "wav": "assets/audio/sfx-thump.wav",
+      "ogg": "assets/audio/ogg/sfx-thump.ogg",
+      "wavSha256": "dffca8b445ef42f1b6a0c2fb5076870c166b7e59fea2d8901cdfd7d8aa720e63",
+      "oggSha256": "98e8fa4c8f7ee6821b6ae7c01f3a2daa341d63fdce333f5d9dcd719f1647e802",
+      "wavBytes": 39108,
+      "oggBytes": 6348,
+      "durationSeconds": 0.20345833,
+      "lengthSamples": 9766,
+      "peakDbfs": -22.65785226,
+      "rmsDbfs": -34.3775479,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 782,
+          "column": 45,
+          "kind": "call",
+          "expression": "SFX.thump()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 853,
+          "column": 97,
+          "kind": "call",
+          "expression": "SFX.thump()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 858,
+          "column": 124,
+          "kind": "call",
+          "expression": "SFX.thump()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-tick",
+      "kind": "sfx",
+      "effect": "tick",
+      "parameters": {},
+      "seed": 4038826716,
+      "wav": "assets/audio/sfx-tick.wav",
+      "ogg": "assets/audio/ogg/sfx-tick.ogg",
+      "wavSha256": "74d1c434794b41fbfe745927de6fa35f52d3d7bd8e7f3fb3aa9192f0a508abf5",
+      "oggSha256": "a1410895c99fe33000411f59cac3aa9d6f0858b7ed3180c2b757b3e0dccf7f55",
+      "wavBytes": 12660,
+      "oggBytes": 5228,
+      "durationSeconds": 0.06570833,
+      "lengthSamples": 3154,
+      "peakDbfs": -47.26323181,
+      "rmsDbfs": -64.1774003,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 569,
+          "column": 255,
+          "kind": "call",
+          "expression": "SFX.tick()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 595,
+          "column": 54,
+          "kind": "call",
+          "expression": "SFX.tick()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v01",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 1,
+      "parameters": {},
+      "seed": 203097945,
+      "wav": "assets/audio/sfx-voice-v01.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v01.ogg",
+      "wavSha256": "fa8913efa50e81202b02e4b41fa76e10effce6f3a65f336d61ece44889bb85a4",
+      "oggSha256": "026cd727d8fe8dc6177cf0fa6b944970a994720f6297bc0d8e05a818e4a59b50",
+      "wavBytes": 20104,
+      "oggBytes": 5613,
+      "durationSeconds": 0.10447917,
+      "lengthSamples": 5015,
+      "peakDbfs": -43.34290144,
+      "rmsDbfs": -60.18039357,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v02",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 2,
+      "parameters": {},
+      "seed": 152765088,
+      "wav": "assets/audio/sfx-voice-v02.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v02.ogg",
+      "wavSha256": "9ae445de567717044f9176ac7adc415eceae803a0e57f9176ca2ab7a8213718e",
+      "oggSha256": "3675f8ba16f141086d454dafd8b0039e6b5dba56f4b34d6c11a176e44b8adb8e",
+      "wavBytes": 18840,
+      "oggBytes": 5476,
+      "durationSeconds": 0.09789583,
+      "lengthSamples": 4699,
+      "peakDbfs": -42.04300342,
+      "rmsDbfs": -59.96602486,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v03",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 3,
+      "parameters": {},
+      "seed": 169542707,
+      "wav": "assets/audio/sfx-voice-v03.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v03.ogg",
+      "wavSha256": "b95c2a704eff7b3e2a6e0ae770c9e3ee89a32194573533dbae3c5adcaed41799",
+      "oggSha256": "ed744e8cfb033efb256a6bdeb712f3a49d9b001c16cc6e2a0a1b561b68083930",
+      "wavBytes": 20148,
+      "oggBytes": 5518,
+      "durationSeconds": 0.10470833,
+      "lengthSamples": 5026,
+      "peakDbfs": -44.20197131,
+      "rmsDbfs": -61.23195906,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v04",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 4,
+      "parameters": {},
+      "seed": 253430802,
+      "wav": "assets/audio/sfx-voice-v04.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v04.ogg",
+      "wavSha256": "58acea2023bbaf52b2c0fc30ced6e5ce0eb77f1a6bc290674db915fef0ea0cf1",
+      "oggSha256": "167c574cb881ba7a74ae4e5f17c26ab09c833c62b206db00705d2d311f727dd5",
+      "wavBytes": 19484,
+      "oggBytes": 5522,
+      "durationSeconds": 0.10125,
+      "lengthSamples": 4860,
+      "peakDbfs": -42.11033623,
+      "rmsDbfs": -62.0695065,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v05",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 5,
+      "parameters": {},
+      "seed": 270208421,
+      "wav": "assets/audio/sfx-voice-v05.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v05.ogg",
+      "wavSha256": "aa07a059fdd89997c80dd35ff25ba6811ffb520e639d59f2d5e2d391f355a808",
+      "oggSha256": "2342b8fa0775420be82615282d9983c5111a9135154bb619e93e46579d7e4957",
+      "wavBytes": 19388,
+      "oggBytes": 5527,
+      "durationSeconds": 0.10075,
+      "lengthSamples": 4836,
+      "peakDbfs": -42.49029656,
+      "rmsDbfs": -61.56033227,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v06",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 6,
+      "parameters": {},
+      "seed": 219875564,
+      "wav": "assets/audio/sfx-voice-v06.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v06.ogg",
+      "wavSha256": "66f3e54a08e2da290bce5833dbfb47aeff3775ab63a5181c3444726c5227cd11",
+      "oggSha256": "58f9a391e6a6ef02c139b5f7f689b5efba6253bed2579827fc59e0bb2421bb4b",
+      "wavBytes": 20004,
+      "oggBytes": 5655,
+      "durationSeconds": 0.10395833,
+      "lengthSamples": 4990,
+      "peakDbfs": -41.3348723,
+      "rmsDbfs": -61.32529339,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v07",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 7,
+      "parameters": {},
+      "seed": 236653183,
+      "wav": "assets/audio/sfx-voice-v07.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v07.ogg",
+      "wavSha256": "6dc5b39a5c47bb280e7fe9573503d7c4f8e1a1d46d77db509495aa07da20d316",
+      "oggSha256": "7533bc4a57b887182628d60b0d646b46f5a284f426d9999220eb38b663f750cc",
+      "wavBytes": 18732,
+      "oggBytes": 5579,
+      "durationSeconds": 0.09733333,
+      "lengthSamples": 4672,
+      "peakDbfs": -43.82334959,
+      "rmsDbfs": -62.03143311,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v08",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 8,
+      "parameters": {},
+      "seed": 320541278,
+      "wav": "assets/audio/sfx-voice-v08.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v08.ogg",
+      "wavSha256": "5acf5345a323f2983514d0a4302a85d76f02fb7c3e9e51dfe3541d760e886b83",
+      "oggSha256": "5eecaf9cb5ef91f2b1ea60fb9fd2f9d02635be8e29cfce1e1e8e994a9c9d9d13",
+      "wavBytes": 19880,
+      "oggBytes": 5618,
+      "durationSeconds": 0.1033125,
+      "lengthSamples": 4959,
+      "peakDbfs": -43.42115323,
+      "rmsDbfs": -61.24159512,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v09",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 9,
+      "parameters": {},
+      "seed": 337318897,
+      "wav": "assets/audio/sfx-voice-v09.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v09.ogg",
+      "wavSha256": "d82addc73f77961a8dc3161ea01783b6383c9c7aead2c621775e70defe448945",
+      "oggSha256": "b213466b523616e80da7523b5ed0f6eb34b8a977a8cf5ada82f69694e634707b",
+      "wavBytes": 19240,
+      "oggBytes": 5483,
+      "durationSeconds": 0.09997917,
+      "lengthSamples": 4799,
+      "peakDbfs": -40.79557493,
+      "rmsDbfs": -57.75540346,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v10",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 10,
+      "parameters": {},
+      "seed": 287133135,
+      "wav": "assets/audio/sfx-voice-v10.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v10.ogg",
+      "wavSha256": "ab2fe8fda8784fcd56cf07a4359d5bec9cf1823f25eaaf5c30ec4729b5b87e35",
+      "oggSha256": "447be4f044b07a566cc1fa8f00b9cd6312a9865ba4b9adde09ab04ae64b053f4",
+      "wavBytes": 18788,
+      "oggBytes": 5497,
+      "durationSeconds": 0.097625,
+      "lengthSamples": 4686,
+      "peakDbfs": -42.92468155,
+      "rmsDbfs": -60.12409015,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v11",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 11,
+      "parameters": {},
+      "seed": 270355516,
+      "wav": "assets/audio/sfx-voice-v11.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v11.ogg",
+      "wavSha256": "1dba0955c117ddd352bce6d6619ae71ba51cabbe2c8bbf23d473409094ee3fca",
+      "oggSha256": "2c5925546c84fe761ab467508e7e34aae134b2787a8b4c0aa6014ce836ae4f84",
+      "wavBytes": 19532,
+      "oggBytes": 5583,
+      "durationSeconds": 0.1015,
+      "lengthSamples": 4872,
+      "peakDbfs": -44.20197131,
+      "rmsDbfs": -61.34313249,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v12",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 12,
+      "parameters": {},
+      "seed": 320688373,
+      "wav": "assets/audio/sfx-voice-v12.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v12.ogg",
+      "wavSha256": "61bc7dfac7f4d9cedb3d6a0b5a13991dab2f86298c48bbdbd070997366e1e600",
+      "oggSha256": "394c522c0c77a8f5c552a469177f9954c1bec3bbef31f220947fcfa937c40905",
+      "wavBytes": 20124,
+      "oggBytes": 5517,
+      "durationSeconds": 0.10458333,
+      "lengthSamples": 5020,
+      "peakDbfs": -43.18848156,
+      "rmsDbfs": -60.73533684,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v13",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 13,
+      "parameters": {},
+      "seed": 303910754,
+      "wav": "assets/audio/sfx-voice-v13.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v13.ogg",
+      "wavSha256": "db77566c481e0f58322455d9c94db9809b2f87e2ce266fd1ac2d391e93ca5a34",
+      "oggSha256": "e652add6e30a63b2354e53a15d3c0da1923e82401afa076f2ab8e1edafdb4fb4",
+      "wavBytes": 19552,
+      "oggBytes": 5455,
+      "durationSeconds": 0.10160417,
+      "lengthSamples": 4877,
+      "peakDbfs": -40.79557493,
+      "rmsDbfs": -60.09520555,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v14",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 14,
+      "parameters": {},
+      "seed": 220022659,
+      "wav": "assets/audio/sfx-voice-v14.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v14.ogg",
+      "wavSha256": "64ab22425322195477dfb4c3c4a4e0b26d58b99127bda301ded3e733f4e0684d",
+      "oggSha256": "fad0dc0185002b47bbf9721575de88733403d87ddc20619ad5b66ee7674304c3",
+      "wavBytes": 18424,
+      "oggBytes": 5595,
+      "durationSeconds": 0.09572917,
+      "lengthSamples": 4595,
+      "peakDbfs": -42.88764145,
+      "rmsDbfs": -61.41253661,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v15",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 15,
+      "parameters": {},
+      "seed": 203245040,
+      "wav": "assets/audio/sfx-voice-v15.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v15.ogg",
+      "wavSha256": "c0c9709ca025b09e29a3f40344d3d1d18f6218de6d8801c234c52db21bc40921",
+      "oggSha256": "3369e8bb6f04707dab60be3440a157a1b11c12580a8545c14a5494a831de1907",
+      "wavBytes": 19700,
+      "oggBytes": 5520,
+      "durationSeconds": 0.102375,
+      "lengthSamples": 4914,
+      "peakDbfs": -41.30401653,
+      "rmsDbfs": -57.19366021,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-voice-v16",
+      "kind": "sfx",
+      "effect": "voice",
+      "variant": 16,
+      "parameters": {},
+      "seed": 253577897,
+      "wav": "assets/audio/sfx-voice-v16.wav",
+      "ogg": "assets/audio/ogg/sfx-voice-v16.ogg",
+      "wavSha256": "b9f7e1b9fc40f76fd3de71d030407b394eb48102e705e893607084553f146202",
+      "oggSha256": "efdfb2aa0f131f3f86da97002bb267206682635c4b4e148be43c9760b361e7dc",
+      "wavBytes": 19672,
+      "oggBytes": 5576,
+      "durationSeconds": 0.10222917,
+      "lengthSamples": 4907,
+      "peakDbfs": -42.24658828,
+      "rmsDbfs": -62.16007833,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 366,
+          "column": 146,
+          "kind": "call",
+          "expression": "SFX.voice()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 729,
+          "column": 66,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 730,
+          "column": 60,
+          "kind": "callback",
+          "expression": "SFX.voice"
+        }
+      ]
+    },
+    {
+      "id": "sfx-whoop",
+      "kind": "sfx",
+      "effect": "whoop",
+      "parameters": {},
+      "seed": 2490875944,
+      "wav": "assets/audio/sfx-whoop.wav",
+      "ogg": "assets/audio/ogg/sfx-whoop.ogg",
+      "wavSha256": "5b17462a605c4789d230b1e7f7ddcc6a18eaf1c66e99dbfc9e02c35b5ad7a75b",
+      "oggSha256": "fae7dc504f6861ce3ef42561b65173900a4820844f250fba200a8b3caf01d72d",
+      "wavBytes": 55752,
+      "oggBytes": 7872,
+      "durationSeconds": 0.29014583,
+      "lengthSamples": 13927,
+      "peakDbfs": -28.68925776,
+      "rmsDbfs": -43.00518687,
+      "integratedLoudnessLufs": -70,
+      "integratedLoudnessStatus": "insufficient-duration",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 309,
+          "column": 158,
+          "kind": "call",
+          "expression": "SFX.whoop()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 435,
+          "column": 68,
+          "kind": "call",
+          "expression": "SFX.whoop()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 518,
+          "column": 3,
+          "kind": "call",
+          "expression": "SFX.whoop()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 807,
+          "column": 17,
+          "kind": "call",
+          "expression": "SFX.whoop()"
+        }
+      ]
+    },
+    {
+      "id": "sfx-whoosh",
+      "kind": "sfx",
+      "effect": "whoosh",
+      "parameters": {},
+      "seed": 4203373483,
+      "wav": "assets/audio/sfx-whoosh.wav",
+      "ogg": "assets/audio/ogg/sfx-whoosh.ogg",
+      "wavSha256": "6228d1bafb6f341c166b24a8de9391e75c5b95e92d44291747b92749a4dcb043",
+      "oggSha256": "5226c3ccbff054534f0264e8a14620906cc1f70aa24923b80eb2bca88db50f0e",
+      "wavBytes": 85020,
+      "oggBytes": 9209,
+      "durationSeconds": 0.44258333,
+      "lengthSamples": 21244,
+      "peakDbfs": -20.55492144,
+      "rmsDbfs": -41.01800861,
+      "integratedLoudnessLufs": -35.8,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 1,
+        "unityNodes": 2,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [
+        {
+          "file": "reference/src/game.js",
+          "line": 322,
+          "column": 3,
+          "kind": "call",
+          "expression": "SFX.whoosh()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 723,
+          "column": 219,
+          "kind": "call",
+          "expression": "SFX.whoosh()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 828,
+          "column": 13,
+          "kind": "call",
+          "expression": "SFX.whoosh()"
+        },
+        {
+          "file": "reference/src/game.js",
+          "line": 897,
+          "column": 72,
+          "kind": "call",
+          "expression": "SFX.whoosh()"
+        }
+      ]
+    },
+    {
+      "id": "music-lobby",
+      "kind": "music",
+      "parameters": {
+        "mood": "lobby"
+      },
+      "seed": 1541773411,
+      "wav": "assets/audio/music-lobby.wav",
+      "ogg": "assets/audio/ogg/music-lobby.ogg",
+      "wavSha256": "c016632554c36ffd855fbecd0cb432e7c941ee2f357fc778585910582239375f",
+      "oggSha256": "c191e755b00f636656867c72e353b97e681f12b57a33104542edcf132f92e75e",
+      "wavBytes": 1807100,
+      "oggBytes": 82236,
+      "durationSeconds": 9.41175,
+      "lengthSamples": 451764,
+      "peakDbfs": -19.34121034,
+      "rmsDbfs": -40.99062239,
+      "integratedLoudnessLufs": -36,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 337,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [],
+      "loop": {
+        "idealSamples": 451764.70588235295,
+        "startSample": 451765,
+        "endSample": 903529,
+        "lengthSamples": 451764,
+        "barBoundariesSamples": [
+          0,
+          112941,
+          225882,
+          338823,
+          451764
+        ],
+        "bpm": 102,
+        "bars": 4,
+        "steps": 64,
+        "mood": "lobby",
+        "seam": {
+          "nearbySamples": 2400,
+          "byChannel": [
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.007965087890625,
+              "passed": true
+            },
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.007965087890625,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        "spectrogram": "docs/review/audio/music-lobby-3x.png"
+      }
+    },
+    {
+      "id": "music-hunt",
+      "kind": "music",
+      "parameters": {
+        "mood": "hunt"
+      },
+      "seed": 3114644916,
+      "wav": "assets/audio/music-hunt.wav",
+      "ogg": "assets/audio/ogg/music-hunt.ogg",
+      "wavSha256": "6b7886c7b0c8b71eed2fc055a4a38b55fa8c5e195ed6b10c58866fd6cb0686ef",
+      "oggSha256": "9fbc864132b3c6e808d6497795c725760c4077cb43cd4649af1ec615dafaef05",
+      "wavBytes": 1486496,
+      "oggBytes": 92306,
+      "durationSeconds": 7.7419375,
+      "lengthSamples": 371613,
+      "peakDbfs": -17.57522974,
+      "rmsDbfs": -35.60736748,
+      "integratedLoudnessLufs": -33.7,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 589,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [],
+      "loop": {
+        "idealSamples": 371612.9032258064,
+        "startSample": 371613,
+        "endSample": 743226,
+        "lengthSamples": 371613,
+        "barBoundariesSamples": [
+          0,
+          92903,
+          185806,
+          278710,
+          371613
+        ],
+        "bpm": 124,
+        "bars": 4,
+        "steps": 64,
+        "mood": "hunt",
+        "seam": {
+          "nearbySamples": 2400,
+          "byChannel": [
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.005279541015625,
+              "passed": true
+            },
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.005279541015625,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        "spectrogram": "docs/review/audio/music-hunt-3x.png"
+      }
+    },
+    {
+      "id": "music-urgent",
+      "kind": "music",
+      "parameters": {
+        "mood": "urgent"
+      },
+      "seed": 1246503328,
+      "wav": "assets/audio/music-urgent.wav",
+      "ogg": "assets/audio/ogg/music-urgent.ogg",
+      "wavSha256": "4961baa4f0f49df68cf561f90f3f0c1cba058ce0ed6f34f9ec40199217b9ac06",
+      "oggSha256": "14171565cc0b30267ff4665551e649d5f3498ff4359fd28d15e84f5d5c2ca5a1",
+      "wavBytes": 1316616,
+      "oggBytes": 90933,
+      "durationSeconds": 6.85714583,
+      "lengthSamples": 329143,
+      "peakDbfs": -17.42810884,
+      "rmsDbfs": -35.05958525,
+      "integratedLoudnessLufs": -33.4,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 691,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [],
+      "loop": {
+        "idealSamples": 329142.85714285716,
+        "startSample": 329143,
+        "endSample": 658286,
+        "lengthSamples": 329143,
+        "barBoundariesSamples": [
+          0,
+          82286,
+          164571,
+          246857,
+          329143
+        ],
+        "bpm": 140,
+        "bars": 4,
+        "steps": 64,
+        "mood": "urgent",
+        "seam": {
+          "nearbySamples": 2400,
+          "byChannel": [
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.005950927734375,
+              "passed": true
+            },
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.005950927734375,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        "spectrogram": "docs/review/audio/music-urgent-3x.png"
+      }
+    },
+    {
+      "id": "music-tension",
+      "kind": "music",
+      "parameters": {
+        "mood": "tension"
+      },
+      "seed": 2414532253,
+      "wav": "assets/audio/music-tension.wav",
+      "ogg": "assets/audio/ogg/music-tension.ogg",
+      "wavSha256": "657fd61e5ddcad0fbb767112ff7aa2ae650148e05b41cdfb06e6e552bf6d84b9",
+      "oggSha256": "fa02024a957988f84fc8c502fe74ac0c78fd5b501619200855a95ed3da004bc5",
+      "wavBytes": 2048044,
+      "oggBytes": 100639,
+      "durationSeconds": 10.66666667,
+      "lengthSamples": 512000,
+      "peakDbfs": -19.79255966,
+      "rmsDbfs": -42.58003784,
+      "integratedLoudnessLufs": -38.8,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 169,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [],
+      "loop": {
+        "idealSamples": 512000,
+        "startSample": 512000,
+        "endSample": 1024000,
+        "lengthSamples": 512000,
+        "barBoundariesSamples": [
+          0,
+          128000,
+          256000,
+          384000,
+          512000
+        ],
+        "bpm": 90,
+        "bars": 4,
+        "steps": 64,
+        "mood": "tension",
+        "seam": {
+          "nearbySamples": 2400,
+          "byChannel": [
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.012451171875,
+              "passed": true
+            },
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.012451171875,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        "spectrogram": "docs/review/audio/music-tension-3x.png"
+      }
+    },
+    {
+      "id": "music-brag",
+      "kind": "music",
+      "parameters": {
+        "mood": "brag"
+      },
+      "seed": 2882480817,
+      "wav": "assets/audio/music-brag.wav",
+      "ogg": "assets/audio/ogg/music-brag.ogg",
+      "wavSha256": "72697c09b6ac7c4759872834705ae3bb060e920e7e71c754048e6655c7bb7c08",
+      "oggSha256": "1d47af614f080449fc4279bc0fc74b6d3a2f6e5fc8dc5b0885e828111eed3933",
+      "wavBytes": 1589012,
+      "oggBytes": 86786,
+      "durationSeconds": 8.275875,
+      "lengthSamples": 397242,
+      "peakDbfs": -18.76375963,
+      "rmsDbfs": -37.96998141,
+      "integratedLoudnessLufs": -33.8,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 373,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [],
+      "loop": {
+        "idealSamples": 397241.3793103448,
+        "startSample": 397241,
+        "endSample": 794483,
+        "lengthSamples": 397242,
+        "barBoundariesSamples": [
+          0,
+          99311,
+          198621,
+          297931,
+          397242
+        ],
+        "bpm": 116,
+        "bars": 4,
+        "steps": 64,
+        "mood": "brag",
+        "seam": {
+          "nearbySamples": 2400,
+          "byChannel": [
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.003204345703125,
+              "passed": true
+            },
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.003204345703125,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        "spectrogram": "docs/review/audio/music-brag-3x.png"
+      }
+    },
+    {
+      "id": "music-win",
+      "kind": "music",
+      "parameters": {
+        "mood": "win"
+      },
+      "seed": 4008581481,
+      "wav": "assets/audio/music-win.wav",
+      "ogg": "assets/audio/ogg/music-win.ogg",
+      "wavSha256": "254a90ef0de1931a13b693f74ac5212086d937b88b2e087e447cfc832e5ac278",
+      "oggSha256": "333b8a448e9d890468c579e2da3cb764298719d4ffccec6a95e8bd91268b630f",
+      "wavBytes": 1510864,
+      "oggBytes": 93628,
+      "durationSeconds": 7.86885417,
+      "lengthSamples": 377705,
+      "peakDbfs": -16.66790316,
+      "rmsDbfs": -35.75264575,
+      "integratedLoudnessLufs": -33.7,
+      "integratedLoudnessStatus": "measured",
+      "deterministicMix": {
+        "junctions": 2,
+        "unityNodes": 589,
+        "maxInputsPerSum": 2
+      },
+      "callSites": [],
+      "loop": {
+        "idealSamples": 377704.91803278687,
+        "startSample": 377705,
+        "endSample": 755410,
+        "lengthSamples": 377705,
+        "barBoundariesSamples": [
+          0,
+          94426,
+          188852,
+          283279,
+          377705
+        ],
+        "bpm": 122,
+        "bars": 4,
+        "steps": 64,
+        "mood": "win",
+        "seam": {
+          "nearbySamples": 2400,
+          "byChannel": [
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.00836181640625,
+              "passed": true
+            },
+            {
+              "wrapDelta": 0,
+              "nearbyMaxDelta": 0.00836181640625,
+              "passed": true
+            }
+          ],
+          "passed": true
+        },
+        "spectrogram": "docs/review/audio/music-win-3x.png"
+      }
+    }
+  ]
+}

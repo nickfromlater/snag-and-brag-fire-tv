@@ -1,0 +1,2 @@
+# Preserve the pinned upstream notice byte-for-byte, including its trailing spaces.
+jpeg-js-BSD.txt whitespace=-blank-at-eol

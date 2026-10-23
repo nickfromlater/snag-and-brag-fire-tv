@@ -1,0 +1,3 @@
+"pid","name","metric","avg_mib","peak_mib"
+61662,"com.snagbrag.spike","mem.rss",266.280000,266.280000
+61662,"com.snagbrag.spike","mem.rss.watermark",276.500000,276.500000

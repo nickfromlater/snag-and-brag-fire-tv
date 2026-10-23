@@ -1,0 +1,27 @@
+$ pnpm -r --if-present test
+Scope: 2 of 3 workspace projects
+$ vitest run
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/core/shared
+
+ ✓ test/mash.test.ts (2 tests) 3ms
+ ✓ test/host.test.ts (8 tests) 3ms
+ ✓ test/pixelJudge.test.ts (5 tests) 26ms
+ ✓ test/game.test.ts (33 tests) 1054ms
+
+ Test Files  4 passed (4)
+      Tests  48 passed (48)
+   Start at  21:27:21
+   Duration  1.42s (transform 154ms, setup 0ms, collect 405ms, tests 1.09s, environment 0ms, prepare 293ms)
+
+$ vitest run
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/core/tvsim
+
+ ✓ test/simulator.test.ts (4 tests) 122ms
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  21:27:23
+   Duration  489ms (transform 101ms, setup 0ms, collect 133ms, tests 122ms, environment 0ms, prepare 44ms)
+

@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "OneBedrockModel",
+      "Effect": "Allow",
+      "Action": "bedrock:InvokeModel",
+      "Resource": "${BEDROCK_MODEL_ARN}"
+    },
+    {
+      "Sid": "OneMantleModelInOneProject",
+      "Effect": "Allow",
+      "Action": "bedrock-mantle:CreateInference",
+      "Resource": "${MANTLE_PROJECT_ARN}",
+      "Condition": { "StringEquals": { "bedrock-mantle:Model": "${BEDROCK_MODEL_ID}" } }
+    },
+    {
+      "Sid": "HostVoiceOnly",
+      "Effect": "Allow",
+      "Action": "polly:SynthesizeSpeech",
+      "Resource": "*",
+      "Condition": { "StringEquals": { "aws:RequestedRegion": "${AWS_REGION}" } }
+    }
+  ]
+}

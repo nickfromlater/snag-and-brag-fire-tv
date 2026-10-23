@@ -1,0 +1,87 @@
+$ pnpm -r --if-present test
+Scope: 6 of 7 workspace projects
+shared test$ vitest run
+tools/render-art test$ vitest run
+tools/render-audio test$ vitest run
+tools/render-art test:
+tools/render-art test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/tools/render-art
+tools/render-art test:
+tools/render-audio test:
+tools/render-audio test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/tools/render-audio
+tools/render-audio test:
+shared test:
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/shared
+shared test:
+shared test:  ✓ test/prompts.test.ts (2 tests) 2ms
+shared test:  ✓ test/mash.test.ts (2 tests) 3ms
+shared test:  ✓ test/host.test.ts (8 tests) 3ms
+shared test:  ✓ test/pixelJudge.test.ts (11 tests) 65ms
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 303ms
+tools/render-audio test:
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  09:43:31
+tools/render-audio test:    Duration  1.35s (transform 117ms, setup 0ms, collect 380ms, tests 303ms, environment 0ms, prepare 135ms)
+tools/render-audio test:
+tools/render-audio test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 890ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  610ms
+tools/render-art test:
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  09:43:31
+tools/render-art test:    Duration  1.59s (transform 231ms, setup 0ms, collect 103ms, tests 890ms, environment 0ms, prepare 374ms)
+tools/render-art test:
+tools/render-art test: Done
+shared test:  ✓ test/game.test.ts (36 tests) 1399ms
+shared test:
+shared test:  Test Files  5 passed (5)
+shared test:       Tests  59 passed (59)
+shared test:    Start at  09:43:31
+shared test:    Duration  2.18s (transform 230ms, setup 0ms, collect 777ms, tests 1.47s, environment 0ms, prepare 475ms)
+shared test:
+shared test: Done
+phone test$ vitest run
+tvsim test$ vitest run
+relay test$ vitest run
+tvsim test:
+tvsim test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/tvsim
+tvsim test:
+phone test:
+phone test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/phone
+phone test:
+relay test:
+relay test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/relay
+relay test:
+phone test:  ✓ test/art.test.ts (2 tests) 4ms
+phone test:  ✓ test/faceBlur.test.ts (12 tests) 7ms
+phone test:  ✓ test/logic.test.ts (17 tests) 4ms
+phone test:  ✓ test/camera.test.ts (6 tests) 65ms
+phone test:
+phone test:  Test Files  4 passed (4)
+phone test:       Tests  37 passed (37)
+phone test:    Start at  09:43:34
+phone test:    Duration  702ms (transform 362ms, setup 0ms, collect 677ms, tests 80ms, environment 0ms, prepare 266ms)
+phone test:
+phone test: Done
+relay test:  ✓ test/services.test.ts (17 tests) 90ms
+tvsim test:  ✓ test/simulator.test.ts (8 tests) 304ms
+tvsim test:
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  8 passed (8)
+tvsim test:    Start at  09:43:34
+tvsim test:    Duration  993ms (transform 189ms, setup 0ms, collect 242ms, tests 304ms, environment 0ms, prepare 182ms)
+tvsim test:
+tvsim test: Done
+relay test:  ✓ test/server.test.ts (31 tests) 11667ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > times out mock AI within 4.1 seconds, broadcasts one fallback and still answers ping  4556ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > closes rooms after TV absence or maximum age and cancels the grace timer on resume  343ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > returns ok:false for mock Polly past the five second budget  5002ms
+relay test:    ✓ malformed input and rate caps > caps thumbs at five per second and allows a new window  1040ms
+relay test:
+relay test:  Test Files  2 passed (2)
+relay test:       Tests  48 passed (48)
+relay test:    Start at  09:43:34
+relay test:    Duration  12.37s (transform 201ms, setup 0ms, collect 700ms, tests 11.76s, environment 0ms, prepare 86ms)
+relay test:
+relay test: Done

@@ -1,0 +1,273 @@
+{
+  "pass": true,
+  "verifiedAt": "2026-10-14T04:23:51.543Z",
+  "speed": 1,
+  "runtime": "VVD aarch64 Release/Hermes",
+  "injectedVia": "debug command -> same registered handler (platform discovery/Alexa route unverified)",
+  "spokenAlexaTested": false,
+  "checks": [
+    {
+      "action": "pause",
+      "handler": {
+        "kind": "media-handler",
+        "hermes": true,
+        "action": "pause",
+        "paused": true,
+        "phase": "title",
+        "runtime": "native"
+      }
+    },
+    {
+      "pausedTimelineMs": 2000,
+      "samePhase": true,
+      "noNewCues": true
+    },
+    {
+      "action": "pause",
+      "handler": {
+        "kind": "media-handler",
+        "hermes": true,
+        "action": "pause",
+        "paused": true,
+        "phase": "title",
+        "runtime": "native"
+      }
+    },
+    {
+      "action": "play",
+      "handler": {
+        "kind": "media-handler",
+        "hermes": true,
+        "action": "play",
+        "paused": false,
+        "phase": "title",
+        "runtime": "native"
+      }
+    },
+    {
+      "action": "togglePlayPause",
+      "handler": {
+        "kind": "media-handler",
+        "hermes": true,
+        "action": "togglePlayPause",
+        "paused": true,
+        "phase": "title",
+        "runtime": "native"
+      }
+    },
+    {
+      "action": "togglePlayPause",
+      "handler": {
+        "kind": "media-handler",
+        "hermes": true,
+        "action": "togglePlayPause",
+        "paused": false,
+        "phase": "title",
+        "runtime": "native"
+      }
+    },
+    {
+      "action": "pause",
+      "handler": {
+        "kind": "media-handler",
+        "hermes": true,
+        "action": "pause",
+        "paused": true,
+        "phase": "title",
+        "runtime": "native"
+      }
+    },
+    {
+      "action": "next",
+      "handler": {
+        "kind": "media-handler",
+        "hermes": true,
+        "action": "next",
+        "paused": false,
+        "phase": "reel",
+        "runtime": "native"
+      }
+    },
+    {
+      "nextPhaseChanged": true,
+      "previous": "title",
+      "phase": "reel"
+    },
+    {
+      "action": "fastForward",
+      "handler": {
+        "kind": "media-handler",
+        "hermes": true,
+        "action": "fastForward",
+        "paused": false,
+        "phase": "countdown",
+        "runtime": "native"
+      }
+    }
+  ],
+  "lastSnapshot": {
+    "kind": "snapshot",
+    "hermes": true,
+    "ready": true,
+    "loaded": true,
+    "connected": true,
+    "code": "KPYS",
+    "scene": "lobby",
+    "phase": "lobby",
+    "round": -1,
+    "mood": "normal",
+    "completed": false,
+    "paused": false,
+    "teams": 0,
+    "cues": 6,
+    "exceptions": 0,
+    "runtime": "native"
+  },
+  "events": [
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": false,
+      "status": "NOT_PLAYING",
+      "sessionId": 1,
+      "actions": "",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": true,
+      "status": "PLAYING",
+      "sessionId": 1,
+      "actions": "PLAY,PAUSE,TOGGLE_PLAY_PAUSE,STOP,NEXT,FAST_FORWARD",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": true,
+      "status": "PAUSED",
+      "sessionId": 1,
+      "actions": "PLAY,PAUSE,TOGGLE_PLAY_PAUSE,STOP,NEXT,FAST_FORWARD",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-handler",
+      "hermes": true,
+      "action": "pause",
+      "paused": true,
+      "phase": "title",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-handler",
+      "hermes": true,
+      "action": "pause",
+      "paused": true,
+      "phase": "title",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": true,
+      "status": "PLAYING",
+      "sessionId": 1,
+      "actions": "PLAY,PAUSE,TOGGLE_PLAY_PAUSE,STOP,NEXT,FAST_FORWARD",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-handler",
+      "hermes": true,
+      "action": "play",
+      "paused": false,
+      "phase": "title",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": true,
+      "status": "PAUSED",
+      "sessionId": 1,
+      "actions": "PLAY,PAUSE,TOGGLE_PLAY_PAUSE,STOP,NEXT,FAST_FORWARD",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-handler",
+      "hermes": true,
+      "action": "togglePlayPause",
+      "paused": true,
+      "phase": "title",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": true,
+      "status": "PLAYING",
+      "sessionId": 1,
+      "actions": "PLAY,PAUSE,TOGGLE_PLAY_PAUSE,STOP,NEXT,FAST_FORWARD",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-handler",
+      "hermes": true,
+      "action": "togglePlayPause",
+      "paused": false,
+      "phase": "title",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": true,
+      "status": "PAUSED",
+      "sessionId": 1,
+      "actions": "PLAY,PAUSE,TOGGLE_PLAY_PAUSE,STOP,NEXT,FAST_FORWARD",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-handler",
+      "hermes": true,
+      "action": "pause",
+      "paused": true,
+      "phase": "title",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": true,
+      "status": "PLAYING",
+      "sessionId": 1,
+      "actions": "PLAY,PAUSE,TOGGLE_PLAY_PAUSE,STOP,NEXT,FAST_FORWARD",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-handler",
+      "hermes": true,
+      "action": "next",
+      "paused": false,
+      "phase": "reel",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-handler",
+      "hermes": true,
+      "action": "fastForward",
+      "paused": false,
+      "phase": "countdown",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": false,
+      "status": "NOT_PLAYING",
+      "sessionId": 1,
+      "actions": "",
+      "runtime": "native"
+    }
+  ]
+}

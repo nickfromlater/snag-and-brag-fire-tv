@@ -1,0 +1,24 @@
+{
+  "finished": true,
+  "scenes": [
+    "sc-lobby",
+    "sc-intro",
+    "sc-hunt",
+    "sc-judge",
+    "sc-stand",
+    "sc-intro",
+    "sc-hunt",
+    "sc-brag",
+    "sc-stand",
+    "sc-intro",
+    "sc-hunt",
+    "sc-show",
+    "sc-stand",
+    "sc-champ"
+  ],
+  "errors": [],
+  "audio": "muted",
+  "network": "blocked",
+  "chrome": "Chrome/155.0.8059.40",
+  "interaction": "Join, hold 950 ms, built-in Skip through three rounds and finale"
+}

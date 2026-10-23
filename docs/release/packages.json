@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-14",
+  "outcome": "PASS",
+  "sourceCommit": "173d10579575183e10fad702172936d16bf840af",
+  "architectureEvidence": "Each explicit SDK target matches its fresh Release output. This VegaScript app uses system native modules; no application ELF library or installation/hardware compatibility claim.",
+  "endpointScope": "Runtime fields record the baked URL. Hosted deployment and installation must be verified separately.",
+  "hermesFlags": [
+    "-O",
+    "-w",
+    "-g0"
+  ],
+  "inspectionCreatesRelease": false,
+  "checksumCommand": "LC_ALL=C shasum -a 256 -c SHA256SUMS",
+  "checks": [
+    {
+      "buildTarget": "armv7",
+      "file": "snagbrag_armv7.vpkg",
+      "bytes": 23333696,
+      "sha256": "9db2e4d2140bf2dcc22815deeae99bbcfdbe212f8d66449558f52fde96eddc53",
+      "matchesSdkReleaseOutput": "tv/build/private/kepler/tv/undefined/vega/armv7/Release/tv_armv7.vpkg",
+      "noticesMatch": [
+        "LilitaOne-OFL.txt",
+        "Rubik-OFL.txt",
+        "PROJECT-LICENSE.txt",
+        "base-64-MIT.txt",
+        "qrcode-generator-MIT.txt",
+        "jpeg-js-BSD.txt"
+      ],
+      "appId": "com.snagbrag.tv",
+      "vegaOs": "1.2",
+      "runtime": {
+        "relayUrl": "ws://127.0.0.1:8788/ws",
+        "controlUrl": "ws://127.0.0.1:8790",
+        "directorUrl": "ws://127.0.0.1:8791/renderer",
+        "showcase": false,
+        "debug": false,
+        "offline": false,
+        "photoProbe": false
+      },
+      "archiveEntries": 604,
+      "homePathOrAccountSignatures": 0,
+      "keyOrTokenSignatures": 0,
+      "jsBundleSha256": "7457055d01161e9ae100d91cbd79c07097d2b23aa6824e95396514f8bcf65f5e",
+      "hermesBundleBytes": 1988260
+    },
+    {
+      "buildTarget": "aarch64",
+      "file": "snagbrag_aarch64.vpkg",
+      "bytes": 23333876,
+      "sha256": "f80d4416895c61c34e0aecdbef8459e4df6b2481e271b74dcbc20642e83a23ed",
+      "matchesSdkReleaseOutput": "tv/build/private/kepler/tv/undefined/vega/aarch64/Release/tv_aarch64.vpkg",
+      "noticesMatch": [
+        "LilitaOne-OFL.txt",
+        "Rubik-OFL.txt",
+        "PROJECT-LICENSE.txt",
+        "base-64-MIT.txt",
+        "qrcode-generator-MIT.txt",
+        "jpeg-js-BSD.txt"
+      ],
+      "appId": "com.snagbrag.tv",
+      "vegaOs": "1.2",
+      "runtime": {
+        "relayUrl": "ws://127.0.0.1:8788/ws",
+        "controlUrl": "ws://127.0.0.1:8790",
+        "directorUrl": "ws://127.0.0.1:8791/renderer",
+        "showcase": false,
+        "debug": false,
+        "offline": false,
+        "photoProbe": false
+      },
+      "archiveEntries": 604,
+      "homePathOrAccountSignatures": 0,
+      "keyOrTokenSignatures": 0,
+      "jsBundleSha256": "7457055d01161e9ae100d91cbd79c07097d2b23aa6824e95396514f8bcf65f5e",
+      "hermesBundleBytes": 1988260
+    },
+    {
+      "buildTarget": "x86_64",
+      "file": "snagbrag_x86_64.vpkg",
+      "bytes": 23333820,
+      "sha256": "b027de807ac0c80dc71c3fd346f96021d3e6c1465bfe71775a12d707c21f81ae",
+      "matchesSdkReleaseOutput": "tv/build/private/kepler/tv/undefined/vega/x86_64/Release/tv_x86_64.vpkg",
+      "noticesMatch": [
+        "LilitaOne-OFL.txt",
+        "Rubik-OFL.txt",
+        "PROJECT-LICENSE.txt",
+        "base-64-MIT.txt",
+        "qrcode-generator-MIT.txt",
+        "jpeg-js-BSD.txt"
+      ],
+      "appId": "com.snagbrag.tv",
+      "vegaOs": "1.2",
+      "runtime": {
+        "relayUrl": "ws://127.0.0.1:8788/ws",
+        "controlUrl": "ws://127.0.0.1:8790",
+        "directorUrl": "ws://127.0.0.1:8791/renderer",
+        "showcase": false,
+        "debug": false,
+        "offline": false,
+        "photoProbe": false
+      },
+      "archiveEntries": 604,
+      "homePathOrAccountSignatures": 0,
+      "keyOrTokenSignatures": 0,
+      "jsBundleSha256": "7457055d01161e9ae100d91cbd79c07097d2b23aa6824e95396514f8bcf65f5e",
+      "hermesBundleBytes": 1988260
+    }
+  ]
+}

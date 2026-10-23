@@ -1,0 +1,46 @@
+{
+  "startedAt": "2026-10-19T00:35:28.449Z",
+  "syntheticMediaOnly": true,
+  "scope": "Native render telemetry plus hosted relay and synthetic phone protocol; physical phone UX is separate; includes one intentional 12-second Home interruption after a native photo reveal; recovery check only, full game completion is outside this run",
+  "nativeRenderTelemetry": true,
+  "roundsSnagged": [],
+  "phoneScreens": [],
+  "nativeScenes": [
+    null,
+    "lobby"
+  ],
+  "voicePaths": {
+    "polly": 1
+  },
+  "audioErrors": [],
+  "exceptions": [],
+  "photoDecodes": 0,
+  "maskObserved": false,
+  "phoneCompleted": false,
+  "nativeCompleted": false,
+  "maxSnapshotGapMs": 2832,
+  "disconnects": [],
+  "appStates": [],
+  "foregroundChecks": [],
+  "games": [],
+  "stageVideo": {
+    "playingEvents": 0,
+    "errorEvents": 0,
+    "releaseRequests": 0
+  },
+  "homeRecovery": {
+    "attempted": false,
+    "completed": false
+  },
+  "homeRecoveryOnly": true,
+  "devicePreflight": {
+    "tempUsedKiB": 0,
+    "tempAvailableKiB": 486984
+  },
+  "endedAt": "2026-10-19T00:35:50.132Z",
+  "durationSeconds": 21.683,
+  "outcome": "INTERRUPTED",
+  "reason": "User requested pause; no acceptance result",
+  "harnessOutcome": "FAIL",
+  "userRequestedPause": true
+}

@@ -1,0 +1,34 @@
+Scope: 2 of 10 workspace projects
+✓ Lockfile passes supply-chain policies (verified 5h ago)
+Lockfile is up to date, resolution step is skipped
+Packages are cloned from the content-addressable store to the virtual store.
+  Content-addressable store is at: ~/Library/pnpm/store/v11
+  Virtual store is at:             node_modules/.pnpm
+Update available! 12.10.1 → 12.11.2.
+Changelog: https://pnpm.io/v/12.11.2
+To update, run: curl -fsSL https://get.pnpm.io/install.sh | sh -
+Packages: +166
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 166, reused 166, downloaded 0, added 166, done
+
+devDependencies:
++ typescript 5.9.3
++ vitest 3.2.7
+
+Done in 621ms using pnpm v12.10.1
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/voice/relay
+
+ ✓ test/services.test.ts (18 tests) 57ms
+ ✓ test/wav.test.ts (4 tests) 13ms
+ ✓ test/server.test.ts (32 tests) 12296ms
+   ✓ real WebSocket room transport > authenticates, caches and zeroes its single WAV buffer with the room  706ms
+   ✓ binary memory, budgets, HTTP and cleanup > times out mock AI within 4.1 seconds, broadcasts one fallback and still answers ping  4557ms
+   ✓ binary memory, budgets, HTTP and cleanup > closes rooms after TV absence or maximum age and cancels the grace timer on resume  342ms
+   ✓ binary memory, budgets, HTTP and cleanup > returns ok:false for mock Polly past the five second budget  5004ms
+   ✓ malformed input and rate caps > caps thumbs at five per second and allows a new window  1039ms
+
+ Test Files  3 passed (3)
+      Tests  54 passed (54)
+   Start at  23:17:59
+   Duration  13.08s (transform 155ms, setup 0ms, collect 1.33s, tests 12.37s, environment 0ms, prepare 107ms)

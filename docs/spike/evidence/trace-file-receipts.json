@@ -1,0 +1,17 @@
+[
+  {
+    "localPath": "spike/.cache/perf-record/2026-10-12_20-54-50/iter_2_vs_trace",
+    "bytes": 9025030,
+    "sha256": "57294c61082e547a17cb60c8adc66b52488c81e870ef208e16103d20b37135da"
+  },
+  {
+    "localPath": "spike/.cache/perf-final/2026-10-12_21-04-23/iter_2_vs_trace",
+    "bytes": 12481565,
+    "sha256": "dda1db267f36d1e0c8a3805cd35e090bd5c75d8a5c2023957548677e012b4aef"
+  },
+  {
+    "localPath": "spike/.cache/perf-gl/2026-10-12_21-02-34/iter_2_vs_trace",
+    "bytes": 2972469,
+    "sha256": "b88889b9a4542afded355c8881a31924e44fa0c9c459a121a31f611e12bccd9f"
+  }
+]

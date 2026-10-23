@@ -1,0 +1,117 @@
+{
+  "startedAt": "2026-10-18T01:26:58.690Z",
+  "syntheticMediaOnly": true,
+  "scope": "Native TV plus hosted relay and synthetic phone protocol; physical phone UX is separate",
+  "roundsSnagged": [
+    0,
+    1
+  ],
+  "phoneScreens": [
+    "join",
+    "lobby",
+    "ready",
+    "cam",
+    "glow",
+    "wait",
+    "mash"
+  ],
+  "nativeScenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag"
+  ],
+  "voicePaths": {
+    "blips": 12,
+    "polly": 8
+  },
+  "audioErrors": [],
+  "exceptions": [],
+  "photoDecodes": 6,
+  "maskObserved": true,
+  "phoneCompleted": false,
+  "nativeCompleted": false,
+  "maxSnapshotGapMs": 4942,
+  "disconnects": [],
+  "appStates": [
+    {
+      "atSeconds": 309.367,
+      "state": "background"
+    },
+    {
+      "atSeconds": 309.367,
+      "state": "background"
+    }
+  ],
+  "foregroundChecks": [
+    {
+      "atSeconds": 23.354,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 42.072,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 62.857,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 82.346,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 102.615,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 122.897,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 142.108,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 161.739,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 182.796,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 202.769,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 221.873,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 242.278,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 262.912,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 283.547,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 302.969,
+      "state": "VISIBLE"
+    }
+  ],
+  "games": [],
+  "syntheticPhotoBytes": 40859,
+  "syntheticThumbBytes": 1001,
+  "endedAt": "2026-10-18T01:32:08.057Z",
+  "durationSeconds": 309.367,
+  "outcome": "FAIL",
+  "reason": "Native app left the foreground during the game"
+}

@@ -1,0 +1,115 @@
+{
+  "startedAt": "2026-10-18T23:53:46.738Z",
+  "syntheticMediaOnly": true,
+  "scope": "Native render telemetry plus hosted relay and synthetic phone protocol; physical phone UX is separate; accelerated fault reproduction, not normal-speed acceptance",
+  "nativeRenderTelemetry": true,
+  "roundsSnagged": [
+    0,
+    1,
+    2
+  ],
+  "phoneScreens": [
+    "join",
+    "lobby",
+    "ready",
+    "cam",
+    "glow",
+    "wait",
+    "mash",
+    "vote"
+  ],
+  "nativeScenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag",
+    "show"
+  ],
+  "voicePaths": {
+    "blips": 15,
+    "polly": 12
+  },
+  "audioErrors": [],
+  "exceptions": [],
+  "photoDecodes": 5,
+  "maskObserved": false,
+  "phoneCompleted": false,
+  "nativeCompleted": false,
+  "maxSnapshotGapMs": 4381,
+  "disconnects": [],
+  "appStates": [],
+  "foregroundChecks": [
+    {
+      "atSeconds": 25.196,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 44.697,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 63.894,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 84.095,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 105.025,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 123.848,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 143.995,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 163.887,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 184.604,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 204.274,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 226.729,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 243.692,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 263.107,
+      "state": "NOT_RUNNING"
+    }
+  ],
+  "games": [],
+  "stageVideo": {
+    "playingEvents": 5,
+    "errorEvents": 0,
+    "releaseRequests": 0
+  },
+  "reproductionOnly": true,
+  "clockSpeed": 2,
+  "devicePreflight": {
+    "tempUsedKiB": 0,
+    "tempAvailableKiB": 486984
+  },
+  "syntheticPhotoBytes": 40859,
+  "syntheticThumbBytes": 1001,
+  "endedAt": "2026-10-18T23:58:09.845Z",
+  "durationSeconds": 263.107,
+  "outcome": "FAIL",
+  "reason": "Lifecycle manager reports game NOT_RUNNING"
+}

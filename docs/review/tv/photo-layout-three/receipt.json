@@ -1,0 +1,44 @@
+{
+  "verifiedAt": "2026-10-13T23:40:53.499Z",
+  "nativeOnly": true,
+  "synthetic": true,
+  "implementation": "Integrated single-path mask, room-memory art photos, 3 teams",
+  "cases": [
+    {
+      "mode": "judge",
+      "speed": 1,
+      "seconds": 10,
+      "cycles": [
+        0,
+        1,
+        2
+      ],
+      "snapshotsResponsive": true,
+      "presentationAdvanced": true,
+      "exceptions": 0,
+      "maskEvents": 9,
+      "captures": [
+        "docs/review/tv/photo-layout-three/native-judge-early.png",
+        "docs/review/tv/photo-layout-three/native-judge-late.png"
+      ]
+    },
+    {
+      "mode": "show",
+      "speed": 1,
+      "seconds": 10,
+      "cycles": [
+        0,
+        1,
+        2
+      ],
+      "snapshotsResponsive": true,
+      "presentationAdvanced": true,
+      "exceptions": 0,
+      "maskEvents": 0,
+      "captures": [
+        "docs/review/tv/photo-layout-three/native-show-early.png",
+        "docs/review/tv/photo-layout-three/native-show-late.png"
+      ]
+    }
+  ]
+}

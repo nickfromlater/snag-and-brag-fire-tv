@@ -1,0 +1,96 @@
+{
+  "browser": "Chrome/155.0.8059.40",
+  "checks": [
+    {
+      "check": "full fake-TV game",
+      "screens": [
+        "join",
+        "lobby",
+        "ready",
+        "cam",
+        "glow",
+        "wait",
+        "mash",
+        "vote",
+        "end"
+      ],
+      "rounds": [
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "aiReads": 3,
+      "snags": [
+        {
+          "header": {
+            "t": "snag",
+            "round": 0,
+            "hex": "#f23b2e",
+            "match": 99,
+            "prompt": "Snag the most RED thing in the house",
+            "roundKind": "color"
+          },
+          "bytes": 52650,
+          "height": 720,
+          "width": 720
+        },
+        {
+          "header": {
+            "t": "snag",
+            "round": 1,
+            "hex": "#f13b2d",
+            "match": 0,
+            "prompt": "Something that would WIN A FIGHT against anything",
+            "roundKind": "brag"
+          },
+          "bytes": 52650,
+          "height": 720,
+          "width": 720
+        },
+        {
+          "header": {
+            "t": "snag",
+            "round": 2,
+            "hex": "#f13b2d",
+            "match": 0,
+            "prompt": "The WEIRDEST thing you can find",
+            "roundKind": "show"
+          },
+          "bytes": 52650,
+          "height": 720,
+          "width": 720
+        }
+      ],
+      "thumbnailCount": 9,
+      "thumbnailBytes": {
+        "min": 1168,
+        "max": 1168
+      },
+      "outcome": "PASS"
+    },
+    {
+      "check": "permission-denied file fallback (synthetic File in memory)",
+      "frame": {
+        "header": {
+          "t": "snag",
+          "round": 0,
+          "hex": "#f23a2e",
+          "match": 99,
+          "prompt": "Snag the most RED thing in the house",
+          "roundKind": "color"
+        },
+        "bytes": 3799,
+        "height": 720,
+        "width": 720
+      },
+      "outcome": "PASS"
+    },
+    {
+      "check": "four-letter code entry",
+      "outcome": "PASS"
+    }
+  ],
+  "media": "synthetic only; all payloads kept in browser memory; temporary Y4M deleted"
+}

@@ -1,0 +1,17 @@
+{
+  "tv_armv7-g2.vpkg": {
+    "path": "~/builds/snag-and-brag/tv_armv7-g2.vpkg",
+    "bytes": 16643444,
+    "sha256": "663fda463432bb600a908efce106092e649fd8320d315c9574899dee3a15c0fe",
+    "nativeHardwareVerified": false,
+    "source": "clean b52720d; no diagnostics patch"
+  },
+  "tv_armv7-integrated.vpkg": {
+    "path": "~/builds/snag-and-brag/tv_armv7-integrated.vpkg",
+    "bytes": 16700660,
+    "sha256": "e3fba46476e31242551bc9b5d072b3703602ab961aaad78f3ce888d0eea80cbd",
+    "nativeHardwareVerified": false,
+    "source": "integrated TV at 2e50c75 plus ee04aee diagnostics; overlay disabled in Release"
+  },
+  "default": "tv_armv7-integrated.vpkg"
+}

@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "windowMissingRejected": true,
+  "pngProduced": false,
+  "reason": "Need exactly one windowed VVD; headless/absent-window capture rejected"
+}

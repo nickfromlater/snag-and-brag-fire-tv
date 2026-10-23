@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-13",
+  "branch": "w/scene-b",
+  "head": "547dafe",
+  "checks": {
+    "rootTest": "passed (292 tests)",
+    "rootTypecheck": "passed",
+    "tvLint": "passed",
+    "nearestRaster": "4 tests passed",
+    "mutedWebFullGame": "completed all 8 scenes with zero exceptions",
+    "aarch64ReleaseBuild": "passed",
+    "nativeAcceptance": "blocked; no passing native scene capture or clip claimed",
+    "fidelity": "eased flip crossing and display-density raster coverage tested"
+  },
+  "native": {
+    "sdk": "0.24",
+    "reactNative": "0.72",
+    "vda": "2.6+3d072013",
+    "lockHeldForAllDeviceCommands": true,
+    "lockReleased": true,
+    "deviceLeftRunning": true,
+    "relayModes": "mock AI and mock Polly",
+    "observed": "Boot frame remained while the foundation runtime was under diagnosis; shared control telemetry included web peers.",
+    "evidence": "native-foundation-blocked.png",
+    "remaining": [
+      "VVD hunt and judge state captures",
+      "Native comparison sheets",
+      "60 fps clips",
+      "Isolated native fast game receipt",
+      "Native thumbnail raster visual verification"
+    ]
+  },
+  "privacy": "Synthetic or bot art only; no player image data logged or persisted.",
+  "authoredCommits": [
+    "43f66b3",
+    "547dafe"
+  ]
+}

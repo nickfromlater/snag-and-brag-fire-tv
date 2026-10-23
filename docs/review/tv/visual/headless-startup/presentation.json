@@ -1,0 +1,24 @@
+{
+  "label": "integrated-headless-control",
+  "revision": "2e50c75",
+  "capturedAt": "2026-10-14T06:35:51.363Z",
+  "target": "VVD OS 1.2 / aarch64 Release / Hermes",
+  "speed": 1,
+  "seed": 1,
+  "muted": true,
+  "syntheticOnly": true,
+  "nativeOnly": true,
+  "corePass": false,
+  "visualPass": null,
+  "visualNote": "Read the counter and scene from the PNG pixels; JS commits alone do not prove presentation.",
+  "scenes": [],
+  "captures": [],
+  "voice": {
+    "lines": 0,
+    "polly": 0,
+    "fullPolly": 0
+  },
+  "exceptions": [],
+  "audioErrors": [],
+  "failure": "Native readiness timed out at undefined"
+}

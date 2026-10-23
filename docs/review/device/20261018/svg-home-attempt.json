@@ -1,0 +1,104 @@
+{
+  "startedAt": "2026-10-19T00:30:16.293Z",
+  "syntheticMediaOnly": true,
+  "scope": "Native render telemetry plus hosted relay and synthetic phone protocol; physical phone UX is separate; includes one intentional 12-second Home interruption after a native photo reveal; recovery check only, full game completion is outside this run",
+  "nativeRenderTelemetry": true,
+  "roundsSnagged": [
+    0
+  ],
+  "phoneScreens": [
+    "join",
+    "lobby",
+    "ready",
+    "cam",
+    "glow",
+    "wait"
+  ],
+  "nativeScenes": [
+    null,
+    "lobby",
+    "intro",
+    "hunt",
+    "judge"
+  ],
+  "voicePaths": {
+    "blips": 3,
+    "polly": 3
+  },
+  "audioErrors": [],
+  "exceptions": [],
+  "photoDecodes": 2,
+  "maskObserved": true,
+  "phoneCompleted": false,
+  "nativeCompleted": false,
+  "maxSnapshotGapMs": 3474,
+  "disconnects": [],
+  "appStates": [
+    {
+      "atSeconds": 1.921,
+      "state": "active"
+    },
+    {
+      "atSeconds": 92.485,
+      "state": "background"
+    },
+    {
+      "atSeconds": 92.488,
+      "state": "background"
+    }
+  ],
+  "foregroundChecks": [
+    {
+      "atSeconds": 23.415,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 336
+    },
+    {
+      "atSeconds": 43.149,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 992
+    },
+    {
+      "atSeconds": 64.314,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 25780
+    },
+    {
+      "atSeconds": 84.654,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 20916
+    },
+    {
+      "atSeconds": 102.159,
+      "state": "NOT_RUNNING",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 88276
+    }
+  ],
+  "games": [],
+  "stageVideo": {
+    "playingEvents": 3,
+    "errorEvents": 0,
+    "releaseRequests": 0
+  },
+  "homeRecovery": {
+    "attempted": true,
+    "completed": false,
+    "startedAtSeconds": 87.474
+  },
+  "homeRecoveryOnly": true,
+  "devicePreflight": {
+    "tempUsedKiB": 0,
+    "tempAvailableKiB": 486984
+  },
+  "syntheticPhotoBytes": 40859,
+  "syntheticThumbBytes": 1001,
+  "endedAt": "2026-10-19T00:31:58.452Z",
+  "durationSeconds": 102.159,
+  "outcome": "FAIL",
+  "reason": "Lifecycle manager reports game NOT_RUNNING"
+}

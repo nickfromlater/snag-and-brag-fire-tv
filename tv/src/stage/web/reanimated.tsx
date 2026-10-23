@@ -1,0 +1,13 @@
+import React from 'react';
+import { Animated, View } from 'react-native';
+export { Easing } from 'react-native';
+export const useSharedValue = (n: number) => React.useRef({ value: n }).current;
+export const useAnimatedStyle = (f: () => object) => f();
+export const useAnimatedProps = (f: () => object) => f();
+export const withSpring = (value: number, _config?: object) => value;
+export const withTiming = (value: number, _config?: object) => value;
+export const withDelay = (_delay: number, value: number) => value;
+export const withRepeat = (value: number, _repeat?: number, _reverse?: boolean) => value;
+export const withSequence = (...values: number[]) => values.at(-1)!;
+export const cancelAnimation = (_value: unknown) => {};
+export default { View, Image: Animated.Image };

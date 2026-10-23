@@ -1,0 +1,62 @@
+{
+  "width": 3872.3200000000006,
+  "height": 28,
+  "pieces": [
+    {
+      "id": "stage/ticker-0",
+      "x": 19,
+      "width": 569,
+      "height": 28,
+      "headline": "LOCAL REMOTE FOUND INSIDE FRIDGE, REFUSES TO EXPLAIN"
+    },
+    {
+      "id": "stage/ticker-1",
+      "x": 585.6560000000001,
+      "width": 474,
+      "height": 28,
+      "headline": "DRYER DENIES ALL KNOWLEDGE OF MISSING SOCK"
+    },
+    {
+      "id": "stage/ticker-2",
+      "x": 1057.496,
+      "width": 424,
+      "height": 28,
+      "headline": "BANANA ENTERS FINAL STAGE OF RIPENESS"
+    },
+    {
+      "id": "stage/ticker-3",
+      "x": 1479.3840000000002,
+      "width": 539,
+      "height": 28,
+      "headline": "CAT KNOCKS PRIZE MUG OFF TABLE, SHOWS NO REMORSE"
+    },
+    {
+      "id": "stage/ticker-4",
+      "x": 2015.9920000000002,
+      "width": 406,
+      "height": 28,
+      "headline": "JUNK DRAWER ANNEXES SECOND DRAWER"
+    },
+    {
+      "id": "stage/ticker-5",
+      "x": 2419.496,
+      "width": 440,
+      "height": 28,
+      "headline": "TEDDY BEAR CELEBRATES 30 YEARS OF HUGS"
+    },
+    {
+      "id": "stage/ticker-6",
+      "x": 2856.6800000000003,
+      "width": 487,
+      "height": 28,
+      "headline": "LAVA LAMP STILL BUBBLING, SCIENTISTS BAFFLED"
+    },
+    {
+      "id": "stage/ticker-7",
+      "x": 3341.0640000000003,
+      "width": 533,
+      "height": 28,
+      "headline": "GRANDPA PORTRAIT SPOTTED JUDGING DINNER GUESTS"
+    }
+  ]
+}

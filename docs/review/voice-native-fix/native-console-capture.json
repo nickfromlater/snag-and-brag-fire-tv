@@ -1,0 +1,161 @@
+{
+  "pass": false,
+  "runtime": "native",
+  "speed": 1,
+  "muted": true,
+  "capture": "Pause before cue; warm recorder; resume normal-speed marked greeting",
+  "clipBytes": 994321,
+  "route": {
+    "kind": "voice-line",
+    "hermes": true,
+    "lineSeq": 19,
+    "trigger": "lobby.open",
+    "path": "polly",
+    "reason": "ready",
+    "latencyMs": 79,
+    "durationMs": 1000,
+    "prefetched": true,
+    "wordMarks": 17,
+    "visemeMarks": 18,
+    "runtime": "native",
+    "wallMs": 1758
+  },
+  "samples": [
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 13,
+      "jaw": 1,
+      "elapsedMs": 77,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 1758
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 18,
+      "jaw": 1,
+      "elapsedMs": 166,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 1851
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 22,
+      "jaw": 0,
+      "elapsedMs": 222,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 1899
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 38,
+      "jaw": 0,
+      "elapsedMs": 343,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2020
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 46,
+      "jaw": 1,
+      "elapsedMs": 399,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2089
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 57,
+      "jaw": 1,
+      "elapsedMs": 480,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2157
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 62,
+      "jaw": 0,
+      "elapsedMs": 534,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2226
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 70,
+      "jaw": 1,
+      "elapsedMs": 620,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2301
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 75,
+      "jaw": 0,
+      "elapsedMs": 666,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2364
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 83,
+      "jaw": 0,
+      "elapsedMs": 758,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2436
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 87,
+      "jaw": 1,
+      "elapsedMs": 820,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2497
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 19,
+      "characters": 93,
+      "jaw": 0,
+      "elapsedMs": 886,
+      "talking": true,
+      "runtime": "native",
+      "wallMs": 2565
+    }
+  ],
+  "errors": [],
+  "audioPass": true,
+  "visualPass": false,
+  "reason": "Console output retained Intro imagery despite current lobby/core speech telemetry; not accepted as visual greeting evidence."
+}

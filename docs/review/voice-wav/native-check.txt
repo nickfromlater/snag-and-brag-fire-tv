@@ -1,0 +1,9 @@
+{"pass":false,"runtime":"native","hostLines":27,"polly":0,"fallback":27,"exceptions":0,"audioErrors":33,"scenes":["lobby","intro","hunt","judge","stand","brag","show","champ"],"maximumStartLatencyMs":650}
+file://~/Desktop/Projects/snag-wt/voice/tv/tooling/verify-voice.mjs:119
+  if (failures.length) throw new Error(failures.join('; '));
+                             ^
+
+Error: Mock lobby speech did not play through Polly; Lobby had no open/closed marked visemes; Native audio codec/network errors: 33
+    at file://~/Desktop/Projects/snag-wt/voice/tv/tooling/verify-voice.mjs:119:30
+
+Node.js v24.20.0

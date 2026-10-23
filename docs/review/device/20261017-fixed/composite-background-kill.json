@@ -1,0 +1,10 @@
+{
+  "context": "Experimental 1080p stage texture was visible with moving parade and titles. The subsequent Home/background transition terminated the process before a valid FPS trace. Experiment not promoted.",
+  "at": "2026-10-18T01:48:50+00:00",
+  "reason": "LowMemoryKiller",
+  "foregroundApp": "com.amazon.smplighthouse.launcher.main",
+  "action": "terminate-state-background-checkquota",
+  "gamePssKiB": 141286,
+  "gameDrmKiB": 46260,
+  "privacy": "Only sanitized process/resource metadata retained; raw report read in RAM."
+}

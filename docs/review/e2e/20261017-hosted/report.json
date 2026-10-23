@@ -1,0 +1,64 @@
+{
+  "verifiedAt": "2026-10-17T20:31:48.419558+00:00",
+  "sourceCommit": "0531f3538bb3309c1aca0deb4fde03ad186fe784",
+  "outcome": "PASS_SOFTWARE_ONLY",
+  "target": "Hosted CloudFront/WSS relay, tvsim headless game host, desktop Chrome with a mobile viewport and built-in synthetic camera",
+  "speed": 1,
+  "media": "Synthetic camera only; photos, thumbnails, masks and audio payloads not saved or logged. Evidence contains metadata and text only.",
+  "rootTests": {
+    "passed": 468,
+    "exitCode": 0,
+    "log": "root-tests.txt"
+  },
+  "typecheck": {
+    "exitCode": 0,
+    "log": "root-typecheck.txt"
+  },
+  "hostedTransport": {
+    "outcome": "PASS",
+    "receipt": "hosted-smoke.json"
+  },
+  "fullGame": {
+    "outcome": "PASS",
+    "seconds": 218.583,
+    "rounds": 3,
+    "finaleReached": true,
+    "browserErrors": 0,
+    "redaction": {
+      "0": "mediapipe",
+      "1": "mediapipe",
+      "2": "mediapipe"
+    },
+    "colorMask": {
+      "bytes": 72,
+      "onCells": 64,
+      "reachedTvHost": true
+    },
+    "otherRoundsOmitMask": true,
+    "phoneLog": "phone-game.txt",
+    "tvHostLog": "tvsim-game.txt"
+  },
+  "stickPackage": {
+    "path": "~/builds/snag-and-brag/tv_armv7-live.vpkg",
+    "bytes": 23333273,
+    "sha256": "8fc375fd985aa9aa7e940f87770a2d7a13b703fa931b23cb97dca044a3850abb",
+    "matchesDocumentedRelease": true
+  },
+  "finalHealth": {
+    "ok": true,
+    "uptimeS": 18861,
+    "rooms": 0,
+    "phones": 0,
+    "aiMode": "bedrock",
+    "pollyMode": "aws",
+    "version": "0.1.0"
+  },
+  "physicalDeviceDiscovery": "vega device list: No devices found; owner is completing initial TV setup",
+  "unassessed": [
+    "Physical stick installation and full game",
+    "Native rendering and frame rate",
+    "Physical remote and spoken Alexa controls",
+    "Real iPhone Safari and Android Chrome camera, denied-permission fallback and sleep/reconnect",
+    "Live Bedrock inference: hosted smoke returned fallback suggestions"
+  ]
+}

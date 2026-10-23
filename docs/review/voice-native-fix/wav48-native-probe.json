@@ -1,0 +1,32 @@
+{
+  "pass": false,
+  "runtime": "native",
+  "speed": 1,
+  "format": "48kHz stereo PCM WAV",
+  "route": {
+    "kind": "voice-line",
+    "hermes": true,
+    "lineSeq": 15,
+    "trigger": "lobby.open",
+    "path": "blips",
+    "reason": "audio-unavailable",
+    "latencyMs": 12,
+    "durationMs": 1000,
+    "prefetched": true,
+    "wordMarks": 17,
+    "visemeMarks": 18,
+    "runtime": "native"
+  },
+  "samples": [],
+  "errors": [
+    {
+      "kind": "audio-error",
+      "hermes": true,
+      "file": "polly",
+      "codec": "wav",
+      "code": "4",
+      "source": "",
+      "runtime": "native"
+    }
+  ]
+}

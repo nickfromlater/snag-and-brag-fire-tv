@@ -1,0 +1,9 @@
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/tv
+
+ ✓ test/media-transport.test.ts (6 tests) 64ms
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  00:21:15
+   Duration  494ms (transform 125ms, setup 0ms, collect 157ms, tests 64ms, environment 0ms, prepare 65ms)

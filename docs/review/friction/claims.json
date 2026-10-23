@@ -1,0 +1,616 @@
+{
+  "reviewDate": "2026-10-14",
+  "baseline": "d9a6701",
+  "reviewType": "docs-only; existing native receipts inspected, no native or AWS session rerun",
+  "rawArchive": {
+    "path": "docs/friction-raw.md",
+    "bytes": 81749,
+    "sha256": "0642f9912bef3feada69640dfc9046de92e05605364c9c3273f4fce29e39e585",
+    "matchesBaseline": true
+  },
+  "coverage": {
+    "rawMainReports": 54,
+    "spikeReports": 12,
+    "amazonFacingEntries": 43,
+    "nonAmazonEntries": 4
+  },
+  "historicalG2": {
+    "gitObject": "16fb5d6:docs/review/tv/g2-native-e2e.json",
+    "sha256": "906773a2a3af35b774e2013d3a413fc23ad516d877b7e104315cf4f998acedda",
+    "pass": false,
+    "durationSeconds": 78.025,
+    "lastCue": 222,
+    "lastScene": "judge",
+    "nativeExceptions": 0,
+    "audioErrors": 0
+  },
+  "currentG2": {
+    "source": "docs/review/tv/g2-native-e2e.json",
+    "pass": true,
+    "durationSeconds": 249.317,
+    "tvScenes": [
+      "lobby",
+      "intro",
+      "hunt",
+      "judge",
+      "stand",
+      "brag",
+      "show",
+      "champ"
+    ],
+    "phoneScreens": [
+      "p-lobby",
+      "p-ready",
+      "p-cam",
+      "p-glow",
+      "p-wait",
+      "p-mash",
+      "p-vote",
+      "p-end"
+    ],
+    "nativeExceptions": 0,
+    "phoneExceptions": 0,
+    "audioErrors": 0
+  },
+  "latestVoice": {
+    "source": "docs/review/tv/visual/release-gate/native-voice-game.json",
+    "pass": true,
+    "pollyMode": "mock",
+    "routeCount": 28,
+    "completeEndedClips": 28,
+    "maximumStartLatencyMs": 887,
+    "nativePermissionWindowMs": 2000,
+    "webPermissionWindowMs": 600,
+    "originalNative600msTargetCertified": false
+  },
+  "headlessCapture": {
+    "source": "docs/review/tv/visual/integrated-headless/presentation.json",
+    "corePass": true,
+    "visualPass": false,
+    "frames": [
+      {
+        "coreScene": "stand",
+        "committedCounter": 1859,
+        "visibleCounter": 1793,
+        "visibleScene": "judge"
+      },
+      {
+        "coreScene": "brag",
+        "committedCounter": 2564,
+        "visibleCounter": null,
+        "visibleScene": "partial judge card"
+      },
+      {
+        "coreScene": "show",
+        "committedCounter": 3644,
+        "visibleCounter": 1793,
+        "visibleScene": "judge"
+      },
+      {
+        "coreScene": "champ",
+        "committedCounter": 3995,
+        "visibleCounter": 1793,
+        "visibleScene": "judge"
+      }
+    ]
+  },
+  "sfxPool": {
+    "baselineSource": "docs/review/tv/native-audio-ogg-baseline.json",
+    "baselinePasses": 90,
+    "baselineIds": 112,
+    "baselineErrors": 33,
+    "passSource": "docs/review/tv/native-audio-effects.json",
+    "successfulPlays": 224,
+    "retainedPlayers": 10,
+    "errors": 0
+  },
+  "faceDownload": {
+    "source": "docs/review/face-blur-size.json",
+    "addedSimdGzipBytes": 3168058,
+    "targetBytes": 3000000
+  },
+  "rootChecks": {
+    "node": "24.20.0",
+    "pnpm": "12.10.1",
+    "testsPassed": 448,
+    "testsOutput": "docs/review/friction/root-tests.txt",
+    "typecheckOutput": "docs/review/friction/root-typecheck.txt"
+  },
+  "rawAliases": [
+    {
+      "line": 26,
+      "heading": "F-RELAY-01 \u00b7 2026-10-12 \u00b7 Anthropic Bedrock SDK 0.34.4 / Bedrock Mantle IAM \u00b7 Minor",
+      "curated": [
+        "F-A33"
+      ]
+    },
+    {
+      "line": 48,
+      "heading": "F-RELAY-02 \u00b7 2026-10-12 \u00b7 Amazon Bedrock Mantle data retention API / SDK 0.34.4 \u00b7 Minor",
+      "curated": [
+        "F-A34"
+      ]
+    },
+    {
+      "line": 96,
+      "heading": "Phone-P01 \u00b7 2026-10-12 \u00b7 pnpm 12.10.1 / esbuild 0.28.2 \u00b7 Minor",
+      "curated": [
+        "N-A03"
+      ]
+    },
+    {
+      "line": 115,
+      "heading": "F-TV-01 \u00b7 2026-10-12 EDT \u00b7 Vega SDK 0.24.12112 / RN 2.0.9000000000 \u00b7 Major",
+      "curated": [
+        "F-A09"
+      ]
+    },
+    {
+      "line": 128,
+      "heading": "F-TV-02 \u00b7 2026-10-12 EDT \u00b7 Vega SVG 2.0.9000000001+13.14.0 \u00b7 Major",
+      "curated": [
+        "F-A04",
+        "F-A03"
+      ]
+    },
+    {
+      "line": 145,
+      "heading": "F-TV-03 \u00b7 2026-10-12 EDT \u00b7 RN native Animated / Reanimated 2.0.9000000001+3.5.4 \u00b7 Major",
+      "curated": [
+        "F-A03"
+      ]
+    },
+    {
+      "line": 159,
+      "heading": "F-TV-04 \u00b7 2026-10-12 EDT \u00b7 Vega Media Controls 1.0 / RN 0.72 \u00b7 Major",
+      "curated": [
+        "F-A02",
+        "F-A37"
+      ]
+    },
+    {
+      "line": 175,
+      "heading": "F-TV-05 \u00b7 2026-10-12 EDT \u00b7 Builder Tools MCP / Vega Performance CLI 2.0.345.0 \u00b7 Minor",
+      "curated": [
+        "F-A21"
+      ]
+    },
+    {
+      "line": 188,
+      "heading": "F-TV-06 \u00b7 2026-10-12 EDT \u00b7 Vega CLI 1.4.2 / RN build-vega / pnpm 12.10.1 \u00b7 Minor",
+      "curated": [
+        "F-A28"
+      ]
+    },
+    {
+      "line": 199,
+      "heading": "2026-10-13 \u2014 Worker B: native scene acceptance",
+      "curated": [
+        "F-A01",
+        "F-A02"
+      ]
+    },
+    {
+      "line": 208,
+      "heading": "F-TV-07 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / Performance CLI 0.24.0 (package 2.0.345.0) \u00b7 Minor",
+      "curated": [
+        "F-A20"
+      ]
+    },
+    {
+      "line": 217,
+      "heading": "F-TV-08 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / RN 2.0.9000000000 / Reanimated 2.0.9000000001+3.5.4 \u00b7 Major",
+      "curated": [
+        "F-A11"
+      ]
+    },
+    {
+      "line": 226,
+      "heading": "F-TV-09 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / RN 2.0.9000000000 \u00b7 Major",
+      "curated": [
+        "F-A02"
+      ]
+    },
+    {
+      "line": 236,
+      "heading": "FACE-01 \u00b7 MediaPipe Tasks Vision 1.1.0 / 0.10.14 \u00b7 Download budget",
+      "curated": [
+        "N-A01"
+      ]
+    },
+    {
+      "line": 252,
+      "heading": "FACE-02 \u00b7 2026-10-13 \u00b7 MediaPipe Tasks Vision 0.10.14 / Chrome \u00b7 Informational log level",
+      "curated": [
+        "N-A02"
+      ]
+    },
+    {
+      "line": 275,
+      "heading": "F-TV-A-01 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / RN 0.72 / Reanimated 2.0.9000000001 / SVG 2.0.9000000001 \u00b7 Major",
+      "curated": [
+        "F-A01",
+        "F-A03"
+      ]
+    },
+    {
+      "line": 285,
+      "heading": "F-TV-08 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / VVD OS 1.2 \u00b7 Native visual acceptance unresolved",
+      "curated": [
+        "F-A01"
+      ]
+    },
+    {
+      "line": 295,
+      "heading": "2026-10-13 \u00b7 Worker A follow-up to F-TV-A-01 \u00b7 Vega SDK 0.24.12112 / VVD OS 1.2",
+      "curated": [
+        "F-A01",
+        "F-A03"
+      ]
+    },
+    {
+      "line": 302,
+      "heading": "2026-10-13 \u00b7 Worker C \u00b7 Amazon Devices Builder Tools MCP (server version not exposed) \u00b7 Minor",
+      "curated": [
+        "F-A23"
+      ]
+    },
+    {
+      "line": 315,
+      "heading": "2026-10-13 \u00b7 Worker C \u00b7 Vega SDK 0.24.12112 / VVD OS 1.2 / RN 0.72 \u00b7 Blocking native acceptance",
+      "curated": [
+        "F-A01",
+        "F-A03"
+      ]
+    },
+    {
+      "line": 325,
+      "heading": "2026-10-13 \u00b7 Worker C native follow-up \u00b7 Vega CLI 1.4.2 / SDK 0.24.12112",
+      "curated": [
+        "F-A01"
+      ]
+    },
+    {
+      "line": 335,
+      "heading": "2026-10-13 \u00b7 Worker C fresh capture retry \u00b7 Vega CLI 1.4.2 / SDK 0.24.12112",
+      "curated": [
+        "F-A01",
+        "F-A03",
+        "F-A25"
+      ]
+    },
+    {
+      "line": 344,
+      "heading": "F-TV-INTEGRATE-01 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / RN 2.0.9000000000 / Reanimated 2.0.9000000001 \u00b7 Major",
+      "curated": [
+        "F-A03"
+      ]
+    },
+    {
+      "line": 353,
+      "heading": "F-TV-INTEGRATE-02 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / VVD OS 1.2 / RN 2.0.9000000000 \u00b7 Major",
+      "curated": [
+        "F-A01",
+        "F-A03"
+      ]
+    },
+    {
+      "line": 362,
+      "heading": "F-TV-INTEGRATE-03 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / VVD launcher \u00b7 Minor",
+      "curated": [
+        "F-A24"
+      ]
+    },
+    {
+      "line": 371,
+      "heading": "F-TV-INTEGRATE-04 \u00b7 2026-10-13 EDT \u00b7 Vega W3CMedia 2.3.2 / VVD OS 1.2 \u00b7 Moderate",
+      "curated": [
+        "F-A05"
+      ]
+    },
+    {
+      "line": 380,
+      "heading": "F-TV-FINISH-01 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / W3CMedia 2.3.2 / VVD OS 1.2 \u00b7 Major",
+      "curated": [
+        "F-A05"
+      ]
+    },
+    {
+      "line": 390,
+      "heading": "F-TV-FINISH-02 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / CLI 1.4.2 / VVD OS 1.2 TV Ship 102282480 / RN 2.0.9000000000 / Reanimated 2.0.9000000001 \u00b7 Blocking G2",
+      "curated": [
+        "F-A03",
+        "F-A12"
+      ]
+    },
+    {
+      "line": 399,
+      "heading": "F-TV-FINISH-03 \u00b7 2026-10-13 EDT \u00b7 Amazon Devices Builder Tools MCP (server version not exposed) / KeplerPerfCLI 2.0.345.0 \u00b7 Minor",
+      "curated": [
+        "F-A22"
+      ]
+    },
+    {
+      "line": 409,
+      "heading": "F-TV-FINISH-04 \u00b7 2026-10-13 EDT \u00b7 Vega SDK 0.24.12112 / CLI 1.4.2 / VVD OS 1.2 \u00b7 G2 bundle-isolation follow-up",
+      "curated": [
+        "F-A02"
+      ]
+    },
+    {
+      "line": 418,
+      "heading": "2026-10-13 \u00b7 DIR-01 \u00b7 VVD console recording and exclusive capture access",
+      "curated": [
+        "F-A26"
+      ]
+    },
+    {
+      "line": 448,
+      "heading": "F-TV-PHOTO-01 \u00b7 2026-10-13 EDT \u00b7 native photo game presentation",
+      "curated": [
+        "F-A03",
+        "F-A12"
+      ]
+    },
+    {
+      "line": 459,
+      "heading": "F-TV-PHOTO-02 \u00b7 2026-10-13 EDT \u00b7 native fanfare completion probe",
+      "curated": [
+        "F-A18"
+      ]
+    },
+    {
+      "line": 470,
+      "heading": "F-TV-PHOTO-03 \u00b7 2026-10-13 EDT \u00b7 post-install readiness and reverse ports",
+      "curated": [
+        "F-A02",
+        "F-A38"
+      ]
+    },
+    {
+      "line": 480,
+      "heading": "F-VOICE-POLLY-01 \u00b7 2026-10-13 EDT \u00b7 neural emphasis support",
+      "curated": [
+        "F-A35"
+      ]
+    },
+    {
+      "line": 490,
+      "heading": "F-VOICE-VEGA-02 \u00b7 2026-10-13 EDT \u00b7 native speech transport",
+      "curated": [
+        "F-A16",
+        "F-A06"
+      ]
+    },
+    {
+      "line": 501,
+      "heading": "F-VOICE-VEGA-03 \u00b7 2026-10-13 EDT \u00b7 speech restart and callback deadline",
+      "curated": [
+        "F-A06"
+      ]
+    },
+    {
+      "line": 515,
+      "heading": "2026-10-13 EDT \u00b7 remote WAV URL playback on VVD",
+      "curated": [
+        "F-A16",
+        "F-A06"
+      ]
+    },
+    {
+      "line": 528,
+      "heading": "2026-10-13 EDT \u00b7 48 kHz stereo remote WAV still rejected; AAC repair verified",
+      "curated": [
+        "F-A16",
+        "F-A06"
+      ]
+    },
+    {
+      "line": 539,
+      "heading": "2026-10-13 EDT \u00b7 console capture does not match native core scene",
+      "curated": [
+        "F-A01",
+        "F-A06"
+      ]
+    },
+    {
+      "line": 549,
+      "heading": "F-POLISH1-01 \u00b7 2026-10-14 \u00b7 Amazon Devices Builder Tools MCP (server version not exposed) \u00b7 Minor",
+      "curated": [
+        "F-A23"
+      ]
+    },
+    {
+      "line": 558,
+      "heading": "F-POLISH1-02 \u00b7 2026-10-14 \u00b7 Vega CLI 1.4.2 / SDK 0.24.12112 / VVD OS 1.2 \u00b7 Minor",
+      "curated": [
+        "F-A24"
+      ]
+    },
+    {
+      "line": 567,
+      "heading": "F-POLISH1-03 \u00b7 2026-10-14 \u00b7 Vega Media Controls 1.0.25 / RN 0.72 / SDK 0.24.12112 / VVD OS 1.2 \u00b7 Major",
+      "curated": [
+        "F-A07"
+      ]
+    },
+    {
+      "line": 576,
+      "heading": "F-POLISH1-04 \u00b7 2026-10-14 \u00b7 Vega Media Controls 1.0.25 / RN 0.72 system JS bundles / VVD OS 1.2 \u00b7 Major",
+      "curated": [
+        "F-A08"
+      ]
+    },
+    {
+      "line": 585,
+      "heading": "F-POLISH1-05 \u00b7 2026-10-14 \u00b7 Vega CLI 1.4.2 / SDK 0.24.12112 \u00b7 Minor",
+      "curated": [
+        "F-A36"
+      ]
+    },
+    {
+      "line": 594,
+      "heading": "F-POLISH1-06 \u00b7 2026-10-14 \u00b7 Vega SVG/Reanimated 2.0.9000000001 / W3C Media 2.3.2 / RN 0.72 / VVD OS 1.2 \u00b7 Major",
+      "curated": [
+        "F-A02"
+      ]
+    },
+    {
+      "line": 603,
+      "heading": "F-POLISH1-07 \u00b7 2026-10-14 \u00b7 Vega Performance CLI 0.24.0 / SDK 0.24.12112 \u00b7 Minor",
+      "curated": [
+        "F-A19",
+        "F-A20"
+      ]
+    },
+    {
+      "line": 612,
+      "heading": "F-POLISH1-08 \u00b7 2026-10-14 \u00b7 Vega W3C Media 2.3.2 / SVG-Reanimated 2.0.9000000001 / SDK 0.24.12112 / VVD OS 1.2 \u00b7 Major",
+      "curated": [
+        "F-A06"
+      ]
+    },
+    {
+      "line": 621,
+      "heading": "F-POLISH1-09 \u00b7 2026-10-14 \u00b7 VVD OS 1.2 / SDK 0.24.12112 / Vega CLI 1.4.2 emulator console \u00b7 Major",
+      "curated": [
+        "F-A01"
+      ]
+    },
+    {
+      "line": 630,
+      "heading": "F-POLISH1-10 \u00b7 2026-10-14 \u00b7 SDK 0.24.12112 / VVD OS 1.2 authenticated emulator console screenrecord \u00b7 Minor",
+      "curated": [
+        "F-A25"
+      ]
+    },
+    {
+      "line": 639,
+      "heading": "F-POLISH1-11 \u00b7 2026-10-14 \u00b7 local pnpm workspace / Node 24.20.0 / tools/tv-foundation generator \u00b7 Minor (local verification ordering)",
+      "curated": [
+        "N-A04"
+      ]
+    },
+    {
+      "line": 654,
+      "heading": "F-VISUAL-01 \u00b7 VVD headless console captures stale or partial GL surfaces \u00b7 Major",
+      "curated": [
+        "F-A01"
+      ]
+    },
+    {
+      "line": 664,
+      "heading": "F-VISUAL-02 \u00b7 First cold headless launch loses the native control timeline \u00b7 Major, intermittent",
+      "curated": [
+        "F-A02"
+      ]
+    },
+    {
+      "line": 674,
+      "heading": "F-VISUAL-03 \u00b7 Printed VVD identifier rejected by device selection \u00b7 Minor",
+      "curated": [
+        "F-A27"
+      ]
+    }
+  ],
+  "spikeAliases": [
+    {
+      "line": 5,
+      "heading": "project generate / name grammar",
+      "curated": [
+        "F-A29"
+      ]
+    },
+    {
+      "line": 13,
+      "heading": "SDK environment / bare vda",
+      "curated": [
+        "F-A30"
+      ]
+    },
+    {
+      "line": 21,
+      "heading": "expo-font companion install",
+      "curated": [
+        "F-A31"
+      ]
+    },
+    {
+      "line": 29,
+      "heading": "VVD transient launch",
+      "curated": [
+        "F-A24"
+      ]
+    },
+    {
+      "line": 37,
+      "heading": "MCP API body truncation",
+      "curated": [
+        "F-A15"
+      ]
+    },
+    {
+      "line": 45,
+      "heading": "UI-fluidity KPI prerequisite",
+      "curated": [
+        "F-A19"
+      ]
+    },
+    {
+      "line": 53,
+      "heading": "requestAnimationFrame timestamp",
+      "curated": [
+        "F-A14"
+      ]
+    },
+    {
+      "line": 61,
+      "heading": "SVG custom-font Text/stroke",
+      "curated": [
+        "F-A10"
+      ]
+    },
+    {
+      "line": 69,
+      "heading": "local AudioPlayer asset URI",
+      "curated": [
+        "F-A17"
+      ]
+    },
+    {
+      "line": 77,
+      "heading": "scaled GLView composition",
+      "curated": [
+        "F-A13"
+      ]
+    },
+    {
+      "line": 85,
+      "heading": "standalone perf record / TTY",
+      "curated": [
+        "F-A20"
+      ]
+    },
+    {
+      "line": 93,
+      "heading": "project doctor companion warnings",
+      "curated": [
+        "F-A32"
+      ]
+    }
+  ],
+  "leadReview": {
+    "date": "2026-10-14",
+    "sourceNotes": "docs/review/friction/lead-review-evidence.md",
+    "minimalReproIndex": "docs/review/friction/minimal-repro-index.json",
+    "minimalBlocks": 10,
+    "newEntries": [
+      "F-A39",
+      "F-A40",
+      "F-A41",
+      "F-A42",
+      "F-A43"
+    ],
+    "freshRuntimeVerified": false
+  }
+}

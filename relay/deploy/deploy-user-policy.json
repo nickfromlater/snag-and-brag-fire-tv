@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    { "Sid": "Ec2Relay", "Effect": "Allow", "Action": ["ec2:*"], "Resource": "*" },
+    { "Sid": "CloudFront", "Effect": "Allow", "Action": ["cloudfront:*"], "Resource": "*" },
+    { "Sid": "AmiLookup", "Effect": "Allow", "Action": ["ssm:GetParameter", "ssm:GetParameters"], "Resource": "arn:aws:ssm:*::parameter/aws/service/*" },
+    { "Sid": "RelayRoleOnly", "Effect": "Allow",
+      "Action": ["iam:CreateRole", "iam:GetRole", "iam:PutRolePolicy", "iam:GetRolePolicy", "iam:DeleteRolePolicy", "iam:DeleteRole", "iam:PassRole",
+                 "iam:CreateInstanceProfile", "iam:GetInstanceProfile", "iam:AddRoleToInstanceProfile", "iam:RemoveRoleFromInstanceProfile", "iam:DeleteInstanceProfile"],
+      "Resource": ["arn:aws:iam::*:role/snag-relay", "arn:aws:iam::*:instance-profile/snag-relay"] },
+    { "Sid": "HealthAndAlerts", "Effect": "Allow",
+      "Action": ["route53:CreateHealthCheck", "route53:GetHealthCheck", "route53:ListHealthChecks", "route53:DeleteHealthCheck", "route53:ChangeTagsForResource",
+                 "sns:CreateTopic", "sns:Subscribe", "sns:GetTopicAttributes", "sns:ListSubscriptionsByTopic", "sns:DeleteTopic",
+                 "cloudwatch:PutMetricAlarm", "cloudwatch:DescribeAlarms", "cloudwatch:DeleteAlarms"], "Resource": "*" },
+    { "Sid": "Budget", "Effect": "Allow", "Action": ["budgets:ViewBudget", "budgets:ModifyBudget", "budgets:CreateBudgetAction"], "Resource": "*" },
+    { "Sid": "AiForSmokeTests", "Effect": "Allow",
+      "Action": ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream", "bedrock:ListFoundationModels", "bedrock:GetFoundationModelAvailability",
+                 "bedrock-mantle:*", "polly:SynthesizeSpeech", "polly:DescribeVoices"], "Resource": "*" },
+    { "Sid": "WhoAmI", "Effect": "Allow", "Action": ["sts:GetCallerIdentity"], "Resource": "*" }
+  ]
+}

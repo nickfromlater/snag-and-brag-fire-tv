@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "debugDefaultOn": true,
+  "checks": [
+    "F1 opens Studio tools",
+    "Frame clock selection disables overlay",
+    "Frame clock selection enables overlay"
+  ],
+  "errors": []
+}

@@ -1,0 +1,7 @@
+Oct 14 04:17:02.925655 amazon-f9c7490c303c001e local1.info acr_core_dump[4037]:  	    at updateMediaSessionStates (native)
+Oct 14 04:17:02.925662 amazon-f9c7490c303c001e local1.info acr_core_dump[4037]:  	    at updateMediaSessionStates (/local/p4clients/pkgbuild-const/workspace/src/KeplerMediaControlsTM/build/private/bundle-split/_amzn_kepler-media-controls/SystemBundles/<key>.bundle:1603:71)
+Oct 14 04:17:03.064866 amazon-f9c7490c303c001e local1.info acr_core_dump[4037]:  Custom reason for crash /var/lib/data/acr/tmp//crash_1791951422_30042_5000_3970_6_com_snagbrag_tv.acr: SIGABRT
+Oct 14 04:19:18.131083 amazon-f9c7490c303c001e local0.info com.snagbrag.tv[4479]: 547591418144 INFO kmc.turbomodule: [/src/KeplerMediaControlsTM/kepler/turbo-modules/KeplerMediaControlsServerTM.cpp:864] updateMediaSessionStates
+Oct 14 04:19:28.476652 amazon-f9c7490c303c001e local0.info com.snagbrag.tv[4479]: 547591418144 INFO kmc.turbomodule: [/src/KeplerMediaControlsTM/kepler/turbo-modules/KeplerMediaControlsServerTM.cpp:864] updateMediaSessionStates
+Oct 14 04:20:38.269478 amazon-f9c7490c303c001e local0.info com.snagbrag.tv[9212]: 546777657632 INFO kmc.turbomodule: [/src/KeplerMediaControlsTM/kepler/turbo-modules/KeplerMediaControlsServerTM.cpp:864] updateMediaSessionStates
+Oct 14 04:21:46.120544 amazon-f9c7490c303c001e local0.info com.snagbrag.tv[12935]: 546935533856 INFO kmc.turbomodule: [/src/KeplerMediaControlsTM/kepler/turbo-modules/KeplerMediaControlsServerTM.cpp:864] updateMediaSessionStates

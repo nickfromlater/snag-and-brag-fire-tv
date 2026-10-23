@@ -1,0 +1,18 @@
+{
+  "webIterationOnly": true,
+  "audio": "muted",
+  "photos": "all bots; none loaded",
+  "complete": true,
+  "scenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag",
+    "show",
+    "champ"
+  ],
+  "exceptions": [],
+  "chrome": "Chrome/155.0.8059.40"
+}

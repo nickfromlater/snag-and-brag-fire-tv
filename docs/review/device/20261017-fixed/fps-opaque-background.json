@@ -1,0 +1,14 @@
+{
+  "scope": "Retail callie armv7l / OS2 TV Ship/515, fully awake and lifecycle manager verified foreground; opaque background set with animated sky",
+  "traceTool": "Vega perf0.24, 32MiB app buffer, discard mode, default categories, Perfetto v58.2",
+  "frames": 616,
+  "spanSeconds": 24.98,
+  "averageFps": 24.62,
+  "maximumFrameGapMs": 232.43,
+  "gapsOver100Ms": 8,
+  "targetFps": 30,
+  "outcome": "FAIL",
+  "next": "Evaluate bounded offscreen stage rendering; still experimental, not promoted",
+  "privacy": "Metadata only. Raw trace outside repository.",
+  "measurementCaveat": "Recorded before RAM-backed device temporary storage was cleaned. Numeric observations remain valid for that system state; use a clean-device measurement for acceptance and do not attribute comparisons to code alone."
+}

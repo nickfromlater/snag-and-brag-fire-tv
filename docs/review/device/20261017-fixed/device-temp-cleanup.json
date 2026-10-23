@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-18T01:59:50Z",
+  "scope": "Explicitly enumerated session-owned install packages, screenshots and completed profiler traces; copied artifacts retained on the Mac. No user settings or installed apps changed.",
+  "before": {
+    "filesystem": "tmpfs",
+    "capacityMiB": 476,
+    "usedMiB": 454,
+    "availableMiB": 22,
+    "usePercent": 96
+  },
+  "afterText": "Filesystem            Size  Used Avail Use% Mounted on\ntmpfs                 476M  652K  475M   1% /tmp",
+  "removedOwnedPaths": 38,
+  "measurementImpact": "Earlier performance and memory results were taken with growing RAM-backed test residue. Repeat acceptance on the cleaned device; do not attribute the difference to application changes alone."
+}

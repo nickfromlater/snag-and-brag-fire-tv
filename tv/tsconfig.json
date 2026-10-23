@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "types": [
+      "node",
+      "@amazon-devices/react-native-kepler"
+    ]
+  },
+  "include": [
+    "src",
+    "test"
+  ]
+}

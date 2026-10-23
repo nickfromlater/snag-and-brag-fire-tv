@@ -1,0 +1,12 @@
+{
+  "scope": "Native Toolkit/Render frame intervals; full diagnostic lobby visible throughout recording",
+  "experiment": "Cache only the 466x416 logical join panel; direct 1080p stage rendering",
+  "frames": 580,
+  "seconds": 28.12,
+  "averageFps": 20.59,
+  "maximumGapMs": 3607.51,
+  "gapsOver100Ms": 17,
+  "outcome": "REJECTED",
+  "reason": "Longer stalls and no improvement over 24.62 fps direct-render baseline; panel cache flag removed from source.",
+  "measurementCaveat": "Recorded before RAM-backed device temporary storage was cleaned. Numeric observations remain valid for that system state; use a clean-device measurement for acceptance and do not attribute comparisons to code alone. Device screenshots were also taken during these experimental runs; no isolated causal performance conclusion is claimed. The unproven cache flags remain removed."
+}

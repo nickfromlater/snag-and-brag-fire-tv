@@ -1,0 +1,56 @@
+{
+  "verifiedAt": "2026-10-13T17:34:57.865Z",
+  "target": "VVD OS 1.2 aarch64 Release",
+  "mode": "game",
+  "speed": 1,
+  "seed": 1,
+  "audio": "Mac muted; native audio enabled",
+  "photos": "All bots; no player photos or thumbnails",
+  "engine": {
+    "kind": "engine",
+    "hermes": true,
+    "utf8": "pure-js",
+    "binary": true,
+    "runtime": "native"
+  },
+  "complete": {
+    "kind": "complete",
+    "hermes": true,
+    "cues": 883,
+    "exceptions": 0,
+    "teams": 3,
+    "runtime": "native"
+  },
+  "scenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag",
+    "show",
+    "champ"
+  ],
+  "contiguousCues": true,
+  "nativeOnly": true,
+  "snapshot": {
+    "kind": "snapshot",
+    "hermes": true,
+    "ready": true,
+    "loaded": true,
+    "connected": true,
+    "code": "SRCX",
+    "scene": "champ",
+    "phase": "finale",
+    "round": 3,
+    "mood": "gold",
+    "completed": true,
+    "paused": false,
+    "teams": 3,
+    "cues": 884,
+    "exceptions": 0,
+    "runtime": "native"
+  },
+  "cueLog": "docs/review/tv/native-fast-game.jsonl",
+  "screenshot": "docs/review/tv/native-finale.png"
+}

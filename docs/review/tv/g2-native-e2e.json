@@ -1,0 +1,258 @@
+{
+  "verifiedAt": "2026-10-13T23:55:01.913Z",
+  "target": "VVD OS 1.2 aarch64 Release / Hermes",
+  "speed": 1,
+  "nativeOnly": true,
+  "media": "Chromium built-in synthetic camera, generated in memory; no human photos or thumbnails persisted",
+  "relay": {
+    "ai": "mock",
+    "voice": "mock",
+    "reversePort": 8787,
+    "hostPort": 8789
+  },
+  "screensReached": {
+    "tv": [
+      "lobby",
+      "intro",
+      "hunt",
+      "judge",
+      "stand",
+      "brag",
+      "show",
+      "champ"
+    ],
+    "phone": [
+      "p-lobby",
+      "p-ready",
+      "p-cam",
+      "p-glow",
+      "p-wait",
+      "p-mash",
+      "p-vote",
+      "p-end"
+    ]
+  },
+  "exceptions": {
+    "native": 0,
+    "phone": []
+  },
+  "audioErrors": [],
+  "durationSeconds": 249.317,
+  "phoneExitCode": 0,
+  "maskEvents": [
+    {
+      "kind": "judge-mask",
+      "hermes": true,
+      "round": 0,
+      "target": "judge-beam:p1",
+      "cells": 64,
+      "bytes": 72,
+      "players": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "judge-mask-hold",
+      "hermes": true,
+      "round": 0,
+      "target": "judge-beam:p1",
+      "cells": 64,
+      "ready": true,
+      "runtime": "native"
+    }
+  ],
+  "clips": [
+    {
+      "round": 0,
+      "path": "docs/review/tv-g2-color-rush-reveal.mp4",
+      "bytes": 3822270,
+      "crf": 28,
+      "preset": "slow",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "25.333333",
+      "nb_frames": "1520"
+    }
+  ],
+  "screenshots": [
+    "docs/review/tv/g2-native-mask.png",
+    "docs/review/tv/g2-native-finale.png",
+    "docs/review/tv/g2-native-judge-scored.png"
+  ],
+  "celebration": {
+    "bannerSlam": true,
+    "crownSlam": true,
+    "cardWobble": true,
+    "partyBackground": true,
+    "confetti": true,
+    "fanfare": true,
+    "capture": true
+  },
+  "pass": true,
+  "completed": true,
+  "photoEvents": [
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 0,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 0,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 0,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 2,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 2,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 2,
+      "ready": true,
+      "runtime": "native"
+    }
+  ],
+  "reducedMotion": false,
+  "audioEnabled": true,
+  "scoredScreenshotSource": {
+    "video": "docs/review/tv-g2-color-rush-reveal.mp4",
+    "seconds": 21.2,
+    "nativeOnly": true,
+    "reason": "Scored native frame selected from the same G2 reveal recording; live screenshot timing missed the short winner beat."
+  },
+  "visualReview": {
+    "nativeOnly": true,
+    "synthetic": true,
+    "comparison": "docs/review/tv-judge-compare.png",
+    "entranceFrames": "docs/review/tv/native-judge-entrance-frames.png",
+    "bannerSlam": true,
+    "crownSlam": true,
+    "cardWobble": true,
+    "purpleParty": true,
+    "confetti": true,
+    "fanfareProbe": "docs/review/tv/native-photo-fanfare.json",
+    "method": "Manually inspected fresh native stills and consecutive frames from this G2 recording; fanfare verified in the native production pool while muted."
+  }
+}

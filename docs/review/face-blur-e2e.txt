@@ -1,0 +1,20 @@
+0.8 p-lobby
+4.9 p-ready
+16.5 p-cam
+20.3 p-glow
+24.6 p-wait
+58.8 p-ready
+71.3 p-cam
+75.0 p-glow
+79.3 p-wait
+94.2 p-mash
+141.0 p-wait
+146.3 p-ready
+158.3 p-cam
+162.1 p-glow
+166.3 p-wait
+188.9 p-vote
+198.1 p-wait
+209.7 p-end
+screens p-lobby,p-ready,p-cam,p-glow,p-wait,p-mash,p-vote,p-end errors [] secs 213.733 redaction {"0":"mediapipe","1":"mediapipe","2":"mediapipe"}
+PASS full three-round relay + TV game with local redaction. No player media saved.

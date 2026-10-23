@@ -1,0 +1,7 @@
+{
+  "command": "pnpm --filter render-art build",
+  "matchingFiles": 169,
+  "firstManifestSha256": "acf9d3cee7f6c2309ddb4e90026e2e43d8950f6920ef532ff42cb13e5b981a27",
+  "secondManifestSha256": "acf9d3cee7f6c2309ddb4e90026e2e43d8950f6920ef532ff42cb13e5b981a27",
+  "identical": true
+}

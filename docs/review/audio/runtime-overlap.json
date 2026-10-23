@@ -1,0 +1,61 @@
+{
+  "inputs": [
+    {
+      "id": "music-win",
+      "bus": "music",
+      "busGain": 1,
+      "startSample": 0
+    },
+    {
+      "id": "sfx-fanfare",
+      "bus": "sfx",
+      "busGain": 1,
+      "startSample": 0
+    },
+    {
+      "id": "sfx-ko",
+      "bus": "sfx",
+      "busGain": 1,
+      "startSample": 0
+    },
+    {
+      "id": "sfx-crowd-2-18",
+      "bus": "sfx",
+      "busGain": 1,
+      "startSample": 0
+    }
+  ],
+  "runtimeBusLevels": {
+    "sfxBus": 1,
+    "musicBus": 1,
+    "master": 1
+  },
+  "sampleRate": 48000,
+  "lengthSamples": 377705,
+  "durationSeconds": 7.868854166666667,
+  "summation": "Committed boosted PCM16 decoded to float; signed sample-wise sum in float64 from sample 0; silence after each file ends; every file and master at unity (1.0); before the TV output soft limiter.",
+  "peakAmplitude": 0.86212158203125,
+  "peakDbfs": -1.288629656085212,
+  "preMasterPeakDbfs": -1.288629656085212,
+  "samplesOverZeroDbfs": 0,
+  "framesOverZeroDbfs": 0,
+  "minimumAttenuationToZeroDbfs": 0,
+  "byChannel": [
+    {
+      "channel": 0,
+      "peakAmplitude": 0.860687255859375,
+      "peakDbfs": -1.303092551141666,
+      "peakSample": 828,
+      "peakTimeSeconds": 0.01725,
+      "samplesOverZeroDbfs": 0
+    },
+    {
+      "channel": 1,
+      "peakAmplitude": 0.86212158203125,
+      "peakDbfs": -1.288629656085212,
+      "peakSample": 828,
+      "peakTimeSeconds": 0.01725,
+      "samplesOverZeroDbfs": 0
+    }
+  ]
+}

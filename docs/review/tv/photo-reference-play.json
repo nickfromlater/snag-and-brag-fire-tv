@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-13T22:12:35.924Z",
+  "screens": [
+    "sc-lobby",
+    "sc-intro",
+    "sc-hunt",
+    "sc-judge",
+    "sc-stand",
+    "sc-brag",
+    "sc-show",
+    "sc-champ"
+  ],
+  "complete": true,
+  "source": "approved playable mockup; skip advances waits; no real media"
+}

@@ -1,0 +1,104 @@
+{
+  "at": "2026-10-17T20:44:43.952Z",
+  "region": "us-east-1",
+  "model": "anthropic.claude-opus-5-5",
+  "syntheticMediaOnly": true,
+  "ok": false,
+  "httpStatus": 403,
+  "latencyMs": 139,
+  "reason": "account_model_access",
+  "requestedByOwner": true,
+  "catalog": {
+    "id": "anthropic.claude-opus-5-5",
+    "status": "available",
+    "imageInput": true,
+    "allowsNoDataRetention": true
+  },
+  "workspaceRetention": "none",
+  "foundationAvailability": {
+    "agreement": "NOT_AVAILABLE",
+    "authorization": "AUTHORIZED",
+    "entitlement": "AVAILABLE",
+    "region": "AVAILABLE"
+  },
+  "agreementInspection": "ListFoundationModelAgreementOffers denied for deployment identity",
+  "liveConfigurationChanged": false,
+  "preparedConfiguration": {
+    "model": "anthropic.claude-opus-5-5",
+    "scopedRuntimePolicy": true,
+    "relayEnvironment": true,
+    "location": "Private deployment directory outside repository"
+  },
+  "consoleTest": {
+    "prompt": "Reply with exactly OK.",
+    "submitted": true,
+    "ownerConfirmedModelTerms": true,
+    "httpStatus": 403,
+    "reason": "anthropic.claude-opus-5-5 is not available for this account; AWS directs the owner to Sales for additional access",
+    "accessUrl": "https://aws.amazon.com/contact-us/sales-support/"
+  },
+  "successfulInferenceCalls": 0,
+  "nextAction": "Await AWS account-access response. Keep the built-in fallback active for playtests. After access is granted, verify successful image calls and latency before applying any prepared model policy/environment change.",
+  "updatedAt": "2026-10-17T20:52:03.336050+00:00",
+  "outcome": "ACCOUNT_ACCESS_BLOCKED",
+  "acceptedModels": [
+    "anthropic.claude-opus-5-5",
+    "anthropic.claude-opus-5",
+    "anthropic.claude-sonnet-5 or newer Sonnet"
+  ],
+  "alternativeProbes": {
+    "at": "2026-10-17T20:53:09.977Z",
+    "region": "us-east-1",
+    "syntheticMediaOnly": true,
+    "models": [
+      {
+        "model": "anthropic.claude-opus-5",
+        "ok": false,
+        "httpStatus": 403,
+        "latencyMs": 204,
+        "reason": "account_model_access"
+      },
+      {
+        "model": "anthropic.claude-sonnet-5",
+        "ok": false,
+        "httpStatus": 403,
+        "latencyMs": 72,
+        "reason": "account_model_access"
+      }
+    ]
+  },
+  "olderModelChecks": [
+    {
+      "model": "anthropic.claude-opus-4-8",
+      "httpStatus": 403,
+      "reason": "account_model_access",
+      "latencyMs": 123
+    },
+    {
+      "model": "anthropic.claude-opus-4-7",
+      "httpStatus": 403,
+      "reason": "account_model_access",
+      "latencyMs": 64
+    }
+  ],
+  "identityCheck": {
+    "deploymentAndConsoleAccountsMatch": true
+  },
+  "awsAccessRequest": {
+    "submitted": true,
+    "submittedAt": "2026-10-17T21:06:36Z",
+    "route": "AWS Basic Support / Account and billing / Account / Other Account Issues",
+    "contactMethod": "Web/email",
+    "status": "Awaiting AWS",
+    "caseIdentifiers": "Stored only in private deployment directory outside repository"
+  },
+  "temporaryFallback": {
+    "active": true,
+    "type": "Built-in fallback names, brags, neutral fit score and host quips",
+    "deadlineMs": 4000,
+    "verifiedLatencyMs": 96,
+    "receipt": "fallback-verified.json",
+    "livePolly": true,
+    "automaticRetryOnNextSnag": true
+  }
+}

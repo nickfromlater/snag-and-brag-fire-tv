@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-18T01:09:30Z",
+  "build": "native-host diagnostic; synchronous decoder cleanup, background presentation unmount",
+  "scope": "Explicit Home then official warm-foreground message on the retail stick; lobby only",
+  "backgroundDuration": "approximately 20 seconds",
+  "outcome": "PASS",
+  "sameProcess": true,
+  "sameRoom": true,
+  "returnedPaused": true,
+  "audioPreloadedAgain": true,
+  "selectResumed": true,
+  "limitations": "Long background soak and a mid-game return still require verification. This does not prevent system idle takeover.",
+  "privacy": "Metadata only; process IDs and room codes omitted",
+  "extendedCheck": {
+    "at": "2026-10-18T01:15:54Z",
+    "build": "Stage rasters diagnostic",
+    "backgroundDuration": "over two minutes in TV Settings",
+    "sameProcess": true,
+    "sameRoom": true,
+    "returnedPaused": true,
+    "audioPreloadedAgain": true,
+    "exceptions": 0,
+    "outcome": "PASS"
+  }
+}

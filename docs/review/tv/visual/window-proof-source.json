@@ -1,0 +1,13 @@
+{
+  "audio": false,
+  "cropTitleBarPoints": 28,
+  "durationSeconds": 8.031667,
+  "height": 1080,
+  "pass": true,
+  "requestedFps": 60,
+  "source": "macOS ScreenCaptureKit single VVD window",
+  "sourceFrames": 460,
+  "width": 1920,
+  "windowId": 8824,
+  "bytes": 8471207
+}

@@ -1,0 +1,8 @@
+$ tsx src/main.ts
+{"at":1791896630825,"event":"started","reason":"none","port":8793}
+{"at":1791896637931,"event":"room_open","reason":"none","rooms":1,"phones":0}
+{"at":1791896664726,"event":"ai_done","reason":"none","latencyMs":151}
+{"at":1791896726292,"event":"ai_done","reason":"none","latencyMs":152}
+{"at":1791896812887,"event":"ai_done","reason":"none","latencyMs":152}
+{"at":1791896932304,"event":"room_close","reason":"tv_close","rooms":0,"phones":0,"photos":3,"clips":0}
+{"at":1791896932388,"event":"stopped","reason":"none","rooms":0,"phones":0}

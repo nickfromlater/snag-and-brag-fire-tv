@@ -1,0 +1,19 @@
+{
+  "pass": false,
+  "coreCompleted": true,
+  "exceptions": 0,
+  "polly": 28,
+  "fallback": 0,
+  "incompleteSpeech": [
+    {
+      "kind": "voice-complete",
+      "hermes": true,
+      "lineSeq": 511,
+      "path": "polly",
+      "reason": "scene",
+      "elapsedMs": 665,
+      "runtime": "native"
+    }
+  ],
+  "note": "Historical route-level pass; superseded by the stricter full-clip release gate."
+}

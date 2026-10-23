@@ -1,0 +1,20 @@
+{
+  "sdk": "0.24.12112",
+  "cli": "1.4.2",
+  "reactNative": "0.72.0",
+  "buildType": "Release",
+  "osMin": "1.2",
+  "component": "com.snagbrag.spike.main",
+  "packages": [
+    {
+      "architecture": "aarch64",
+      "bytes": 1390485,
+      "sha256": "b6307c9558cc789ee590639a1755e19dc2f2654af6335a34d494cbc8ddd126de"
+    },
+    {
+      "architecture": "armv7",
+      "bytes": 1109571,
+      "sha256": "ca11e7d7c1d41d93d2c3ca4b3f2a377ba285e53c013ce9df0ef7eb52d407d5e9"
+    }
+  ]
+}

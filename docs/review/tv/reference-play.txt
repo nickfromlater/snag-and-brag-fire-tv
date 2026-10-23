@@ -1,0 +1,2 @@
+$ node src/check-reference.ts
+{"artMatchesBundledMockup":true,"scenes":["sc-lobby","sc-intro","sc-hunt","sc-judge","sc-stand","sc-intro","sc-hunt","sc-brag","sc-stand","sc-intro","sc-hunt","sc-show","sc-stand","sc-champ"],"errors":[],"chrome":"Chrome/155.0.8059.40","audio":"muted","network":"offline","interaction":"Join; hold start for 950 ms; built-in Skip through all three rounds; synthetic bot objects only"}

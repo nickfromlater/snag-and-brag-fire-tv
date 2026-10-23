@@ -1,0 +1,64 @@
+{
+  "verifiedAt": "2026-10-13T13:01:20.905Z",
+  "target": "VVD OS 1.2 aarch64 Release",
+  "task": "One native-driver eye on a plain ready card: a fixed loop, the production sampler with settling-to-idle transition, and a still control",
+  "snapshots": {
+    "native": {
+      "kind": "snapshot",
+      "ready": true,
+      "loaded": true,
+      "connected": true,
+      "hermes": true,
+      "code": "KPPT",
+      "scene": "lobby",
+      "phase": "lobby",
+      "completed": false,
+      "paused": false,
+      "teams": 0,
+      "cues": 16,
+      "exceptions": 0,
+      "runtime": "native"
+    },
+    "sampled": {
+      "kind": "snapshot",
+      "ready": true,
+      "loaded": true,
+      "connected": true,
+      "hermes": true,
+      "code": "KPPT",
+      "scene": "lobby",
+      "phase": "lobby",
+      "completed": false,
+      "paused": false,
+      "teams": 0,
+      "cues": 17,
+      "exceptions": 0,
+      "runtime": "native"
+    },
+    "still": {
+      "kind": "snapshot",
+      "ready": true,
+      "loaded": true,
+      "connected": true,
+      "hermes": true,
+      "code": "KPPT",
+      "scene": "lobby",
+      "phase": "lobby",
+      "completed": false,
+      "paused": false,
+      "teams": 0,
+      "cues": 17,
+      "exceptions": 0,
+      "runtime": "native"
+    }
+  },
+  "exceptions": 0,
+  "screenshots": [
+    "docs/review/tv/native-eyes-single-native-start.png",
+    "docs/review/tv/native-eyes-single-native-end.png",
+    "docs/review/tv/native-eyes-single-sampled-start.png",
+    "docs/review/tv/native-eyes-single-sampled-end.png",
+    "docs/review/tv/native-eyes-single-still-start.png",
+    "docs/review/tv/native-eyes-single-still-end.png"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "runtime": "web",
+  "muted": true,
+  "input": "actual keyboard events",
+  "states": [
+    {
+      "name": "pause Voice OFF",
+      "sound": true,
+      "music": true,
+      "voice": false,
+      "paused": true,
+      "menu": "pause"
+    },
+    {
+      "name": "Music OFF independently",
+      "sound": true,
+      "music": false,
+      "voice": false,
+      "paused": true,
+      "menu": "pause"
+    },
+    {
+      "name": "Sound OFF",
+      "sound": false,
+      "music": false,
+      "voice": false,
+      "paused": true,
+      "menu": "pause"
+    },
+    {
+      "name": "resume restored",
+      "sound": true,
+      "music": true,
+      "voice": true,
+      "paused": false
+    },
+    {
+      "name": "lobby Settings Voice OFF",
+      "sound": true,
+      "music": true,
+      "voice": false,
+      "paused": false,
+      "menu": "lobby"
+    }
+  ],
+  "exceptions": []
+}

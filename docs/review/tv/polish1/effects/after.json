@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "verifiedAt": "2026-10-14T05:22:34.028Z",
+  "mode": "after",
+  "speed": 1,
+  "mockPolly": true,
+  "allBots": true,
+  "muted": true,
+  "complete": true,
+  "captureOnly": false,
+  "scenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag",
+    "show",
+    "champ"
+  ],
+  "captures": [
+    {
+      "name": "intro-slam",
+      "screenshot": "docs/review/tv/polish1/effects/after-intro-slam.png",
+      "scene": "intro",
+      "phase": "title",
+      "round": 0,
+      "paused": false,
+      "speed": 1,
+      "exceptions": 0
+    },
+    {
+      "name": "judge-banner",
+      "screenshot": "docs/review/tv/polish1/effects/after-judge-banner.png",
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "paused": false,
+      "speed": 1,
+      "exceptions": 0
+    },
+    {
+      "name": "brag-knockout",
+      "screenshot": "docs/review/tv/polish1/effects/after-brag-knockout.png",
+      "scene": "brag",
+      "phase": "knockout",
+      "round": 1,
+      "paused": false,
+      "speed": 1,
+      "exceptions": 0
+    },
+    {
+      "name": "show-holography",
+      "screenshot": "docs/review/tv/polish1/effects/after-show-holography.png",
+      "scene": "show",
+      "phase": "tally",
+      "round": 2,
+      "paused": false,
+      "speed": 1,
+      "exceptions": 0
+    },
+    {
+      "name": "champ-fireworks",
+      "screenshot": "docs/review/tv/polish1/effects/after-champ-fireworks.png",
+      "scene": "champ",
+      "phase": "finale",
+      "round": 3,
+      "paused": false,
+      "speed": 1,
+      "exceptions": 0
+    }
+  ],
+  "errors": [],
+  "pollyLines": 28,
+  "fallbackLines": 0
+}

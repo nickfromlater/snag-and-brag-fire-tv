@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "seq": 1,
+      "atMs": 0,
+      "round": -1,
+      "kind": "scene",
+      "scene": "lobby"
+    },
+    {
+      "seq": 2,
+      "atMs": 6504.5,
+      "round": -1,
+      "kind": "beat",
+      "name": "lobby"
+    },
+    {
+      "seq": 3,
+      "atMs": 9005.800000011921,
+      "round": 0,
+      "kind": "scene",
+      "scene": "intro"
+    },
+    {
+      "seq": 4,
+      "atMs": 20015.80000001192,
+      "round": 0,
+      "kind": "scene",
+      "scene": "hunt"
+    },
+    {
+      "seq": 5,
+      "atMs": 21021.399999976158,
+      "round": 0,
+      "kind": "phase",
+      "phase": "hunt"
+    },
+    {
+      "seq": 6,
+      "atMs": 22821.899999976158,
+      "round": 0,
+      "kind": "beat",
+      "name": "hunt-feeds"
+    },
+    {
+      "seq": 7,
+      "atMs": 42223.09999996424,
+      "round": 0,
+      "kind": "phase",
+      "phase": "glow"
+    },
+    {
+      "seq": 8,
+      "atMs": 43225.30000001192,
+      "round": 0,
+      "kind": "scene",
+      "scene": "judge"
+    },
+    {
+      "seq": 9,
+      "atMs": 46382.89999997616,
+      "round": 0,
+      "kind": "scan"
+    },
+    {
+      "seq": 10,
+      "atMs": 46733.80000001192,
+      "round": 0,
+      "kind": "beat",
+      "name": "pixel-judge-mask"
+    },
+    {
+      "seq": 11,
+      "atMs": 49006.5,
+      "round": 0,
+      "kind": "scan"
+    },
+    {
+      "seq": 12,
+      "atMs": 51621.09999996424,
+      "round": 0,
+      "kind": "scan"
+    },
+    {
+      "seq": 13,
+      "atMs": 54238.30000001192,
+      "round": 0,
+      "kind": "scan"
+    },
+    {
+      "seq": 14,
+      "atMs": 58345.19999998808,
+      "round": 0,
+      "kind": "scene",
+      "scene": "stand"
+    },
+    {
+      "seq": 15,
+      "atMs": 64010.19999998808,
+      "round": 1,
+      "kind": "scene",
+      "scene": "intro"
+    },
+    {
+      "seq": 16,
+      "atMs": 75023.30000001192,
+      "round": 1,
+      "kind": "scene",
+      "scene": "hunt"
+    },
+    {
+      "seq": 17,
+      "atMs": 76028.89999997616,
+      "round": 1,
+      "kind": "phase",
+      "phase": "hunt"
+    },
+    {
+      "seq": 18,
+      "atMs": 97234.80000001192,
+      "round": 1,
+      "kind": "phase",
+      "phase": "glow"
+    },
+    {
+      "seq": 19,
+      "atMs": 98237.69999998808,
+      "round": 1,
+      "kind": "scene",
+      "scene": "brag"
+    },
+    {
+      "seq": 20,
+      "atMs": 106191.59999996424,
+      "round": 1,
+      "kind": "phase",
+      "phase": "mash"
+    },
+    {
+      "seq": 21,
+      "atMs": 114691.5,
+      "round": 1,
+      "kind": "scene",
+      "scene": "brag"
+    },
+    {
+      "seq": 22,
+      "atMs": 122508.30000001192,
+      "round": 1,
+      "kind": "phase",
+      "phase": "mash"
+    },
+    {
+      "seq": 23,
+      "atMs": 130496.5,
+      "round": 1,
+      "kind": "scene",
+      "scene": "brag"
+    },
+    {
+      "seq": 24,
+      "atMs": 138169.69999998808,
+      "round": 1,
+      "kind": "phase",
+      "phase": "mash"
+    },
+    {
+      "seq": 25,
+      "atMs": 140570.5,
+      "round": 1,
+      "kind": "beat",
+      "name": "brag-final-mash"
+    },
+    {
+      "seq": 26,
+      "atMs": 146690.80000001192,
+      "round": 1,
+      "kind": "scene",
+      "scene": "stand"
+    },
+    {
+      "seq": 27,
+      "atMs": 152250.89999997616,
+      "round": 2,
+      "kind": "scene",
+      "scene": "intro"
+    },
+    {
+      "seq": 28,
+      "atMs": 162949.59999996424,
+      "round": 2,
+      "kind": "scene",
+      "scene": "hunt"
+    },
+    {
+      "seq": 29,
+      "atMs": 163952.19999998808,
+      "round": 2,
+      "kind": "phase",
+      "phase": "hunt"
+    },
+    {
+      "seq": 30,
+      "atMs": 185154.89999997616,
+      "round": 2,
+      "kind": "phase",
+      "phase": "glow"
+    },
+    {
+      "seq": 31,
+      "atMs": 186158.5,
+      "round": 2,
+      "kind": "scene",
+      "scene": "show"
+    },
+    {
+      "seq": 32,
+      "atMs": 190768.89999997616,
+      "round": 2,
+      "kind": "phase",
+      "phase": "vote"
+    },
+    {
+      "seq": 33,
+      "atMs": 199475.09999996424,
+      "round": 2,
+      "kind": "beat",
+      "name": "showstopper-win"
+    },
+    {
+      "seq": 34,
+      "atMs": 200592.69999998808,
+      "round": 2,
+      "kind": "scene",
+      "scene": "stand"
+    },
+    {
+      "seq": 35,
+      "atMs": 206254,
+      "round": 2,
+      "kind": "scene",
+      "scene": "champ"
+    },
+    {
+      "seq": 36,
+      "atMs": 211247.30000001192,
+      "round": 2,
+      "kind": "beat",
+      "name": "finale"
+    },
+    {
+      "seq": 37,
+      "atMs": 217369.59999996424,
+      "round": 2,
+      "kind": "complete"
+    }
+  ]
+}

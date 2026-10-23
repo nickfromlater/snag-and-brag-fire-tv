@@ -1,0 +1,11 @@
+{
+  "context": "Unprofiled full game completed rounds zero and one; screensaver interrupted round two countdown. App background cleanup fired, but the process was later terminated.",
+  "privacy": "Only sanitized process/resource metadata retained; raw report read in RAM.",
+  "reason": "LowMemoryKiller",
+  "foregroundApp": "com.amazon.screensaver.main",
+  "at": "2026-10-18T01:32:11+00:00",
+  "action": "terminate-state-background",
+  "gamePssKiB": 19509,
+  "gameSwapPssKiB": 153180,
+  "gameDrmKiB": 153808
+}

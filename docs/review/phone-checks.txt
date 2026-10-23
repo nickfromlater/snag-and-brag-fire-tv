@@ -1,0 +1,39 @@
+$ pnpm -r --if-present test
+Scope: 2 of 3 workspace projects
+$ vitest run
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/phone/shared
+
+ ✓ test/pixelJudge.test.ts (5 tests) 29ms
+
+ Test Files  1 passed (1)
+      Tests  5 passed (5)
+   Start at  21:19:08
+   Duration  334ms (transform 63ms, setup 0ms, collect 68ms, tests 29ms, environment 0ms, prepare 60ms)
+
+$ vitest run
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/phone/phone
+
+ ✓ test/art.test.ts (2 tests) 7ms
+ ✓ test/camera.test.ts (4 tests) 3ms
+ ✓ test/logic.test.ts (17 tests) 3ms
+
+ Test Files  3 passed (3)
+      Tests  23 passed (23)
+   Start at  21:19:09
+   Duration  313ms (transform 96ms, setup 0ms, collect 173ms, tests 13ms, environment 0ms, prepare 296ms)
+
+$ pnpm -r --if-present typecheck
+$ tsc --noEmit -p .
+$ tsc --noEmit -p .
+$ tsc --noEmit -p . && vite build
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 19 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.80 kB │ gzip:  0.43 kB
+dist/assets/index-xi5y0ogD.css  28.45 kB │ gzip:  6.51 kB
+dist/assets/index-GT6SmF58.js   80.36 kB │ gzip: 29.41 kB
+✓ built in 195ms

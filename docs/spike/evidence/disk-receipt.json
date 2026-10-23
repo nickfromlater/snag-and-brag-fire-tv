@@ -1,0 +1,54 @@
+{
+  "measuredDate": "2026-10-12",
+  "sdkInstalledThisSession": false,
+  "rows": [
+    {
+      "kind": "sdk_reused",
+      "path": "~/vega",
+      "allocatedBytes": 6462156800
+    },
+    {
+      "kind": "spike",
+      "path": "~/Desktop/Projects/snag-wt/spike/spike",
+      "allocatedBytes": 626151424
+    },
+    {
+      "kind": "documents_and_evidence",
+      "path": "~/Desktop/Projects/snag-wt/spike/docs/spike",
+      "allocatedBytes": 11583488
+    },
+    {
+      "kind": "local_skills",
+      "path": "~/Desktop/Projects/snag-wt/spike/.agents",
+      "allocatedBytes": 24576
+    }
+  ],
+  "installs": [
+    {
+      "kind": "builder_tools",
+      "path": "~/Desktop/Projects/snag-wt/spike/spike/tooling/node_modules",
+      "allocatedBytes": 33320960
+    },
+    {
+      "kind": "native_app_dependencies",
+      "path": "~/Desktop/Projects/snag-wt/spike/spike/vega-app/node_modules",
+      "allocatedBytes": 472621056
+    },
+    {
+      "kind": "python_font_fixture_helpers",
+      "path": "~/Desktop/Projects/snag-wt/spike/spike/.cache/pyenv",
+      "allocatedBytes": 52649984
+    }
+  ],
+  "newFootprintBytes": 637759488,
+  "combinedBytes": 7099916288,
+  "limitBytes": 8000000000,
+  "notes": [
+    "SDK and VVD reused, no reinstall/download",
+    "expo-gl unpacked 725906 bytes included in native dependencies",
+    "ffmpeg/librsvg/Swift pre-existing",
+    "npm/pip/Swift caches and discarded RN83 scaffold removed",
+    "VPKGs/build intermediates retained locally and ignored",
+    "No SDK license click-through, accounts, purchases or publishing"
+  ]
+}

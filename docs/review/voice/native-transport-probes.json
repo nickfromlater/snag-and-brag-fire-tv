@@ -1,0 +1,41 @@
+{
+  "status": "historical failures, superseded by final native game",
+  "runtime": "native",
+  "errors": [
+    {
+      "kind": "audio-error",
+      "hermes": true,
+      "file": "polly",
+      "codec": "mp3",
+      "code": "4",
+      "runtime": "native"
+    },
+    {
+      "kind": "audio-error",
+      "hermes": true,
+      "file": "polly",
+      "codec": "mp3",
+      "code": "3",
+      "runtime": "native"
+    },
+    {
+      "kind": "audio-error",
+      "hermes": true,
+      "file": "polly",
+      "codec": "mp3",
+      "code": "3",
+      "source": "",
+      "runtime": "native"
+    },
+    {
+      "kind": "audio-error",
+      "hermes": true,
+      "file": "polly",
+      "codec": "mp3",
+      "code": "4",
+      "source": "",
+      "runtime": "native"
+    }
+  ],
+  "workaround": "fragmented AAC/MP4 and asynchronous media retirement; see F-VOICE-VEGA-02/03"
+}

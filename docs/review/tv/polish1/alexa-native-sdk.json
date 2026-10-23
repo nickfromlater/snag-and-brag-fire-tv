@@ -1,0 +1,91 @@
+{
+  "pass": false,
+  "reason": "SDK injection failed",
+  "verifiedAt": "2026-10-14T04:21:54.963Z",
+  "speed": 1,
+  "runtime": "VVD aarch64 Release/Hermes",
+  "injectedVia": "Vega Media Controls SDK client -> platform service -> registered game handler",
+  "spokenAlexaTested": false,
+  "checks": [],
+  "lastSnapshot": {
+    "kind": "snapshot",
+    "hermes": true,
+    "ready": true,
+    "loaded": true,
+    "connected": true,
+    "code": "KPYS",
+    "scene": "intro",
+    "phase": "title",
+    "round": 0,
+    "mood": "normal",
+    "completed": false,
+    "paused": false,
+    "teams": 3,
+    "cues": 39,
+    "exceptions": 0,
+    "runtime": "native"
+  },
+  "events": [
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": false,
+      "status": "NOT_PLAYING",
+      "sessionId": 1,
+      "actions": "",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-registered",
+      "hermes": true,
+      "route": "vega-server",
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": false,
+      "status": "NOT_PLAYING",
+      "sessionId": 1,
+      "actions": "",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-registered",
+      "hermes": true,
+      "route": "vega-server",
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "media-session",
+      "hermes": true,
+      "active": true,
+      "status": "PLAYING",
+      "sessionId": 1,
+      "actions": "PLAY,PAUSE,TOGGLE_PLAY_PAUSE,STOP,NEXT,FAST_FORWARD",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-injection-api",
+      "hermes": true,
+      "source": "factory:function",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-injection-api",
+      "hermes": true,
+      "source": "locator:function",
+      "runtime": "native"
+    },
+    {
+      "kind": "media-injection-error",
+      "hermes": true,
+      "action": "pause",
+      "route": "sdk",
+      "reason": "TypeError: undefined is not a function",
+      "runtime": "native"
+    }
+  ]
+}

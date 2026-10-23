@@ -1,0 +1,88 @@
+{
+  "runtime": "native",
+  "muted": true,
+  "method": "pause menu, four Down presses, Select; verify native-settings.png for rendered values",
+  "records": [
+    {
+      "kind": "cue",
+      "hermes": true,
+      "seq": 18,
+      "at": 1791943673868,
+      "round": -1,
+      "cue": "menu",
+      "runtime": "native"
+    },
+    {
+      "kind": "cue",
+      "hermes": true,
+      "seq": 19,
+      "at": 1791943673869,
+      "round": -1,
+      "cue": "pause",
+      "runtime": "native"
+    },
+    {
+      "kind": "cue",
+      "hermes": true,
+      "seq": 20,
+      "at": 1791943674115,
+      "round": -1,
+      "cue": "menu",
+      "runtime": "native"
+    },
+    {
+      "kind": "cue",
+      "hermes": true,
+      "seq": 22,
+      "at": 1791943674240,
+      "round": -1,
+      "cue": "menu",
+      "runtime": "native"
+    },
+    {
+      "kind": "cue",
+      "hermes": true,
+      "seq": 24,
+      "at": 1791943674359,
+      "round": -1,
+      "cue": "menu",
+      "runtime": "native"
+    },
+    {
+      "kind": "cue",
+      "hermes": true,
+      "seq": 26,
+      "at": 1791943674478,
+      "round": -1,
+      "cue": "menu",
+      "runtime": "native"
+    },
+    {
+      "kind": "cue",
+      "hermes": true,
+      "seq": 28,
+      "at": 1791943674600,
+      "round": -1,
+      "cue": "settings",
+      "runtime": "native"
+    },
+    {
+      "kind": "snapshot",
+      "hermes": true,
+      "ready": true,
+      "loaded": true,
+      "connected": true,
+      "code": "CGGL",
+      "scene": "lobby",
+      "phase": "lobby",
+      "round": -1,
+      "mood": "normal",
+      "completed": false,
+      "paused": true,
+      "teams": 0,
+      "cues": 28,
+      "exceptions": 0,
+      "runtime": "native"
+    }
+  ]
+}

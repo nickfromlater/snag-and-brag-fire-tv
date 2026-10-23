@@ -1,0 +1,13 @@
+{
+  "reason": "Local Vite hot refresh during layout work disposed the in-progress session; restart cleanly after source edits.",
+  "state": {
+    "scene": "hunt",
+    "phase": "hunt",
+    "round": 1,
+    "paused": false,
+    "completed": false,
+    "now": 1792541520917,
+    "deadline": 1792541343880,
+    "exceptions": 0
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "target": "Chrome web iteration",
+  "url": "http://127.0.0.1:5176",
+  "audio": "muted",
+  "privacy": "Synthetic objects through the memory-only relay photo path",
+  "synthetic": {
+    "photos": 3,
+    "votes": 1,
+    "taps": 180,
+    "cameraRounds": [
+      0,
+      1,
+      2
+    ],
+    "glowRounds": [
+      0,
+      1,
+      2
+    ],
+    "wireErrors": [],
+    "closed": false
+  },
+  "completed": true,
+  "exceptions": 0,
+  "pauseFrozen": true,
+  "edgeCases": [
+    {
+      "count": 3,
+      "centered": true,
+      "voteInStageSpace": true
+    },
+    {
+      "count": 2,
+      "centered": true,
+      "voteInStageSpace": true
+    },
+    {
+      "count": 1,
+      "centered": true,
+      "voteInStageSpace": true
+    },
+    {
+      "count": 0,
+      "centered": true,
+      "voteInStageSpace": true
+    }
+  ],
+  "scenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag",
+    "show",
+    "champ"
+  ],
+  "captures": [
+    "web-brag-lines",
+    "web-brag-mash",
+    "web-brag-knockout",
+    "web-show-vote",
+    "web-show-win",
+    "web-champ"
+  ],
+  "states": [
+    {
+      "name": "web-brag-lines",
+      "scene": "brag",
+      "phase": "brag-lines",
+      "elapsed": 1930,
+      "complete": false,
+      "paused": false,
+      "line": 1,
+      "winner": false,
+      "heroElapsed": 0,
+      "object": false,
+      "exceptions": 0
+    },
+    {
+      "name": "web-brag-mash",
+      "scene": "brag",
+      "phase": "mash",
+      "elapsed": 2020,
+      "complete": false,
+      "paused": false,
+      "winner": false,
+      "heroElapsed": 0,
+      "object": false,
+      "exceptions": 0
+    },
+    {
+      "name": "web-brag-knockout",
+      "scene": "brag",
+      "phase": "knockout",
+      "elapsed": 1420,
+      "complete": false,
+      "paused": false,
+      "winner": false,
+      "heroElapsed": 0,
+      "object": false,
+      "exceptions": 0
+    },
+    {
+      "name": "web-show-vote",
+      "scene": "show",
+      "phase": "vote",
+      "elapsed": 1701,
+      "complete": false,
+      "paused": false,
+      "line": null,
+      "winner": false,
+      "heroElapsed": 0,
+      "object": false,
+      "exceptions": 0
+    },
+    {
+      "name": "web-show-win",
+      "scene": "show",
+      "phase": "tally",
+      "elapsed": 3490,
+      "complete": false,
+      "paused": false,
+      "line": null,
+      "winner": true,
+      "heroElapsed": 1280,
+      "object": false,
+      "exceptions": 0
+    },
+    {
+      "name": "web-champ",
+      "scene": "champ",
+      "phase": "finale",
+      "elapsed": 7900,
+      "complete": true,
+      "paused": false,
+      "line": null,
+      "winner": false,
+      "heroElapsed": 0,
+      "object": true,
+      "exceptions": 0
+    }
+  ],
+  "errors": []
+}

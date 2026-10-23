@@ -1,0 +1,7 @@
+"pid","name","thread","name","n","avg_ms","span_s","starts_per_s"
+19038,"stem-init","Toolkit/Render","frame",310,26.114000,8.125000,38.030000
+19038,"stem-init","Toolkit/Render","render",310,20.211000,8.114000,38.080000
+19038,"stem-init","Toolkit/Render","surface",310,25.086000,8.114000,38.080000
+19038,"stem-init","Toolkit/UI","uistart",312,15.171000,8.137000,38.220000
+19038,"stem-init","gwsi_vsync","gwsi_VsyncEvent",620,0.003000,8.244000,75.090000
+19038,"stem-init","gwsi_vsync","idle_frame",304,0.004000,8.188000,37.000000

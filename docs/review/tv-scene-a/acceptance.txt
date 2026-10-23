@@ -1,0 +1,23 @@
+Worker A: intro + stand
+
+Built: reference title/kicker/subline, 16-card quartic reel, 60-light marquee, arrows, 3-2-1 and 250px SNAG; standings lanes, native score rolls, 1.3s bar/rider races, six badge hops, deltas, overtake stamps and leader crown.
+
+Web: full three-round seeded bot game, zero exceptions, frozen/resumed reel, all countdown states, reduced-motion ranking and score bars. See web/verification.json and the clearly labeled web comparison sheets.
+
+Checks: pnpm test, pnpm typecheck and pnpm lint passed; native Release package built for aarch64 with SDK 0.24.12112. See checks.txt.
+
+Native acceptance: failed/pending. The final attempt used a persistent VVD lock, native-only observer, readiness/reset acknowledgments and fresh screenshot directories. Title, reel, SNAG and standings pixels still retain bootstrap artwork. The fast native run stopped at hunt cue 73 without completing. See failed-native/final-attempt.json and final-runtime.jsonl; none of these frames is acceptance evidence. A fixed-size, noncollapsible root-container probe without a Stage remount also failed and was reverted. The device app was stopped and the lock released.
+
+Run web: Node 24; pnpm --filter @snag/tv assets; mock relay on 8787; pnpm --filter @snag/tv dev --port 5184; node tv/tooling/verify-scene-a-web.mjs.
+
+Run native acceptance only under the shared VVD lock: configure TV_CONTROL_URL=ws://127.0.0.1:8801 with tv/tooling/configure.mjs; build Release aarch64; run control.mjs with TV_CONTROL_PORT=8801 and TV_CONTROL_DIR set to this folder; reverse 8787 and 8801; install and launch; run TV_CONTROL_PORT=8801 node tv/tooling/verify-scene-a-native.mjs. The lock owner must start with Worker A scene-a and name a live persistent holder PID.
+
+Adaptations: banded bulb glow and reel fades replace CSS filters; crown uses the native pop spring with reference drop/rotation/scale; bar corners stretch with transform width and stripes compress during the race, matching final spacing. Labels clamp to 16px. No game-core or wire shape changed. See DECISIONS.md and friction entry F-TV-A-01.
+
+Mac/Chrome muted. No real photo or thumbnail was captured or persisted.
+
+Generic additions: MarqueeLights, ScrollingStripes, RollingText, display geometry/glyph helpers, percentage-layout bases and anchors for Motion, finite animation repeats, optional crown entrance geometry, and UI-thread world effects. Stage changes are in separate commits. Intro/stand imports remain restricted to stage and shared.
+
+Unfinished: accepted native title/reel/count/standings screenshots, docs/review/tv-intro-compare.png, docs/review/tv-stand-compare.png, both 60fps MP4s and a completed zero-exception fast native game. The web sheets are labeled as iteration evidence and must not substitute for these deliverables.
+
+Final cleanup: removed the ineffective readiness Stage remount from App; final root test/typecheck/lint and default-configuration aarch64 Release build passed. The web dev target remains on 127.0.0.1:5184. Native control and reference servers stopped.

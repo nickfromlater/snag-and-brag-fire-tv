@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-17T17:05:45.135Z",
+  "region": "us-east-1",
+  "scope": "Account model catalog; no inference calls or images. Runtime project retention is separately verified as none.",
+  "models": [
+    {
+      "model": "anthropic.claude-opus-5",
+      "status": "unavailable",
+      "allowedRetentionModes": [
+        "aws_review",
+        "provider_data_share",
+        "none",
+        "default"
+      ],
+      "foundationAvailability": {
+        "authorization": "AUTHORIZED",
+        "agreement": "NOT_AVAILABLE",
+        "entitlement": "AVAILABLE",
+        "region": "AVAILABLE"
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "status": "unavailable",
+      "allowedRetentionModes": [
+        "aws_review",
+        "provider_data_share",
+        "none",
+        "default"
+      ],
+      "foundationAvailability": {
+        "authorization": "AUTHORIZED",
+        "agreement": "NOT_AVAILABLE",
+        "entitlement": "AVAILABLE",
+        "region": "AVAILABLE"
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "status": "unavailable",
+      "allowedRetentionModes": [
+        "aws_review",
+        "provider_data_share",
+        "default",
+        "none"
+      ],
+      "foundationAvailability": {
+        "lookup": "Mantle identifier rejected by the foundation-model API; use the Mantle catalog status."
+      }
+    }
+  ],
+  "catalogAccessMessage": "Not available for this account; AWS catalog points to https://aws.amazon.com/contact-us/sales-support/ for access options."
+}

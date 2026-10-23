@@ -1,0 +1,4 @@
+Nine synthetic fixture screenshots, 390×844 each.
+Left: w/phone. Right: approved reference, normalized from 465×1025 to 390×844.
+Browser errors: 0.
+Camera fixture is synthetic; no player photos are captured or saved.

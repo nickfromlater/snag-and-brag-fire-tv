@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "sourceCommit": "f9b41924fb835d06043a9117eaeb882948508b6e",
+  "nativePackageBytes": 16695440,
+  "nativePackageSha256": "25a73d7f1b0ff18bc5dc0134e25ad4a4f6ae169f8c3db0fa90ca0fb736b12e4b",
+  "runtime": "aarch64 Release/Hermes",
+  "speed": 1,
+  "allBots": true,
+  "mockPolly": true,
+  "fullClips": 28,
+  "runtimeExceptions": 0,
+  "audioErrors": 0,
+  "nativePreparationWindowMs": 2000,
+  "visualAcceptance": false,
+  "note": "Core/audio acceptance only; native presentation requires separate review."
+}

@@ -1,0 +1,88 @@
+$ pnpm -r --if-present test
+Scope: 6 of 7 workspace projects
+tools/render-art test$ vitest run
+shared test$ vitest run
+tools/render-audio test$ vitest run
+tools/render-art test: 
+tools/render-art test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/tools/render-art
+tools/render-art test: 
+shared test: 
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/shared
+shared test: 
+tools/render-audio test: 
+tools/render-audio test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/tools/render-audio
+tools/render-audio test: 
+shared test:  ✓ test/prompts.test.ts (2 tests) 4ms
+shared test:  ✓ test/mash.test.ts (2 tests) 13ms
+shared test:  ✓ test/host.test.ts (8 tests) 7ms
+shared test:  ✓ test/pixelJudge.test.ts (6 tests) 53ms
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 543ms
+tools/render-audio test: 
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  09:17:53
+tools/render-audio test:    Duration  2.06s (transform 126ms, setup 0ms, collect 632ms, tests 543ms, environment 0ms, prepare 349ms)
+tools/render-audio test: 
+tools/render-audio test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 1407ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  1015ms
+tools/render-art test:    ✓ shippable reference art > leaves transparent padding around every complete sticker filter region  349ms
+tools/render-art test: 
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  09:17:53
+tools/render-art test:    Duration  2.44s (transform 177ms, setup 0ms, collect 307ms, tests 1.41s, environment 0ms, prepare 308ms)
+tools/render-art test: 
+tools/render-art test: Done
+shared test:  ✓ test/game.test.ts (33 tests) 1832ms
+shared test: 
+shared test:  Test Files  5 passed (5)
+shared test:       Tests  51 passed (51)
+shared test:    Start at  09:17:53
+shared test:    Duration  3.07s (transform 441ms, setup 0ms, collect 1.84s, tests 1.91s, environment 0ms, prepare 958ms)
+shared test: 
+shared test: Done
+phone test$ vitest run
+relay test$ vitest run
+tvsim test$ vitest run
+tvsim test: 
+tvsim test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/tvsim
+tvsim test: 
+phone test: 
+phone test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/phone
+phone test: 
+relay test: 
+relay test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/face-blur/relay
+relay test: 
+phone test:  ✓ test/art.test.ts (2 tests) 3ms
+phone test:  ✓ test/faceBlur.test.ts (12 tests) 9ms
+phone test:  ✓ test/camera.test.ts (4 tests) 2ms
+phone test:  ✓ test/logic.test.ts (17 tests) 3ms
+phone test: 
+phone test:  Test Files  4 passed (4)
+phone test:       Tests  35 passed (35)
+phone test:    Start at  09:17:56
+phone test:    Duration  744ms (transform 315ms, setup 0ms, collect 628ms, tests 18ms, environment 0ms, prepare 430ms)
+phone test: 
+phone test: Done
+tvsim test:  ✓ test/simulator.test.ts (4 tests) 210ms
+tvsim test: 
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  4 passed (4)
+tvsim test:    Start at  09:17:56
+tvsim test:    Duration  933ms (transform 198ms, setup 0ms, collect 305ms, tests 210ms, environment 0ms, prepare 61ms)
+tvsim test: 
+relay test:  ✓ test/services.test.ts (17 tests) 86ms
+tvsim test: Done
+relay test:  ✓ test/server.test.ts (29 tests) 11639ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > times out mock AI within 4.1 seconds, broadcasts one fallback and still answers ping  4562ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > closes rooms after TV absence or maximum age and cancels the grace timer on resume  341ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > returns ok:false for mock Polly past the five second budget  5003ms
+relay test:    ✓ malformed input and rate caps > caps thumbs at five per second and allows a new window  1041ms
+relay test: 
+relay test:  Test Files  2 passed (2)
+relay test:       Tests  46 passed (46)
+relay test:    Start at  09:17:56
+relay test:    Duration  12.54s (transform 223ms, setup 0ms, collect 856ms, tests 11.72s, environment 0ms, prepare 142ms)
+relay test: 
+relay test: Done

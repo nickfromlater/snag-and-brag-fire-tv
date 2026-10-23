@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-18T00:06:56Z",
+  "scope": "React lifecycle regression for the actual App.Show composition",
+  "negativeControl": {
+    "change": "Restored the original duplicate sibling keys for scene, particles and host",
+    "outcome": "FAIL as expected",
+    "activeLayersAfterStartupAndOneViewUpdate": { "scenes": 6, "particleFields": 4, "hosts": 1 }
+  },
+  "corrected": {
+    "change": "Unique keys for each layer and presentation",
+    "outcome": "PASS",
+    "coverage": "All eight scenes, staged startup, repeated view updates, new presentation and unmount",
+    "activeLayers": { "scenes": 1, "particleFields": 1, "hosts": 1 },
+    "activeLayersAfterUnmount": { "scenes": 0, "particleFields": 0, "hosts": 0 }
+  },
+  "hardwareAcceptance": "Pending separate three-game native regression",
+  "privacy": "No media or private device/account identifiers retained"
+}

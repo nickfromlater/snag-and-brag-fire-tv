@@ -1,0 +1,73 @@
+{
+  "name": "@snag/tv",
+  "version": "0.1.0",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "web:build": "vite build",
+    "start": "react-native start",
+    "typecheck": "tsc --noEmit -p .",
+    "lint": "eslint src test --ext .ts,.tsx",
+    "test": "pnpm lint && vitest run",
+    "assets": "node ../tools/tv-foundation/generate.mjs",
+    "build:debug": "pnpm assets && react-native build-vega --build-type Debug",
+    "build:release": "pnpm assets && react-native build-vega --build-type Release",
+    "verify:web": "node tooling/verify-web.mjs",
+    "control": "node tooling/control.mjs"
+  },
+  "dependencies": {
+    "@amazon-devices/expo-asset": "~2.0.0",
+    "@amazon-devices/expo-constants": "~2.0.0",
+    "@amazon-devices/expo-font": "2.0.1758683737",
+    "@amazon-devices/kepler-media-controls": "~1.0.0",
+    "@amazon-devices/keplerscript-turbomodule-api": "1.2.5",
+    "@amazon-devices/react-native-fast-image": "4.0.0",
+    "@amazon-devices/react-native-kepler": "2.0.9000000000",
+    "@amazon-devices/react-native-reanimated": "2.0.9000000001",
+    "@amazon-devices/react-native-svg": "2.0.9000000001",
+    "@amazon-devices/react-native-w3cmedia": "~2.3.2",
+    "@snag/shared": "workspace:*",
+    "base-64": "1.0.0",
+    "expo": "~50.0.0",
+    "jpeg-js": "0.4.4",
+    "qrcode-generator": "1.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.0",
+    "react-native-svg": "13.14.0",
+    "react-native-web": "0.19.13"
+  },
+  "devDependencies": {
+    "@amazon-devices/kepler-cli-platform": "0.22.14",
+    "@babel/core": "^7.25.2",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "11.3.2",
+    "@react-native/metro-config": "0.72.6",
+    "@tsconfig/react-native": "3.0.5",
+    "@types/base-64": "1.0.2",
+    "@types/node": "^24.0.0",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "@types/react-test-renderer": "18.3.1",
+    "@typescript-eslint/parser": "8.44.1",
+    "@vitejs/plugin-react": "^4.5.0",
+    "eslint": "8.57.1",
+    "metro-react-native-babel-preset": "0.76.8",
+    "opentype.js": "1.3.4",
+    "puppeteer-core": "^24.0.0",
+    "react-test-renderer": "18.2.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "ws": "8.18.3"
+  },
+  "kepler": {
+    "projectType": "application",
+    "appName": "SnagBrag",
+    "targets": [
+      "tv"
+    ]
+  }
+}

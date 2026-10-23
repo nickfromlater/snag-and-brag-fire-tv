@@ -1,0 +1,39 @@
+pnpm test
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test: Done
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test: Done
+shared test:  Test Files  5 passed (5)
+shared test:       Tests  51 passed (51)
+shared test: Done
+tv test: $ eslint src test --ext .ts,.tsx
+phone test:  Test Files  3 passed (3)
+phone test:       Tests  23 passed (23)
+phone test: Done
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  4 passed (4)
+tvsim test: Done
+tv test:  Test Files  5 passed (5)
+tv test:       Tests  27 passed (27)
+tv test: Done
+relay test:  Test Files  2 passed (2)
+relay test:       Tests  45 passed (45)
+relay test: Done
+
+pnpm typecheck
+shared typecheck: Done
+tools/render-art typecheck: Done
+tools/render-audio typecheck: Done
+tvsim typecheck: Done
+phone typecheck: Done
+relay typecheck: Done
+tv typecheck: Done
+
+pnpm lint
+$ eslint src test --ext .ts,.tsx
+
+Release native build: SDK 0.24.12112 / aarch64 / system JS bundles / max workers 3; completed.
+Native visual acceptance: FAILED; see failed-native/final-attempt.json.
+Final source uses the stable Stage; ineffective readiness remount removed.

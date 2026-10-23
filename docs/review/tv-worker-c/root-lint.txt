@@ -1,0 +1,2 @@
+$ pnpm -r --if-present lint
+$ eslint src test --ext .ts,.tsx

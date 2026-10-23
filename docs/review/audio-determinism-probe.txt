@@ -1,0 +1,128 @@
+{
+  id: 'sfx-fanfare',
+  iteration: 0,
+  sha256: 'fa21b1b29074d1d03c63443a17ff2879433ebe3f2a5109d03bc51ec00e6380d6',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 3, unityNodes: 41, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-fanfare',
+  iteration: 1,
+  sha256: 'fa21b1b29074d1d03c63443a17ff2879433ebe3f2a5109d03bc51ec00e6380d6',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 3, unityNodes: 41, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-fanfare',
+  iteration: 2,
+  sha256: 'fa21b1b29074d1d03c63443a17ff2879433ebe3f2a5109d03bc51ec00e6380d6',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 3, unityNodes: 41, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-fanfare',
+  iteration: 3,
+  sha256: 'fa21b1b29074d1d03c63443a17ff2879433ebe3f2a5109d03bc51ec00e6380d6',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 3, unityNodes: 41, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-snagged',
+  iteration: 0,
+  sha256: '912fc9845afb5394d9a0e0f163c80bf5c4d26b4411d5f793ece383e400debd0e',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 3, unityNodes: 23, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-snagged',
+  iteration: 1,
+  sha256: '912fc9845afb5394d9a0e0f163c80bf5c4d26b4411d5f793ece383e400debd0e',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 3, unityNodes: 23, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-snagged',
+  iteration: 2,
+  sha256: '912fc9845afb5394d9a0e0f163c80bf5c4d26b4411d5f793ece383e400debd0e',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 3, unityNodes: 23, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-snagged',
+  iteration: 3,
+  sha256: '912fc9845afb5394d9a0e0f163c80bf5c4d26b4411d5f793ece383e400debd0e',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 3, unityNodes: 23, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-slam',
+  iteration: 0,
+  sha256: '862d2dec652bee486602caae945872743dd1c2b7fe0311dab4f86ad7ae1af502',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 2, unityNodes: 4, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-slam',
+  iteration: 1,
+  sha256: '862d2dec652bee486602caae945872743dd1c2b7fe0311dab4f86ad7ae1af502',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 2, unityNodes: 4, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-slam',
+  iteration: 2,
+  sha256: '862d2dec652bee486602caae945872743dd1c2b7fe0311dab4f86ad7ae1af502',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 2, unityNodes: 4, maxInputsPerSum: 2 }
+}
+{
+  id: 'sfx-slam',
+  iteration: 3,
+  sha256: '862d2dec652bee486602caae945872743dd1c2b7fe0311dab4f86ad7ae1af502',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 2, unityNodes: 4, maxInputsPerSum: 2 }
+}
+{
+  id: 'music-lobby',
+  iteration: 0,
+  sha256: 'c016632554c36ffd855fbecd0cb432e7c941ee2f357fc778585910582239375f',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 2, unityNodes: 337, maxInputsPerSum: 2 }
+}
+{
+  id: 'music-lobby',
+  iteration: 1,
+  sha256: 'c016632554c36ffd855fbecd0cb432e7c941ee2f357fc778585910582239375f',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 2, unityNodes: 337, maxInputsPerSum: 2 }
+}
+{
+  id: 'music-lobby',
+  iteration: 2,
+  sha256: 'c016632554c36ffd855fbecd0cb432e7c941ee2f357fc778585910582239375f',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 2, unityNodes: 337, maxInputsPerSum: 2 }
+}
+{
+  id: 'music-lobby',
+  iteration: 3,
+  sha256: 'c016632554c36ffd855fbecd0cb432e7c941ee2f357fc778585910582239375f',
+  differences: 0,
+  maxPcm16Delta: 0,
+  deterministicMix: { junctions: 2, unityNodes: 337, maxInputsPerSum: 2 }
+}

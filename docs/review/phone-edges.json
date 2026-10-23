@@ -1,0 +1,82 @@
+{
+  "browser": "Chrome/155.0.8059.40",
+  "checks": [
+    {
+      "check": "actual WebSocket hello/msg/binary + close/wake/pageshow/reload recovery + pause/resume + relay clock + no-store photo fetch + room-close cleanup",
+      "connects": 7,
+      "distinctReconnectTokens": 1,
+      "clockOffsetMs": 5000,
+      "hello": {
+        "proto": 1,
+        "role": "phone",
+        "code": "EDGE"
+      },
+      "frames": [
+        {
+          "header": {
+            "t": "snag",
+            "round": 0,
+            "hex": "#f23b2e",
+            "match": 99,
+            "prompt": "Snag the most RED thing in the house",
+            "roundKind": "color"
+          },
+          "bytes": 52650
+        }
+      ],
+      "thumbnailCount": 9,
+      "photoReads": [
+        {
+          "cache": "no-store",
+          "bytes": 52650
+        }
+      ],
+      "storage": [
+        {
+          "key": "snag:cid:EDGE",
+          "length": 32
+        },
+        {
+          "key": "snag:host:EDGE",
+          "length": 32
+        }
+      ],
+      "outcome": "PASS"
+    },
+    {
+      "check": "taken colors, full room, local-name preservation, stale screens",
+      "outcome": "PASS"
+    },
+    {
+      "check": "noisy 96×64 browser JPEG encoder fits 2–4 KB; last-ten-second red timer/bar",
+      "bytes": 2605,
+      "outcome": "PASS"
+    },
+    {
+      "check": "unsupported-camera fallback",
+      "outcome": "PASS"
+    },
+    {
+      "check": "embedded-browser detection and copy-link control",
+      "outcome": "PASS"
+    },
+    {
+      "check": "iOS orientation permission denied, pointer fallback, end-screen fit",
+      "outcome": "PASS"
+    },
+    {
+      "check": "iOS orientation permission granted, pointer fallback, end-screen fit",
+      "outcome": "PASS"
+    },
+    {
+      "check": "spectator can mash either side with pointerdown",
+      "outcome": "PASS"
+    },
+    {
+      "check": "basic-ssl LAN HTTPS secure context and camera capture permission",
+      "origin": "https://<LAN-IP>:5175",
+      "outcome": "PASS"
+    }
+  ],
+  "browserErrors": []
+}

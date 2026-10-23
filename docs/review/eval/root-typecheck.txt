@@ -1,0 +1,16 @@
+pnpm typecheck
+$ pnpm -r --if-present typecheck
+tools/render-art typecheck$ tsc --noEmit -p .
+tools/render-audio typecheck$ tsc --noEmit -p .
+shared typecheck$ tsc --noEmit -p .
+shared typecheck: Done
+relay typecheck$ tsc --noEmit -p .
+phone typecheck$ tsc --noEmit -p .
+tools/render-art typecheck: Done
+tools/eval typecheck$ tsc --noEmit -p .
+tools/render-audio typecheck: Done
+tvsim typecheck$ tsc --noEmit -p .
+tvsim typecheck: Done
+phone typecheck: Done
+tools/eval typecheck: Done
+relay typecheck: Done

@@ -1,0 +1,27 @@
+{
+  "name": "eval",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "judge": "tsx src/judge.ts",
+    "bedrock": "tsx src/bedrock.ts",
+    "faces": "tsx src/face-blur.ts",
+    "sweep-faces": "tsx src/face-sweep.ts",
+    "fetch": "tsx src/fetch.ts",
+    "validate": "tsx src/validate.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@snag/shared": "workspace:*",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15"
+  },
+  "devDependencies": {
+    "@mediapipe/tasks-vision": "0.10.14",
+    "@types/node": "^24.0.0",
+    "esbuild": "0.28.2",
+    "puppeteer-core": "^24.0.0"
+  }
+}

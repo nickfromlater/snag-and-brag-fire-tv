@@ -1,0 +1,70 @@
+{
+  "attemptedAt": "2026-10-13T08:57:52.773976+00:00",
+  "accepted": false,
+  "target": "VVD OS 1.2 aarch64 Release / SDK 0.24.12112",
+  "reason": "Fresh title, reel, SNAG and standings frames retain bootstrap artwork. The fast native game did not finish; readiness flags do not establish visible completion.",
+  "persistentLockHeld": true,
+  "observer": "native only on port 8801",
+  "bootstrap": {
+    "kind": "bootstrap",
+    "ready": true,
+    "loaded": true,
+    "fontError": false,
+    "runtime": "native"
+  },
+  "lastCue": {
+    "kind": "cue",
+    "seq": 6,
+    "at": 1791881720499,
+    "round": -1,
+    "cue": "parade",
+    "runtime": "native"
+  },
+  "streams": {
+    "intro": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "60/1"
+        },
+        {
+          "codec_name": "vorbis",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "12.661000"
+      }
+    },
+    "stand": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "60/1"
+        },
+        {
+          "codec_name": "vorbis",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "7.252000"
+      }
+    }
+  },
+  "probe": "Noncollapsible fixed-size root containers without a Stage remount did not resolve the failure; probe code reverted.",
+  "photos": "No player photo or thumbnail captured or persisted.",
+  "audio": "Mac muted; rejected raw clips removed after metadata extraction."
+}

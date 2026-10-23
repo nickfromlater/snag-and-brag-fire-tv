@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-17T21:05:34.312Z",
+  "origin": "https://d2q0olvpmfmvjn.cloudfront.net",
+  "syntheticMediaOnly": true,
+  "health": {
+    "status": 200,
+    "ok": true,
+    "uptimeS": 20887,
+    "rooms": 0,
+    "phones": 0,
+    "aiMode": "bedrock",
+    "pollyMode": "aws",
+    "version": "0.1.0"
+  },
+  "phone": {
+    "status": 200,
+    "cacheControl": "no-cache"
+  },
+  "wss": {
+    "paired": true,
+    "pingMs": 16
+  },
+  "polly": {
+    "ok": true,
+    "latencyMs": 455,
+    "durationMs": 3477.25,
+    "marks": 44,
+    "wavBytes": 111316,
+    "nativeBytes": 22436,
+    "rangeStatus": 206
+  },
+  "ai": {
+    "latencyMs": 96,
+    "fallback": true
+  },
+  "cleanup": {
+    "photoStatus": 404,
+    "voiceStatus": 404
+  },
+  "outcome": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-13T22:51:19Z",
+  "synthetic": true,
+  "mediaStored": false,
+  "tool": "system Chrome + MediaPipe Tasks Vision 0.10.14",
+  "disabledGpu": {
+    "initialized": false,
+    "error": "TypeError: Cannot read properties of undefined (reading activeTexture)"
+  },
+  "enabledGpu": {
+    "initialized": true,
+    "detectedSyntheticFaces": 0
+  },
+  "fix": "Keep --mute-audio and fake camera flags; remove --disable-gpu. Preserve the existing all-three-snags mediapipe assertion."
+}

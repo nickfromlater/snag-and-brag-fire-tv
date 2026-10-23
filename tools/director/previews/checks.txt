@@ -1,0 +1,57 @@
+2026-10-13 · Node 24.20.0 · pnpm 12.10.1
+
+pnpm test: PASS · 327 tests
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test: Done
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test: Done
+shared test:  Test Files  6 passed (6)
+shared test:       Tests  63 passed (63)
+shared test: Done
+phone test:  Test Files  4 passed (4)
+phone test:       Tests  45 passed (45)
+phone test: Done
+tools/director test:  Test Files  1 passed (1)
+tools/director test:       Tests  5 passed (5)
+tools/director test: Done
+tools/eval test:  Test Files  1 passed (1)
+tools/eval test:       Tests  14 passed (14)
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  8 passed (8)
+tools/eval test: Done
+tvsim test: Done
+relay test:  Test Files  2 passed (2)
+relay test:       Tests  48 passed (48)
+relay test: Done
+
+pnpm typecheck: PASS
+shared typecheck$ tsc --noEmit -p .
+tools/render-audio typecheck$ tsc --noEmit -p .
+tools/render-art typecheck$ tsc --noEmit -p .
+shared typecheck: Done
+phone typecheck$ tsc --noEmit -p .
+relay typecheck$ tsc --noEmit -p .
+tools/render-art typecheck: Done
+tools/director typecheck$ tsc --noEmit -p .
+tools/render-audio typecheck: Done
+tools/eval typecheck$ tsc --noEmit -p .
+tools/director typecheck: Done
+tvsim typecheck$ tsc --noEmit -p .
+phone typecheck: Done
+tools/eval typecheck: Done
+tvsim typecheck: Done
+relay typecheck: Done
+
+Showcase CLI (--loopback --showcase --fast --seed 20261022):
+[223.270] #1493 rF complete: three rounds finished
+FINAL 1. Sock Goblins=429 | 2. Junk Drawer Gang=347 | 3. Couch Potatoes=307 | 4. Grandma's Revenge=135
+OBJECT OF THE NIGHT Sockrates · +300 points
+PASS full three-round showcase; room closed and memory photos released.
+
+
+Web capture: normal speed, 1920x1080 H.264 master, two segments with 2s overlap, 16 scene clips.
+Six live gallery beats checked; saved and re-exported mask PNG confirms 53/53 cells.
+Stills CLI: six HD PNGs plus 1500x1000 thumbnail passed. Pickup CLI: 2-second H.264 export passed.
+VVD lock unchanged; native console not used. Dimensions, sizes and SHA-256: dry-run.json.

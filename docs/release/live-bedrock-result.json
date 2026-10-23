@@ -1,0 +1,38 @@
+{
+  "outcome": "NO_MODEL_ACCESS",
+  "startedAt": "2026-10-17T15:05:21.485Z",
+  "endedAt": "2026-10-17T17:05:21.802Z",
+  "durationS": 7200.317,
+  "cadenceMinutes": 10,
+  "cycles": 13,
+  "scheduledProbes": 39,
+  "successfulInferences": 0,
+  "selectedModel": null,
+  "configuredModel": "anthropic.claude-opus-5",
+  "aiMode": "bedrock",
+  "fallbackBudgetMs": 4000,
+  "models": [
+    {
+      "model": "anthropic.claude-opus-5",
+      "probes": 13,
+      "http403": 13,
+      "successfulSamples": 0,
+      "p95Ms": null
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "probes": 13,
+      "http403": 13,
+      "successfulSamples": 0,
+      "p95Ms": null
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "probes": 13,
+      "http403": 13,
+      "successfulSamples": 0,
+      "p95Ms": null
+    }
+  ],
+  "nextAction": "Owner/AWS must resolve model agreement/access. Then measure five successful calls and update the scoped runtime policy plus environment if another model is selected. Restart between games."
+}

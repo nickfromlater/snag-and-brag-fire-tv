@@ -1,0 +1,3985 @@
+{
+  "generated": "2026-10-13T14:45:12.739Z",
+  "mode": "mock",
+  "cost": {
+    "estimatedUsd": 2.4852,
+    "actualUsd": 0,
+    "estimatedInputTokens": 1800,
+    "maxOutputTokens": 512,
+    "estimates": [
+      {
+        "model": "anthropic.claude-opus-5",
+        "input": 15,
+        "output": 75,
+        "basis": "unverified model; conservative planning assumption, verify before live run",
+        "calls": 30,
+        "estimatedUsd": 1.962
+      },
+      {
+        "model": "anthropic.claude-sonnet-5",
+        "input": 3,
+        "output": 15,
+        "basis": "unverified model; planning assumption, verify before live run",
+        "calls": 30,
+        "estimatedUsd": 0.3924
+      },
+      {
+        "model": "anthropic.claude-haiku-4-5",
+        "input": 1,
+        "output": 5,
+        "basis": "Haiku 4.5 base global list rate; verify Mantle region/tier: https://www.anthropic.com/claude/haiku",
+        "calls": 30,
+        "estimatedUsd": 0.1308
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "model": "anthropic.claude-opus-5",
+      "n": 30,
+      "latencyMs": {
+        "p50": 151.27,
+        "p95": 153.91,
+        "max": 154.78
+      },
+      "successfulLatencyMs": {
+        "p50": 151.27,
+        "p95": 153.91,
+        "max": 154.78
+      },
+      "successes": 30,
+      "fallbacks": 0,
+      "timeouts": 0,
+      "over4s": 0,
+      "refusals": 0,
+      "schemaFailures": 0,
+      "rawContractViolations": 0,
+      "brandOutputs": 0,
+      "failureReasons": {
+        "none": 30
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "n": 30,
+      "latencyMs": {
+        "p50": 151.21,
+        "p95": 154.23,
+        "max": 154.87
+      },
+      "successfulLatencyMs": {
+        "p50": 151.21,
+        "p95": 154.23,
+        "max": 154.87
+      },
+      "successes": 30,
+      "fallbacks": 0,
+      "timeouts": 0,
+      "over4s": 0,
+      "refusals": 0,
+      "schemaFailures": 0,
+      "rawContractViolations": 0,
+      "brandOutputs": 0,
+      "failureReasons": {
+        "none": 30
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "n": 30,
+      "latencyMs": {
+        "p50": 151.2,
+        "p95": 156.52,
+        "max": 157.27
+      },
+      "successfulLatencyMs": {
+        "p50": 151.2,
+        "p95": 156.52,
+        "max": 157.27
+      },
+      "successes": 30,
+      "fallbacks": 0,
+      "timeouts": 0,
+      "over4s": 0,
+      "refusals": 0,
+      "schemaFailures": 0,
+      "rawContractViolations": 0,
+      "brandOutputs": 0,
+      "failureReasons": {
+        "none": 30
+      }
+    }
+  ],
+  "records": [
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "red-mug",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 153.71,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "blue-bag",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 151.38,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "yellow-lemon",
+      "prompt": "Snag the most YELLOW thing in the house",
+      "latencyMs": 151.3,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "green-pepper",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 151.02,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "pink-tumblers",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 151.73,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "orange-forked-carrot",
+      "prompt": "Snag the most ORANGE thing in the house",
+      "latencyMs": 153.19,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "loot-pearl-necklace",
+      "prompt": "Something a PIRATE would steal",
+      "latencyMs": 151.39,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "old-wall-clock",
+      "prompt": "Something that has SEEN THINGS (the older the better)",
+      "latencyMs": 151.23,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "tough-iron-pan",
+      "prompt": "Something that would WIN A FIGHT against anything",
+      "latencyMs": 150.38,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "island-teddy",
+      "prompt": "Your ISLAND BUDDY for a desert island",
+      "latencyMs": 151.76,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "weird-satyr-mug",
+      "prompt": "The WEIRDEST thing you can find",
+      "latencyMs": 150.69,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "museum-porcelain-bottle",
+      "prompt": "Something that belongs IN A MUSEUM priceless, obviously",
+      "latencyMs": 150.32,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "pink-small-cup",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 151.22,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "red-pepper",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 152.08,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "red-multicolor-peppers",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 151.27,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "red-tomatoes",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 150.7,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "blue-lids",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 152.65,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "yellow-banana",
+      "prompt": "Snag the most YELLOW thing in the house",
+      "latencyMs": 151.89,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "green-yoyo",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 151.24,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "pink-plastic-cups",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 151.29,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "orange-oranges",
+      "prompt": "Snag the most ORANGE thing in the house",
+      "latencyMs": 151.55,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "loot-gold-chain",
+      "prompt": "Something a PIRATE would steal",
+      "latencyMs": 153.91,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "old-telephone",
+      "prompt": "Something that has SEEN THINGS (the older the better)",
+      "latencyMs": 151.27,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "tough-hammer",
+      "prompt": "Something that would WIN A FIGHT against anything",
+      "latencyMs": 151.25,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "island-water-bottles",
+      "prompt": "Your ISLAND BUDDY for a desert island",
+      "latencyMs": 151.06,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "weird-cicada-toy",
+      "prompt": "The WEIRDEST thing you can find",
+      "latencyMs": 151.08,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "museum-vinyl",
+      "prompt": "Something that belongs IN A MUSEUM priceless, obviously",
+      "latencyMs": 151.1,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "messy-kitchen",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 150.39,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "near-teal-mug",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 154.78,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-opus-5",
+      "photoId": "blue-small-lid",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 151.32,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "red-mug",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 154.87,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "blue-bag",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 150.65,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "yellow-lemon",
+      "prompt": "Snag the most YELLOW thing in the house",
+      "latencyMs": 150.95,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "green-pepper",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 151.16,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "pink-tumblers",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 151.23,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "orange-forked-carrot",
+      "prompt": "Snag the most ORANGE thing in the house",
+      "latencyMs": 153.64,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "loot-pearl-necklace",
+      "prompt": "Something a PIRATE would steal",
+      "latencyMs": 150.28,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "old-wall-clock",
+      "prompt": "Something that has SEEN THINGS (the older the better)",
+      "latencyMs": 154.23,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "tough-iron-pan",
+      "prompt": "Something that would WIN A FIGHT against anything",
+      "latencyMs": 151.2,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "island-teddy",
+      "prompt": "Your ISLAND BUDDY for a desert island",
+      "latencyMs": 150.47,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "weird-satyr-mug",
+      "prompt": "The WEIRDEST thing you can find",
+      "latencyMs": 151.17,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "museum-porcelain-bottle",
+      "prompt": "Something that belongs IN A MUSEUM priceless, obviously",
+      "latencyMs": 151.01,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "pink-small-cup",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 151.49,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "red-pepper",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 151.23,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "red-multicolor-peppers",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 150.97,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "red-tomatoes",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 152.96,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "blue-lids",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 151.28,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "yellow-banana",
+      "prompt": "Snag the most YELLOW thing in the house",
+      "latencyMs": 151.49,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "green-yoyo",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 152.1,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "pink-plastic-cups",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 151.26,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "orange-oranges",
+      "prompt": "Snag the most ORANGE thing in the house",
+      "latencyMs": 151.21,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "loot-gold-chain",
+      "prompt": "Something a PIRATE would steal",
+      "latencyMs": 151.24,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "old-telephone",
+      "prompt": "Something that has SEEN THINGS (the older the better)",
+      "latencyMs": 151.24,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "tough-hammer",
+      "prompt": "Something that would WIN A FIGHT against anything",
+      "latencyMs": 151.2,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "island-water-bottles",
+      "prompt": "Your ISLAND BUDDY for a desert island",
+      "latencyMs": 152.66,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "weird-cicada-toy",
+      "prompt": "The WEIRDEST thing you can find",
+      "latencyMs": 151.26,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "museum-vinyl",
+      "prompt": "Something that belongs IN A MUSEUM priceless, obviously",
+      "latencyMs": 151.2,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "messy-kitchen",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 151.15,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "near-teal-mug",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 151.19,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-sonnet-5",
+      "photoId": "blue-small-lid",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 150.84,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "red-mug",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 151.16,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "blue-bag",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 153.82,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "yellow-lemon",
+      "prompt": "Snag the most YELLOW thing in the house",
+      "latencyMs": 151.19,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "green-pepper",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 150.91,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "pink-tumblers",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 151.51,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "orange-forked-carrot",
+      "prompt": "Snag the most ORANGE thing in the house",
+      "latencyMs": 151.44,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "loot-pearl-necklace",
+      "prompt": "Something a PIRATE would steal",
+      "latencyMs": 151.17,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "old-wall-clock",
+      "prompt": "Something that has SEEN THINGS (the older the better)",
+      "latencyMs": 151.17,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "tough-iron-pan",
+      "prompt": "Something that would WIN A FIGHT against anything",
+      "latencyMs": 153.49,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "island-teddy",
+      "prompt": "Your ISLAND BUDDY for a desert island",
+      "latencyMs": 150.74,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "weird-satyr-mug",
+      "prompt": "The WEIRDEST thing you can find",
+      "latencyMs": 155.7,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "museum-porcelain-bottle",
+      "prompt": "Something that belongs IN A MUSEUM priceless, obviously",
+      "latencyMs": 151.23,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "pink-small-cup",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 151.22,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "red-pepper",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 151.29,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "red-multicolor-peppers",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 150.34,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "red-tomatoes",
+      "prompt": "Snag the most RED thing in the house",
+      "latencyMs": 156.52,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "blue-lids",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 151.18,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "yellow-banana",
+      "prompt": "Snag the most YELLOW thing in the house",
+      "latencyMs": 150.22,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "green-yoyo",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 151.35,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "pink-plastic-cups",
+      "prompt": "Snag the most PINK thing in the house",
+      "latencyMs": 150.34,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "orange-oranges",
+      "prompt": "Snag the most ORANGE thing in the house",
+      "latencyMs": 153.91,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "loot-gold-chain",
+      "prompt": "Something a PIRATE would steal",
+      "latencyMs": 153.54,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "old-telephone",
+      "prompt": "Something that has SEEN THINGS (the older the better)",
+      "latencyMs": 151.21,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "tough-hammer",
+      "prompt": "Something that would WIN A FIGHT against anything",
+      "latencyMs": 157.27,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "island-water-bottles",
+      "prompt": "Your ISLAND BUDDY for a desert island",
+      "latencyMs": 155.3,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "weird-cicada-toy",
+      "prompt": "The WEIRDEST thing you can find",
+      "latencyMs": 151.2,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "museum-vinyl",
+      "prompt": "Something that belongs IN A MUSEUM priceless, obviously",
+      "latencyMs": 150.52,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "messy-kitchen",
+      "prompt": "Snag the most GREEN thing in the house",
+      "latencyMs": 151.16,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "near-teal-mug",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 151.08,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    },
+    {
+      "model": "anthropic.claude-haiku-4-5",
+      "photoId": "blue-small-lid",
+      "prompt": "Snag the most BLUE thing in the house",
+      "latencyMs": 150.7,
+      "reason": "none",
+      "timeout": false,
+      "over4s": false,
+      "refusal": false,
+      "schemaFailure": false,
+      "rawContractViolations": [],
+      "brands": [],
+      "rawBrands": [],
+      "output": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum.",
+        "fallback": false
+      },
+      "rawOutput": {
+        "thing": "household treasure",
+        "names": [
+          "Sir Findsalot",
+          "Captain Clutter",
+          "Dame Doohickey"
+        ],
+        "brags": [
+          "A household legend takes the stage.",
+          "Polished by years of being quite splendid."
+        ],
+        "score": 7,
+        "quip": "A magnificent household treasure. I shall alert the museum."
+      }
+    }
+  ]
+}

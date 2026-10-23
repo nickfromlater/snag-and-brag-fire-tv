@@ -1,0 +1,65 @@
+@font-face{font-family:'Lilita One';font-weight:400;font-style:normal;font-display:swap;src:url('/fonts/LilitaOne-Regular.woff2') format('woff2')}
+@font-face{font-family:Rubik;font-weight:500;font-style:normal;font-display:swap;src:url('/fonts/Rubik-500.woff2') format('woff2')}
+@font-face{font-family:Rubik;font-weight:600 700;font-style:normal;font-display:swap;src:url('/fonts/Rubik-700.woff2') format('woff2')}
+@font-face{font-family:Rubik;font-weight:800;font-style:normal;font-display:swap;src:url('/fonts/Rubik-800.woff2') format('woff2')}
+@font-face{font-family:Rubik;font-weight:900;font-style:normal;font-display:swap;src:url('/fonts/Rubik-900.woff2') format('woff2')}
+html,body{margin:0;min-width:280px;min-height:100%;overscroll-behavior:none}
+button{touch-action:manipulation}
+[hidden]{display:none!important}
+#app{max-width:480px;margin:auto;min-height:100dvh}
+#ps{height:100dvh;min-height:600px;isolation:isolate}
+.phead{padding:calc(12px + env(safe-area-inset-top,0px)) 16px 8px}
+.pscr{padding-bottom:calc(18px + env(safe-area-inset-bottom,0px))}
+.privacy{text-align:center;font-size:11px;line-height:1.2}
+#p-end{gap:8px}
+.swatches button:disabled{opacity:.25;filter:grayscale(1);cursor:default;box-shadow:none}
+.swatches button:disabled::after{content:'×';font-weight:900;font-size:25px;color:var(--ink)}
+.host-toggle{width:22px;height:28px;border:2px solid var(--ink);border-radius:7px;background:var(--paper);color:var(--ink);font-weight:900;font-size:20px;line-height:1;flex:none}
+.host-menu{position:absolute;right:12px;top:calc(56px + env(safe-area-inset-top,0px));z-index:80;background:var(--paper);color:var(--ink);border:3px solid var(--ink);border-radius:14px;box-shadow:0 5px 0 var(--ink);overflow:hidden}
+.host-menu button{display:block;width:100%;text-align:left;padding:12px 16px;border-top:2px solid #E5DAC4;font-size:14px;font-weight:900}
+.host-menu button:first-child{border-top:0}
+.host-menu button:active{background:var(--yolk)}
+.pause-overlay{position:absolute;inset:0;z-index:70;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;padding:32px;background:rgba(10,14,74,.94);backdrop-filter:blur(8px)}
+.is-paused .phead{z-index:75}
+.connection{position:absolute;left:16px;right:16px;bottom:12px;margin:0;padding:10px 12px;border:3px solid var(--ink);border-radius:12px;background:var(--paper);color:var(--ink);box-shadow:0 4px 0 var(--ink);z-index:90;font-size:12px;font-weight:800;text-align:center;pointer-events:none}
+.inapp{position:absolute;inset:auto 16px 16px;z-index:92;padding:16px;display:flex;flex-direction:column;gap:12px;background:var(--paper);color:var(--ink);border:3px solid var(--ink);border-radius:16px;box-shadow:0 5px 0 var(--ink)}
+.inapp p{margin:0;font-weight:800;font-size:14px}
+.inapp .btn{color:var(--ink);background:var(--yolk)}
+.bots-row{width:100%;grid-template-columns:68px minmax(0,1fr) 52px;min-height:64px;padding:8px 12px;text-align:left;background:var(--paper);color:var(--ink);border:3px solid var(--ink);border-radius:16px;box-shadow:0 4px 0 var(--ink);transition:transform .08s,box-shadow .08s}
+.bots-row:active{transform:translateY(3px);box-shadow:0 1px 0 var(--ink)}
+.bots-row[disabled]{opacity:.35;cursor:default}
+.bot-badges{position:relative;display:block;width:68px;height:36px}
+.bot-badges .badge{position:absolute;left:0;top:4px;width:28px;height:28px}
+.bot-badges .badge:nth-child(2){left:20px;top:0}
+.bot-badges .badge:nth-child(3){left:40px;top:8px}
+.bot-switch{display:block;width:52px;height:32px;padding:3px;border:3px solid var(--ink);border-radius:999px;background:var(--paper-2);box-shadow:0 3px 0 var(--ink)}
+.bot-knob{display:block;width:20px;height:20px;border:3px solid var(--ink);border-radius:50%;background:var(--paper);box-shadow:inset 0 -2px 0 rgba(14,11,43,.12);transform:translateX(0)}
+.bots-row[aria-pressed='true'] .bot-switch{background:var(--lime)}
+.bots-row[aria-pressed='true'] .bot-knob{transform:translateX(20px)}
+.vf{cursor:default;touch-action:manipulation}
+#camera{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover}
+.camera-fallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:28px;text-align:center;background:radial-gradient(rgba(255,255,255,.06) 1.6px,transparent 2px) 0 0/12px 12px,var(--night)}
+.camera-fallback p{font-size:15px;font-weight:800;line-height:1.4;margin:0}
+.camera-fallback button{position:relative;z-index:10;max-width:260px}
+.gstage.sent{cursor:default}
+.gstage.sent .ghint{color:var(--lime)}
+.code-entry{padding:40px 16px;min-height:100dvh;display:flex;flex-direction:column;gap:24px;justify-content:center;background:linear-gradient(var(--deep),var(--night))}
+.code-tiles{display:flex;gap:8px}
+.code-tiles input{width:100%;min-width:0;height:76px;border:3px solid var(--ink);border-radius:14px;background:var(--paper);color:var(--ink);box-shadow:0 5px 0 var(--ink);text-align:center;font-family:var(--disp);font-size:44px;text-transform:uppercase}
+.code-entry .brand{align-self:flex-start;font-family:var(--disp);font-size:22px;color:var(--yolk)}
+.gallery{display:flex;gap:24px;padding:24px;width:max-content;align-items:flex-start}
+.gallery figure{margin:0;width:390px}
+.gallery figcaption{font-size:14px;font-weight:900;padding:0 0 12px;color:var(--yolk)}
+.gallery iframe{display:block;width:390px;height:844px;border:0;border-radius:40px;background:var(--night);box-shadow:0 0 0 3px var(--ink)}
+body.gallery-mode #app{max-width:none}
+/* The reference crops are 372×820 CSS px at 1.25×. Normalize that exact layout
+   into the brief's 390×844 review frames; the live controller uses the viewport. */
+body.fixture-mode{width:390px;height:844px;overflow:hidden}
+body.fixture-mode #app{width:390px;height:844px;min-height:0;margin:0}
+body.fixture-mode #ps{width:372px;height:820px;min-height:0;border-radius:40px;transform:scale(1.0483870968,1.0292682927);transform-origin:0 0}
+body.fixture-mode .phead{padding-top:40px}
+body.fixture-mode #ps::before{content:'';position:absolute;left:50%;top:8px;width:96px;height:24px;margin-left:-48px;border-radius:14px;background:#05061F;z-index:60}
+body.fixture-mode .pscr{padding-bottom:18px}
+body.fixture-mode .gstage{width:250px}
+body.fixture-mode .mbtn .stk{width:150px}
+@media (prefers-reduced-motion:reduce){.mashing .mbtn,.ghint,.lookup,.holo::after,.ptime.low{animation:none!important}}

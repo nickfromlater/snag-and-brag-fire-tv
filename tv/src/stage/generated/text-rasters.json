@@ -1,0 +1,79 @@
+{
+  "[\"SNAG\",188,\"#FFD43B\",14,10,1]": {
+    "id": "stage/title-0",
+    "width": 482.53999999999996,
+    "height": 238.88400000000001,
+    "glyphWidth": 464.53999999999996,
+    "baseline": 173.524
+  },
+  "[\"BRAG\",188,\"#FF4FA0\",14,10,1]": {
+    "id": "stage/title-1",
+    "width": 483.47999999999996,
+    "height": 238.88400000000001,
+    "glyphWidth": 465.47999999999996,
+    "baseline": 173.524
+  },
+  "[\"&\",96,\"#FF4FA0\",5,0,1]": {
+    "id": "stage/title-2",
+    "width": 73.032,
+    "height": 114.72800000000001,
+    "glyphWidth": 64.032,
+    "baseline": 88.608
+  },
+  "[\"Join the show\",44,\"#0E0B2B\",0,0,0]": {
+    "id": "stage/title-3",
+    "width": 256.824,
+    "height": 50.291999999999994,
+    "glyphWidth": 252.824,
+    "baseline": 40.611999999999995
+  },
+  "[\"3\",330,\"#FFD43B\",14,10,1]": {
+    "id": "stage/title-4",
+    "width": 192.24,
+    "height": 401.19,
+    "glyphWidth": 174.24,
+    "baseline": 304.59000000000003
+  },
+  "[\"2\",330,\"#FFD43B\",14,10,1]": {
+    "id": "stage/title-5",
+    "width": 191.25,
+    "height": 401.19,
+    "glyphWidth": 173.25,
+    "baseline": 304.59000000000003
+  },
+  "[\"1\",330,\"#FF4FA0\",14,10,1]": {
+    "id": "stage/title-6",
+    "width": 151.98000000000002,
+    "height": 401.19,
+    "glyphWidth": 133.98000000000002,
+    "baseline": 304.59000000000003
+  },
+  "[\"SNAG!\",250,\"#B8F23B\",14,10,1]": {
+    "id": "stage/title-7",
+    "width": 707.5,
+    "height": 309.75,
+    "glyphWidth": 689.5,
+    "baseline": 230.75
+  },
+  "[\"COLOR RUSH\",168,\"#FFD43B\",14,10,1]": {
+    "id": "stage/title-8",
+    "width": 960.912,
+    "height": 216.024,
+    "glyphWidth": 942.912,
+    "baseline": 155.06400000000002
+  },
+  "[\"BRAG-OFF\",168,\"#FFD43B\",14,10,1]": {
+    "id": "stage/title-9",
+    "width": 802.0000000000001,
+    "height": 216.024,
+    "glyphWidth": 784.0000000000001,
+    "baseline": 155.06400000000002
+  },
+  "[\"SHOWSTOPPER\",149,\"#FFD43B\",14,10,1]": {
+    "id": "stage/title-10",
+    "width": 1037.6239999999998,
+    "height": 194.307,
+    "glyphWidth": 1019.6239999999998,
+    "baseline": 137.527
+  }
+}

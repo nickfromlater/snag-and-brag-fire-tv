@@ -1,0 +1,1 @@
+{"pass":true,"runtime":"web","hostLines":28,"polly":28,"fallback":0,"exceptions":0,"audioErrors":0,"scenes":["lobby","intro","hunt","judge","stand","brag","show","champ"],"maximumStartLatencyMs":107}

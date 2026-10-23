@@ -1,0 +1,88 @@
+{
+  "verifiedAt": "2026-10-13T14:46:19.915Z",
+  "driver": "RN core Animated JS driver",
+  "phase": "idle after 6.5 s",
+  "pupils": 16,
+  "motion": [
+    {
+      "id": "eye-pupil:parade:duck:0",
+      "xRange": 0.44170240000000005,
+      "yRange": 0.05604000000000009
+    },
+    {
+      "id": "eye-pupil:parade:duck:1",
+      "xRange": 0.29676400000000003,
+      "yRange": 0.08814999999999995
+    },
+    {
+      "id": "eye-pupil:parade:mug:0",
+      "xRange": 0.3353623,
+      "yRange": 0.1198300000000001
+    },
+    {
+      "id": "eye-pupil:parade:mug:1",
+      "xRange": 0.340291,
+      "yRange": 0.11915000000000009
+    },
+    {
+      "id": "eye-pupil:parade:dino:0",
+      "xRange": 0.33314069999999996,
+      "yRange": 0.06059999999999999
+    },
+    {
+      "id": "eye-pupil:parade:dino:1",
+      "xRange": 0.1924195,
+      "yRange": 0.08318000000000003
+    },
+    {
+      "id": "eye-pupil:parade:lava:0",
+      "xRange": 0.3937286,
+      "yRange": 0.04279999999999995
+    },
+    {
+      "id": "eye-pupil:parade:lava:1",
+      "xRange": 0.2802091,
+      "yRange": 0.07149500000000009
+    },
+    {
+      "id": "eye-pupil:parade:crown:0",
+      "xRange": 0.5058248999999999,
+      "yRange": 0.06373999999999991
+    },
+    {
+      "id": "eye-pupil:parade:crown:1",
+      "xRange": 0.5133908,
+      "yRange": 0.06134000000000017
+    },
+    {
+      "id": "eye-pupil:parade:teddy:0",
+      "xRange": 0.3399395,
+      "yRange": 0.08089999999999997
+    },
+    {
+      "id": "eye-pupil:parade:teddy:1",
+      "xRange": 0.18374859999999998,
+      "yRange": 0.09892000000000012
+    },
+    {
+      "id": "eye-pupil:parade:donut:0",
+      "xRange": 0.267194,
+      "yRange": 0.10993999999999993
+    },
+    {
+      "id": "eye-pupil:parade:donut:1",
+      "xRange": 0.4520201,
+      "yRange": 0.07896000000000014
+    },
+    {
+      "id": "eye-pupil:parade:robot:0",
+      "xRange": 0.4487173,
+      "yRange": 0.07960999999999996
+    },
+    {
+      "id": "eye-pupil:parade:robot:1",
+      "xRange": 0.26285780000000003,
+      "yRange": 0.11034999999999995
+    }
+  ]
+}

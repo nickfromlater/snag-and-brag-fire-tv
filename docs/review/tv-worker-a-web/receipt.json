@@ -1,0 +1,140 @@
+{
+  "target": "Chrome web iteration; native acceptance is separate",
+  "resolution": "1920x1080",
+  "audio": "muted",
+  "photos": "three bots only; none loaded",
+  "speed": 2,
+  "seed": 1,
+  "completed": true,
+  "phases": [
+    "lobby:title",
+    "intro:title",
+    "intro:reel",
+    "intro:countdown",
+    "hunt:countdown",
+    "hunt:hunt",
+    "hunt:time",
+    "hunt:glow",
+    "hunt:judge",
+    "judge:judge",
+    "judge:standings",
+    "stand:standings",
+    "stand:title",
+    "hunt:brag-intro",
+    "brag:brag-intro",
+    "brag:brag-lines",
+    "brag:brag-countdown",
+    "brag:mash",
+    "brag:knockout",
+    "brag:standings",
+    "hunt:runway",
+    "show:runway",
+    "show:vote",
+    "show:tally",
+    "show:standings",
+    "stand:podium",
+    "champ:podium",
+    "champ:finale"
+  ],
+  "captures": [
+    {
+      "name": "round-1-title",
+      "scene": "intro",
+      "phase": "title",
+      "round": 0
+    },
+    {
+      "name": "round-1-reel",
+      "scene": "intro",
+      "phase": "reel",
+      "round": 0
+    },
+    {
+      "name": "count-3",
+      "scene": "intro",
+      "phase": "countdown",
+      "round": 0
+    },
+    {
+      "name": "count-2",
+      "scene": "intro",
+      "phase": "countdown",
+      "round": 0
+    },
+    {
+      "name": "count-1",
+      "scene": "intro",
+      "phase": "countdown",
+      "round": 0
+    },
+    {
+      "name": "count-snag",
+      "scene": "intro",
+      "phase": "countdown",
+      "round": 0,
+      "snagCorrect": true
+    },
+    {
+      "name": "stand-race",
+      "scene": "stand",
+      "phase": "standings",
+      "round": 0
+    },
+    {
+      "name": "round-1-stand",
+      "scene": "stand",
+      "phase": "standings",
+      "round": 0
+    },
+    {
+      "name": "round-2-title",
+      "scene": "intro",
+      "phase": "title",
+      "round": 1
+    },
+    {
+      "name": "round-2-reel",
+      "scene": "intro",
+      "phase": "reel",
+      "round": 1
+    },
+    {
+      "name": "round-2-stand",
+      "scene": "stand",
+      "phase": "standings",
+      "round": 1
+    },
+    {
+      "name": "round-3-title",
+      "scene": "intro",
+      "phase": "title",
+      "round": 2
+    },
+    {
+      "name": "round-3-reel",
+      "scene": "intro",
+      "phase": "reel",
+      "round": 2
+    },
+    {
+      "name": "round-3-stand",
+      "scene": "stand",
+      "phase": "standings",
+      "round": 2
+    }
+  ],
+  "scoreRollSound": {
+    "expected": 198,
+    "calls": 198,
+    "cues": 9
+  },
+  "badgeHops": [
+    {
+      "round": 0,
+      "expected": 6,
+      "hops": 6,
+      "samples": 62
+    }
+  ],
+  "errors": []
+}

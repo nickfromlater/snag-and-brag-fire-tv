@@ -1,0 +1,27 @@
+$ pnpm -r --if-present test
+Scope: 2 of 3 workspace projects
+tools/render-art test$ vitest run
+shared test$ vitest run
+tools/render-art test:
+tools/render-art test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/art/tools/render-art
+tools/render-art test:
+shared test:
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/art/shared
+shared test:
+shared test:  ✓ test/pixelJudge.test.ts (5 tests) 35ms
+shared test:
+shared test:  Test Files  1 passed (1)
+shared test:       Tests  5 passed (5)
+shared test:    Start at  21:15:56
+shared test:    Duration  522ms (transform 68ms, setup 0ms, collect 77ms, tests 35ms, environment 0ms, prepare 53ms)
+shared test:
+shared test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 895ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  631ms
+tools/render-art test:
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  21:15:56
+tools/render-art test:    Duration  1.40s (transform 94ms, setup 0ms, collect 108ms, tests 895ms, environment 0ms, prepare 83ms)
+tools/render-art test:
+tools/render-art test: Done

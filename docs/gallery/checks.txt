@@ -1,0 +1,28 @@
+Gallery verification · 2026-10-14 · branch w/gallery
+pnpm test: PASS, 451 tests across 9 workspace packages (includes TV lint).
+pnpm typecheck: PASS at repository root.
+Vega SDK 0.24.12112 / CLI 1.4.2 / VVD OS 1.2 / aarch64 Release / Hermes.
+Final native runtime: 5466 privacy-filtered events, zero exceptions.
+Capture: fresh single VVD window via macOS ScreenCaptureKit; 28-point title-bar crop; no audio.
+Visual QA: all nine masters/previews inspected; correct stage palettes, real local QR, real synthetic phone feed/mask, complete host lines, settled scored cards/meters, off-center final tug, hologram, overtake badge, clear champion name/all podium points, yellow Resume focus ring.
+Fake camera: project pink glove; 5 live thumbnails; match 99%; 72-byte actual mask / 101 selected cells; MediaPipe redaction; no phone errors.
+01-lobby.jpg: master 1920x1080; preview 1280x720; 226987 bytes; held at 6500 ms
+02-prompt-reel.jpg: master 1920x1080; preview 1280x720; 183274 bytes; held at 16490 ms
+03-hunt-feeds.jpg: master 1920x1080; preview 1280x720; 235345 bytes; held at 22770 ms
+04-pixel-judge.jpg: master 1920x1080; preview 1280x720; 233240 bytes; held at 58458 ms
+05-brag-off-mash.jpg: master 1920x1080; preview 1280x720; 264640 bytes; held at 142482 ms
+06-showstopper-win.jpg: master 1920x1080; preview 1280x720; 245110 bytes; held at 203156 ms
+07-standings-overtake.jpg: master 1920x1080; preview 1280x720; 243419 bytes; held at 208164 ms
+08-finale.jpg: master 1920x1080; preview 1280x720; 253166 bytes; held at 217460 ms
+09-pause-menu.jpg: master 1920x1080; preview 1280x720; 116946 bytes; held at 22770 ms
+thumbnail.png: 1500x1000; 908992 bytes; original project art/host glee parts; visually inspected.
+color-rush.mp4: H.264 / CRF 28 / preset slow / silent; 1920x1080; 30/1 encoded FPS; 48.266667 seconds; 6431641 bytes.
+Movie QA: reel landing, real phone hunt, glow-up, all four judge reveals and winner; two-second end hold from the same session's native judge PNG, recorded in capture.json.
+Encoded FPS does not establish native compositor FPS. No retail hardware or native audio gate is claimed.
+Native build: ~/builds/snag-and-brag/footage/gallery-verification/native-build.txt
+Root tests: ~/builds/snag-and-brag/footage/gallery-verification/root-test.txt
+Root typecheck: ~/builds/snag-and-brag/footage/gallery-verification/root-typecheck.txt
+Native events/build receipt: ~/builds/snag-and-brag/footage/gallery-verification/native-runtime.jsonl and build.json
+Movie contact sheet/end frame: ~/builds/snag-and-brag/footage/gallery-verification/color-rush-contact.png and color-rush-last.png
+All requested outputs fit their size limits. Source config restored to showcase:false. Owned VVD/local services stopped and lock released.
+See GALLERY.md for reproduction and every deliberate adaptation; see FRICTION.md, gallery entry dated 2026-10-14, for Amazon-tool observations.

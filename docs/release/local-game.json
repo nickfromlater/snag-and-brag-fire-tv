@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-14",
+  "browser": "Chrome/155.0.8059.40",
+  "scenario": "README local relay + normal-speed tvsim + actual phone; mock AWS services; synthetic File in browser memory",
+  "outcome": "PASS",
+  "screens": [
+    {
+      "screen": "join",
+      "round": -1
+    },
+    {
+      "screen": "lobby",
+      "round": -1
+    },
+    {
+      "screen": "ready",
+      "round": 0
+    },
+    {
+      "screen": "cam",
+      "round": 0
+    },
+    {
+      "screen": "glow",
+      "round": 0
+    },
+    {
+      "screen": "wait",
+      "round": 0
+    },
+    {
+      "screen": "ready",
+      "round": 1
+    },
+    {
+      "screen": "cam",
+      "round": 1
+    },
+    {
+      "screen": "glow",
+      "round": 1
+    },
+    {
+      "screen": "wait",
+      "round": 1
+    },
+    {
+      "screen": "mash",
+      "round": 1
+    },
+    {
+      "screen": "wait",
+      "round": 1
+    },
+    {
+      "screen": "ready",
+      "round": 2
+    },
+    {
+      "screen": "cam",
+      "round": 2
+    },
+    {
+      "screen": "glow",
+      "round": 2
+    },
+    {
+      "screen": "wait",
+      "round": 2
+    },
+    {
+      "screen": "vote",
+      "round": 2
+    },
+    {
+      "screen": "wait",
+      "round": 2
+    },
+    {
+      "screen": "wait",
+      "round": 3
+    },
+    {
+      "screen": "end",
+      "round": 3
+    }
+  ],
+  "snags": [
+    {
+      "round": 0,
+      "kind": "color",
+      "match": 99,
+      "redaction": "mediapipe",
+      "maskBytes": 72,
+      "bytes": 3799
+    },
+    {
+      "round": 1,
+      "kind": "brag",
+      "match": 0,
+      "redaction": "mediapipe",
+      "maskBytes": 0,
+      "bytes": 3799
+    },
+    {
+      "round": 2,
+      "kind": "show",
+      "match": 0,
+      "redaction": "mediapipe",
+      "maskBytes": 0,
+      "bytes": 3799
+    }
+  ],
+  "dimensions": [
+    [
+      720,
+      720
+    ],
+    [
+      720,
+      720
+    ],
+    [
+      720,
+      720
+    ]
+  ],
+  "uncaughtErrors": 0,
+  "media": "No player media, photos, thumbnails, room keys or reconnect tokens saved. Screenshot contains only synthetic fixture media.",
+  "postTvCloseHealth": {
+    "ok": true,
+    "rooms": 0,
+    "phones": 0,
+    "aiMode": "mock",
+    "pollyMode": "mock"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "Native Toolkit/Render frame intervals; full diagnostic lobby visible throughout recording",
+  "experiment": "1280x720 offscreen stage texture upscaled to native 1920x1080 window",
+  "frames": 527,
+  "seconds": 23.95,
+  "averageFps": 21.96,
+  "maximumGapMs": 590.81,
+  "gapsOver100Ms": 20,
+  "outcome": "REJECTED",
+  "reason": "Slower than 24.62 fps direct-render baseline; root texture experiment removed from source.",
+  "animation": "Separated screenshots showed moving parade, titles and ticker; no animation freeze claimed.",
+  "measurementCaveat": "Recorded before RAM-backed device temporary storage was cleaned. Numeric observations remain valid for that system state; use a clean-device measurement for acceptance and do not attribute comparisons to code alone. Device screenshots were also taken during these experimental runs; no isolated causal performance conclusion is claimed. The unproven cache flags remain removed."
+}

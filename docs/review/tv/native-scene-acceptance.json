@@ -1,0 +1,305 @@
+{
+  "updatedAt": "2026-10-13T19:15:54.998Z",
+  "synthetic": true,
+  "nativeOnly": true,
+  "captures": [
+    {
+      "name": "native-review-brag-knockout",
+      "reference": "tv-10-brag-knockout.png",
+      "scene": "brag",
+      "phase": "brag-knockout",
+      "round": 1,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-brag-knockout.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-brag-lines",
+      "reference": "tv-08-brag-lines.png",
+      "scene": "brag",
+      "phase": "brag-lines",
+      "round": 1,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-brag-lines.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-brag-mash",
+      "reference": "tv-09-brag-mash.png",
+      "scene": "brag",
+      "phase": "brag-mash",
+      "round": 1,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-brag-mash.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-hunt-live",
+      "reference": "tv-04-hunt-live-feeds.png",
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-hunt-live.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-hunt-snagged",
+      "reference": "tv-05-snagged.png",
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-hunt-snagged.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-intro-reel",
+      "reference": "tv-03-prompt-reel.png",
+      "scene": "intro",
+      "phase": "reel",
+      "round": 0,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-intro-reel.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-intro-title-0",
+      "reference": "tv-02-round-title.png",
+      "scene": "intro",
+      "phase": "title",
+      "round": 0,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-intro-title-0.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-intro-title-1",
+      "reference": "tv-02-round-title.png",
+      "scene": "intro",
+      "phase": "title",
+      "round": 1,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-intro-title-1.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-intro-title-2",
+      "reference": "tv-02-round-title.png",
+      "scene": "intro",
+      "phase": "title",
+      "round": 2,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-intro-title-2.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-judge-scan",
+      "reference": "tv-06-pixel-judge.png",
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-judge-scan.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-judge-scored",
+      "reference": "tv-06-pixel-judge.png",
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-judge-scored.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-show-vote",
+      "reference": "tv-11-showstopper-vote.png",
+      "scene": "show",
+      "phase": "vote",
+      "round": 2,
+      "mood": "party",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-show-vote.png",
+      "capturePass": "first live recording pass"
+    },
+    {
+      "name": "native-review-lobby",
+      "reference": "tv-01-lobby.png",
+      "scene": "lobby",
+      "phase": "lobby",
+      "round": -1,
+      "mood": "normal",
+      "teams": 0,
+      "screenshot": "docs/review/tv/native-review-lobby.png"
+    },
+    {
+      "name": "native-review-stand",
+      "reference": "tv-07-standings.png",
+      "scene": "stand",
+      "phase": "standings",
+      "round": 0,
+      "mood": "normal",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-stand.png"
+    },
+    {
+      "name": "native-review-show-win",
+      "reference": "tv-12-showstopper-win.png",
+      "scene": "show",
+      "phase": "tally",
+      "round": 2,
+      "mood": "gold",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-review-show-win.png"
+    },
+    {
+      "name": "native-finale",
+      "reference": "tv-13-finale.png",
+      "scene": "champ",
+      "phase": "finale",
+      "round": 3,
+      "mood": "gold",
+      "teams": 3,
+      "screenshot": "docs/review/tv/native-finale.png",
+      "provenance": "docs/review/tv/native-verification.json"
+    }
+  ],
+  "clips": [
+    {
+      "round": 0,
+      "path": "docs/review/tv-round-1.mp4",
+      "source": {
+        "bytes": 26293774,
+        "sha256": "51b8f1d90f5f68a5deaaf7908e72c1dde3999fa12b3bace470ed44e7e6011f4f"
+      },
+      "bytes": 7627670,
+      "sha256": "4c134586c5624991fce5bb47726dcd925d722d81b1682156646283f9119e4552",
+      "crf": 31,
+      "preset": "slow",
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "57.583333",
+      "nb_frames": "3455"
+    },
+    {
+      "round": 1,
+      "path": "docs/review/tv-round-2.mp4",
+      "source": {
+        "bytes": 23730644,
+        "sha256": "17fa20f9270d3dea5b664e34f469f0fb6318acc89706ccb3c0a2f8254659d340"
+      },
+      "bytes": 9556386,
+      "sha256": "e06c87da76ef84ca9b2de311fae1a0d725242ad5dd8599f6aecc0d3c1529721a",
+      "crf": 28,
+      "preset": "slow",
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "57.566667",
+      "nb_frames": "3454"
+    },
+    {
+      "round": 2,
+      "path": "docs/review/tv-round-3.mp4",
+      "source": {
+        "bytes": 23898712,
+        "sha256": "d52f3a432d9c7ede1fca938e7875c113ba35df05dc970a1d010d2640c902c00e"
+      },
+      "bytes": 9416014,
+      "sha256": "2788e52745f248cee79830bcb6d93aaed74981ae87d5675bd24dd07729fad1b0",
+      "crf": 28,
+      "preset": "slow",
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "57.550000",
+      "nb_frames": "3453"
+    }
+  ],
+  "target": "VVD OS 1.2 aarch64 Release",
+  "source": "Actual integration-worker native captures, retained on the starting branch; recompressed for this finish pass. No fresh full-game completion is claimed.",
+  "provenance": {
+    "sourceCommit": "227edd1",
+    "sceneCaptureReceipt": "docs/review/tv/native-scene-capture-progress.json",
+    "champCaptureReceipt": "docs/review/tv/native-verification.json",
+    "freshCurrentBuildFullGamePass": false
+  },
+  "comparisons": [
+    {
+      "scene": "lobby",
+      "path": "docs/review/tv-lobby-compare.png",
+      "bytes": 2330512,
+      "sha256": "30eda67c597273b647a016ff95d5c14173b9191dec69e441495fb492910d956b",
+      "states": 1
+    },
+    {
+      "scene": "intro",
+      "path": "docs/review/tv-intro-compare.png",
+      "bytes": 8912356,
+      "sha256": "9689d26fe4bb7efc2109457f4fa9239a5b97f9646a5a933348042b67de65ffa4",
+      "states": 4
+    },
+    {
+      "scene": "hunt",
+      "path": "docs/review/tv-hunt-compare.png",
+      "bytes": 4778754,
+      "sha256": "92cb8d6b45322f705e4863a03eadf2619f80506b8b905e99e842e7f085da1825",
+      "states": 2
+    },
+    {
+      "scene": "judge",
+      "path": "docs/review/tv-judge-compare.png",
+      "bytes": 4719104,
+      "sha256": "b133971f30394dd0e67037225c783ec029cb970bfd980a08b036ea6a5af4b56b",
+      "states": 2
+    },
+    {
+      "scene": "brag",
+      "path": "docs/review/tv-brag-compare.png",
+      "bytes": 5734959,
+      "sha256": "b1def3abf41b45a53670bc01c1482a291560c00dd2432455f66d9adb57282042",
+      "states": 3
+    },
+    {
+      "scene": "show",
+      "path": "docs/review/tv-show-compare.png",
+      "bytes": 5271022,
+      "sha256": "32f5fff64f5ace7b290f3e9b56301888bb755ea5adfd48810b34e5fc426c1ca7",
+      "states": 2
+    },
+    {
+      "scene": "stand",
+      "path": "docs/review/tv-stand-compare.png",
+      "bytes": 2412516,
+      "sha256": "fd94030ce2e2dbe5cb6bdc781cefd8938d2c8b6fe8746e647dcafe5290dfd32f",
+      "states": 1
+    },
+    {
+      "scene": "champ",
+      "path": "docs/review/tv-champ-compare.png",
+      "bytes": 2690742,
+      "sha256": "a5eec8aff5c8e0636de2c688fa48113e05fcf484da483a199b8698885504f05d",
+      "states": 1
+    }
+  ]
+}

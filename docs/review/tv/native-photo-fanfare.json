@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-10-13T23:44:27.256Z",
+  "target": "VVD OS 1.2 aarch64 Release / Hermes",
+  "codec": "ogg",
+  "productionPool": true,
+  "muted": true,
+  "expectedIds": [
+    "sfx-fanfare"
+  ],
+  "durationSeconds": 4.039,
+  "effects": [
+    {
+      "kind": "audio-effect",
+      "hermes": true,
+      "file": "sfx-fanfare",
+      "codec": "ogg",
+      "warm": false,
+      "seconds": 1.53525,
+      "milliseconds": 2171.06433499977,
+      "advancing": true,
+      "completed": true,
+      "exceptions": 0,
+      "pass": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "audio-effect",
+      "hermes": true,
+      "file": "sfx-fanfare",
+      "codec": "ogg",
+      "warm": true,
+      "seconds": 1.53525,
+      "milliseconds": 1599.8468340002,
+      "advancing": true,
+      "completed": true,
+      "exceptions": 0,
+      "pass": true,
+      "runtime": "native"
+    }
+  ],
+  "errors": [],
+  "complete": {
+    "kind": "audio-effects-complete",
+    "hermes": true,
+    "codec": "ogg",
+    "players": 10,
+    "frames": 2,
+    "sample": 2,
+    "pass": true,
+    "runtime": "native"
+  },
+  "pass": true
+}

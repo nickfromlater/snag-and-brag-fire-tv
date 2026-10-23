@@ -1,0 +1,43 @@
+{
+  "browser": "Chrome/155.0.8059.40",
+  "checks": [
+    "paper row, ink border and hard shadow",
+    "CP/JD/GR badge stack and exact colors",
+    "subtitle",
+    "off/on state and lime fill",
+    "pop spring",
+    "one 8 ms haptic request per accepted change",
+    "no repeated cue on unchanged state",
+    "host-only control",
+    "SNAG typography matches reference"
+  ],
+  "initial": {
+    "paper": "rgb(255, 248, 236)",
+    "border": "3px",
+    "shadow": "rgb(14, 11, 43) 0px 4px 0px 0px",
+    "label": "CPJDGR Play with botsFills the room with 3 rival teams",
+    "badges": [
+      {
+        "mono": "CP",
+        "color": "rgb(255, 122, 31)"
+      },
+      {
+        "mono": "JD",
+        "color": "rgb(184, 242, 59)"
+      },
+      {
+        "mono": "GR",
+        "color": "rgb(63, 224, 208)"
+      }
+    ],
+    "on": "true"
+  },
+  "kicker": {
+    "text": "SNAG",
+    "letterSpacing": "1.5px",
+    "fontSize": "11px",
+    "fontWeight": "900"
+  },
+  "physicalHapticFeel": "unverified; browser API calls only",
+  "outcome": "PASS"
+}

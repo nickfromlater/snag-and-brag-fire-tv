@@ -1,0 +1,56 @@
+{
+  "verifiedAt": "2026-10-13T23:46:35.036Z",
+  "pass": false,
+  "completed": false,
+  "target": "VVD OS 1.2 aarch64 Release / Hermes",
+  "speed": 1,
+  "nativeOnly": true,
+  "media": "Chromium built-in synthetic camera; no human photos or thumbnails persisted",
+  "relay": {
+    "ai": "mock",
+    "voice": "mock",
+    "reversePort": 8787,
+    "hostPort": 8789
+  },
+  "audioEnabled": true,
+  "reducedMotion": false,
+  "screensReached": {
+    "tv": [
+      "lobby"
+    ],
+    "phone": [
+      "p-join"
+    ]
+  },
+  "exceptions": {
+    "native": 0,
+    "phone": null
+  },
+  "audioErrors": [],
+  "durationSeconds": 18.874,
+  "phoneExitCode": null,
+  "lastNativeSnapshot": {
+    "kind": "snapshot",
+    "hermes": true,
+    "ready": true,
+    "loaded": true,
+    "connected": true,
+    "code": "GFQK",
+    "scene": "lobby",
+    "phase": "lobby",
+    "round": -1,
+    "mood": "normal",
+    "completed": false,
+    "paused": false,
+    "teams": 0,
+    "cues": 9,
+    "exceptions": 0,
+    "runtime": "native"
+  },
+  "reason": "Native snapshots stopped during phone play",
+  "maskEvents": [],
+  "photoEvents": [],
+  "clips": [],
+  "screenshots": [],
+  "note": "Failed post-install startup rerun of the final judge-entrance candidate, before any round or photo. Primary passing G2 receipt is preserved; restart the worker-owned VVD and repeat the final candidate."
+}

@@ -1,0 +1,297 @@
+{
+  "startedAt": "2026-10-19T00:09:02.147Z",
+  "syntheticMediaOnly": true,
+  "scope": "Native render telemetry plus hosted relay and synthetic phone protocol; physical phone UX is separate",
+  "nativeRenderTelemetry": true,
+  "roundsSnagged": [
+    0,
+    1
+  ],
+  "phoneScreens": [
+    "join",
+    "lobby",
+    "ready",
+    "cam",
+    "glow",
+    "wait",
+    "mash",
+    "vote",
+    "end"
+  ],
+  "nativeScenes": [
+    "champ",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag"
+  ],
+  "voicePaths": {
+    "polly": 17,
+    "blips": 24
+  },
+  "audioErrors": [],
+  "exceptions": [],
+  "photoDecodes": 10,
+  "maskObserved": true,
+  "phoneCompleted": false,
+  "nativeCompleted": false,
+  "maxSnapshotGapMs": 6541,
+  "disconnects": [],
+  "appStates": [
+    {
+      "atSeconds": 1.461,
+      "state": "active"
+    }
+  ],
+  "foregroundChecks": [
+    {
+      "atSeconds": 23.658,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 176
+    },
+    {
+      "atSeconds": 43.318,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 180
+    },
+    {
+      "atSeconds": 63.608,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 11172
+    },
+    {
+      "atSeconds": 83.644,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 6800
+    },
+    {
+      "atSeconds": 103.812,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 1328
+    },
+    {
+      "atSeconds": 123.37,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 6032
+    },
+    {
+      "atSeconds": 144.72,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 2856
+    },
+    {
+      "atSeconds": 163.596,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 772
+    },
+    {
+      "atSeconds": 183.311,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 5804
+    },
+    {
+      "atSeconds": 203.628,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 2864
+    },
+    {
+      "atSeconds": 223.323,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 840
+    },
+    {
+      "atSeconds": 243.697,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 2620
+    },
+    {
+      "atSeconds": 264.152,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 7872
+    },
+    {
+      "atSeconds": 283.849,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3400
+    },
+    {
+      "atSeconds": 303.194,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3516
+    },
+    {
+      "atSeconds": 323.685,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 4736
+    },
+    {
+      "atSeconds": 343.432,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 2212
+    },
+    {
+      "atSeconds": 364.247,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 1956
+    },
+    {
+      "atSeconds": 384.275,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 2252
+    },
+    {
+      "atSeconds": 403.911,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 9668
+    },
+    {
+      "atSeconds": 423.42,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 9436
+    },
+    {
+      "atSeconds": 444.033,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 6504
+    },
+    {
+      "atSeconds": 464.151,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 656
+    },
+    {
+      "atSeconds": 483.75,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3144
+    },
+    {
+      "atSeconds": 503.839,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3832
+    },
+    {
+      "atSeconds": 523.624,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 2248
+    },
+    {
+      "atSeconds": 544.306,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 7796
+    },
+    {
+      "atSeconds": 564.788,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3192
+    },
+    {
+      "atSeconds": 584.592,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 9576
+    },
+    {
+      "atSeconds": 604.214,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 5180
+    },
+    {
+      "atSeconds": 623.274,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 6076
+    },
+    {
+      "atSeconds": 643.827,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 5176
+    },
+    {
+      "atSeconds": 664.355,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3772
+    },
+    {
+      "atSeconds": 683.442,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 2052
+    },
+    {
+      "atSeconds": 702.379,
+      "state": "NOT_RUNNING",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 67392
+    }
+  ],
+  "games": [
+    {
+      "durationSeconds": 449.626,
+      "roundsSnagged": [
+        0,
+        1,
+        2
+      ],
+      "nativeScenes": [
+        "lobby",
+        "intro",
+        "hunt",
+        "judge",
+        "stand",
+        "brag",
+        "show",
+        "champ"
+      ],
+      "photoDecodes": 7,
+      "maskObserved": true,
+      "pollyLines": 11
+    }
+  ],
+  "stageVideo": {
+    "playingEvents": 16,
+    "errorEvents": 0,
+    "releaseRequests": 1
+  },
+  "devicePreflight": {
+    "tempUsedKiB": 0,
+    "tempAvailableKiB": 486984
+  },
+  "syntheticPhotoBytes": 40859,
+  "syntheticThumbBytes": 1001,
+  "endedAt": "2026-10-19T00:20:44.527Z",
+  "durationSeconds": 702.38,
+  "outcome": "FAIL",
+  "reason": "Lifecycle manager reports game NOT_RUNNING"
+}

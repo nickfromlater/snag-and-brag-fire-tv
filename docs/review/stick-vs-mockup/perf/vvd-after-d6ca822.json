@@ -1,0 +1,465 @@
+{
+ "label": "verdict-d6ca822",
+ "source": "gwsi_surfacePresented (graphics category) for the game process, REALTIME-joined to native snapshots",
+ "traceSeconds": 346.1,
+ "overall": {
+  "intervals": 35503,
+  "seconds": 346.1,
+  "fps": 102.58,
+  "p95Ms": 28.5,
+  "maxMs": 219.9,
+  "over100": 13,
+  "over150": 4
+ },
+ "scenes": {
+  "lobby": {
+   "intervals": 149,
+   "seconds": 2.0,
+   "fps": 74.36,
+   "p95Ms": 22.7,
+   "maxMs": 33.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro": {
+   "intervals": 7042,
+   "seconds": 69.09,
+   "fps": 101.93,
+   "p95Ms": 28.5,
+   "maxMs": 205.4,
+   "over100": 6,
+   "over150": 2
+  },
+  "hunt": {
+   "intervals": 7909,
+   "seconds": 76.14,
+   "fps": 103.88,
+   "p95Ms": 28.6,
+   "maxMs": 108.8,
+   "over100": 3,
+   "over150": 0
+  },
+  "judge": {
+   "intervals": 2710,
+   "seconds": 27.04,
+   "fps": 100.22,
+   "p95Ms": 28.7,
+   "maxMs": 219.9,
+   "over100": 4,
+   "over150": 2
+  },
+  "stand": {
+   "intervals": 3458,
+   "seconds": 33.05,
+   "fps": 104.62,
+   "p95Ms": 28.4,
+   "maxMs": 46.7,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag": {
+   "intervals": 8188,
+   "seconds": 78.1,
+   "fps": 104.84,
+   "p95Ms": 28.5,
+   "maxMs": 38.0,
+   "over100": 0,
+   "over150": 0
+  },
+  "show": {
+   "intervals": 2929,
+   "seconds": 28.01,
+   "fps": 104.57,
+   "p95Ms": 28.4,
+   "maxMs": 47.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "champ": {
+   "intervals": 2660,
+   "seconds": 26.54,
+   "fps": 100.24,
+   "p95Ms": 28.4,
+   "maxMs": 82.3,
+   "over100": 0,
+   "over150": 0
+  }
+ },
+ "phases": {
+  "lobby": {
+   "intervals": 149,
+   "seconds": 2.0,
+   "fps": 74.36,
+   "p95Ms": 22.7,
+   "maxMs": 33.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro/title": {
+   "intervals": 3114,
+   "seconds": 31.07,
+   "fps": 100.24,
+   "p95Ms": 28.6,
+   "maxMs": 205.4,
+   "over100": 6,
+   "over150": 2
+  },
+  "intro/reel": {
+   "intervals": 2899,
+   "seconds": 28.05,
+   "fps": 103.35,
+   "p95Ms": 28.5,
+   "maxMs": 40.0,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro/countdown": {
+   "intervals": 1029,
+   "seconds": 9.97,
+   "fps": 103.19,
+   "p95Ms": 28.6,
+   "maxMs": 52.4,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/countdown": {
+   "intervals": 175,
+   "seconds": 2.03,
+   "fps": 86.31,
+   "p95Ms": 38.7,
+   "maxMs": 103.9,
+   "over100": 1,
+   "over150": 0
+  },
+  "hunt/hunt": {
+   "intervals": 6786,
+   "seconds": 65.08,
+   "fps": 104.27,
+   "p95Ms": 28.5,
+   "maxMs": 108.8,
+   "over100": 2,
+   "over150": 0
+  },
+  "hunt/time": {
+   "intervals": 324,
+   "seconds": 3.06,
+   "fps": 105.84,
+   "p95Ms": 28.6,
+   "maxMs": 30.0,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/glow": {
+   "intervals": 624,
+   "seconds": 5.97,
+   "fps": 104.53,
+   "p95Ms": 28.4,
+   "maxMs": 32.8,
+   "over100": 0,
+   "over150": 0
+  },
+  "judge/judge": {
+   "intervals": 1981,
+   "seconds": 20.03,
+   "fps": 98.92,
+   "p95Ms": 28.7,
+   "maxMs": 219.9,
+   "over100": 4,
+   "over150": 2
+  },
+  "judge/winner": {
+   "intervals": 729,
+   "seconds": 7.01,
+   "fps": 103.93,
+   "p95Ms": 28.5,
+   "maxMs": 46.9,
+   "over100": 0,
+   "over150": 0
+  },
+  "stand/standings": {
+   "intervals": 3354,
+   "seconds": 32.05,
+   "fps": 104.63,
+   "p95Ms": 28.4,
+   "maxMs": 46.7,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/brag-intro": {
+   "intervals": 2737,
+   "seconds": 26.03,
+   "fps": 105.14,
+   "p95Ms": 28.5,
+   "maxMs": 32.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/brag-lines": {
+   "intervals": 948,
+   "seconds": 9.0,
+   "fps": 105.28,
+   "p95Ms": 28.4,
+   "maxMs": 32.8,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/brag-countdown": {
+   "intervals": 632,
+   "seconds": 6.04,
+   "fps": 104.62,
+   "p95Ms": 28.5,
+   "maxMs": 31.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/mash": {
+   "intervals": 1878,
+   "seconds": 18.05,
+   "fps": 104.04,
+   "p95Ms": 28.4,
+   "maxMs": 33.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/knockout": {
+   "intervals": 1889,
+   "seconds": 17.96,
+   "fps": 105.17,
+   "p95Ms": 28.7,
+   "maxMs": 38.0,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/standings": {
+   "intervals": 104,
+   "seconds": 1.0,
+   "fps": 103.55,
+   "p95Ms": 28.1,
+   "maxMs": 29.3,
+   "over100": 0,
+   "over150": 0
+  },
+  "stand/title": {
+   "intervals": 104,
+   "seconds": 1.0,
+   "fps": 104.16,
+   "p95Ms": 28.3,
+   "maxMs": 29.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "show/runway": {
+   "intervals": 411,
+   "seconds": 3.98,
+   "fps": 103.16,
+   "p95Ms": 28.4,
+   "maxMs": 30.5,
+   "over100": 0,
+   "over150": 0
+  },
+  "show/vote": {
+   "intervals": 741,
+   "seconds": 7.02,
+   "fps": 105.59,
+   "p95Ms": 28.3,
+   "maxMs": 32.2,
+   "over100": 0,
+   "over150": 0
+  },
+  "show/tally": {
+   "intervals": 198,
+   "seconds": 1.99,
+   "fps": 99.3,
+   "p95Ms": 28.4,
+   "maxMs": 47.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "show/winner": {
+   "intervals": 1579,
+   "seconds": 15.01,
+   "fps": 105.17,
+   "p95Ms": 28.4,
+   "maxMs": 40.4,
+   "over100": 0,
+   "over150": 0
+  },
+  "champ/podium": {
+   "intervals": 312,
+   "seconds": 3.03,
+   "fps": 103.13,
+   "p95Ms": 28.3,
+   "maxMs": 47.4,
+   "over100": 0,
+   "over150": 0
+  },
+  "champ/finale": {
+   "intervals": 2348,
+   "seconds": 23.51,
+   "fps": 99.87,
+   "p95Ms": 28.4,
+   "maxMs": 82.3,
+   "over100": 0,
+   "over150": 0
+  }
+ },
+ "jsBlockingNativeWork": {
+  "native-set-src:audio": {
+   "count": 49,
+   "totalMs": 1255,
+   "p50Ms": 15,
+   "maxMs": 119
+  },
+  "native-play:audio": {
+   "count": 723,
+   "totalMs": 775,
+   "p50Ms": 0,
+   "maxMs": 168
+  },
+  "native-set-volume:audio": {
+   "count": 1321,
+   "totalMs": 726,
+   "p50Ms": 0,
+   "maxMs": 105
+  },
+  "native-set-currentTime:audio": {
+   "count": 641,
+   "totalMs": 322,
+   "p50Ms": 0,
+   "maxMs": 136
+  },
+  "native-pause:audio": {
+   "count": 722,
+   "totalMs": 212,
+   "p50Ms": 0,
+   "maxMs": 56
+  },
+  "native-get-currentTime:audio": {
+   "count": 2537,
+   "totalMs": 204,
+   "p50Ms": 0,
+   "maxMs": 15
+  }
+ },
+ "gapsOver100": [
+  {
+   "atS": 28.94,
+   "gapMs": 103.9,
+   "phase": "hunt/countdown",
+   "renderMs": 33,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 40.68,
+   "gapMs": 105.0,
+   "phase": "hunt/hunt",
+   "renderMs": 5,
+   "coincident": []
+  },
+  {
+   "atS": 40.79,
+   "gapMs": 108.8,
+   "phase": "hunt/hunt",
+   "renderMs": 11,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 70.76,
+   "gapMs": 219.9,
+   "phase": "judge/judge",
+   "renderMs": 7,
+   "coincident": [
+    "cue:eyes:judge-card:gr",
+    "cue:scan",
+    "cue:sfx",
+    "native-pause:audio-4 56ms"
+   ]
+  },
+  {
+   "atS": 73.3,
+   "gapMs": 178.0,
+   "phase": "judge/judge",
+   "renderMs": 672180,
+   "coincident": [
+    "cue:card-flip",
+    "cue:sfx",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 73.48,
+   "gapMs": 147.8,
+   "phase": "judge/judge",
+   "renderMs": 69,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 75.1,
+   "gapMs": 119.9,
+   "phase": "judge/judge",
+   "renderMs": 1,
+   "coincident": [
+    "cue:reaction",
+    "native-play:audio-4 168ms"
+   ]
+  },
+  {
+   "atS": 99.28,
+   "gapMs": 177.1,
+   "phase": "intro/title",
+   "renderMs": 698164,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 99.5,
+   "gapMs": 111.6,
+   "phase": "intro/title",
+   "renderMs": 0,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 101.83,
+   "gapMs": 118.5,
+   "phase": "intro/title",
+   "renderMs": 7,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 101.95,
+   "gapMs": 205.4,
+   "phase": "intro/title",
+   "renderMs": 45,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 103.61,
+   "gapMs": 103.6,
+   "phase": "intro/title",
+   "renderMs": 9,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 104.34,
+   "gapMs": 142.7,
+   "phase": "intro/title",
+   "renderMs": 2,
+   "coincident": []
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Retail callie armv7l / OS2 TV Ship/515; complete lobby presentation, windowed background clock, native puppet and rasterized titles/rays/doodles/QR",
+  "traceTool": "Vega perf0.24, default categories; 32MiB app buffer, discard mode, Perfetto v58.2",
+  "frames": 577,
+  "spanSeconds": 24.72,
+  "averageFps": 23.3,
+  "maximumFrameGapMs": 857.47,
+  "gapsOver100Ms": 3,
+  "meanRasterizeMs": 34.29,
+  "shadowTreeCommits": 9,
+  "targetFps": 30,
+  "outcome": "FAIL",
+  "next": "Reduce transparent full-screen background overdraw, retaining native foreground motion",
+  "privacy": "Metadata only; raw trace outside repository",
+  "measurementCaveat": "Recorded before RAM-backed device temporary storage was cleaned. Numeric observations remain valid for that system state; use a clean-device measurement for acceptance and do not attribute comparisons to code alone."
+}

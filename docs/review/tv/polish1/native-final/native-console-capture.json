@@ -1,0 +1,14 @@
+{
+  "pass": false,
+  "expectedCoreScene": "champ",
+  "coreCompleted": true,
+  "observedConsoleScene": "intro/reel",
+  "observedHudScores": [
+    0,
+    0,
+    0
+  ],
+  "image": "native-postgame-console.png",
+  "captureTiming": "after the strict 28-complete-clip core/audio gate",
+  "conclusion": "Native visual acceptance unverified; renderer versus console cause unresolved."
+}

@@ -1,0 +1,26 @@
+$ pnpm -r --if-present test
+Scope: 2 of 3 workspace projects
+shared test$ vitest run
+tools/render-audio test$ vitest run
+tools/render-audio test:
+tools/render-audio test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/audio/tools/render-audio
+tools/render-audio test:
+shared test:
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/audio/shared
+shared test:
+shared test:  ✓ test/pixelJudge.test.ts (5 tests) 26ms
+shared test:
+shared test:  Test Files  1 passed (1)
+shared test:       Tests  5 passed (5)
+shared test:    Start at  21:23:47
+shared test:    Duration  408ms (transform 39ms, setup 0ms, collect 45ms, tests 26ms, environment 0ms, prepare 32ms)
+shared test:
+shared test: Done
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 281ms
+tools/render-audio test:
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  21:23:47
+tools/render-audio test:    Duration  888ms (transform 77ms, setup 0ms, collect 284ms, tests 281ms, environment 0ms, prepare 59ms)
+tools/render-audio test:
+tools/render-audio test: Done

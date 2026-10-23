@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "target": "web",
+  "syntheticOnly": true,
+  "seed": 20261022,
+  "script": "submission-v1",
+  "rehearsalSpeed": 1,
+  "durationMs": 220400,
+  "fps": 30,
+  "segmentCount": 2,
+  "overlapSeconds": 2,
+  "segments": [
+    {
+      "startMs": 0,
+      "endMs": 170000,
+      "file": "01-lobby-to-showstopper-hunt.mp4"
+    },
+    {
+      "startMs": 168000,
+      "endMs": 220400,
+      "file": "02-showstopper-hunt-to-finale.mp4"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "lobby",
+      "startMs": 0,
+      "endMs": 9005.800000011921,
+      "file": "lobby.mp4"
+    },
+    {
+      "name": "color-rush-intro",
+      "startMs": 9005.800000011921,
+      "endMs": 20015.80000001192,
+      "file": "color-rush-intro.mp4"
+    },
+    {
+      "name": "color-rush-hunt",
+      "startMs": 20015.80000001192,
+      "endMs": 43225.30000001192,
+      "file": "color-rush-hunt.mp4"
+    },
+    {
+      "name": "pixel-judge",
+      "startMs": 43225.30000001192,
+      "endMs": 58345.19999998808,
+      "file": "pixel-judge.mp4"
+    },
+    {
+      "name": "standings-round-1",
+      "startMs": 58345.19999998808,
+      "endMs": 64010.19999998808,
+      "file": "standings-round-1.mp4"
+    },
+    {
+      "name": "brag-off-intro",
+      "startMs": 64010.19999998808,
+      "endMs": 75023.30000001192,
+      "file": "brag-off-intro.mp4"
+    },
+    {
+      "name": "brag-off-hunt",
+      "startMs": 75023.30000001192,
+      "endMs": 98237.69999998808,
+      "file": "brag-off-hunt.mp4"
+    },
+    {
+      "name": "brag-semifinal-1",
+      "startMs": 98237.69999998808,
+      "endMs": 114691.5,
+      "file": "brag-semifinal-1.mp4"
+    },
+    {
+      "name": "brag-semifinal-2",
+      "startMs": 114691.5,
+      "endMs": 130496.5,
+      "file": "brag-semifinal-2.mp4"
+    },
+    {
+      "name": "brag-final",
+      "startMs": 130496.5,
+      "endMs": 146690.80000001192,
+      "file": "brag-final.mp4"
+    },
+    {
+      "name": "standings-round-2",
+      "startMs": 146690.80000001192,
+      "endMs": 152250.89999997616,
+      "file": "standings-round-2.mp4"
+    },
+    {
+      "name": "showstopper-intro",
+      "startMs": 152250.89999997616,
+      "endMs": 162949.59999996424,
+      "file": "showstopper-intro.mp4"
+    },
+    {
+      "name": "showstopper-hunt",
+      "startMs": 162949.59999996424,
+      "endMs": 186158.5,
+      "file": "showstopper-hunt.mp4"
+    },
+    {
+      "name": "showstopper-vote-win",
+      "startMs": 186158.5,
+      "endMs": 200592.69999998808,
+      "file": "showstopper-vote-win.mp4"
+    },
+    {
+      "name": "standings-round-3",
+      "startMs": 200592.69999998808,
+      "endMs": 206254,
+      "file": "standings-round-3.mp4"
+    },
+    {
+      "name": "finale",
+      "startMs": 206254,
+      "endMs": 220400,
+      "file": "finale.mp4"
+    }
+  ],
+  "beats": {
+    "lobby": 6504.5,
+    "hunt-feeds": 22821.899999976158,
+    "pixel-judge-mask": 46733.80000001192,
+    "brag-final-mash": 140570.5,
+    "showstopper-win": 199475.09999996424,
+    "finale": 211247.30000001192
+  },
+  "scores": [
+    {
+      "name": "Sock Goblins",
+      "score": 429
+    },
+    {
+      "name": "Couch Potatoes",
+      "score": 307
+    },
+    {
+      "name": "Junk Drawer Gang",
+      "score": 347
+    },
+    {
+      "name": "Grandma's Revenge",
+      "score": 135
+    }
+  ],
+  "masterProbe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_frames": "6612"
+      }
+    ],
+    "format": {
+      "duration": "220.400000",
+      "size": "163226528"
+    }
+  },
+  "previewProbe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "nb_frames": "504"
+      }
+    ],
+    "format": {
+      "duration": "16.800000",
+      "size": "2733195"
+    }
+  },
+  "previewBytes": 2733195,
+  "gallery": [
+    {
+      "file": "01-lobby.png",
+      "codec_name": "png",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "25/1",
+      "bytes": 776711,
+      "sha256": "951ece4f1addcc19b507d36063bd78324129d1973d7dad8178280697e1bfff2d"
+    },
+    {
+      "file": "02-hunt-feeds.png",
+      "codec_name": "png",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "25/1",
+      "bytes": 786478,
+      "sha256": "d4b477a7c4e44b902c7d4f2632764cec9612e3450010518ff030e0e9f9bfddb9"
+    },
+    {
+      "file": "03-pixel-judge-mask.png",
+      "codec_name": "png",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "25/1",
+      "bytes": 622197,
+      "sha256": "346bf93f6c93485d996314d62684139184dcf613727ad37df7408ae67a66cf6b"
+    },
+    {
+      "file": "04-brag-final-mash.png",
+      "codec_name": "png",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "25/1",
+      "bytes": 769723,
+      "sha256": "a2eda25e5f6babfea35fc14e13c357cac8d7343180fbcf245dd05604f222c6fa"
+    },
+    {
+      "file": "05-showstopper-win.png",
+      "codec_name": "png",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "25/1",
+      "bytes": 1092274,
+      "sha256": "2e5fa09e786daf57b3b90e4fa55bde8396ca63334059cfa4c3a5da7f6ba93b39"
+    },
+    {
+      "file": "06-finale.png",
+      "codec_name": "png",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "25/1",
+      "bytes": 1000855,
+      "sha256": "ae70cc1a12acc7739157083dc93136dce624290adb1bd141349ecce95a4df2e0"
+    },
+    {
+      "file": "07-devpost-thumbnail.png",
+      "codec_name": "png",
+      "width": 1500,
+      "height": 1000,
+      "r_frame_rate": "25/1",
+      "bytes": 847346,
+      "sha256": "31160bf23c8b3d0d95f6bccaa5097dad0054a775b5e900cbc2a4324eef69b58a"
+    }
+  ],
+  "browser": "Chrome/155.0.8059.40",
+  "audio": "silent web rehearsal; no realtime AudioContext",
+  "galleryChecks": [
+    {
+      "name": "lobby",
+      "scene": "sc-lobby",
+      "okay": true
+    },
+    {
+      "name": "hunt-feeds",
+      "scene": "sc-hunt",
+      "okay": true
+    },
+    {
+      "name": "pixel-judge-mask",
+      "scene": "sc-judge",
+      "okay": true,
+      "litCells": 53,
+      "maskBox": {
+        "x": 174,
+        "y": 321,
+        "width": 204,
+        "height": 204
+      },
+      "opacity": 0.88
+    },
+    {
+      "name": "brag-final-mash",
+      "scene": "sc-brag",
+      "okay": true,
+      "position": -0.0666105144867716
+    },
+    {
+      "name": "showstopper-win",
+      "scene": "sc-show",
+      "okay": true,
+      "votes": 2
+    },
+    {
+      "name": "finale",
+      "scene": "sc-champ",
+      "okay": true
+    }
+  ],
+  "maskVerification": {
+    "expectedCells": 53,
+    "greenCells": 53,
+    "visibleFraction": 1,
+    "okay": true
+  },
+  "previewSha256": "e4c8ffc629ed9d1b4d41dfb03382317d3040e5fd0dce7832fc72887cece32b11"
+}

@@ -1,0 +1,12 @@
+{
+  "outcome": "FAIL",
+  "scope": "normal-speed synthetic photo-bearing Home recovery, SVG transport candidate",
+  "nativeReason": "ReclaimMediaResource",
+  "nativeEvent": "onBackground:media-playback",
+  "nativeReportIndex": 242,
+  "backgroundAtMs": 1792369908793,
+  "nativeCrashAtMs": 1792369909000,
+  "backgroundVideoReleaseRequestedBeforeKill": false,
+  "postUnmountImageCacheReleaseObserved": false,
+  "interpretation": "React background unmount/effects did not reach resource release before the system reclaimed the app; synchronous AppState cleanup is the next candidate, not a verified fix"
+}

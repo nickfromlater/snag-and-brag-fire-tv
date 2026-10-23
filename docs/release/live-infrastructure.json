@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-17T17:05:44.625289+00:00",
+  "budget": {
+    "name": "snag-50-monthly",
+    "limit": {
+      "Amount": "50.0",
+      "Unit": "USD"
+    },
+    "timeUnit": "MONTHLY",
+    "notifications": [
+      {
+        "notification": {
+          "NotificationType": "ACTUAL",
+          "ComparisonOperator": "GREATER_THAN",
+          "Threshold": 80.0
+        },
+        "ownerEmailVerified": true
+      },
+      {
+        "notification": {
+          "NotificationType": "FORECASTED",
+          "ComparisonOperator": "GREATER_THAN",
+          "Threshold": 100.0
+        },
+        "ownerEmailVerified": true
+      }
+    ],
+    "establishedBeforeInfrastructure": true
+  },
+  "ec2": {
+    "type": "t4g.small",
+    "architecture": "arm64",
+    "state": "running",
+    "imdsTokens": "required",
+    "cpuCredits": "standard",
+    "volumes": [
+      {
+        "gib": 8,
+        "type": "gp3",
+        "encrypted": true
+      }
+    ],
+    "originIngress": "HTTP only from CloudFront managed prefix list; SSH only from the deployment /32; no public 8787"
+  },
+  "cloudfront": {
+    "status": "Deployed",
+    "domain": "d2q0olvpmfmvjn.cloudfront.net",
+    "loggingEnabled": false,
+    "priceClass": "PriceClass_100",
+    "websocketAndPrivateRoutesCachingDisabled": true
+  },
+  "healthCheck": {
+    "Type": "HTTP",
+    "Port": 80,
+    "ResourcePath": "/healthz",
+    "RequestInterval": 30,
+    "FailureThreshold": 3
+  },
+  "alarm": {
+    "AlarmName": "snag-relay-health",
+    "ActionsEnabled": true,
+    "StateValue": "OK",
+    "Period": 60,
+    "EvaluationPeriods": 2,
+    "DatapointsToAlarm": 2,
+    "Threshold": 1.0,
+    "ComparisonOperator": "LessThanThreshold"
+  },
+  "emailSubscriptionConfirmed": false,
+  "mantleRetention": "none; set and read back by setup:mantle; project identifiers retained privately",
+  "privateResourceInventory": "~/secrets/snag-deploy/context.sh",
+  "runtime": {
+    "ffmpeg": "7.0.2-static arm64",
+    "node": "24.20.0",
+    "pnpm": "12.10.1",
+    "activeSwapDevices": 0,
+    "corePattern": "/dev/null",
+    "memoryMaxBytes": 1572864000,
+    "memorySwapMaxBytes": 0,
+    "limitCore": 0,
+    "workingDirectory": "/opt/snag/app/relay",
+    "systemdResult": "success",
+    "restartsSinceLastStart": 0,
+    "finalHealthUptimeS": 6497
+  }
+}

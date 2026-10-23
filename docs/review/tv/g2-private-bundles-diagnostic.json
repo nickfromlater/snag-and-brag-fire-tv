@@ -1,0 +1,74 @@
+{
+  "verifiedAt": "2026-10-13T21:52:14.107Z",
+  "pass": false,
+  "completed": false,
+  "target": "VVD OS 1.2 aarch64 Release / Hermes",
+  "speed": 1,
+  "nativeOnly": true,
+  "media": "Chromium built-in synthetic camera; no human photos or thumbnails persisted",
+  "relay": {
+    "ai": "mock",
+    "voice": "mock",
+    "reversePort": 8787,
+    "hostPort": null
+  },
+  "audioEnabled": true,
+  "reducedMotion": false,
+  "screensReached": {
+    "tv": [],
+    "phone": []
+  },
+  "exceptions": {
+    "native": null,
+    "phone": null
+  },
+  "audioErrors": [],
+  "durationSeconds": 30.184,
+  "phoneExitCode": null,
+  "lastNativeSnapshot": null,
+  "reason": "Native app timed out at undefined",
+  "maskEvents": [],
+  "photoEvents": [],
+  "clips": [],
+  "screenshots": [],
+  "note": "Failed native run. Phone error assertions and full-game visual acceptance were not reached.",
+  "diagnosticOnly": true,
+  "buildConfiguration": {
+    "useSystemJsBundles": false,
+    "reportedPackageBytes": 50738250
+  },
+  "phoneLaunched": false,
+  "startupEvidence": [
+    {
+      "kind": "bootstrap",
+      "hermes": true,
+      "ready": false,
+      "loaded": false,
+      "fontError": false,
+      "runtime": "native"
+    },
+    {
+      "kind": "bootstrap",
+      "hermes": true,
+      "ready": false,
+      "loaded": true,
+      "fontError": false,
+      "runtime": "native"
+    },
+    {
+      "kind": "engine",
+      "hermes": true,
+      "utf8": "pure-js",
+      "binary": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "bootstrap",
+      "hermes": true,
+      "ready": true,
+      "loaded": true,
+      "fontError": false,
+      "runtime": "native"
+    }
+  ]
+}

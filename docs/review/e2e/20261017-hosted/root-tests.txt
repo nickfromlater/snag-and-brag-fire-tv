@@ -1,0 +1,173 @@
+$ pnpm -r --if-present test && vitest run tools/release/package.test.mjs
+Scope: 9 of 10 workspace projects
+tools/render-audio test$ vitest run
+tools/render-art test$ vitest run
+shared test$ vitest run
+tools/render-audio test: 
+tools/render-audio test:  RUN  v3.2.7 <checkout>/tools/render-audio
+tools/render-audio test: 
+shared test: 
+shared test:  RUN  v3.2.7 <checkout>/shared
+shared test: 
+tools/render-art test: 
+tools/render-art test:  RUN  v3.2.7 <checkout>/tools/render-art
+tools/render-art test: 
+shared test:  ✓ test/mash.test.ts (2 tests) 5ms
+shared test:  ✓ test/prompts.test.ts (2 tests) 2ms
+shared test:  ✓ test/pixelJudge.test.ts (11 tests) 77ms
+shared test:  ✓ test/host.test.ts (12 tests) 73ms
+shared test:  ✓ test/showcase.test.ts (3 tests) 415ms
+shared test:    ✓ opt-in submission showcase > replays identical cues, prompts, finds, votes and scores from its own seed  348ms
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 300ms
+tools/render-audio test: 
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  16:26:50
+tools/render-audio test:    Duration  1.49s (transform 139ms, setup 0ms, collect 608ms, tests 300ms, environment 0ms, prepare 71ms)
+tools/render-audio test: 
+tools/render-audio test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 1840ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  1551ms
+tools/render-art test: 
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  16:26:50
+tools/render-art test:    Duration  2.64s (transform 73ms, setup 0ms, collect 95ms, tests 1.84s, environment 0ms, prepare 106ms)
+tools/render-art test: 
+tools/render-art test: Done
+shared test:  ✓ test/game.test.ts (40 tests) 1966ms
+shared test: 
+shared test:  Test Files  6 passed (6)
+shared test:       Tests  70 passed (70)
+shared test:    Start at  16:26:50
+shared test:    Duration  2.91s (transform 389ms, setup 0ms, collect 1.68s, tests 2.54s, environment 2ms, prepare 780ms)
+shared test: 
+shared test: Done
+tools/eval test$ vitest run
+phone test$ vitest run
+tools/director test$ vitest run
+relay test$ vitest run
+tools/director test: 
+tools/director test:  RUN  v3.2.7 <checkout>/tools/director
+tools/director test: 
+tools/eval test: 
+tools/eval test:  RUN  v3.2.7 <checkout>/tools/eval
+tools/eval test: 
+phone test: 
+phone test:  RUN  v3.2.7 <checkout>/phone
+phone test: 
+relay test: 
+relay test:  RUN  v3.2.7 <checkout>/relay
+relay test: 
+phone test:  ✓ test/art.test.ts (2 tests) 3ms
+phone test:  ✓ test/faceBlur.test.ts (20 tests) 30ms
+tools/director test:  ✓ test/capture-guards.test.ts (1 test) 152ms
+phone test:  ✓ test/logic.test.ts (17 tests) 4ms
+relay test:  ✓ test/deploy.test.ts (1 test) 341ms
+relay test:    ✓ rejects an untrusted static archive before extraction or replacing an installed encoder  340ms
+phone test:  ✓ test/camera.test.ts (6 tests) 58ms
+phone test: 
+phone test:  Test Files  4 passed (4)
+phone test:       Tests  45 passed (45)
+phone test:    Start at  16:26:53
+phone test:    Duration  936ms (transform 335ms, setup 0ms, collect 792ms, tests 96ms, environment 1ms, prepare 210ms)
+phone test: 
+phone test: Done
+tv test$ pnpm lint && vitest run
+tv test: $ eslint src test --ext .ts,.tsx
+tools/director test:  ✓ test/director.test.ts (5 tests) 365ms
+tools/director test: 
+tools/director test:  Test Files  2 passed (2)
+tools/director test:       Tests  6 passed (6)
+tools/director test:    Start at  16:26:53
+tools/director test:    Duration  1.48s (transform 189ms, setup 0ms, collect 648ms, tests 517ms, environment 0ms, prepare 177ms)
+tools/director test: 
+tools/director test: Done
+tvsim test$ vitest run
+relay test:  ✓ test/voice-media.test.ts (2 tests) 164ms
+tvsim test: 
+tvsim test:  RUN  v3.2.7 <checkout>/tvsim
+tvsim test: 
+relay test:  ✓ test/services.test.ts (21 tests) 109ms
+relay test:  ✓ test/wav.test.ts (3 tests) 6ms
+tv test: 
+tv test:  RUN  v3.2.7 <checkout>/tv
+tv test: 
+tvsim test:  ✓ test/simulator.test.ts (8 tests) 368ms
+tvsim test: 
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  8 passed (8)
+tvsim test:    Start at  16:26:55
+tvsim test:    Duration  860ms (transform 149ms, setup 0ms, collect 201ms, tests 368ms, environment 0ms, prepare 54ms)
+tvsim test: 
+tvsim test: Done
+tv test:  ✓ test/pixel-raster.test.ts (4 tests) 30ms
+tv test:  ✓ test/memory-photos.test.ts (4 tests) 48ms
+tv test:  ✓ test/eyes-trajectory.test.ts (3 tests) 11ms
+tv test:  ✓ test/effects-text.test.ts (2 tests) 46ms
+tv test:  ✓ test/director.test.ts (3 tests) 47ms
+tv test:  ✓ test/particle-plan.test.ts (2 tests) 40ms
+tv test:  ✓ test/control-isolation.test.ts (1 test) 234ms
+tv test:  ✓ test/media-transport.test.ts (6 tests) 65ms
+tv test:  ✓ test/runtime-clock.test.ts (2 tests) 49ms
+tv test:  ✓ test/primitives.test.ts (15 tests) 16ms
+tv test:  ✓ test/speech-source.test.ts (4 tests) 10ms
+tv test:  ✓ test/review-fixes.test.ts (7 tests) 169ms
+tv test:  ✓ test/cue-timing.test.ts (3 tests) 3ms
+tv test:  ✓ test/decorative-clock.test.ts (2 tests) 1ms
+tv test:  ✓ test/coordinates.test.ts (2 tests) 1ms
+tv test:  ✓ test/instruments.test.ts (6 tests) 10ms
+tv test:  ✓ test/effects.test.ts (1 test) 2ms
+tv test:  ✓ test/display-primitives.test.ts (8 tests) 6ms
+tv test:  ✓ test/native-voice-lifecycle.test.ts (3 tests) 4ms
+tv test:  ✓ test/voice-audio.test.ts (2 tests) 4ms
+tv test:  ✓ test/audio-initialization.test.ts (3 tests) 3ms
+tv test:  ✓ test/speech.test.ts (19 tests) 15ms
+tv test:  ✓ test/svg-image-source.test.ts (2 tests) 2ms
+tv test:  ✓ test/photo-raster.test.ts (2 tests) 727ms
+tv test:    ✓ native photo art coverage > composes a synthetic photo into an alpha PNG with the calibrated mask and valid chunk checksums  724ms
+tv test:  ✓ test/parade-reference.test.ts (1 test) 3780ms
+tv test:    ✓ native parade follows the actual reference CSS, including alternate hops and bottom origin  3779ms
+tv test: 
+tv test:  Test Files  25 passed (25)
+tv test:       Tests  107 passed (107)
+tv test:    Start at  16:26:55
+tv test:    Duration  4.25s (transform 727ms, setup 0ms, collect 2.99s, tests 5.32s, environment 2ms, prepare 1.80s)
+tv test: 
+tools/eval test:  ✓ test/eval.test.ts (14 tests) 5637ms
+tools/eval test:    ✓ Chrome canvas integration > decodes a fixture, matches shared judging and strips source metadata on capture  5480ms
+tv test: Done
+tools/eval test: 
+tools/eval test:  Test Files  1 passed (1)
+tools/eval test:       Tests  14 passed (14)
+tools/eval test:    Start at  16:26:53
+tools/eval test:    Duration  6.85s (transform 200ms, setup 0ms, collect 617ms, tests 5.64s, environment 0ms, prepare 49ms)
+tools/eval test: 
+tools/eval test: Done
+relay test:  ✓ test/server.test.ts (33 tests) 11925ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > times out mock AI within 4.1 seconds, broadcasts one fallback and still answers ping  4555ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > closes rooms after TV absence or maximum age and cancels the grace timer on resume  338ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > returns ok:false for mock Polly past the five second budget  5001ms
+relay test:    ✓ malformed input and rate caps > caps thumbs at five per second and allows a new window  1036ms
+relay test: 
+relay test:  Test Files  5 passed (5)
+relay test:       Tests  60 passed (60)
+relay test:    Start at  16:26:53
+relay test:    Duration  13.42s (transform 213ms, setup 0ms, collect 1.73s, tests 12.54s, environment 0ms, prepare 302ms)
+relay test: 
+relay test: Done
+
+ RUN  v3.2.7 <checkout>
+
+ ✓ tools/release/package.test.mjs (14 tests) 3108ms
+   ✓ release package boundaries > builds each target with release flags, hashes named packages, quotes paths and never invokes gh  682ms
+   ✓ release package boundaries > restores config and retains the previous upload set after a target failure  391ms
+   ✓ release package boundaries > restores configuration after failed asset generation  335ms
+   ✓ release package boundaries > rejects ambiguous archives  364ms
+   ✓ release package boundaries > cannot reuse a stale archive when the builder produces nothing  360ms
+
+ Test Files  1 passed (1)
+      Tests  14 passed (14)
+   Start at  16:27:07
+   Duration  3.32s (transform 12ms, setup 0ms, collect 13ms, tests 3.11s, environment 0ms, prepare 45ms)
+

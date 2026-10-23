@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-18T00:56:00+00:00",
+  "reason": "LowMemoryKiller",
+  "foregroundApp": "com.amazon.smplighthouse.launcher.main",
+  "context": "Explicit Home background test after rendering and audio cleanup was installed; warm foregrounding required a new process.",
+  "privacy": "Metadata only; raw report discarded",
+  "gamePssKiB": 83534,
+  "gameSwapPssKiB": 27118,
+  "gameDrmKiB": 86080
+}

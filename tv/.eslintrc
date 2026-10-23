@@ -1,0 +1,105 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es2022": true
+  },
+  "ignorePatterns": [
+    "src/stage/benchmark-assets",
+    "src/stage/generated"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+      ],
+      "excludedFiles": [
+        "src/stage/**/*"
+      ],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": [
+                  "@amazon-devices/*",
+                  "react-native-svg",
+                  "react-native-reanimated",
+                  "expo-font",
+                  "expo-asset"
+                ],
+                "message": "Platform/rendering dependencies belong only to src/stage."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "src/scenes/**/*"
+      ],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": [
+                  "*",
+                  "!@snag",
+                  "!@snag/shared",
+                  "!..",
+                  "!../stage"
+                ],
+                "message": "Scenes may import only ../stage and @snag/shared."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "src/stage/**/*.ts",
+        "src/stage/**/*.tsx"
+      ],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              {
+                "name": "@amazon-devices/react-native-svg",
+                "importNames": [
+                  "Polygon",
+                  "Polyline",
+                  "Pattern"
+                ],
+                "message": "Unsupported by the proven Vega SVG port; use Path or baked PNG."
+              },
+              {
+                "name": "react-native-svg",
+                "importNames": [
+                  "Polygon",
+                  "Polyline",
+                  "Pattern"
+                ],
+                "message": "Web must respect Vega limits."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1603 @@
+{
+  "checked": "2026-10-13T15:28:05.036Z",
+  "revision": "b2ce6b811316bae8f322c5a3865172497b644693",
+  "sourceSha256": "d8c6c132ce9bfeb82ce53f1c1d588454dbdfd8f622e0beef75c7f8f0c98030de",
+  "status": "measured",
+  "browser": "Chrome/155.0.8059.40",
+  "mediaPipe": "0.10.14",
+  "warm": {
+    "warmMs": 220.5999999642372,
+    "nativeShapeDetector": false
+  },
+  "timings": {
+    "firstInferenceMs": 48.19999998807907,
+    "p50": 7.599999964237213,
+    "p95": 48.19999998807907,
+    "max": 48.19999998807907
+  },
+  "detectedImages": 12,
+  "faceImages": 12,
+  "expectedFaces": 12,
+  "matchedFaces": 12,
+  "misses": [],
+  "falsePositiveImages": [
+    "red-pepper",
+    "red-multicolor-peppers",
+    "near-lime-cap",
+    "loot-pearl-necklace",
+    "old-wall-clock",
+    "tough-iron-pan",
+    "island-teddy",
+    "weird-satyr-mug",
+    "messy-dishes",
+    "extra-white-teddy",
+    "extra-blue-robot"
+  ],
+  "controlImages": 64,
+  "foreignRequests": 0,
+  "browserErrors": [],
+  "records": [
+    {
+      "id": "face-kerwin",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          314,
+          11,
+          132,
+          132
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          281,
+          0,
+          198,
+          176
+        ]
+      ],
+      "faceCoverage": [
+        1
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 48.19999998807907,
+      "decodeMs": 43.80000001192093,
+      "attempts": 1,
+      "changedPixels": 34825
+    },
+    {
+      "id": "face-cassidy",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          300,
+          85,
+          116,
+          116
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          271,
+          56,
+          174,
+          174
+        ]
+      ],
+      "faceCoverage": [
+        0.9754601226993865
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 7.599999964237213,
+      "decodeMs": 4,
+      "attempts": 1,
+      "changedPixels": 30227
+    },
+    {
+      "id": "face-watkins",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          198,
+          83,
+          334,
+          334
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          114,
+          0,
+          502,
+          501
+        ]
+      ],
+      "faceCoverage": [
+        1
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 5.899999976158142,
+      "decodeMs": 3.5,
+      "attempts": 1,
+      "changedPixels": 251440
+    },
+    {
+      "id": "face-resnik",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          273,
+          107,
+          229,
+          229
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          215,
+          49,
+          345,
+          345
+        ]
+      ],
+      "faceCoverage": [
+        1
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 5.600000023841858,
+      "decodeMs": 3.800000011920929,
+      "attempts": 1,
+      "changedPixels": 119011
+    },
+    {
+      "id": "face-jemison",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          232,
+          174,
+          159,
+          159
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          192,
+          134,
+          239,
+          239
+        ]
+      ],
+      "faceCoverage": [
+        0.9861751152073732
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 5.800000011920929,
+      "decodeMs": 3.5,
+      "attempts": 1,
+      "changedPixels": 56905
+    },
+    {
+      "id": "face-melvin",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          256,
+          205,
+          99,
+          99
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          231,
+          180,
+          149,
+          149
+        ]
+      ],
+      "faceCoverage": [
+        0.8773006134969326
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 16.80000001192093,
+      "decodeMs": 4.800000011920929,
+      "attempts": 1,
+      "changedPixels": 22137
+    },
+    {
+      "id": "face-barron",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          247,
+          186,
+          232,
+          232
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          189,
+          128,
+          348,
+          348
+        ]
+      ],
+      "faceCoverage": [
+        1
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 9.899999976158142,
+      "decodeMs": 4,
+      "attempts": 1,
+      "changedPixels": 120853
+    },
+    {
+      "id": "face-hague",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          267,
+          204,
+          224,
+          224
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          211,
+          148,
+          336,
+          336
+        ]
+      ],
+      "faceCoverage": [
+        0.932258064516129
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 9.5,
+      "decodeMs": 4.599999964237213,
+      "attempts": 1,
+      "changedPixels": 112530
+    },
+    {
+      "id": "face-ride",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          238,
+          291,
+          160,
+          160
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          198,
+          251,
+          240,
+          240
+        ]
+      ],
+      "faceCoverage": [
+        1
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 8.199999988079071,
+      "decodeMs": 4.900000035762787,
+      "attempts": 1,
+      "changedPixels": 57590
+    },
+    {
+      "id": "face-priven",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          173,
+          220,
+          358,
+          358
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          83,
+          130,
+          538,
+          538
+        ]
+      ],
+      "faceCoverage": [
+        1
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 5.300000011920929,
+      "decodeMs": 4.099999964237213,
+      "attempts": 1,
+      "changedPixels": 288984
+    },
+    {
+      "id": "face-bolt",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          225,
+          56,
+          186,
+          186
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          178,
+          9,
+          280,
+          280
+        ]
+      ],
+      "faceCoverage": [
+        0.9644268774703557
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 11.800000011920929,
+      "decodeMs": 4.5,
+      "attempts": 1,
+      "changedPixels": 77366
+    },
+    {
+      "id": "face-cockrell",
+      "kind": "face",
+      "expected": 1,
+      "missed": 0,
+      "detected": 1,
+      "matched": 1,
+      "rawBoxes": [
+        [
+          283,
+          71,
+          137,
+          137
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          248,
+          36,
+          207,
+          207
+        ]
+      ],
+      "faceCoverage": [
+        1
+      ],
+      "redaction": "mediapipe",
+      "pipelineMs": 6.800000011920929,
+      "decodeMs": 4.099999964237213,
+      "attempts": 1,
+      "changedPixels": 42748
+    },
+    {
+      "id": "red-mug",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 21.600000023841858,
+      "decodeMs": 3.399999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "red-pepper",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          291,
+          328,
+          238,
+          238
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          231,
+          268,
+          358,
+          358
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 5.899999976158142,
+      "decodeMs": 3.100000023841858,
+      "attempts": 1,
+      "changedPixels": 127973
+    },
+    {
+      "id": "red-tomatoes",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 8.699999988079071,
+      "decodeMs": 3.5,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "red-multicolor-peppers",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          97,
+          365,
+          226,
+          226
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          40,
+          308,
+          340,
+          340
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 5.699999988079071,
+      "decodeMs": 3.100000023841858,
+      "attempts": 1,
+      "changedPixels": 115503
+    },
+    {
+      "id": "blue-bag",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.5,
+      "decodeMs": 3.600000023841858,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "blue-lids",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 19.69999998807907,
+      "decodeMs": 5,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "blue-cd-sleeve",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.80000001192093,
+      "decodeMs": 4.300000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "blue-small-lid",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 13.700000047683716,
+      "decodeMs": 4.199999988079071,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "yellow-lemon",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 11.399999976158142,
+      "decodeMs": 2.799999952316284,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "yellow-banana",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 13.300000011920929,
+      "decodeMs": 4.399999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "yellow-sweets",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 10.5,
+      "decodeMs": 3.199999988079071,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "yellow-dim-duck",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 24.600000023841858,
+      "decodeMs": 3.899999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "green-pepper",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 19.600000023841858,
+      "decodeMs": 3.399999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "green-yoyo",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 12,
+      "decodeMs": 3,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "green-toy-car",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 10.200000047683716,
+      "decodeMs": 4.399999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "green-mixed-pepper",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.80000001192093,
+      "decodeMs": 4,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "pink-tumblers",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.19999998807907,
+      "decodeMs": 5.300000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "pink-plastic-cups",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.100000023841858,
+      "decodeMs": 4.399999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "pink-sock-monkey",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 15.5,
+      "decodeMs": 5.300000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "pink-small-cup",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 13.899999976158142,
+      "decodeMs": 5.699999988079071,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "orange-forked-carrot",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 15.400000035762787,
+      "decodeMs": 4.599999964237213,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "orange-oranges",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 16.69999998807907,
+      "decodeMs": 5.5,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "orange-pumpkins",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 12.700000047683716,
+      "decodeMs": 3.399999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "orange-small-pumpkin",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 18.80000001192093,
+      "decodeMs": 6.600000023841858,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "near-teal-mug",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 20,
+      "decodeMs": 4.199999988079071,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "near-turquoise-jar",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 9.799999952316284,
+      "decodeMs": 4,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "near-purple-bucket",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 15.600000023841858,
+      "decodeMs": 3.199999988079071,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "near-lime-cap",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          201,
+          227,
+          343,
+          343
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          115,
+          141,
+          515,
+          515
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 6.400000035762787,
+      "decodeMs": 3.699999988079071,
+      "attempts": 1,
+      "changedPixels": 265133
+    },
+    {
+      "id": "loot-pearl-necklace",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          56,
+          88,
+          696,
+          696
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          0,
+          0,
+          720,
+          720
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 15.399999976158142,
+      "decodeMs": 4.800000011920929,
+      "attempts": 2,
+      "changedPixels": 517420
+    },
+    {
+      "id": "loot-gold-chain",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 14.5,
+      "decodeMs": 4.199999988079071,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "loot-chain-necklace",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 11.199999988079071,
+      "decodeMs": 2.899999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "old-wall-clock",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          76,
+          234,
+          327,
+          327
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          0,
+          152,
+          485,
+          491
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 10.799999952316284,
+      "decodeMs": 4.700000047683716,
+      "attempts": 1,
+      "changedPixels": 237839
+    },
+    {
+      "id": "old-telephone",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 13.699999988079071,
+      "decodeMs": 4.5,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "old-book-bindings",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.899999976158142,
+      "decodeMs": 4.300000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "tough-iron-pan",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          193,
+          243,
+          114,
+          114
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          164,
+          214,
+          172,
+          172
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 11.100000023841858,
+      "decodeMs": 4.599999964237213,
+      "attempts": 1,
+      "changedPixels": 27732
+    },
+    {
+      "id": "tough-hammer",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 11.600000023841858,
+      "decodeMs": 2.799999952316284,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "tough-padlocks",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 14.899999976158142,
+      "decodeMs": 3.5,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "island-teddy",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          398,
+          337,
+          251,
+          251
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          335,
+          274,
+          377,
+          377
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 10.199999988079071,
+      "decodeMs": 4.699999988079071,
+      "attempts": 1,
+      "changedPixels": 142099
+    },
+    {
+      "id": "island-water-bottles",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 14.800000011920929,
+      "decodeMs": 3.800000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "island-flashlight",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.19999998807907,
+      "decodeMs": 4.100000023841858,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "weird-satyr-mug",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          197,
+          352,
+          158,
+          158
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          157,
+          312,
+          238,
+          238
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 7.900000035762787,
+      "decodeMs": 3.399999976158142,
+      "attempts": 1,
+      "changedPixels": 56066
+    },
+    {
+      "id": "weird-cicada-toy",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 13.199999988079071,
+      "decodeMs": 3.800000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "weird-toy-cows",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 10.5,
+      "decodeMs": 5.100000023841858,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "museum-porcelain-bottle",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 13,
+      "decodeMs": 4.099999964237213,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "museum-vinyl",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 12.199999988079071,
+      "decodeMs": 3.899999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "museum-camera",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 18.899999976158142,
+      "decodeMs": 4.400000035762787,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "distractor-white-mug",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 24.099999964237213,
+      "decodeMs": 3.600000023841858,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "distractor-black-mug",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.900000035762787,
+      "decodeMs": 3.599999964237213,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "distractor-remote",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 15.100000023841858,
+      "decodeMs": 3.300000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "distractor-grey-pan",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 13.200000047683716,
+      "decodeMs": 5.199999988079071,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "distractor-wood-utensils",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 16.19999998807907,
+      "decodeMs": 5.200000047683716,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "distractor-grey-pottery",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 15,
+      "decodeMs": 4,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "messy-kitchen",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 20.399999976158142,
+      "decodeMs": 4.800000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "messy-dishes",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          130,
+          123,
+          167,
+          167
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          88,
+          81,
+          251,
+          251
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 9.100000023841858,
+      "decodeMs": 4.900000035762787,
+      "attempts": 1,
+      "changedPixels": 62938
+    },
+    {
+      "id": "messy-fridge",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 16.799999952316284,
+      "decodeMs": 4.200000047683716,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "messy-motion-fan",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 24.30000001192093,
+      "decodeMs": 3.699999988079071,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "extra-steel-bottle",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 25,
+      "decodeMs": 3.700000047683716,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "extra-clear-bottle",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 16.599999964237213,
+      "decodeMs": 4,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "extra-white-teddy",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          272,
+          103,
+          214,
+          214
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          218,
+          49,
+          322,
+          322
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 8.899999976158142,
+      "decodeMs": 3.5,
+      "attempts": 1,
+      "changedPixels": 103667
+    },
+    {
+      "id": "extra-glasses-book",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 9.800000011920929,
+      "decodeMs": 3.600000023841858,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "extra-record-player",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 17.600000023841858,
+      "decodeMs": 3.300000011920929,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "extra-blue-robot",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 1,
+      "matched": 0,
+      "rawBoxes": [
+        [
+          234,
+          181,
+          229,
+          229
+        ]
+      ],
+      "expandedBoxes": [
+        [
+          176,
+          123,
+          345,
+          345
+        ]
+      ],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 8.199999988079071,
+      "decodeMs": 3.600000023841858,
+      "attempts": 1,
+      "changedPixels": 119018
+    },
+    {
+      "id": "extra-teal-robot",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 12.200000047683716,
+      "decodeMs": 3.899999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    },
+    {
+      "id": "extra-keychain-light",
+      "kind": "object",
+      "expected": 0,
+      "missed": 0,
+      "detected": 0,
+      "matched": 0,
+      "rawBoxes": [],
+      "expandedBoxes": [],
+      "faceCoverage": [],
+      "redaction": "mediapipe",
+      "pipelineMs": 18.100000023841858,
+      "decodeMs": 4.899999976158142,
+      "attempts": 2,
+      "changedPixels": 0
+    }
+  ]
+}

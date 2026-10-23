@@ -1,0 +1,6111 @@
+{
+ "label": "stick-baseline-7ae90bb",
+ "source": "gwsi_surfacePresented (graphics category) for the game process, REALTIME-joined to native snapshots",
+ "traceSeconds": 370.1,
+ "overall": {
+  "intervals": 3907,
+  "seconds": 370.07,
+  "fps": 10.56,
+  "p95Ms": 755.7,
+  "maxMs": 2423.4,
+  "over100": 447,
+  "over150": 344
+ },
+ "scenes": {
+  "lobby": {
+   "intervals": 121,
+   "seconds": 5.31,
+   "fps": 22.81,
+   "p95Ms": 54.3,
+   "maxMs": 98.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro": {
+   "intervals": 1541,
+   "seconds": 91.82,
+   "fps": 16.78,
+   "p95Ms": 166.7,
+   "maxMs": 1788.4,
+   "over100": 115,
+   "over150": 83
+  },
+  "hunt": {
+   "intervals": 863,
+   "seconds": 98.77,
+   "fps": 8.74,
+   "p95Ms": 783.8,
+   "maxMs": 1936.4,
+   "over100": 137,
+   "over150": 106
+  },
+  "judge": {
+   "intervals": 35,
+   "seconds": 30.53,
+   "fps": 1.15,
+   "p95Ms": 1034.4,
+   "maxMs": 1051.1,
+   "over100": 35,
+   "over150": 35
+  },
+  "stand": {
+   "intervals": 139,
+   "seconds": 21.64,
+   "fps": 6.42,
+   "p95Ms": 1018.2,
+   "maxMs": 1352.6,
+   "over100": 25,
+   "over150": 20
+  },
+  "brag": {
+   "intervals": 658,
+   "seconds": 76.33,
+   "fps": 8.62,
+   "p95Ms": 1066.6,
+   "maxMs": 1668.9,
+   "over100": 94,
+   "over150": 68
+  },
+  "show": {
+   "intervals": 292,
+   "seconds": 28.54,
+   "fps": 10.23,
+   "p95Ms": 348.1,
+   "maxMs": 2423.4,
+   "over100": 27,
+   "over150": 21
+  }
+ },
+ "phases": {
+  "lobby": {
+   "intervals": 121,
+   "seconds": 5.31,
+   "fps": 22.81,
+   "p95Ms": 54.3,
+   "maxMs": 98.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro/title": {
+   "intervals": 901,
+   "seconds": 44.11,
+   "fps": 20.43,
+   "p95Ms": 76.4,
+   "maxMs": 1335.2,
+   "over100": 40,
+   "over150": 32
+  },
+  "intro/reel": {
+   "intervals": 291,
+   "seconds": 21.73,
+   "fps": 13.39,
+   "p95Ms": 259.0,
+   "maxMs": 1788.4,
+   "over100": 34,
+   "over150": 17
+  },
+  "intro/countdown": {
+   "intervals": 349,
+   "seconds": 25.98,
+   "fps": 13.43,
+   "p95Ms": 281.1,
+   "maxMs": 1768.5,
+   "over100": 41,
+   "over150": 34
+  },
+  "hunt/countdown": {
+   "intervals": 22,
+   "seconds": 1.99,
+   "fps": 11.08,
+   "p95Ms": 198.7,
+   "maxMs": 1167.4,
+   "over100": 2,
+   "over150": 2
+  },
+  "hunt/hunt": {
+   "intervals": 653,
+   "seconds": 76.31,
+   "fps": 8.56,
+   "p95Ms": 817.2,
+   "maxMs": 1936.4,
+   "over100": 109,
+   "over150": 84
+  },
+  "hunt/time": {
+   "intervals": 42,
+   "seconds": 5.2,
+   "fps": 8.07,
+   "p95Ms": 800.7,
+   "maxMs": 1035.1,
+   "over100": 8,
+   "over150": 6
+  },
+  "hunt/glow": {
+   "intervals": 122,
+   "seconds": 12.8,
+   "fps": 9.53,
+   "p95Ms": 651.4,
+   "maxMs": 1818.4,
+   "over100": 14,
+   "over150": 11
+  },
+  "hunt/judge": {
+   "intervals": 9,
+   "seconds": 1.79,
+   "fps": 5.04,
+   "p95Ms": 918.1,
+   "maxMs": 918.1,
+   "over100": 2,
+   "over150": 2
+  },
+  "judge/judge": {
+   "intervals": 30,
+   "seconds": 25.59,
+   "fps": 1.17,
+   "p95Ms": 934.8,
+   "maxMs": 984.4,
+   "over100": 30,
+   "over150": 30
+  },
+  "judge/winner": {
+   "intervals": 5,
+   "seconds": 4.94,
+   "fps": 1.01,
+   "p95Ms": 1051.1,
+   "maxMs": 1051.1,
+   "over100": 5,
+   "over150": 5
+  },
+  "stand/standings": {
+   "intervals": 112,
+   "seconds": 19.47,
+   "fps": 5.75,
+   "p95Ms": 1034.5,
+   "maxMs": 1352.6,
+   "over100": 22,
+   "over150": 18
+  },
+  "stand/title": {
+   "intervals": 27,
+   "seconds": 2.17,
+   "fps": 12.42,
+   "p95Ms": 563.0,
+   "maxMs": 755.7,
+   "over100": 3,
+   "over150": 2
+  },
+  "hunt/brag-intro": {
+   "intervals": 3,
+   "seconds": 0.13,
+   "fps": 22.26,
+   "p95Ms": 117.5,
+   "maxMs": 117.5,
+   "over100": 1,
+   "over150": 0
+  },
+  "brag/brag-intro": {
+   "intervals": 223,
+   "seconds": 21.57,
+   "fps": 10.34,
+   "p95Ms": 1034.5,
+   "maxMs": 1668.9,
+   "over100": 25,
+   "over150": 17
+  },
+  "brag/brag-lines": {
+   "intervals": 98,
+   "seconds": 13.18,
+   "fps": 7.44,
+   "p95Ms": 1067.9,
+   "maxMs": 1134.2,
+   "over100": 17,
+   "over150": 14
+  },
+  "brag/brag-countdown": {
+   "intervals": 59,
+   "seconds": 7.49,
+   "fps": 7.88,
+   "p95Ms": 1068.3,
+   "maxMs": 1167.2,
+   "over100": 9,
+   "over150": 7
+  },
+  "brag/mash": {
+   "intervals": 150,
+   "seconds": 19.2,
+   "fps": 7.81,
+   "p95Ms": 1067.5,
+   "maxMs": 1435.2,
+   "over100": 24,
+   "over150": 17
+  },
+  "brag/knockout": {
+   "intervals": 108,
+   "seconds": 13.13,
+   "fps": 8.23,
+   "p95Ms": 1067.9,
+   "maxMs": 1104.9,
+   "over100": 16,
+   "over150": 12
+  },
+  "brag/standings": {
+   "intervals": 20,
+   "seconds": 1.77,
+   "fps": 11.31,
+   "p95Ms": 1068.4,
+   "maxMs": 1068.4,
+   "over100": 3,
+   "over150": 1
+  },
+  "hunt/runway": {
+   "intervals": 12,
+   "seconds": 0.55,
+   "fps": 21.82,
+   "p95Ms": 216.5,
+   "maxMs": 216.5,
+   "over100": 1,
+   "over150": 1
+  },
+  "show/runway": {
+   "intervals": 155,
+   "seconds": 14.51,
+   "fps": 10.68,
+   "p95Ms": 200.5,
+   "maxMs": 2423.4,
+   "over100": 13,
+   "over150": 11
+  },
+  "show/vote": {
+   "intervals": 68,
+   "seconds": 6.5,
+   "fps": 10.46,
+   "p95Ms": 348.1,
+   "maxMs": 1467.9,
+   "over100": 7,
+   "over150": 5
+  },
+  "show/tally": {
+   "intervals": 32,
+   "seconds": 3.64,
+   "fps": 8.8,
+   "p95Ms": 1300.7,
+   "maxMs": 1305.7,
+   "over100": 3,
+   "over150": 2
+  },
+  "show/winner": {
+   "intervals": 37,
+   "seconds": 3.89,
+   "fps": 9.52,
+   "p95Ms": 1234.7,
+   "maxMs": 1351.3,
+   "over100": 4,
+   "over150": 3
+  }
+ },
+ "jsBlockingNativeWork": {
+  "native-set-src:audio": {
+   "count": 205,
+   "totalMs": 32631,
+   "p50Ms": 119,
+   "maxMs": 835
+  },
+  "motion-table": {
+   "count": 544,
+   "totalMs": 16276,
+   "p50Ms": 17,
+   "maxMs": 515
+  },
+  "particle-frame": {
+   "count": 576,
+   "totalMs": 7739,
+   "p50Ms": 6,
+   "maxMs": 263
+  },
+  "native-addSourceBuffer:speech": {
+   "count": 16,
+   "totalMs": 2287,
+   "p50Ms": 126,
+   "maxMs": 364
+  },
+  "native-set-src:stage": {
+   "count": 6,
+   "totalMs": 2048,
+   "p50Ms": 386,
+   "maxMs": 726
+  },
+  "native-play:audio": {
+   "count": 327,
+   "totalMs": 1248,
+   "p50Ms": 2,
+   "maxMs": 42
+  },
+  "native-set-volume:audio": {
+   "count": 396,
+   "totalMs": 919,
+   "p50Ms": 0,
+   "maxMs": 215
+  },
+  "native-pause:audio": {
+   "count": 268,
+   "totalMs": 550,
+   "p50Ms": 1,
+   "maxMs": 40
+  },
+  "native-set-currentTime:audio": {
+   "count": 265,
+   "totalMs": 343,
+   "p50Ms": 0,
+   "maxMs": 26
+  },
+  "background-table": {
+   "count": 2,
+   "totalMs": 317,
+   "p50Ms": 170,
+   "maxMs": 170
+  },
+  "native-get-currentTime:audio": {
+   "count": 214,
+   "totalMs": 291,
+   "p50Ms": 0,
+   "maxMs": 46
+  }
+ },
+ "gapsOver100": [
+  {
+   "atS": 15.08,
+   "gapMs": 196.0,
+   "phase": "intro/title",
+   "renderMs": 184,
+   "coincident": [
+    "cue:host",
+    "cue:pop:intro.sub",
+    "motion-table:intro.title 87ms"
+   ]
+  },
+  {
+   "atS": 15.31,
+   "gapMs": 266.7,
+   "phase": "intro/title",
+   "renderMs": 0,
+   "coincident": [
+    "cue:host",
+    "cue:pop:intro.sub"
+   ]
+  },
+  {
+   "atS": 25.49,
+   "gapMs": 150.2,
+   "phase": "intro/title",
+   "renderMs": 205,
+   "coincident": [
+    "cue:animate:intro.bulbs",
+    "cue:pop:intro.arrow-left",
+    "cue:pop:intro.arrow-right",
+    "cue:pop:intro.reel",
+    "cue:reel",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 25.81,
+   "gapMs": 326.2,
+   "phase": "intro/reel",
+   "renderMs": 236,
+   "coincident": []
+  },
+  {
+   "atS": 26.13,
+   "gapMs": 107.9,
+   "phase": "intro/reel",
+   "renderMs": 1529624,
+   "coincident": []
+  },
+  {
+   "atS": 27.16,
+   "gapMs": 1788.4,
+   "phase": "intro/reel",
+   "renderMs": 1530923,
+   "coincident": [
+    "motion-table:intro.title 28ms"
+   ]
+  },
+  {
+   "atS": 28.98,
+   "gapMs": 119.5,
+   "phase": null,
+   "renderMs": 1532908,
+   "coincident": []
+  },
+  {
+   "atS": 29.1,
+   "gapMs": 155.2,
+   "phase": null,
+   "renderMs": 2071,
+   "coincident": []
+  },
+  {
+   "atS": 32.35,
+   "gapMs": 117.1,
+   "phase": "intro/reel",
+   "renderMs": 329,
+   "coincident": []
+  },
+  {
+   "atS": 32.65,
+   "gapMs": 100.2,
+   "phase": "intro/reel",
+   "renderMs": 282,
+   "coincident": []
+  },
+  {
+   "atS": 32.91,
+   "gapMs": 116.9,
+   "phase": "intro/reel",
+   "renderMs": 279,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes",
+    "cue:flash",
+    "cue:host-react",
+    "cue:phase",
+    "cue:punch",
+    "cue:sfx",
+    "cue:shake",
+    "native-load:audio-1 212ms",
+    "native-set-src:audio-1 213ms"
+   ]
+  },
+  {
+   "atS": 33.18,
+   "gapMs": 134.6,
+   "phase": "intro/reel",
+   "renderMs": 268,
+   "coincident": []
+  },
+  {
+   "atS": 33.48,
+   "gapMs": 117.2,
+   "phase": "intro/reel",
+   "renderMs": 288,
+   "coincident": [
+    "cue:host",
+    "particle-frame: 22ms"
+   ]
+  },
+  {
+   "atS": 33.75,
+   "gapMs": 116.8,
+   "phase": "intro/reel",
+   "renderMs": 266,
+   "coincident": [
+    "cue:host",
+    "particle-frame: 22ms"
+   ]
+  },
+  {
+   "atS": 34.02,
+   "gapMs": 117.0,
+   "phase": "intro/reel",
+   "renderMs": 261,
+   "coincident": []
+  },
+  {
+   "atS": 34.25,
+   "gapMs": 133.7,
+   "phase": "intro/reel",
+   "renderMs": 237,
+   "coincident": []
+  },
+  {
+   "atS": 34.52,
+   "gapMs": 133.8,
+   "phase": "intro/reel",
+   "renderMs": 254,
+   "coincident": []
+  },
+  {
+   "atS": 34.85,
+   "gapMs": 133.6,
+   "phase": "intro/reel",
+   "renderMs": 346,
+   "coincident": [
+    "native-load:audio-1 159ms",
+    "native-set-src:audio-1 159ms",
+    "native-set-volume:audio-13 215ms",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 35.18,
+   "gapMs": 149.8,
+   "phase": "intro/reel",
+   "renderMs": 338,
+   "coincident": [
+    "cue:host-finish",
+    "native-play:audio-11 24ms",
+    "native-set-volume:audio-13 215ms",
+    "voice-duck:",
+    "voice-line:intro.reel-land"
+   ]
+  },
+  {
+   "atS": 35.55,
+   "gapMs": 114.9,
+   "phase": "intro/reel",
+   "renderMs": 358,
+   "coincident": [
+    "cue:animate:intro.arrow-left",
+    "cue:animate:intro.arrow-right",
+    "cue:animate:intro.bulbs",
+    "cue:animate:intro.reel",
+    "cue:count:intro",
+    "cue:phase",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 35.67,
+   "gapMs": 284.0,
+   "phase": "intro/reel",
+   "renderMs": 192,
+   "coincident": [
+    "cue:animate:intro.arrow-left",
+    "cue:animate:intro.arrow-right",
+    "cue:animate:intro.bulbs",
+    "cue:animate:intro.reel",
+    "cue:count:intro",
+    "cue:phase",
+    "cue:sfx",
+    "particle-frame: 82ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 36.12,
+   "gapMs": 164.0,
+   "phase": "intro/countdown",
+   "renderMs": 358,
+   "coincident": [
+    "particle-frame: 82ms"
+   ]
+  },
+  {
+   "atS": 36.42,
+   "gapMs": 186.4,
+   "phase": "intro/countdown",
+   "renderMs": 291,
+   "coincident": [
+    "motion-table:intro.reel 180ms"
+   ]
+  },
+  {
+   "atS": 36.72,
+   "gapMs": 234.5,
+   "phase": "intro/countdown",
+   "renderMs": 295,
+   "coincident": [
+    "motion-table:intro.reel 180ms"
+   ]
+  },
+  {
+   "atS": 37.02,
+   "gapMs": 234.0,
+   "phase": "intro/countdown",
+   "renderMs": 328,
+   "coincident": []
+  },
+  {
+   "atS": 37.39,
+   "gapMs": 234.0,
+   "phase": "intro/countdown",
+   "renderMs": 348,
+   "coincident": [
+    "motion-table:intro.arrow-left 158ms",
+    "motion-table:intro.arrow-right 128ms"
+   ]
+  },
+  {
+   "atS": 37.69,
+   "gapMs": 230.7,
+   "phase": "intro/countdown",
+   "renderMs": 300,
+   "coincident": [
+    "motion-table:intro.arrow-left 158ms",
+    "motion-table:intro.arrow-right 128ms",
+    "motion-table:intro.bulbs 105ms"
+   ]
+  },
+  {
+   "atS": 37.99,
+   "gapMs": 250.6,
+   "phase": "intro/countdown",
+   "renderMs": 295,
+   "coincident": [
+    "motion-table:intro.bulbs 105ms",
+    "particle-frame: 44ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 39.02,
+   "gapMs": 284.0,
+   "phase": null,
+   "renderMs": 216,
+   "coincident": []
+  },
+  {
+   "atS": 39.39,
+   "gapMs": 250.0,
+   "phase": null,
+   "renderMs": 345,
+   "coincident": [
+    "cue:count:intro",
+    "cue:host-hide",
+    "cue:sfx",
+    "voice-complete:",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 39.72,
+   "gapMs": 267.2,
+   "phase": "intro/countdown",
+   "renderMs": 325,
+   "coincident": [
+    "cue:count:intro",
+    "cue:host-hide",
+    "cue:sfx",
+    "native-load:audio-14 75ms",
+    "voice-complete:",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 40.12,
+   "gapMs": 100.5,
+   "phase": "intro/countdown",
+   "renderMs": 416,
+   "coincident": [
+    "native-addSourceBuffer:speech-4 127ms",
+    "native-load:audio-14 75ms",
+    "native-set-src:audio-14 215ms",
+    "native-set-srcObject:audio-14 214ms",
+    "particle-frame: 23ms"
+   ]
+  },
+  {
+   "atS": 40.32,
+   "gapMs": 234.0,
+   "phase": "intro/countdown",
+   "renderMs": 183,
+   "coincident": [
+    "motion-table:intro.reel 90ms",
+    "native-addSourceBuffer:speech-4 127ms",
+    "native-set-src:audio-14 215ms",
+    "native-set-srcObject:audio-14 214ms",
+    "particle-frame: 23ms"
+   ]
+  },
+  {
+   "atS": 40.62,
+   "gapMs": 250.6,
+   "phase": "intro/countdown",
+   "renderMs": 296,
+   "coincident": [
+    "motion-table:intro.arrow-left 84ms",
+    "motion-table:intro.arrow-right 29ms",
+    "motion-table:intro.bulbs 34ms",
+    "motion-table:intro.reel 90ms"
+   ]
+  },
+  {
+   "atS": 40.96,
+   "gapMs": 235.5,
+   "phase": "intro/countdown",
+   "renderMs": 326,
+   "coincident": [
+    "motion-table:intro.arrow-left 84ms",
+    "motion-table:intro.arrow-right 29ms",
+    "motion-table:intro.bulbs 34ms",
+    "motion-table:intro.count 139ms"
+   ]
+  },
+  {
+   "atS": 41.82,
+   "gapMs": 100.7,
+   "phase": "intro/countdown",
+   "renderMs": 258,
+   "coincident": [
+    "cue:count:intro",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 42.06,
+   "gapMs": 283.7,
+   "phase": "intro/countdown",
+   "renderMs": 202,
+   "coincident": [
+    "motion-table:intro.count 43ms"
+   ]
+  },
+  {
+   "atS": 42.43,
+   "gapMs": 281.1,
+   "phase": "intro/countdown",
+   "renderMs": 381,
+   "coincident": [
+    "motion-table:intro.count 43ms"
+   ]
+  },
+  {
+   "atS": 42.81,
+   "gapMs": 284.1,
+   "phase": "intro/countdown",
+   "renderMs": 383,
+   "coincident": [
+    "cue:confetti",
+    "cue:count:intro",
+    "cue:flash",
+    "cue:sfx",
+    "cue:shake",
+    "particle-frame: 49ms"
+   ]
+  },
+  {
+   "atS": 43.17,
+   "gapMs": 250.6,
+   "phase": "intro/countdown",
+   "renderMs": 380,
+   "coincident": [
+    "cue:confetti",
+    "cue:count:intro",
+    "cue:flash",
+    "cue:sfx",
+    "cue:shake",
+    "particle-frame: 25ms",
+    "particle-frame: 49ms"
+   ]
+  },
+  {
+   "atS": 43.58,
+   "gapMs": 150.9,
+   "phase": "intro/countdown",
+   "renderMs": 371,
+   "coincident": [
+    "particle-frame: 25ms"
+   ]
+  },
+  {
+   "atS": 44.34,
+   "gapMs": 317.7,
+   "phase": "intro/countdown",
+   "renderMs": 732,
+   "coincident": [
+    "motion-table:intro.count 515ms"
+   ]
+  },
+  {
+   "atS": 45.01,
+   "gapMs": 345.7,
+   "phase": "intro/countdown",
+   "renderMs": 661,
+   "coincident": []
+  },
+  {
+   "atS": 45.68,
+   "gapMs": 100.4,
+   "phase": null,
+   "renderMs": 1549553,
+   "coincident": [
+    "native-load:audio-1 613ms",
+    "native-load:audio-3 262ms",
+    "native-set-src:audio-1 614ms",
+    "native-set-src:audio-3 268ms"
+   ]
+  },
+  {
+   "atS": 45.81,
+   "gapMs": 129.9,
+   "phase": null,
+   "renderMs": 1549593,
+   "coincident": [
+    "native-load:audio-1 613ms",
+    "native-load:audio-3 262ms",
+    "native-play:audio-3 25ms",
+    "native-set-src:audio-1 614ms",
+    "native-set-src:audio-3 268ms"
+   ]
+  },
+  {
+   "atS": 45.97,
+   "gapMs": 621.6,
+   "phase": null,
+   "renderMs": 1178,
+   "coincident": [
+    "cue:scene",
+    "cue:sfx",
+    "native-load:audio-3 262ms",
+    "native-play:audio-3 25ms",
+    "native-set-src:audio-3 268ms",
+    "particle-frame: 71ms"
+   ]
+  },
+  {
+   "atS": 46.59,
+   "gapMs": 123.9,
+   "phase": "intro/countdown",
+   "renderMs": 1550517,
+   "coincident": [
+    "cue:scene",
+    "cue:sfx",
+    "particle-frame: 71ms"
+   ]
+  },
+  {
+   "atS": 47.17,
+   "gapMs": 402.7,
+   "phase": "intro/countdown",
+   "renderMs": 941,
+   "coincident": []
+  },
+  {
+   "atS": 48.0,
+   "gapMs": 468.2,
+   "phase": "intro/countdown",
+   "renderMs": 841,
+   "coincident": [
+    "motion-table:intro.count 85ms"
+   ]
+  },
+  {
+   "atS": 49.0,
+   "gapMs": 501.0,
+   "phase": "intro/countdown",
+   "renderMs": 1002,
+   "coincident": [
+    "cue:background",
+    "cue:music",
+    "cue:phase",
+    "native-load:audio-1 297ms",
+    "native-set-src:audio-1 299ms"
+   ]
+  },
+  {
+   "atS": 49.7,
+   "gapMs": 395.7,
+   "phase": "hunt/hunt",
+   "renderMs": 663,
+   "coincident": []
+  },
+  {
+   "atS": 50.2,
+   "gapMs": 450.2,
+   "phase": "hunt/hunt",
+   "renderMs": 517,
+   "coincident": [
+    "cue:feed"
+   ]
+  },
+  {
+   "atS": 50.67,
+   "gapMs": 519.1,
+   "phase": "hunt/hunt",
+   "renderMs": 531,
+   "coincident": [
+    "cue:feed"
+   ]
+  },
+  {
+   "atS": 51.33,
+   "gapMs": 468.9,
+   "phase": "hunt/hunt",
+   "renderMs": 572,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 51.9,
+   "gapMs": 468.8,
+   "phase": "hunt/hunt",
+   "renderMs": 564,
+   "coincident": [
+    "camera-target:",
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:sticker-flight",
+    "graphics-cache:hunt",
+    "native-load:audio-12 110ms",
+    "native-set-src:audio-12 111ms"
+   ]
+  },
+  {
+   "atS": 52.39,
+   "gapMs": 114.4,
+   "phase": "hunt/hunt",
+   "renderMs": 1556312,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:sticker-flight",
+    "native-load:audio-12 110ms",
+    "native-set-src:audio-12 111ms"
+   ]
+  },
+  {
+   "atS": 52.57,
+   "gapMs": 364.8,
+   "phase": "hunt/hunt",
+   "renderMs": 620,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:sticker-flight"
+   ]
+  },
+  {
+   "atS": 53.03,
+   "gapMs": 417.9,
+   "phase": "hunt/hunt",
+   "renderMs": 458,
+   "coincident": [
+    "cue:animate:feed-flash:p1"
+   ]
+  },
+  {
+   "atS": 53.55,
+   "gapMs": 432.1,
+   "phase": "hunt/hunt",
+   "renderMs": 497,
+   "coincident": [
+    "motion-table:host 48ms"
+   ]
+  },
+  {
+   "atS": 54.19,
+   "gapMs": 400.3,
+   "phase": "hunt/hunt",
+   "renderMs": 638,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:snag-burst:p1",
+    "cue:confetti",
+    "cue:feed",
+    "cue:pop:first-snag:p1",
+    "cue:slam:slot-card:p1",
+    "motion-table:host 48ms",
+    "native-load:audio-1 113ms",
+    "native-load:audio-3 99ms",
+    "native-set-src:audio-1 115ms",
+    "native-set-src:audio-3 103ms"
+   ]
+  },
+  {
+   "atS": 54.72,
+   "gapMs": 487.3,
+   "phase": "hunt/hunt",
+   "renderMs": 530,
+   "coincident": [
+    "motion-table:snag-burst:p1 32ms",
+    "native-load:audio-3 99ms",
+    "native-set-src:audio-3 103ms"
+   ]
+  },
+  {
+   "atS": 55.21,
+   "gapMs": 499.6,
+   "phase": "hunt/hunt",
+   "renderMs": 484,
+   "coincident": [
+    "camera-target:",
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:slam:ready:p1",
+    "cue:sticker-flight",
+    "motion-table:snag-burst:p1 32ms",
+    "native-load:audio-1 161ms",
+    "native-set-src:audio-1 165ms",
+    "photo-ready:"
+   ]
+  },
+  {
+   "atS": 55.82,
+   "gapMs": 400.8,
+   "phase": "hunt/hunt",
+   "renderMs": 611,
+   "coincident": [
+    "camera-target:",
+    "native-load:audio-1 161ms",
+    "native-set-src:audio-1 165ms",
+    "photo-ready:"
+   ]
+  },
+  {
+   "atS": 56.32,
+   "gapMs": 450.6,
+   "phase": "hunt/hunt",
+   "renderMs": 487,
+   "coincident": [
+    "cue:animate:feed-flash:gr",
+    "native-load:audio-1 81ms",
+    "native-load:audio-3 125ms",
+    "native-set-src:audio-1 82ms",
+    "native-set-src:audio-3 126ms"
+   ]
+  },
+  {
+   "atS": 56.79,
+   "gapMs": 533.8,
+   "phase": "hunt/hunt",
+   "renderMs": 528,
+   "coincident": [
+    "cue:animate:feed-flash:gr",
+    "motion-table:host 47ms",
+    "native-load:audio-3 125ms",
+    "native-set-src:audio-3 126ms"
+   ]
+  },
+  {
+   "atS": 57.32,
+   "gapMs": 551.0,
+   "phase": "hunt/hunt",
+   "renderMs": 495,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:snag-burst:gr",
+    "cue:confetti",
+    "cue:feed",
+    "cue:slam:slot-card:gr",
+    "motion-table:host 47ms",
+    "native-load:audio-1 139ms",
+    "native-set-src:audio-1 140ms",
+    "photo-ready:"
+   ]
+  },
+  {
+   "atS": 57.97,
+   "gapMs": 457.2,
+   "phase": "hunt/hunt",
+   "renderMs": 592,
+   "coincident": [
+    "native-load:audio-1 139ms",
+    "native-load:audio-3 186ms",
+    "native-set-src:audio-1 140ms",
+    "native-set-src:audio-3 192ms",
+    "native-set-volume:audio-3 41ms"
+   ]
+  },
+  {
+   "atS": 58.64,
+   "gapMs": 349.0,
+   "phase": "hunt/hunt",
+   "renderMs": 656,
+   "coincident": [
+    "camera-target:",
+    "motion-table:slot-card:gr 20ms"
+   ]
+  },
+  {
+   "atS": 59.11,
+   "gapMs": 401.0,
+   "phase": "hunt/hunt",
+   "renderMs": 478,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 55ms"
+   ]
+  },
+  {
+   "atS": 59.61,
+   "gapMs": 450.7,
+   "phase": "hunt/hunt",
+   "renderMs": 474,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 34ms",
+    "particle-frame: 55ms"
+   ]
+  },
+  {
+   "atS": 60.18,
+   "gapMs": 467.3,
+   "phase": "hunt/hunt",
+   "renderMs": 578,
+   "coincident": [
+    "particle-frame: 34ms"
+   ]
+  },
+  {
+   "atS": 60.66,
+   "gapMs": 518.7,
+   "phase": "hunt/hunt",
+   "renderMs": 518,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 30ms"
+   ]
+  },
+  {
+   "atS": 61.36,
+   "gapMs": 500.8,
+   "phase": "hunt/hunt",
+   "renderMs": 669,
+   "coincident": [
+    "particle-frame: 22ms"
+   ]
+  },
+  {
+   "atS": 62.03,
+   "gapMs": 448.8,
+   "phase": "hunt/hunt",
+   "renderMs": 642,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "particle-frame: 118ms",
+    "particle-frame: 22ms"
+   ]
+  },
+  {
+   "atS": 62.6,
+   "gapMs": 481.5,
+   "phase": "hunt/hunt",
+   "renderMs": 578,
+   "coincident": [
+    "motion-table:host 51ms"
+   ]
+  },
+  {
+   "atS": 63.26,
+   "gapMs": 450.9,
+   "phase": "hunt/hunt",
+   "renderMs": 663,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:feed-flash:cp",
+    "cue:animate:snag-burst:cp",
+    "cue:confetti",
+    "cue:feed",
+    "cue:slam:slot-card:cp",
+    "motion-table:host 51ms",
+    "native-load:audio-1 145ms",
+    "native-set-src:audio-1 147ms",
+    "particle-frame: 64ms"
+   ]
+  },
+  {
+   "atS": 63.86,
+   "gapMs": 484.2,
+   "phase": "hunt/hunt",
+   "renderMs": 596,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:snag-burst:cp",
+    "cue:confetti",
+    "motion-table:slot-card:cp 45ms"
+   ]
+  },
+  {
+   "atS": 64.46,
+   "gapMs": 450.0,
+   "phase": "hunt/hunt",
+   "renderMs": 558,
+   "coincident": [
+    "motion-table:slot-card:cp 45ms",
+    "motion-table:snag-burst:cp 21ms"
+   ]
+  },
+  {
+   "atS": 64.96,
+   "gapMs": 534.3,
+   "phase": "hunt/hunt",
+   "renderMs": 533,
+   "coincident": []
+  },
+  {
+   "atS": 65.6,
+   "gapMs": 470.1,
+   "phase": "hunt/hunt",
+   "renderMs": 577,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 66.2,
+   "gapMs": 451.9,
+   "phase": "hunt/hunt",
+   "renderMs": 539,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 263ms"
+   ]
+  },
+  {
+   "atS": 66.67,
+   "gapMs": 116.2,
+   "phase": "hunt/hunt",
+   "renderMs": 1570589,
+   "coincident": []
+  },
+  {
+   "atS": 66.87,
+   "gapMs": 467.4,
+   "phase": "hunt/hunt",
+   "renderMs": 678,
+   "coincident": [
+    "particle-frame: 68ms"
+   ]
+  },
+  {
+   "atS": 67.57,
+   "gapMs": 534.5,
+   "phase": "hunt/hunt",
+   "renderMs": 678,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 68.18,
+   "gapMs": 669.0,
+   "phase": "hunt/hunt",
+   "renderMs": 697,
+   "coincident": []
+  },
+  {
+   "atS": 68.87,
+   "gapMs": 100.1,
+   "phase": "hunt/hunt",
+   "renderMs": 1572767,
+   "coincident": []
+  },
+  {
+   "atS": 69.1,
+   "gapMs": 652.6,
+   "phase": "hunt/hunt",
+   "renderMs": 832,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 69.77,
+   "gapMs": 100.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1573662,
+   "coincident": []
+  },
+  {
+   "atS": 69.97,
+   "gapMs": 634.1,
+   "phase": "hunt/hunt",
+   "renderMs": 824,
+   "coincident": []
+  },
+  {
+   "atS": 70.62,
+   "gapMs": 135.7,
+   "phase": "hunt/hunt",
+   "renderMs": 1574551,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 70.75,
+   "gapMs": 600.4,
+   "phase": "hunt/hunt",
+   "renderMs": 796,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 71.52,
+   "gapMs": 667.8,
+   "phase": "hunt/hunt",
+   "renderMs": 774,
+   "coincident": []
+  },
+  {
+   "atS": 72.36,
+   "gapMs": 648.9,
+   "phase": "hunt/hunt",
+   "renderMs": 836,
+   "coincident": []
+  },
+  {
+   "atS": 73.16,
+   "gapMs": 667.6,
+   "phase": "hunt/hunt",
+   "renderMs": 796,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 73.99,
+   "gapMs": 534.4,
+   "phase": "hunt/hunt",
+   "renderMs": 817,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 74.66,
+   "gapMs": 567.7,
+   "phase": "hunt/hunt",
+   "renderMs": 666,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:feed-flash:jd",
+    "cue:animate:snag-burst:jd",
+    "cue:background",
+    "cue:confetti",
+    "cue:feed",
+    "cue:music",
+    "cue:sfx",
+    "cue:slam:slot-card:jd",
+    "motion-table:host 41ms",
+    "native-load:audio-1 42ms",
+    "native-set-src:audio-1 43ms"
+   ]
+  },
+  {
+   "atS": 75.39,
+   "gapMs": 567.3,
+   "phase": "hunt/hunt",
+   "renderMs": 729,
+   "coincident": [
+    "motion-table:slot-card:jd 131ms"
+   ]
+  },
+  {
+   "atS": 75.96,
+   "gapMs": 700.8,
+   "phase": "hunt/hunt",
+   "renderMs": 689,
+   "coincident": [
+    "background-render:",
+    "cue:background",
+    "cue:host-react",
+    "cue:music",
+    "cue:phase",
+    "cue:sfx",
+    "cue:slam:hunt.time",
+    "native-set-src:stage-video 726ms"
+   ]
+  },
+  {
+   "atS": 76.66,
+   "gapMs": 717.4,
+   "phase": "hunt/hunt",
+   "renderMs": 639,
+   "coincident": [
+    "background-render:",
+    "cue:background",
+    "cue:host-react",
+    "cue:music",
+    "cue:phase",
+    "cue:sfx",
+    "cue:slam:hunt.time",
+    "motion-table:hunt.time 76ms",
+    "native-set-src:stage-video 726ms"
+   ]
+  },
+  {
+   "atS": 77.51,
+   "gapMs": 566.6,
+   "phase": "hunt/time",
+   "renderMs": 721,
+   "coincident": [
+    "motion-table:host 46ms",
+    "motion-table:hunt.time 76ms"
+   ]
+  },
+  {
+   "atS": 78.08,
+   "gapMs": 800.7,
+   "phase": "hunt/time",
+   "renderMs": 621,
+   "coincident": [
+    "background-render:",
+    "cue:animate:hunt.time",
+    "cue:feed",
+    "cue:phase",
+    "native-load:audio-1 116ms",
+    "native-load:audio-11 111ms",
+    "native-set-src:audio-1 119ms",
+    "native-set-src:audio-11 112ms",
+    "native-set-src:stage-video 386ms",
+    "stage-video:playing"
+   ]
+  },
+  {
+   "atS": 78.88,
+   "gapMs": 135.6,
+   "phase": "hunt/time",
+   "renderMs": 1582805,
+   "coincident": [
+    "cue:animate:hunt.time",
+    "cue:feed",
+    "cue:phase",
+    "native-load:audio-1 116ms",
+    "native-load:audio-11 111ms",
+    "native-set-src:audio-1 119ms",
+    "native-set-src:audio-11 112ms"
+   ]
+  },
+  {
+   "atS": 79.1,
+   "gapMs": 567.3,
+   "phase": "hunt/time",
+   "renderMs": 905,
+   "coincident": [
+    "cue:feed",
+    "cue:host",
+    "cue:phase",
+    "cue:sfx",
+    "cue:slam:ready:cp",
+    "motion-table:hunt.time 27ms",
+    "stage-video:playing"
+   ]
+  },
+  {
+   "atS": 79.83,
+   "gapMs": 651.4,
+   "phase": "hunt/glow",
+   "renderMs": 727,
+   "coincident": [
+    "cue:feed",
+    "cue:host-finish",
+    "cue:sfx",
+    "cue:slam:ready:gr",
+    "cue:slam:ready:jd",
+    "native-get-currentTime:audio-14 46ms",
+    "native-set-volume:audio-14 20ms",
+    "voice-duck:",
+    "voice-line:hunt.glow-up"
+   ]
+  },
+  {
+   "atS": 80.63,
+   "gapMs": 667.6,
+   "phase": "hunt/glow",
+   "renderMs": 807,
+   "coincident": [
+    "cue:phase",
+    "native-load:audio-1 102ms",
+    "native-set-src:audio-1 102ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 81.47,
+   "gapMs": 646.5,
+   "phase": "hunt/glow",
+   "renderMs": 833,
+   "coincident": [
+    "motion-table:ready:gr 22ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 82.36,
+   "gapMs": 417.5,
+   "phase": "hunt/glow",
+   "renderMs": 887,
+   "coincident": []
+  },
+  {
+   "atS": 83.13,
+   "gapMs": 600.8,
+   "phase": "hunt/glow",
+   "renderMs": 749,
+   "coincident": [
+    "cue:host-hide",
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "native-addSourceBuffer:speech-5 43ms",
+    "native-load:audio-1 102ms",
+    "native-load:audio-15 83ms",
+    "native-set-currentTime:audio-15 26ms",
+    "native-set-src:audio-1 105ms",
+    "native-set-src:audio-15 145ms",
+    "native-set-srcObject:audio-15 142ms",
+    "voice-complete:",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 83.93,
+   "gapMs": 667.4,
+   "phase": "hunt/judge",
+   "renderMs": 806,
+   "coincident": [
+    "native-clearSurfaceHandle:stage-video 30ms",
+    "native-set-currentTime:audio-15 26ms",
+    "stage-video:release-requested"
+   ]
+  },
+  {
+   "atS": 84.6,
+   "gapMs": 918.1,
+   "phase": "hunt/judge",
+   "renderMs": 847,
+   "coincident": [
+    "judge-render:",
+    "native-clearSurfaceHandle:stage-video 30ms",
+    "stage-video:release-requested"
+   ]
+  },
+  {
+   "atS": 85.52,
+   "gapMs": 850.8,
+   "phase": "judge/judge",
+   "renderMs": 871,
+   "coincident": [
+    "cue:host",
+    "graphics-cache:judge",
+    "judge-render:"
+   ]
+  },
+  {
+   "atS": 86.37,
+   "gapMs": 817.1,
+   "phase": "judge/judge",
+   "renderMs": 811,
+   "coincident": [
+    "cue:card-flip",
+    "cue:host-finish",
+    "cue:reaction",
+    "cue:sfx",
+    "native-set-volume:audio-15 22ms",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 87.19,
+   "gapMs": 817.4,
+   "phase": "judge/judge",
+   "renderMs": 788,
+   "coincident": [
+    "cue:eyes:judge-card:p1",
+    "cue:reaction",
+    "cue:scan",
+    "cue:sfx",
+    "native-load:audio-1 158ms",
+    "native-set-src:audio-1 159ms",
+    "voice-line:judge.open",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 88.0,
+   "gapMs": 817.6,
+   "phase": "judge/judge",
+   "renderMs": 818,
+   "coincident": [
+    "native-load:audio-1 158ms",
+    "native-set-src:audio-1 159ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 88.82,
+   "gapMs": 834.2,
+   "phase": "judge/judge",
+   "renderMs": 803,
+   "coincident": [
+    "cue:animate:judge-bar:p1",
+    "cue:animate:judge-swatch:p1",
+    "cue:host-hide",
+    "cue:meter",
+    "cue:reaction",
+    "judge-mask:",
+    "native-load:audio-1 97ms",
+    "native-set-src:audio-1 97ms",
+    "photo-ready:",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 89.66,
+   "gapMs": 819.0,
+   "phase": "judge/judge",
+   "renderMs": 1459,
+   "coincident": [
+    "cue:animate:judge-bar:p1",
+    "cue:animate:judge-swatch:p1",
+    "cue:confetti",
+    "cue:fly-points",
+    "cue:host-hide",
+    "cue:host-react",
+    "cue:meter",
+    "cue:reaction",
+    "cue:sfx",
+    "cue:shake",
+    "judge-mask-hold:",
+    "motion-table:judge-bar:p1 22ms",
+    "native-load:audio-1 97ms",
+    "native-set-src:audio-1 97ms"
+   ]
+  },
+  {
+   "atS": 90.47,
+   "gapMs": 821.9,
+   "phase": "judge/judge",
+   "renderMs": 250,
+   "coincident": [
+    "cue:confetti",
+    "cue:fly-points",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:shake",
+    "native-load:audio-1 108ms",
+    "native-load:audio-1 97ms",
+    "native-set-src:audio-1 109ms",
+    "native-set-src:audio-1 97ms",
+    "photo-decoded:"
+   ]
+  },
+  {
+   "atS": 91.3,
+   "gapMs": 644.8,
+   "phase": "judge/judge",
+   "renderMs": 772,
+   "coincident": [
+    "cue:card-flip",
+    "cue:sfx",
+    "native-load:audio-1 108ms",
+    "native-load:audio-1 114ms",
+    "native-set-src:audio-1 109ms",
+    "native-set-src:audio-1 115ms"
+   ]
+  },
+  {
+   "atS": 91.94,
+   "gapMs": 817.5,
+   "phase": "judge/judge",
+   "renderMs": 610,
+   "coincident": [
+    "cue:animate:chip:p1",
+    "cue:eyes:judge-card:gr",
+    "cue:host",
+    "cue:reaction",
+    "cue:ring",
+    "cue:scan",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "native-load:audio-1 114ms",
+    "native-load:audio-1 158ms",
+    "native-set-src:audio-1 115ms",
+    "native-set-src:audio-1 161ms"
+   ]
+  },
+  {
+   "atS": 92.76,
+   "gapMs": 800.8,
+   "phase": "judge/judge",
+   "renderMs": 810,
+   "coincident": [
+    "cue:animate:chip:p1",
+    "cue:eyes:judge-card:gr",
+    "cue:host",
+    "cue:ring",
+    "cue:scan",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:judge-card-inner:gr 44ms",
+    "native-load:audio-1 158ms",
+    "native-load:audio-16 297ms",
+    "native-set-src:audio-1 161ms"
+   ]
+  },
+  {
+   "atS": 93.56,
+   "gapMs": 817.4,
+   "phase": "judge/judge",
+   "renderMs": 806,
+   "coincident": [
+    "cue:animate:judge-bar:gr",
+    "cue:animate:judge-swatch:gr",
+    "cue:host-finish",
+    "cue:meter",
+    "cue:reaction",
+    "native-addSourceBuffer:speech-6 215ms",
+    "native-load:audio-16 297ms",
+    "native-set-src:audio-16 523ms",
+    "native-set-srcObject:audio-16 522ms"
+   ]
+  },
+  {
+   "atS": 94.38,
+   "gapMs": 884.3,
+   "phase": "judge/judge",
+   "renderMs": 878,
+   "coincident": [
+    "cue:animate:judge-bar:gr",
+    "cue:animate:judge-swatch:gr",
+    "cue:host-finish",
+    "cue:meter",
+    "cue:reaction",
+    "native-load:audio-1 392ms",
+    "native-load:audio-3 97ms",
+    "native-set-src:audio-1 392ms",
+    "native-set-src:audio-3 98ms",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-line:reveal.ai-quip"
+   ]
+  },
+  {
+   "atS": 95.26,
+   "gapMs": 884.2,
+   "phase": "judge/judge",
+   "renderMs": 872,
+   "coincident": [
+    "cue:confetti",
+    "cue:fly-points",
+    "cue:host-react",
+    "cue:reaction",
+    "cue:sfx",
+    "cue:shake",
+    "native-load:audio-1 392ms",
+    "native-load:audio-1 72ms",
+    "native-load:audio-3 97ms",
+    "native-set-src:audio-1 392ms",
+    "native-set-src:audio-1 74ms",
+    "native-set-src:audio-3 98ms",
+    "voice-complete:",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 96.14,
+   "gapMs": 834.3,
+   "phase": "judge/judge",
+   "renderMs": 827,
+   "coincident": [
+    "cue:confetti",
+    "cue:fly-points",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:host 45ms",
+    "motion-table:judge-bar:gr 23ms",
+    "native-load:audio-1 72ms",
+    "native-set-src:audio-1 74ms"
+   ]
+  },
+  {
+   "atS": 96.98,
+   "gapMs": 850.8,
+   "phase": "judge/judge",
+   "renderMs": 840,
+   "coincident": [
+    "cue:card-flip",
+    "cue:host-hide",
+    "cue:reaction",
+    "cue:sfx",
+    "motion-table:host 45ms",
+    "native-load:audio-1 99ms",
+    "native-set-src:audio-1 100ms",
+    "particle-frame: 30ms"
+   ]
+  },
+  {
+   "atS": 97.83,
+   "gapMs": 834.2,
+   "phase": "judge/judge",
+   "renderMs": 825,
+   "coincident": [
+    "cue:animate:chip:gr",
+    "cue:eyes:judge-card:cp",
+    "cue:reaction",
+    "cue:ring",
+    "cue:scan",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "native-load:audio-1 63ms",
+    "native-pause:audio-1 25ms",
+    "native-set-src:audio-1 64ms"
+   ]
+  },
+  {
+   "atS": 98.66,
+   "gapMs": 817.4,
+   "phase": "judge/judge",
+   "renderMs": 836,
+   "coincident": [
+    "cue:eyes:judge-card:cp",
+    "cue:scan",
+    "cue:sfx",
+    "native-load:audio-1 168ms",
+    "native-load:audio-1 63ms",
+    "native-set-src:audio-1 168ms",
+    "native-set-src:audio-1 64ms"
+   ]
+  },
+  {
+   "atS": 99.48,
+   "gapMs": 984.4,
+   "phase": "judge/judge",
+   "renderMs": 1042,
+   "coincident": [
+    "cue:animate:judge-bar:cp",
+    "cue:animate:judge-swatch:cp",
+    "cue:meter",
+    "particle-frame: 34ms"
+   ]
+  },
+  {
+   "atS": 100.47,
+   "gapMs": 867.5,
+   "phase": "judge/judge",
+   "renderMs": 783,
+   "coincident": [
+    "cue:confetti",
+    "cue:fly-points",
+    "cue:host-react",
+    "cue:reaction",
+    "cue:sfx",
+    "cue:shake",
+    "native-load:audio-1 111ms",
+    "native-set-src:audio-1 112ms"
+   ]
+  },
+  {
+   "atS": 101.33,
+   "gapMs": 867.6,
+   "phase": "judge/judge",
+   "renderMs": 878,
+   "coincident": [
+    "cue:confetti",
+    "cue:fly-points",
+    "cue:host-react",
+    "cue:reaction",
+    "cue:sfx",
+    "cue:shake",
+    "native-load:audio-1 109ms",
+    "native-set-src:audio-1 111ms",
+    "particle-frame: 23ms",
+    "particle-frame: 27ms"
+   ]
+  },
+  {
+   "atS": 102.2,
+   "gapMs": 884.2,
+   "phase": "judge/judge",
+   "renderMs": 881,
+   "coincident": [
+    "cue:animate:chip:cp",
+    "cue:card-flip",
+    "cue:ring",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:host 27ms",
+    "native-load:audio-1 146ms",
+    "native-set-src:audio-1 147ms",
+    "particle-frame: 21ms",
+    "particle-frame: 26ms"
+   ]
+  },
+  {
+   "atS": 103.09,
+   "gapMs": 850.9,
+   "phase": "judge/judge",
+   "renderMs": 830,
+   "coincident": [
+    "cue:animate:chip:cp",
+    "cue:card-flip",
+    "cue:ring",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "native-load:audio-1 134ms",
+    "native-load:audio-1 146ms",
+    "native-set-src:audio-1 135ms",
+    "native-set-src:audio-1 147ms",
+    "particle-frame: 21ms",
+    "particle-frame: 24ms",
+    "particle-frame: 26ms"
+   ]
+  },
+  {
+   "atS": 103.94,
+   "gapMs": 884.1,
+   "phase": "judge/judge",
+   "renderMs": 883,
+   "coincident": [
+    "cue:eyes:judge-card:jd",
+    "cue:reaction",
+    "cue:scan",
+    "cue:sfx",
+    "motion-table:chip:cp 22ms",
+    "motion-table:judge-card-inner:jd 54ms"
+   ]
+  },
+  {
+   "atS": 104.82,
+   "gapMs": 851.0,
+   "phase": "judge/judge",
+   "renderMs": 837,
+   "coincident": [
+    "cue:eyes:judge-card:jd",
+    "cue:reaction",
+    "cue:scan",
+    "cue:sfx",
+    "native-load:audio-1 99ms",
+    "native-load:audio-3 119ms",
+    "native-set-src:audio-1 100ms",
+    "native-set-src:audio-3 120ms",
+    "particle-frame: 63ms"
+   ]
+  },
+  {
+   "atS": 105.67,
+   "gapMs": 900.8,
+   "phase": "judge/judge",
+   "renderMs": 892,
+   "coincident": [
+    "motion-table:judge-beam:jd 20ms",
+    "particle-frame: 63ms"
+   ]
+  },
+  {
+   "atS": 106.57,
+   "gapMs": 917.7,
+   "phase": "judge/judge",
+   "renderMs": 919,
+   "coincident": [
+    "cue:animate:judge-bar:jd",
+    "cue:animate:judge-swatch:jd",
+    "cue:meter",
+    "cue:reaction",
+    "motion-table:judge-beam:jd 20ms",
+    "native-load:audio-1 97ms",
+    "native-set-src:audio-1 97ms",
+    "particle-frame: 33ms"
+   ]
+  },
+  {
+   "atS": 107.49,
+   "gapMs": 934.2,
+   "phase": "judge/judge",
+   "renderMs": 914,
+   "coincident": []
+  },
+  {
+   "atS": 108.42,
+   "gapMs": 867.7,
+   "phase": "judge/judge",
+   "renderMs": 867,
+   "coincident": [
+    "cue:confetti",
+    "cue:fly-points",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:shake",
+    "native-load:audio-1 130ms",
+    "native-load:audio-1 29ms",
+    "native-set-src:audio-1 131ms",
+    "native-set-src:audio-1 30ms",
+    "particle-frame: 28ms"
+   ]
+  },
+  {
+   "atS": 109.29,
+   "gapMs": 884.1,
+   "phase": "judge/judge",
+   "renderMs": 927,
+   "coincident": [
+    "cue:animate:judge-card:p1",
+    "cue:background",
+    "cue:confetti",
+    "cue:host-react",
+    "cue:music",
+    "cue:reaction",
+    "cue:sfx",
+    "cue:slam:judge.banner",
+    "cue:slam:judge.crown",
+    "motion-table:host 24ms",
+    "native-addSourceBuffer:speech-7 59ms",
+    "native-load:audio-1 130ms",
+    "native-load:audio-1 29ms",
+    "native-load:audio-17 71ms"
+   ]
+  },
+  {
+   "atS": 110.18,
+   "gapMs": 934.8,
+   "phase": "judge/judge",
+   "renderMs": 876,
+   "coincident": [
+    "cue:animate:chip:jd",
+    "cue:animate:judge-card:p1",
+    "cue:background",
+    "cue:confetti",
+    "cue:host",
+    "cue:host-react",
+    "cue:music",
+    "cue:reaction",
+    "cue:ring",
+    "cue:score",
+    "cue:sfx",
+    "cue:slam:judge.banner",
+    "cue:slam:judge.crown",
+    "cue:stars"
+   ]
+  },
+  {
+   "atS": 111.11,
+   "gapMs": 950.5,
+   "phase": "judge/winner",
+   "renderMs": 932,
+   "coincident": [
+    "cue:reaction",
+    "motion-table:chip:jd 42ms",
+    "motion-table:judge-card:p1 24ms",
+    "motion-table:judge.banner 29ms",
+    "motion-table:judge.crown 31ms",
+    "native-get-currentTime:audio-17 41ms",
+    "native-load:audio-1 79ms",
+    "native-load:audio-12 139ms",
+    "native-load:audio-3 112ms",
+    "native-set-src:audio-1 80ms",
+    "native-set-src:audio-12 141ms",
+    "native-set-src:audio-3 115ms",
+    "native-set-volume:audio-17 27ms",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 112.06,
+   "gapMs": 1034.4,
+   "phase": "judge/winner",
+   "renderMs": 1330,
+   "coincident": [
+    "background-render:",
+    "cue:host-finish",
+    "cue:reaction",
+    "judge-render:",
+    "native-get-currentTime:audio-17 41ms",
+    "native-load:audio-12 139ms",
+    "native-load:audio-3 112ms",
+    "native-load:audio-3 183ms",
+    "native-set-src:audio-12 141ms",
+    "native-set-src:audio-3 115ms",
+    "native-set-src:audio-3 184ms",
+    "native-set-volume:audio-17 27ms",
+    "particle-frame: 59ms",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 113.1,
+   "gapMs": 1051.1,
+   "phase": "judge/winner",
+   "renderMs": 283,
+   "coincident": [
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "particle-frame: 99ms",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 114.15,
+   "gapMs": 917.5,
+   "phase": "judge/winner",
+   "renderMs": 928,
+   "coincident": [
+    "motion-table:host 47ms"
+   ]
+  },
+  {
+   "atS": 115.06,
+   "gapMs": 984.4,
+   "phase": "judge/winner",
+   "renderMs": 995,
+   "coincident": [
+    "cue:animate:lane:cp",
+    "cue:animate:lane:gr",
+    "cue:animate:lane:jd",
+    "cue:animate:lane:p1",
+    "cue:background",
+    "cue:host-hide",
+    "cue:music",
+    "cue:pop:stand.kicker",
+    "cue:slam:stand.title",
+    "motion-table:wipe 119ms",
+    "native-load:audio-1 106ms",
+    "native-set-src:audio-1 108ms"
+   ]
+  },
+  {
+   "atS": 116.05,
+   "gapMs": 1068.4,
+   "phase": "stand/standings",
+   "renderMs": 1013,
+   "coincident": [
+    "background-render:",
+    "cue:animate:lane:cp",
+    "cue:animate:lane:gr",
+    "cue:animate:lane:jd",
+    "cue:animate:lane:p1",
+    "cue:background",
+    "cue:host-hide",
+    "cue:music",
+    "cue:pop:stand.kicker",
+    "cue:slam:stand.title",
+    "native-load:audio-1 106ms",
+    "native-set-src:audio-1 108ms"
+   ]
+  },
+  {
+   "atS": 117.12,
+   "gapMs": 974.0,
+   "phase": "stand/standings",
+   "renderMs": 931,
+   "coincident": [
+    "background-render:",
+    "cue:animate:lane-badge:cp",
+    "cue:animate:lane-badge:gr",
+    "cue:animate:lane-badge:jd",
+    "cue:animate:lane-badge:p1",
+    "cue:animate:lane-delta:cp",
+    "cue:animate:lane-delta:gr",
+    "cue:animate:lane-delta:jd",
+    "cue:animate:lane-delta:p1",
+    "cue:animate:lane-fill:cp",
+    "cue:animate:lane-fill:gr",
+    "cue:animate:lane-fill:jd",
+    "cue:animate:lane-fill:p1",
+    "cue:animate:lane-rider:cp"
+   ]
+  },
+  {
+   "atS": 118.09,
+   "gapMs": 977.4,
+   "phase": "stand/standings",
+   "renderMs": 979,
+   "coincident": [
+    "motion-table:lane:jd 22ms",
+    "native-load:audio-11 57ms",
+    "native-set-src:audio-11 61ms",
+    "native-set-src:stage-video 37ms",
+    "native-setSurfaceHandle:stage-video 28ms"
+   ]
+  },
+  {
+   "atS": 119.07,
+   "gapMs": 934.1,
+   "phase": "stand/standings",
+   "renderMs": 1053,
+   "coincident": []
+  },
+  {
+   "atS": 120.04,
+   "gapMs": 901.8,
+   "phase": "stand/standings",
+   "renderMs": 846,
+   "coincident": []
+  },
+  {
+   "atS": 120.94,
+   "gapMs": 950.6,
+   "phase": "stand/standings",
+   "renderMs": 897,
+   "coincident": [
+    "cue:animate:lane:cp",
+    "cue:animate:lane:gr",
+    "cue:animate:lane:jd",
+    "cue:host",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:slam:overtake:gr",
+    "graphics-cache:stand",
+    "stage-video:playing"
+   ]
+  },
+  {
+   "atS": 122.07,
+   "gapMs": 751.2,
+   "phase": "stand/standings",
+   "renderMs": 997,
+   "coincident": [
+    "motion-table:lane-badge:cp 27ms",
+    "motion-table:lane-badge:p1 20ms",
+    "motion-table:lane-fill:gr 20ms",
+    "motion-table:lane-fill:p1 128ms"
+   ]
+  },
+  {
+   "atS": 123.07,
+   "gapMs": 767.8,
+   "phase": "stand/standings",
+   "renderMs": 998,
+   "coincident": [
+    "native-addSourceBuffer:speech-8 61ms",
+    "native-load:audio-18 83ms",
+    "native-set-src:audio-18 148ms",
+    "native-set-srcObject:audio-18 148ms"
+   ]
+  },
+  {
+   "atS": 124.11,
+   "gapMs": 767.4,
+   "phase": "stand/standings",
+   "renderMs": 1006,
+   "coincident": [
+    "cue:background",
+    "cue:confetti",
+    "cue:host-finish",
+    "cue:music",
+    "cue:phase",
+    "cue:sfx",
+    "native-load:audio-1 101ms",
+    "native-set-src:audio-1 104ms",
+    "voice-complete:",
+    "voice-line:stand.leader"
+   ]
+  },
+  {
+   "atS": 124.89,
+   "gapMs": 117.4,
+   "phase": "stand/standings",
+   "renderMs": 1628799,
+   "coincident": [
+    "cue:background",
+    "cue:confetti",
+    "cue:host-finish",
+    "cue:music",
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "native-load:audio-1 101ms",
+    "native-set-src:audio-1 104ms",
+    "voice-complete:",
+    "voice-line:stand.leader"
+   ]
+  },
+  {
+   "atS": 125.11,
+   "gapMs": 755.7,
+   "phase": "stand/title",
+   "renderMs": 1002,
+   "coincident": [
+    "cue:background",
+    "cue:music",
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "motion-table:lane-badge:cp 50ms",
+    "motion-table:lane:cp 38ms",
+    "native-load:audio-1 185ms",
+    "native-load:audio-3 153ms",
+    "native-load:audio-4 61ms",
+    "native-play:audio-1 42ms",
+    "native-set-src:audio-1 185ms",
+    "native-set-src:audio-3 153ms",
+    "native-set-src:audio-4 62ms"
+   ]
+  },
+  {
+   "atS": 126.19,
+   "gapMs": 563.0,
+   "phase": "stand/title",
+   "renderMs": 1043,
+   "coincident": [
+    "motion-table:lane-badge:cp 50ms",
+    "motion-table:overtake:gr 25ms",
+    "native-load:audio-12 60ms",
+    "native-set-src:audio-12 61ms"
+   ]
+  },
+  {
+   "atS": 126.93,
+   "gapMs": 784.4,
+   "phase": "intro/title",
+   "renderMs": 742,
+   "coincident": [
+    "native-load:audio-1 94ms",
+    "native-load:audio-3 100ms",
+    "native-set-src:audio-1 96ms",
+    "native-set-src:audio-3 102ms"
+   ]
+  },
+  {
+   "atS": 127.96,
+   "gapMs": 751.9,
+   "phase": "intro/title",
+   "renderMs": 1024,
+   "coincident": [
+    "cue:confetti",
+    "cue:host-hide",
+    "cue:pop:intro.kicker",
+    "cue:punch",
+    "cue:slam:intro.title"
+   ]
+  },
+  {
+   "atS": 128.73,
+   "gapMs": 100.4,
+   "phase": "intro/title",
+   "renderMs": 1632636,
+   "coincident": [
+    "cue:confetti",
+    "cue:punch",
+    "cue:slam:intro.title"
+   ]
+  },
+  {
+   "atS": 128.96,
+   "gapMs": 767.5,
+   "phase": "intro/title",
+   "renderMs": 1006,
+   "coincident": [
+    "cue:host",
+    "cue:pop:intro.sub",
+    "graphics-cache:intro"
+   ]
+  },
+  {
+   "atS": 129.75,
+   "gapMs": 968.3,
+   "phase": "intro/title",
+   "renderMs": 943,
+   "coincident": []
+  },
+  {
+   "atS": 130.95,
+   "gapMs": 768.4,
+   "phase": "intro/title",
+   "renderMs": 1043,
+   "coincident": [
+    "native-addSourceBuffer:speech-10 126ms",
+    "native-addSourceBuffer:speech-9 153ms",
+    "native-load:audio-19 171ms",
+    "native-load:audio-20 88ms",
+    "native-set-src:audio-19 336ms",
+    "native-set-src:audio-20 233ms",
+    "native-set-srcObject:audio-19 333ms",
+    "native-set-srcObject:audio-20 233ms",
+    "voice-duck:",
+    "voice-line:intro.title",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 131.95,
+   "gapMs": 717.5,
+   "phase": "intro/title",
+   "renderMs": 967,
+   "coincident": [
+    "particle-frame: 39ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 132.68,
+   "gapMs": 101.9,
+   "phase": "intro/title",
+   "renderMs": 1636577,
+   "coincident": [
+    "particle-frame: 116ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 132.88,
+   "gapMs": 751.1,
+   "phase": "intro/title",
+   "renderMs": 926,
+   "coincident": [
+    "particle-frame: 116ms",
+    "particle-frame: 21ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 133.85,
+   "gapMs": 717.0,
+   "phase": "intro/title",
+   "renderMs": 989,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 134.58,
+   "gapMs": 150.8,
+   "phase": "intro/title",
+   "renderMs": 1638541,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 134.83,
+   "gapMs": 784.5,
+   "phase": "intro/title",
+   "renderMs": 965,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 135.94,
+   "gapMs": 819.3,
+   "phase": "intro/title",
+   "renderMs": 1084,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 136.77,
+   "gapMs": 131.2,
+   "phase": "intro/title",
+   "renderMs": 1640708,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 136.97,
+   "gapMs": 806.7,
+   "phase": "intro/title",
+   "renderMs": 986,
+   "coincident": [
+    "cue:host-finish",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 137.79,
+   "gapMs": 166.7,
+   "phase": "intro/title",
+   "renderMs": 1641767,
+   "coincident": []
+  },
+  {
+   "atS": 138.04,
+   "gapMs": 796.0,
+   "phase": "intro/title",
+   "renderMs": 1042,
+   "coincident": [
+    "cue:animate:intro.bulbs",
+    "cue:animate:intro.kicker",
+    "cue:animate:intro.sub",
+    "cue:animate:intro.title",
+    "cue:phase",
+    "cue:pop:intro.arrow-left",
+    "cue:pop:intro.arrow-right",
+    "cue:pop:intro.reel",
+    "cue:reel",
+    "cue:sfx",
+    "motion-table:intro.kicker 23ms",
+    "motion-table:intro.sub 23ms",
+    "motion-table:intro.title 45ms",
+    "native-load:audio-1 136ms"
+   ]
+  },
+  {
+   "atS": 138.86,
+   "gapMs": 166.0,
+   "phase": "intro/title",
+   "renderMs": 1642817,
+   "coincident": [
+    "native-load:audio-1 136ms",
+    "native-set-src:audio-1 136ms"
+   ]
+  },
+  {
+   "atS": 139.14,
+   "gapMs": 800.8,
+   "phase": "intro/title",
+   "renderMs": 1085,
+   "coincident": [
+    "motion-table:intro.kicker 513ms",
+    "motion-table:intro.reel 54ms",
+    "motion-table:intro.sub 43ms"
+   ]
+  },
+  {
+   "atS": 139.96,
+   "gapMs": 1335.2,
+   "phase": "intro/title",
+   "renderMs": 1226,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes",
+    "cue:flash",
+    "cue:host",
+    "cue:host-hide",
+    "cue:host-react",
+    "cue:phase",
+    "cue:punch",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:intro.arrow-right 24ms"
+   ]
+  },
+  {
+   "atS": 141.52,
+   "gapMs": 300.5,
+   "phase": "intro/reel",
+   "renderMs": 1110,
+   "coincident": []
+  },
+  {
+   "atS": 141.96,
+   "gapMs": 400.7,
+   "phase": "intro/reel",
+   "renderMs": 478,
+   "coincident": [
+    "native-set-volume:audio-20 45ms",
+    "particle-frame: 110ms",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 142.63,
+   "gapMs": 769.3,
+   "phase": "intro/reel",
+   "renderMs": 633,
+   "coincident": [
+    "cue:animate:intro.arrow-left",
+    "cue:animate:intro.arrow-right",
+    "cue:animate:intro.bulbs",
+    "cue:animate:intro.reel",
+    "cue:count:intro",
+    "cue:host-finish",
+    "cue:phase",
+    "cue:sfx",
+    "native-load:audio-1 90ms",
+    "native-set-src:audio-1 94ms",
+    "particle-frame: 110ms",
+    "voice-line:intro.reel-land",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 143.41,
+   "gapMs": 133.5,
+   "phase": "intro/reel",
+   "renderMs": 1647344,
+   "coincident": [
+    "cue:animate:intro.arrow-left",
+    "cue:animate:intro.arrow-right",
+    "cue:animate:intro.bulbs",
+    "cue:animate:intro.reel",
+    "cue:count:intro",
+    "cue:phase",
+    "cue:sfx",
+    "native-load:audio-1 90ms",
+    "native-set-src:audio-1 94ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 143.76,
+   "gapMs": 715.5,
+   "phase": "intro/reel",
+   "renderMs": 1086,
+   "coincident": [
+    "motion-table:intro.arrow-left 21ms",
+    "motion-table:intro.arrow-right 29ms",
+    "motion-table:intro.bulbs 78ms",
+    "motion-table:intro.reel 27ms",
+    "native-addSourceBuffer:speech-11 33ms",
+    "native-set-src:audio-21 56ms",
+    "native-set-srcObject:audio-21 54ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 144.79,
+   "gapMs": 902.2,
+   "phase": "intro/countdown",
+   "renderMs": 1050,
+   "coincident": [
+    "cue:count:intro",
+    "cue:sfx",
+    "native-load:audio-1 129ms",
+    "native-set-src:audio-1 131ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 145.71,
+   "gapMs": 133.0,
+   "phase": "intro/countdown",
+   "renderMs": 1649652,
+   "coincident": [
+    "native-load:audio-1 129ms",
+    "native-set-src:audio-1 131ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 146.23,
+   "gapMs": 833.9,
+   "phase": "intro/countdown",
+   "renderMs": 1407,
+   "coincident": [
+    "cue:count:intro",
+    "cue:host-hide",
+    "cue:sfx",
+    "motion-table:intro.count 40ms",
+    "motion-table:intro.reel 24ms",
+    "native-deinitialize:audio-20 55ms",
+    "voice-complete:",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 147.09,
+   "gapMs": 110.3,
+   "phase": "intro/countdown",
+   "renderMs": 1651012,
+   "coincident": []
+  },
+  {
+   "atS": 147.58,
+   "gapMs": 853.3,
+   "phase": "intro/countdown",
+   "renderMs": 1340,
+   "coincident": [
+    "cue:confetti",
+    "cue:count:intro",
+    "cue:flash",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:intro.count 104ms"
+   ]
+  },
+  {
+   "atS": 148.68,
+   "gapMs": 851.4,
+   "phase": "intro/countdown",
+   "renderMs": 1081,
+   "coincident": [
+    "motion-table:intro.count 38ms",
+    "particle-frame: 20ms"
+   ]
+  },
+  {
+   "atS": 149.55,
+   "gapMs": 234.9,
+   "phase": "intro/countdown",
+   "renderMs": 1653580,
+   "coincident": [
+    "motion-table:intro.count 38ms",
+    "native-load:audio-1 131ms",
+    "native-load:audio-3 164ms",
+    "native-set-src:audio-1 133ms",
+    "native-set-src:audio-3 166ms"
+   ]
+  },
+  {
+   "atS": 149.85,
+   "gapMs": 868.7,
+   "phase": "intro/countdown",
+   "renderMs": 1160,
+   "coincident": [
+    "cue:scene",
+    "cue:sfx",
+    "motion-table:intro.count 24ms",
+    "native-load:audio-1 131ms",
+    "native-load:audio-1 162ms",
+    "native-load:audio-3 164ms",
+    "native-set-src:audio-1 133ms",
+    "native-set-src:audio-1 163ms",
+    "native-set-src:audio-3 166ms"
+   ]
+  },
+  {
+   "atS": 150.73,
+   "gapMs": 169.3,
+   "phase": "intro/countdown",
+   "renderMs": 1654699,
+   "coincident": [
+    "motion-table:intro.count 24ms"
+   ]
+  },
+  {
+   "atS": 150.95,
+   "gapMs": 885.1,
+   "phase": "intro/countdown",
+   "renderMs": 1094,
+   "coincident": [
+    "motion-table:intro.count 24ms",
+    "motion-table:wipe 60ms"
+   ]
+  },
+  {
+   "atS": 151.85,
+   "gapMs": 198.7,
+   "phase": "hunt/countdown",
+   "renderMs": 1655856,
+   "coincident": [
+    "cue:background",
+    "cue:music",
+    "cue:phase"
+   ]
+  },
+  {
+   "atS": 152.15,
+   "gapMs": 783.8,
+   "phase": "hunt/hunt",
+   "renderMs": 1193,
+   "coincident": [
+    "camera-target:",
+    "cue:background",
+    "cue:feed",
+    "cue:music",
+    "cue:phase"
+   ]
+  },
+  {
+   "atS": 152.96,
+   "gapMs": 183.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1656942,
+   "coincident": [
+    "camera-target:",
+    "cue:feed"
+   ]
+  },
+  {
+   "atS": 153.19,
+   "gapMs": 851.2,
+   "phase": "hunt/hunt",
+   "renderMs": 1035,
+   "coincident": [
+    "cue:feed",
+    "graphics-cache:hunt",
+    "native-load:audio-11 35ms",
+    "native-set-src:audio-11 35ms"
+   ]
+  },
+  {
+   "atS": 154.05,
+   "gapMs": 100.6,
+   "phase": "hunt/hunt",
+   "renderMs": 1657949,
+   "coincident": [
+    "cue:feed"
+   ]
+  },
+  {
+   "atS": 154.49,
+   "gapMs": 817.6,
+   "phase": "hunt/hunt",
+   "renderMs": 1283,
+   "coincident": [
+    "camera-target:",
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:sticker-flight"
+   ]
+  },
+  {
+   "atS": 155.32,
+   "gapMs": 217.0,
+   "phase": "hunt/hunt",
+   "renderMs": 1659341,
+   "coincident": []
+  },
+  {
+   "atS": 155.56,
+   "gapMs": 844.2,
+   "phase": "hunt/hunt",
+   "renderMs": 1065,
+   "coincident": [
+    "cue:animate:feed-flash:p1",
+    "cue:animate:snag-burst:p1",
+    "cue:confetti",
+    "cue:feed",
+    "cue:slam:slot-card:p1",
+    "motion-table:host 33ms",
+    "native-load:audio-1 179ms",
+    "native-load:audio-3 178ms",
+    "native-set-src:audio-1 180ms",
+    "native-set-src:audio-3 179ms"
+   ]
+  },
+  {
+   "atS": 156.42,
+   "gapMs": 100.7,
+   "phase": "hunt/hunt",
+   "renderMs": 1660322,
+   "coincident": [
+    "camera-target:",
+    "motion-table:host 33ms"
+   ]
+  },
+  {
+   "atS": 156.74,
+   "gapMs": 817.2,
+   "phase": "hunt/hunt",
+   "renderMs": 1138,
+   "coincident": [
+    "camera-target:",
+    "cue:sfx",
+    "cue:slam:ready:p1",
+    "cue:sticker-flight"
+   ]
+  },
+  {
+   "atS": 157.84,
+   "gapMs": 868.0,
+   "phase": "hunt/hunt",
+   "renderMs": 1109,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "native-load:audio-1 105ms",
+    "native-set-src:audio-1 106ms"
+   ]
+  },
+  {
+   "atS": 158.73,
+   "gapMs": 116.7,
+   "phase": "hunt/hunt",
+   "renderMs": 1662636,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "native-load:audio-1 105ms",
+    "native-set-src:audio-1 106ms"
+   ]
+  },
+  {
+   "atS": 158.94,
+   "gapMs": 851.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1105,
+   "coincident": [
+    "cue:animate:feed-flash:gr",
+    "native-load:audio-1 122ms",
+    "native-set-src:audio-1 122ms",
+    "photo-ready:"
+   ]
+  },
+  {
+   "atS": 159.81,
+   "gapMs": 100.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1663712,
+   "coincident": [
+    "motion-table:host 81ms"
+   ]
+  },
+  {
+   "atS": 160.04,
+   "gapMs": 851.6,
+   "phase": "hunt/hunt",
+   "renderMs": 1100,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:snag-burst:gr",
+    "cue:confetti",
+    "cue:feed",
+    "cue:slam:slot-card:gr",
+    "motion-table:host 81ms",
+    "motion-table:slot-card:gr 20ms",
+    "native-load:audio-1 106ms",
+    "native-set-src:audio-1 107ms"
+   ]
+  },
+  {
+   "atS": 160.91,
+   "gapMs": 120.0,
+   "phase": "hunt/hunt",
+   "renderMs": 1664833,
+   "coincident": [
+    "motion-table:slot-card:gr 20ms"
+   ]
+  },
+  {
+   "atS": 161.15,
+   "gapMs": 846.1,
+   "phase": "hunt/hunt",
+   "renderMs": 1010,
+   "coincident": [
+    "motion-table:slot-card:gr 20ms",
+    "motion-table:snag-burst:gr 213ms"
+   ]
+  },
+  {
+   "atS": 162.35,
+   "gapMs": 901.5,
+   "phase": "hunt/hunt",
+   "renderMs": 1223,
+   "coincident": []
+  },
+  {
+   "atS": 163.48,
+   "gapMs": 851.2,
+   "phase": "hunt/hunt",
+   "renderMs": 1126,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 164.35,
+   "gapMs": 121.9,
+   "phase": "hunt/hunt",
+   "renderMs": 1668263,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 164.75,
+   "gapMs": 868.0,
+   "phase": "hunt/hunt",
+   "renderMs": 1249,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 162ms"
+   ]
+  },
+  {
+   "atS": 165.63,
+   "gapMs": 101.2,
+   "phase": "hunt/hunt",
+   "renderMs": 1669528,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 149ms"
+   ]
+  },
+  {
+   "atS": 165.89,
+   "gapMs": 870.1,
+   "phase": "hunt/hunt",
+   "renderMs": 1104,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 111ms",
+    "particle-frame: 149ms",
+    "particle-frame: 46ms"
+   ]
+  },
+  {
+   "atS": 166.98,
+   "gapMs": 867.9,
+   "phase": "hunt/hunt",
+   "renderMs": 1120,
+   "coincident": [
+    "camera-target:",
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "particle-frame: 30ms"
+   ]
+  },
+  {
+   "atS": 167.87,
+   "gapMs": 105.0,
+   "phase": "hunt/hunt",
+   "renderMs": 1671768,
+   "coincident": [
+    "cue:host-react",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 168.12,
+   "gapMs": 901.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1136,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:feed-flash:jd",
+    "cue:animate:snag-burst:jd",
+    "cue:confetti",
+    "cue:feed",
+    "cue:slam:slot-card:jd"
+   ]
+  },
+  {
+   "atS": 169.04,
+   "gapMs": 116.8,
+   "phase": "hunt/hunt",
+   "renderMs": 1672949,
+   "coincident": []
+  },
+  {
+   "atS": 169.32,
+   "gapMs": 901.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1188,
+   "coincident": [
+    "camera-target:",
+    "motion-table:slot-card:jd 73ms",
+    "particle-frame: 26ms"
+   ]
+  },
+  {
+   "atS": 170.24,
+   "gapMs": 116.8,
+   "phase": "hunt/hunt",
+   "renderMs": 1674168,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 26ms"
+   ]
+  },
+  {
+   "atS": 170.49,
+   "gapMs": 852.2,
+   "phase": "hunt/hunt",
+   "renderMs": 1149,
+   "coincident": [
+    "particle-frame: 21ms"
+   ]
+  },
+  {
+   "atS": 171.35,
+   "gapMs": 116.7,
+   "phase": "hunt/hunt",
+   "renderMs": 1675273,
+   "coincident": []
+  },
+  {
+   "atS": 171.55,
+   "gapMs": 902.5,
+   "phase": "hunt/hunt",
+   "renderMs": 1089,
+   "coincident": [
+    "camera-target:",
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "particle-frame: 25ms"
+   ]
+  },
+  {
+   "atS": 172.47,
+   "gapMs": 1168.4,
+   "phase": "hunt/hunt",
+   "renderMs": 1107,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:feed-flash:cp",
+    "cue:animate:snag-burst:cp",
+    "cue:confetti",
+    "cue:feed",
+    "cue:slam:slot-card:cp",
+    "motion-table:slot-card:cp 83ms",
+    "motion-table:snag-burst:cp 32ms"
+   ]
+  },
+  {
+   "atS": 174.04,
+   "gapMs": 953.1,
+   "phase": "hunt/hunt",
+   "renderMs": 1354,
+   "coincident": [
+    "cue:background",
+    "cue:host-react",
+    "cue:music",
+    "cue:phase",
+    "cue:sfx",
+    "cue:slam:hunt.time",
+    "native-load:audio-1 98ms",
+    "native-set-src:audio-1 98ms"
+   ]
+  },
+  {
+   "atS": 175.01,
+   "gapMs": 183.7,
+   "phase": "hunt/time",
+   "renderMs": 1678989,
+   "coincident": [
+    "native-load:audio-1 98ms",
+    "native-set-src:audio-1 98ms"
+   ]
+  },
+  {
+   "atS": 175.48,
+   "gapMs": 900.7,
+   "phase": "hunt/time",
+   "renderMs": 1444,
+   "coincident": [
+    "cue:animate:hunt.time",
+    "cue:feed",
+    "cue:host",
+    "cue:phase",
+    "motion-table:host 51ms",
+    "native-load:audio-12 70ms",
+    "native-set-src:audio-12 71ms"
+   ]
+  },
+  {
+   "atS": 176.39,
+   "gapMs": 116.2,
+   "phase": "hunt/time",
+   "renderMs": 1680312,
+   "coincident": [
+    "cue:animate:hunt.time",
+    "cue:feed",
+    "cue:host",
+    "cue:phase",
+    "native-load:audio-12 70ms",
+    "native-set-src:audio-12 71ms"
+   ]
+  },
+  {
+   "atS": 176.88,
+   "gapMs": 1035.1,
+   "phase": "hunt/time",
+   "renderMs": 1358,
+   "coincident": [
+    "cue:feed",
+    "cue:host-finish",
+    "cue:sfx",
+    "cue:slam:ready:cp",
+    "cue:slam:ready:gr",
+    "cue:slam:ready:jd",
+    "motion-table:hunt.time 43ms",
+    "motion-table:ready:cp 28ms",
+    "native-load:audio-1 103ms",
+    "native-set-src:audio-1 103ms",
+    "voice-duck:",
+    "voice-line:hunt.glow-up",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 177.93,
+   "gapMs": 133.0,
+   "phase": "hunt/glow",
+   "renderMs": 1681870,
+   "coincident": [
+    "motion-table:ready:cp 28ms",
+    "native-load:audio-1 103ms",
+    "native-set-src:audio-1 103ms"
+   ]
+  },
+  {
+   "atS": 178.38,
+   "gapMs": 1000.8,
+   "phase": "hunt/glow",
+   "renderMs": 1435,
+   "coincident": [
+    "cue:phase",
+    "motion-table:hunt.time 26ms",
+    "motion-table:ready:gr 27ms",
+    "motion-table:ready:jd 26ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 179.4,
+   "gapMs": 110.8,
+   "phase": "hunt/glow",
+   "renderMs": 1683323,
+   "coincident": []
+  },
+  {
+   "atS": 179.75,
+   "gapMs": 1018.4,
+   "phase": "hunt/glow",
+   "renderMs": 1390,
+   "coincident": [
+    "cue:host-hide",
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "native-load:audio-1 103ms",
+    "native-set-src:audio-1 105ms",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 180.78,
+   "gapMs": 117.5,
+   "phase": "hunt/brag-intro",
+   "renderMs": 1684688,
+   "coincident": [
+    "native-load:audio-1 103ms",
+    "native-set-src:audio-1 105ms"
+   ]
+  },
+  {
+   "atS": 181.28,
+   "gapMs": 1034.5,
+   "phase": "brag/brag-intro",
+   "renderMs": 1497,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.panel-left",
+    "cue:animate:brag.panel-right",
+    "cue:animate:brag.seam",
+    "cue:background",
+    "cue:match",
+    "cue:music",
+    "cue:sfx",
+    "graphics-cache:brag"
+   ]
+  },
+  {
+   "atS": 182.33,
+   "gapMs": 116.4,
+   "phase": "brag/brag-intro",
+   "renderMs": 1686250,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.panel-left",
+    "cue:animate:brag.panel-right",
+    "cue:animate:brag.seam",
+    "cue:background",
+    "cue:match",
+    "cue:music",
+    "cue:sfx",
+    "graphics-cache:brag"
+   ]
+  },
+  {
+   "atS": 183.22,
+   "gapMs": 484.5,
+   "phase": "brag/brag-intro",
+   "renderMs": 1687500,
+   "coincident": []
+  },
+  {
+   "atS": 183.77,
+   "gapMs": 150.4,
+   "phase": "brag/brag-intro",
+   "renderMs": 2471,
+   "coincident": []
+  },
+  {
+   "atS": 184.73,
+   "gapMs": 1035.5,
+   "phase": "brag/brag-intro",
+   "renderMs": 958,
+   "coincident": [
+    "cue:animate:brag.vs",
+    "cue:eyes",
+    "cue:flash",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:brag.fighter-left 77ms",
+    "motion-table:brag.fighter-right 39ms",
+    "motion-table:brag.panel-left 63ms",
+    "motion-table:brag.seam 21ms",
+    "photo-decoded:",
+    "photo-ready:"
+   ]
+  },
+  {
+   "atS": 185.79,
+   "gapMs": 133.2,
+   "phase": "brag/brag-intro",
+   "renderMs": 1689725,
+   "coincident": []
+  },
+  {
+   "atS": 186.14,
+   "gapMs": 1069.3,
+   "phase": "brag/brag-intro",
+   "renderMs": 1405,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:eyes:brag.fighter-left",
+    "cue:host",
+    "cue:host-hide",
+    "cue:phase",
+    "cue:pop:brag.line-left",
+    "cue:sfx",
+    "motion-table:brag.seam 46ms",
+    "motion-table:brag.vs 41ms",
+    "native-addSourceBuffer:speech-12 66ms",
+    "native-load:audio-22 36ms",
+    "native-set-src:audio-22 119ms",
+    "native-set-srcObject:audio-22 118ms",
+    "voice-complete:"
+   ]
+  },
+  {
+   "atS": 187.22,
+   "gapMs": 148.6,
+   "phase": "brag/brag-intro",
+   "renderMs": 1691175,
+   "coincident": [
+    "native-addSourceBuffer:speech-12 66ms",
+    "native-load:audio-22 36ms",
+    "native-set-src:audio-22 119ms",
+    "native-set-srcObject:audio-22 118ms"
+   ]
+  },
+  {
+   "atS": 187.7,
+   "gapMs": 1101.4,
+   "phase": "brag/brag-intro",
+   "renderMs": 1550,
+   "coincident": [
+    "cue:animate:brag.fighter-right",
+    "cue:eyes:brag.fighter-right",
+    "cue:host-finish",
+    "cue:pop:brag.line-right",
+    "cue:sfx",
+    "native-endOfStream:speech-12 44ms",
+    "native-load:audio-1 82ms",
+    "native-load:audio-11 155ms",
+    "native-set-src:audio-1 83ms",
+    "native-set-src:audio-11 156ms"
+   ]
+  },
+  {
+   "atS": 188.82,
+   "gapMs": 116.7,
+   "phase": "brag/brag-lines",
+   "renderMs": 1692745,
+   "coincident": [
+    "cue:animate:brag.fighter-right",
+    "cue:eyes:brag.fighter-right",
+    "cue:pop:brag.line-right",
+    "cue:sfx",
+    "native-load:audio-1 82ms",
+    "native-set-src:audio-1 83ms"
+   ]
+  },
+  {
+   "atS": 189.17,
+   "gapMs": 1071.6,
+   "phase": "brag/brag-lines",
+   "renderMs": 1477,
+   "coincident": [
+    "native-load:audio-1 105ms",
+    "native-load:audio-1 89ms",
+    "native-set-src:audio-1 106ms",
+    "native-set-src:audio-1 89ms"
+   ]
+  },
+  {
+   "atS": 190.26,
+   "gapMs": 233.8,
+   "phase": "brag/brag-lines",
+   "renderMs": 1694287,
+   "coincident": [
+    "cue:host-hide",
+    "native-load:audio-1 105ms",
+    "native-load:audio-3 286ms",
+    "native-set-src:audio-1 106ms",
+    "native-set-src:audio-3 287ms"
+   ]
+  },
+  {
+   "atS": 190.64,
+   "gapMs": 1034.6,
+   "phase": "brag/brag-lines",
+   "renderMs": 1444,
+   "coincident": [
+    "cue:animate:brag.line-left",
+    "cue:animate:brag.line-right",
+    "cue:animate:brag.tug",
+    "cue:count:brag",
+    "cue:host-hide",
+    "cue:phase",
+    "cue:sfx",
+    "motion-table:brag.line-left 54ms",
+    "motion-table:brag.line-right 25ms",
+    "native-load:audio-3 286ms",
+    "native-set-src:audio-3 287ms"
+   ]
+  },
+  {
+   "atS": 191.69,
+   "gapMs": 183.5,
+   "phase": "brag/brag-lines",
+   "renderMs": 1695684,
+   "coincident": []
+  },
+  {
+   "atS": 192.04,
+   "gapMs": 1084.9,
+   "phase": "brag/brag-lines",
+   "renderMs": 1404,
+   "coincident": [
+    "cue:count:brag",
+    "cue:sfx",
+    "motion-table:brag.count 28ms",
+    "motion-table:brag.count 34ms",
+    "motion-table:brag.line-left 39ms",
+    "motion-table:brag.line-right 20ms",
+    "native-load:audio-1 162ms",
+    "native-set-src:audio-1 162ms"
+   ]
+  },
+  {
+   "atS": 193.14,
+   "gapMs": 183.2,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1697118,
+   "coincident": [
+    "cue:count:brag",
+    "cue:flash",
+    "cue:phase",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:brag.count 34ms"
+   ]
+  },
+  {
+   "atS": 193.51,
+   "gapMs": 1068.3,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1454,
+   "coincident": [
+    "cue:count:brag",
+    "cue:flash",
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:phase",
+    "cue:sfx",
+    "cue:shake",
+    "cue:stars",
+    "motion-table:brag.count 45ms",
+    "native-load:audio-1 89ms",
+    "native-load:audio-1 98ms",
+    "native-set-src:audio-1 100ms",
+    "native-set-src:audio-1 89ms"
+   ]
+  },
+  {
+   "atS": 194.6,
+   "gapMs": 103.1,
+   "phase": "brag/mash",
+   "renderMs": 1698492,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "native-load:audio-1 89ms",
+    "native-set-src:audio-1 89ms"
+   ]
+  },
+  {
+   "atS": 195.06,
+   "gapMs": 951.3,
+   "phase": "brag/mash",
+   "renderMs": 1534,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 78ms",
+    "motion-table:brag.count 22ms"
+   ]
+  },
+  {
+   "atS": 196.03,
+   "gapMs": 100.3,
+   "phase": "brag/mash",
+   "renderMs": 1699932,
+   "coincident": [
+    "motion-table:brag.combo:p1 78ms",
+    "motion-table:brag.count 22ms"
+   ]
+  },
+  {
+   "atS": 196.43,
+   "gapMs": 1067.5,
+   "phase": "brag/mash",
+   "renderMs": 1375,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 46ms",
+    "native-load:audio-1 119ms",
+    "native-load:audio-3 110ms",
+    "native-set-src:audio-1 119ms",
+    "native-set-src:audio-1 143ms",
+    "native-set-src:audio-3 111ms",
+    "particle-frame: 39ms"
+   ]
+  },
+  {
+   "atS": 197.51,
+   "gapMs": 170.5,
+   "phase": "brag/mash",
+   "renderMs": 1701479,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "native-load:audio-1 119ms",
+    "native-load:audio-3 110ms",
+    "native-set-src:audio-1 119ms",
+    "native-set-src:audio-3 111ms"
+   ]
+  },
+  {
+   "atS": 197.91,
+   "gapMs": 1017.8,
+   "phase": "brag/mash",
+   "renderMs": 1479,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 39ms",
+    "native-load:audio-1 112ms",
+    "native-load:audio-3 92ms",
+    "native-set-src:audio-1 114ms",
+    "native-set-src:audio-3 93ms"
+   ]
+  },
+  {
+   "atS": 198.95,
+   "gapMs": 153.7,
+   "phase": "brag/mash",
+   "renderMs": 1702906,
+   "coincident": [
+    "cue:mash-tap",
+    "cue:sfx",
+    "motion-table:brag.combo:p1 39ms"
+   ]
+  },
+  {
+   "atS": 199.65,
+   "gapMs": 1017.7,
+   "phase": "brag/mash",
+   "renderMs": 1730,
+   "coincident": [
+    "cue:animate:brag.combo",
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.sweep",
+    "cue:animate:brag.tug",
+    "cue:animate:brag.vs",
+    "cue:confetti",
+    "cue:eyes:brag.fighter-left",
+    "cue:flash",
+    "cue:fly-points",
+    "cue:host-react",
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap"
+   ]
+  },
+  {
+   "atS": 200.68,
+   "gapMs": 133.7,
+   "phase": "brag/knockout",
+   "renderMs": 1704621,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes:brag.fighter-left",
+    "cue:fly-points",
+    "cue:sfx",
+    "cue:slam:brag.ko",
+    "particle-frame: 21ms",
+    "particle-frame: 48ms"
+   ]
+  },
+  {
+   "atS": 201.05,
+   "gapMs": 1084.5,
+   "phase": "brag/knockout",
+   "renderMs": 1393,
+   "coincident": [
+    "motion-table:brag.combo:p1 62ms",
+    "motion-table:brag.fighter-right 48ms",
+    "motion-table:brag.tug 23ms",
+    "motion-table:brag.vs 25ms",
+    "native-load:audio-1 87ms",
+    "native-load:audio-3 109ms",
+    "native-load:audio-4 137ms",
+    "native-set-src:audio-1 88ms",
+    "native-set-src:audio-3 109ms",
+    "native-set-src:audio-4 144ms"
+   ]
+  },
+  {
+   "atS": 202.15,
+   "gapMs": 152.1,
+   "phase": "brag/knockout",
+   "renderMs": 1706110,
+   "coincident": [
+    "native-load:audio-3 109ms",
+    "native-load:audio-4 137ms",
+    "native-set-src:audio-3 109ms",
+    "native-set-src:audio-4 144ms"
+   ]
+  },
+  {
+   "atS": 202.62,
+   "gapMs": 993.5,
+   "phase": "brag/knockout",
+   "renderMs": 1572,
+   "coincident": [
+    "cue:host",
+    "native-load:audio-5 311ms",
+    "native-load:audio-6 103ms",
+    "native-play:audio-5 39ms",
+    "native-set-src:audio-5 311ms",
+    "native-set-src:audio-6 107ms",
+    "particle-frame: 32ms"
+   ]
+  },
+  {
+   "atS": 203.62,
+   "gapMs": 200.4,
+   "phase": null,
+   "renderMs": 1707628,
+   "coincident": [
+    "cue:host",
+    "particle-frame: 32ms"
+   ]
+  },
+  {
+   "atS": 204.02,
+   "gapMs": 1104.9,
+   "phase": "brag/knockout",
+   "renderMs": 1395,
+   "coincident": [
+    "cue:animate:chip:p1",
+    "cue:phase",
+    "cue:ring",
+    "cue:scene",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 80ms",
+    "motion-table:brag.tug 77ms",
+    "motion-table:brag.vs 54ms",
+    "voice-complete:",
+    "voice-line:brag.winner"
+   ]
+  },
+  {
+   "atS": 205.14,
+   "gapMs": 215.1,
+   "phase": "brag/brag-intro",
+   "renderMs": 1709156,
+   "coincident": [
+    "native-load:audio-1 329ms",
+    "native-set-src:audio-1 329ms"
+   ]
+  },
+  {
+   "atS": 205.54,
+   "gapMs": 1071.6,
+   "phase": "brag/brag-intro",
+   "renderMs": 1501,
+   "coincident": [
+    "cue:host-finish",
+    "native-load:audio-1 329ms",
+    "native-load:audio-3 331ms",
+    "native-load:audio-4 114ms",
+    "native-load:audio-5 121ms",
+    "native-set-src:audio-1 329ms",
+    "native-set-src:audio-3 331ms",
+    "native-set-src:audio-4 114ms",
+    "native-set-src:audio-5 123ms"
+   ]
+  },
+  {
+   "atS": 206.62,
+   "gapMs": 183.4,
+   "phase": "brag/brag-intro",
+   "renderMs": 1710598,
+   "coincident": []
+  },
+  {
+   "atS": 207.21,
+   "gapMs": 1118.2,
+   "phase": "brag/brag-intro",
+   "renderMs": 1649,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.panel-left",
+    "cue:animate:brag.panel-right",
+    "cue:animate:brag.seam",
+    "cue:background",
+    "cue:match",
+    "cue:music",
+    "cue:sfx",
+    "native-load:audio-1 111ms",
+    "native-load:audio-3 159ms",
+    "native-load:audio-4 145ms",
+    "native-set-src:audio-1 112ms",
+    "native-set-src:audio-3 159ms"
+   ]
+  },
+  {
+   "atS": 208.34,
+   "gapMs": 133.4,
+   "phase": "brag/brag-intro",
+   "renderMs": 1712285,
+   "coincident": []
+  },
+  {
+   "atS": 209.13,
+   "gapMs": 1068.3,
+   "phase": "brag/brag-intro",
+   "renderMs": 1878,
+   "coincident": [
+    "cue:animate:brag.vs",
+    "cue:eyes",
+    "cue:flash",
+    "cue:host",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:brag.panel-right 25ms"
+   ]
+  },
+  {
+   "atS": 210.21,
+   "gapMs": 116.9,
+   "phase": "brag/brag-intro",
+   "renderMs": 1714116,
+   "coincident": [
+    "motion-table:brag.panel-right 25ms"
+   ]
+  },
+  {
+   "atS": 210.56,
+   "gapMs": 1069.4,
+   "phase": "brag/brag-intro",
+   "renderMs": 1421,
+   "coincident": [
+    "cue:host-finish",
+    "motion-table:brag.vs 41ms",
+    "native-load:audio-1 92ms",
+    "native-set-src:audio-1 93ms"
+   ]
+  },
+  {
+   "atS": 211.65,
+   "gapMs": 125.7,
+   "phase": "brag/brag-intro",
+   "renderMs": 1715585,
+   "coincident": [
+    "native-load:audio-1 92ms",
+    "native-set-src:audio-1 93ms"
+   ]
+  },
+  {
+   "atS": 212.2,
+   "gapMs": 1134.2,
+   "phase": "brag/brag-lines",
+   "renderMs": 1646,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:eyes:brag.fighter-left",
+    "cue:host-hide",
+    "cue:phase",
+    "cue:pop:brag.line-left",
+    "cue:sfx",
+    "native-load:audio-1 68ms",
+    "native-load:audio-1 97ms",
+    "native-load:audio-3 104ms",
+    "native-play:audio-1 38ms",
+    "native-set-src:audio-1 68ms",
+    "native-set-src:audio-1 98ms",
+    "native-set-src:audio-3 105ms",
+    "voice-complete:"
+   ]
+  },
+  {
+   "atS": 213.35,
+   "gapMs": 116.5,
+   "phase": "brag/brag-lines",
+   "renderMs": 1717259,
+   "coincident": [
+    "native-load:audio-1 68ms",
+    "native-play:audio-1 38ms",
+    "native-set-src:audio-1 68ms"
+   ]
+  },
+  {
+   "atS": 213.73,
+   "gapMs": 1068.2,
+   "phase": "brag/brag-lines",
+   "renderMs": 1529,
+   "coincident": [
+    "cue:animate:brag.fighter-right",
+    "cue:eyes:brag.fighter-right",
+    "cue:pop:brag.line-right",
+    "cue:sfx",
+    "native-load:audio-1 100ms",
+    "native-load:audio-1 97ms",
+    "native-set-src:audio-1 101ms",
+    "native-set-src:audio-1 99ms"
+   ]
+  },
+  {
+   "atS": 214.82,
+   "gapMs": 200.4,
+   "phase": "brag/brag-lines",
+   "renderMs": 1718803,
+   "coincident": [
+    "native-load:audio-1 97ms",
+    "native-set-src:audio-1 99ms"
+   ]
+  },
+  {
+   "atS": 215.28,
+   "gapMs": 985.6,
+   "phase": "brag/brag-lines",
+   "renderMs": 1531,
+   "coincident": [
+    "cue:animate:brag.line-left",
+    "cue:animate:brag.line-right",
+    "cue:animate:brag.tug",
+    "cue:count:brag",
+    "cue:phase",
+    "cue:sfx",
+    "motion-table:brag.line-left 27ms",
+    "motion-table:brag.line-right 25ms",
+    "native-load:audio-1 96ms",
+    "native-set-src:audio-1 97ms"
+   ]
+  },
+  {
+   "atS": 216.62,
+   "gapMs": 1084.7,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1331,
+   "coincident": [
+    "cue:count:brag",
+    "cue:sfx",
+    "motion-table:brag.count 32ms",
+    "motion-table:brag.line-left 45ms",
+    "motion-table:brag.line-right 38ms"
+   ]
+  },
+  {
+   "atS": 217.72,
+   "gapMs": 149.9,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1721677,
+   "coincident": []
+  },
+  {
+   "atS": 218.25,
+   "gapMs": 1167.2,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1620,
+   "coincident": [
+    "cue:count:brag",
+    "cue:flash",
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:phase",
+    "cue:sfx",
+    "cue:shake",
+    "cue:stars",
+    "motion-table:brag.count 30ms",
+    "motion-table:brag.count 35ms",
+    "native-load:audio-1 110ms",
+    "native-set-src:audio-1 111ms"
+   ]
+  },
+  {
+   "atS": 219.44,
+   "gapMs": 147.5,
+   "phase": "brag/mash",
+   "renderMs": 1723385,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars"
+   ]
+  },
+  {
+   "atS": 219.79,
+   "gapMs": 1084.6,
+   "phase": "brag/mash",
+   "renderMs": 1518,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "native-load:audio-1 121ms",
+    "native-set-src:audio-1 122ms"
+   ]
+  },
+  {
+   "atS": 220.89,
+   "gapMs": 150.1,
+   "phase": "brag/mash",
+   "renderMs": 1724836,
+   "coincident": []
+  },
+  {
+   "atS": 221.27,
+   "gapMs": 1067.8,
+   "phase": "brag/mash",
+   "renderMs": 1484,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 88ms",
+    "native-load:audio-1 80ms",
+    "native-load:audio-3 112ms",
+    "native-load:audio-4 117ms",
+    "native-set-src:audio-1 81ms",
+    "native-set-src:audio-3 112ms",
+    "native-set-src:audio-4 119ms"
+   ]
+  },
+  {
+   "atS": 222.36,
+   "gapMs": 200.4,
+   "phase": "brag/mash",
+   "renderMs": 1726365,
+   "coincident": [
+    "motion-table:brag.combo:p1 88ms",
+    "motion-table:brag.count 53ms"
+   ]
+  },
+  {
+   "atS": 222.71,
+   "gapMs": 1084.5,
+   "phase": "brag/mash",
+   "renderMs": 1435,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.count 53ms",
+    "native-load:audio-1 98ms",
+    "native-load:audio-3 139ms",
+    "native-load:audio-4 127ms",
+    "native-set-src:audio-1 99ms",
+    "native-set-src:audio-3 141ms",
+    "native-set-src:audio-4 128ms"
+   ]
+  },
+  {
+   "atS": 223.81,
+   "gapMs": 117.7,
+   "phase": "brag/mash",
+   "renderMs": 1727726,
+   "coincident": [
+    "motion-table:brag.combo:p1 170ms"
+   ]
+  },
+  {
+   "atS": 224.14,
+   "gapMs": 1116.3,
+   "phase": "brag/mash",
+   "renderMs": 1449,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 170ms",
+    "motion-table:brag.combo:p1 36ms",
+    "native-load:audio-1 110ms",
+    "native-set-src:audio-1 110ms"
+   ]
+  },
+  {
+   "atS": 225.28,
+   "gapMs": 1435.2,
+   "phase": "brag/mash",
+   "renderMs": 1399,
+   "coincident": [
+    "cue:animate:brag.combo",
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.sweep",
+    "cue:animate:brag.tug",
+    "cue:animate:brag.vs",
+    "cue:flash",
+    "cue:host-react",
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:phase",
+    "cue:punch",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 227.13,
+   "gapMs": 1101.7,
+   "phase": "brag/knockout",
+   "renderMs": 1495,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes:brag.fighter-right",
+    "cue:fly-points",
+    "cue:host",
+    "cue:sfx",
+    "cue:slam:brag.ko",
+    "motion-table:brag.combo:p1 32ms",
+    "motion-table:brag.fighter-left 24ms",
+    "motion-table:brag.sweep 38ms",
+    "motion-table:brag.tug 29ms",
+    "motion-table:brag.vs 30ms",
+    "motion-table:host 36ms",
+    "native-load:audio-1 115ms",
+    "native-load:audio-3 107ms"
+   ]
+  },
+  {
+   "atS": 228.25,
+   "gapMs": 131.8,
+   "phase": "brag/knockout",
+   "renderMs": 1732187,
+   "coincident": [
+    "motion-table:brag.combo:p1 32ms",
+    "motion-table:host 36ms"
+   ]
+  },
+  {
+   "atS": 228.63,
+   "gapMs": 1102.2,
+   "phase": "brag/knockout",
+   "renderMs": 1506,
+   "coincident": [
+    "native-load:audio-1 112ms",
+    "native-load:audio-3 85ms",
+    "native-load:audio-4 165ms",
+    "native-load:audio-5 182ms",
+    "native-set-src:audio-1 115ms",
+    "native-set-src:audio-3 87ms",
+    "native-set-src:audio-4 166ms",
+    "native-set-src:audio-5 185ms",
+    "particle-frame: 22ms",
+    "particle-frame: 27ms"
+   ]
+  },
+  {
+   "atS": 229.75,
+   "gapMs": 167.0,
+   "phase": "brag/knockout",
+   "renderMs": 1733708,
+   "coincident": [
+    "motion-table:brag.vs 43ms",
+    "native-load:audio-5 182ms",
+    "native-set-src:audio-5 185ms",
+    "particle-frame: 22ms",
+    "particle-frame: 27ms"
+   ]
+  },
+  {
+   "atS": 230.13,
+   "gapMs": 1068.2,
+   "phase": "brag/knockout",
+   "renderMs": 1477,
+   "coincident": [
+    "cue:animate:chip:jd",
+    "cue:host-finish",
+    "cue:phase",
+    "cue:ring",
+    "cue:scene",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.vs 43ms",
+    "motion-table:chip:jd 22ms",
+    "voice-complete:",
+    "voice-line:brag.winner"
+   ]
+  },
+  {
+   "atS": 231.21,
+   "gapMs": 170.6,
+   "phase": "brag/brag-intro",
+   "renderMs": 1735174,
+   "coincident": [
+    "native-load:audio-1 230ms",
+    "native-set-src:audio-1 232ms"
+   ]
+  },
+  {
+   "atS": 231.63,
+   "gapMs": 1051.5,
+   "phase": "brag/brag-intro",
+   "renderMs": 1446,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.panel-left",
+    "cue:animate:brag.panel-right",
+    "cue:animate:brag.seam",
+    "cue:background",
+    "cue:match",
+    "cue:music",
+    "cue:sfx",
+    "motion-table:brag.combo 43ms"
+   ]
+  },
+  {
+   "atS": 232.7,
+   "gapMs": 147.3,
+   "phase": "brag/brag-intro",
+   "renderMs": 1736650,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.panel-left",
+    "cue:animate:brag.panel-right",
+    "cue:animate:brag.seam",
+    "cue:background",
+    "cue:match",
+    "cue:music",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 233.27,
+   "gapMs": 1151.3,
+   "phase": "brag/brag-intro",
+   "renderMs": 1618,
+   "coincident": []
+  },
+  {
+   "atS": 234.44,
+   "gapMs": 124.0,
+   "phase": "brag/brag-intro",
+   "renderMs": 1738373,
+   "coincident": []
+  },
+  {
+   "atS": 234.97,
+   "gapMs": 1168.3,
+   "phase": "brag/brag-intro",
+   "renderMs": 1694,
+   "coincident": [
+    "cue:animate:brag.vs",
+    "cue:eyes",
+    "cue:flash",
+    "cue:host",
+    "cue:host-hide",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:brag.fighter-left 80ms",
+    "motion-table:brag.fighter-right 28ms",
+    "motion-table:brag.panel-right 36ms",
+    "motion-table:brag.seam 43ms",
+    "photo-ready:"
+   ]
+  },
+  {
+   "atS": 236.15,
+   "gapMs": 1668.9,
+   "phase": "brag/brag-intro",
+   "renderMs": 1669,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:eyes:brag.fighter-left",
+    "cue:host-finish",
+    "cue:host-hide",
+    "cue:phase",
+    "cue:pop:brag.line-left",
+    "cue:sfx",
+    "motion-table:brag.vs 103ms",
+    "voice-complete:",
+    "voice-line:brag.intro"
+   ]
+  },
+  {
+   "atS": 237.84,
+   "gapMs": 148.6,
+   "phase": "brag/brag-lines",
+   "renderMs": 1741786,
+   "coincident": [
+    "photo-decoded:"
+   ]
+  },
+  {
+   "atS": 238.59,
+   "gapMs": 1051.3,
+   "phase": "brag/brag-lines",
+   "renderMs": 1928,
+   "coincident": [
+    "cue:animate:brag.fighter-right",
+    "cue:eyes:brag.fighter-right",
+    "cue:pop:brag.line-right",
+    "cue:sfx",
+    "motion-table:brag.fighter-left 42ms",
+    "native-load:audio-1 105ms",
+    "native-set-src:audio-1 107ms"
+   ]
+  },
+  {
+   "atS": 239.66,
+   "gapMs": 150.4,
+   "phase": "brag/brag-lines",
+   "renderMs": 1743611,
+   "coincident": []
+  },
+  {
+   "atS": 240.02,
+   "gapMs": 1067.9,
+   "phase": "brag/brag-lines",
+   "renderMs": 1430,
+   "coincident": [
+    "cue:animate:brag.line-left",
+    "cue:animate:brag.line-right",
+    "cue:animate:brag.tug",
+    "cue:count:brag",
+    "cue:phase",
+    "cue:sfx",
+    "motion-table:brag.line-right 50ms",
+    "native-load:audio-1 234ms",
+    "native-load:audio-1 238ms",
+    "native-load:audio-1 76ms",
+    "native-set-src:audio-1 235ms",
+    "native-set-src:audio-1 240ms",
+    "native-set-src:audio-1 77ms"
+   ]
+  },
+  {
+   "atS": 241.11,
+   "gapMs": 250.4,
+   "phase": "brag/brag-lines",
+   "renderMs": 1745160,
+   "coincident": [
+    "native-load:audio-1 76ms",
+    "native-set-src:audio-1 77ms"
+   ]
+  },
+  {
+   "atS": 241.53,
+   "gapMs": 1048.5,
+   "phase": "brag/brag-lines",
+   "renderMs": 1519,
+   "coincident": [
+    "cue:count:brag",
+    "cue:sfx",
+    "motion-table:brag.count 30ms",
+    "motion-table:brag.line-left 26ms",
+    "motion-table:brag.line-left 27ms",
+    "motion-table:brag.line-right 22ms",
+    "motion-table:brag.line-right 31ms"
+   ]
+  },
+  {
+   "atS": 242.59,
+   "gapMs": 216.7,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1746614,
+   "coincident": [
+    "cue:count:brag",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 242.96,
+   "gapMs": 1051.5,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1424,
+   "coincident": [
+    "cue:count:brag",
+    "cue:flash",
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:phase",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:brag.count 142ms",
+    "motion-table:brag.count 27ms",
+    "native-load:audio-1 92ms",
+    "native-set-src:audio-1 93ms"
+   ]
+  },
+  {
+   "atS": 244.03,
+   "gapMs": 100.6,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1747932,
+   "coincident": [
+    "motion-table:brag.count 27ms",
+    "native-load:audio-1 92ms",
+    "native-set-src:audio-1 93ms"
+   ]
+  },
+  {
+   "atS": 244.4,
+   "gapMs": 1066.6,
+   "phase": "brag/brag-countdown",
+   "renderMs": 1442,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 30ms",
+    "motion-table:brag.count 37ms",
+    "native-load:audio-1 80ms",
+    "native-set-src:audio-1 83ms"
+   ]
+  },
+  {
+   "atS": 245.48,
+   "gapMs": 136.6,
+   "phase": "brag/mash",
+   "renderMs": 1749416,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars"
+   ]
+  },
+  {
+   "atS": 245.9,
+   "gapMs": 1020.5,
+   "phase": "brag/mash",
+   "renderMs": 1494,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 57ms",
+    "native-load:audio-1 91ms",
+    "native-load:audio-3 140ms",
+    "native-set-src:audio-1 92ms",
+    "native-set-src:audio-3 141ms"
+   ]
+  },
+  {
+   "atS": 247.05,
+   "gapMs": 1335.3,
+   "phase": "brag/mash",
+   "renderMs": 1329,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.combo:p1 48ms",
+    "native-load:audio-1 188ms",
+    "native-load:audio-1 209ms",
+    "native-pause:audio-1 26ms",
+    "native-set-src:audio-1 190ms",
+    "native-set-src:audio-1 210ms"
+   ]
+  },
+  {
+   "atS": 248.4,
+   "gapMs": 115.3,
+   "phase": "brag/mash",
+   "renderMs": 1752311,
+   "coincident": [
+    "cue:mash-tap",
+    "cue:sfx",
+    "native-load:audio-1 135ms",
+    "native-set-src:audio-1 141ms"
+   ]
+  },
+  {
+   "atS": 248.93,
+   "gapMs": 901.3,
+   "phase": "brag/mash",
+   "renderMs": 1543,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars",
+    "native-load:audio-3 177ms",
+    "native-set-src:audio-3 185ms",
+    "particle-frame: 27ms",
+    "particle-frame: 28ms"
+   ]
+  },
+  {
+   "atS": 249.85,
+   "gapMs": 146.3,
+   "phase": "brag/mash",
+   "renderMs": 1753801,
+   "coincident": [
+    "native-load:audio-1 746ms",
+    "native-set-src:audio-1 746ms"
+   ]
+  },
+  {
+   "atS": 250.2,
+   "gapMs": 1084.9,
+   "phase": "brag/mash",
+   "renderMs": 1268,
+   "coincident": [
+    "cue:animate:brag.combo",
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.sweep",
+    "cue:animate:brag.tug",
+    "cue:animate:brag.vs",
+    "cue:flash",
+    "cue:host-react",
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:phase",
+    "cue:punch",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 251.31,
+   "gapMs": 148.1,
+   "phase": "brag/knockout",
+   "renderMs": 1755260,
+   "coincident": [
+    "native-load:audio-1 82ms",
+    "native-load:audio-3 206ms",
+    "native-set-src:audio-1 83ms",
+    "native-set-src:audio-3 208ms"
+   ]
+  },
+  {
+   "atS": 251.74,
+   "gapMs": 1001.4,
+   "phase": "brag/knockout",
+   "renderMs": 1521,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes:brag.fighter-left",
+    "cue:fly-points",
+    "cue:sfx",
+    "cue:slam:brag.ko",
+    "motion-table:brag.combo 31ms",
+    "motion-table:brag.combo:p1 200ms",
+    "motion-table:brag.fighter-left 73ms",
+    "motion-table:brag.fighter-right 21ms",
+    "motion-table:brag.sweep 20ms",
+    "motion-table:brag.sweep 24ms",
+    "motion-table:brag.tug 34ms",
+    "motion-table:brag.vs 48ms",
+    "native-load:audio-3 206ms"
+   ]
+  },
+  {
+   "atS": 252.75,
+   "gapMs": 190.3,
+   "phase": "brag/knockout",
+   "renderMs": 1756731,
+   "coincident": [
+    "motion-table:brag.combo 31ms",
+    "motion-table:brag.combo:p1 200ms",
+    "motion-table:brag.tug 34ms"
+   ]
+  },
+  {
+   "atS": 253.17,
+   "gapMs": 1051.4,
+   "phase": "brag/knockout",
+   "renderMs": 1424,
+   "coincident": [
+    "cue:host",
+    "motion-table:host 27ms",
+    "native-load:audio-1 91ms",
+    "native-load:audio-3 144ms",
+    "native-load:audio-4 132ms",
+    "native-load:audio-5 177ms",
+    "native-set-src:audio-1 92ms",
+    "native-set-src:audio-3 145ms",
+    "native-set-src:audio-4 133ms",
+    "native-set-src:audio-5 177ms",
+    "particle-frame: 21ms"
+   ]
+  },
+  {
+   "atS": 254.24,
+   "gapMs": 114.2,
+   "phase": "brag/knockout",
+   "renderMs": 1758150,
+   "coincident": [
+    "cue:host",
+    "native-load:audio-5 177ms",
+    "native-set-src:audio-5 177ms",
+    "particle-frame: 21ms"
+   ]
+  },
+  {
+   "atS": 254.61,
+   "gapMs": 1067.9,
+   "phase": "brag/knockout",
+   "renderMs": 1430,
+   "coincident": [
+    "cue:animate:chip:p1",
+    "cue:phase",
+    "cue:ring",
+    "cue:scene",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "motion-table:brag.ko 29ms",
+    "voice-complete:",
+    "voice-line:brag.winner"
+   ]
+  },
+  {
+   "atS": 255.69,
+   "gapMs": 115.9,
+   "phase": "brag/standings",
+   "renderMs": 1759620,
+   "coincident": []
+  },
+  {
+   "atS": 256.11,
+   "gapMs": 1068.4,
+   "phase": "brag/standings",
+   "renderMs": 1508,
+   "coincident": [
+    "cue:host-finish",
+    "native-load:audio-1 278ms",
+    "native-load:audio-3 105ms",
+    "native-load:audio-4 109ms",
+    "native-load:audio-5 111ms",
+    "native-set-src:audio-1 279ms",
+    "native-set-src:audio-3 105ms",
+    "native-set-src:audio-4 109ms",
+    "native-set-src:audio-5 122ms"
+   ]
+  },
+  {
+   "atS": 257.19,
+   "gapMs": 100.0,
+   "phase": "brag/standings",
+   "renderMs": 1761092,
+   "coincident": []
+  },
+  {
+   "atS": 257.57,
+   "gapMs": 1352.6,
+   "phase": "stand/standings",
+   "renderMs": 1810,
+   "coincident": [
+    "cue:animate:lane:cp",
+    "cue:animate:lane:gr",
+    "cue:animate:lane:jd",
+    "cue:animate:lane:p1",
+    "cue:background",
+    "cue:music",
+    "cue:pop:stand.kicker",
+    "cue:slam:stand.title",
+    "graphics-cache:stand",
+    "motion-table:stand.title 42ms",
+    "native-load:audio-1 106ms",
+    "native-set-src:audio-1 107ms"
+   ]
+  },
+  {
+   "atS": 259.39,
+   "gapMs": 1067.8,
+   "phase": "stand/standings",
+   "renderMs": 1460,
+   "coincident": [
+    "cue:animate:lane-badge:jd",
+    "cue:animate:lane-badge:p1",
+    "cue:animate:lane-delta:jd",
+    "cue:animate:lane-delta:p1",
+    "cue:animate:lane-fill:cp",
+    "cue:animate:lane-fill:gr",
+    "cue:animate:lane-fill:jd",
+    "cue:animate:lane-fill:p1",
+    "cue:animate:lane-rider:cp",
+    "cue:animate:lane-rider:gr",
+    "cue:animate:lane-rider:jd",
+    "cue:animate:lane-rider:p1",
+    "cue:host-hide",
+    "cue:roll:lane-score:cp"
+   ]
+  },
+  {
+   "atS": 260.48,
+   "gapMs": 133.7,
+   "phase": "stand/standings",
+   "renderMs": 1764414,
+   "coincident": []
+  },
+  {
+   "atS": 260.96,
+   "gapMs": 1018.2,
+   "phase": "stand/standings",
+   "renderMs": 1576,
+   "coincident": [
+    "native-addSourceBuffer:speech-13 85ms",
+    "native-load:audio-1 271ms",
+    "native-load:audio-12 46ms",
+    "native-load:audio-23 114ms",
+    "native-set-src:audio-1 272ms",
+    "native-set-src:audio-12 49ms",
+    "native-set-src:audio-23 208ms",
+    "native-set-srcObject:audio-23 208ms"
+   ]
+  },
+  {
+   "atS": 262.0,
+   "gapMs": 149.4,
+   "phase": "stand/standings",
+   "renderMs": 1765950,
+   "coincident": []
+  },
+  {
+   "atS": 262.4,
+   "gapMs": 1062.7,
+   "phase": "stand/standings",
+   "renderMs": 1421,
+   "coincident": [
+    "motion-table:lane-badge:p1 38ms",
+    "motion-table:lane-delta:p1 25ms",
+    "motion-table:lane-fill:gr 32ms",
+    "motion-table:lane-fill:p1 58ms",
+    "motion-table:lane-rider:gr 51ms",
+    "motion-table:lane-rider:p1 29ms"
+   ]
+  },
+  {
+   "atS": 263.46,
+   "gapMs": 217.1,
+   "phase": "stand/standings",
+   "renderMs": 1767477,
+   "coincident": [
+    "motion-table:lane-fill:gr 32ms",
+    "motion-table:lane-rider:gr 51ms"
+   ]
+  },
+  {
+   "atS": 263.83,
+   "gapMs": 1017.8,
+   "phase": "stand/standings",
+   "renderMs": 1428,
+   "coincident": [
+    "cue:animate:lane:cp",
+    "cue:animate:lane:gr",
+    "cue:animate:lane:jd",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:slam:overtake:jd"
+   ]
+  },
+  {
+   "atS": 264.87,
+   "gapMs": 165.0,
+   "phase": null,
+   "renderMs": 1768829,
+   "coincident": []
+  },
+  {
+   "atS": 265.27,
+   "gapMs": 1101.8,
+   "phase": null,
+   "renderMs": 1447,
+   "coincident": [
+    "cue:confetti",
+    "cue:host",
+    "cue:host-finish",
+    "cue:sfx",
+    "native-load:audio-1 84ms",
+    "native-load:audio-3 175ms",
+    "native-load:audio-4 126ms",
+    "native-set-src:audio-1 86ms",
+    "native-set-src:audio-3 176ms",
+    "native-set-src:audio-4 126ms"
+   ]
+  },
+  {
+   "atS": 266.39,
+   "gapMs": 178.0,
+   "phase": "stand/standings",
+   "renderMs": 1770374,
+   "coincident": [
+    "cue:host-finish",
+    "native-load:audio-3 175ms",
+    "native-load:audio-4 126ms",
+    "native-set-src:audio-3 176ms",
+    "native-set-src:audio-4 126ms",
+    "native-set-volume:audio-23 100ms",
+    "voice-duck:",
+    "voice-line:stand.leader"
+   ]
+  },
+  {
+   "atS": 266.87,
+   "gapMs": 1034.5,
+   "phase": "stand/standings",
+   "renderMs": 1581,
+   "coincident": [
+    "cue:background",
+    "cue:music",
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "motion-table:lane:cp 32ms",
+    "motion-table:lane:jd 25ms",
+    "motion-table:overtake:jd 62ms",
+    "voice-complete:",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 267.92,
+   "gapMs": 116.7,
+   "phase": "stand/standings",
+   "renderMs": 1771850,
+   "coincident": []
+  },
+  {
+   "atS": 268.09,
+   "gapMs": 1318.5,
+   "phase": "stand/standings",
+   "renderMs": 1478,
+   "coincident": [
+    "native-load:audio-1 115ms",
+    "native-load:audio-1 178ms",
+    "native-set-src:audio-1 115ms",
+    "native-set-src:audio-1 180ms"
+   ]
+  },
+  {
+   "atS": 269.42,
+   "gapMs": 116.3,
+   "phase": "stand/title",
+   "renderMs": 1773326,
+   "coincident": []
+  },
+  {
+   "atS": 270.02,
+   "gapMs": 885.2,
+   "phase": "intro/title",
+   "renderMs": 1682,
+   "coincident": [
+    "cue:confetti",
+    "cue:pop:intro.kicker",
+    "cue:punch",
+    "cue:slam:intro.title",
+    "motion-table:wipe 176ms",
+    "native-load:audio-11 67ms",
+    "native-set-src:audio-11 67ms"
+   ]
+  },
+  {
+   "atS": 270.92,
+   "gapMs": 216.6,
+   "phase": "intro/title",
+   "renderMs": 1774943,
+   "coincident": [
+    "native-load:audio-11 67ms",
+    "native-set-src:audio-11 67ms"
+   ]
+  },
+  {
+   "atS": 271.52,
+   "gapMs": 869.1,
+   "phase": "intro/title",
+   "renderMs": 1490,
+   "coincident": [
+    "cue:host",
+    "cue:pop:intro.sub",
+    "motion-table:intro.kicker 32ms",
+    "motion-table:intro.title 40ms",
+    "native-addSourceBuffer:speech-14 98ms",
+    "native-appendBuffer:speech-14 30ms",
+    "native-load:audio-24 51ms",
+    "native-set-src:audio-24 190ms",
+    "native-set-srcObject:audio-24 186ms",
+    "particle-frame: 25ms"
+   ]
+  },
+  {
+   "atS": 272.41,
+   "gapMs": 181.2,
+   "phase": "intro/title",
+   "renderMs": 1776392,
+   "coincident": [
+    "motion-table:intro.kicker 32ms",
+    "motion-table:intro.title 40ms"
+   ]
+  },
+  {
+   "atS": 272.86,
+   "gapMs": 1017.9,
+   "phase": "intro/title",
+   "renderMs": 1329,
+   "coincident": [
+    "graphics-cache:intro",
+    "native-addSourceBuffer:speech-15 49ms",
+    "native-endOfStream:speech-14 25ms",
+    "native-load:audio-25 50ms",
+    "native-set-src:audio-25 118ms",
+    "native-set-srcObject:audio-25 113ms",
+    "native-set-volume:audio-11 24ms",
+    "voice-duck:",
+    "voice-line:intro.title",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 273.89,
+   "gapMs": 119.1,
+   "phase": "intro/title",
+   "renderMs": 1777814,
+   "coincident": [
+    "native-addSourceBuffer:speech-15 49ms",
+    "native-load:audio-25 50ms",
+    "native-set-src:audio-25 118ms",
+    "native-set-srcObject:audio-25 113ms",
+    "particle-frame: 158ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 274.91,
+   "gapMs": 517.7,
+   "phase": "intro/title",
+   "renderMs": 2058,
+   "coincident": [
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 275.74,
+   "gapMs": 1088.9,
+   "phase": "intro/title",
+   "renderMs": 822,
+   "coincident": [
+    "particle-frame: 21ms",
+    "particle-frame: 55ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 276.84,
+   "gapMs": 116.1,
+   "phase": "intro/title",
+   "renderMs": 1780777,
+   "coincident": []
+  },
+  {
+   "atS": 277.58,
+   "gapMs": 1101.2,
+   "phase": "intro/title",
+   "renderMs": 1730,
+   "coincident": [
+    "native-get-currentTime:audio-24 25ms",
+    "particle-frame: 26ms",
+    "particle-frame: 45ms",
+    "particle-frame: 50ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 278.7,
+   "gapMs": 350.9,
+   "phase": "intro/title",
+   "renderMs": 1782845,
+   "coincident": [
+    "particle-frame: 45ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 279.1,
+   "gapMs": 1117.3,
+   "phase": "intro/title",
+   "renderMs": 1507,
+   "coincident": [
+    "cue:host-finish",
+    "particle-frame: 28ms",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 280.23,
+   "gapMs": 117.0,
+   "phase": "intro/title",
+   "renderMs": 1784146,
+   "coincident": []
+  },
+  {
+   "atS": 280.66,
+   "gapMs": 1136.6,
+   "phase": "intro/title",
+   "renderMs": 1551,
+   "coincident": [
+    "cue:animate:intro.bulbs",
+    "cue:animate:intro.kicker",
+    "cue:animate:intro.sub",
+    "cue:animate:intro.title",
+    "cue:phase",
+    "cue:pop:intro.arrow-left",
+    "cue:pop:intro.arrow-right",
+    "cue:pop:intro.reel",
+    "cue:reel",
+    "cue:sfx",
+    "motion-table:intro.kicker 97ms",
+    "motion-table:intro.sub 60ms",
+    "motion-table:intro.title 39ms",
+    "native-load:audio-1 119ms"
+   ]
+  },
+  {
+   "atS": 281.82,
+   "gapMs": 118.0,
+   "phase": "intro/title",
+   "renderMs": 1785731,
+   "coincident": [
+    "motion-table:intro.kicker 163ms",
+    "motion-table:intro.title 26ms",
+    "native-load:audio-1 119ms",
+    "native-load:audio-3 105ms",
+    "native-set-src:audio-1 119ms",
+    "native-set-src:audio-3 106ms"
+   ]
+  },
+  {
+   "atS": 282.33,
+   "gapMs": 1134.9,
+   "phase": "intro/title",
+   "renderMs": 1640,
+   "coincident": [
+    "motion-table:intro.arrow-left 24ms",
+    "motion-table:intro.arrow-right 33ms",
+    "motion-table:intro.bulbs 37ms"
+   ]
+  },
+  {
+   "atS": 283.48,
+   "gapMs": 149.9,
+   "phase": "intro/title",
+   "renderMs": 1787440,
+   "coincident": [
+    "cue:host-hide"
+   ]
+  },
+  {
+   "atS": 283.9,
+   "gapMs": 1101.1,
+   "phase": "intro/reel",
+   "renderMs": 1545,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes",
+    "cue:flash",
+    "cue:host",
+    "cue:host-hide",
+    "cue:host-react",
+    "cue:phase",
+    "cue:punch",
+    "cue:sfx",
+    "cue:shake",
+    "native-set-volume:audio-25 20ms",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 285.02,
+   "gapMs": 149.2,
+   "phase": "intro/reel",
+   "renderMs": 1788967,
+   "coincident": [
+    "native-set-volume:audio-25 20ms",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 285.4,
+   "gapMs": 1118.3,
+   "phase": "intro/reel",
+   "renderMs": 1512,
+   "coincident": [
+    "motion-table:host 36ms",
+    "native-load:audio-1 132ms",
+    "native-set-src:audio-1 133ms",
+    "particle-frame: 31ms",
+    "voice-line:intro.reel-land",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 286.54,
+   "gapMs": 116.6,
+   "phase": "intro/reel",
+   "renderMs": 1790454,
+   "coincident": [
+    "native-load:audio-1 132ms",
+    "native-set-src:audio-1 133ms",
+    "particle-frame: 31ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 286.99,
+   "gapMs": 1052.5,
+   "phase": "intro/reel",
+   "renderMs": 1576,
+   "coincident": [
+    "native-addSourceBuffer:speech-16 303ms",
+    "native-load:audio-26 82ms",
+    "native-set-src:audio-26 391ms",
+    "native-set-srcObject:audio-26 390ms",
+    "particle-frame: 26ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 288.06,
+   "gapMs": 249.9,
+   "phase": "intro/reel",
+   "renderMs": 1792118,
+   "coincident": [
+    "particle-frame: 47ms",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 288.56,
+   "gapMs": 1067.8,
+   "phase": "intro/reel",
+   "renderMs": 1501,
+   "coincident": [
+    "particle-frame: 22ms",
+    "particle-frame: 23ms",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 289.64,
+   "gapMs": 170.2,
+   "phase": "intro/reel",
+   "renderMs": 1793599,
+   "coincident": [
+    "particle-frame: 21ms"
+   ]
+  },
+  {
+   "atS": 290.27,
+   "gapMs": 259.0,
+   "phase": "intro/reel",
+   "renderMs": 1794183,
+   "coincident": [
+    "cue:host-finish",
+    "particle-frame: 156ms"
+   ]
+  },
+  {
+   "atS": 290.53,
+   "gapMs": 625.6,
+   "phase": "intro/reel",
+   "renderMs": 1820,
+   "coincident": [
+    "cue:host-finish",
+    "particle-frame: 156ms"
+   ]
+  },
+  {
+   "atS": 291.84,
+   "gapMs": 1184.7,
+   "phase": "intro/reel",
+   "renderMs": 1451,
+   "coincident": [
+    "motion-table:intro.arrow-left 52ms",
+    "motion-table:intro.arrow-right 61ms",
+    "motion-table:intro.bulbs 50ms",
+    "motion-table:intro.count 45ms",
+    "motion-table:intro.reel 68ms"
+   ]
+  },
+  {
+   "atS": 293.04,
+   "gapMs": 119.7,
+   "phase": "intro/reel",
+   "renderMs": 1796952,
+   "coincident": [
+    "native-load:audio-1 205ms",
+    "native-set-src:audio-1 205ms"
+   ]
+  },
+  {
+   "atS": 293.59,
+   "gapMs": 1101.6,
+   "phase": "intro/reel",
+   "renderMs": 1714,
+   "coincident": [
+    "cue:count:intro",
+    "cue:host-hide",
+    "cue:sfx",
+    "motion-table:intro.arrow-left 55ms",
+    "motion-table:intro.arrow-right 54ms",
+    "motion-table:intro.reel 38ms"
+   ]
+  },
+  {
+   "atS": 294.71,
+   "gapMs": 183.7,
+   "phase": "intro/countdown",
+   "renderMs": 1798699,
+   "coincident": [
+    "motion-table:intro.arrow-left 55ms",
+    "motion-table:intro.arrow-right 54ms",
+    "motion-table:intro.bulbs 191ms"
+   ]
+  },
+  {
+   "atS": 295.2,
+   "gapMs": 1185.2,
+   "phase": "intro/countdown",
+   "renderMs": 1559,
+   "coincident": [
+    "cue:count:intro",
+    "cue:sfx",
+    "motion-table:intro.count 136ms",
+    "motion-table:intro.count 52ms",
+    "native-play:audio-11 31ms"
+   ]
+  },
+  {
+   "atS": 296.4,
+   "gapMs": 133.4,
+   "phase": "intro/countdown",
+   "renderMs": 1800327,
+   "coincident": [
+    "motion-table:intro.count 52ms"
+   ]
+  },
+  {
+   "atS": 297.03,
+   "gapMs": 1218.7,
+   "phase": "intro/countdown",
+   "renderMs": 1828,
+   "coincident": [
+    "cue:confetti",
+    "cue:count:intro",
+    "cue:flash",
+    "cue:sfx",
+    "cue:shake",
+    "native-load:audio-1 176ms",
+    "native-load:audio-3 134ms",
+    "native-set-src:audio-1 178ms",
+    "native-set-src:audio-3 135ms",
+    "particle-frame: 25ms",
+    "particle-frame: 54ms"
+   ]
+  },
+  {
+   "atS": 298.31,
+   "gapMs": 119.1,
+   "phase": "intro/countdown",
+   "renderMs": 1802236,
+   "coincident": []
+  },
+  {
+   "atS": 298.83,
+   "gapMs": 1118.5,
+   "phase": "intro/countdown",
+   "renderMs": 1782,
+   "coincident": [
+    "cue:scene",
+    "cue:sfx",
+    "motion-table:intro.count 236ms",
+    "native-load:audio-1 100ms",
+    "native-set-src:audio-1 102ms",
+    "particle-frame: 27ms"
+   ]
+  },
+  {
+   "atS": 299.97,
+   "gapMs": 1768.5,
+   "phase": "intro/countdown",
+   "renderMs": 1658,
+   "coincident": [
+    "cue:background",
+    "cue:music",
+    "cue:phase",
+    "motion-table:intro.count 32ms",
+    "motion-table:wipe 60ms",
+    "native-load:audio-1 100ms",
+    "native-set-src:audio-1 102ms"
+   ]
+  },
+  {
+   "atS": 302.24,
+   "gapMs": 1167.4,
+   "phase": "hunt/countdown",
+   "renderMs": 1733,
+   "coincident": [
+    "camera-target:",
+    "cue:feed",
+    "feed-base64: 28ms",
+    "graphics-cache:hunt"
+   ]
+  },
+  {
+   "atS": 303.42,
+   "gapMs": 147.6,
+   "phase": "hunt/hunt",
+   "renderMs": 1807375,
+   "coincident": [
+    "camera-target:",
+    "cue:feed"
+   ]
+  },
+  {
+   "atS": 303.91,
+   "gapMs": 1101.9,
+   "phase": "hunt/hunt",
+   "renderMs": 1680,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:sticker-flight",
+    "native-load:audio-12 258ms",
+    "native-set-src:audio-12 259ms"
+   ]
+  },
+  {
+   "atS": 305.02,
+   "gapMs": 117.8,
+   "phase": "hunt/hunt",
+   "renderMs": 1808943,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:sticker-flight"
+   ]
+  },
+  {
+   "atS": 305.81,
+   "gapMs": 1168.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1901,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:feed-flash:p1",
+    "cue:animate:snag-burst:p1",
+    "cue:confetti",
+    "cue:feed",
+    "cue:sfx",
+    "cue:slam:ready:p1",
+    "cue:slam:slot-card:p1",
+    "cue:sticker-flight",
+    "motion-table:slot-card:p1 30ms",
+    "native-load:audio-1 123ms",
+    "native-load:audio-3 96ms",
+    "native-set-src:audio-1 124ms",
+    "native-set-src:audio-3 97ms"
+   ]
+  },
+  {
+   "atS": 306.99,
+   "gapMs": 148.1,
+   "phase": "hunt/hunt",
+   "renderMs": 1810941,
+   "coincident": [
+    "motion-table:slot-card:p1 30ms"
+   ]
+  },
+  {
+   "atS": 307.63,
+   "gapMs": 1174.9,
+   "phase": "hunt/hunt",
+   "renderMs": 1779,
+   "coincident": [
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 308.81,
+   "gapMs": 149.9,
+   "phase": "hunt/hunt",
+   "renderMs": 1812758,
+   "coincident": []
+  },
+  {
+   "atS": 309.33,
+   "gapMs": 1201.2,
+   "phase": "hunt/hunt",
+   "renderMs": 1693,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:feed-flash:jd",
+    "cue:animate:snag-burst:jd",
+    "cue:confetti",
+    "cue:feed",
+    "cue:slam:slot-card:jd",
+    "motion-table:host 33ms",
+    "motion-table:ready:p1 31ms",
+    "native-load:audio-1 147ms",
+    "native-set-src:audio-1 148ms"
+   ]
+  },
+  {
+   "atS": 310.55,
+   "gapMs": 109.9,
+   "phase": "hunt/hunt",
+   "renderMs": 1814461,
+   "coincident": [
+    "motion-table:host 33ms"
+   ]
+  },
+  {
+   "atS": 310.84,
+   "gapMs": 1447.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1687,
+   "coincident": [
+    "camera-target:",
+    "motion-table:slot-card:jd 21ms",
+    "motion-table:snag-burst:jd 27ms",
+    "native-load:audio-1 153ms",
+    "native-set-src:audio-1 157ms"
+   ]
+  },
+  {
+   "atS": 312.3,
+   "gapMs": 248.9,
+   "phase": "hunt/hunt",
+   "renderMs": 1816329,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 312.85,
+   "gapMs": 1151.4,
+   "phase": "hunt/hunt",
+   "renderMs": 1827,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 314.02,
+   "gapMs": 183.5,
+   "phase": "hunt/hunt",
+   "renderMs": 1818013,
+   "coincident": []
+  },
+  {
+   "atS": 314.48,
+   "gapMs": 1167.9,
+   "phase": "hunt/hunt",
+   "renderMs": 1623,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 146ms"
+   ]
+  },
+  {
+   "atS": 315.67,
+   "gapMs": 133.4,
+   "phase": "hunt/hunt",
+   "renderMs": 1819607,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 25ms"
+   ]
+  },
+  {
+   "atS": 316.12,
+   "gapMs": 1201.6,
+   "phase": "hunt/hunt",
+   "renderMs": 1663,
+   "coincident": [
+    "camera-target:",
+    "particle-frame: 21ms"
+   ]
+  },
+  {
+   "atS": 317.34,
+   "gapMs": 133.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1821276,
+   "coincident": []
+  },
+  {
+   "atS": 318.13,
+   "gapMs": 1177.5,
+   "phase": "hunt/hunt",
+   "renderMs": 1939,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:feed-flash:gr",
+    "cue:animate:snag-burst:gr",
+    "cue:confetti",
+    "cue:feed",
+    "cue:find",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:slam:slot-card:gr",
+    "motion-table:host 34ms",
+    "particle-frame: 133ms"
+   ]
+  },
+  {
+   "atS": 319.32,
+   "gapMs": 116.1,
+   "phase": "hunt/hunt",
+   "renderMs": 1823241,
+   "coincident": []
+  },
+  {
+   "atS": 320.15,
+   "gapMs": 1185.4,
+   "phase": "hunt/hunt",
+   "renderMs": 2046,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 321.36,
+   "gapMs": 1936.4,
+   "phase": "hunt/hunt",
+   "renderMs": 1878,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 323.31,
+   "gapMs": 283.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1827393,
+   "coincident": [
+    "camera-target:"
+   ]
+  },
+  {
+   "atS": 323.86,
+   "gapMs": 1150.8,
+   "phase": "hunt/hunt",
+   "renderMs": 1814,
+   "coincident": [
+    "camera-target:",
+    "cue:feed",
+    "cue:find"
+   ]
+  },
+  {
+   "atS": 325.03,
+   "gapMs": 133.4,
+   "phase": "hunt/hunt",
+   "renderMs": 1828968,
+   "coincident": [
+    "cue:feed",
+    "cue:find"
+   ]
+  },
+  {
+   "atS": 325.59,
+   "gapMs": 1252.0,
+   "phase": "hunt/hunt",
+   "renderMs": 1745,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:feed-flash:cp",
+    "cue:animate:snag-burst:cp",
+    "cue:background",
+    "cue:confetti",
+    "cue:feed",
+    "cue:host-react",
+    "cue:music",
+    "cue:phase",
+    "cue:sfx",
+    "cue:slam:hunt.time",
+    "cue:slam:slot-card:cp",
+    "motion-table:feed-flash:cp 65ms"
+   ]
+  },
+  {
+   "atS": 326.86,
+   "gapMs": 471.3,
+   "phase": "hunt/hunt",
+   "renderMs": 1831100,
+   "coincident": [
+    "camera-target:",
+    "cue:animate:snag-burst:cp",
+    "cue:background",
+    "cue:confetti",
+    "cue:feed",
+    "cue:host-react",
+    "cue:music",
+    "cue:phase",
+    "cue:sfx",
+    "cue:slam:hunt.time",
+    "cue:slam:slot-card:cp"
+   ]
+  },
+  {
+   "atS": 327.8,
+   "gapMs": 1201.7,
+   "phase": "hunt/hunt",
+   "renderMs": 2185,
+   "coincident": [
+    "cue:animate:hunt.time",
+    "cue:feed",
+    "cue:phase",
+    "motion-table:hunt.time 54ms",
+    "motion-table:slot-card:cp 84ms",
+    "motion-table:snag-burst:cp 132ms"
+   ]
+  },
+  {
+   "atS": 329.02,
+   "gapMs": 318.0,
+   "phase": "hunt/glow",
+   "renderMs": 1833123,
+   "coincident": [
+    "cue:animate:hunt.time",
+    "cue:feed",
+    "cue:phase"
+   ]
+  },
+  {
+   "atS": 330.22,
+   "gapMs": 970.3,
+   "phase": "hunt/glow",
+   "renderMs": 2354,
+   "coincident": [
+    "cue:feed",
+    "cue:host",
+    "cue:sfx",
+    "cue:slam:ready:cp",
+    "cue:slam:ready:gr",
+    "cue:slam:ready:jd",
+    "native-load:audio-1 114ms",
+    "native-set-src:audio-1 115ms"
+   ]
+  },
+  {
+   "atS": 331.2,
+   "gapMs": 116.4,
+   "phase": "hunt/glow",
+   "renderMs": 1835117,
+   "coincident": []
+  },
+  {
+   "atS": 331.78,
+   "gapMs": 1258.7,
+   "phase": "hunt/glow",
+   "renderMs": 1573,
+   "coincident": [
+    "cue:host-finish",
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "motion-table:hunt.time 26ms",
+    "motion-table:hunt.time 43ms",
+    "motion-table:ready:cp 104ms",
+    "motion-table:ready:gr 46ms",
+    "motion-table:ready:jd 49ms",
+    "native-get-currentTime:audio-26 24ms",
+    "particle-frame: 25ms",
+    "particle-frame: 52ms",
+    "voice-complete:",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 333.05,
+   "gapMs": 1818.4,
+   "phase": "hunt/glow",
+   "renderMs": 1819,
+   "coincident": [
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "native-addSourceBuffer:speech-17 150ms",
+    "native-get-currentTime:audio-26 24ms",
+    "native-load:audio-1 337ms",
+    "native-load:audio-27 195ms",
+    "native-set-src:audio-1 338ms",
+    "native-set-src:audio-27 382ms",
+    "native-set-srcObject:audio-27 370ms",
+    "particle-frame: 25ms",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-line:hunt.glow-up"
+   ]
+  },
+  {
+   "atS": 334.89,
+   "gapMs": 216.5,
+   "phase": "hunt/runway",
+   "renderMs": 1838906,
+   "coincident": [
+    "motion-table:wipe 20ms"
+   ]
+  },
+  {
+   "atS": 335.55,
+   "gapMs": 1150.9,
+   "phase": "show/runway",
+   "renderMs": 1883,
+   "coincident": [
+    "background-render:",
+    "cue:animate:show-find:p1",
+    "cue:animate:show-spot:p1",
+    "cue:background",
+    "cue:eyes:show-find:p1",
+    "cue:host",
+    "cue:host-hide",
+    "cue:music",
+    "cue:reaction",
+    "cue:ring",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:wipe 24ms",
+    "native-load:audio-1 96ms"
+   ]
+  },
+  {
+   "atS": 336.7,
+   "gapMs": 1835.8,
+   "phase": "show/runway",
+   "renderMs": 1608,
+   "coincident": [
+    "background-render:",
+    "cue:animate:show-find:cp",
+    "cue:animate:show-spot:cp",
+    "cue:animate:show-spot:p1",
+    "cue:eyes:show-find:p1",
+    "cue:reaction",
+    "cue:ring",
+    "cue:sfx",
+    "cue:shake",
+    "graphics-cache:show",
+    "motion-table:show-spot:p1 27ms",
+    "native-load:audio-1 96ms",
+    "native-set-src:audio-1 96ms",
+    "native-set-src:stage-video 279ms"
+   ]
+  },
+  {
+   "atS": 338.57,
+   "gapMs": 149.8,
+   "phase": "show/runway",
+   "renderMs": 1842522,
+   "coincident": [
+    "cue:animate:show-find:cp",
+    "cue:animate:show-spot:cp",
+    "cue:animate:show-spot:p1",
+    "cue:sfx",
+    "graphics-cache:show",
+    "stage-video:playing",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 339.67,
+   "gapMs": 1333.5,
+   "phase": "show/runway",
+   "renderMs": 2412,
+   "coincident": []
+  },
+  {
+   "atS": 341.01,
+   "gapMs": 180.5,
+   "phase": "show/runway",
+   "renderMs": 1844990,
+   "coincident": []
+  },
+  {
+   "atS": 341.42,
+   "gapMs": 116.6,
+   "phase": "show/runway",
+   "renderMs": 1845183,
+   "coincident": []
+  },
+  {
+   "atS": 342.98,
+   "gapMs": 1028.0,
+   "phase": "show/runway",
+   "renderMs": 3297,
+   "coincident": [
+    "cue:animate:show-find:jd",
+    "cue:animate:show-spot:cp",
+    "cue:animate:show-spot:jd",
+    "cue:eyes:show-find:cp",
+    "cue:ring",
+    "cue:sfx",
+    "cue:shake",
+    "native-deinitialize:audio-27 24ms",
+    "photo-ready:",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 344.03,
+   "gapMs": 568.5,
+   "phase": "show/runway",
+   "renderMs": 1848389,
+   "coincident": [
+    "cue:animate:show-find:jd",
+    "cue:animate:show-spot:cp",
+    "cue:animate:show-spot:jd",
+    "cue:eyes:show-find:cp",
+    "cue:ring",
+    "cue:sfx",
+    "cue:shake",
+    "native-deinitialize:audio-27 24ms",
+    "photo-decoded:",
+    "photo-ready:",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 344.9,
+   "gapMs": 184.3,
+   "phase": "show/runway",
+   "renderMs": 1848872,
+   "coincident": []
+  },
+  {
+   "atS": 345.63,
+   "gapMs": 166.3,
+   "phase": "show/runway",
+   "renderMs": 1849596,
+   "coincident": []
+  },
+  {
+   "atS": 345.81,
+   "gapMs": 200.5,
+   "phase": "show/runway",
+   "renderMs": 1849826,
+   "coincident": []
+  },
+  {
+   "atS": 346.26,
+   "gapMs": 801.0,
+   "phase": "show/runway",
+   "renderMs": 3280,
+   "coincident": [
+    "cue:animate:show-find:gr",
+    "cue:animate:show-spot:gr",
+    "cue:animate:show-spot:jd",
+    "cue:eyes:show-find:jd",
+    "cue:host-finish",
+    "cue:ring",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:show-spot:cp 39ms",
+    "native-load:audio-1 100ms",
+    "native-set-src:audio-1 101ms"
+   ]
+  },
+  {
+   "atS": 347.08,
+   "gapMs": 2423.4,
+   "phase": "show/runway",
+   "renderMs": 2359,
+   "coincident": [
+    "cue:animate:show-find:gr",
+    "cue:animate:show-spot:gr",
+    "cue:animate:show-spot:jd",
+    "cue:eyes:show-find:jd",
+    "cue:host-finish",
+    "cue:ring",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:show-find:jd 109ms",
+    "motion-table:show-spot:cp 37ms",
+    "motion-table:show-spot:jd 72ms",
+    "motion-table:show-spot:p1 43ms",
+    "native-load:audio-1 100ms",
+    "native-load:audio-3 152ms"
+   ]
+  },
+  {
+   "atS": 350.1,
+   "gapMs": 1309.4,
+   "phase": null,
+   "renderMs": 1475,
+   "coincident": [
+    "cue:animate:show-spot:gr",
+    "cue:background",
+    "cue:eyes:show-find:gr",
+    "cue:host-hide",
+    "cue:music",
+    "cue:phase",
+    "cue:pop:show.vote-timer",
+    "cue:reaction",
+    "cue:ring",
+    "cue:sfx",
+    "cue:shake",
+    "motion-table:show-find:gr 65ms",
+    "motion-table:show-spot:gr 112ms",
+    "motion-table:show-spot:jd 88ms"
+   ]
+  },
+  {
+   "atS": 351.42,
+   "gapMs": 200.2,
+   "phase": "show/vote",
+   "renderMs": 1855426,
+   "coincident": []
+  },
+  {
+   "atS": 351.62,
+   "gapMs": 116.8,
+   "phase": "show/vote",
+   "renderMs": 1855548,
+   "coincident": []
+  },
+  {
+   "atS": 352.37,
+   "gapMs": 1052.1,
+   "phase": "show/vote",
+   "renderMs": 2245,
+   "coincident": [
+    "cue:reaction",
+    "motion-table:show-spot:gr 94ms",
+    "native-load:audio-12 312ms",
+    "native-set-src:audio-12 313ms"
+   ]
+  },
+  {
+   "atS": 353.44,
+   "gapMs": 117.0,
+   "phase": "show/vote",
+   "renderMs": 1857356,
+   "coincident": [
+    "motion-table:show-spot:gr 94ms"
+   ]
+  },
+  {
+   "atS": 353.92,
+   "gapMs": 1467.9,
+   "phase": "show/vote",
+   "renderMs": 1701,
+   "coincident": [
+    "background-render:",
+    "cue:host-finish",
+    "cue:reaction",
+    "cue:sfx",
+    "cue:slam:vote-badge:cp:p1",
+    "cue:stars",
+    "cue:vote",
+    "motion-table:vote-badge:cp:p1 32ms",
+    "native-set-src:stage-video 612ms",
+    "voice-complete:",
+    "voice-line:show.vote"
+   ]
+  },
+  {
+   "atS": 355.39,
+   "gapMs": 348.1,
+   "phase": "show/vote",
+   "renderMs": 1859528,
+   "coincident": [
+    "motion-table:vote-badge:cp:p1 32ms"
+   ]
+  },
+  {
+   "atS": 356.52,
+   "gapMs": 1285.5,
+   "phase": "show/vote",
+   "renderMs": 2455,
+   "coincident": [
+    "cue:sfx",
+    "cue:vote",
+    "motion-table:vote-badge:cp:p1 102ms",
+    "stage-video:playing"
+   ]
+  },
+  {
+   "atS": 357.83,
+   "gapMs": 200.1,
+   "phase": null,
+   "renderMs": 1861832,
+   "coincident": []
+  },
+  {
+   "atS": 358.76,
+   "gapMs": 1305.7,
+   "phase": "show/tally",
+   "renderMs": 2202,
+   "coincident": [
+    "cue:music",
+    "cue:reaction",
+    "cue:sfx",
+    "motion-table:vote-badge:jd:cp 101ms",
+    "motion-table:vote-badge:jd:gr 95ms"
+   ]
+  },
+  {
+   "atS": 360.08,
+   "gapMs": 117.5,
+   "phase": "show/tally",
+   "renderMs": 1864005,
+   "coincident": []
+  },
+  {
+   "atS": 360.7,
+   "gapMs": 1300.7,
+   "phase": "show/tally",
+   "renderMs": 1951,
+   "coincident": [
+    "cue:animate:pedestal:jd",
+    "cue:animate:show.crown",
+    "cue:background",
+    "cue:confetti",
+    "cue:eyes:pedestal:jd",
+    "cue:flash",
+    "cue:fly-points",
+    "cue:hologram",
+    "cue:host",
+    "cue:host-react",
+    "cue:music",
+    "cue:punch",
+    "cue:reaction",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 362.02,
+   "gapMs": 132.1,
+   "phase": "show/winner",
+   "renderMs": 1865955,
+   "coincident": [
+    "cue:animate:pedestal:jd",
+    "cue:animate:show.crown",
+    "cue:background",
+    "cue:confetti",
+    "cue:eyes:pedestal:jd",
+    "cue:flash",
+    "cue:fly-points",
+    "cue:hologram",
+    "cue:host",
+    "cue:host-react",
+    "cue:music",
+    "cue:punch",
+    "cue:sfx",
+    "cue:shake"
+   ]
+  },
+  {
+   "atS": 362.7,
+   "gapMs": 1234.7,
+   "phase": "show/winner",
+   "renderMs": 1965,
+   "coincident": []
+  },
+  {
+   "atS": 363.95,
+   "gapMs": 183.3,
+   "phase": "show/winner",
+   "renderMs": 1867938,
+   "coincident": []
+  },
+  {
+   "atS": 364.53,
+   "gapMs": 1351.3,
+   "phase": "show/winner",
+   "renderMs": 1833,
+   "coincident": []
+  },
+  {
+   "atS": 365.9,
+   "gapMs": 2269.3,
+   "phase": null,
+   "renderMs": 2748,
+   "coincident": []
+  },
+  {
+   "atS": 368.17,
+   "gapMs": 1901.8,
+   "phase": null,
+   "renderMs": 1354,
+   "coincident": []
+  }
+ ]
+}

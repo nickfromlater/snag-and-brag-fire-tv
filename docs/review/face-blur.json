@@ -1,0 +1,73 @@
+{
+  "browser": "Chrome/155.0.8059.40",
+  "checks": [
+    {
+      "check": "join stays lazy; lobby renders immediately and warms one self-hosted detector",
+      "lobbyMs": 1.100000023841858,
+      "loadedMs": 107.90000003576279,
+      "available": true
+    },
+    {
+      "check": "mocked drawn-face redaction precedes judging/JPEG on image, live camera and file paths; cleanup; private thumbnails",
+      "beforeColors": 2171,
+      "afterColors": 106,
+      "maxMosaicColors": 192,
+      "changedPixels": 128094,
+      "cameraJpegMatches": true,
+      "fileJpegMatches": true,
+      "judgeMatchesRedacted": true,
+      "jpegWidth": 720,
+      "jpegHeight": 720,
+      "captureCanvasesCleared": true,
+      "originalUrlCountAtDetection": 0,
+      "unreleasedUrls": 0,
+      "thumbnailColors": 46,
+      "constantBlocks": true,
+      "thumbnailFrames": 3,
+      "detectorCallsDuringThumbnails": 0,
+      "cameraMethod": "mediapipe",
+      "stoppedBeforeDetection": true
+    },
+    {
+      "check": "real BlazeFace/WASM smoke on in-memory drawn shapes (no real photos)",
+      "syntheticDetections": 1,
+      "firstPassMs": 29.19999998807907,
+      "warmedPassMs": [
+        4.100000023841858,
+        4,
+        3.699999988079071,
+        3.5,
+        3.799999952316284,
+        3.199999988079071,
+        3.300000011920929,
+        3.700000047683716,
+        3.5,
+        3.5,
+        3.299999952316284
+      ],
+      "fullSnapMs": [
+        4.399999976158142,
+        3.800000011920929,
+        3,
+        3,
+        3.300000011920929,
+        3.100000023841858,
+        3.199999988079071,
+        3.199999988079071,
+        2.899999976158142,
+        3.100000023841858,
+        3,
+        3
+      ]
+    },
+    {
+      "check": "end-card copy, original small type and button fit; no third-party runtime requests",
+      "copy": "Faces are blurred on your phone. Photos are never saved; they vanish when the show ends.",
+      "fontPx": 11,
+      "buttonFits": true,
+      "foreignRequests": 0,
+      "browserErrors": 0
+    }
+  ],
+  "playerMediaSaved": false
+}

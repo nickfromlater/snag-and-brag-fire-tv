@@ -1,0 +1,144 @@
+{
+  "target": "retail callie armv7l / OS 2.0 (TV Ship/515)",
+  "status": "BLOCKED_PENDING_NATIVE_REGRESSION",
+  "reports": [
+    {
+      "crashedAt": "2026-10-17T23:20:58+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [
+        "JSThread thread ID: 19",
+        "    at ? (native)",
+        "    at ? (native)",
+        "    at ? (native)",
+        "    at ? (native)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:4111:30)",
+        "    at ? (node_modules/react/cjs/react.production.min.js:25:215)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:3574:22)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:7591:32)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:7152:25)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:7145:54)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:7127:19)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:6585:32)",
+        "    at ? (native)"
+      ]
+    },
+    {
+      "crashedAt": "2026-10-17T23:26:05+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [
+        "JSThread thread ID: 19",
+        "    at ? (<system-bundle>:13961:47)",
+        "    at ? (<app-bundle>:75212:19)",
+        "    at ? (<app-bundle>:75385:20)",
+        "    at ? (<app-bundle>:75347:62)",
+        "    at ? (native)"
+      ]
+    },
+    {
+      "crashedAt": "2026-10-17T23:30:22+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [
+        "JSThread thread ID: 19",
+        "    at ? (native)",
+        "    at ? (<app-bundle>:70534:21)",
+        "    at ? (<app-bundle>:72694:136)",
+        "    at ? (<app-bundle>:72702:138)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:6050:35)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:7410:48)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:6820:22)",
+        "    at ? (native)",
+        "    at ? (native)"
+      ]
+    },
+    {
+      "crashedAt": "2026-10-17T23:34:34+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [],
+      "context": "Profiler active; CPU profiling unavailable"
+    },
+    {
+      "crashedAt": "2026-10-17T23:37:24+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [],
+      "context": "Normal game without active profiler"
+    },
+    {
+      "crashedAt": "2026-10-17T23:44:10+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [
+        "JSThread thread ID: 19",
+        "    at ? (<app-bundle>:70381:32)",
+        "    at ? (<app-bundle>:70513:28)",
+        "    at ? (<app-bundle>:68744:40)",
+        "    at ? (<app-bundle>:68657:72)",
+        "    at ? (<app-bundle>:64607:18)",
+        "    at ? (<app-bundle>:68656:68)",
+        "    at ? (InternalBytecode.js:53:16)",
+        "    at ? (InternalBytecode.js:139:27)",
+        "    at ? (native)"
+      ],
+      "context": "Diagnostic run; source/native checkpoints retained separately"
+    },
+    {
+      "crashedAt": "2026-10-17T23:49:26+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [],
+      "context": "Diagnostic run; source/native checkpoints retained separately"
+    },
+    {
+      "crashedAt": "2026-10-17T23:51:34+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [],
+      "context": "Diagnostic run; source/native checkpoints retained separately"
+    },
+    {
+      "crashedAt": "2026-10-17T23:56:25+00:00",
+      "reason": "AppNotResponding",
+      "thread": "JSReactThread",
+      "monitor": "Thread Monitor",
+      "javascriptStack": [
+        "JSThread thread ID: 18",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedWithChildren.js:16:43)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedWithChildren.js:37:5)",
+        "    at ? (native)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedInterpolation.js:23:35)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedInterpolation.js:356:5)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedWithChildren.js:47:25)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedInterpolation.js:375:28)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedWithChildren.js:42:20)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedTransform.js:52:27)",
+        "    at ? (native)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedTransform.js:48:29)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedWithChildren.js:42:20)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedStyle.js:114:25)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedWithChildren.js:42:20)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/nodes/AnimatedProps.js:70:25)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Animated/useAnimatedProps.js:63:18)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:6050:35)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:6316:44)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:7260:24)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:7202:21)",
+        "    at ? (node_modules/@amzn/react-native-kepler/Libraries/Renderer/implementations/ReactFabric-prod.js:6736:21)",
+        "    at ? (native)"
+      ],
+      "context": "Clean boot; diagnostic layer 4 (no particles), native Animated graph attachment stalled"
+    }
+  ],
+  "privacy": "Raw process-memory dumps discarded; no player media or private device identifiers included."
+}

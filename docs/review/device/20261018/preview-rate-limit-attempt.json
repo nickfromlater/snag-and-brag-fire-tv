@@ -1,0 +1,83 @@
+{
+  "startedAt": "2026-10-18T23:33:36.064Z",
+  "syntheticMediaOnly": true,
+  "scope": "Native render telemetry plus hosted relay and synthetic phone protocol; physical phone UX is separate",
+  "nativeRenderTelemetry": true,
+  "roundsSnagged": [
+    0,
+    1
+  ],
+  "phoneScreens": [
+    "join",
+    "lobby",
+    "ready",
+    "cam",
+    "glow",
+    "wait"
+  ],
+  "nativeScenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand"
+  ],
+  "voicePaths": {
+    "polly": 8,
+    "blips": 1
+  },
+  "audioErrors": [],
+  "exceptions": [],
+  "photoDecodes": 2,
+  "maskObserved": true,
+  "phoneCompleted": false,
+  "nativeCompleted": false,
+  "maxSnapshotGapMs": 3327,
+  "disconnects": [],
+  "appStates": [],
+  "foregroundChecks": [
+    {
+      "atSeconds": 23.737,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 43.607,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 63.26,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 84.108,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 103.561,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 123.356,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 143.448,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 163.307,
+      "state": "VISIBLE"
+    }
+  ],
+  "games": [],
+  "devicePreflight": {
+    "tempUsedKiB": 0,
+    "tempAvailableKiB": 486984
+  },
+  "syntheticPhotoBytes": 40859,
+  "syntheticThumbBytes": 1001,
+  "endedAt": "2026-10-18T23:36:20.543Z",
+  "durationSeconds": 164.479,
+  "outcome": "FAIL",
+  "reason": "Relay rejected synthetic phone: RATE_LIMIT"
+}

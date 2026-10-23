@@ -1,0 +1,89 @@
+$ pnpm -r --if-present test
+Scope: 5 of 6 workspace projects
+shared test$ vitest run
+tools/render-audio test$ vitest run
+tools/render-art test$ vitest run
+tools/render-audio test: 
+tools/render-art test: 
+shared test: 
+tools/render-audio test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/phone/tools/render-audio
+tools/render-art test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/phone/tools/render-art
+tools/render-art test: 
+tools/render-audio test: 
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/phone/shared
+shared test: 
+shared test:  ✓ test/mash.test.ts (2 tests) 4ms
+shared test:  ✓ test/host.test.ts (8 tests) 3ms
+shared test:  ✓ test/pixelJudge.test.ts (6 tests) 30ms
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 279ms
+tools/render-audio test: 
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  21:37:10
+tools/render-audio test:    Duration  1.27s (transform 81ms, setup 0ms, collect 358ms, tests 279ms, environment 0ms, prepare 76ms)
+tools/render-audio test: 
+tools/render-audio test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 839ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  590ms
+tools/render-art test: 
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  21:37:10
+tools/render-art test:    Duration  1.55s (transform 69ms, setup 0ms, collect 94ms, tests 839ms, environment 0ms, prepare 94ms)
+tools/render-art test: 
+tools/render-art test: Done
+shared test:  ✓ test/game.test.ts (33 tests) 1113ms
+shared test: 
+shared test:  Test Files  4 passed (4)
+shared test:       Tests  49 passed (49)
+shared test:    Start at  21:37:10
+shared test:    Duration  1.93s (transform 222ms, setup 0ms, collect 706ms, tests 1.15s, environment 0ms, prepare 410ms)
+shared test: 
+shared test: Done
+phone test$ vitest run
+tvsim test$ vitest run
+tvsim test: 
+tvsim test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/phone/tvsim
+tvsim test: 
+phone test: 
+phone test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/phone/phone
+phone test: 
+phone test:  ✓ test/art.test.ts (2 tests) 7ms
+phone test:  ✓ test/camera.test.ts (4 tests) 2ms
+phone test:  ✓ test/logic.test.ts (17 tests) 4ms
+phone test: 
+phone test:  Test Files  3 passed (3)
+phone test:       Tests  23 passed (23)
+phone test:    Start at  21:37:12
+phone test:    Duration  575ms (transform 183ms, setup 0ms, collect 419ms, tests 12ms, environment 0ms, prepare 113ms)
+phone test: 
+phone test: Done
+tvsim test:  ✓ test/simulator.test.ts (4 tests) 149ms
+tvsim test: 
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  4 passed (4)
+tvsim test:    Start at  21:37:12
+tvsim test:    Duration  720ms (transform 150ms, setup 0ms, collect 199ms, tests 149ms, environment 0ms, prepare 98ms)
+tvsim test: 
+tvsim test: Done
+$ pnpm -r --if-present typecheck
+shared typecheck$ tsc --noEmit -p .
+tools/render-audio typecheck$ tsc --noEmit -p .
+tools/render-art typecheck$ tsc --noEmit -p .
+shared typecheck: Done
+phone typecheck$ tsc --noEmit -p .
+tvsim typecheck$ tsc --noEmit -p .
+tools/render-art typecheck: Done
+tools/render-audio typecheck: Done
+tvsim typecheck: Done
+phone typecheck: Done
+$ tsc --noEmit -p . && vite build
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 29 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.80 kB │ gzip:  0.43 kB
+dist/assets/index-TLDF8h4p.css  29.15 kB │ gzip:  6.63 kB
+dist/assets/index-B0z-vE5Z.js   88.58 kB │ gzip: 32.59 kB
+✓ built in 198ms

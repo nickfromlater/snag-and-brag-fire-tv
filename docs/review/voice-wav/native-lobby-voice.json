@@ -1,0 +1,21 @@
+{
+  "pass": false,
+  "runtime": "native",
+  "speed": 1,
+  "muted": true,
+  "route": {
+    "kind": "voice-line",
+    "hermes": true,
+    "lineSeq": 15,
+    "trigger": "lobby.open",
+    "path": "blips",
+    "reason": "audio-unavailable",
+    "latencyMs": 2,
+    "durationMs": 1000,
+    "prefetched": true,
+    "wordMarks": 17,
+    "visemeMarks": 18,
+    "runtime": "native"
+  },
+  "samples": []
+}

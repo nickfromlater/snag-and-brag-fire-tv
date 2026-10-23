@@ -1,0 +1,17 @@
+{
+  "name": "render-audio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.ts",
+    "verify": "node src/build.ts --verify",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "puppeteer-core": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

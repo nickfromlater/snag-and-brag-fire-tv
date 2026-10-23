@@ -1,0 +1,101 @@
+pnpm test
+$ pnpm -r --if-present test
+Scope: 7 of 8 workspace projects
+tools/render-audio test$ vitest run
+tools/render-art test$ vitest run
+shared test$ vitest run
+shared test:
+tools/render-art test:
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/eval/shared
+shared test:
+tools/render-audio test:
+tools/render-art test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/eval/tools/render-art
+tools/render-art test:
+tools/render-audio test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/eval/tools/render-audio
+tools/render-audio test:
+shared test:  ✓ test/prompts.test.ts (2 tests) 2ms
+shared test:  ✓ test/mash.test.ts (2 tests) 4ms
+shared test:  ✓ test/host.test.ts (8 tests) 4ms
+shared test:  ✓ test/pixelJudge.test.ts (11 tests) 65ms
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 305ms
+tools/render-audio test:
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  12:30:59
+tools/render-audio test:    Duration  1.30s (transform 90ms, setup 0ms, collect 362ms, tests 305ms, environment 0ms, prepare 74ms)
+tools/render-audio test:
+tools/render-audio test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 876ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  619ms
+tools/render-art test:
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  12:30:59
+tools/render-art test:    Duration  1.59s (transform 75ms, setup 0ms, collect 116ms, tests 876ms, environment 0ms, prepare 135ms)
+tools/render-art test:
+tools/render-art test: Done
+shared test:  ✓ test/game.test.ts (37 tests) 1292ms
+shared test:
+shared test:  Test Files  5 passed (5)
+shared test:       Tests  60 passed (60)
+shared test:    Start at  12:30:59
+shared test:    Duration  2.05s (transform 253ms, setup 0ms, collect 836ms, tests 1.37s, environment 1ms, prepare 277ms)
+shared test:
+shared test: Done
+relay test$ vitest run
+phone test$ vitest run
+tools/eval test$ vitest run
+tvsim test$ vitest run
+tvsim test:
+tvsim test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/eval/tvsim
+tvsim test:
+tools/eval test:
+tools/eval test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/eval/tools/eval
+tools/eval test:
+phone test:
+phone test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/eval/phone
+phone test:
+relay test:
+relay test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/eval/relay
+relay test:
+phone test:  ✓ test/art.test.ts (2 tests) 3ms
+phone test:  ✓ test/faceBlur.test.ts (20 tests) 10ms
+phone test:  ✓ test/logic.test.ts (17 tests) 4ms
+phone test:  ✓ test/camera.test.ts (6 tests) 57ms
+phone test:
+phone test:  Test Files  4 passed (4)
+phone test:       Tests  45 passed (45)
+phone test:    Start at  12:31:01
+phone test:    Duration  908ms (transform 367ms, setup 0ms, collect 693ms, tests 74ms, environment 0ms, prepare 345ms)
+phone test:
+phone test: Done
+relay test:  ✓ test/services.test.ts (17 tests) 52ms
+tvsim test:  ✓ test/simulator.test.ts (8 tests) 257ms
+tvsim test:
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  8 passed (8)
+tvsim test:    Start at  12:31:01
+tvsim test:    Duration  1.15s (transform 198ms, setup 0ms, collect 314ms, tests 257ms, environment 0ms, prepare 212ms)
+tvsim test:
+tvsim test: Done
+tools/eval test:  ✓ test/eval.test.ts (14 tests) 1072ms
+tools/eval test:    ✓ Chrome canvas integration > decodes a fixture, matches shared judging and strips source metadata on capture  918ms
+tools/eval test:
+tools/eval test:  Test Files  1 passed (1)
+tools/eval test:       Tests  14 passed (14)
+tools/eval test:    Start at  12:31:01
+tools/eval test:    Duration  2.24s (transform 182ms, setup 0ms, collect 561ms, tests 1.07s, environment 0ms, prepare 137ms)
+tools/eval test:
+tools/eval test: Done
+relay test:  ✓ test/server.test.ts (31 tests) 11581ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > times out mock AI within 4.1 seconds, broadcasts one fallback and still answers ping  4557ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > closes rooms after TV absence or maximum age and cancels the grace timer on resume  344ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > returns ok:false for mock Polly past the five second budget  5006ms
+relay test:    ✓ malformed input and rate caps > caps thumbs at five per second and allows a new window  1037ms
+relay test:
+relay test:  Test Files  2 passed (2)
+relay test:       Tests  48 passed (48)
+relay test:    Start at  12:31:01
+relay test:    Duration  12.63s (transform 230ms, setup 0ms, collect 884ms, tests 11.63s, environment 0ms, prepare 129ms)
+relay test:
+relay test: Done

@@ -1,0 +1,22 @@
+0.8 p-lobby
+4.9 p-ready
+16.7 p-cam
+20.5 p-glow
+24.9 p-wait
+66.1 p-ready
+78.3 p-cam
+82.2 p-glow
+86.9 p-wait
+100.4 p-mash
+147.7 p-wait
+153.0 p-ready
+164.9 p-cam
+168.8 p-glow
+173.2 p-wait
+193.8 p-vote
+202.2 p-wait
+214.4 p-end
+screens p-lobby,p-ready,p-cam,p-glow,p-wait,p-mash,p-vote,p-end errors [] ignoredFavicon404s 0 secs 218.599 redaction {"0":"mediapipe","1":"mediapipe","2":"mediapipe"}
+snag evidence {"0":{"round":0,"source":"phone snag header","present":true,"valid":true,"bytes":72,"onCells":75,"redaction":"mediapipe"},"1":{"round":1,"source":"phone snag header","present":false,"valid":false,"bytes":0,"onCells":0,"redaction":"mediapipe"},"2":{"round":2,"source":"phone snag header","present":false,"valid":false,"bytes":0,"onCells":0,"redaction":"mediapipe"}}
+mask evidence [{"round":0,"source":"TV find screen","present":true,"valid":true,"bytes":72,"onCells":75},{"round":1,"source":"TV find screen","present":false,"valid":false,"bytes":0,"onCells":0},{"round":2,"source":"TV find screen","present":false,"valid":false,"bytes":0,"onCells":0}]
+PASS full game; all three snags locally redacted; valid Color Rush mask reached the TV; other rounds omit masks; no photos logged or saved.

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-17",
+  "outcome": "PASS",
+  "target": "armv7",
+  "buildType": "Release",
+  "appId": "com.snagbrag.tv",
+  "vegaOs": "1.2",
+  "sdk": "0.24.12112",
+  "cli": "1.4.2",
+  "sourceCommit": "153bbe93bbf5ac9ffa698df702d10de942d9f3c6",
+  "sourcePackage": "tv/build/private/kepler/tv/undefined/vega/armv7/Release/tv_armv7.vpkg",
+  "deliveryPath": "~/builds/snag-and-brag/tv_armv7-live.vpkg",
+  "bytes": 23333273,
+  "sha256": "8fc375fd985aa9aa7e940f87770a2d7a13b703fa931b23cb97dca044a3850abb",
+  "runtime": {
+    "relayUrl": "wss://d2q0olvpmfmvjn.cloudfront.net/ws",
+    "controlUrl": "ws://127.0.0.1:8790",
+    "directorUrl": "ws://127.0.0.1:8791/renderer",
+    "showcase": false,
+    "debug": false,
+    "offline": false,
+    "photoProbe": false
+  },
+  "archiveEntries": 604,
+  "hermesBundleBytes": 1988352,
+  "homeAccountKeySignatures": 0,
+  "sourceMaps": 0,
+  "installationVerified": false,
+  "deviceEvidence": "vega device list: No devices found; this task delivers the stick package.",
+  "hermesContainsHostedUrl": true
+}

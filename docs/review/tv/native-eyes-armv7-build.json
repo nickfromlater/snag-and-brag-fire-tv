@@ -1,0 +1,12 @@
+{
+  "builtAt": "2026-10-13T14:50:24.312880+00:00",
+  "sdk": "0.24.12112",
+  "vegaCli": "1.4.2",
+  "target": "armv7 Release",
+  "path": "tv/build/armv7-release/tv_armv7.vpkg",
+  "bytes": 24525572,
+  "sha256": "383241c54179066db6922b1b50ae77fd82827847e5611b6b30100a7695104886",
+  "command": "pnpm --filter @snag/tv build:release --target armv7 --use-system-js-bundles true --max-workers 2",
+  "argumentNote": "Extra -- omitted using existing F-TV-06 workaround; build log selected only armv7.",
+  "sourceCommit": "c1ab598"
+}

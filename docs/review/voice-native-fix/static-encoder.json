@@ -1,0 +1,13 @@
+{
+  "version": "7.0.2-static",
+  "url": "https://johnvansickle.com/ffmpeg/releases/ffmpeg-7.0.2-arm64-static.tar.xz",
+  "archiveBytes": 19337412,
+  "sha256": "f4149bb2b0784e30e99bdda85471c9b5930d3402014e934a5098b41d0f7201b1",
+  "vendorMd5": "807afe21601db0a73e426121c7d636ea",
+  "vendorMd5Matches": true,
+  "versionedUrlSha256Matches": true,
+  "elf": "static AArch64; no PT_INTERP",
+  "linuxVvdVersionPass": true,
+  "linuxVvdSilentAacEncodeToDevNullPass": true,
+  "ec2ProvisioningRun": false
+}

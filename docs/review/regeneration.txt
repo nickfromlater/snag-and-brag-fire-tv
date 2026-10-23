@@ -1,0 +1,4 @@
+$ node src/build.ts
+Rendered 26 stickers at both scales; dark/light composites checked.
+Photo frame checked against Chrome: max channel error 1.
+Fonts are pixel-identical at 1x/2x. Wrote 169 assets (3.87 MiB) and docs/review/art-sheet.png.

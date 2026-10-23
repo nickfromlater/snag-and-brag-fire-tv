@@ -1,0 +1,470 @@
+[
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "local file AudioPlayer src file:///pkg assets wav mp3 audio format",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 4179,
+    "resultSHA256": "544666221973d0aac96fe34e615587a16be28653688d78ed5a5901f895dfadc9",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/vega/0.24/triage-guidelines.html",
+      "https://developer.amazon.com/docs/vega/0.23/triage-guidelines",
+      "https://community.amazondeveloper.com/t/proper-uri-handling-for-local-assets-in-kepler-toastkepler-and-w3c-media-video/27642",
+      "https://community.amazondeveloper.com/t/webview-load-local-file-url-and-additional-files/25094"
+    ]
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega-api/0.24/README.amazon-devices_keplerscript-audio-lib"
+    },
+    "resultChars": 100020,
+    "resultSHA256": "139d183a2822861a7bb11e3231434ad5f70b2b054aa3422104df609adb72d874",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html"
+    },
+    "resultChars": 89269,
+    "resultSHA256": "e1a498277d7ff0d2682684bbe5538deb533c10e22e427651ebf67d34456f2490",
+    "isError": false
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "Fire OS connect adb screenrecord developer options account sideload",
+      "target_platform": {
+        "device_os": [
+          "fire_os"
+        ]
+      }
+    },
+    "resultChars": 2859,
+    "resultSHA256": "fcbfed0fb9959c7275d520d53a81d48494888049a87ea1153ab10d0fd0b972aa",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/fire-tablets/connecting-adb-to-device.html",
+      "https://developer.amazon.com/docs/fire-tv/connecting-adb-to-device.html",
+      "https://developer.amazon.com/docs/fire-tv/installing-and-running-your-app.html"
+    ]
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "Skia native game 2D drawing",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 4503,
+    "resultSHA256": "e62ede0b46be60fc114959be0bc4465e149ecdc467cf84889b9421d0f11356ed",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/adbt/port-fire-os-app-to-vega",
+      "https://developer.amazon.com/docs/react-native-vega/0.83/view",
+      "https://developer.amazon.com/docs/vega-api/0.23/expo-gl.html",
+      "https://community.amazondeveloper.com/t/vega-supported-libraries-and-services/1552"
+    ]
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "Vega record screen screenrecord screenshot 60 fps device capture",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 5549,
+    "resultSHA256": "b266bdc82e5438ad563d8c1b73774bd8fe71027bfeae1fa0290febd673a48768",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/vega/0.21/appium-inspector",
+      "https://community.amazondeveloper.com/t/how-to-make-screenshot-from-app-runned-on-4k-select-stick/27750",
+      "https://community.amazondeveloper.com/t/vega-cli-commands-to-take-a-screenshot-and-press-remote-keys/29258",
+      "https://community.amazondeveloper.com/t/migrating-your-fire-os-app-to-vega-with-adbt/29023",
+      "https://community.amazondeveloper.com/t/vega-ui-fluidity-guide/8844"
+    ]
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega/0.24/run-apps"
+    },
+    "resultChars": 49494,
+    "resultSHA256": "9599d4815ac6117ece4983018784de86675abe090326d3b51297ac0660641b33",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/fire-tv/mediasession-api-integration.html"
+    },
+    "resultChars": 27480,
+    "resultSHA256": "70270da4125212952bc12d86c0343aa9294782eb708b8088b1d18de20041f229",
+    "isError": false
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "native SVG supported elements Text stroke fonts Canvas Skia",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 4380,
+    "resultSHA256": "5053622bba139e0f73a2348b5a6a9e912deed118a5c0c63cd9a85be4cccdb880",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/vega-api/0.24/react-native-svg.html",
+      "https://developer.amazon.com/docs/vega-api/0.21/react-native-svg.html",
+      "https://developer.amazon.com/docs/vega-api/0.23/react-native-svg",
+      "https://developer.amazon.com/docs/vega-api/0.22/react-native-svg"
+    ]
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "AudioPlayer simultaneous multiple SoundEffect latency",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 4654,
+    "resultSHA256": "75f6a4ab7bf47fbb0e24ce7bb4c49f1f1d6f8081d0bbf29ff8333813663f0aab",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/vega-api/0.24/classes.AudioPlaybackStream.amazon-devices_keplerscript-audio-lib.html",
+      "https://developer.amazon.com/docs/vega-api/0.23/classes.AudioPlaybackStream.amazon-devices_keplerscript-audio-lib",
+      "https://developer.amazon.com/docs/vega-api/0.24/interfaces.IPlayerServerHandler.amazon-devices_kepler-player-server",
+      "https://developer.amazon.com/docs/vega/0.21/media-controls-get-started"
+    ]
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega-api/0.24/react-native-svg"
+    },
+    "resultChars": 10945,
+    "resultSHA256": "dfcd6c94561c87eeab542a4820621959b5941b02757f981c790d33de84232407",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega-api/0.24/react-native-reanimated"
+    },
+    "resultChars": 15624,
+    "resultSHA256": "a1723e9665e1c37cd32e2fa599460e50e9330e31a72808003561dffc819861f0",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/fire-tv/connecting-adb-to-device.html"
+    },
+    "resultChars": 24674,
+    "resultSHA256": "1b51d13f3b712175e78662a3bc0529f3f570c6cc54763b640d0bb636a128abd8",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/fire-tv/installing-and-running-your-app.html"
+    },
+    "resultChars": 15064,
+    "resultSHA256": "c2919075d00f29d40887cd2c766ee37ff53c4d3858954aa10e611ec037659196",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega/0.24/measure-app-kpis.html"
+    },
+    "resultChars": 48911,
+    "resultSHA256": "40e9f59a58a2c433eb8cd9dc9f019e0d160c6fb162b73714380fd754cb4453b2",
+    "isError": false
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "OS 1.2 Fire TV Stick 4K Select R29 rollout release notes",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 4359,
+    "resultSHA256": "382fae67730750162975c806498de6186c079a7974dda04fbf988d8d21b9dc79",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/cloud-app-program/amazon-cap-update-published-app",
+      "https://community.amazondeveloper.com/t/fire-tv-stick-4k-select-with-os-1-1-doesnt-update-and-i-cant-install-apps-anymore/29722",
+      "https://community.amazondeveloper.com/t/os-1-2-ota-update/29152",
+      "https://community.amazondeveloper.com/t/debug-builds-including-the-helloworld-template-abort-with-sigabrt-after-480-s-on-screen-fire-tv-stick-4k-select/29168"
+    ]
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega/latest/vega-release-notes.html"
+    },
+    "resultChars": 18290,
+    "resultSHA256": "c010e0b09b6c68560835e5cfa3aa9937e6ebf54a118e4eca8e62ce080bde0c6c",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/device-specs/device-specifications-fire-tv-cube.html"
+    },
+    "resultChars": 21235,
+    "resultSHA256": "b02965b339762acebda0f0eb7920816b306ee2c06b8d58408e0048ac5695a064",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "amazon-devices-vega-app-performance"
+    },
+    "resultChars": 7123,
+    "resultSHA256": "7b7949509965e743d132beb5f71b69e0cf74a2ab9ae1dfa7077193389ce0c09e",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega-api/0.24/expo-font"
+    },
+    "resultChars": 8743,
+    "resultSHA256": "20b5816c4f161ad506221410092d07621c3dfdf44acc84b7a2774c27fc9b534a",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega-api/0.24/expo-gl"
+    },
+    "resultChars": 10573,
+    "resultSHA256": "48beefe4e21511b6bf295cefa6fd1ba80d46a969a574c95212be79658eb34d6e",
+    "isError": false
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "Alexa media controls pause next voice transport custom phrases",
+      "target_platform": {
+        "device_os": [
+          "vega_os",
+          "fire_os"
+        ]
+      }
+    },
+    "resultChars": 4487,
+    "resultSHA256": "9920578f1904292d30d9b954937ef8b2bef7e8a38f43f63665c7b857a7b33694",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/fire-tv/mediasession-api-integration.html",
+      "https://developer.amazon.com/docs/vega/0.21/content-launcher-overview.html",
+      "https://developer.amazon.com/docs/vega/0.24/content-launcher-overview.html",
+      "https://developer.amazon.com/docs/vega/0.23/content-launcher-overview"
+    ]
+  },
+  {
+    "tool": "set_project_context",
+    "arguments": null,
+    "resultChars": 20,
+    "resultSHA256": "2dfb69cf5144071c027ffcba50a120fc23f12776ba28f236eb55ee6a08fedfef",
+    "isError": false
+  },
+  {
+    "tool": "list_documents",
+    "arguments": null,
+    "resultChars": 9255,
+    "resultSHA256": "ff71b3ce703ed7c8ecdd2b1a85564ac9442a2c8baa6b8fa384c2fbb737ff76d5",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": null,
+    "resultChars": 7812,
+    "resultSHA256": "f350ad84da3387a767864302bb3541e4aef3c9821b77292797feee337a603f74",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": null,
+    "resultChars": 6762,
+    "resultSHA256": "e3bf17fe472da71a9bd54d7d9a52924b61d382e84a3d29532d73ca2a1fa13057",
+    "isError": false
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": null,
+    "resultChars": 4730,
+    "resultSHA256": "94b3d5aac55983b1c4f704e57bc01907009e77bcf4bb8f48a1f90ca065897402",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/vega-api/0.22/react-native-reanimated",
+      "https://developer.amazon.com/docs/vega-api/0.21/react-native-reanimated",
+      "https://developer.amazon.com/docs/vega-api/0.23/react-native-reanimated",
+      "https://developer.amazon.com/docs/vega-api/0.21/react-native-svg.html",
+      "https://community.amazondeveloper.com/t/vega-supported-libraries-and-services/1552"
+    ]
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "react_native_for_vega_debugging_tool_router.md"
+    },
+    "resultChars": 18889,
+    "resultSHA256": "a60d1ed111cdaaeee94da969d01bbb8d025292a7d3151411d143eda77d148bc7",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "vega_app_type_detection.md"
+    },
+    "resultChars": 9949,
+    "resultSHA256": "9df386a6f5793add7f825ba7d577191110b883d9e65529077d6a92b4854d7b9c",
+    "isError": false
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "WebSocket binary ArrayBuffer key BackHandler TVEventHandler",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 1956,
+    "resultSHA256": "8f75fb040789cb533c8dd4d7843a66d13d86e946abe28e186b98ecd9cfca3d6b",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/react-native-vega/0.72/using_tveventhandler",
+      "https://developer.amazon.com/docs/react-native-vega/0.83/tvEventHandler.html"
+    ]
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega-api/0.24/classes.AudioPlayer.amazon-devices_react-native-w3cmedia.html"
+    },
+    "resultChars": 100020,
+    "resultSHA256": "cfaa16c98b80abca03684d10637c1c1db1f17394de14cd902ee26bcb0721f900",
+    "isError": false
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "requestAnimationFrame callback Vega timer does not fire",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 2987,
+    "resultSHA256": "259b52cf437a9f9dff9e6dc324273196d5c230576bb50fc9da47390cff14d2c6",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/react-native-vega/0.83/timers",
+      "https://developer.amazon.com/docs/react-native-vega/0.72/timers.html",
+      "https://developer.amazon.com/docs/react-native-vega/0.72/performance"
+    ]
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega-api/0.24/classes.AudioPlaybackStream.amazon-devices_keplerscript-audio-lib.html"
+    },
+    "resultChars": 100020,
+    "resultSHA256": "2653dcdd937914cae88109b12ad69980b6a29e515c6840ef7022a0b52842afed",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://developer.amazon.com/docs/vega/0.24/content-launcher-overview.html"
+    },
+    "resultChars": 27723,
+    "resultSHA256": "91fe0faa7b39895c8d46ab0afb6d0c43833b573e2279a737e71b242b8493b855",
+    "isError": false
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "media controls custom handler game pause Next MediaControlFocus",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 3537,
+    "resultSHA256": "8acc64dd3304d57f5a1dbe9f5031e9343c9f209d6a10c92a77528ba9ca7ec86e",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/vega-api/0.23/MediaControlClientAsync.classes.MediaControlClientAsync.amazon-devices_kepler-media-controls.html",
+      "https://community.amazondeveloper.com/t/alexa-transport-control-commands-play-pause-stop-never-reach-js-handler-via-w3c-media-kmc-integration/28421",
+      "https://community.amazondeveloper.com/t/vega-media-controls/20261"
+    ]
+  },
+  {
+    "tool": "search_documentation",
+    "arguments": {
+      "query": "screen capture screen recording device screenshooter gwsi",
+      "target_platform": {
+        "device_os": [
+          "vega_os"
+        ]
+      }
+    },
+    "resultChars": 3356,
+    "resultSHA256": "30f1d11e43dc164f394a9e9ff84403abb663ee4ed2cffe16b7ece7b6aa3d1610",
+    "isError": false,
+    "sourceURLs": [
+      "https://developer.amazon.com/docs/vega/0.21/vda-tools.html",
+      "https://developer.amazon.com/docs/vega/0.23/vda-tools",
+      "https://developer.amazon.com/docs/vega/0.22/vda-tools.html",
+      "https://community.amazondeveloper.com/t/how-to-make-screenshot-from-app-runned-on-4k-select-stick/27750"
+    ]
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://community.amazondeveloper.com/t/os-1-2-ota-update/29152"
+    },
+    "resultChars": 4526,
+    "resultSHA256": "64e33d7db827fc5e297b4220902b8706c9180437c5cf37fa9453a3a9d1efa5c5",
+    "isError": false
+  },
+  {
+    "tool": "read_document",
+    "arguments": {
+      "document_uri": "https://community.amazondeveloper.com/t/alexa-transport-control-commands-play-pause-stop-never-reach-js-handler-via-w3c-media-kmc-integration/28421"
+    },
+    "resultChars": 30222,
+    "resultSHA256": "986e9ca3c7ed43eec0f78eda2cf7310455553211a6019647d2811ce9326f3ecc",
+    "isError": false
+  }
+]

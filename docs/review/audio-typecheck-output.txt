@@ -1,0 +1,5 @@
+$ pnpm -r --if-present typecheck
+tools/render-audio typecheck$ tsc --noEmit -p .
+shared typecheck$ tsc --noEmit -p .
+shared typecheck: Done
+tools/render-audio typecheck: Done

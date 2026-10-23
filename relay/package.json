@@ -1,0 +1,33 @@
+{
+  "name": "relay",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p .",
+    "load": "tsx scripts/load-test.ts",
+    "setup:mantle": "tsx scripts/mantle-project.ts",
+    "smoke:bedrock": "tsx scripts/bedrock-smoke.ts",
+    "smoke:polly": "tsx scripts/polly-smoke.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "0.34.4",
+    "@anthropic-ai/sdk": "0.133.0",
+    "@aws-sdk/client-polly": "3.1150.0",
+    "@snag/shared": "workspace:*",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "ws": "8.22.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/ws": "^8.18.0"
+  }
+}

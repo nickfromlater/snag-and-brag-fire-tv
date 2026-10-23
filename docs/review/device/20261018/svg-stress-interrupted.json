@@ -1,0 +1,481 @@
+{
+  "startedAt": "2026-10-19T00:21:55.609Z",
+  "syntheticMediaOnly": true,
+  "scope": "Native render telemetry plus hosted relay and synthetic phone protocol; physical phone UX is separate; accelerated fault reproduction, not normal-speed acceptance; repeated unexplained pause/resume transitions and one manual debug resume; stopped incomplete, never acceptance",
+  "nativeRenderTelemetry": true,
+  "roundsSnagged": [
+    0,
+    1
+  ],
+  "phoneScreens": [
+    "join",
+    "lobby",
+    "ready",
+    "cam",
+    "glow",
+    "wait",
+    "mash"
+  ],
+  "nativeScenes": [
+    null,
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag"
+  ],
+  "voicePaths": {
+    "polly": 5,
+    "blips": 10
+  },
+  "audioErrors": [],
+  "exceptions": [],
+  "photoDecodes": 2,
+  "maskObserved": true,
+  "phoneCompleted": false,
+  "nativeCompleted": false,
+  "maxSnapshotGapMs": 5000,
+  "disconnects": [
+    {
+      "atSeconds": 99.374,
+      "code": 1006
+    },
+    {
+      "atSeconds": 100.432,
+      "code": 1
+    },
+    {
+      "atSeconds": 113.886,
+      "code": 1
+    },
+    {
+      "atSeconds": 123.615,
+      "code": 1
+    },
+    {
+      "atSeconds": 131.604,
+      "code": 1
+    },
+    {
+      "atSeconds": 139.7,
+      "code": 1
+    },
+    {
+      "atSeconds": 149.336,
+      "code": 1
+    },
+    {
+      "atSeconds": 160.408,
+      "code": 1
+    },
+    {
+      "atSeconds": 166.329,
+      "code": 1
+    },
+    {
+      "atSeconds": 170.733,
+      "code": 1
+    },
+    {
+      "atSeconds": 173.632,
+      "code": 1
+    },
+    {
+      "atSeconds": 184.934,
+      "code": 1
+    },
+    {
+      "atSeconds": 189.39,
+      "code": 1
+    },
+    {
+      "atSeconds": 196.029,
+      "code": 1
+    },
+    {
+      "atSeconds": 200.533,
+      "code": 1
+    },
+    {
+      "atSeconds": 208.41,
+      "code": 1
+    },
+    {
+      "atSeconds": 213.278,
+      "code": 1
+    },
+    {
+      "atSeconds": 216.348,
+      "code": 1
+    },
+    {
+      "atSeconds": 219.723,
+      "code": 1
+    },
+    {
+      "atSeconds": 222.128,
+      "code": 1
+    },
+    {
+      "atSeconds": 225.17,
+      "code": 1
+    },
+    {
+      "atSeconds": 227.47,
+      "code": 1
+    },
+    {
+      "atSeconds": 232.264,
+      "code": 1
+    },
+    {
+      "atSeconds": 236.786,
+      "code": 1
+    },
+    {
+      "atSeconds": 239.868,
+      "code": 1
+    },
+    {
+      "atSeconds": 243.83,
+      "code": 1
+    },
+    {
+      "atSeconds": 247.325,
+      "code": 1
+    },
+    {
+      "atSeconds": 251.22,
+      "code": 1
+    },
+    {
+      "atSeconds": 257.57,
+      "code": 1
+    },
+    {
+      "atSeconds": 261.981,
+      "code": 1
+    },
+    {
+      "atSeconds": 264.638,
+      "code": 1
+    },
+    {
+      "atSeconds": 267.762,
+      "code": 1
+    },
+    {
+      "atSeconds": 272.667,
+      "code": 1
+    },
+    {
+      "atSeconds": 277.152,
+      "code": 1
+    },
+    {
+      "atSeconds": 280.167,
+      "code": 1
+    },
+    {
+      "atSeconds": 284.104,
+      "code": 1
+    },
+    {
+      "atSeconds": 288.769,
+      "code": 1
+    },
+    {
+      "atSeconds": 292.118,
+      "code": 1
+    },
+    {
+      "atSeconds": 295.539,
+      "code": 1
+    },
+    {
+      "atSeconds": 299.688,
+      "code": 1
+    },
+    {
+      "atSeconds": 303.4,
+      "code": 1
+    },
+    {
+      "atSeconds": 308.525,
+      "code": 1
+    },
+    {
+      "atSeconds": 311.861,
+      "code": 1
+    },
+    {
+      "atSeconds": 314.498,
+      "code": 1
+    },
+    {
+      "atSeconds": 318.856,
+      "code": 1
+    },
+    {
+      "atSeconds": 322.104,
+      "code": 1
+    },
+    {
+      "atSeconds": 326.179,
+      "code": 1
+    },
+    {
+      "atSeconds": 329.549,
+      "code": 1
+    },
+    {
+      "atSeconds": 332.493,
+      "code": 1
+    },
+    {
+      "atSeconds": 334.933,
+      "code": 1
+    },
+    {
+      "atSeconds": 340.593,
+      "code": 1
+    },
+    {
+      "atSeconds": 344.599,
+      "code": 1
+    },
+    {
+      "atSeconds": 347.888,
+      "code": 1
+    },
+    {
+      "atSeconds": 351.234,
+      "code": 1
+    },
+    {
+      "atSeconds": 355.233,
+      "code": 1
+    },
+    {
+      "atSeconds": 358.572,
+      "code": 1
+    },
+    {
+      "atSeconds": 363.676,
+      "code": 1
+    },
+    {
+      "atSeconds": 371.879,
+      "code": 1
+    },
+    {
+      "atSeconds": 375.837,
+      "code": 1
+    },
+    {
+      "atSeconds": 385.385,
+      "code": 1
+    },
+    {
+      "atSeconds": 394.356,
+      "code": 1
+    },
+    {
+      "atSeconds": 399.309,
+      "code": 1
+    },
+    {
+      "atSeconds": 407.978,
+      "code": 1
+    },
+    {
+      "atSeconds": 414.942,
+      "code": 1
+    },
+    {
+      "atSeconds": 422.348,
+      "code": 1
+    },
+    {
+      "atSeconds": 426.272,
+      "code": 1
+    },
+    {
+      "atSeconds": 431.661,
+      "code": 1
+    },
+    {
+      "atSeconds": 436.881,
+      "code": 1
+    },
+    {
+      "atSeconds": 441.918,
+      "code": 1
+    },
+    {
+      "atSeconds": 451.976,
+      "code": 1
+    }
+  ],
+  "appStates": [
+    {
+      "atSeconds": 1.686,
+      "state": "active"
+    }
+  ],
+  "foregroundChecks": [
+    {
+      "atSeconds": 24.91,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3684
+    },
+    {
+      "atSeconds": 43.234,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 1980
+    },
+    {
+      "atSeconds": 63.663,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 4976
+    },
+    {
+      "atSeconds": 84.799,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3812
+    },
+    {
+      "atSeconds": 104.433,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 4180
+    },
+    {
+      "atSeconds": 123.573,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 1060
+    },
+    {
+      "atSeconds": 144.077,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 8480
+    },
+    {
+      "atSeconds": 164.164,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 296
+    },
+    {
+      "atSeconds": 184.8,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 788
+    },
+    {
+      "atSeconds": 203.527,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 868
+    },
+    {
+      "atSeconds": 224.069,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 5136
+    },
+    {
+      "atSeconds": 244.474,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 892
+    },
+    {
+      "atSeconds": 263.655,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 4272
+    },
+    {
+      "atSeconds": 284.076,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 7520
+    },
+    {
+      "atSeconds": 303.875,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 388
+    },
+    {
+      "atSeconds": 324.123,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 1036
+    },
+    {
+      "atSeconds": 344.521,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 3496
+    },
+    {
+      "atSeconds": 364.66,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 5116
+    },
+    {
+      "atSeconds": 385.343,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 6696
+    },
+    {
+      "atSeconds": 409.198,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 10904
+    },
+    {
+      "atSeconds": 424.301,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 236
+    },
+    {
+      "atSeconds": 445.652,
+      "state": "VISIBLE",
+      "graphicsTotalKiB": 241664,
+      "graphicsFreeKiB": 1072
+    }
+  ],
+  "games": [],
+  "stageVideo": {
+    "playingEvents": 16,
+    "errorEvents": 0,
+    "releaseRequests": 0
+  },
+  "reproductionOnly": true,
+  "clockSpeed": 2,
+  "devicePreflight": {
+    "tempUsedKiB": 0,
+    "tempAvailableKiB": 486984
+  },
+  "syntheticPhotoBytes": 40859,
+  "syntheticThumbBytes": 1001,
+  "endedAt": "2026-10-19T00:29:28.550Z",
+  "durationSeconds": 452.941,
+  "outcome": "FAIL",
+  "reason": "Interrupted for further device fixes",
+  "unexpectedPauseResume": true,
+  "manualDebugResumes": 1
+}

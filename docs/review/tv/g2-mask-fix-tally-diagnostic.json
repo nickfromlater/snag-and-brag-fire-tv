@@ -1,0 +1,204 @@
+{
+  "verifiedAt": "2026-10-13T22:25:21.872Z",
+  "pass": false,
+  "completed": false,
+  "target": "VVD OS 1.2 aarch64 Release / Hermes",
+  "speed": 1,
+  "nativeOnly": true,
+  "media": "Chromium built-in synthetic camera; no human photos or thumbnails persisted",
+  "relay": {
+    "ai": "mock",
+    "voice": "mock",
+    "reversePort": 8787,
+    "hostPort": 8789
+  },
+  "audioEnabled": true,
+  "reducedMotion": false,
+  "screensReached": {
+    "tv": [
+      "lobby",
+      "intro",
+      "hunt",
+      "judge",
+      "stand",
+      "brag",
+      "show"
+    ],
+    "phone": [
+      "p-lobby",
+      "p-ready",
+      "p-cam",
+      "p-glow",
+      "p-wait",
+      "p-mash",
+      "p-vote"
+    ]
+  },
+  "exceptions": {
+    "native": 0,
+    "phone": null
+  },
+  "audioErrors": [],
+  "durationSeconds": 267.147,
+  "phoneExitCode": 1,
+  "lastNativeSnapshot": {
+    "kind": "snapshot",
+    "hermes": true,
+    "ready": true,
+    "loaded": true,
+    "connected": true,
+    "code": "YNHN",
+    "scene": "show",
+    "phase": "tally",
+    "round": 2,
+    "mood": "party",
+    "completed": false,
+    "paused": false,
+    "teams": 4,
+    "cues": 1524,
+    "exceptions": 0,
+    "runtime": "native"
+  },
+  "reason": "Native snapshots stopped during phone play",
+  "maskEvents": [
+    {
+      "kind": "judge-mask",
+      "hermes": true,
+      "round": 0,
+      "target": "judge-beam:p1",
+      "cells": 64,
+      "bytes": 72,
+      "players": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "judge-mask-hold",
+      "hermes": true,
+      "round": 0,
+      "target": "judge-beam:p1",
+      "cells": 64,
+      "ready": true,
+      "runtime": "native"
+    }
+  ],
+  "photoEvents": [
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 0,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 0,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 1,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 2,
+      "ready": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-ready",
+      "hermes": true,
+      "ready": true,
+      "bytes": 546714,
+      "runtime": "native"
+    },
+    {
+      "kind": "photo-decoded",
+      "hermes": true,
+      "round": 2,
+      "ready": true,
+      "runtime": "native"
+    }
+  ],
+  "clips": [
+    {
+      "round": 0,
+      "path": "docs/review/tv-g2-mask-fix-tally-reveal.mp4",
+      "bytes": 2157258,
+      "crf": 28,
+      "preset": "slow",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "60/1",
+      "duration": "20.000000",
+      "nb_frames": "1200"
+    }
+  ],
+  "screenshots": [
+    "docs/review/tv/g2-mask-fix-tally-mask.png"
+  ],
+  "note": "Intermediate candidate: the single-path mask and cached art photos passed Color Rush and Brag-Off, then native snapshots stopped during Showstopper tally. This predates the sampled particle-clock fix; no full-game pass is claimed."
+}

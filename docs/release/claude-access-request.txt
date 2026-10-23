@@ -1,0 +1,11 @@
+Subject: Request Amazon Bedrock Claude model access for Snag & Brag
+
+Please enable additional account-level access to Claude on Amazon Bedrock in us-east-1. Preferred models are anthropic.claude-opus-5-5, anthropic.claude-opus-5, or anthropic.claude-sonnet-5.
+
+Both our deployment IAM identity and the account owner in the Bedrock Mantle console receive HTTP 403: the model is not available for this account; the response directs us to AWS Sales. The two identities belong to the same account. GetFoundationModelAvailability reports AUTHORIZED, entitlement AVAILABLE and region AVAILABLE, but agreement NOT_AVAILABLE. The Mantle model catalog lists the requested models as available. A one-line text request and synthetic-image requests both fail. Tested October 17, 2026.
+
+Use case: Snag & Brag is a Fire TV family party game. Claude looks at a household-object photo and returns a generic object description, three playful stage names, two short brag lines, a prompt-fit score and a brief host quip. Outputs are family friendly and avoid brand names. Expected usage is roughly 12 image calls per four-team game, with a four-second fallback. The dedicated Mantle workspace uses data_retention.mode=none; photos remain in game memory and are never written to application storage or logs.
+
+Please advise which additional account eligibility or activation step is required, or enable an accessible vision-capable Claude model for this workload.
+
+Submitted through AWS Support on October 17, 2026 at 17:06 Eastern. Account and billing > Account > Other Account Issues, General question, Web/email response. Case identifiers are retained in the private deployment directory outside the repository.

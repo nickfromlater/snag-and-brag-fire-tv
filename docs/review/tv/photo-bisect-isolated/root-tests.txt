@@ -1,0 +1,142 @@
+$ pnpm -r --if-present test
+Scope: 9 of 10 workspace projects
+shared test$ vitest run
+tools/render-audio test$ vitest run
+tools/render-art test$ vitest run
+tools/render-art test: 
+tools/render-art test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/tools/render-art
+tools/render-art test: 
+tools/render-audio test: 
+shared test: 
+tools/render-audio test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/tools/render-audio
+tools/render-audio test: 
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/shared
+shared test: 
+shared test:  ✓ test/prompts.test.ts (2 tests) 2ms
+shared test:  ✓ test/mash.test.ts (2 tests) 4ms
+shared test:  ✓ test/host.test.ts (8 tests) 6ms
+shared test:  ✓ test/pixelJudge.test.ts (11 tests) 69ms
+shared test:  ✓ test/showcase.test.ts (3 tests) 324ms
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 306ms
+tools/render-audio test: 
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  18:09:00
+tools/render-audio test:    Duration  1.54s (transform 115ms, setup 0ms, collect 453ms, tests 306ms, environment 0ms, prepare 402ms)
+tools/render-audio test: 
+tools/render-audio test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 931ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  657ms
+tools/render-art test: 
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  18:09:00
+tools/render-art test:    Duration  1.87s (transform 79ms, setup 0ms, collect 115ms, tests 931ms, environment 0ms, prepare 84ms)
+tools/render-art test: 
+tools/render-art test: Done
+shared test:  ✓ test/game.test.ts (40 tests) 1644ms
+shared test: 
+shared test:  Test Files  6 passed (6)
+shared test:       Tests  66 passed (66)
+shared test:    Start at  18:09:00
+shared test:    Duration  2.63s (transform 293ms, setup 0ms, collect 1.20s, tests 2.05s, environment 1ms, prepare 610ms)
+shared test: 
+shared test: Done
+relay test$ vitest run
+phone test$ vitest run
+tools/eval test$ vitest run
+tools/director test$ vitest run
+tools/director test: 
+tools/director test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/tools/director
+tools/director test: 
+tools/eval test: 
+tools/eval test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/tools/eval
+tools/eval test: 
+relay test: 
+relay test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/relay
+relay test: 
+phone test: 
+phone test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/phone
+phone test: 
+phone test:  ✓ test/art.test.ts (2 tests) 4ms
+phone test:  ✓ test/faceBlur.test.ts (20 tests) 47ms
+phone test:  ✓ test/logic.test.ts (17 tests) 5ms
+phone test:  ✓ test/camera.test.ts (6 tests) 62ms
+phone test: 
+phone test:  Test Files  4 passed (4)
+phone test:       Tests  45 passed (45)
+phone test:    Start at  18:09:03
+phone test:    Duration  1.04s (transform 556ms, setup 0ms, collect 1.06s, tests 119ms, environment 0ms, prepare 202ms)
+phone test: 
+phone test: Done
+tv test$ pnpm lint && vitest run
+relay test:  ✓ test/services.test.ts (17 tests) 56ms
+tv test: $ eslint src test --ext .ts,.tsx
+tools/director test:  ✓ test/director.test.ts (5 tests) 369ms
+tools/director test: 
+tools/director test:  Test Files  1 passed (1)
+tools/director test:       Tests  5 passed (5)
+tools/director test:    Start at  18:09:03
+tools/director test:    Duration  1.58s (transform 190ms, setup 0ms, collect 571ms, tests 369ms, environment 0ms, prepare 96ms)
+tools/director test: 
+tools/director test: Done
+tvsim test$ vitest run
+tvsim test: 
+tvsim test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/tvsim
+tvsim test: 
+tools/eval test:  ✓ test/eval.test.ts (14 tests) 1566ms
+tools/eval test:    ✓ Chrome canvas integration > decodes a fixture, matches shared judging and strips source metadata on capture  1412ms
+tv test: 
+tv test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/tv/tv
+tv test: 
+tools/eval test: 
+tools/eval test:  Test Files  1 passed (1)
+tools/eval test:       Tests  14 passed (14)
+tools/eval test:    Start at  18:09:03
+tools/eval test:    Duration  2.81s (transform 260ms, setup 0ms, collect 583ms, tests 1.57s, environment 0ms, prepare 198ms)
+tools/eval test: 
+tvsim test:  ✓ test/simulator.test.ts (8 tests) 306ms
+tvsim test: 
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  8 passed (8)
+tvsim test:    Start at  18:09:05
+tvsim test:    Duration  965ms (transform 145ms, setup 0ms, collect 194ms, tests 306ms, environment 0ms, prepare 105ms)
+tvsim test: 
+tools/eval test: Done
+tvsim test: Done
+tv test:  ✓ test/cue-timing.test.ts (3 tests) 6ms
+tv test:  ✓ test/coordinates.test.ts (2 tests) 1ms
+tv test:  ✓ test/memory-photos.test.ts (2 tests) 2ms
+tv test:  ✓ test/pixel-raster.test.ts (4 tests) 29ms
+tv test:  ✓ test/instruments.test.ts (6 tests) 16ms
+tv test:  ✓ test/eyes-trajectory.test.ts (3 tests) 9ms
+tv test:  ✓ test/audio-initialization.test.ts (3 tests) 4ms
+tv test:  ✓ test/effects.test.ts (1 test) 2ms
+tv test:  ✓ test/decorative-clock.test.ts (2 tests) 1ms
+tv test:  ✓ test/control-isolation.test.ts (1 test) 208ms
+tv test:  ✓ test/display-primitives.test.ts (8 tests) 12ms
+tv test:  ✓ test/primitives.test.ts (15 tests) 13ms
+tv test:  ✓ test/svg-image-source.test.ts (2 tests) 1ms
+tv test:  ✓ test/runtime-clock.test.ts (2 tests) 101ms
+tv test:  ✓ test/review-fixes.test.ts (6 tests) 151ms
+tv test:  ✓ test/parade-reference.test.ts (1 test) 578ms
+tv test:    ✓ native parade follows the actual reference CSS, including alternate hops and bottom origin  578ms
+tv test: 
+tv test:  Test Files  16 passed (16)
+tv test:       Tests  61 passed (61)
+tv test:    Start at  18:09:06
+tv test:    Duration  1.15s (transform 632ms, setup 0ms, collect 2.36s, tests 1.13s, environment 2ms, prepare 1.46s)
+tv test: 
+tv test: Done
+relay test:  ✓ test/server.test.ts (31 tests) 11579ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > times out mock AI within 4.1 seconds, broadcasts one fallback and still answers ping  4557ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > closes rooms after TV absence or maximum age and cancels the grace timer on resume  341ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > returns ok:false for mock Polly past the five second budget  5002ms
+relay test:    ✓ malformed input and rate caps > caps thumbs at five per second and allows a new window  1037ms
+relay test: 
+relay test:  Test Files  2 passed (2)
+relay test:       Tests  48 passed (48)
+relay test:    Start at  18:09:03
+relay test:    Duration  12.76s (transform 225ms, setup 0ms, collect 847ms, tests 11.63s, environment 0ms, prepare 324ms)
+relay test: 
+relay test: Done

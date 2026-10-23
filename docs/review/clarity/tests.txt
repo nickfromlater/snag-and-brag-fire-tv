@@ -1,0 +1,192 @@
+$ pnpm -r --if-present test && vitest run tools/release/package.test.mjs
+Scope: 9 of 10 workspace projects
+tools/render-art test$ vitest run
+tools/render-audio test$ vitest run
+shared test$ vitest run
+tools/render-audio test:
+tools/render-audio test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/tools/render-audio
+tools/render-audio test:
+tools/render-art test:
+tools/render-art test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/tools/render-art
+tools/render-art test:
+shared test:
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/shared
+shared test:
+shared test:  ✓ test/timeline.test.ts (1 test) 2ms
+shared test:  ✓ test/prompts.test.ts (2 tests) 3ms
+shared test:  ✓ test/mash.test.ts (2 tests) 5ms
+shared test:  ✓ test/host.test.ts (12 tests) 61ms
+shared test:  ✓ test/pixelJudge.test.ts (11 tests) 105ms
+shared test:  ✓ test/showcase.test.ts (3 tests) 364ms
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 359ms
+tools/render-audio test:
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  20:09:04
+tools/render-audio test:    Duration  1.46s (transform 102ms, setup 0ms, collect 407ms, tests 359ms, environment 0ms, prepare 222ms)
+tools/render-audio test:
+tools/render-audio test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 1917ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  1554ms
+tools/render-art test:    ✓ shippable reference art > leaves transparent padding around every complete sticker filter region  332ms
+tools/render-art test:
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  20:09:04
+tools/render-art test:    Duration  2.70s (transform 38ms, setup 0ms, collect 47ms, tests 1.92s, environment 1ms, prepare 70ms)
+tools/render-art test:
+tools/render-art test: Done
+shared test:  ✓ test/game.test.ts (40 tests) 2222ms
+shared test:
+shared test:  Test Files  7 passed (7)
+shared test:       Tests  71 passed (71)
+shared test:    Start at  20:09:04
+shared test:    Duration  3.04s (transform 405ms, setup 0ms, collect 1.23s, tests 2.76s, environment 1ms, prepare 645ms)
+shared test:
+shared test: Done
+phone test$ vitest run
+tools/eval test$ vitest run
+tools/director test$ vitest run
+relay test$ vitest run
+tools/director test:
+tools/director test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/tools/director
+tools/director test:
+phone test:
+phone test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/phone
+phone test:
+relay test:
+relay test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/relay
+relay test:
+tools/eval test:
+tools/eval test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/tools/eval
+tools/eval test:
+phone test:  ✓ test/art.test.ts (2 tests) 3ms
+phone test:  ✓ test/faceBlur.test.ts (20 tests) 23ms
+tools/director test:  ✓ test/capture-guards.test.ts (1 test) 136ms
+relay test:  ✓ test/deploy.test.ts (1 test) 401ms
+relay test:    ✓ rejects an untrusted static archive before extraction or replacing an installed encoder  400ms
+phone test:  ✓ test/logic.test.ts (17 tests) 5ms
+phone test:  ✓ test/transport.test.ts (3 tests) 5ms
+phone test:  ✓ test/camera.test.ts (6 tests) 76ms
+phone test:
+phone test:  Test Files  5 passed (5)
+phone test:       Tests  48 passed (48)
+phone test:    Start at  20:09:08
+phone test:    Duration  1.16s (transform 683ms, setup 0ms, collect 1.56s, tests 114ms, environment 0ms, prepare 889ms)
+phone test:
+phone test: Done
+tv test$ pnpm lint && vitest run
+tv test: $ eslint src test --ext .ts,.tsx
+relay test:  ✓ test/services.test.ts (21 tests) 128ms
+tools/director test:  ✓ test/director.test.ts (5 tests) 437ms
+tools/director test:
+tools/director test:  Test Files  2 passed (2)
+tools/director test:       Tests  6 passed (6)
+tools/director test:    Start at  20:09:08
+tools/director test:    Duration  1.58s (transform 286ms, setup 0ms, collect 589ms, tests 573ms, environment 0ms, prepare 467ms)
+tools/director test:
+tools/director test: Done
+tvsim test$ vitest run
+relay test:  ✓ test/voice-media.test.ts (2 tests) 251ms
+tvsim test:
+tvsim test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/tvsim
+tvsim test:
+relay test:  ✓ test/wav.test.ts (3 tests) 7ms
+tools/eval test:  ✓ test/eval.test.ts (14 tests) 1427ms
+tools/eval test:    ✓ Chrome canvas integration > decodes a fixture, matches shared judging and strips source metadata on capture  1215ms
+tools/eval test:
+tools/eval test:  Test Files  1 passed (1)
+tools/eval test:       Tests  14 passed (14)
+tools/eval test:    Start at  20:09:08
+tools/eval test:    Duration  2.70s (transform 232ms, setup 0ms, collect 628ms, tests 1.43s, environment 0ms, prepare 60ms)
+tools/eval test:
+tools/eval test: Done
+tvsim test:  ✓ test/simulator.test.ts (8 tests) 296ms
+tvsim test:
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  8 passed (8)
+tvsim test:    Start at  20:09:10
+tvsim test:    Duration  859ms (transform 177ms, setup 0ms, collect 267ms, tests 296ms, environment 0ms, prepare 65ms)
+tvsim test:
+tvsim test: Done
+tv test:
+tv test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity/tv
+tv test:
+tv test:  ✓ test/pixel-raster.test.ts (4 tests) 23ms
+tv test:  ✓ test/memory-photos.test.ts (5 tests) 32ms
+tv test:  ✓ test/qr-raster.test.ts (2 tests) 29ms
+tv test:  ✓ test/control-isolation.test.ts (1 test) 220ms
+tv test:  ✓ test/director.test.ts (3 tests) 48ms
+tv test:  ✓ test/particle-plan.test.ts (2 tests) 41ms
+tv test:  ✓ test/native-audio-source.test.ts (3 tests) 30ms
+tv test:  ✓ test/media-transport.test.ts (6 tests) 130ms
+tv test:  ✓ test/runtime-clock.test.ts (2 tests) 69ms
+tv test:  ✓ test/review-fixes.test.ts (7 tests) 39ms
+tv test:  ✓ test/stage-rasters.test.ts (2 tests) 361ms
+tv test:  ✓ test/instruments.test.ts (6 tests) 75ms
+tv test:  ✓ test/native-particles.test.ts (2 tests) 455ms
+tv test:    ✓ matches the reference particle paths and alpha at every 30 Hz frame without future path tables  435ms
+tv test:  ✓ test/eyes-trajectory.test.ts (3 tests) 20ms
+tv test:  ✓ test/effects-text.test.ts (2 tests) 69ms
+tv test:  ✓ test/background-native-window.test.tsx (1 test) 22ms
+tv test:  ✓ test/primitives.test.ts (16 tests) 15ms
+tv test:  ✓ test/stage-lifecycle.test.tsx (3 tests) 14ms
+tv test:  ✓ test/remote-input.test.tsx (4 tests) 10ms
+tv test:  ✓ test/particle-field-native.test.tsx (2 tests) 12ms
+tv test:  ✓ test/speech-source.test.ts (4 tests) 28ms
+tv test:  ✓ test/cue-timing.test.ts (3 tests) 5ms
+tv test:  ✓ test/compact-interpolation.test.ts (2 tests) 5ms
+tv test:  ✓ test/speech.test.ts (19 tests) 15ms
+tv test:  ✓ test/native-voice-lifecycle.test.ts (3 tests) 5ms
+tv test:  ✓ test/session-reconnect.test.ts (4 tests) 7ms
+tv test:  ✓ test/backdrop-playback.test.ts (6 tests) 4ms
+tv test:  ✓ test/display-primitives.test.ts (9 tests) 7ms
+tv test:  ✓ test/host-native-updates.test.tsx (1 test) 8ms
+tv test:  ✓ test/work-monitor.test.ts (3 tests) 2ms
+tv test:  ✓ test/audio-initialization.test.ts (3 tests) 5ms
+tv test:  ✓ test/voice-audio.test.ts (2 tests) 4ms
+tv test:  ✓ test/effects.test.ts (1 test) 8ms
+tv test:  ✓ test/svg-image-source.test.ts (2 tests) 1ms
+tv test:  ✓ test/foreground.test.ts (2 tests) 1ms
+tv test:  ✓ test/coordinates.test.ts (2 tests) 1ms
+tv test:  ✓ test/decorative-clock.test.ts (2 tests) 1ms
+tv test:  ✓ test/parade-reference.test.ts (1 test) 1457ms
+tv test:    ✓ native parade follows the actual reference CSS, including alternate hops and bottom origin  1457ms
+tv test:  ✓ test/photo-raster.test.ts (2 tests) 1525ms
+tv test:    ✓ native photo art coverage > round-trips binary bytes with all base64 padding lengths  1048ms
+tv test:    ✓ native photo art coverage > composes a synthetic photo into an alpha PNG with the calibrated mask and valid chunk checksums  477ms
+tv test:
+tv test:  Test Files  39 passed (39)
+tv test:       Tests  147 passed (147)
+tv test:    Start at  20:09:11
+tv test:    Duration  2.07s (transform 1.32s, setup 0ms, collect 6.62s, tests 4.80s, environment 4ms, prepare 2.38s)
+tv test:
+tv test: Done
+relay test:  ✓ test/server.test.ts (38 tests) 13142ms
+relay test:    ✓ real WebSocket room transport > keeps an application-heartbeat client alive without protocol pong, then expires it when pings stop  418ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > times out mock AI within 4.1 seconds, broadcasts one fallback and still answers ping  4560ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > closes rooms after TV absence or maximum age and cancels the grace timer on resume  340ms
+relay test:    ✓ binary memory, budgets, HTTP and cleanup > returns ok:false for mock Polly past the five second budget  5003ms
+relay test:    ✓ malformed input and rate caps > caps thumbs at five per second and allows a new window  1037ms
+relay test:
+relay test:  Test Files  5 passed (5)
+relay test:       Tests  65 passed (65)
+relay test:    Start at  20:09:08
+relay test:    Duration  14.50s (transform 339ms, setup 0ms, collect 1.16s, tests 13.93s, environment 0ms, prepare 533ms)
+relay test:
+relay test: Done
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/clarity
+
+ ✓ tools/release/package.test.mjs (14 tests) 3344ms
+   ✓ release package boundaries > builds each target with release flags, hashes named packages, quotes paths and never invokes gh  697ms
+   ✓ release package boundaries > restores config and retains the previous upload set after a target failure  415ms
+   ✓ release package boundaries > restores configuration after failed asset generation  371ms
+   ✓ release package boundaries > rejects ambiguous archives  375ms
+   ✓ release package boundaries > cannot reuse a stale archive when the builder produces nothing  385ms
+
+ Test Files  1 passed (1)
+      Tests  14 passed (14)
+   Start at  20:09:23
+   Duration  3.59s (transform 17ms, setup 0ms, collect 16ms, tests 3.34s, environment 0ms, prepare 51ms)
+

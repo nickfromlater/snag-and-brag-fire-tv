@@ -1,0 +1,2173 @@
+$ tsx src/cli.ts -- --relay wss://d2q0olvpmfmvjn.cloudfront.net/ws
+Room JJTS · Join https://d2q0olvpmfmvjn.cloudfront.net/?r=JJTS
+[000.001] #0001 r- phase: lobby
+[000.001] #0002 r- music: lobby
+[000.001] #0003 r- background: normal
+[000.001] #0004 r- host-brow: norm
+[000.001] #0005 r- scene: lobby -> lobby wipe=0ms swap=0ms
+[000.001] #0006 r- parade: duck,mug,dino,lava,crown,teddy,donut,robot
+HUD lobby joined=0 slots=4 bots=0 placeholderMonograms=0
+[000.310] #0007 r- slam: lobby.snag rot=-5 from=2.6 shake=0px ring=false 520ms delay=0ms
+[000.572] #0008 r- pop: lobby.ampersand rot=10 fromRot=-10 spring=pop delay=0ms
+[000.775] #0009 r- slam: lobby.brag rot=-2 from=2.6 shake=0px ring=false 520ms delay=0ms
+[001.016] #0010 r- pop: lobby.tagline rot=-2 fromRot=-10 spring=pop delay=0ms
+[001.016] #0011 r- pop: lobby.join-card rot=2 fromRot=-10 spring=pop delay=120ms
+[001.016] #0012 r- animate: lobby.snag 2600ms delay=900ms rotate(-5deg) -> rotate(-3deg) translateY(-6px) -> rotate(-5deg)
+[001.016] #0013 r- animate: lobby.brag 3000ms delay=1200ms rotate(-2deg) -> rotate(-4deg) translateY(-5px) -> rotate(-2deg)
+[001.016] #0014 r- animate: lobby.ampersand 2200ms delay=1000ms rotate(10deg) -> rotate(-6deg) scale(1.06) -> rotate(10deg)
+[001.016] #0015 r- host: lobby.open brow=norm type=1598ms hold=2400ms: Good evening! I am **Sir Socksworth**, and tonight your stuff gets famous. Grab a phone and join!
+[002.617] #0016 r- host-finish: Good evening! I am **Sir Socksworth**, and tonight your stuff gets famous. Grab a phone and join!
+[006.620] #0017 r- host-hide: 220ms
+[009.994] #0018 r- slam: chip:p1 rot=0 from=1.8 shake=5px ring=false 520ms delay=0ms
+[009.995] #0019 r- sfx: join() delay=0ms
+[009.995] #0020 r- host-react: glee 1200ms
+[009.995] #0021 r- confetti: n=40 power=500 angle=1.57 delay=0ms
+[009.995] #0022 r- host: lobby.join brow=up type=952ms hold=1470ms: Welcome, **Sock Goblins**! Lovely badge. Very **Sock Goblins**.
+HUD lobby joined=1 slots=4 bots=0 placeholderMonograms=0
+[010.876] #0023 r- slam: chip:cp rot=0 from=1.8 shake=5px ring=false 520ms delay=0ms
+[010.876] #0024 r- sfx: join() delay=0ms
+[010.876] #0025 r- slam: chip:jd rot=0 from=1.8 shake=5px ring=false 520ms delay=0ms
+[010.876] #0026 r- sfx: join() delay=0ms
+[010.876] #0027 r- slam: chip:gr rot=0 from=1.8 shake=5px ring=false 520ms delay=0ms
+[010.876] #0028 r- sfx: join() delay=0ms
+HUD lobby joined=4 slots=4 bots=3 placeholderMonograms=0
+[010.949] #0029 r- host-finish: Welcome, **Sock Goblins**! Lovely badge. Very **Sock Goblins**.
+[012.419] #0030 r- host: lobby.ready brow=up type=884ms hold=1414ms: Four teams! Host phone, **hold the button** when ready.
+[013.301] #0031 r- host-finish: Four teams! Host phone, **hold the button** when ready.
+[014.272] #0032 r1 sfx: horn() delay=0ms
+[014.273] #0033 r1 phase: title
+[014.273] #0034 r1 music: tension
+[014.273] #0035 r1 background: normal
+[014.273] #0036 r1 scene: lobby -> intro wipe=1000ms swap=470ms
+[014.273] #0037 r1 sfx: whoosh() delay=0ms
+HUD game joined=4 slots=4 bots=3 placeholderMonograms=0
+[015.277] #0038 r1 pop: intro.kicker rot=-3 fromRot=-10 spring=pop delay=0ms
+[015.530] #0039 r1 slam: intro.title rot=-3 from=2.6 shake=14px ring=true 520ms delay=0ms
+[015.530] #0040 r1 confetti: n=60 power=1000 angle=-1.57 delay=0ms
+[015.530] #0041 r1 punch: scale=1.05 420ms
+[016.031] #0042 r1 pop: intro.sub rot=0 fromRot=-10 spring=pop delay=0ms
+[016.031] #0043 r1 host: intro.title brow=norm type=1122ms hold=900ms: Round one: **Color Rush**! The Pixel Judge sees all. Even the fridge.
+[017.156] #0044 r1 host-finish: Round one: **Color Rush**! The Pixel Judge sees all. Even the fridge.
+[018.055] #0045 r1 animate: intro.title 380ms delay=0ms rotate(-3deg) -> translateY(-160px) rotate(-10deg) scale(.6)
+[018.055] #0046 r1 animate: intro.sub 250ms delay=0ms 1 -> 0
+[018.055] #0047 r1 animate: intro.kicker 250ms delay=0ms 1 -> 0
+[018.308] #0048 r1 phase: reel timer=2400ms
+[018.310] #0049 r1 pop: intro.reel rot=0 fromRot=-10 spring=pop delay=0ms
+[018.310] #0050 r1 pop: intro.arrow-left rot=0 fromRot=-10 spring=pop delay=0ms
+[018.310] #0051 r1 pop: intro.arrow-right rot=0 fromRot=-10 spring=pop delay=0ms
+[018.310] #0052 r1 animate: intro.bulbs 200ms delay=0ms 0 -> 1
+[018.311] #0053 r1 sfx: drumroll(2.3) delay=0ms
+[018.311] #0054 r1 reel: 16 cards 2400ms -> RED
+[019.657] #0055 r1 host-hide: 220ms
+[020.711] #0056 r1 phase: reel
+[020.711] #0057 r1 sfx: reveal() delay=0ms
+[020.711] #0058 r1 sfx: slam() delay=0ms
+[020.711] #0059 r1 shake: 14px 380ms
+[020.711] #0060 r1 flash: opacity=0.6 380ms
+[020.711] #0061 r1 punch: scale=1.06 420ms
+[020.711] #0062 r1 host-react: glee 900ms
+[020.711] #0063 r1 confetti: n=70 power=1100 angle=-1.57 delay=0ms
+[020.711] #0064 r1 eyes: all power=8
+[020.711] #0065 r1 host: intro.reel-land brow=up type=884ms hold=700ms: Find the most **red** thing you can. Closest color wins.
+[021.598] #0066 r1 host-finish: Find the most **red** thing you can. Closest color wins.
+[022.297] #0067 r1 phase: countdown
+[022.297] #0068 r1 animate: intro.reel 260ms delay=0ms none -> scale(.8)
+[022.297] #0069 r1 animate: intro.bulbs 200ms delay=0ms 1 -> 0
+[022.297] #0070 r1 animate: intro.arrow-left 200ms delay=0ms 1 -> 0
+[022.297] #0071 r1 animate: intro.arrow-right 200ms delay=0ms 1 -> 0
+[022.297] #0072 r1 sfx: beep(0) delay=0ms
+[022.297] #0073 r1 count: intro 3 760ms
+[023.060] #0074 r1 sfx: beep(0) delay=0ms
+[023.060] #0075 r1 count: intro 2 760ms
+[023.823] #0076 r1 sfx: beep(0) delay=0ms
+[023.823] #0077 r1 count: intro 1 760ms
+[023.899] #0078 r1 host-hide: 220ms
+[024.585] #0079 r1 sfx: beep(1) delay=0ms
+[024.585] #0080 r1 sfx: horn() delay=0ms
+[024.585] #0081 r1 flash: opacity=0.7 380ms
+[024.585] #0082 r1 shake: 16px 380ms
+[024.585] #0083 r1 confetti: n=90 power=1300 angle=-1.57 delay=0ms
+[024.585] #0084 r1 count: intro SNAG! 900ms
+[025.236] #0085 r1 scene: intro -> hunt wipe=1000ms swap=470ms
+[025.237] #0086 r1 sfx: whoosh() delay=0ms
+[026.240] #0087 r1 music: hunt
+[026.240] #0088 r1 background: normal
+[026.240] #0089 r1 phase: hunt timer=35000ms
+[026.508] #0090 r1 feed: p1 hunting: Hunting… thumbnail=true
+[026.839] #0091 r1 feed: p1 hunting: Hunting… thumbnail=true
+[027.176] #0092 r1 feed: p1 hunting: Hunting… thumbnail=true
+[027.519] #0093 r1 feed: p1 hunting: Hunting… thumbnail=true
+[027.841] #0094 r1 feed: p1 hunting: Hunting… thumbnail=true
+[028.180] #0095 r1 feed: p1 hunting: Hunting… thumbnail=true
+[028.507] #0096 r1 feed: p1 hunting: Hunting… thumbnail=true
+[028.841] #0097 r1 feed: p1 hunting: Hunting… thumbnail=true
+[029.175] #0098 r1 feed: p1 hunting: Hunting… thumbnail=true
+[029.325] #0099 r1 feed: p1 locked: Snagged: Your photo thumbnail=false
+[029.325] #0100 r1 find: p1 #1 memory photo: Lady Knickknack mask=24x24 bytes=72 onCells=75 valid=true
+[029.325] #0101 r1 sfx: snagged() delay=0ms
+[029.325] #0102 r1 host-react: glee 900ms
+[029.325] #0103 r1 sticker-flight: p1 phone -> slot eyes=false 780ms arc=140
+[029.438] #0104 r1 sfx: sparkle() delay=0ms
+[029.438] #0105 r1 feed: p1 locked: Snagged: a real thing thumbnail=false
+[029.625] #0106 r1 animate: feed-flash:p1 380ms delay=0ms 1 -> 0
+[029.965] #0107 r1 feed: p1 snagged: Snagged: a real thing thumbnail=false
+[029.965] #0108 r1 slam: slot-card:p1 rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[029.966] #0109 r1 animate: snag-burst:p1 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[029.966] #0110 r1 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[029.966] #0111 r1 pop: first-snag:p1 rot=-4 fromRot=-10 spring=pop delay=0ms
+[030.512] #0112 r1 feed: gr locked: Snagged: Toy rocket thumbnail=false
+[030.512] #0113 r1 find: gr #2 object=rocket: Captain Liftoff
+[030.512] #0114 r1 sfx: rival() delay=0ms
+[030.512] #0115 r1 host-react: shock 800ms
+[030.813] #0116 r1 animate: feed-flash:gr 380ms delay=0ms 1 -> 0
+[031.153] #0117 r1 feed: gr snagged: Snagged: Toy rocket thumbnail=false
+[031.154] #0118 r1 slam: slot-card:gr rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[031.154] #0119 r1 animate: snag-burst:gr 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[031.154] #0120 r1 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[033.711] #0121 r1 sfx: whoop() delay=0ms
+[033.711] #0122 r1 sticker-flight: p1 phone -> slot eyes=true 780ms arc=140
+[033.711] #0123 r1 slam: ready:p1 rot=-12 from=2.2 shake=4px ring=false 420ms delay=780ms
+[033.711] #0124 r1 sfx: stamp() delay=780ms
+[034.492] #0125 r1 feed: p1 ready: Snagged: a real thing thumbnail=false
+[039.005] #0126 r1 feed: cp locked: Snagged: Tomato thumbnail=false
+[039.005] #0127 r1 find: cp #3 object=tomato: Tomato Montana
+[039.005] #0128 r1 sfx: rival() delay=0ms
+[039.005] #0129 r1 host-react: shock 800ms
+[039.306] #0130 r1 animate: feed-flash:cp 380ms delay=0ms 1 -> 0
+[039.646] #0131 r1 feed: cp snagged: Snagged: Tomato thumbnail=false
+[039.646] #0132 r1 slam: slot-card:cp rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[039.646] #0133 r1 animate: snag-burst:cp 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[039.646] #0134 r1 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[050.914] #0135 r1 feed: jd locked: Snagged: Coffee mug thumbnail=false
+[050.915] #0136 r1 find: jd #4 object=mug: Mugsy Malone
+[050.915] #0137 r1 sfx: rival() delay=0ms
+[050.915] #0138 r1 host-react: shock 800ms
+[051.216] #0139 r1 animate: feed-flash:jd 380ms delay=0ms 1 -> 0
+[051.244] #0140 r1 music: urgent
+[051.244] #0141 r1 background: urgent
+[051.244] #0142 r1 sfx: riser(1.2) delay=0ms
+[051.556] #0143 r1 feed: jd snagged: Snagged: Coffee mug thumbnail=false
+[051.556] #0144 r1 slam: slot-card:jd rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[051.556] #0145 r1 animate: snag-burst:jd 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[051.556] #0146 r1 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[052.217] #0147 r1 phase: time
+[052.217] #0148 r1 slam: hunt.time rot=0 from=2.6 shake=16px ring=true 520ms delay=0ms
+[052.217] #0149 r1 sfx: buzzer() delay=0ms
+[052.217] #0150 r1 host-react: shock 1000ms
+[052.217] #0151 r1 music: tension
+[052.217] #0152 r1 background: normal
+[053.120] #0153 r1 animate: hunt.time 300ms delay=0ms 1 -> 0
+[053.121] #0154 r1 phase: glow timer=15000ms
+[053.121] #0155 r1 feed: cp glowing: Snagged: Tomato thumbnail=false
+[053.121] #0156 r1 feed: jd glowing: Snagged: Coffee mug thumbnail=false
+[053.121] #0157 r1 feed: gr glowing: Snagged: Toy rocket thumbnail=false
+[053.121] #0158 r1 host: hunt.glow-up brow=norm type=782ms hold=500ms: Glow-up time! Eyes on, names on, brags ready.
+[053.421] #0159 r1 slam: ready:cp rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[053.421] #0160 r1 sfx: stamp() delay=0ms
+[053.421] #0161 r1 feed: cp ready: Snagged: Tomato thumbnail=false
+[053.773] #0162 r1 slam: ready:jd rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[053.773] #0163 r1 sfx: stamp() delay=0ms
+[053.773] #0164 r1 feed: jd ready: Snagged: Coffee mug thumbnail=false
+[053.904] #0165 r1 host-finish: Glow-up time! Eyes on, names on, brags ready.
+[054.123] #0166 r1 slam: ready:gr rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[054.123] #0167 r1 sfx: stamp() delay=0ms
+[054.123] #0168 r1 feed: gr ready: Snagged: Toy rocket thumbnail=false
+[054.127] #0169 r1 phase: glow
+[054.829] #0170 r1 phase: judge
+[054.829] #0171 r1 scene: hunt -> judge wipe=1000ms swap=470ms
+[054.829] #0172 r1 sfx: whoosh() delay=0ms
+[055.833] #0173 r1 host: judge.open brow=norm type=1088ms hold=500ms: The Pixel Judge sees every pixel. Let us see who is really **red**.
+[056.677] #0174 r1 reaction: crowd star hype=0
+[056.924] #0175 r1 host-finish: The Pixel Judge sees every pixel. Let us see who is really **red**.
+[057.100] #0176 r1 reaction: crowd heart hype=0
+[057.424] #0177 r1 sfx: flip() delay=0ms
+[057.425] #0178 r1 card-flip: p1 620ms
+[057.827] #0179 r1 eyes: judge-card:p1 power=14
+[057.944] #0180 r1 reaction: crowd tomato hype=0
+[057.987] #0181 r1 sfx: scan() delay=0ms
+[057.987] #0182 r1 scan: p1 beam=800ms pixels=10x10
+[058.810] #0183 r1 animate: judge-bar:p1 800ms delay=0ms 0% -> 2%
+[058.810] #0184 r1 animate: judge-swatch:p1 spring=wobble delay=0ms scale(0) -> scale(1)
+[058.810] #0185 r1 meter: p1 2% +30 speed 800ms
+[059.024] #0186 r1 host-hide: 220ms
+[059.209] #0187 r1 reaction: crowd flame hype=0
+[059.613] #0188 r1 shake: 5px 380ms
+[059.613] #0189 r1 host-react: shock 900ms
+[059.613] #0190 r1 confetti: n=24 power=600 angle=-1.57 delay=0ms
+[059.613] #0191 r1 fly-points: p1 +32 -> chip 1300ms delay=0ms
+[059.614] #0192 r1 sfx: pop(4) delay=0ms
+[059.614] #0193 r1 sfx: whoop() delay=480ms
+[059.631] #0194 r1 reaction: crowd heart hype=0
+[060.035] #0195 r1 sfx: flip() delay=0ms
+[060.035] #0196 r1 card-flip: gr 620ms
+[060.053] #0197 r1 reaction: crowd heart hype=0
+[060.437] #0198 r1 eyes: judge-card:gr power=14
+[060.475] #0199 r1 reaction: crowd star hype=0
+[060.596] #0200 r1 sfx: scan() delay=0ms
+[060.596] #0201 r1 scan: gr beam=800ms pixels=10x10
+[060.898] #0202 r1 reaction: crowd star hype=0
+[060.917] #0203 r1 score: p1 0 -> 32 leaders=p1
+[060.917] #0204 r1 animate: chip:p1 spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[060.917] #0205 r1 sfx: coin() delay=0ms
+[060.917] #0206 r1 stars: n=10 color=#FF4FA0
+[060.917] #0207 r1 ring: radius=90 color=#FF4FA0
+[060.919] #0208 r1 host: reveal.ai-quip brow=norm type=884ms hold=400ms: A most distinguished find. Do mind the velvet rope.
+[061.319] #0209 r1 reaction: crowd tomato hype=0
+[061.418] #0210 r1 animate: judge-bar:gr 800ms delay=0ms 0% -> 99%
+[061.418] #0211 r1 animate: judge-swatch:gr spring=wobble delay=0ms scale(0) -> scale(1)
+[061.418] #0212 r1 meter: gr 99% +20 speed 800ms
+[061.742] #0213 r1 reaction: crowd star hype=0
+[061.804] #0214 r1 host-finish: A most distinguished find. Do mind the velvet rope.
+[062.164] #0215 r1 reaction: crowd heart hype=0
+[062.218] #0216 r1 shake: 5px 380ms
+[062.218] #0217 r1 host-react: glee 900ms
+[062.218] #0218 r1 confetti: n=24 power=600 angle=-1.57 delay=0ms
+[062.218] #0219 r1 fly-points: gr +119 -> chip 1300ms delay=0ms
+[062.218] #0220 r1 sfx: pop(4) delay=0ms
+[062.218] #0221 r1 sfx: whoop() delay=480ms
+[062.639] #0222 r1 sfx: flip() delay=0ms
+[062.640] #0223 r1 card-flip: cp 620ms
+[063.009] #0224 r1 reaction: crowd heart hype=0
+[063.041] #0225 r1 eyes: judge-card:cp power=14
+[063.202] #0226 r1 sfx: scan() delay=0ms
+[063.202] #0227 r1 scan: cp beam=800ms pixels=10x10
+[063.432] #0228 r1 reaction: crowd heart hype=0
+[063.521] #0229 r1 score: gr 0 -> 119 leaders=gr
+[063.521] #0230 r1 animate: chip:gr spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[063.521] #0231 r1 sfx: coin() delay=0ms
+[063.521] #0232 r1 stars: n=10 color=#3FE0D0
+[063.521] #0233 r1 ring: radius=90 color=#3FE0D0
+[063.806] #0234 r1 host-hide: 220ms
+[064.024] #0235 r1 animate: judge-bar:cp 800ms delay=0ms 0% -> 96%
+[064.024] #0236 r1 animate: judge-swatch:cp spring=wobble delay=0ms scale(0) -> scale(1)
+[064.024] #0237 r1 meter: cp 96% +10 speed 800ms
+[064.698] #0238 r1 reaction: crowd flame hype=0
+[064.826] #0239 r1 shake: 5px 380ms
+[064.827] #0240 r1 host-react: glee 900ms
+[064.827] #0241 r1 confetti: n=24 power=600 angle=-1.57 delay=0ms
+[064.827] #0242 r1 fly-points: cp +106 -> chip 1300ms delay=0ms
+[064.827] #0243 r1 sfx: pop(4) delay=0ms
+[064.827] #0244 r1 sfx: whoop() delay=480ms
+[065.120] #0245 r1 reaction: crowd tomato hype=0
+[065.250] #0246 r1 sfx: flip() delay=0ms
+[065.250] #0247 r1 card-flip: jd 620ms
+[065.653] #0248 r1 eyes: judge-card:jd power=14
+[065.812] #0249 r1 sfx: scan() delay=0ms
+[065.812] #0250 r1 scan: jd beam=800ms pixels=10x10
+[065.965] #0251 r1 reaction: crowd star hype=0
+[066.128] #0252 r1 score: cp 0 -> 106 leaders=gr
+[066.128] #0253 r1 animate: chip:cp spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[066.128] #0254 r1 sfx: coin() delay=0ms
+[066.128] #0255 r1 stars: n=10 color=#FF7A1F
+[066.128] #0256 r1 ring: radius=90 color=#FF7A1F
+[066.388] #0257 r1 reaction: crowd star hype=0
+[066.635] #0258 r1 animate: judge-bar:jd 800ms delay=0ms 0% -> 94%
+[066.635] #0259 r1 animate: judge-swatch:jd spring=wobble delay=0ms scale(0) -> scale(1)
+[066.635] #0260 r1 meter: jd 94% +0 speed 800ms
+[067.233] #0261 r1 reaction: crowd heart hype=0
+[067.437] #0262 r1 shake: 5px 380ms
+[067.437] #0263 r1 host-react: glee 900ms
+[067.437] #0264 r1 confetti: n=24 power=600 angle=-1.57 delay=0ms
+[067.437] #0265 r1 fly-points: jd +94 -> chip 1300ms delay=0ms
+[067.437] #0266 r1 sfx: pop(4) delay=0ms
+[067.437] #0267 r1 sfx: whoop() delay=480ms
+[067.655] #0268 r1 reaction: crowd star hype=0
+[067.859] #0269 r1 music: brag
+[067.859] #0270 r1 background: party
+[067.859] #0271 r1 slam: judge.banner rot=-2 from=2.6 shake=10px ring=true 520ms delay=0ms
+[067.859] #0272 r1 slam: judge.crown rot=16 from=2.6 shake=6px ring=false 520ms delay=0ms
+[067.859] #0273 r1 animate: judge-card:gr spring=wobble delay=0ms scale(1) -> scale(1.06) rotate(-2deg)
+[067.859] #0274 r1 confetti: n=120 power=1200 angle=-1.57 delay=0ms
+[067.859] #0275 r1 sfx: fanfare() delay=0ms
+[067.859] #0276 r1 host-react: glee 1600ms
+[067.859] #0277 r1 host: judge.winner brow=up type=952ms hold=1200ms: **Grandma's Revenge** wins Color Rush with **Captain Liftoff**!
+[068.499] #0278 r1 reaction: crowd heart hype=0
+[068.739] #0279 r1 score: jd 0 -> 94 leaders=gr
+[068.739] #0280 r1 animate: chip:jd spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[068.739] #0281 r1 sfx: coin() delay=0ms
+[068.739] #0282 r1 stars: n=10 color=#B8F23B
+[068.739] #0283 r1 ring: radius=90 color=#B8F23B
+[068.813] #0284 r1 host-finish: **Grandma's Revenge** wins Color Rush with **Captain Liftoff**!
+[069.344] #0285 r1 reaction: crowd star hype=0
+[070.013] #0286 r1 phase: standings
+[070.013] #0287 r1 scene: judge -> stand wipe=1000ms swap=470ms
+[070.013] #0288 r1 sfx: whoosh() delay=0ms
+[070.188] #0289 r1 reaction: crowd tomato hype=0
+[071.018] #0290 r1 music: lobby
+[071.018] #0291 r1 background: normal
+[071.018] #0292 r1 slam: stand.title rot=-2 from=2.6 shake=8px ring=true 520ms delay=0ms
+[071.018] #0293 r1 pop: stand.kicker rot=2 fromRot=-10 spring=pop delay=200ms
+[071.018] #0294 r1 animate: lane:p1 spring=soft delay=150ms translateX(-1400px) -> none
+[071.018] #0295 r1 animate: lane:cp spring=soft delay=240ms translateX(-1400px) -> none
+[071.018] #0296 r1 animate: lane:jd spring=soft delay=330ms translateX(-1400px) -> none
+[071.018] #0297 r1 animate: lane:gr spring=soft delay=420ms translateX(-1400px) -> none
+[071.616] #0298 r1 host-hide: 220ms
+[071.970] #0299 r1 sfx: riser(1.2) delay=0ms
+[071.970] #0300 r1 animate: lane-fill:gr 1300ms delay=0ms 5% -> 95%
+[071.970] #0301 r1 animate: lane-rider:gr 1300ms delay=0ms 5% -> 95%
+[071.970] #0302 r1 roll: lane-score:gr 0 -> 119 1300ms
+[071.970] #0303 r1 animate: lane-badge:gr 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[071.970] #0304 r1 animate: lane-delta:gr spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[071.970] #0305 r1 animate: lane-fill:cp 1300ms delay=0ms 5% -> 85.64964447317388%
+[071.970] #0306 r1 animate: lane-rider:cp 1300ms delay=0ms 5% -> 85.64964447317388%
+[071.970] #0307 r1 roll: lane-score:cp 0 -> 106 1300ms
+[071.970] #0308 r1 animate: lane-badge:cp 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[071.970] #0309 r1 animate: lane-delta:cp spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[071.970] #0310 r1 animate: lane-fill:jd 1300ms delay=0ms 5% -> 75.95345830639948%
+[071.970] #0311 r1 animate: lane-rider:jd 1300ms delay=0ms 5% -> 75.95345830639948%
+[071.970] #0312 r1 roll: lane-score:jd 0 -> 94 1300ms
+[071.970] #0313 r1 animate: lane-badge:jd 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[071.970] #0314 r1 animate: lane-delta:jd spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[071.970] #0315 r1 animate: lane-fill:p1 1300ms delay=0ms 5% -> 25.856496444731736%
+[071.970] #0316 r1 animate: lane-rider:p1 1300ms delay=0ms 5% -> 25.856496444731736%
+[071.970] #0317 r1 roll: lane-score:p1 0 -> 32 1300ms
+[071.970] #0318 r1 animate: lane-badge:p1 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[071.970] #0319 r1 animate: lane-delta:p1 spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[073.522] #0320 r1 animate: lane:gr spring=soft delay=0ms 234px -> 0px
+[073.522] #0321 r1 slam: overtake:gr rot=-5 from=2.2 shake=5px ring=false 520ms delay=250ms
+[073.522] #0322 r1 animate: lane:p1 spring=soft delay=0ms 0px -> 234px
+[073.522] #0323 r1 sfx: whoosh() delay=0ms
+[073.522] #0324 r1 sfx: stamp() delay=320ms
+[073.522] #0325 r1 host: stand.leader brow=norm type=1190ms hold=1200ms: **Grandma's Revenge** lead the pack! Do not get cocky. Get a little cocky.
+[074.044] #0326 r1 confetti: n=40 power=700 angle=-1.57 delay=0ms
+[074.044] #0327 r1 sfx: coin() delay=0ms
+[074.712] #0328 r1 host-finish: **Grandma's Revenge** lead the pack! Do not get cocky. Get a little cocky.
+[075.913] #0329 r2 phase: title
+[075.913] #0330 r2 music: tension
+[075.913] #0331 r2 background: normal
+[075.913] #0332 r2 scene: stand -> intro wipe=1000ms swap=470ms
+[075.913] #0333 r2 sfx: whoosh() delay=0ms
+[076.916] #0334 r2 pop: intro.kicker rot=-3 fromRot=-10 spring=pop delay=0ms
+[077.168] #0335 r2 slam: intro.title rot=-3 from=2.6 shake=14px ring=true 520ms delay=0ms
+[077.168] #0336 r2 confetti: n=60 power=1000 angle=-1.57 delay=0ms
+[077.168] #0337 r2 punch: scale=1.05 420ms
+[077.513] #0338 r2 host-hide: 220ms
+[077.670] #0339 r2 pop: intro.sub rot=0 fromRot=-10 spring=pop delay=0ms
+[077.670] #0340 r2 host: intro.title brow=norm type=1394ms hold=900ms: Round two: the **Brag-Off**! Head to head, mash your phones, shout at your relatives.
+[079.064] #0341 r2 host-finish: Round two: the **Brag-Off**! Head to head, mash your phones, shout at your relatives.
+[079.966] #0342 r2 animate: intro.title 380ms delay=0ms rotate(-3deg) -> translateY(-160px) rotate(-10deg) scale(.6)
+[079.966] #0343 r2 animate: intro.sub 250ms delay=0ms 1 -> 0
+[079.966] #0344 r2 animate: intro.kicker 250ms delay=0ms 1 -> 0
+[080.217] #0345 r2 phase: reel timer=2400ms
+[080.217] #0346 r2 pop: intro.reel rot=0 fromRot=-10 spring=pop delay=0ms
+[080.217] #0347 r2 pop: intro.arrow-left rot=0 fromRot=-10 spring=pop delay=0ms
+[080.217] #0348 r2 pop: intro.arrow-right rot=0 fromRot=-10 spring=pop delay=0ms
+[080.217] #0349 r2 animate: intro.bulbs 200ms delay=0ms 0 -> 1
+[080.217] #0350 r2 sfx: drumroll(2.3) delay=0ms
+[080.217] #0351 r2 reel: 16 cards 2400ms -> SEEN THINGS
+[081.565] #0352 r2 host-hide: 220ms
+[082.621] #0353 r2 phase: reel
+[082.621] #0354 r2 sfx: reveal() delay=0ms
+[082.621] #0355 r2 sfx: slam() delay=0ms
+[082.621] #0356 r2 shake: 14px 380ms
+[082.621] #0357 r2 flash: opacity=0.6 380ms
+[082.621] #0358 r2 punch: scale=1.06 420ms
+[082.621] #0359 r2 host-react: glee 900ms
+[082.621] #0360 r2 confetti: n=70 power=1100 angle=-1.57 delay=0ms
+[082.621] #0361 r2 eyes: all power=8
+[082.621] #0362 r2 host: intro.reel-land brow=up type=850ms hold=700ms: **Something that has seen things**. Be bold. Be weird.
+[083.474] #0363 r2 host-finish: **Something that has seen things**. Be bold. Be weird.
+[084.174] #0364 r2 phase: countdown
+[084.175] #0365 r2 animate: intro.reel 260ms delay=0ms none -> scale(.8)
+[084.175] #0366 r2 animate: intro.bulbs 200ms delay=0ms 1 -> 0
+[084.175] #0367 r2 animate: intro.arrow-left 200ms delay=0ms 1 -> 0
+[084.175] #0368 r2 animate: intro.arrow-right 200ms delay=0ms 1 -> 0
+[084.175] #0369 r2 sfx: beep(0) delay=0ms
+[084.175] #0370 r2 count: intro 3 760ms
+[084.937] #0371 r2 sfx: beep(0) delay=0ms
+[084.937] #0372 r2 count: intro 2 760ms
+[085.699] #0373 r2 sfx: beep(0) delay=0ms
+[085.699] #0374 r2 count: intro 1 760ms
+[085.776] #0375 r2 host-hide: 220ms
+[086.462] #0376 r2 sfx: beep(1) delay=0ms
+[086.462] #0377 r2 sfx: horn() delay=0ms
+[086.462] #0378 r2 flash: opacity=0.7 380ms
+[086.462] #0379 r2 shake: 16px 380ms
+[086.462] #0380 r2 confetti: n=90 power=1300 angle=-1.57 delay=0ms
+[086.462] #0381 r2 count: intro SNAG! 900ms
+[087.114] #0382 r2 scene: intro -> hunt wipe=1000ms swap=470ms
+[087.114] #0383 r2 sfx: whoosh() delay=0ms
+[088.117] #0384 r2 music: hunt
+[088.118] #0385 r2 background: normal
+[088.118] #0386 r2 phase: hunt timer=35000ms
+[088.223] #0387 r2 feed: p1 hunting: Hunting… thumbnail=true
+[088.557] #0388 r2 feed: p1 hunting: Hunting… thumbnail=true
+[088.896] #0389 r2 feed: p1 hunting: Hunting… thumbnail=true
+[089.229] #0390 r2 feed: p1 hunting: Hunting… thumbnail=true
+[089.559] #0391 r2 feed: p1 hunting: Hunting… thumbnail=true
+[089.898] #0392 r2 feed: p1 hunting: Hunting… thumbnail=true
+[090.230] #0393 r2 feed: p1 hunting: Hunting… thumbnail=true
+[090.561] #0394 r2 feed: p1 hunting: Hunting… thumbnail=true
+[090.897] #0395 r2 feed: p1 hunting: Hunting… thumbnail=true
+[090.963] #0396 r2 feed: p1 locked: Snagged: Your photo thumbnail=false
+[090.963] #0397 r2 find: p1 #1 memory photo: Sir Whatsit
+[090.963] #0398 r2 sfx: snagged() delay=0ms
+[090.963] #0399 r2 host-react: glee 900ms
+[090.963] #0400 r2 sticker-flight: p1 phone -> slot eyes=false 780ms arc=140
+[091.063] #0401 r2 sfx: sparkle() delay=0ms
+[091.064] #0402 r2 feed: p1 locked: Snagged: a real thing thumbnail=false
+[091.265] #0403 r2 animate: feed-flash:p1 380ms delay=0ms 1 -> 0
+[091.605] #0404 r2 feed: p1 snagged: Snagged: a real thing thumbnail=false
+[091.606] #0405 r2 slam: slot-card:p1 rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[091.606] #0406 r2 animate: snag-burst:p1 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[091.606] #0407 r2 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[094.572] #0408 r2 feed: gr locked: Snagged: Teddy bear thumbnail=false
+[094.573] #0409 r2 find: gr #2 object=teddy: Sir Hugsby
+[094.573] #0410 r2 sfx: rival() delay=0ms
+[094.573] #0411 r2 host-react: shock 800ms
+[094.875] #0412 r2 animate: feed-flash:gr 380ms delay=0ms 1 -> 0
+[095.214] #0413 r2 feed: gr snagged: Snagged: Teddy bear thumbnail=false
+[095.215] #0414 r2 slam: slot-card:gr rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[095.215] #0415 r2 animate: snag-burst:gr 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[095.215] #0416 r2 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[095.710] #0417 r2 sfx: whoop() delay=0ms
+[095.711] #0418 r2 sticker-flight: p1 phone -> slot eyes=true 780ms arc=140
+[095.711] #0419 r2 slam: ready:p1 rot=-12 from=2.2 shake=4px ring=false 420ms delay=780ms
+[095.711] #0420 r2 sfx: stamp() delay=780ms
+[096.493] #0421 r2 feed: p1 ready: Snagged: a real thing thumbnail=false
+[098.255] #0422 r2 feed: cp locked: Snagged: Vinyl record thumbnail=false
+[098.256] #0423 r2 find: cp #3 object=record: Vinny Vinyl
+[098.257] #0424 r2 sfx: rival() delay=0ms
+[098.257] #0425 r2 host-react: shock 800ms
+[098.559] #0426 r2 animate: feed-flash:cp 380ms delay=0ms 1 -> 0
+[098.896] #0427 r2 feed: cp snagged: Snagged: Vinyl record thumbnail=false
+[098.897] #0428 r2 slam: slot-card:cp rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[098.897] #0429 r2 animate: snag-burst:cp 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[098.897] #0430 r2 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[105.794] #0431 r2 feed: jd locked: Snagged: Grandpa portrait thumbnail=false
+[105.794] #0432 r2 find: jd #4 object=portrait: Great Uncle Mort
+[105.795] #0433 r2 sfx: rival() delay=0ms
+[105.795] #0434 r2 host-react: shock 800ms
+[106.098] #0435 r2 animate: feed-flash:jd 380ms delay=0ms 1 -> 0
+[106.436] #0436 r2 feed: jd snagged: Snagged: Grandpa portrait thumbnail=false
+[106.436] #0437 r2 slam: slot-card:jd rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[106.436] #0438 r2 animate: snag-burst:jd 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[106.436] #0439 r2 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[107.097] #0440 r2 phase: time
+[107.097] #0441 r2 slam: hunt.time rot=0 from=2.6 shake=16px ring=true 520ms delay=0ms
+[107.097] #0442 r2 sfx: buzzer() delay=0ms
+[107.097] #0443 r2 host-react: shock 1000ms
+[107.097] #0444 r2 music: tension
+[107.097] #0445 r2 background: normal
+[107.999] #0446 r2 animate: hunt.time 300ms delay=0ms 1 -> 0
+[108.000] #0447 r2 phase: glow timer=15000ms
+[108.000] #0448 r2 feed: cp glowing: Snagged: Vinyl record thumbnail=false
+[108.000] #0449 r2 feed: jd glowing: Snagged: Grandpa portrait thumbnail=false
+[108.000] #0450 r2 feed: gr glowing: Snagged: Teddy bear thumbnail=false
+[108.000] #0451 r2 host: hunt.glow-up brow=norm type=782ms hold=500ms: Glow-up time! Eyes on, names on, brags ready.
+[108.302] #0452 r2 slam: ready:cp rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[108.302] #0453 r2 sfx: stamp() delay=0ms
+[108.302] #0454 r2 feed: cp ready: Snagged: Vinyl record thumbnail=false
+[108.653] #0455 r2 slam: ready:jd rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[108.653] #0456 r2 sfx: stamp() delay=0ms
+[108.653] #0457 r2 feed: jd ready: Snagged: Grandpa portrait thumbnail=false
+[108.784] #0458 r2 host-finish: Glow-up time! Eyes on, names on, brags ready.
+[109.001] #0459 r2 slam: ready:gr rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[109.001] #0460 r2 sfx: stamp() delay=0ms
+[109.001] #0461 r2 feed: gr ready: Snagged: Teddy bear thumbnail=false
+[109.005] #0462 r2 phase: glow
+[109.710] #0463 r2 phase: brag-intro
+[109.710] #0464 r2 scene: hunt -> brag wipe=1000ms swap=470ms
+[109.710] #0465 r2 sfx: whoosh() delay=0ms
+[110.715] #0466 r2 music: brag
+[110.715] #0467 r2 background: normal
+[110.715] #0468 r2 match: SEMI-FINAL 1 OF 2: p1 vs cp +100
+[110.715] #0469 r2 animate: brag.panel-left 560ms delay=0ms translateX(-105%) -> none
+[110.715] #0470 r2 animate: brag.panel-right 560ms delay=60ms translateX(105%) -> none
+[110.715] #0471 r2 sfx: whoosh() delay=0ms
+[110.715] #0472 r2 animate: brag.seam 260ms delay=480ms scaleY(0) -> none
+[110.715] #0473 r2 animate: brag.fighter-left spring=drop delay=240ms translateX(-700px) rotate(-30deg) -> none
+[110.715] #0474 r2 animate: brag.fighter-right spring=drop delay=340ms translateX(700px) rotate(30deg) -> none
+[110.886] #0475 r2 host-hide: 220ms
+[111.396] #0476 r2 sfx: slam() delay=0ms
+[111.396] #0477 r2 shake: 14px 380ms
+[111.396] #0478 r2 flash: opacity=0.35 380ms
+[111.396] #0479 r2 eyes: all power=12
+[111.396] #0480 r2 animate: brag.vs spring=pop delay=0ms scale(3) rotate(-180deg) -> scale(1) rotate(-8deg)
+[111.396] #0481 r2 host: brag.intro brow=up type=1122ms hold=250ms: In this corner, **The Thingamajig**! And in that corner, **Vinny Vinyl**!
+[112.520] #0482 r2 host-finish: In this corner, **The Thingamajig**! And in that corner, **Vinny Vinyl**!
+[112.768] #0483 r2 host-hide: 150ms
+[112.769] #0484 r2 phase: brag-lines
+[112.769] #0485 r2 pop: brag.line-left rot=-2 fromRot=-14 spring=pop delay=0ms
+[112.769] #0486 r2 sfx: voice() delay=0ms
+[112.769] #0487 r2 sfx: voice() delay=70ms
+[112.769] #0488 r2 sfx: voice() delay=140ms
+[112.769] #0489 r2 sfx: voice() delay=210ms
+[112.769] #0490 r2 sfx: voice() delay=280ms
+[112.769] #0491 r2 sfx: voice() delay=350ms
+[112.769] #0492 r2 eyes: brag.fighter-left power=10
+[112.769] #0493 r2 animate: brag.fighter-left 360ms delay=0ms none -> translateY(-16px) rotate(-3deg) -> none
+[114.269] #0494 r2 pop: brag.line-right rot=2 fromRot=14 spring=pop delay=0ms
+[114.269] #0495 r2 sfx: voice() delay=0ms
+[114.269] #0496 r2 sfx: voice() delay=70ms
+[114.269] #0497 r2 sfx: voice() delay=140ms
+[114.269] #0498 r2 sfx: voice() delay=210ms
+[114.269] #0499 r2 sfx: voice() delay=280ms
+[114.269] #0500 r2 sfx: voice() delay=350ms
+[114.269] #0501 r2 eyes: brag.fighter-right power=10
+[114.269] #0502 r2 animate: brag.fighter-right 360ms delay=0ms none -> translateY(-16px) rotate(3deg) -> none
+[115.769] #0503 r2 animate: brag.line-left 200ms delay=0ms 1 -> 0
+[115.770] #0504 r2 animate: brag.line-right 200ms delay=0ms 1 -> 0
+[115.770] #0505 r2 phase: brag-countdown
+[115.770] #0506 r2 animate: brag.tug spring=pop delay=0ms translateY(60px) -> none
+[115.770] #0507 r2 sfx: beep(0) delay=0ms
+[115.770] #0508 r2 count: brag 3 560ms
+[116.332] #0509 r2 sfx: beep(0) delay=0ms
+[116.332] #0510 r2 count: brag 2 560ms
+[116.894] #0511 r2 sfx: beep(0) delay=0ms
+[116.894] #0512 r2 count: brag 1 560ms
+[117.454] #0513 r2 sfx: horn() delay=0ms
+[117.454] #0514 r2 flash: opacity=0.5 380ms
+[117.454] #0515 r2 shake: 12px 380ms
+[117.454] #0516 r2 count: brag MASH! 900ms
+[117.454] #0517 r2 phase: mash timer=6000ms
+[117.507] #0518 r2 mash: p=0.011 elapsed=52ms taps=p1:0,cp:0,jd:0,gr:0
+[117.537] #0519 r2 mash-tap: p1 side=-1 +1 combo=1
+[117.537] #0520 r2 sfx: mash(1) delay=0ms
+[117.559] #0521 r2 mash: p=-0.017 elapsed=104ms taps=p1:1,cp:0,jd:0,gr:0
+[117.612] #0522 r2 mash: p=-0.007 elapsed=156ms taps=p1:1,cp:0,jd:0,gr:0
+[117.612] #0523 r2 mash-spark: #FF4FA0,#FF7A1F
+[117.635] #0524 r2 mash-tap: p1 side=-1 +1 combo=2
+[117.635] #0525 r2 sfx: mash(2) delay=0ms
+[117.663] #0526 r2 mash: p=-0.031 elapsed=208ms taps=p1:2,cp:0,jd:0,gr:0
+[117.716] #0527 r2 mash: p=-0.021 elapsed=260ms taps=p1:2,cp:0,jd:0,gr:0
+[117.737] #0528 r2 mash-tap: p1 side=-1 +2 combo=4
+[117.737] #0529 r2 sfx: mash(4) delay=0ms
+[117.737] #0530 r2 stars: n=4 color=#FF4FA0
+[117.769] #0531 r2 mash: p=-0.083 elapsed=313ms taps=p1:4,cp:0,jd:0,gr:0
+[117.769] #0532 r2 mash-spark: #FF4FA0,#FF7A1F
+[117.820] #0533 r2 mash: p=-0.076 elapsed=364ms taps=p1:4,cp:0,jd:0,gr:0
+[117.834] #0534 r2 mash-tap: p1 side=-1 +1 combo=5
+[117.834] #0535 r2 sfx: mash(5) delay=0ms
+[117.871] #0536 r2 mash: p=-0.102 elapsed=416ms taps=p1:5,cp:0,jd:0,gr:0
+[117.924] #0537 r2 mash: p=-0.090 elapsed=468ms taps=p1:5,cp:0,jd:0,gr:0
+[117.924] #0538 r2 mash-spark: #FF4FA0,#FF7A1F
+[117.933] #0539 r2 mash-tap: p1 side=-1 +1 combo=6
+[117.933] #0540 r2 sfx: mash(6) delay=0ms
+[117.933] #0541 r2 stars: n=4 color=#FF4FA0
+[117.975] #0542 r2 mash: p=-0.117 elapsed=520ms taps=p1:6,cp:0,jd:0,gr:0
+[118.028] #0543 r2 mash: p=-0.104 elapsed=573ms taps=p1:6,cp:0,jd:0,gr:0
+[118.032] #0544 r2 mash-tap: p1 side=-1 +2 combo=8
+[118.032] #0545 r2 sfx: mash(8) delay=0ms
+[118.082] #0546 r2 mash: p=-0.163 elapsed=626ms taps=p1:8,cp:0,jd:0,gr:0
+[118.082] #0547 r2 mash-spark: #FF4FA0,#FF7A1F
+[118.082] #0548 r2 sfx: crowd(0.6,0.05306222570605337) delay=0ms
+[118.132] #0549 r2 mash-tap: p1 side=-1 +1 combo=9
+[118.132] #0550 r2 sfx: mash(9) delay=0ms
+[118.132] #0551 r2 stars: n=4 color=#FF4FA0
+[118.132] #0552 r2 mash: p=-0.189 elapsed=677ms taps=p1:9,cp:0,jd:0,gr:0
+[118.183] #0553 r2 mash: p=-0.181 elapsed=728ms taps=p1:9,cp:0,jd:0,gr:0
+[118.236] #0554 r2 mash: p=-0.171 elapsed=780ms taps=p1:9,cp:0,jd:0,gr:0
+[118.236] #0555 r2 mash-spark: #FF4FA0,#FF7A1F
+[118.239] #0556 r2 mash-tap: p1 side=-1 +2 combo=11
+[118.239] #0557 r2 sfx: mash(11) delay=0ms
+[118.239] #0558 r2 stars: n=10 color=#FFD43B
+[118.239] #0559 r2 sfx: sparkle() delay=0ms
+[118.288] #0560 r2 mash: p=-0.232 elapsed=833ms taps=p1:11,cp:0,jd:0,gr:0
+[118.334] #0561 r2 mash-tap: p1 side=-1 +1 combo=12
+[118.334] #0562 r2 sfx: mash(12) delay=0ms
+[118.334] #0563 r2 stars: n=4 color=#FF4FA0
+[118.340] #0564 r2 mash: p=-0.258 elapsed=884ms taps=p1:12,cp:0,jd:0,gr:0
+[118.391] #0565 r2 mash: p=-0.246 elapsed=935ms taps=p1:12,cp:0,jd:0,gr:0
+[118.391] #0566 r2 mash-spark: #FF4FA0,#FF7A1F
+[118.433] #0567 r2 mash-tap: p1 side=-1 +1 combo=13
+[118.433] #0568 r2 sfx: mash(13) delay=0ms
+[118.442] #0569 r2 mash: p=-0.273 elapsed=987ms taps=p1:13,cp:0,jd:0,gr:0
+[118.495] #0570 r2 mash: p=-0.261 elapsed=1039ms taps=p1:13,cp:0,jd:0,gr:0
+[118.538] #0571 r2 mash-tap: p1 side=-1 +2 combo=15
+[118.538] #0572 r2 sfx: mash(15) delay=0ms
+[118.538] #0573 r2 stars: n=4 color=#FF4FA0
+[118.547] #0574 r2 mash: p=-0.325 elapsed=1092ms taps=p1:15,cp:0,jd:0,gr:0
+[118.547] #0575 r2 mash-spark: #FF4FA0,#FF7A1F
+[118.600] #0576 r2 mash: p=-0.316 elapsed=1144ms taps=p1:15,cp:0,jd:0,gr:0
+[118.633] #0577 r2 mash-tap: p1 side=-1 +1 combo=16
+[118.633] #0578 r2 sfx: mash(16) delay=0ms
+[118.653] #0579 r2 mash: p=-0.343 elapsed=1197ms taps=p1:16,cp:0,jd:0,gr:0
+[118.706] #0580 r2 mash: p=-0.336 elapsed=1250ms taps=p1:16,cp:0,jd:0,gr:0
+[118.706] #0581 r2 mash-spark: #FF4FA0,#FF7A1F
+[118.706] #0582 r2 sfx: crowd(0.6,0.06690519045308238) delay=0ms
+[118.731] #0583 r2 mash-tap: p1 side=-1 +1 combo=17
+[118.733] #0584 r2 sfx: mash(17) delay=0ms
+[118.757] #0585 r2 mash: p=-0.363 elapsed=1302ms taps=p1:17,cp:0,jd:0,gr:0
+[118.809] #0586 r2 mash: p=-0.353 elapsed=1354ms taps=p1:17,cp:0,jd:0,gr:0
+[118.841] #0587 r2 mash-tap: p1 side=-1 +2 combo=19
+[118.841] #0588 r2 sfx: mash(19) delay=0ms
+[118.841] #0589 r2 stars: n=4 color=#FF4FA0
+[118.862] #0590 r2 mash: p=-0.413 elapsed=1406ms taps=p1:19,cp:0,jd:0,gr:0
+[118.862] #0591 r2 mash-spark: #FF4FA0,#FF7A1F
+[118.913] #0592 r2 mash: p=-0.405 elapsed=1458ms taps=p1:19,cp:0,jd:0,gr:0
+[118.939] #0593 r2 mash-tap: p1 side=-1 +1 combo=20
+[118.939] #0594 r2 sfx: mash(20) delay=0ms
+[118.939] #0595 r2 stars: n=10 color=#FFD43B
+[118.939] #0596 r2 sfx: sparkle() delay=0ms
+[118.966] #0597 r2 mash: p=-0.429 elapsed=1510ms taps=p1:20,cp:0,jd:0,gr:0
+[119.017] #0598 r2 mash: p=-0.417 elapsed=1562ms taps=p1:20,cp:0,jd:0,gr:0
+[119.017] #0599 r2 mash-spark: #FF4FA0,#FF7A1F
+[119.032] #0600 r2 mash-tap: p1 side=-1 +1 combo=21
+[119.032] #0601 r2 sfx: mash(21) delay=0ms
+[119.032] #0602 r2 stars: n=4 color=#FF4FA0
+[119.069] #0603 r2 mash: p=-0.444 elapsed=1613ms taps=p1:21,cp:0,jd:0,gr:0
+[119.120] #0604 r2 mash: p=-0.436 elapsed=1663ms taps=p1:21,cp:0,jd:0,gr:0
+[119.144] #0605 r2 mash-tap: p1 side=-1 +2 combo=23
+[119.144] #0606 r2 sfx: mash(23) delay=0ms
+[119.172] #0607 r2 mash: p=-0.498 elapsed=1717ms taps=p1:23,cp:0,jd:0,gr:0
+[119.172] #0608 r2 mash-spark: #FF4FA0,#FF7A1F
+[119.225] #0609 r2 mash: p=-0.488 elapsed=1770ms taps=p1:23,cp:0,jd:0,gr:0
+[119.276] #0610 r2 mash: p=-0.479 elapsed=1821ms taps=p1:23,cp:0,jd:0,gr:0
+[119.296] #0611 r2 mash-tap: p1 side=-1 +1 combo=24
+[119.296] #0612 r2 sfx: mash(24) delay=0ms
+[119.296] #0613 r2 stars: n=4 color=#FF4FA0
+[119.329] #0614 r2 mash: p=-0.502 elapsed=1874ms taps=p1:24,cp:0,jd:0,gr:0
+[119.329] #0615 r2 mash-spark: #FF4FA0,#FF7A1F
+[119.329] #0616 r2 sfx: crowd(0.6,0.08016183402370458) delay=0ms
+[119.335] #0617 r2 mash-tap: p1 side=-1 +1 combo=25
+[119.335] #0618 r2 sfx: mash(25) delay=0ms
+[119.382] #0619 r2 mash: p=-0.527 elapsed=1926ms taps=p1:25,cp:0,jd:0,gr:0
+[119.433] #0620 r2 mash: p=-0.518 elapsed=1977ms taps=p1:25,cp:0,jd:0,gr:0
+[119.448] #0621 r2 mash-tap: p1 side=-1 +2 combo=27
+[119.448] #0622 r2 sfx: mash(27) delay=0ms
+[119.448] #0623 r2 stars: n=4 color=#FF4FA0
+[119.484] #0624 r2 mash: p=-0.580 elapsed=2028ms taps=p1:27,cp:0,jd:0,gr:0
+[119.484] #0625 r2 mash-spark: #FF4FA0,#FF7A1F
+[119.534] #0626 r2 mash-tap: p1 side=-1 +1 combo=28
+[119.534] #0627 r2 sfx: mash(28) delay=0ms
+[119.534] #0628 r2 mash: p=-0.609 elapsed=2078ms taps=p1:28,cp:0,jd:0,gr:0
+[119.587] #0629 r2 mash: p=-0.600 elapsed=2130ms taps=p1:28,cp:0,jd:0,gr:0
+[119.632] #0630 r2 mash-tap: p1 side=-1 +2 combo=30
+[119.632] #0631 r2 sfx: mash(30) delay=0ms
+[119.632] #0632 r2 stars: n=4 color=#FF4FA0
+[119.632] #0633 r2 stars: n=10 color=#FFD43B
+[119.632] #0634 r2 sfx: sparkle() delay=0ms
+[119.636] #0635 r2 mash: p=-0.664 elapsed=2181ms taps=p1:30,cp:0,jd:0,gr:0
+[119.638] #0636 r2 mash-spark: #FF4FA0,#FF7A1F
+[119.689] #0637 r2 mash: p=-0.654 elapsed=2234ms taps=p1:30,cp:0,jd:0,gr:0
+[119.734] #0638 r2 mash-tap: p1 side=-1 +1 combo=31
+[119.734] #0639 r2 sfx: mash(31) delay=0ms
+[119.740] #0640 r2 mash: p=-0.683 elapsed=2285ms taps=p1:31,cp:0,jd:0,gr:0
+[119.794] #0641 r2 mash: p=-0.672 elapsed=2339ms taps=p1:31,cp:0,jd:0,gr:0
+[119.794] #0642 r2 mash-spark: #FF4FA0,#FF7A1F
+[119.837] #0643 r2 mash-tap: p1 side=-1 +2 combo=33
+[119.838] #0644 r2 sfx: mash(33) delay=0ms
+[119.838] #0645 r2 stars: n=4 color=#FF4FA0
+[119.847] #0646 r2 mash: p=-0.736 elapsed=2391ms taps=p1:33,cp:0,jd:0,gr:0
+[119.898] #0647 r2 mash: p=-0.725 elapsed=2443ms taps=p1:33,cp:0,jd:0,gr:0
+[119.933] #0648 r2 mash-tap: p1 side=-1 +1 combo=34
+[119.933] #0649 r2 sfx: mash(34) delay=0ms
+[119.951] #0650 r2 mash: p=-0.753 elapsed=2495ms taps=p1:34,cp:0,jd:0,gr:0
+[119.951] #0651 r2 mash-spark: #FF4FA0,#FF7A1F
+[119.951] #0652 r2 sfx: crowd(0.6,0.10025902630216738) delay=0ms
+[120.002] #0653 r2 mash: p=-0.746 elapsed=2547ms taps=p1:34,cp:0,jd:0,gr:0
+[120.032] #0654 r2 mash-tap: p1 side=-1 +1 combo=35
+[120.032] #0655 r2 sfx: mash(35) delay=0ms
+[120.055] #0656 r2 mash: p=-0.773 elapsed=2599ms taps=p1:35,cp:0,jd:0,gr:0
+[120.109] #0657 r2 mash: p=-0.764 elapsed=2653ms taps=p1:35,cp:0,jd:0,gr:0
+[120.109] #0658 r2 mash-spark: #FF4FA0,#FF7A1F
+[120.136] #0659 r2 mash-tap: p1 side=-1 +2 combo=37
+[120.136] #0660 r2 sfx: mash(37) delay=0ms
+[120.136] #0661 r2 stars: n=4 color=#FF4FA0
+[120.160] #0662 r2 mash: p=-0.828 elapsed=2704ms taps=p1:37,cp:0,jd:0,gr:0
+[120.212] #0663 r2 mash: p=-0.817 elapsed=2756ms taps=p1:37,cp:0,jd:0,gr:0
+[120.234] #0664 r2 mash-tap: p1 side=-1 +1 combo=38
+[120.234] #0665 r2 sfx: mash(38) delay=0ms
+[120.264] #0666 r2 mash: p=-0.843 elapsed=2808ms taps=p1:38,cp:0,jd:0,gr:0
+[120.265] #0667 r2 mash-spark: #FF4FA0,#FF7A1F
+[120.317] #0668 r2 mash: p=-0.835 elapsed=2861ms taps=p1:38,cp:0,jd:0,gr:0
+[120.337] #0669 r2 mash-tap: p1 side=-1 +1 combo=39
+[120.337] #0670 r2 sfx: mash(39) delay=0ms
+[120.337] #0671 r2 stars: n=4 color=#FF4FA0
+[120.369] #0672 r2 mash: p=-0.862 elapsed=2913ms taps=p1:39,cp:0,jd:0,gr:0
+[120.422] #0673 r2 mash: p=-0.854 elapsed=2966ms taps=p1:39,cp:0,jd:0,gr:0
+[120.422] #0674 r2 mash-spark: #FF4FA0,#FF7A1F
+[120.453] #0675 r2 mash-tap: p1 side=-1 +1 combo=40
+[120.453] #0676 r2 sfx: mash(40) delay=0ms
+[120.453] #0677 r2 stars: n=10 color=#FFD43B
+[120.453] #0678 r2 sfx: sparkle() delay=0ms
+[120.474] #0679 r2 mash: p=-0.879 elapsed=3018ms taps=p1:40,cp:0,jd:0,gr:0
+[120.527] #0680 r2 mash: p=-0.869 elapsed=3071ms taps=p1:40,cp:0,jd:0,gr:0
+[120.538] #0681 r2 mash-tap: p1 side=-1 +2 combo=42
+[120.538] #0682 r2 sfx: mash(42) delay=0ms
+[120.538] #0683 r2 stars: n=4 color=#FF4FA0
+[120.580] #0684 r2 mash: p=-0.932 elapsed=3124ms taps=p1:42,cp:0,jd:0,gr:0
+[120.580] #0685 r2 mash-spark: #FF4FA0,#FF7A1F
+[120.580] #0686 r2 sfx: crowd(0.6,0.11458072652008441) delay=0ms
+[120.632] #0687 r2 mash: p=-0.923 elapsed=3176ms taps=p1:42,cp:0,jd:0,gr:0
+[120.639] #0688 r2 mash-tap: p1 side=-1 +1 combo=43
+[120.639] #0689 r2 sfx: mash(43) delay=0ms
+[120.684] #0690 r2 mash: p=-0.952 elapsed=3228ms taps=p1:43,cp:0,jd:0,gr:0
+[120.735] #0691 r2 mash-tap: p1 side=-1 +1 combo=44
+[120.735] #0692 r2 sfx: mash(44) delay=0ms
+[120.735] #0693 r2 mash: p=-0.980 elapsed=3279ms taps=p1:44,cp:0,jd:0,gr:0
+[120.735] #0694 r2 mash-spark: #FF4FA0,#FF7A1F
+[120.787] #0695 r2 mash: p=-0.971 elapsed=3331ms taps=p1:44,cp:0,jd:0,gr:0
+[120.832] #0696 r2 mash-tap: p1 side=-1 +2 combo=46
+[120.832] #0697 r2 sfx: mash(46) delay=0ms
+[120.832] #0698 r2 stars: n=4 color=#FF4FA0
+[120.839] #0699 r2 mash: p=-1.000 elapsed=3383ms taps=p1:46,cp:0,jd:0,gr:0
+[120.892] #0700 r2 mash: p=-0.987 elapsed=3436ms taps=p1:46,cp:0,jd:0,gr:0
+[120.892] #0701 r2 mash-spark: #FF4FA0,#FF7A1F
+[120.934] #0702 r2 mash-tap: p1 side=-1 +1 combo=47
+[120.934] #0703 r2 sfx: mash(47) delay=0ms
+[120.945] #0704 r2 mash: p=-1.000 elapsed=3488ms taps=p1:47,cp:0,jd:0,gr:0
+[120.997] #0705 r2 mash: p=-0.989 elapsed=3541ms taps=p1:47,cp:0,jd:0,gr:0
+[121.032] #0706 r2 mash-tap: p1 side=-1 +1 combo=48
+[121.032] #0707 r2 sfx: mash(48) delay=0ms
+[121.032] #0708 r2 stars: n=4 color=#FF4FA0
+[121.049] #0709 r2 mash: p=-1.000 elapsed=3593ms taps=p1:48,cp:0,jd:0,gr:0
+[121.050] #0710 r2 mash-spark: #FF4FA0,#FF7A1F
+[121.102] #0711 r2 mash: p=-0.991 elapsed=3646ms taps=p1:48,cp:0,jd:0,gr:0
+[121.138] #0712 r2 mash-tap: p1 side=-1 +2 combo=50
+[121.138] #0713 r2 sfx: mash(50) delay=0ms
+[121.138] #0714 r2 stars: n=10 color=#FFD43B
+[121.138] #0715 r2 sfx: sparkle() delay=0ms
+[121.154] #0716 r2 mash: p=-1.000 elapsed=3698ms taps=p1:50,cp:0,jd:0,gr:0
+[121.206] #0717 r2 mash: p=-0.993 elapsed=3749ms taps=p1:50,cp:0,jd:0,gr:0
+[121.206] #0718 r2 mash-spark: #FF4FA0,#FF7A1F
+[121.206] #0719 r2 sfx: crowd(0.6,0.11942714515094763) delay=0ms
+[121.232] #0720 r2 mash-tap: p1 side=-1 +1 combo=51
+[121.232] #0721 r2 sfx: mash(51) delay=0ms
+[121.232] #0722 r2 stars: n=4 color=#FF4FA0
+[121.259] #0723 r2 mash: p=-1.000 elapsed=3803ms taps=p1:51,cp:0,jd:0,gr:0
+[121.310] #0724 r2 mash: p=-0.990 elapsed=3854ms taps=p1:51,cp:0,jd:0,gr:0
+[121.360] #0725 r2 mash: p=-0.980 elapsed=3904ms taps=p1:51,cp:0,jd:0,gr:0
+[121.361] #0726 r2 mash-spark: #FF4FA0,#FF7A1F
+[121.399] #0727 r2 mash-tap: p1 side=-1 +1 combo=52
+[121.399] #0728 r2 sfx: mash(52) delay=0ms
+[121.413] #0729 r2 mash: p=-1.000 elapsed=3957ms taps=p1:52,cp:0,jd:0,gr:0
+[121.437] #0730 r2 mash-tap: p1 side=-1 +2 combo=54
+[121.437] #0731 r2 sfx: mash(54) delay=0ms
+[121.437] #0732 r2 stars: n=4 color=#FF4FA0
+[121.465] #0733 r2 mash: p=-1.000 elapsed=4009ms taps=p1:54,cp:0,jd:0,gr:0
+[121.517] #0734 r2 mash: p=-0.993 elapsed=4061ms taps=p1:54,cp:0,jd:0,gr:0
+[121.517] #0735 r2 mash-spark: #FF4FA0,#FF7A1F
+[121.532] #0736 r2 mash-tap: p1 side=-1 +1 combo=55
+[121.533] #0737 r2 sfx: mash(55) delay=0ms
+[121.568] #0738 r2 mash: p=-1.000 elapsed=4112ms taps=p1:55,cp:0,jd:0,gr:0
+[121.620] #0739 r2 mash: p=-0.987 elapsed=4164ms taps=p1:55,cp:0,jd:0,gr:0
+[121.634] #0740 r2 mash-tap: p1 side=-1 +1 combo=56
+[121.634] #0741 r2 sfx: mash(56) delay=0ms
+[121.672] #0742 r2 mash: p=-1.000 elapsed=4216ms taps=p1:56,cp:0,jd:0,gr:0
+[121.672] #0743 r2 mash-spark: #FF4FA0,#FF7A1F
+[121.723] #0744 r2 mash: p=-0.990 elapsed=4267ms taps=p1:56,cp:0,jd:0,gr:0
+[121.737] #0745 r2 mash-tap: p1 side=-1 +2 combo=58
+[121.737] #0746 r2 sfx: mash(58) delay=0ms
+[121.737] #0747 r2 stars: n=4 color=#FF4FA0
+[121.775] #0748 r2 mash: p=-1.000 elapsed=4319ms taps=p1:58,cp:0,jd:0,gr:0
+[121.827] #0749 r2 mash: p=-0.990 elapsed=4371ms taps=p1:58,cp:0,jd:0,gr:0
+[121.827] #0750 r2 mash-spark: #FF4FA0,#FF7A1F
+[121.827] #0751 r2 sfx: crowd(0.6,0.11922062354264445) delay=0ms
+[121.834] #0752 r2 mash-tap: p1 side=-1 +1 combo=59
+[121.834] #0753 r2 sfx: mash(59) delay=0ms
+[121.879] #0754 r2 mash: p=-1.000 elapsed=4423ms taps=p1:59,cp:0,jd:0,gr:0
+[121.931] #0755 r2 mash: p=-0.992 elapsed=4475ms taps=p1:59,cp:0,jd:0,gr:0
+[121.933] #0756 r2 mash-tap: p1 side=-1 +1 combo=60
+[121.933] #0757 r2 sfx: mash(60) delay=0ms
+[121.933] #0758 r2 stars: n=4 color=#FF4FA0
+[121.933] #0759 r2 stars: n=10 color=#FFD43B
+[121.933] #0760 r2 sfx: sparkle() delay=0ms
+[121.983] #0761 r2 mash: p=-1.000 elapsed=4527ms taps=p1:60,cp:0,jd:0,gr:0
+[121.983] #0762 r2 mash-spark: #FF4FA0,#FF7A1F
+[122.036] #0763 r2 mash: p=-0.993 elapsed=4580ms taps=p1:60,cp:0,jd:0,gr:0
+[122.051] #0764 r2 mash-tap: p1 side=-1 +2 combo=62
+[122.051] #0765 r2 sfx: mash(62) delay=0ms
+[122.088] #0766 r2 mash: p=-1.000 elapsed=4632ms taps=p1:62,cp:0,jd:0,gr:0
+[122.135] #0767 r2 mash-tap: p1 side=-1 +1 combo=63
+[122.135] #0768 r2 sfx: mash(63) delay=0ms
+[122.135] #0769 r2 stars: n=4 color=#FF4FA0
+[122.139] #0770 r2 mash: p=-1.000 elapsed=4683ms taps=p1:63,cp:0,jd:0,gr:0
+[122.140] #0771 r2 mash-spark: #FF4FA0,#FF7A1F
+[122.190] #0772 r2 mash: p=-0.988 elapsed=4734ms taps=p1:63,cp:0,jd:0,gr:0
+[122.233] #0773 r2 mash-tap: p1 side=-1 +2 combo=65
+[122.233] #0774 r2 sfx: mash(65) delay=0ms
+[122.242] #0775 r2 mash: p=-1.000 elapsed=4786ms taps=p1:65,cp:0,jd:0,gr:0
+[122.294] #0776 r2 mash: p=-0.989 elapsed=4838ms taps=p1:65,cp:0,jd:0,gr:0
+[122.294] #0777 r2 mash-spark: #FF4FA0,#FF7A1F
+[122.334] #0778 r2 mash-tap: p1 side=-1 +1 combo=66
+[122.334] #0779 r2 sfx: mash(66) delay=0ms
+[122.335] #0780 r2 stars: n=4 color=#FF4FA0
+[122.346] #0781 r2 mash: p=-1.000 elapsed=4890ms taps=p1:66,cp:0,jd:0,gr:0
+[122.398] #0782 r2 mash: p=-0.990 elapsed=4942ms taps=p1:66,cp:0,jd:0,gr:0
+[122.433] #0783 r2 mash-tap: p1 side=-1 +2 combo=68
+[122.433] #0784 r2 sfx: mash(68) delay=0ms
+[122.450] #0785 r2 mash: p=-1.000 elapsed=4994ms taps=p1:68,cp:0,jd:0,gr:0
+[122.450] #0786 r2 mash-spark: #FF4FA0,#FF7A1F
+[122.450] #0787 r2 sfx: crowd(0.6,0.12) delay=0ms
+[122.502] #0788 r2 mash: p=-0.993 elapsed=5046ms taps=p1:68,cp:0,jd:0,gr:0
+[122.533] #0789 r2 mash-tap: p1 side=-1 +1 combo=69
+[122.533] #0790 r2 sfx: mash(69) delay=0ms
+[122.533] #0791 r2 stars: n=4 color=#FF4FA0
+[122.554] #0792 r2 mash: p=-1.000 elapsed=5098ms taps=p1:69,cp:0,jd:0,gr:0
+[122.606] #0793 r2 mash: p=-0.989 elapsed=5150ms taps=p1:69,cp:0,jd:0,gr:0
+[122.606] #0794 r2 mash-spark: #FF4FA0,#FF7A1F
+[122.636] #0795 r2 mash-tap: p1 side=-1 +2 combo=71
+[122.636] #0796 r2 sfx: mash(71) delay=0ms
+[122.636] #0797 r2 stars: n=10 color=#FFD43B
+[122.636] #0798 r2 sfx: sparkle() delay=0ms
+[122.658] #0799 r2 mash: p=-1.000 elapsed=5202ms taps=p1:71,cp:0,jd:0,gr:0
+[122.710] #0800 r2 mash: p=-0.990 elapsed=5254ms taps=p1:71,cp:0,jd:0,gr:0
+[122.732] #0801 r2 mash-tap: p1 side=-1 +1 combo=72
+[122.733] #0802 r2 sfx: mash(72) delay=0ms
+[122.733] #0803 r2 stars: n=4 color=#FF4FA0
+[122.762] #0804 r2 mash: p=-1.000 elapsed=5306ms taps=p1:72,cp:0,jd:0,gr:0
+[122.762] #0805 r2 mash-spark: #FF4FA0,#FF7A1F
+[122.814] #0806 r2 mash: p=-0.991 elapsed=5358ms taps=p1:72,cp:0,jd:0,gr:0
+[122.832] #0807 r2 mash-tap: p1 side=-1 +2 combo=74
+[122.832] #0808 r2 sfx: mash(74) delay=0ms
+[122.866] #0809 r2 mash: p=-1.000 elapsed=5410ms taps=p1:74,cp:0,jd:0,gr:0
+[122.918] #0810 r2 mash: p=-0.989 elapsed=5462ms taps=p1:74,cp:0,jd:0,gr:0
+[122.918] #0811 r2 mash-spark: #FF4FA0,#FF7A1F
+[122.931] #0812 r2 mash-tap: p1 side=-1 +1 combo=75
+[122.931] #0813 r2 sfx: mash(75) delay=0ms
+[122.931] #0814 r2 stars: n=4 color=#FF4FA0
+[122.971] #0815 r2 mash: p=-1.000 elapsed=5515ms taps=p1:75,cp:0,jd:0,gr:0
+[123.023] #0816 r2 mash: p=-0.993 elapsed=5567ms taps=p1:75,cp:0,jd:0,gr:0
+[123.034] #0817 r2 mash-tap: p1 side=-1 +2 combo=77
+[123.035] #0818 r2 sfx: mash(77) delay=0ms
+[123.075] #0819 r2 mash: p=-1.000 elapsed=5619ms taps=p1:77,cp:0,jd:0,gr:0
+[123.075] #0820 r2 mash-spark: #FF4FA0,#FF7A1F
+[123.075] #0821 r2 sfx: crowd(0.6,0.12) delay=0ms
+[123.127] #0822 r2 mash: p=-0.990 elapsed=5671ms taps=p1:77,cp:0,jd:0,gr:0
+[123.136] #0823 r2 mash-tap: p1 side=-1 +1 combo=78
+[123.136] #0824 r2 sfx: mash(78) delay=0ms
+[123.136] #0825 r2 stars: n=4 color=#FF4FA0
+[123.179] #0826 r2 mash: p=-1.000 elapsed=5723ms taps=p1:78,cp:0,jd:0,gr:0
+[123.232] #0827 r2 mash: p=-0.988 elapsed=5776ms taps=p1:78,cp:0,jd:0,gr:0
+[123.232] #0828 r2 mash-spark: #FF4FA0,#FF7A1F
+[123.239] #0829 r2 mash-tap: p1 side=-1 +2 combo=80
+[123.240] #0830 r2 sfx: mash(80) delay=0ms
+[123.240] #0831 r2 stars: n=10 color=#FFD43B
+[123.240] #0832 r2 sfx: sparkle() delay=0ms
+[123.284] #0833 r2 mash: p=-1.000 elapsed=5828ms taps=p1:80,cp:0,jd:0,gr:0
+[123.334] #0834 r2 mash-tap: p1 side=-1 +1 combo=81
+[123.334] #0835 r2 sfx: mash(81) delay=0ms
+[123.334] #0836 r2 stars: n=4 color=#FF4FA0
+[123.334] #0837 r2 mash: p=-1.000 elapsed=5878ms taps=p1:81,cp:0,jd:0,gr:0
+[123.386] #0838 r2 mash: p=-0.991 elapsed=5930ms taps=p1:81,cp:0,jd:0,gr:0
+[123.386] #0839 r2 mash-spark: #FF4FA0,#FF7A1F
+[123.438] #0840 r2 mash: p=-0.979 elapsed=5982ms taps=p1:81,cp:0,jd:0,gr:0
+[123.459] #0841 r2 mash: p=-0.975 elapsed=6003ms taps=p1:81,cp:0,jd:0,gr:0
+[123.459] #0842 r2 phase: knockout
+[123.460] #0843 r2 animate: brag.tug 250ms delay=0ms 1 -> 0
+[123.460] #0844 r2 animate: brag.combo 250ms delay=0ms 1 -> 0
+[123.460] #0845 r2 animate: brag.vs 300ms delay=0ms scale(1) rotate(-8deg) -> scale(2.2) rotate(20deg)
+[123.460] #0846 r2 sfx: ko() delay=0ms
+[123.460] #0847 r2 shake: 22px 380ms
+[123.460] #0848 r2 flash: opacity=0.7 380ms
+[123.460] #0849 r2 punch: scale=1.07 420ms
+[123.460] #0850 r2 host-react: glee 1800ms
+[123.460] #0851 r2 animate: brag.fighter-right 850ms delay=0ms scale(0.8634630214743404) -> translate(760px,-260px) rotate(620deg) scale(.4)
+[123.460] #0852 r2 sfx: boing() delay=120ms
+[123.460] #0853 r2 animate: brag.fighter-left spring=soft delay=0ms scale(1.1365369785256596) -> translateX(374px) scale(1.12)
+[123.460] #0854 r2 animate: brag.sweep 560ms delay=0ms 15.604226117218243 -> 78
+[124.022] #0855 r2 eyes: brag.fighter-left power=16
+[124.022] #0856 r2 slam: brag.ko rot=-5 from=2.6 shake=12px ring=true 520ms delay=0ms
+[124.022] #0857 r2 confetti: n=120 power=1300 angle=-1.57 delay=0ms
+[124.022] #0858 r2 sfx: fanfare() delay=0ms
+[124.022] #0859 r2 fly-points: p1 +100 -> chip 1300ms delay=350ms
+[124.022] #0860 r2 sfx: pop(4) delay=350ms
+[124.022] #0861 r2 sfx: whoop() delay=830ms
+[124.022] #0862 r2 host: brag.winner brow=up type=646ms hold=900ms: The room has spoken: **The Thingamajig**!
+[124.669] #0863 r2 host-finish: The room has spoken: **The Thingamajig**!
+[125.569] #0864 r2 phase: brag-intro
+[125.569] #0865 r2 scene: brag -> brag wipe=1000ms swap=470ms
+[125.569] #0866 r2 sfx: whoosh() delay=0ms
+[125.673] #0867 r2 score: p1 32 -> 132 leaders=p1
+[125.673] #0868 r2 animate: chip:p1 spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[125.673] #0869 r2 sfx: coin() delay=0ms
+[125.673] #0870 r2 stars: n=10 color=#FF4FA0
+[125.673] #0871 r2 ring: radius=90 color=#FF4FA0
+[126.570] #0872 r2 music: brag
+[126.570] #0873 r2 background: normal
+[126.570] #0874 r2 match: SEMI-FINAL 2 OF 2: jd vs gr +100
+[126.570] #0875 r2 animate: brag.panel-left 560ms delay=0ms translateX(-105%) -> none
+[126.570] #0876 r2 animate: brag.panel-right 560ms delay=60ms translateX(105%) -> none
+[126.570] #0877 r2 sfx: whoosh() delay=0ms
+[126.570] #0878 r2 animate: brag.seam 260ms delay=480ms scaleY(0) -> none
+[126.570] #0879 r2 animate: brag.fighter-left spring=drop delay=240ms translateX(-700px) rotate(-30deg) -> none
+[126.570] #0880 r2 animate: brag.fighter-right spring=drop delay=340ms translateX(700px) rotate(30deg) -> none
+[127.170] #0881 r2 host-hide: 220ms
+[127.251] #0882 r2 sfx: slam() delay=0ms
+[127.251] #0883 r2 shake: 14px 380ms
+[127.251] #0884 r2 flash: opacity=0.35 380ms
+[127.251] #0885 r2 eyes: all power=12
+[127.251] #0886 r2 animate: brag.vs spring=pop delay=0ms scale(3) rotate(-180deg) -> scale(1) rotate(-8deg)
+[127.251] #0887 r2 host: brag.intro brow=up type=1122ms hold=250ms: In this corner, **Great Uncle Mort**! And in that corner, **Sir Hugsby**!
+[128.373] #0888 r2 host-finish: In this corner, **Great Uncle Mort**! And in that corner, **Sir Hugsby**!
+[128.625] #0889 r2 host-hide: 150ms
+[128.625] #0890 r2 phase: brag-lines
+[128.625] #0891 r2 pop: brag.line-left rot=-2 fromRot=-14 spring=pop delay=0ms
+[128.625] #0892 r2 sfx: voice() delay=0ms
+[128.625] #0893 r2 sfx: voice() delay=70ms
+[128.625] #0894 r2 sfx: voice() delay=140ms
+[128.625] #0895 r2 sfx: voice() delay=210ms
+[128.625] #0896 r2 sfx: voice() delay=280ms
+[128.625] #0897 r2 sfx: voice() delay=350ms
+[128.625] #0898 r2 eyes: brag.fighter-left power=10
+[128.625] #0899 r2 animate: brag.fighter-left 360ms delay=0ms none -> translateY(-16px) rotate(-3deg) -> none
+[130.125] #0900 r2 pop: brag.line-right rot=2 fromRot=14 spring=pop delay=0ms
+[130.125] #0901 r2 sfx: voice() delay=0ms
+[130.125] #0902 r2 sfx: voice() delay=70ms
+[130.125] #0903 r2 sfx: voice() delay=140ms
+[130.125] #0904 r2 sfx: voice() delay=210ms
+[130.125] #0905 r2 sfx: voice() delay=280ms
+[130.125] #0906 r2 sfx: voice() delay=350ms
+[130.125] #0907 r2 eyes: brag.fighter-right power=10
+[130.125] #0908 r2 animate: brag.fighter-right 360ms delay=0ms none -> translateY(-16px) rotate(3deg) -> none
+[131.626] #0909 r2 animate: brag.line-left 200ms delay=0ms 1 -> 0
+[131.627] #0910 r2 animate: brag.line-right 200ms delay=0ms 1 -> 0
+[131.627] #0911 r2 phase: brag-countdown
+[131.627] #0912 r2 animate: brag.tug spring=pop delay=0ms translateY(60px) -> none
+[131.627] #0913 r2 sfx: beep(0) delay=0ms
+[131.627] #0914 r2 count: brag 3 560ms
+[132.188] #0915 r2 sfx: beep(0) delay=0ms
+[132.188] #0916 r2 count: brag 2 560ms
+[132.748] #0917 r2 sfx: beep(0) delay=0ms
+[132.748] #0918 r2 count: brag 1 560ms
+[133.310] #0919 r2 sfx: horn() delay=0ms
+[133.310] #0920 r2 flash: opacity=0.5 380ms
+[133.310] #0921 r2 shake: 12px 380ms
+[133.310] #0922 r2 count: brag MASH! 900ms
+[133.310] #0923 r2 phase: mash timer=6000ms
+[133.362] #0924 r2 mash: p=-0.007 elapsed=52ms taps=p1:0,cp:0,jd:0,gr:0
+[133.413] #0925 r2 mash: p=-0.010 elapsed=104ms taps=p1:0,cp:0,jd:0,gr:0
+[133.435] #0926 r2 mash-tap: p1 side=-1 +2 combo=2
+[133.435] #0927 r2 sfx: mash(2) delay=0ms
+[133.465] #0928 r2 mash: p=-0.087 elapsed=156ms taps=p1:2,cp:0,jd:0,gr:0
+[133.465] #0929 r2 mash-spark: #B8F23B,#3FE0D0
+[133.518] #0930 r2 mash: p=-0.091 elapsed=208ms taps=p1:2,cp:0,jd:0,gr:0
+[133.535] #0931 r2 mash-tap: p1 side=-1 +1 combo=3
+[133.535] #0932 r2 sfx: mash(3) delay=0ms
+[133.535] #0933 r2 stars: n=4 color=#B8F23B
+[133.570] #0934 r2 mash: p=-0.128 elapsed=260ms taps=p1:3,cp:0,jd:0,gr:0
+[133.621] #0935 r2 mash: p=-0.130 elapsed=312ms taps=p1:3,cp:0,jd:0,gr:0
+[133.621] #0936 r2 mash-spark: #B8F23B,#3FE0D0
+[133.648] #0937 r2 mash-tap: p1 side=-1 +2 combo=5
+[133.648] #0938 r2 sfx: mash(5) delay=0ms
+[133.673] #0939 r2 mash: p=-0.200 elapsed=364ms taps=p1:5,cp:0,jd:0,gr:0
+[133.726] #0940 r2 mash: p=-0.204 elapsed=417ms taps=p1:5,cp:0,jd:0,gr:0
+[133.732] #0941 r2 mash-tap: p1 side=-1 +1 combo=6
+[133.732] #0942 r2 sfx: mash(6) delay=0ms
+[133.732] #0943 r2 stars: n=4 color=#B8F23B
+[133.779] #0944 r2 mash: p=-0.242 elapsed=469ms taps=p1:6,cp:0,jd:0,gr:0
+[133.779] #0945 r2 mash-spark: #B8F23B,#3FE0D0
+[133.831] #0946 r2 mash: p=-0.244 elapsed=521ms taps=p1:6,cp:0,jd:0,gr:0
+[133.838] #0947 r2 mash-tap: p1 side=-1 +2 combo=8
+[133.838] #0948 r2 sfx: mash(8) delay=0ms
+[133.882] #0949 r2 mash: p=-0.317 elapsed=573ms taps=p1:8,cp:0,jd:0,gr:0
+[133.935] #0950 r2 mash: p=-0.322 elapsed=625ms taps=p1:8,cp:0,jd:0,gr:0
+[133.935] #0951 r2 mash-spark: #B8F23B,#3FE0D0
+[133.935] #0952 r2 sfx: crowd(0.6,0.06577140551823385) delay=0ms
+[133.984] #0953 r2 mash-tap: p1 side=-1 +1 combo=9
+[133.984] #0954 r2 sfx: mash(9) delay=0ms
+[133.984] #0955 r2 stars: n=4 color=#B8F23B
+[133.986] #0956 r2 mash: p=-0.360 elapsed=676ms taps=p1:9,cp:0,jd:0,gr:0
+[134.036] #0957 r2 mash-tap: p1 side=-1 +2 combo=11
+[134.036] #0958 r2 sfx: mash(11) delay=0ms
+[134.036] #0959 r2 stars: n=10 color=#FFD43B
+[134.036] #0960 r2 sfx: sparkle() delay=0ms
+[134.036] #0961 r2 mash: p=-0.435 elapsed=726ms taps=p1:11,cp:0,jd:0,gr:0
+[134.088] #0962 r2 mash: p=-0.441 elapsed=778ms taps=p1:11,cp:0,jd:0,gr:0
+[134.089] #0963 r2 mash-spark: #B8F23B,#3FE0D0
+[134.133] #0964 r2 mash-tap: p1 side=-1 +1 combo=12
+[134.133] #0965 r2 sfx: mash(12) delay=0ms
+[134.133] #0966 r2 stars: n=4 color=#B8F23B
+[134.138] #0967 r2 mash: p=-0.478 elapsed=829ms taps=p1:12,cp:0,jd:0,gr:0
+[134.190] #0968 r2 mash: p=-0.482 elapsed=881ms taps=p1:12,cp:0,jd:0,gr:0
+[134.236] #0969 r2 mash-tap: p1 side=-1 +2 combo=14
+[134.236] #0970 r2 sfx: mash(14) delay=0ms
+[134.242] #0971 r2 mash: p=-0.560 elapsed=932ms taps=p1:14,cp:0,jd:0,gr:0
+[134.242] #0972 r2 mash-spark: #B8F23B,#3FE0D0
+[134.293] #0973 r2 mash: p=-0.559 elapsed=984ms taps=p1:14,cp:0,jd:0,gr:0
+[134.333] #0974 r2 mash-tap: p1 side=-1 +1 combo=15
+[134.333] #0975 r2 sfx: mash(15) delay=0ms
+[134.333] #0976 r2 stars: n=4 color=#B8F23B
+[134.345] #0977 r2 mash: p=-0.596 elapsed=1036ms taps=p1:15,cp:0,jd:0,gr:0
+[134.398] #0978 r2 mash: p=-0.603 elapsed=1088ms taps=p1:15,cp:0,jd:0,gr:0
+[134.398] #0979 r2 mash-spark: #B8F23B,#3FE0D0
+[134.435] #0980 r2 mash-tap: p1 side=-1 +2 combo=17
+[134.435] #0981 r2 sfx: mash(17) delay=0ms
+[134.450] #0982 r2 mash: p=-0.677 elapsed=1140ms taps=p1:17,cp:0,jd:0,gr:0
+[134.501] #0983 r2 mash: p=-0.684 elapsed=1192ms taps=p1:17,cp:0,jd:0,gr:0
+[134.535] #0984 r2 mash-tap: p1 side=-1 +1 combo=18
+[134.535] #0985 r2 sfx: mash(18) delay=0ms
+[134.535] #0986 r2 stars: n=4 color=#B8F23B
+[134.554] #0987 r2 mash: p=-0.725 elapsed=1244ms taps=p1:18,cp:0,jd:0,gr:0
+[134.554] #0988 r2 mash-spark: #B8F23B,#3FE0D0
+[134.554] #0989 r2 sfx: crowd(0.6,0.09800429672214031) delay=0ms
+[134.606] #0990 r2 mash: p=-0.725 elapsed=1296ms taps=p1:18,cp:0,jd:0,gr:0
+[134.637] #0991 r2 mash-tap: p1 side=-1 +2 combo=20
+[134.638] #0992 r2 sfx: mash(20) delay=0ms
+[134.638] #0993 r2 stars: n=10 color=#FFD43B
+[134.638] #0994 r2 sfx: sparkle() delay=0ms
+[134.657] #0995 r2 mash: p=-0.804 elapsed=1348ms taps=p1:20,cp:0,jd:0,gr:0
+[134.709] #0996 r2 mash: p=-0.807 elapsed=1400ms taps=p1:20,cp:0,jd:0,gr:0
+[134.710] #0997 r2 mash-spark: #B8F23B,#3FE0D0
+[134.732] #0998 r2 mash-tap: p1 side=-1 +1 combo=21
+[134.732] #0999 r2 sfx: mash(21) delay=0ms
+[134.732] #1000 r2 stars: n=4 color=#B8F23B
+[134.762] #1001 r2 mash: p=-0.848 elapsed=1452ms taps=p1:21,cp:0,jd:0,gr:0
+[134.814] #1002 r2 mash: p=-0.854 elapsed=1504ms taps=p1:21,cp:0,jd:0,gr:0
+[134.833] #1003 r2 mash-tap: p1 side=-1 +1 combo=22
+[134.833] #1004 r2 sfx: mash(22) delay=0ms
+[134.867] #1005 r2 mash: p=-0.895 elapsed=1557ms taps=p1:22,cp:0,jd:0,gr:0
+[134.867] #1006 r2 mash-spark: #B8F23B,#3FE0D0
+[134.918] #1007 r2 mash: p=-0.899 elapsed=1609ms taps=p1:22,cp:0,jd:0,gr:0
+[134.931] #1008 r2 mash-tap: p1 side=-1 +2 combo=24
+[134.931] #1009 r2 sfx: mash(24) delay=0ms
+[134.931] #1010 r2 stars: n=4 color=#B8F23B
+[134.970] #1011 r2 mash: p=-0.973 elapsed=1661ms taps=p1:24,cp:0,jd:0,gr:0
+[135.023] #1012 r2 mash: p=-0.978 elapsed=1713ms taps=p1:24,cp:0,jd:0,gr:0
+[135.023] #1013 r2 mash-spark: #B8F23B,#3FE0D0
+[135.053] #1014 r2 mash-tap: p1 side=-1 +1 combo=25
+[135.053] #1015 r2 sfx: mash(25) delay=0ms
+[135.076] #1016 r2 mash: p=-1.000 elapsed=1766ms taps=p1:25,cp:0,jd:0,gr:0
+[135.126] #1017 r2 mash: p=-1.000 elapsed=1817ms taps=p1:25,cp:0,jd:0,gr:0
+[135.135] #1018 r2 mash-tap: p1 side=-1 +2 combo=27
+[135.135] #1019 r2 sfx: mash(27) delay=0ms
+[135.135] #1020 r2 stars: n=4 color=#B8F23B
+[135.179] #1021 r2 mash: p=-1.000 elapsed=1869ms taps=p1:27,cp:0,jd:0,gr:0
+[135.179] #1022 r2 mash-spark: #B8F23B,#3FE0D0
+[135.179] #1023 r2 sfx: crowd(0.6,0.12) delay=0ms
+[135.232] #1024 r2 mash: p=-0.999 elapsed=1922ms taps=p1:27,cp:0,jd:0,gr:0
+[135.237] #1025 r2 mash-tap: p1 side=-1 +1 combo=28
+[135.237] #1026 r2 sfx: mash(28) delay=0ms
+[135.284] #1027 r2 mash: p=-1.000 elapsed=1974ms taps=p1:28,cp:0,jd:0,gr:0
+[135.333] #1028 r2 mash-tap: p1 side=-1 +1 combo=29
+[135.333] #1029 r2 sfx: mash(29) delay=0ms
+[135.333] #1030 r2 mash: p=-1.000 elapsed=2024ms taps=p1:29,cp:0,jd:0,gr:0
+[135.333] #1031 r2 mash-spark: #B8F23B,#3FE0D0
+[135.385] #1032 r2 mash: p=-0.999 elapsed=2075ms taps=p1:29,cp:0,jd:0,gr:0
+[135.435] #1033 r2 mash-tap: p1 side=-1 +2 combo=31
+[135.435] #1034 r2 sfx: mash(31) delay=0ms
+[135.435] #1035 r2 stars: n=4 color=#B8F23B
+[135.435] #1036 r2 stars: n=10 color=#FFD43B
+[135.435] #1037 r2 sfx: sparkle() delay=0ms
+[135.436] #1038 r2 mash: p=-1.000 elapsed=2127ms taps=p1:31,cp:0,jd:0,gr:0
+[135.488] #1039 r2 mash: p=-1.000 elapsed=2179ms taps=p1:31,cp:0,jd:0,gr:0
+[135.488] #1040 r2 mash-spark: #B8F23B,#3FE0D0
+[135.535] #1041 r2 mash-tap: p1 side=-1 +1 combo=32
+[135.535] #1042 r2 sfx: mash(32) delay=0ms
+[135.541] #1043 r2 mash: p=-1.000 elapsed=2231ms taps=p1:32,cp:0,jd:0,gr:0
+[135.594] #1044 r2 mash: p=-1.000 elapsed=2284ms taps=p1:32,cp:0,jd:0,gr:0
+[135.632] #1045 r2 mash-tap: p1 side=-1 +1 combo=33
+[135.632] #1046 r2 sfx: mash(33) delay=0ms
+[135.632] #1047 r2 stars: n=4 color=#B8F23B
+[135.645] #1048 r2 mash: p=-1.000 elapsed=2336ms taps=p1:33,cp:0,jd:0,gr:0
+[135.645] #1049 r2 mash-spark: #B8F23B,#3FE0D0
+[135.698] #1050 r2 mash: p=-1.000 elapsed=2389ms taps=p1:33,cp:0,jd:0,gr:0
+[135.738] #1051 r2 mash-tap: p1 side=-1 +2 combo=35
+[135.738] #1052 r2 sfx: mash(35) delay=0ms
+[135.750] #1053 r2 mash: p=-1.000 elapsed=2440ms taps=p1:35,cp:0,jd:0,gr:0
+[135.802] #1054 r2 mash: p=-1.000 elapsed=2492ms taps=p1:35,cp:0,jd:0,gr:0
+[135.802] #1055 r2 mash-spark: #B8F23B,#3FE0D0
+[135.802] #1056 r2 sfx: crowd(0.6,0.12) delay=0ms
+[135.839] #1057 r2 mash-tap: p1 side=-1 +1 combo=36
+[135.839] #1058 r2 sfx: mash(36) delay=0ms
+[135.839] #1059 r2 stars: n=4 color=#B8F23B
+[135.855] #1060 r2 mash: p=-1.000 elapsed=2545ms taps=p1:36,cp:0,jd:0,gr:0
+[135.906] #1061 r2 mash: p=-1.000 elapsed=2597ms taps=p1:36,cp:0,jd:0,gr:0
+[135.941] #1062 r2 mash-tap: p1 side=-1 +1 combo=37
+[135.941] #1063 r2 sfx: mash(37) delay=0ms
+[135.958] #1064 r2 mash: p=-1.000 elapsed=2649ms taps=p1:37,cp:0,jd:0,gr:0
+[135.958] #1065 r2 mash-spark: #B8F23B,#3FE0D0
+[136.011] #1066 r2 mash: p=-1.000 elapsed=2701ms taps=p1:37,cp:0,jd:0,gr:0
+[136.064] #1067 r2 mash: p=-1.000 elapsed=2754ms taps=p1:37,cp:0,jd:0,gr:0
+[136.113] #1068 r2 mash-tap: p1 side=-1 +2 combo=39
+[136.113] #1069 r2 sfx: mash(39) delay=0ms
+[136.113] #1070 r2 stars: n=4 color=#B8F23B
+[136.114] #1071 r2 mash: p=-1.000 elapsed=2805ms taps=p1:39,cp:0,jd:0,gr:0
+[136.114] #1072 r2 mash-spark: #B8F23B,#3FE0D0
+[136.133] #1073 r2 mash-tap: p1 side=-1 +1 combo=40
+[136.133] #1074 r2 sfx: mash(40) delay=0ms
+[136.133] #1075 r2 stars: n=10 color=#FFD43B
+[136.133] #1076 r2 sfx: sparkle() delay=0ms
+[136.167] #1077 r2 mash: p=-1.000 elapsed=2857ms taps=p1:40,cp:0,jd:0,gr:0
+[136.219] #1078 r2 mash: p=-1.000 elapsed=2909ms taps=p1:40,cp:0,jd:0,gr:0
+[136.233] #1079 r2 mash-tap: p1 side=-1 +1 combo=41
+[136.233] #1080 r2 sfx: mash(41) delay=0ms
+[136.270] #1081 r2 mash: p=-1.000 elapsed=2961ms taps=p1:41,cp:0,jd:0,gr:0
+[136.270] #1082 r2 mash-spark: #B8F23B,#3FE0D0
+[136.323] #1083 r2 mash: p=-0.999 elapsed=3014ms taps=p1:41,cp:0,jd:0,gr:0
+[136.333] #1084 r2 mash-tap: p1 side=-1 +2 combo=43
+[136.333] #1085 r2 sfx: mash(43) delay=0ms
+[136.333] #1086 r2 stars: n=4 color=#B8F23B
+[136.374] #1087 r2 mash: p=-1.000 elapsed=3064ms taps=p1:43,cp:0,jd:0,gr:0
+[136.427] #1088 r2 mash: p=-1.000 elapsed=3117ms taps=p1:43,cp:0,jd:0,gr:0
+[136.427] #1089 r2 mash-spark: #B8F23B,#3FE0D0
+[136.427] #1090 r2 sfx: crowd(0.6,0.11998906479439994) delay=0ms
+[136.436] #1091 r2 mash-tap: p1 side=-1 +1 combo=44
+[136.436] #1092 r2 sfx: mash(44) delay=0ms
+[136.478] #1093 r2 mash: p=-1.000 elapsed=3169ms taps=p1:44,cp:0,jd:0,gr:0
+[136.530] #1094 r2 mash: p=-1.000 elapsed=3220ms taps=p1:44,cp:0,jd:0,gr:0
+[136.540] #1095 r2 mash-tap: p1 side=-1 +2 combo=46
+[136.540] #1096 r2 sfx: mash(46) delay=0ms
+[136.540] #1097 r2 stars: n=4 color=#B8F23B
+[136.582] #1098 r2 mash: p=-1.000 elapsed=3272ms taps=p1:46,cp:0,jd:0,gr:0
+[136.582] #1099 r2 mash-spark: #B8F23B,#3FE0D0
+[136.633] #1100 r2 mash: p=-1.000 elapsed=3324ms taps=p1:46,cp:0,jd:0,gr:0
+[136.642] #1101 r2 mash-tap: p1 side=-1 +1 combo=47
+[136.642] #1102 r2 sfx: mash(47) delay=0ms
+[136.686] #1103 r2 mash: p=-1.000 elapsed=3377ms taps=p1:47,cp:0,jd:0,gr:0
+[136.732] #1104 r2 mash-tap: p1 side=-1 +1 combo=48
+[136.732] #1105 r2 sfx: mash(48) delay=0ms
+[136.732] #1106 r2 stars: n=4 color=#B8F23B
+[136.738] #1107 r2 mash: p=-1.000 elapsed=3428ms taps=p1:48,cp:0,jd:0,gr:0
+[136.738] #1108 r2 mash-spark: #B8F23B,#3FE0D0
+[136.791] #1109 r2 mash: p=-1.000 elapsed=3481ms taps=p1:48,cp:0,jd:0,gr:0
+[136.835] #1110 r2 mash-tap: p1 side=-1 +2 combo=50
+[136.835] #1111 r2 sfx: mash(50) delay=0ms
+[136.835] #1112 r2 stars: n=10 color=#FFD43B
+[136.835] #1113 r2 sfx: sparkle() delay=0ms
+[136.841] #1114 r2 mash: p=-1.000 elapsed=3532ms taps=p1:50,cp:0,jd:0,gr:0
+[136.893] #1115 r2 mash: p=-1.000 elapsed=3584ms taps=p1:50,cp:0,jd:0,gr:0
+[136.893] #1116 r2 mash-spark: #B8F23B,#3FE0D0
+[136.941] #1117 r2 mash-tap: p1 side=-1 +1 combo=51
+[136.941] #1118 r2 sfx: mash(51) delay=0ms
+[136.941] #1119 r2 stars: n=4 color=#B8F23B
+[136.945] #1120 r2 mash: p=-1.000 elapsed=3635ms taps=p1:51,cp:0,jd:0,gr:0
+[136.998] #1121 r2 mash: p=-1.000 elapsed=3688ms taps=p1:51,cp:0,jd:0,gr:0
+[137.034] #1122 r2 mash-tap: p1 side=-1 +1 combo=52
+[137.034] #1123 r2 sfx: mash(52) delay=0ms
+[137.049] #1124 r2 mash: p=-1.000 elapsed=3740ms taps=p1:52,cp:0,jd:0,gr:0
+[137.049] #1125 r2 mash-spark: #B8F23B,#3FE0D0
+[137.049] #1126 r2 sfx: crowd(0.6,0.12) delay=0ms
+[137.102] #1127 r2 mash: p=-0.999 elapsed=3793ms taps=p1:52,cp:0,jd:0,gr:0
+[137.155] #1128 r2 mash-tap: p1 side=-1 +2 combo=54
+[137.155] #1129 r2 sfx: mash(54) delay=0ms
+[137.155] #1130 r2 stars: n=4 color=#B8F23B
+[137.155] #1131 r2 mash: p=-1.000 elapsed=3845ms taps=p1:54,cp:0,jd:0,gr:0
+[137.207] #1132 r2 mash: p=-0.998 elapsed=3897ms taps=p1:54,cp:0,jd:0,gr:0
+[137.208] #1133 r2 mash-spark: #B8F23B,#3FE0D0
+[137.258] #1134 r2 mash: p=-0.999 elapsed=3949ms taps=p1:54,cp:0,jd:0,gr:0
+[137.262] #1135 r2 mash-tap: p1 side=-1 +1 combo=55
+[137.262] #1136 r2 sfx: mash(55) delay=0ms
+[137.310] #1137 r2 mash: p=-1.000 elapsed=4001ms taps=p1:55,cp:0,jd:0,gr:0
+[137.335] #1138 r2 mash-tap: p1 side=-1 +2 combo=57
+[137.335] #1139 r2 sfx: mash(57) delay=0ms
+[137.335] #1140 r2 stars: n=4 color=#B8F23B
+[137.363] #1141 r2 mash: p=-1.000 elapsed=4053ms taps=p1:57,cp:0,jd:0,gr:0
+[137.363] #1142 r2 mash-spark: #B8F23B,#3FE0D0
+[137.415] #1143 r2 mash: p=-1.000 elapsed=4105ms taps=p1:57,cp:0,jd:0,gr:0
+[137.450] #1144 r2 mash-tap: p1 side=-1 +1 combo=58
+[137.450] #1145 r2 sfx: mash(58) delay=0ms
+[137.466] #1146 r2 mash: p=-1.000 elapsed=4157ms taps=p1:58,cp:0,jd:0,gr:0
+[137.518] #1147 r2 mash: p=-1.000 elapsed=4209ms taps=p1:58,cp:0,jd:0,gr:0
+[137.518] #1148 r2 mash-spark: #B8F23B,#3FE0D0
+[137.536] #1149 r2 mash-tap: p1 side=-1 +2 combo=60
+[137.536] #1150 r2 sfx: mash(60) delay=0ms
+[137.536] #1151 r2 stars: n=4 color=#B8F23B
+[137.536] #1152 r2 stars: n=10 color=#FFD43B
+[137.536] #1153 r2 sfx: sparkle() delay=0ms
+[137.571] #1154 r2 mash: p=-1.000 elapsed=4261ms taps=p1:60,cp:0,jd:0,gr:0
+[137.624] #1155 r2 mash: p=-1.000 elapsed=4313ms taps=p1:60,cp:0,jd:0,gr:0
+[137.632] #1156 r2 mash-tap: p1 side=-1 +1 combo=61
+[137.632] #1157 r2 sfx: mash(61) delay=0ms
+[137.675] #1158 r2 mash: p=-1.000 elapsed=4366ms taps=p1:61,cp:0,jd:0,gr:0
+[137.677] #1159 r2 mash-spark: #B8F23B,#3FE0D0
+[137.677] #1160 r2 sfx: crowd(0.6,0.12) delay=0ms
+[137.728] #1161 r2 mash: p=-1.000 elapsed=4419ms taps=p1:61,cp:0,jd:0,gr:0
+[137.732] #1162 r2 mash-tap: p1 side=-1 +1 combo=62
+[137.732] #1163 r2 sfx: mash(62) delay=0ms
+[137.780] #1164 r2 mash: p=-1.000 elapsed=4471ms taps=p1:62,cp:0,jd:0,gr:0
+[137.833] #1165 r2 mash: p=-1.000 elapsed=4524ms taps=p1:62,cp:0,jd:0,gr:0
+[137.833] #1166 r2 mash-spark: #B8F23B,#3FE0D0
+[137.835] #1167 r2 mash-tap: p1 side=-1 +2 combo=64
+[137.835] #1168 r2 sfx: mash(64) delay=0ms
+[137.835] #1169 r2 stars: n=4 color=#B8F23B
+[137.885] #1170 r2 mash: p=-1.000 elapsed=4575ms taps=p1:64,cp:0,jd:0,gr:0
+[137.936] #1171 r2 mash: p=-1.000 elapsed=4627ms taps=p1:64,cp:0,jd:0,gr:0
+[137.940] #1172 r2 mash-tap: p1 side=-1 +1 combo=65
+[137.940] #1173 r2 sfx: mash(65) delay=0ms
+[137.988] #1174 r2 mash: p=-1.000 elapsed=4679ms taps=p1:65,cp:0,jd:0,gr:0
+[137.988] #1175 r2 mash-spark: #B8F23B,#3FE0D0
+[138.042] #1176 r2 mash-tap: p1 side=-1 +2 combo=67
+[138.042] #1177 r2 sfx: mash(67) delay=0ms
+[138.042] #1178 r2 stars: n=4 color=#B8F23B
+[138.042] #1179 r2 mash: p=-1.000 elapsed=4732ms taps=p1:67,cp:0,jd:0,gr:0
+[138.095] #1180 r2 mash: p=-1.000 elapsed=4785ms taps=p1:67,cp:0,jd:0,gr:0
+[138.147] #1181 r2 mash: p=-1.000 elapsed=4837ms taps=p1:67,cp:0,jd:0,gr:0
+[138.147] #1182 r2 mash-spark: #B8F23B,#3FE0D0
+[138.185] #1183 r2 mash-tap: p1 side=-1 +1 combo=68
+[138.185] #1184 r2 sfx: mash(68) delay=0ms
+[138.197] #1185 r2 mash: p=-1.000 elapsed=4888ms taps=p1:68,cp:0,jd:0,gr:0
+[138.233] #1186 r2 mash-tap: p1 side=-1 +1 combo=69
+[138.233] #1187 r2 sfx: mash(69) delay=0ms
+[138.233] #1188 r2 stars: n=4 color=#B8F23B
+[138.249] #1189 r2 mash: p=-1.000 elapsed=4939ms taps=p1:69,cp:0,jd:0,gr:0
+[138.300] #1190 r2 mash: p=-1.000 elapsed=4991ms taps=p1:69,cp:0,jd:0,gr:0
+[138.300] #1191 r2 mash-spark: #B8F23B,#3FE0D0
+[138.300] #1192 r2 sfx: crowd(0.6,0.12) delay=0ms
+[138.333] #1193 r2 mash-tap: p1 side=-1 +1 combo=70
+[138.333] #1194 r2 sfx: mash(70) delay=0ms
+[138.333] #1195 r2 stars: n=10 color=#FFD43B
+[138.333] #1196 r2 sfx: sparkle() delay=0ms
+[138.351] #1197 r2 mash: p=-1.000 elapsed=5042ms taps=p1:70,cp:0,jd:0,gr:0
+[138.405] #1198 r2 mash: p=-1.000 elapsed=5094ms taps=p1:70,cp:0,jd:0,gr:0
+[138.431] #1199 r2 mash-tap: p1 side=-1 +2 combo=72
+[138.431] #1200 r2 sfx: mash(72) delay=0ms
+[138.431] #1201 r2 stars: n=4 color=#B8F23B
+[138.458] #1202 r2 mash: p=-1.000 elapsed=5148ms taps=p1:72,cp:0,jd:0,gr:0
+[138.458] #1203 r2 mash-spark: #B8F23B,#3FE0D0
+[138.510] #1204 r2 mash: p=-0.998 elapsed=5200ms taps=p1:72,cp:0,jd:0,gr:0
+[138.535] #1205 r2 mash-tap: p1 side=-1 +1 combo=73
+[138.535] #1206 r2 sfx: mash(73) delay=0ms
+[138.561] #1207 r2 mash: p=-1.000 elapsed=5252ms taps=p1:73,cp:0,jd:0,gr:0
+[138.613] #1208 r2 mash: p=-1.000 elapsed=5304ms taps=p1:73,cp:0,jd:0,gr:0
+[138.614] #1209 r2 mash-spark: #B8F23B,#3FE0D0
+[138.633] #1210 r2 mash-tap: p1 side=-1 +1 combo=74
+[138.633] #1211 r2 sfx: mash(74) delay=0ms
+[138.666] #1212 r2 mash: p=-1.000 elapsed=5356ms taps=p1:74,cp:0,jd:0,gr:0
+[138.719] #1213 r2 mash: p=-1.000 elapsed=5409ms taps=p1:74,cp:0,jd:0,gr:0
+[138.737] #1214 r2 mash-tap: p1 side=-1 +2 combo=76
+[138.738] #1215 r2 sfx: mash(76) delay=0ms
+[138.738] #1216 r2 stars: n=4 color=#B8F23B
+[138.770] #1217 r2 mash: p=-1.000 elapsed=5461ms taps=p1:76,cp:0,jd:0,gr:0
+[138.770] #1218 r2 mash-spark: #B8F23B,#3FE0D0
+[138.823] #1219 r2 mash: p=-1.000 elapsed=5514ms taps=p1:76,cp:0,jd:0,gr:0
+[138.833] #1220 r2 mash-tap: p1 side=-1 +1 combo=77
+[138.833] #1221 r2 sfx: mash(77) delay=0ms
+[138.875] #1222 r2 mash: p=-1.000 elapsed=5566ms taps=p1:77,cp:0,jd:0,gr:0
+[138.928] #1223 r2 mash: p=-1.000 elapsed=5618ms taps=p1:77,cp:0,jd:0,gr:0
+[138.929] #1224 r2 mash-spark: #B8F23B,#3FE0D0
+[138.929] #1225 r2 sfx: crowd(0.6,0.12) delay=0ms
+[138.935] #1226 r2 mash-tap: p1 side=-1 +1 combo=78
+[138.935] #1227 r2 sfx: mash(78) delay=0ms
+[138.935] #1228 r2 stars: n=4 color=#B8F23B
+[138.981] #1229 r2 mash: p=-1.000 elapsed=5671ms taps=p1:78,cp:0,jd:0,gr:0
+[139.032] #1230 r2 mash: p=-1.000 elapsed=5723ms taps=p1:78,cp:0,jd:0,gr:0
+[139.037] #1231 r2 mash-tap: p1 side=-1 +2 combo=80
+[139.037] #1232 r2 sfx: mash(80) delay=0ms
+[139.037] #1233 r2 stars: n=10 color=#FFD43B
+[139.037] #1234 r2 sfx: sparkle() delay=0ms
+[139.084] #1235 r2 mash: p=-1.000 elapsed=5775ms taps=p1:80,cp:0,jd:0,gr:0
+[139.084] #1236 r2 mash-spark: #B8F23B,#3FE0D0
+[139.136] #1237 r2 mash-tap: p1 side=-1 +1 combo=81
+[139.136] #1238 r2 sfx: mash(81) delay=0ms
+[139.136] #1239 r2 stars: n=4 color=#B8F23B
+[139.136] #1240 r2 mash: p=-1.000 elapsed=5826ms taps=p1:81,cp:0,jd:0,gr:0
+[139.189] #1241 r2 mash: p=-1.000 elapsed=5879ms taps=p1:81,cp:0,jd:0,gr:0
+[139.239] #1242 r2 mash: p=-1.000 elapsed=5930ms taps=p1:81,cp:0,jd:0,gr:0
+[139.240] #1243 r2 mash-spark: #B8F23B,#3FE0D0
+[139.258] #1244 r2 mash-tap: p1 side=-1 +1 combo=82
+[139.258] #1245 r2 sfx: mash(82) delay=0ms
+[139.293] #1246 r2 mash: p=-1.000 elapsed=5984ms taps=p1:82,cp:0,jd:0,gr:0
+[139.313] #1247 r2 mash: p=-1.000 elapsed=6003ms taps=p1:82,cp:0,jd:0,gr:0
+[139.313] #1248 r2 phase: knockout
+[139.313] #1249 r2 animate: brag.tug 250ms delay=0ms 1 -> 0
+[139.313] #1250 r2 animate: brag.combo 250ms delay=0ms 1 -> 0
+[139.313] #1251 r2 animate: brag.vs 300ms delay=0ms scale(1) rotate(-8deg) -> scale(2.2) rotate(20deg)
+[139.313] #1252 r2 sfx: ko() delay=0ms
+[139.313] #1253 r2 shake: 22px 380ms
+[139.313] #1254 r2 flash: opacity=0.7 380ms
+[139.313] #1255 r2 punch: scale=1.07 420ms
+[139.313] #1256 r2 host-react: glee 1800ms
+[139.313] #1257 r2 animate: brag.fighter-right 850ms delay=0ms scale(0.86) -> translate(760px,-260px) rotate(620deg) scale(.4)
+[139.313] #1258 r2 sfx: boing() delay=120ms
+[139.313] #1259 r2 animate: brag.fighter-left spring=soft delay=0ms scale(1.1400000000000001) -> translateX(374px) scale(1.12)
+[139.313] #1260 r2 animate: brag.sweep 560ms delay=0ms 16 -> 78
+[139.873] #1261 r2 eyes: brag.fighter-left power=16
+[139.873] #1262 r2 slam: brag.ko rot=-5 from=2.6 shake=12px ring=true 520ms delay=0ms
+[139.874] #1263 r2 confetti: n=120 power=1300 angle=-1.57 delay=0ms
+[139.874] #1264 r2 sfx: fanfare() delay=0ms
+[139.874] #1265 r2 fly-points: jd +100 -> chip 1300ms delay=350ms
+[139.874] #1266 r2 sfx: pop(4) delay=350ms
+[139.874] #1267 r2 sfx: whoop() delay=830ms
+[139.874] #1268 r2 host: brag.winner brow=up type=884ms hold=900ms: **Great Uncle Mort** takes it. Sir Hugsby is devastated.
+[140.757] #1269 r2 host-finish: **Great Uncle Mort** takes it. Sir Hugsby is devastated.
+[141.523] #1270 r2 score: jd 94 -> 194 leaders=jd
+[141.524] #1271 r2 animate: chip:jd spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[141.524] #1272 r2 sfx: coin() delay=0ms
+[141.524] #1273 r2 stars: n=10 color=#B8F23B
+[141.524] #1274 r2 ring: radius=90 color=#B8F23B
+[141.659] #1275 r2 phase: brag-intro
+[141.659] #1276 r2 scene: brag -> brag wipe=1000ms swap=470ms
+[141.659] #1277 r2 sfx: whoosh() delay=0ms
+[142.661] #1278 r2 music: brag
+[142.661] #1279 r2 background: normal
+[142.661] #1280 r2 match: THE FINAL: p1 vs jd +150
+[142.661] #1281 r2 animate: brag.panel-left 560ms delay=0ms translateX(-105%) -> none
+[142.661] #1282 r2 animate: brag.panel-right 560ms delay=60ms translateX(105%) -> none
+[142.661] #1283 r2 sfx: whoosh() delay=0ms
+[142.661] #1284 r2 animate: brag.seam 260ms delay=480ms scaleY(0) -> none
+[142.661] #1285 r2 animate: brag.fighter-left spring=drop delay=240ms translateX(-700px) rotate(-30deg) -> none
+[142.661] #1286 r2 animate: brag.fighter-right spring=drop delay=340ms translateX(700px) rotate(30deg) -> none
+[143.258] #1287 r2 host-hide: 220ms
+[143.343] #1288 r2 sfx: slam() delay=0ms
+[143.343] #1289 r2 shake: 14px 380ms
+[143.343] #1290 r2 flash: opacity=0.35 380ms
+[143.343] #1291 r2 eyes: all power=12
+[143.343] #1292 r2 animate: brag.vs spring=pop delay=0ms scale(3) rotate(-180deg) -> scale(1) rotate(-8deg)
+[143.343] #1293 r2 host: brag.intro brow=up type=884ms hold=250ms: The final! **The Thingamajig** versus **Great Uncle Mort**!
+[144.228] #1294 r2 host-finish: The final! **The Thingamajig** versus **Great Uncle Mort**!
+[144.476] #1295 r2 host-hide: 150ms
+[144.476] #1296 r2 phase: brag-lines
+[144.476] #1297 r2 pop: brag.line-left rot=-2 fromRot=-14 spring=pop delay=0ms
+[144.476] #1298 r2 sfx: voice() delay=0ms
+[144.476] #1299 r2 sfx: voice() delay=70ms
+[144.476] #1300 r2 sfx: voice() delay=140ms
+[144.476] #1301 r2 sfx: voice() delay=210ms
+[144.476] #1302 r2 sfx: voice() delay=280ms
+[144.476] #1303 r2 sfx: voice() delay=350ms
+[144.476] #1304 r2 eyes: brag.fighter-left power=10
+[144.476] #1305 r2 animate: brag.fighter-left 360ms delay=0ms none -> translateY(-16px) rotate(-3deg) -> none
+[145.976] #1306 r2 pop: brag.line-right rot=2 fromRot=14 spring=pop delay=0ms
+[145.976] #1307 r2 sfx: voice() delay=0ms
+[145.976] #1308 r2 sfx: voice() delay=70ms
+[145.976] #1309 r2 sfx: voice() delay=140ms
+[145.976] #1310 r2 sfx: voice() delay=210ms
+[145.976] #1311 r2 sfx: voice() delay=280ms
+[145.976] #1312 r2 sfx: voice() delay=350ms
+[145.976] #1313 r2 eyes: brag.fighter-right power=10
+[145.976] #1314 r2 animate: brag.fighter-right 360ms delay=0ms none -> translateY(-16px) rotate(3deg) -> none
+[147.478] #1315 r2 animate: brag.line-left 200ms delay=0ms 1 -> 0
+[147.478] #1316 r2 animate: brag.line-right 200ms delay=0ms 1 -> 0
+[147.478] #1317 r2 phase: brag-countdown
+[147.478] #1318 r2 animate: brag.tug spring=pop delay=0ms translateY(60px) -> none
+[147.478] #1319 r2 sfx: beep(0) delay=0ms
+[147.478] #1320 r2 count: brag 3 560ms
+[148.041] #1321 r2 sfx: beep(0) delay=0ms
+[148.042] #1322 r2 count: brag 2 560ms
+[148.601] #1323 r2 sfx: beep(0) delay=0ms
+[148.601] #1324 r2 count: brag 1 560ms
+[149.162] #1325 r2 sfx: horn() delay=0ms
+[149.162] #1326 r2 flash: opacity=0.5 380ms
+[149.162] #1327 r2 shake: 12px 380ms
+[149.162] #1328 r2 count: brag MASH! 900ms
+[149.162] #1329 r2 phase: mash timer=6000ms
+[149.214] #1330 r2 mash: p=0.012 elapsed=52ms taps=p1:0,cp:0,jd:0,gr:0
+[149.237] #1331 r2 mash-tap: p1 side=-1 +1 combo=1
+[149.237] #1332 r2 sfx: mash(1) delay=0ms
+[149.267] #1333 r2 mash: p=-0.015 elapsed=104ms taps=p1:1,cp:0,jd:0,gr:0
+[149.317] #1334 r2 mash: p=-0.005 elapsed=155ms taps=p1:1,cp:0,jd:0,gr:0
+[149.319] #1335 r2 mash-spark: #FF4FA0,#B8F23B
+[149.339] #1336 r2 mash-tap: p1 side=-1 +1 combo=2
+[149.339] #1337 r2 sfx: mash(2) delay=0ms
+[149.370] #1338 r2 mash: p=-0.030 elapsed=208ms taps=p1:2,cp:0,jd:0,gr:0
+[149.423] #1339 r2 mash: p=-0.017 elapsed=260ms taps=p1:2,cp:0,jd:0,gr:0
+[149.441] #1340 r2 mash-tap: p1 side=-1 +2 combo=4
+[149.441] #1341 r2 sfx: mash(4) delay=0ms
+[149.441] #1342 r2 stars: n=4 color=#FF4FA0
+[149.475] #1343 r2 mash: p=-0.077 elapsed=312ms taps=p1:4,cp:0,jd:0,gr:0
+[149.475] #1344 r2 mash-spark: #FF4FA0,#B8F23B
+[149.526] #1345 r2 mash: p=-0.063 elapsed=364ms taps=p1:4,cp:0,jd:0,gr:0
+[149.536] #1346 r2 mash-tap: p1 side=-1 +1 combo=5
+[149.536] #1347 r2 sfx: mash(5) delay=0ms
+[149.578] #1348 r2 mash: p=-0.088 elapsed=416ms taps=p1:5,cp:0,jd:0,gr:0
+[149.631] #1349 r2 mash: p=-0.078 elapsed=469ms taps=p1:5,cp:0,jd:0,gr:0
+[149.631] #1350 r2 mash-spark: #FF4FA0,#B8F23B
+[149.635] #1351 r2 mash-tap: p1 side=-1 +2 combo=7
+[149.635] #1352 r2 sfx: mash(7) delay=0ms
+[149.636] #1353 r2 stars: n=4 color=#FF4FA0
+[149.683] #1354 r2 mash: p=-0.139 elapsed=520ms taps=p1:7,cp:0,jd:0,gr:0
+[149.734] #1355 r2 mash: p=-0.129 elapsed=572ms taps=p1:7,cp:0,jd:0,gr:0
+[149.772] #1356 r2 mash-tap: p1 side=-1 +1 combo=8
+[149.772] #1357 r2 sfx: mash(8) delay=0ms
+[149.786] #1358 r2 mash: p=-0.155 elapsed=622ms taps=p1:8,cp:0,jd:0,gr:0
+[149.786] #1359 r2 mash-spark: #FF4FA0,#B8F23B
+[149.786] #1360 r2 sfx: crowd(0.6,0.05240084550581839) delay=0ms
+[149.833] #1361 r2 mash-tap: p1 side=-1 +1 combo=9
+[149.833] #1362 r2 sfx: mash(9) delay=0ms
+[149.833] #1363 r2 stars: n=4 color=#FF4FA0
+[149.834] #1364 r2 mash: p=-0.180 elapsed=672ms taps=p1:9,cp:0,jd:0,gr:0
+[149.888] #1365 r2 mash: p=-0.168 elapsed=726ms taps=p1:9,cp:0,jd:0,gr:0
+[149.935] #1366 r2 mash-tap: p1 side=-1 +2 combo=11
+[149.935] #1367 r2 sfx: mash(11) delay=0ms
+[149.935] #1368 r2 stars: n=10 color=#FFD43B
+[149.935] #1369 r2 sfx: sparkle() delay=0ms
+[149.940] #1370 r2 mash: p=-0.229 elapsed=777ms taps=p1:11,cp:0,jd:0,gr:0
+[149.940] #1371 r2 mash-spark: #FF4FA0,#B8F23B
+[149.992] #1372 r2 mash: p=-0.221 elapsed=829ms taps=p1:11,cp:0,jd:0,gr:0
+[150.037] #1373 r2 mash-tap: p1 side=-1 +1 combo=12
+[150.037] #1374 r2 sfx: mash(12) delay=0ms
+[150.037] #1375 r2 stars: n=4 color=#FF4FA0
+[150.042] #1376 r2 mash: p=-0.248 elapsed=879ms taps=p1:12,cp:0,jd:0,gr:0
+[150.094] #1377 r2 mash: p=-0.236 elapsed=931ms taps=p1:12,cp:0,jd:0,gr:0
+[150.094] #1378 r2 mash-spark: #FF4FA0,#B8F23B
+[150.142] #1379 r2 mash-tap: p1 side=-1 +1 combo=13
+[150.142] #1380 r2 sfx: mash(13) delay=0ms
+[150.144] #1381 r2 mash: p=-0.264 elapsed=982ms taps=p1:13,cp:0,jd:0,gr:0
+[150.196] #1382 r2 mash: p=-0.255 elapsed=1033ms taps=p1:13,cp:0,jd:0,gr:0
+[150.242] #1383 r2 mash-tap: p1 side=-1 +1 combo=14
+[150.242] #1384 r2 sfx: mash(14) delay=0ms
+[150.248] #1385 r2 mash: p=-0.282 elapsed=1084ms taps=p1:14,cp:0,jd:0,gr:0
+[150.248] #1386 r2 mash-spark: #FF4FA0,#B8F23B
+[150.298] #1387 r2 mash: p=-0.271 elapsed=1135ms taps=p1:14,cp:0,jd:0,gr:0
+[150.337] #1388 r2 mash-tap: p1 side=-1 +2 combo=16
+[150.337] #1389 r2 sfx: mash(16) delay=0ms
+[150.337] #1390 r2 stars: n=4 color=#FF4FA0
+[150.350] #1391 r2 mash: p=-0.332 elapsed=1187ms taps=p1:16,cp:0,jd:0,gr:0
+[150.401] #1392 r2 mash: p=-0.324 elapsed=1239ms taps=p1:16,cp:0,jd:0,gr:0
+[150.401] #1393 r2 mash-spark: #FF4FA0,#B8F23B
+[150.403] #1394 r2 sfx: crowd(0.6,0.06593746644485049) delay=0ms
+[150.454] #1395 r2 mash: p=-0.310 elapsed=1292ms taps=p1:16,cp:0,jd:0,gr:0
+[150.465] #1396 r2 mash-tap: p1 side=-1 +1 combo=17
+[150.465] #1397 r2 sfx: mash(17) delay=0ms
+[150.506] #1398 r2 mash: p=-0.338 elapsed=1344ms taps=p1:17,cp:0,jd:0,gr:0
+[150.536] #1399 r2 mash-tap: p1 side=-1 +1 combo=18
+[150.536] #1400 r2 sfx: mash(18) delay=0ms
+[150.536] #1401 r2 stars: n=4 color=#FF4FA0
+[150.559] #1402 r2 mash: p=-0.365 elapsed=1396ms taps=p1:18,cp:0,jd:0,gr:0
+[150.560] #1403 r2 mash-spark: #FF4FA0,#B8F23B
+[150.612] #1404 r2 mash: p=-0.351 elapsed=1449ms taps=p1:18,cp:0,jd:0,gr:0
+[150.639] #1405 r2 mash-tap: p1 side=-1 +2 combo=20
+[150.639] #1406 r2 sfx: mash(20) delay=0ms
+[150.639] #1407 r2 stars: n=10 color=#FFD43B
+[150.639] #1408 r2 sfx: sparkle() delay=0ms
+[150.662] #1409 r2 mash: p=-0.415 elapsed=1500ms taps=p1:20,cp:0,jd:0,gr:0
+[150.714] #1410 r2 mash: p=-0.406 elapsed=1552ms taps=p1:20,cp:0,jd:0,gr:0
+[150.714] #1411 r2 mash-spark: #FF4FA0,#B8F23B
+[150.738] #1412 r2 mash-tap: p1 side=-1 +1 combo=21
+[150.739] #1413 r2 sfx: mash(21) delay=0ms
+[150.739] #1414 r2 stars: n=4 color=#FF4FA0
+[150.767] #1415 r2 mash: p=-0.429 elapsed=1604ms taps=p1:21,cp:0,jd:0,gr:0
+[150.819] #1416 r2 mash: p=-0.417 elapsed=1656ms taps=p1:21,cp:0,jd:0,gr:0
+[150.833] #1417 r2 mash-tap: p1 side=-1 +1 combo=22
+[150.833] #1418 r2 sfx: mash(22) delay=0ms
+[150.870] #1419 r2 mash: p=-0.440 elapsed=1708ms taps=p1:22,cp:0,jd:0,gr:0
+[150.871] #1420 r2 mash-spark: #FF4FA0,#B8F23B
+[150.923] #1421 r2 mash: p=-0.431 elapsed=1761ms taps=p1:22,cp:0,jd:0,gr:0
+[150.931] #1422 r2 mash-tap: p1 side=-1 +1 combo=23
+[150.931] #1423 r2 sfx: mash(23) delay=0ms
+[150.977] #1424 r2 mash: p=-0.454 elapsed=1815ms taps=p1:23,cp:0,jd:0,gr:0
+[151.029] #1425 r2 mash: p=-0.444 elapsed=1866ms taps=p1:23,cp:0,jd:0,gr:0
+[151.030] #1426 r2 mash-spark: #FF4FA0,#B8F23B
+[151.030] #1427 r2 sfx: crowd(0.6,0.07552294338755683) delay=0ms
+[151.036] #1428 r2 mash-tap: p1 side=-1 +2 combo=25
+[151.036] #1429 r2 sfx: mash(25) delay=0ms
+[151.036] #1430 r2 stars: n=4 color=#FF4FA0
+[151.081] #1431 r2 mash: p=-0.502 elapsed=1918ms taps=p1:25,cp:0,jd:0,gr:0
+[151.131] #1432 r2 mash: p=-0.489 elapsed=1968ms taps=p1:25,cp:0,jd:0,gr:0
+[151.132] #1433 r2 mash-tap: p1 side=-1 +1 combo=26
+[151.132] #1434 r2 sfx: mash(26) delay=0ms
+[151.180] #1435 r2 mash: p=-0.516 elapsed=2018ms taps=p1:26,cp:0,jd:0,gr:0
+[151.180] #1436 r2 mash-spark: #FF4FA0,#B8F23B
+[151.232] #1437 r2 mash: p=-0.507 elapsed=2069ms taps=p1:26,cp:0,jd:0,gr:0
+[151.232] #1438 r2 mash-tap: p1 side=-1 +1 combo=27
+[151.232] #1439 r2 sfx: mash(27) delay=0ms
+[151.232] #1440 r2 stars: n=4 color=#FF4FA0
+[151.282] #1441 r2 mash: p=-0.533 elapsed=2120ms taps=p1:27,cp:0,jd:0,gr:0
+[151.332] #1442 r2 mash-tap: p1 side=-1 +2 combo=29
+[151.333] #1443 r2 sfx: mash(29) delay=0ms
+[151.333] #1444 r2 mash: p=-0.596 elapsed=2171ms taps=p1:29,cp:0,jd:0,gr:0
+[151.333] #1445 r2 mash-spark: #FF4FA0,#B8F23B
+[151.386] #1446 r2 mash: p=-0.583 elapsed=2223ms taps=p1:29,cp:0,jd:0,gr:0
+[151.433] #1447 r2 mash-tap: p1 side=-1 +1 combo=30
+[151.433] #1448 r2 sfx: mash(30) delay=0ms
+[151.433] #1449 r2 stars: n=4 color=#FF4FA0
+[151.433] #1450 r2 stars: n=10 color=#FFD43B
+[151.433] #1451 r2 sfx: sparkle() delay=0ms
+[151.436] #1452 r2 mash: p=-0.612 elapsed=2274ms taps=p1:30,cp:0,jd:0,gr:0
+[151.488] #1453 r2 mash: p=-0.602 elapsed=2326ms taps=p1:30,cp:0,jd:0,gr:0
+[151.489] #1454 r2 mash-spark: #FF4FA0,#B8F23B
+[151.536] #1455 r2 mash-tap: p1 side=-1 +2 combo=32
+[151.536] #1456 r2 sfx: mash(32) delay=0ms
+[151.540] #1457 r2 mash: p=-0.660 elapsed=2377ms taps=p1:32,cp:0,jd:0,gr:0
+[151.591] #1458 r2 mash: p=-0.649 elapsed=2429ms taps=p1:32,cp:0,jd:0,gr:0
+[151.638] #1459 r2 mash-tap: p1 side=-1 +1 combo=33
+[151.638] #1460 r2 sfx: mash(33) delay=0ms
+[151.638] #1461 r2 stars: n=4 color=#FF4FA0
+[151.643] #1462 r2 mash: p=-0.675 elapsed=2480ms taps=p1:33,cp:0,jd:0,gr:0
+[151.643] #1463 r2 mash-spark: #FF4FA0,#B8F23B
+[151.643] #1464 r2 sfx: crowd(0.6,0.09402575555443723) delay=0ms
+[151.695] #1465 r2 mash: p=-0.663 elapsed=2532ms taps=p1:33,cp:0,jd:0,gr:0
+[151.734] #1466 r2 mash-tap: p1 side=-1 +1 combo=34
+[151.736] #1467 r2 sfx: mash(34) delay=0ms
+[151.746] #1468 r2 mash: p=-0.686 elapsed=2584ms taps=p1:34,cp:0,jd:0,gr:0
+[151.799] #1469 r2 mash: p=-0.676 elapsed=2637ms taps=p1:34,cp:0,jd:0,gr:0
+[151.799] #1470 r2 mash-spark: #FF4FA0,#B8F23B
+[151.838] #1471 r2 mash-tap: p1 side=-1 +1 combo=35
+[151.839] #1472 r2 sfx: mash(35) delay=0ms
+[151.851] #1473 r2 mash: p=-0.699 elapsed=2689ms taps=p1:35,cp:0,jd:0,gr:0
+[151.904] #1474 r2 mash: p=-0.685 elapsed=2741ms taps=p1:35,cp:0,jd:0,gr:0
+[151.935] #1475 r2 mash-tap: p1 side=-1 +2 combo=37
+[151.935] #1476 r2 sfx: mash(37) delay=0ms
+[151.935] #1477 r2 stars: n=4 color=#FF4FA0
+[151.954] #1478 r2 mash: p=-0.745 elapsed=2792ms taps=p1:37,cp:0,jd:0,gr:0
+[151.954] #1479 r2 mash-spark: #FF4FA0,#B8F23B
+[152.006] #1480 r2 mash: p=-0.736 elapsed=2844ms taps=p1:37,cp:0,jd:0,gr:0
+[152.032] #1481 r2 mash-tap: p1 side=-1 +1 combo=38
+[152.032] #1482 r2 sfx: mash(38) delay=0ms
+[152.059] #1483 r2 mash: p=-0.760 elapsed=2896ms taps=p1:38,cp:0,jd:0,gr:0
+[152.109] #1484 r2 mash: p=-0.751 elapsed=2947ms taps=p1:38,cp:0,jd:0,gr:0
+[152.109] #1485 r2 mash-spark: #FF4FA0,#B8F23B
+[152.133] #1486 r2 mash-tap: p1 side=-1 +1 combo=39
+[152.133] #1487 r2 sfx: mash(39) delay=0ms
+[152.133] #1488 r2 stars: n=4 color=#FF4FA0
+[152.161] #1489 r2 mash: p=-0.776 elapsed=2999ms taps=p1:39,cp:0,jd:0,gr:0
+[152.214] #1490 r2 mash: p=-0.765 elapsed=3051ms taps=p1:39,cp:0,jd:0,gr:0
+[152.236] #1491 r2 mash-tap: p1 side=-1 +2 combo=41
+[152.236] #1492 r2 sfx: mash(41) delay=0ms
+[152.236] #1493 r2 stars: n=10 color=#FFD43B
+[152.236] #1494 r2 sfx: sparkle() delay=0ms
+[152.267] #1495 r2 mash: p=-0.822 elapsed=3104ms taps=p1:41,cp:0,jd:0,gr:0
+[152.267] #1496 r2 mash-spark: #FF4FA0,#B8F23B
+[152.267] #1497 r2 sfx: crowd(0.6,0.10578591605400464) delay=0ms
+[152.319] #1498 r2 mash: p=-0.811 elapsed=3156ms taps=p1:41,cp:0,jd:0,gr:0
+[152.333] #1499 r2 mash-tap: p1 side=-1 +1 combo=42
+[152.334] #1500 r2 sfx: mash(42) delay=0ms
+[152.334] #1501 r2 stars: n=4 color=#FF4FA0
+[152.370] #1502 r2 mash: p=-0.836 elapsed=3208ms taps=p1:42,cp:0,jd:0,gr:0
+[152.423] #1503 r2 mash: p=-0.822 elapsed=3261ms taps=p1:42,cp:0,jd:0,gr:0
+[152.424] #1504 r2 mash-spark: #FF4FA0,#B8F23B
+[152.435] #1505 r2 mash-tap: p1 side=-1 +2 combo=44
+[152.435] #1506 r2 sfx: mash(44) delay=0ms
+[152.476] #1507 r2 mash: p=-0.885 elapsed=3314ms taps=p1:44,cp:0,jd:0,gr:0
+[152.530] #1508 r2 mash: p=-0.875 elapsed=3367ms taps=p1:44,cp:0,jd:0,gr:0
+[152.531] #1509 r2 mash-tap: p1 side=-1 +1 combo=45
+[152.531] #1510 r2 sfx: mash(45) delay=0ms
+[152.531] #1511 r2 stars: n=4 color=#FF4FA0
+[152.582] #1512 r2 mash: p=-0.897 elapsed=3419ms taps=p1:45,cp:0,jd:0,gr:0
+[152.582] #1513 r2 mash-spark: #FF4FA0,#B8F23B
+[152.633] #1514 r2 mash: p=-0.883 elapsed=3471ms taps=p1:45,cp:0,jd:0,gr:0
+[152.635] #1515 r2 mash-tap: p1 side=-1 +1 combo=46
+[152.635] #1516 r2 sfx: mash(46) delay=0ms
+[152.685] #1517 r2 mash: p=-0.911 elapsed=3523ms taps=p1:46,cp:0,jd:0,gr:0
+[152.737] #1518 r2 mash-tap: p1 side=-1 +2 combo=48
+[152.737] #1519 r2 sfx: mash(48) delay=0ms
+[152.737] #1520 r2 stars: n=4 color=#FF4FA0
+[152.737] #1521 r2 mash: p=-0.971 elapsed=3574ms taps=p1:48,cp:0,jd:0,gr:0
+[152.737] #1522 r2 mash-spark: #FF4FA0,#B8F23B
+[152.788] #1523 r2 mash: p=-0.961 elapsed=3626ms taps=p1:48,cp:0,jd:0,gr:0
+[152.834] #1524 r2 mash-tap: p1 side=-1 +1 combo=49
+[152.834] #1525 r2 sfx: mash(49) delay=0ms
+[152.840] #1526 r2 mash: p=-0.983 elapsed=3678ms taps=p1:49,cp:0,jd:0,gr:0
+[152.893] #1527 r2 mash: p=-0.974 elapsed=3731ms taps=p1:49,cp:0,jd:0,gr:0
+[152.893] #1528 r2 mash-spark: #FF4FA0,#B8F23B
+[152.893] #1529 r2 sfx: crowd(0.6,0.11792987885128939) delay=0ms
+[152.935] #1530 r2 mash-tap: p1 side=-1 +1 combo=50
+[152.935] #1531 r2 sfx: mash(50) delay=0ms
+[152.935] #1532 r2 stars: n=10 color=#FFD43B
+[152.935] #1533 r2 sfx: sparkle() delay=0ms
+[152.946] #1534 r2 mash: p=-1.000 elapsed=3784ms taps=p1:50,cp:0,jd:0,gr:0
+[152.998] #1535 r2 mash: p=-0.988 elapsed=3835ms taps=p1:50,cp:0,jd:0,gr:0
+[153.037] #1536 r2 mash-tap: p1 side=-1 +1 combo=51
+[153.037] #1537 r2 sfx: mash(51) delay=0ms
+[153.037] #1538 r2 stars: n=4 color=#FF4FA0
+[153.049] #1539 r2 mash: p=-1.000 elapsed=3887ms taps=p1:51,cp:0,jd:0,gr:0
+[153.049] #1540 r2 mash-spark: #FF4FA0,#B8F23B
+[153.101] #1541 r2 mash: p=-0.988 elapsed=3939ms taps=p1:51,cp:0,jd:0,gr:0
+[153.132] #1542 r2 mash-tap: p1 side=-1 +2 combo=53
+[153.132] #1543 r2 sfx: mash(53) delay=0ms
+[153.155] #1544 r2 mash: p=-1.000 elapsed=3992ms taps=p1:53,cp:0,jd:0,gr:0
+[153.208] #1545 r2 mash: p=-0.992 elapsed=4044ms taps=p1:53,cp:0,jd:0,gr:0
+[153.208] #1546 r2 mash-spark: #FF4FA0,#B8F23B
+[153.233] #1547 r2 mash-tap: p1 side=-1 +1 combo=54
+[153.233] #1548 r2 sfx: mash(54) delay=0ms
+[153.233] #1549 r2 stars: n=4 color=#FF4FA0
+[153.260] #1550 r2 mash: p=-1.000 elapsed=4097ms taps=p1:54,cp:0,jd:0,gr:0
+[153.311] #1551 r2 mash: p=-0.990 elapsed=4149ms taps=p1:54,cp:0,jd:0,gr:0
+[153.337] #1552 r2 mash-tap: p1 side=-1 +2 combo=56
+[153.337] #1553 r2 sfx: mash(56) delay=0ms
+[153.363] #1554 r2 mash: p=-1.000 elapsed=4201ms taps=p1:56,cp:0,jd:0,gr:0
+[153.363] #1555 r2 mash-spark: #FF4FA0,#B8F23B
+[153.417] #1556 r2 mash: p=-0.987 elapsed=4254ms taps=p1:56,cp:0,jd:0,gr:0
+[153.440] #1557 r2 mash-tap: p1 side=-1 +1 combo=57
+[153.440] #1558 r2 sfx: mash(57) delay=0ms
+[153.440] #1559 r2 stars: n=4 color=#FF4FA0
+[153.469] #1560 r2 mash: p=-1.000 elapsed=4306ms taps=p1:57,cp:0,jd:0,gr:0
+[153.520] #1561 r2 mash: p=-0.987 elapsed=4358ms taps=p1:57,cp:0,jd:0,gr:0
+[153.520] #1562 r2 mash-spark: #FF4FA0,#B8F23B
+[153.520] #1563 r2 sfx: crowd(0.6,0.1189839408163306) delay=0ms
+[153.538] #1564 r2 mash-tap: p1 side=-1 +1 combo=58
+[153.540] #1565 r2 sfx: mash(58) delay=0ms
+[153.573] #1566 r2 mash: p=-1.000 elapsed=4411ms taps=p1:58,cp:0,jd:0,gr:0
+[153.626] #1567 r2 mash: p=-0.990 elapsed=4464ms taps=p1:58,cp:0,jd:0,gr:0
+[153.639] #1568 r2 mash-tap: p1 side=-1 +2 combo=60
+[153.641] #1569 r2 sfx: mash(60) delay=0ms
+[153.641] #1570 r2 stars: n=4 color=#FF4FA0
+[153.641] #1571 r2 stars: n=10 color=#FFD43B
+[153.641] #1572 r2 sfx: sparkle() delay=0ms
+[153.677] #1573 r2 mash: p=-1.000 elapsed=4514ms taps=p1:60,cp:0,jd:0,gr:0
+[153.677] #1574 r2 mash-spark: #FF4FA0,#B8F23B
+[153.728] #1575 r2 mash: p=-0.989 elapsed=4566ms taps=p1:60,cp:0,jd:0,gr:0
+[153.743] #1576 r2 mash-tap: p1 side=-1 +1 combo=61
+[153.743] #1577 r2 sfx: mash(61) delay=0ms
+[153.780] #1578 r2 mash: p=-1.000 elapsed=4618ms taps=p1:61,cp:0,jd:0,gr:0
+[153.833] #1579 r2 mash: p=-0.990 elapsed=4671ms taps=p1:61,cp:0,jd:0,gr:0
+[153.833] #1580 r2 mash-spark: #FF4FA0,#B8F23B
+[153.833] #1581 r2 mash-tap: p1 side=-1 +1 combo=62
+[153.833] #1582 r2 sfx: mash(62) delay=0ms
+[153.887] #1583 r2 mash: p=-1.000 elapsed=4723ms taps=p1:62,cp:0,jd:0,gr:0
+[153.931] #1584 r2 mash-tap: p1 side=-1 +1 combo=63
+[153.931] #1585 r2 sfx: mash(63) delay=0ms
+[153.931] #1586 r2 stars: n=4 color=#FF4FA0
+[153.938] #1587 r2 mash: p=-1.000 elapsed=4774ms taps=p1:63,cp:0,jd:0,gr:0
+[153.988] #1588 r2 mash: p=-0.987 elapsed=4825ms taps=p1:63,cp:0,jd:0,gr:0
+[153.988] #1589 r2 mash-spark: #FF4FA0,#B8F23B
+[154.034] #1590 r2 mash-tap: p1 side=-1 +1 combo=64
+[154.035] #1591 r2 sfx: mash(64) delay=0ms
+[154.038] #1592 r2 mash: p=-1.000 elapsed=4876ms taps=p1:64,cp:0,jd:0,gr:0
+[154.091] #1593 r2 mash: p=-0.987 elapsed=4929ms taps=p1:64,cp:0,jd:0,gr:0
+[154.137] #1594 r2 mash-tap: p1 side=-1 +2 combo=66
+[154.137] #1595 r2 sfx: mash(66) delay=0ms
+[154.137] #1596 r2 stars: n=4 color=#FF4FA0
+[154.143] #1597 r2 mash: p=-1.000 elapsed=4980ms taps=p1:66,cp:0,jd:0,gr:0
+[154.143] #1598 r2 mash-spark: #FF4FA0,#B8F23B
+[154.143] #1599 r2 sfx: crowd(0.6,0.12) delay=0ms
+[154.196] #1600 r2 mash: p=-0.990 elapsed=5033ms taps=p1:66,cp:0,jd:0,gr:0
+[154.248] #1601 r2 mash: p=-0.980 elapsed=5085ms taps=p1:66,cp:0,jd:0,gr:0
+[154.255] #1602 r2 mash-tap: p1 side=-1 +1 combo=67
+[154.255] #1603 r2 sfx: mash(67) delay=0ms
+[154.299] #1604 r2 mash: p=-1.000 elapsed=5137ms taps=p1:67,cp:0,jd:0,gr:0
+[154.299] #1605 r2 mash-spark: #FF4FA0,#B8F23B
+[154.333] #1606 r2 mash-tap: p1 side=-1 +1 combo=68
+[154.333] #1607 r2 sfx: mash(68) delay=0ms
+[154.350] #1608 r2 mash: p=-1.000 elapsed=5187ms taps=p1:68,cp:0,jd:0,gr:0
+[154.403] #1609 r2 mash: p=-0.988 elapsed=5239ms taps=p1:68,cp:0,jd:0,gr:0
+[154.436] #1610 r2 mash-tap: p1 side=-1 +1 combo=69
+[154.436] #1611 r2 sfx: mash(69) delay=0ms
+[154.436] #1612 r2 stars: n=4 color=#FF4FA0
+[154.454] #1613 r2 mash: p=-1.000 elapsed=5292ms taps=p1:69,cp:0,jd:0,gr:0
+[154.454] #1614 r2 mash-spark: #FF4FA0,#B8F23B
+[154.506] #1615 r2 mash: p=-0.987 elapsed=5344ms taps=p1:69,cp:0,jd:0,gr:0
+[154.532] #1616 r2 mash-tap: p1 side=-1 +2 combo=71
+[154.532] #1617 r2 sfx: mash(71) delay=0ms
+[154.532] #1618 r2 stars: n=10 color=#FFD43B
+[154.534] #1619 r2 sfx: sparkle() delay=0ms
+[154.560] #1620 r2 mash: p=-1.000 elapsed=5397ms taps=p1:71,cp:0,jd:0,gr:0
+[154.612] #1621 r2 mash: p=-0.992 elapsed=5449ms taps=p1:71,cp:0,jd:0,gr:0
+[154.612] #1622 r2 mash-spark: #FF4FA0,#B8F23B
+[154.632] #1623 r2 mash-tap: p1 side=-1 +1 combo=72
+[154.632] #1624 r2 sfx: mash(72) delay=0ms
+[154.632] #1625 r2 stars: n=4 color=#FF4FA0
+[154.663] #1626 r2 mash: p=-1.000 elapsed=5501ms taps=p1:72,cp:0,jd:0,gr:0
+[154.716] #1627 r2 mash: p=-0.985 elapsed=5554ms taps=p1:72,cp:0,jd:0,gr:0
+[154.737] #1628 r2 mash-tap: p1 side=-1 +2 combo=74
+[154.737] #1629 r2 sfx: mash(74) delay=0ms
+[154.769] #1630 r2 mash: p=-1.000 elapsed=5607ms taps=p1:74,cp:0,jd:0,gr:0
+[154.769] #1631 r2 mash-spark: #FF4FA0,#B8F23B
+[154.770] #1632 r2 sfx: crowd(0.6,0.12) delay=0ms
+[154.822] #1633 r2 mash: p=-0.989 elapsed=5660ms taps=p1:74,cp:0,jd:0,gr:0
+[154.875] #1634 r2 mash: p=-0.980 elapsed=5712ms taps=p1:74,cp:0,jd:0,gr:0
+[154.882] #1635 r2 mash-tap: p1 side=-1 +1 combo=75
+[154.882] #1636 r2 sfx: mash(75) delay=0ms
+[154.882] #1637 r2 stars: n=4 color=#FF4FA0
+[154.928] #1638 r2 mash: p=-1.000 elapsed=5765ms taps=p1:75,cp:0,jd:0,gr:0
+[154.928] #1639 r2 mash-spark: #FF4FA0,#B8F23B
+[154.946] #1640 r2 mash-tap: p1 side=-1 +1 combo=76
+[154.946] #1641 r2 sfx: mash(76) delay=0ms
+[154.980] #1642 r2 mash: p=-1.000 elapsed=5817ms taps=p1:76,cp:0,jd:0,gr:0
+[155.032] #1643 r2 mash: p=-0.986 elapsed=5870ms taps=p1:76,cp:0,jd:0,gr:0
+[155.034] #1644 r2 mash-tap: p1 side=-1 +1 combo=77
+[155.034] #1645 r2 sfx: mash(77) delay=0ms
+[155.084] #1646 r2 mash: p=-1.000 elapsed=5922ms taps=p1:77,cp:0,jd:0,gr:0
+[155.084] #1647 r2 mash-spark: #FF4FA0,#B8F23B
+[155.136] #1648 r2 mash: p=-0.987 elapsed=5972ms taps=p1:77,cp:0,jd:0,gr:0
+[155.137] #1649 r2 mash-tap: p1 side=-1 +2 combo=79
+[155.137] #1650 r2 sfx: mash(79) delay=0ms
+[155.137] #1651 r2 stars: n=4 color=#FF4FA0
+[155.166] #1652 r2 mash: p=-1.000 elapsed=6002ms taps=p1:79,cp:0,jd:0,gr:0
+[155.166] #1653 r2 phase: knockout
+[155.166] #1654 r2 animate: brag.tug 250ms delay=0ms 1 -> 0
+[155.166] #1655 r2 animate: brag.combo 250ms delay=0ms 1 -> 0
+[155.166] #1656 r2 animate: brag.vs 300ms delay=0ms scale(1) rotate(-8deg) -> scale(2.2) rotate(20deg)
+[155.166] #1657 r2 sfx: ko() delay=0ms
+[155.166] #1658 r2 shake: 22px 380ms
+[155.166] #1659 r2 flash: opacity=0.7 380ms
+[155.166] #1660 r2 punch: scale=1.07 420ms
+[155.166] #1661 r2 host-react: glee 1800ms
+[155.166] #1662 r2 animate: brag.fighter-right 850ms delay=0ms scale(0.86) -> translate(760px,-260px) rotate(620deg) scale(.4)
+[155.166] #1663 r2 sfx: boing() delay=120ms
+[155.166] #1664 r2 animate: brag.fighter-left spring=soft delay=0ms scale(1.1400000000000001) -> translateX(374px) scale(1.12)
+[155.166] #1665 r2 animate: brag.sweep 560ms delay=0ms 16 -> 78
+[155.726] #1666 r2 eyes: brag.fighter-left power=16
+[155.726] #1667 r2 slam: brag.ko rot=-5 from=2.6 shake=12px ring=true 520ms delay=0ms
+[155.726] #1668 r2 confetti: n=120 power=1300 angle=-1.57 delay=0ms
+[155.726] #1669 r2 sfx: fanfare() delay=0ms
+[155.726] #1670 r2 fly-points: p1 +150 -> chip 1300ms delay=350ms
+[155.726] #1671 r2 sfx: pop(4) delay=350ms
+[155.726] #1672 r2 sfx: whoop() delay=830ms
+[155.726] #1673 r2 host: brag.winner brow=up type=510ms hold=900ms: **The Thingamajig** brags harder!
+[156.237] #1674 r2 host-finish: **The Thingamajig** brags harder!
+[157.137] #1675 r2 score: p1 132 -> 282 leaders=p1
+[157.137] #1676 r2 animate: chip:p1 spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[157.137] #1677 r2 sfx: coin() delay=0ms
+[157.137] #1678 r2 stars: n=10 color=#FF4FA0
+[157.137] #1679 r2 ring: radius=90 color=#FF4FA0
+[157.137] #1680 r2 phase: standings
+[157.137] #1681 r2 scene: brag -> stand wipe=1000ms swap=470ms
+[157.137] #1682 r2 sfx: whoosh() delay=0ms
+[158.142] #1683 r2 music: lobby
+[158.142] #1684 r2 background: normal
+[158.142] #1685 r2 slam: stand.title rot=-2 from=2.6 shake=8px ring=true 520ms delay=0ms
+[158.142] #1686 r2 pop: stand.kicker rot=2 fromRot=-10 spring=pop delay=200ms
+[158.142] #1687 r2 animate: lane:gr spring=soft delay=150ms translateX(-1400px) -> none
+[158.142] #1688 r2 animate: lane:cp spring=soft delay=240ms translateX(-1400px) -> none
+[158.142] #1689 r2 animate: lane:jd spring=soft delay=330ms translateX(-1400px) -> none
+[158.142] #1690 r2 animate: lane:p1 spring=soft delay=420ms translateX(-1400px) -> none
+[158.740] #1691 r2 host-hide: 220ms
+[159.094] #1692 r2 sfx: riser(1.2) delay=0ms
+[159.094] #1693 r2 animate: lane-fill:p1 1300ms delay=0ms 10.911074740861974% -> 95%
+[159.094] #1694 r2 animate: lane-rider:p1 1300ms delay=0ms 10.911074740861974% -> 95%
+[159.094] #1695 r2 roll: lane-score:p1 32 -> 282 1300ms
+[159.094] #1696 r2 animate: lane-badge:p1 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[159.095] #1697 r2 animate: lane-delta:p1 spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[159.095] #1698 r2 animate: lane-fill:jd 1300ms delay=0ms 32.05128205128205% -> 66.14839061647572%
+[159.095] #1699 r2 animate: lane-rider:jd 1300ms delay=0ms 32.05128205128205% -> 66.14839061647572%
+[159.095] #1700 r2 roll: lane-score:jd 94 -> 194 1300ms
+[159.095] #1701 r2 animate: lane-badge:jd 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[159.095] #1702 r2 animate: lane-delta:jd spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[159.095] #1703 r2 animate: lane-fill:gr 1300ms delay=0ms 40.575559192580464% -> 40.575559192580464%
+[159.095] #1704 r2 animate: lane-rider:gr 1300ms delay=0ms 40.575559192580464% -> 40.575559192580464%
+[159.095] #1705 r2 roll: lane-score:gr 119 -> 119 1300ms
+[159.095] #1706 r2 animate: lane-fill:cp 1300ms delay=0ms 36.142935079105285% -> 36.142935079105285%
+[159.095] #1707 r2 animate: lane-rider:cp 1300ms delay=0ms 36.142935079105285% -> 36.142935079105285%
+[159.095] #1708 r2 roll: lane-score:cp 106 -> 106 1300ms
+[160.647] #1709 r2 animate: lane:p1 spring=soft delay=0ms 234px -> 0px
+[160.647] #1710 r2 slam: overtake:p1 rot=-5 from=2.2 shake=5px ring=false 520ms delay=250ms
+[160.647] #1711 r2 animate: lane:jd spring=soft delay=0ms 156px -> 78px
+[160.647] #1712 r2 slam: overtake:jd rot=-5 from=2.2 shake=5px ring=false 520ms delay=250ms
+[160.647] #1713 r2 animate: lane:gr spring=soft delay=0ms 0px -> 156px
+[160.647] #1714 r2 animate: lane:cp spring=soft delay=0ms 78px -> 234px
+[160.647] #1715 r2 sfx: whoosh() delay=0ms
+[160.647] #1716 r2 sfx: stamp() delay=320ms
+[160.647] #1717 r2 host-react: glee 1500ms
+[160.647] #1718 r2 host: stand.leader brow=norm type=782ms hold=1200ms: **Sock Goblins** leads. It is still anyone's game.
+[161.171] #1719 r2 confetti: n=40 power=700 angle=-1.57 delay=0ms
+[161.172] #1720 r2 sfx: coin() delay=0ms
+[161.435] #1721 r2 host-finish: **Sock Goblins** leads. It is still anyone's game.
+[162.633] #1722 r3 phase: title
+[162.633] #1723 r3 music: tension
+[162.633] #1724 r3 background: normal
+[162.633] #1725 r3 scene: stand -> intro wipe=1000ms swap=470ms
+[162.633] #1726 r3 sfx: whoosh() delay=0ms
+[163.636] #1727 r3 pop: intro.kicker rot=-3 fromRot=-10 spring=pop delay=0ms
+[163.889] #1728 r3 slam: intro.title rot=-3 from=2.6 shake=14px ring=true 520ms delay=0ms
+[163.889] #1729 r3 confetti: n=60 power=1000 angle=-1.57 delay=0ms
+[163.890] #1730 r3 punch: scale=1.05 420ms
+[164.237] #1731 r3 host-hide: 220ms
+[164.393] #1732 r3 pop: intro.sub rot=0 fromRot=-10 spring=pop delay=0ms
+[164.393] #1733 r3 host: intro.title brow=norm type=1190ms hold=900ms: The final round: the **Showstopper**! Double points. No mercy. Some mercy.
+[165.585] #1734 r3 host-finish: The final round: the **Showstopper**! Double points. No mercy. Some mercy.
+[166.485] #1735 r3 animate: intro.title 380ms delay=0ms rotate(-3deg) -> translateY(-160px) rotate(-10deg) scale(.6)
+[166.486] #1736 r3 animate: intro.sub 250ms delay=0ms 1 -> 0
+[166.486] #1737 r3 animate: intro.kicker 250ms delay=0ms 1 -> 0
+[166.738] #1738 r3 phase: reel timer=2400ms
+[166.738] #1739 r3 pop: intro.reel rot=0 fromRot=-10 spring=pop delay=0ms
+[166.738] #1740 r3 pop: intro.arrow-left rot=0 fromRot=-10 spring=pop delay=0ms
+[166.738] #1741 r3 pop: intro.arrow-right rot=0 fromRot=-10 spring=pop delay=0ms
+[166.738] #1742 r3 animate: intro.bulbs 200ms delay=0ms 0 -> 1
+[166.738] #1743 r3 sfx: drumroll(2.3) delay=0ms
+[166.738] #1744 r3 reel: 16 cards 2400ms -> IN A MUSEUM
+[168.086] #1745 r3 host-hide: 220ms
+[169.141] #1746 r3 phase: reel
+[169.141] #1747 r3 sfx: reveal() delay=0ms
+[169.141] #1748 r3 sfx: slam() delay=0ms
+[169.141] #1749 r3 shake: 14px 380ms
+[169.141] #1750 r3 flash: opacity=0.6 380ms
+[169.141] #1751 r3 punch: scale=1.06 420ms
+[169.141] #1752 r3 host-react: glee 900ms
+[169.141] #1753 r3 confetti: n=70 power=1100 angle=-1.57 delay=0ms
+[169.141] #1754 r3 eyes: all power=8
+[169.141] #1755 r3 host: intro.reel-land brow=up type=918ms hold=700ms: **Something that belongs in a museum**. Be bold. Be weird.
+[170.061] #1756 r3 host-finish: **Something that belongs in a museum**. Be bold. Be weird.
+[170.760] #1757 r3 phase: countdown
+[170.760] #1758 r3 animate: intro.reel 260ms delay=0ms none -> scale(.8)
+[170.760] #1759 r3 animate: intro.bulbs 200ms delay=0ms 1 -> 0
+[170.760] #1760 r3 animate: intro.arrow-left 200ms delay=0ms 1 -> 0
+[170.760] #1761 r3 animate: intro.arrow-right 200ms delay=0ms 1 -> 0
+[170.760] #1762 r3 sfx: beep(0) delay=0ms
+[170.761] #1763 r3 count: intro 3 760ms
+[171.522] #1764 r3 sfx: beep(0) delay=0ms
+[171.522] #1765 r3 count: intro 2 760ms
+[172.284] #1766 r3 sfx: beep(0) delay=0ms
+[172.284] #1767 r3 count: intro 1 760ms
+[172.362] #1768 r3 host-hide: 220ms
+[173.046] #1769 r3 sfx: beep(1) delay=0ms
+[173.046] #1770 r3 sfx: horn() delay=0ms
+[173.046] #1771 r3 flash: opacity=0.7 380ms
+[173.046] #1772 r3 shake: 16px 380ms
+[173.046] #1773 r3 confetti: n=90 power=1300 angle=-1.57 delay=0ms
+[173.047] #1774 r3 count: intro SNAG! 900ms
+[173.698] #1775 r3 scene: intro -> hunt wipe=1000ms swap=470ms
+[173.699] #1776 r3 sfx: whoosh() delay=0ms
+[174.701] #1777 r3 music: hunt
+[174.701] #1778 r3 background: normal
+[174.701] #1779 r3 phase: hunt timer=35000ms
+[174.803] #1780 r3 feed: p1 hunting: Hunting… thumbnail=true
+[175.149] #1781 r3 feed: p1 hunting: Hunting… thumbnail=true
+[175.480] #1782 r3 feed: p1 hunting: Hunting… thumbnail=true
+[175.801] #1783 r3 feed: p1 hunting: Hunting… thumbnail=true
+[176.143] #1784 r3 feed: p1 hunting: Hunting… thumbnail=true
+[176.479] #1785 r3 feed: p1 hunting: Hunting… thumbnail=true
+[176.811] #1786 r3 feed: p1 hunting: Hunting… thumbnail=true
+[177.134] #1787 r3 feed: p1 hunting: Hunting… thumbnail=true
+[177.488] #1788 r3 feed: p1 hunting: Hunting… thumbnail=true
+[177.571] #1789 r3 feed: p1 locked: Snagged: Your photo thumbnail=false
+[177.571] #1790 r3 find: p1 #1 memory photo: Exhibit A
+[177.571] #1791 r3 sfx: snagged() delay=0ms
+[177.571] #1792 r3 host-react: glee 900ms
+[177.571] #1793 r3 sticker-flight: p1 phone -> slot eyes=false 780ms arc=140
+[177.669] #1794 r3 sfx: sparkle() delay=0ms
+[177.669] #1795 r3 feed: p1 locked: Snagged: a real thing thumbnail=false
+[177.873] #1796 r3 animate: feed-flash:p1 380ms delay=0ms 1 -> 0
+[178.213] #1797 r3 feed: p1 snagged: Snagged: a real thing thumbnail=false
+[178.213] #1798 r3 slam: slot-card:p1 rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[178.213] #1799 r3 animate: snag-burst:p1 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[178.213] #1800 r3 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[181.864] #1801 r3 feed: gr locked: Snagged: Grandpa portrait thumbnail=false
+[181.864] #1802 r3 find: gr #2 object=portrait: Great Uncle Mort
+[181.865] #1803 r3 sfx: rival() delay=0ms
+[181.865] #1804 r3 host-react: shock 800ms
+[181.954] #1805 r3 sfx: whoop() delay=0ms
+[181.954] #1806 r3 sticker-flight: p1 phone -> slot eyes=true 780ms arc=140
+[181.954] #1807 r3 slam: ready:p1 rot=-12 from=2.2 shake=4px ring=false 420ms delay=780ms
+[181.954] #1808 r3 sfx: stamp() delay=780ms
+[182.167] #1809 r3 animate: feed-flash:gr 380ms delay=0ms 1 -> 0
+[182.506] #1810 r3 feed: gr snagged: Snagged: Grandpa portrait thumbnail=false
+[182.507] #1811 r3 slam: slot-card:gr rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[182.507] #1812 r3 animate: snag-burst:gr 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[182.507] #1813 r3 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[182.736] #1814 r3 feed: p1 ready: Snagged: a real thing thumbnail=false
+[186.901] #1815 r3 feed: cp locked: Snagged: Toy rocket thumbnail=false
+[186.901] #1816 r3 find: cp #3 object=rocket: Rocket Hank
+[186.902] #1817 r3 sfx: rival() delay=0ms
+[186.902] #1818 r3 host-react: shock 800ms
+[187.204] #1819 r3 animate: feed-flash:cp 380ms delay=0ms 1 -> 0
+[187.543] #1820 r3 feed: cp snagged: Snagged: Toy rocket thumbnail=false
+[187.544] #1821 r3 slam: slot-card:cp rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[187.544] #1822 r3 animate: snag-burst:cp 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[187.544] #1823 r3 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[194.924] #1824 r3 feed: jd locked: Snagged: Party crown thumbnail=false
+[194.924] #1825 r3 find: jd #4 object=crown: Her Royal Shininess
+[194.924] #1826 r3 sfx: rival() delay=0ms
+[194.925] #1827 r3 host-react: shock 800ms
+[195.226] #1828 r3 animate: feed-flash:jd 380ms delay=0ms 1 -> 0
+[195.567] #1829 r3 feed: jd snagged: Snagged: Party crown thumbnail=false
+[195.567] #1830 r3 slam: slot-card:jd rot=0 from=1.6 shake=7px ring=true 520ms delay=0ms
+[195.567] #1831 r3 animate: snag-burst:jd 1300ms delay=0ms scale(.2) rotate(-30deg) -> scale(1) rotate(-8deg) -> scale(1) rotate(-6deg) -> scale(1.2) rotate(-6deg)
+[195.567] #1832 r3 confetti: n=26 power=700 angle=-1.57 delay=0ms
+[196.227] #1833 r3 phase: time
+[196.227] #1834 r3 slam: hunt.time rot=0 from=2.6 shake=16px ring=true 520ms delay=0ms
+[196.227] #1835 r3 sfx: buzzer() delay=0ms
+[196.227] #1836 r3 host-react: shock 1000ms
+[196.227] #1837 r3 music: tension
+[196.227] #1838 r3 background: normal
+[197.129] #1839 r3 animate: hunt.time 300ms delay=0ms 1 -> 0
+[197.129] #1840 r3 phase: glow timer=15000ms
+[197.129] #1841 r3 feed: cp glowing: Snagged: Toy rocket thumbnail=false
+[197.130] #1842 r3 feed: jd glowing: Snagged: Party crown thumbnail=false
+[197.130] #1843 r3 feed: gr glowing: Snagged: Grandpa portrait thumbnail=false
+[197.130] #1844 r3 host: hunt.glow-up brow=norm type=782ms hold=500ms: Glow-up time! Eyes on, names on, brags ready.
+[197.432] #1845 r3 slam: ready:cp rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[197.432] #1846 r3 sfx: stamp() delay=0ms
+[197.432] #1847 r3 feed: cp ready: Snagged: Toy rocket thumbnail=false
+[197.782] #1848 r3 slam: ready:jd rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[197.782] #1849 r3 sfx: stamp() delay=0ms
+[197.782] #1850 r3 feed: jd ready: Snagged: Party crown thumbnail=false
+[197.914] #1851 r3 host-finish: Glow-up time! Eyes on, names on, brags ready.
+[198.132] #1852 r3 slam: ready:gr rot=-12 from=2.2 shake=4px ring=false 420ms delay=0ms
+[198.132] #1853 r3 sfx: stamp() delay=0ms
+[198.132] #1854 r3 feed: gr ready: Snagged: Grandpa portrait thumbnail=false
+[198.134] #1855 r3 phase: glow
+[198.836] #1856 r3 phase: runway
+[198.836] #1857 r3 scene: hunt -> show wipe=1000ms swap=470ms
+[198.836] #1858 r3 sfx: whoosh() delay=0ms
+[199.841] #1859 r3 music: tension
+[199.841] #1860 r3 background: tension
+[199.842] #1861 r3 host: show.runway brow=norm type=816ms hold=200ms: Welcome to the runway. Tonight's finds, please!
+[199.842] #1862 r3 animate: show-spot:p1 250ms delay=0ms 0 -> 1
+[199.842] #1863 r3 sfx: thump() delay=0ms
+[199.842] #1864 r3 animate: show-find:p1 spring=drop delay=0ms translateY(-500px) rotate(-30deg) -> translateY(0) rotate(0)
+[200.175] #1865 r3 sfx: stamp() delay=0ms
+[200.175] #1866 r3 shake: 7px 380ms
+[200.175] #1867 r3 eyes: show-find:p1 power=14
+[200.175] #1868 r3 ring: radius=150 color=#FFF8EC
+[200.264] #1869 r3 reaction: crowd heart hype=0
+[200.661] #1870 r3 host-finish: Welcome to the runway. Tonight's finds, please!
+[200.744] #1871 r3 animate: show-spot:p1 500ms delay=0ms 1 -> 0.25
+[200.744] #1872 r3 animate: show-spot:cp 250ms delay=0ms 0 -> 1
+[200.744] #1873 r3 sfx: thump() delay=0ms
+[200.744] #1874 r3 animate: show-find:cp spring=drop delay=0ms translateY(-500px) rotate(-30deg) -> translateY(0) rotate(0)
+[200.861] #1875 r3 host: reveal.ai-quip brow=norm type=1020ms hold=400ms: Quite the treasure. The mantelpiece must be terribly proud.
+[201.076] #1876 r3 sfx: stamp() delay=0ms
+[201.076] #1877 r3 shake: 7px 380ms
+[201.076] #1878 r3 eyes: show-find:cp power=14
+[201.076] #1879 r3 ring: radius=150 color=#FFF8EC
+[201.109] #1880 r3 reaction: crowd star hype=0
+[201.647] #1881 r3 animate: show-spot:cp 500ms delay=0ms 1 -> 0.25
+[201.647] #1882 r3 animate: show-spot:jd 250ms delay=0ms 0 -> 1
+[201.647] #1883 r3 sfx: thump() delay=0ms
+[201.647] #1884 r3 animate: show-find:jd spring=drop delay=0ms translateY(-500px) rotate(-30deg) -> translateY(0) rotate(0)
+[201.879] #1885 r3 host-finish: Quite the treasure. The mantelpiece must be terribly proud.
+[201.977] #1886 r3 sfx: stamp() delay=0ms
+[201.977] #1887 r3 shake: 7px 380ms
+[201.977] #1888 r3 eyes: show-find:jd power=14
+[201.978] #1889 r3 ring: radius=150 color=#FFF8EC
+[202.375] #1890 r3 reaction: crowd star hype=0
+[202.548] #1891 r3 animate: show-spot:jd 500ms delay=0ms 1 -> 0.25
+[202.548] #1892 r3 animate: show-spot:gr 250ms delay=0ms 0 -> 1
+[202.548] #1893 r3 sfx: thump() delay=0ms
+[202.548] #1894 r3 animate: show-find:gr spring=drop delay=0ms translateY(-500px) rotate(-30deg) -> translateY(0) rotate(0)
+[202.798] #1895 r3 reaction: crowd heart hype=0
+[202.880] #1896 r3 sfx: stamp() delay=0ms
+[202.880] #1897 r3 shake: 7px 380ms
+[202.880] #1898 r3 eyes: show-find:gr power=14
+[202.881] #1899 r3 ring: radius=150 color=#FFF8EC
+[203.220] #1900 r3 reaction: crowd heart hype=0
+[203.451] #1901 r3 animate: show-spot:gr 500ms delay=0ms 1 -> 0.25
+[203.451] #1902 r3 music: brag
+[203.451] #1903 r3 background: party
+[203.451] #1904 r3 pop: show.vote-timer rot=0 fromRot=-10 spring=pop delay=0ms
+[203.451] #1905 r3 host: show.vote brow=norm type=1496ms hold=300ms: Vote for the best find. Not your own. I am watching. I have no eyes, but **I am watching**.
+[203.451] #1906 r3 phase: vote timer=10000ms
+[203.643] #1907 r3 reaction: crowd flame hype=0
+[203.927] #1908 r3 sfx: whoop() delay=0ms
+[203.927] #1909 r3 vote: p1 -> cp chip flight=640ms arc=170
+[204.488] #1910 r3 reaction: crowd flame hype=0
+[204.570] #1911 r3 slam: vote-badge:cp:p1 rot=0 from=2.2 shake=5px ring=false 360ms delay=0ms
+[204.570] #1912 r3 sfx: stamp() delay=0ms
+[204.570] #1913 r3 stars: n=6 color=#FF4FA0
+[204.950] #1914 r3 host-finish: Vote for the best find. Not your own. I am watching. I have no eyes, but **I am watching**.
+[206.100] #1915 r3 sfx: whoop() delay=0ms
+[206.101] #1916 r3 vote: cp -> jd chip flight=640ms arc=170
+[206.743] #1917 r3 slam: vote-badge:jd:cp rot=0 from=2.2 shake=5px ring=false 360ms delay=0ms
+[206.743] #1918 r3 sfx: stamp() delay=0ms
+[206.743] #1919 r3 stars: n=6 color=#FF7A1F
+[206.853] #1920 r3 host-hide: 220ms
+[206.998] #1921 r3 sfx: whoop() delay=0ms
+[206.998] #1922 r3 vote: gr -> jd chip flight=640ms arc=170
+[207.640] #1923 r3 slam: vote-badge:jd:gr rot=0 from=2.2 shake=5px ring=false 360ms delay=0ms
+[207.640] #1924 r3 sfx: stamp() delay=0ms
+[207.640] #1925 r3 stars: n=6 color=#3FE0D0
+[208.286] #1926 r3 reaction: crowd heart hype=0
+[208.706] #1927 r3 reaction: crowd flame hype=0
+[209.128] #1928 r3 reaction: crowd heart hype=0
+[209.552] #1929 r3 reaction: crowd flame hype=0
+[209.757] #1930 r3 sfx: whoop() delay=0ms
+[209.757] #1931 r3 vote: jd -> gr chip flight=640ms arc=170
+[209.760] #1932 r3 phase: tally
+[210.261] #1933 r3 music: tension
+[210.262] #1934 r3 sfx: drumroll(1.4) delay=0ms
+[210.396] #1935 r3 reaction: crowd star hype=0
+[210.398] #1936 r3 slam: vote-badge:gr:jd rot=0 from=2.2 shake=5px ring=false 360ms delay=0ms
+[210.398] #1937 r3 sfx: stamp() delay=0ms
+[210.398] #1938 r3 stars: n=6 color=#B8F23B
+[210.818] #1939 r3 reaction: crowd tomato hype=0
+[211.241] #1940 r3 reaction: crowd tomato hype=0
+[211.664] #1941 r3 fly-points: cp +100 -> chip 1300ms delay=170ms
+[211.664] #1942 r3 sfx: pop(4) delay=170ms
+[211.664] #1943 r3 sfx: whoop() delay=650ms
+[211.664] #1944 r3 fly-points: jd +300 -> chip 1300ms delay=340ms
+[211.664] #1945 r3 sfx: pop(4) delay=340ms
+[211.664] #1946 r3 sfx: whoop() delay=820ms
+[211.664] #1947 r3 fly-points: gr +100 -> chip 1300ms delay=510ms
+[211.664] #1948 r3 sfx: pop(4) delay=510ms
+[211.665] #1949 r3 sfx: whoop() delay=990ms
+[211.665] #1950 r3 music: win
+[211.665] #1951 r3 background: gold
+[211.665] #1952 r3 sfx: fanfare() delay=0ms
+[211.665] #1953 r3 sfx: sparkle() delay=0ms
+[211.665] #1954 r3 flash: opacity=0.7 380ms
+[211.665] #1955 r3 shake: 16px 380ms
+[211.665] #1956 r3 punch: scale=1.06 420ms
+[211.665] #1957 r3 host-react: glee 2000ms
+[211.665] #1958 r3 hologram: jd on
+[211.665] #1959 r3 animate: show.crown spring=drop delay=250ms translateY(-260px) rotate(-30deg) -> rotate(-8deg)
+[211.665] #1960 r3 sfx: stamp() delay=560ms
+[211.665] #1961 r3 animate: pedestal:jd spring=wobble delay=0ms scale(1) -> scale(1.1) translateY(-10px)
+[211.665] #1962 r3 eyes: pedestal:jd power=18
+[211.665] #1963 r3 slam: show.ribbon rot=-6 from=2.6 shake=10px ring=true 520ms delay=0ms
+[211.665] #1964 r3 confetti: n=90 power=1300 angle=-1.57 delay=0ms
+[211.666] #1965 r3 confetti: n=90 power=1300 angle=-1.57 delay=350ms
+[211.666] #1966 r3 confetti: n=90 power=1300 angle=-1.57 delay=700ms
+[211.666] #1967 r3 host: show.winner brow=up type=986ms hold=1400ms: By 2 votes: **Her Royal Shininess**! It is going holographic.
+[211.667] #1968 r3 reaction: crowd star hype=0
+[212.511] #1969 r3 reaction: crowd heart hype=0
+[212.654] #1970 r3 host-finish: By 2 votes: **Her Royal Shininess**! It is going holographic.
+[212.934] #1971 r3 reaction: crowd heart hype=0
+[213.136] #1972 r3 score: cp 106 -> 206 leaders=p1
+[213.136] #1973 r3 animate: chip:cp spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[213.136] #1974 r3 sfx: coin() delay=0ms
+[213.136] #1975 r3 stars: n=10 color=#FF7A1F
+[213.136] #1976 r3 ring: radius=90 color=#FF7A1F
+[213.307] #1977 r3 score: jd 194 -> 494 leaders=jd
+[213.307] #1978 r3 animate: chip:jd spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[213.307] #1979 r3 sfx: coin() delay=0ms
+[213.307] #1980 r3 stars: n=10 color=#B8F23B
+[213.307] #1981 r3 ring: radius=90 color=#B8F23B
+[213.354] #1982 r3 reaction: crowd star hype=0
+[213.477] #1983 r3 score: gr 119 -> 219 leaders=jd
+[213.477] #1984 r3 animate: chip:gr spring=wobble delay=0ms scale(1) -> scale(1.12) rotate(-2deg) -> scale(1)
+[213.477] #1985 r3 sfx: coin() delay=0ms
+[213.477] #1986 r3 stars: n=10 color=#3FE0D0
+[213.477] #1987 r3 ring: radius=90 color=#3FE0D0
+[213.777] #1988 r3 reaction: crowd star hype=0
+[214.054] #1989 r3 phase: standings
+[214.055] #1990 r3 scene: show -> stand wipe=1000ms swap=470ms
+[214.055] #1991 r3 sfx: whoosh() delay=0ms
+[215.059] #1992 r3 music: lobby
+[215.060] #1993 r3 background: normal
+[215.060] #1994 r3 slam: stand.title rot=-2 from=2.6 shake=8px ring=true 520ms delay=0ms
+[215.060] #1995 r3 pop: stand.kicker rot=2 fromRot=-10 spring=pop delay=200ms
+[215.060] #1996 r3 animate: lane:p1 spring=soft delay=150ms translateX(-1400px) -> none
+[215.060] #1997 r3 animate: lane:jd spring=soft delay=240ms translateX(-1400px) -> none
+[215.060] #1998 r3 animate: lane:gr spring=soft delay=330ms translateX(-1400px) -> none
+[215.060] #1999 r3 animate: lane:cp spring=soft delay=420ms translateX(-1400px) -> none
+[215.657] #2000 r3 host-hide: 220ms
+[216.012] #2001 r3 sfx: riser(1.2) delay=0ms
+[216.012] #2002 r3 animate: lane-fill:jd 1300ms delay=0ms 37.76082217377764% -> 95%
+[216.012] #2003 r3 animate: lane-rider:jd 1300ms delay=0ms 37.76082217377764% -> 95%
+[216.012] #2004 r3 roll: lane-score:jd 194 -> 494 1300ms
+[216.012] #2005 r3 animate: lane-badge:jd 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[216.012] #2006 r3 animate: lane-delta:jd spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[216.012] #2007 r3 animate: lane-fill:p1 1300ms delay=0ms 54.8894425412644% -> 54.8894425412644%
+[216.012] #2008 r3 animate: lane-rider:p1 1300ms delay=0ms 54.8894425412644% -> 54.8894425412644%
+[216.012] #2009 r3 roll: lane-score:p1 282 -> 282 1300ms
+[216.013] #2010 r3 animate: lane-fill:gr 1300ms delay=0ms 23.16256617876051% -> 42.62690750545002%
+[216.013] #2011 r3 animate: lane-rider:gr 1300ms delay=0ms 23.16256617876051% -> 42.62690750545002%
+[216.013] #2012 r3 roll: lane-score:gr 119 -> 219 1300ms
+[216.013] #2013 r3 animate: lane-badge:gr 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[216.013] #2014 r3 animate: lane-delta:gr spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[216.013] #2015 r3 animate: lane-fill:cp 1300ms delay=0ms 20.632201806290876% -> 40.096543132980386%
+[216.013] #2016 r3 animate: lane-rider:cp 1300ms delay=0ms 20.632201806290876% -> 40.096543132980386%
+[216.013] #2017 r3 roll: lane-score:cp 106 -> 206 1300ms
+[216.013] #2018 r3 animate: lane-badge:cp 220ms delay=0ms translateY(0) rotate(0) -> translateY(-12px) rotate(-8deg) -> translateY(0) rotate(0)
+[216.013] #2019 r3 animate: lane-delta:cp spring=pop delay=1200ms scale(.3) -> scale(1) rotate(-6deg)
+[217.565] #2020 r3 animate: lane:jd spring=soft delay=0ms 78px -> 0px
+[217.565] #2021 r3 slam: overtake:jd rot=-5 from=2.2 shake=5px ring=false 520ms delay=250ms
+[217.565] #2022 r3 animate: lane:p1 spring=soft delay=0ms 0px -> 78px
+[217.565] #2023 r3 sfx: whoosh() delay=0ms
+[217.565] #2024 r3 sfx: stamp() delay=320ms
+[217.565] #2025 r3 host: stand.leader brow=norm type=1292ms hold=1200ms: **Junk Drawer Gang** leads. Somebody has to be last. Today it is **Couch Potatoes**.
+[218.087] #2026 r3 confetti: n=40 power=700 angle=-1.57 delay=0ms
+[218.087] #2027 r3 sfx: coin() delay=0ms
+[218.859] #2028 r3 host-finish: **Junk Drawer Gang** leads. Somebody has to be last. Today it is **Couch Potatoes**.
+[220.060] #2029 rF phase: podium
+[220.061] #2030 rF scene: stand -> champ wipe=1000ms swap=470ms
+[220.061] #2031 rF sfx: whoosh() delay=0ms
+[221.065] #2032 rF music: tension
+[221.065] #2033 rF background: tension
+[221.065] #2034 rF sfx: drumroll(2.2) delay=0ms
+[221.065] #2035 rF animate: podium:3 spring=soft delay=0ms translateY(300px) -> none
+[221.065] #2036 rF sfx: thump() delay=0ms
+[221.447] #2037 rF sfx: coin() delay=0ms
+[221.448] #2038 rF slam: podium-badge:gr rot=0 from=2.6 shake=6px ring=true 520ms delay=0ms
+[221.659] #2039 rF host-hide: 220ms
+[221.870] #2040 rF animate: podium:2 spring=soft delay=0ms translateY(300px) -> none
+[221.870] #2041 rF sfx: thump() delay=0ms
+[221.907] #2042 rF reaction: crowd heart hype=0
+[222.250] #2043 rF sfx: coin() delay=0ms
+[222.250] #2044 rF slam: podium-badge:p1 rot=0 from=2.6 shake=6px ring=true 520ms delay=0ms
+[222.330] #2045 rF reaction: crowd star hype=0
+[222.673] #2046 rF animate: podium:1 spring=soft delay=0ms translateY(300px) -> none
+[222.673] #2047 rF sfx: thump() delay=0ms
+[223.174] #2048 rF reaction: crowd heart hype=0
+[223.196] #2049 rF music: win
+[223.196] #2050 rF background: gold
+[223.196] #2051 rF sfx: ko() delay=0ms
+[223.197] #2052 rF flash: opacity=0.85 380ms
+[223.197] #2053 rF punch: scale=1.07 420ms
+[223.197] #2054 rF slam: podium-badge:jd rot=0 from=2.6 shake=18px ring=true 520ms delay=0ms
+[223.197] #2055 rF confetti: n=140 power=1400 angle=-1.57 delay=0ms
+[223.459] #2056 rF phase: finale
+[223.459] #2057 rF animate: champ.crown spring=drop delay=0ms translateY(-320px) rotate(-40deg) -> rotate(-10deg)
+[223.459] #2058 rF slam: champ.name rot=-2 from=2.6 shake=16px ring=true 520ms delay=0ms
+[223.459] #2059 rF pop: champ.kicker rot=-2 fromRot=-10 spring=pop delay=0ms
+[223.459] #2060 rF host-react: glee 3500ms
+[223.459] #2061 rF sfx: fanfare() delay=0ms
+[223.460] #2062 rF confetti: n=90 power=1500 angle=-0.95 delay=0ms
+[223.460] #2063 rF sfx: thump() delay=0ms
+[223.460] #2064 rF confetti: n=90 power=1500 angle=-2.20 delay=450ms
+[223.460] #2065 rF sfx: thump() delay=450ms
+[223.460] #2066 rF confetti: n=90 power=1500 angle=-0.95 delay=900ms
+[223.460] #2067 rF sfx: thump() delay=900ms
+[223.460] #2068 rF confetti: n=90 power=1500 angle=-2.20 delay=1350ms
+[223.460] #2069 rF sfx: thump() delay=1350ms
+[223.460] #2070 rF confetti: n=90 power=1500 angle=-0.95 delay=1800ms
+[223.460] #2071 rF sfx: thump() delay=1800ms
+[223.460] #2072 rF confetti: n=90 power=1500 angle=-2.20 delay=2250ms
+[223.460] #2073 rF sfx: thump() delay=2250ms
+[223.460] #2074 rF firework: rocket -> (528,188) #B8F23B burst=46
+[223.596] #2075 rF reaction: crowd tomato hype=0
+[223.821] #2076 rF sfx: stamp() delay=0ms
+[223.821] #2077 rF shake: 10px 380ms
+[223.821] #2078 rF eyes: all power=10
+[224.062] #2079 rF pop: champ.trophy rot=-6 fromRot=-10 spring=pop delay=0ms
+[224.062] #2080 rF slam: champ.object rot=3 from=2.6 shake=8px ring=true 520ms delay=0ms
+[224.062] #2081 rF eyes: champ.object power=14
+[224.062] #2082 rF pop: champ.fourth rot=-2 fromRot=-10 spring=pop delay=300ms
+[224.062] #2083 rF animate: champ.trophy 2400ms delay=900ms rotate(-6deg) -> rotate(4deg) translateY(-8px) -> rotate(-6deg)
+[224.062] #2084 rF host: champ.champion brow=up type=1224ms hold=1600ms: Your champions: **Junk Drawer Gang**! Their prize? Eternal bragging rights.
+[224.067] #2085 rF firework: rocket -> (848,159) #FF7A1F burst=46
+[224.440] #2086 rF reaction: crowd star hype=0
+[224.977] #2087 rF firework: rocket -> (580,250) #FF7A1F burst=46
+[225.287] #2088 rF host-finish: Your champions: **Junk Drawer Gang**! Their prize? Eternal bragging rights.
+[225.622] #2089 rF firework: rocket -> (589,224) #8B5CFF burst=46
+[226.488] #2090 rF firework: rocket -> (334,244) #8B5CFF burst=46
+[226.548] #2091 rF reaction: crowd star hype=0
+[226.887] #2092 rF host: champ.thanks brow=norm type=1360ms hold=3000ms: Thank you for playing **Snag and Brag**. Put everything back. Especially the crown.
+[227.196] #2093 rF firework: rocket -> (810,223) #FFF8EC burst=46
+[227.870] #2094 rF firework: rocket -> (792,145) #FF4FA0 burst=46
+[228.249] #2095 rF host-finish: Thank you for playing **Snag and Brag**. Put everything back. Especially the crown.
+[228.440] #2096 rF firework: rocket -> (525,156) #FF4FA0 burst=46
+[229.052] #2097 rF firework: rocket -> (491,221) #8B5CFF burst=46
+[229.076] #2098 rF reaction: crowd heart hype=0
+[229.911] #2099 rF firework: rocket -> (527,197) #FF4FA0 burst=46
+[229.920] #2100 rF reaction: crowd tomato hype=0
+[230.650] #2101 rF firework: rocket -> (730,227) #8B5CFF burst=46
+[231.249] #2102 rF complete: three rounds finished
+[231.450] #2103 rF firework: rocket -> (484,128) #FFD43B burst=46
+[232.327] #2104 rF firework: rocket -> (697,171) #3FE0D0 burst=46
+[232.851] #2105 rF host-hide: 220ms
+[232.872] #2106 rF reaction: crowd heart hype=0
+[233.029] #2107 rF firework: rocket -> (724,245) #FF7A1F burst=46
+[233.717] #2108 rF reaction: crowd tomato hype=0
+[233.881] #2109 rF firework: rocket -> (806,113) #FFF8EC burst=46
+[234.140] #2110 rF reaction: crowd heart hype=0
+[234.505] #2111 rF firework: rocket -> (795,196) #3FE0D0 burst=46
+[234.562] #2112 rF reaction: crowd heart hype=0
+[234.985] #2113 rF reaction: crowd heart hype=0
+[235.255] #2114 rF firework: rocket -> (664,128) #FF4FA0 burst=46
+[235.829] #2115 rF reaction: crowd heart hype=0
+[236.107] #2116 rF firework: rocket -> (542,199) #FFF8EC burst=46
+[236.252] #2117 rF reaction: crowd flame hype=0
+[236.674] #2118 rF reaction: crowd flame hype=0
+[236.776] #2119 rF firework: rocket -> (480,130) #8B5CFF burst=46
+[237.463] #2120 rF firework: rocket -> (614,177) #8B5CFF burst=46
+[238.356] #2121 rF firework: rocket -> (470,194) #8B5CFF burst=46
+[238.360] #2122 rF reaction: crowd star hype=0
+[238.783] #2123 rF reaction: crowd star hype=0
+[239.145] #2124 rF firework: rocket -> (557,152) #FF7A1F burst=46
+[239.744] #2125 rF firework: rocket -> (501,179) #B8F23B burst=46
+[240.047] #2126 rF reaction: crowd tomato hype=0
+[240.535] #2127 rF firework: rocket -> (545,191) #FFD43B burst=46
+[240.891] #2128 rF reaction: crowd heart hype=0
+[241.314] #2129 rF reaction: crowd heart hype=0
+[241.344] #2130 rF firework: rocket -> (811,130) #FFD43B burst=46
+[241.926] #2131 rF firework: rocket -> (398,191) #FFF8EC burst=46
+[242.581] #2132 rF reaction: crowd flame hype=0
+[242.639] #2133 rF firework: rocket -> (959,191) #FF7A1F burst=46
+[243.002] #2134 rF reaction: crowd tomato hype=0
+[243.353] #2135 rF firework: rocket -> (811,170) #B8F23B burst=46
+[243.847] #2136 rF reaction: crowd star hype=0
+[244.098] #2137 rF firework: rocket -> (413,144) #FF4FA0 burst=46
+[244.270] #2138 rF reaction: crowd heart hype=0
+[244.691] #2139 rF reaction: crowd tomato hype=0
+[244.828] #2140 rF firework: rocket -> (781,153) #FF7A1F burst=46
+[245.114] #2141 rF reaction: crowd star hype=0
+[245.646] #2142 rF firework: rocket -> (794,233) #FFF8EC burst=46
+[245.959] #2143 rF reaction: crowd star hype=0
+[246.243] #2144 rF firework: rocket -> (636,121) #8B5CFF burst=46
+[246.801] #2145 rF reaction: crowd flame hype=0
+[246.937] #2146 rF firework: rocket -> (675,183) #B8F23B burst=46
+[247.221] #2147 rF reaction: crowd tomato hype=0
+[247.643] #2148 rF reaction: crowd star hype=0
+[247.745] #2149 rF firework: rocket -> (620,114) #3FE0D0 burst=46
+[248.066] #2150 rF reaction: crowd flame hype=0
+[248.450] #2151 rF firework: rocket -> (752,140) #3FE0D0 burst=46
+[248.911] #2152 rF reaction: crowd star hype=0
+[249.381] #2153 rF firework: rocket -> (827,186) #B8F23B burst=46
+[250.177] #2154 rF reaction: crowd star hype=0
+[250.252] #2155 rF firework: rocket -> (497,202) #FF7A1F burst=46
+[250.598] #2156 rF reaction: crowd tomato hype=0
+[250.909] #2157 rF firework: rocket -> (950,230) #FF4FA0 burst=46
+[251.645] #2158 rF firework: rocket -> (629,142) #B8F23B burst=46
+[252.372] #2159 rF firework: rocket -> (525,224) #FFF8EC burst=46
+[252.708] #2160 rF reaction: crowd star hype=0
+[253.131] #2161 rF reaction: crowd tomato hype=0
+[253.285] #2162 rF firework: rocket -> (463,150) #B8F23B burst=46
+[253.554] #2163 rF reaction: crowd heart hype=0
+[253.975] #2164 rF reaction: crowd star hype=0
+[254.002] #2165 rF firework: rocket -> (689,236) #FFF8EC burst=46
+[254.399] #2166 rF reaction: crowd flame hype=0
+[254.634] #2167 rF firework: rocket -> (588,150) #3FE0D0 burst=46

@@ -1,0 +1,93 @@
+- Awaiting resources
+info Building bundle artifacts for index.js
+[SYSTEM_BUNDLE] Creating app bundle config with globalPrefix: (none)
+info Building split bundle for index.js
+                Welcome to Metro v0.76.5
+              Fast - Scalable - Integrated
+
+
+Getting Dependencies from System Modules: ~/Desktop/Projects/snag-wt/tv/node_modules/.pnpm/@amazon-devices+react-native-kepler@2.0.9000000000_@babel+core@7.29.7_supports-color@8._faa69206bc04f42bd57307a4badf3113/node_modules/@amazon-devices/react-native-kepler/SystemModules/amzn__react-native-kepler-2.modules.txt
+Getting Dependencies from System Modules: ~/Desktop/Projects/snag-wt/tv/node_modules/.pnpm/@amazon-devices+react-native-w3cmedia@2.3.2_@amazon-devices+react-native-kepler@2.0.900_4a429a960febea9f065861b4c6365849/node_modules/@amazon-devices/react-native-w3cmedia/SystemModules/amzn__react-native-w3cmedia-2.modules.txt
+Getting Dependencies from System Modules: ~/Desktop/Projects/snag-wt/tv/node_modules/.pnpm/@amazon-devices+kepler-media-controls@1.0.25_@amazon-devices+kepler-media-types@1.0.0_@_04b9b692e397ae9f6cae7e54216329bf/node_modules/@amazon-devices/kepler-media-controls/SystemModules/amzn__kepler-media-controls.modules.txt
+Getting Dependencies from System Modules: ~/Desktop/Projects/snag-wt/tv/node_modules/.pnpm/@amazon-devices+keplermediadescriptor@1.1.17_@amazon-devices+react-native-kepler@2.0.90_f6081aa3ac5042e87b05bbc4342b7639/node_modules/@amazon-devices/keplermediadescriptor/SystemModules/amzn__keplermediadescriptor-1.modules.txt
+Getting Dependencies from System Modules: ~/Desktop/Projects/snag-wt/tv/node_modules/.pnpm/@amazon-devices+react-native-svg@2.0.9000000001_react-native@0.72.0_@babel+core@7.29.7__d6521bd1a7f27963109f4787f61d5fa6/node_modules/@amazon-devices/react-native-svg/SystemModules/amzn__react-native-svg-2.modules.txt
+Getting Dependencies from System Modules: ~/Desktop/Projects/snag-wt/tv/node_modules/.pnpm/@amazon-devices+react-native-reanimated@2.0.9000000001_7232878062fc42c864232374d101d2b5/node_modules/@amazon-devices/react-native-reanimated/SystemModules/amzn__react-native-reanimated-2.modules.txt
+info Writing bundle output to:, ~/Desktop/Projects/snag-wt/tv/tv/build/lib/rn-bundles/Release/index.bundle
+info Writing sourcemap output to:, ~/Desktop/Projects/snag-wt/tv/tv/build/debugging/Release/srcmap/index.bundle.map
+info Done writing bundle output
+info Done writing sourcemap output
+info Copying 242 asset files
+info Done copying assets
+info Completed building JS bundle and sourcemap for index.js
+info Completed processing debugging files for index.js
+info Completed building Hermes bundle for index.js
+info Initiating native artifacts build for Vega platform
+validating '~/Desktop/Projects/snag-wt/tv/tv/manifest.toml' ...
+analyzing manifest.toml ...
+manifest.toml is valid
+manifest validation found 0 errors
+manifest.toml:3:1 info: [package.icon] Icon is not defined in the manifest. System default will be used.
+  help: Define icon to help users recognize your application
+
+done.
+
+🔍 Build Configuration
+───────────────────────────────────────
+OS configuration resolved from package.json: ["vega"]
+Targets resolved from command line: ["armv7"]
+[VegaTargetSelector] Searching 23 paths
+[VegaTargetSelector] Config not found in any search path
+🔧 Resolved OS-version compatibility for 7 managed dependencies
+
+🔨 Build Plan (1 target)
+───────────────────────────────────────
+  Release: armv7
+
+🔍 Build Parallelization
+───────────────────────────────────────
+Parallelizing 1 total requests:
+  - Known targets and buildTypes: armv7 for Release
+Running at most 7 threads in parallel
+
+[native-build] Could not compare package-lock.json, continuing to autolink
+[native-build] Perform autolinking on 6 qualified npm packages
+[native-build] 2026-10-13T23:57:21.061550Z  INFO amzn_kepler_manifest_module_remapper: Checking manifest at: ~/Desktop/Projects/snag-wt/tv/tv/build/private/vega/armv7/Release/manifest.toml
+[native-build] 2026-10-13T23:57:21.062786Z  INFO amzn_kepler_manifest_module_remapper::modify: Found dependencies to add to the manifest:
+[native-build] 	wants: []
+[native-build] 	needs: ["/com.amazon.kepler.expo_constants_2@IExpoConstants_0", "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0", "/com.amazon.kepler.keplerscript.runtime.loader_2@IKeplerScript_2_0", "/com.amazon.kepler.keplerscript_2@IKeplerScript_0", "/com.amazon.kepler.reanimated_2@IReanimated_0", "/com.amazon.kepler.svg_2@ISVG_0", "/com.amazon.kepler.w3cmedia_2@IW3cmedia_3"]
+[native-build] 2026-10-13T23:57:21.062800Z  INFO amzn_kepler_manifest_module_remapper: Writing new manifest to: ~/Desktop/Projects/snag-wt/tv/tv/build/private/vega/armv7/Release/manifest.toml
+[native-build] 2026-10-13T23:57:21.062951Z  INFO amzn_kepler_manifest_module_remapper: Manifest remapping complete
+[native-build] Calling vpt with args pack ~/Desktop/Projects/snag-wt/tv/tv/build/private/vega/armv7/Release -n tv_armv7 -d ~/Desktop/Projects/snag-wt/tv/tv/build/private/kepler/tv/undefined/vega/armv7/Release --validate
+[native-build] creating vpkg ...
+[native-build] WARNING: build_number is 0. Provide via --build-number CLI option or in manifest.toml [package] section.
+[native-build] analyzing manifest.toml ...
+[native-build] manifest.toml is valid
+[native-build] manifest validation found 0 errors
+[native-build] manifest.toml:3:1 info: [package.icon] Icon is not defined in the manifest. System default will be used.
+[native-build]   help: Define icon to help users recognize your application
+[native-build]
+[native-build] staging package artifacts ...
+[native-build] generating meta-info ...
+[native-build] archiving ...
+[native-build] created: ~/Desktop/Projects/snag-wt/tv/tv/build/private/kepler/tv/undefined/vega/armv7/Release/tv_armv7.vpkg
+[native-build] done.
+[native-build] {
+[native-build]   "title": "Snag & Brag",
+[native-build]   "id": "com.snagbrag.tv",
+[native-build]   "version": "0.1.0",
+[native-build]   "build_number": 0,
+[native-build]   "size": 43696924,
+[native-build]   "os_version_registry": {
+[native-build]     "contract_package_version": "1.0.323.0",
+[native-build]     "os_versions": [
+[native-build]       "1.2"
+[native-build]     ]
+[native-build]   }
+[native-build] }
+[native-build] vega vtbuild exited with code 0
+
+🔍 Build Configuration
+───────────────────────────────────────
+OS configuration resolved from package.json: ["vega"]
+Targets resolved from command line: ["armv7"]
+info build-vega completed

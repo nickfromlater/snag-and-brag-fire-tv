@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-14",
+  "homePathsReplaced": 289,
+  "files": [
+    {
+      "path": "docs/gallery/capture.json",
+      "homePathReplacements": 12,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/gallery/checks.txt",
+      "homePathReplacements": 5,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/audio-test-output.txt",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/eval/root-tests.txt",
+      "homePathReplacements": 7,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/face-blur-merge-tests.txt",
+      "homePathReplacements": 6,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/face-blur-tests.txt",
+      "homePathReplacements": 6,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/phone-checks.txt",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/phone-polish-checks.txt",
+      "homePathReplacements": 5,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tests.txt",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv-worker-c/root-tests.txt",
+      "homePathReplacements": 7,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/armv7-integrated-build.json",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/finish-tests.txt",
+      "homePathReplacements": 7,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/integration-tests.txt",
+      "homePathReplacements": 7,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/native-eyes-tests.txt",
+      "homePathReplacements": 7,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/photo-armv7-build.json",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/photo-armv7-build.txt",
+      "homePathReplacements": 14,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/photo-bisect-isolated/root-tests.txt",
+      "homePathReplacements": 9,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/photo-root-tests.txt",
+      "homePathReplacements": 9,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/photo-worker-review.md",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/polish1/alexa-handler-tests.txt",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/polish1/armv7-build.txt",
+      "homePathReplacements": 14,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/polish1/armv7-delivery.json",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/polish1/effects-tests.txt",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/polish1/native-preparation-tests.txt",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/polish1/root-build-race.txt",
+      "homePathReplacements": 10,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/polish1/root-tests.txt",
+      "homePathReplacements": 9,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/visual/armv7-build.txt",
+      "homePathReplacements": 14,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/visual/builds.json",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/visual/g2-armv7-build.txt",
+      "homePathReplacements": 14,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/tv/visual/root-test.txt",
+      "homePathReplacements": 9,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/voice-native-fix/native-build.txt",
+      "homePathReplacements": 14,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/voice-native-fix/tests.txt",
+      "homePathReplacements": 9,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/voice-native-fix/wav48-tests.txt",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/voice-wav/native-build.txt",
+      "homePathReplacements": 14,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/voice-wav/native-check.txt",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/voice-wav/tests.txt",
+      "homePathReplacements": 9,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/voice/native-build-final.txt",
+      "homePathReplacements": 14,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/voice/tests-final.txt",
+      "homePathReplacements": 9,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/review/worker-c/validation.txt",
+      "homePathReplacements": 3,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/samples/core-test-output.txt",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/samples/pixel-mask-tests.txt",
+      "homePathReplacements": 6,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/spike/builder-tools.md",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/spike/evidence/app-detector-asset.jsonl",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/spike/evidence/disk-receipt.json",
+      "homePathReplacements": 7,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/spike/evidence/final-trace-summary.jsonl",
+      "homePathReplacements": 2,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/spike/evidence/project-doctor.txt",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/spike/evidence/trace-frame-summary.jsonl",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/spike/evidence/trace-memory.jsonl",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/spike/evidence/trace-slices.jsonl",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    },
+    {
+      "path": "docs/workers/release-prep.md",
+      "homePathReplacements": 0,
+      "accountReferenceRemoved": true
+    },
+    {
+      "path": "docs/workers/tv-integrate.md",
+      "homePathReplacements": 1,
+      "accountReferenceRemoved": false
+    }
+  ],
+  "additionalEdits": [
+    "phone/README.md: generic HTTPS examples, no actual LAN address",
+    "docs/review/phone-edges.json: redact historical LAN origin",
+    "docs/VIDEO.md: use the lead for owner follow-up",
+    "docs/spike/BRIEF-spike.md: replace private knowledge-base prerequisites with the existing public findings summary"
+  ]
+}

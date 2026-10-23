@@ -1,0 +1,32 @@
+[Unit]
+Description=Snag and Brag in-memory room relay
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=snag
+Group=snag
+WorkingDirectory=/opt/snag/app/relay
+EnvironmentFile=/etc/snag-relay.env
+Environment=NODE_ENV=production
+Environment=TSX_DISABLE_CACHE=1
+Environment=PATH=/opt/node/bin:/usr/local/bin:/usr/bin
+ExecStart=/opt/node/bin/node --import tsx src/main.ts
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+KillSignal=SIGTERM
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+LimitCORE=0
+LimitNOFILE=16384
+MemorySwapMax=0
+MemoryMax=1500M
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

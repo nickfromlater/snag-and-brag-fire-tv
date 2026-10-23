@@ -1,0 +1,70 @@
+{
+  "reviewDate": "2026-10-14",
+  "runtimeVerified": false,
+  "freshTemplate": "helloWorld-rn72",
+  "componentId": "com.example.frictionrepro.main",
+  "entryIds": [
+    "F-A01",
+    "F-A02",
+    "F-A03",
+    "F-A05",
+    "F-A16",
+    "F-A19",
+    "F-A39",
+    "F-A40",
+    "F-A41",
+    "F-A42"
+  ],
+  "components": {
+    "F-A01": {
+      "lines": 23,
+      "source": "import React,{useEffect,useState} from 'react';\nimport {Image,Text,View} from 'react-native';\nimport Svg,{Rect} from '@amazon-devices/react-native-svg';\nexport const App=()=>{\n  const [tick,setTick]=useState(0);\n  useEffect(()=>{\n    let n=0;const id=setInterval(()=>{\n      console.log('COMMIT_REQUEST',++n);setTick(n);\n    },500);return()=>clearInterval(id);\n  },[]);\n  return <View style={{width:1280,height:720,transform:[{scale:1.5}]}}>\n    <Svg width={1280} height={720}>\n      <Rect width={1280} height={720} fill={tick%2?'blue':'gold'}/>\n    </Svg>\n    <View style={{position:'absolute',top:100,left:(tick%4)*180,\n      width:240,height:240,borderRadius:40,overflow:'hidden'}}>\n      <Image source={require('./assets/repro.png')} style={{width:240,height:240}}/>\n    </View>\n    <Text style={{position:'absolute',top:400,fontSize:80,color:'white'}}>\n      FRAME {tick}\n    </Text>\n  </View>;\n};"
+    },
+    "F-A02": {
+      "lines": 28,
+      "source": "import React,{useEffect,useState} from 'react';\nimport {Text,View} from 'react-native';\nimport Svg,{Circle} from '@amazon-devices/react-native-svg';\nimport Animated,{useSharedValue,useAnimatedProps,useFrameCallback} from '@amazon-devices/react-native-reanimated';\nimport {AudioPlayer} from '@amazon-devices/react-native-w3cmedia';\nconst Dot=Animated.createAnimatedComponent(Circle), DEFER=false;\nfunction Particle({i}:{i:number}) {\n  const x=useSharedValue(i*30);\n  useFrameCallback(()=>{x.value=(x.value+3)%1280;});\n  const props=useAnimatedProps(()=>({cx:x.value}));\n  return <Dot animatedProps={props} cy={200+i*8} r={10} fill=\"gold\"/>;\n}\nexport const App=()=>{\n  const [ready,setReady]=useState(false),[beat,setBeat]=useState(0);\n  useEffect(()=>{\n    const players=Array.from({length:8},()=>new AudioPlayer());let live=true;\n    void Promise.all(players.map(async p=>{\n      await p.initialize();p.volume=0;p.src='/pkg/assets/raw/repro.ogg';p.load();\n    })).then(()=>{if(live)setReady(true);}).catch(e=>console.log('INIT',String(e)));\n    const id=setInterval(()=>{console.log('HEARTBEAT');setBeat(n=>n+1);},500);\n    return()=>{live=false;clearInterval(id);players.forEach(p=>{p.pause();void p.deinitialize();});};\n  },[]);\n  return <View style={{width:1280,height:720,transform:[{scale:1.5}]}}>\n    {(!DEFER||ready)&&<Svg width={1280} height={720}>\n      {Array.from({length:32},(_,i)=><Particle key={i} i={i}/>)}\n    </Svg>}<Text style={{fontSize:60}}>BEAT {beat}; audio {String(ready)}</Text>\n  </View>;\n};"
+    },
+    "F-A03": {
+      "lines": 27,
+      "source": "import React,{useEffect,useState} from 'react';\nimport {Image,Text,View} from 'react-native';\nimport Svg,{Circle} from '@amazon-devices/react-native-svg';\nimport Animated,{useSharedValue,useAnimatedProps,useFrameCallback} from '@amazon-devices/react-native-reanimated';\nconst Dot=Animated.createAnimatedComponent(Circle), N=128;\nfunction Particle({i}:{i:number}) {\n  const x=useSharedValue(i*9),y=useSharedValue(i%32*20);\n  useFrameCallback(()=>{x.value=(x.value+4)%1280;y.value=(y.value+2)%720;});\n  const props=useAnimatedProps(()=>({cx:x.value,cy:y.value}));\n  return <Dot animatedProps={props} r={12} fill=\"gold\"/>;\n}\nexport const App=()=>{\n  const [scene,setScene]=useState(0);\n  useEffect(()=>{\n    let n=0;const id=setInterval(()=>{console.log('SCENE',++n);setScene(n);},1000);\n    return()=>clearInterval(id);\n  },[]);\n  return <View style={{width:1280,height:720,transform:[{scale:1.5}]}}>\n    <Svg key={scene} width={1280} height={720}>\n      {Array.from({length:N},(_,i)=><Particle key={i} i={i}/>)}\n    </Svg>\n    <View style={{position:'absolute',top:100,left:150,width:300,height:300,\n      overflow:'hidden',borderRadius:60,transform:[{rotate:(scene%2?8:-8)+'deg'}]}}>\n      <Image source={require('./assets/repro.png')} style={{width:300,height:300}}/>\n    </View><Text style={{fontSize:70}}>SCENE {scene}</Text>\n  </View>;\n};"
+    },
+    "F-A05": {
+      "lines": 22,
+      "source": "import React,{useEffect,useState} from 'react';\nimport {Text} from 'react-native';\nimport {AudioPlayer} from '@amazon-devices/react-native-w3cmedia';\nconst N=64;\nexport const App=()=>{\n  const [count,setCount]=useState(0);\n  useEffect(()=>{\n    let live=true;const bank:AudioPlayer[]=[];\n    void (async()=>{\n      for(let i=0;i<N&&live;i++){\n        bank.at(-1)?.pause();const p=new AudioPlayer();bank.push(p);\n        await p.initialize();if(!live)break;p.volume=0;\n        p.addEventListener('error',()=>console.log('MEDIA_ERROR',bank.length,p.error?.code,p.error?.message));\n        p.src='/pkg/assets/raw/repro.ogg';p.load();p.play();setCount(bank.length);\n        console.log('RETAINED',bank.length,p.readyState,p.currentTime);\n        await new Promise(r=>setTimeout(r,200));\n      }\n    })().catch(e=>console.log('INIT_ERROR',String(e)));\n    return()=>{live=false;bank.forEach(p=>{p.pause();void p.deinitialize();});};\n  },[]);\n  return <Text style={{fontSize:60}}>Retained paused/current players: {count}</Text>;\n};"
+    },
+    "F-A16": {
+      "lines": 29,
+      "source": "import React,{useEffect,useState} from 'react';\nimport {Text} from 'react-native';\nimport {AudioPlayer,MediaSource} from '@amazon-devices/react-native-w3cmedia';\nconst MODE=String('wav'),ORIGIN='http://127.0.0.1:8877';\nexport const App=()=>{\n  const [status,setStatus]=useState('loading');\n  useEffect(()=>{\n    const p=new AudioPlayer();let live=true,blob='',bytes:ArrayBuffer|undefined;\n    p.addEventListener('error',()=>console.log('MEDIA_ERROR',MODE,p.error?.code,p.error?.message));\n    void (async()=>{\n      await p.initialize();if(!live)return;p.volume=0;\n      if(MODE==='aac'){\n        bytes=await fetch(ORIGIN+'/repro.mp4').then(r=>r.arrayBuffer());if(!live)return;\n        const m=new MediaSource();\n        m.addEventListener('sourceopen',()=>{\n          const b=m.addSourceBuffer('audio/mp4; codecs=\"mp4a.40.2\"');\n          b.addEventListener('updateend',()=>{m.endOfStream();p.play();});\n          b.appendBuffer(bytes!);\n        });\n        blob=URL.createObjectURL(m as unknown as Blob);p.src=blob;\n      }else{p.src=ORIGIN+'/repro.'+MODE;p.load();p.play();}\n    })().catch(e=>console.log('SOURCE_ERROR',String(e)));\n    const id=setInterval(()=>{const v=MODE+' ready='+p.readyState+' time='+p.currentTime;\n      console.log(v);setStatus(v);},250);\n    return()=>{live=false;clearInterval(id);p.pause();void p.deinitialize();\n      if(blob)URL.revokeObjectURL(blob);if(bytes)new Uint8Array(bytes).fill(0);};\n  },[]);\n  return <Text style={{fontSize:40}}>{status}</Text>;\n};"
+    },
+    "F-A39": {
+      "lines": 20,
+      "source": "import React,{useEffect,useState} from 'react';\nimport {BackHandler,Pressable,Text,View} from 'react-native';\nimport {useTVEventHandler} from '@amazon-devices/react-native-kepler';\nexport const App=()=>{\n  const [backs,setBacks]=useState(0);\n  useTVEventHandler((e:any)=>{\n    if(e.eventType==='back')console.log('TV_BACK',Date.now(),e.eventKeyAction);\n  });\n  useEffect(()=>{\n    const s=BackHandler.addEventListener('hardwareBackPress',()=>{\n      console.log('HANDLER_BACK',Date.now());setBacks(n=>n+1);return true;\n    });\n    return()=>s.remove();\n  },[]);\n  return <View><Text style={{fontSize:60}}>Intercepted Back: {backs}</Text>\n    <Pressable hasTVPreferredFocus onPress={()=>BackHandler.exitApp()}>\n      <Text style={{fontSize:50}}>Select: explicitly exit</Text>\n    </Pressable>\n  </View>;\n};"
+    },
+    "F-A40": {
+      "lines": 9,
+      "source": "import React from 'react';\nimport {View} from 'react-native';\nimport {WebView} from '@amazon-devices/webview';\nexport const App=()=> <View style={{flex:1}}>\n  <WebView hasTVPreferredFocus javaScriptEnabled allowSystemKeyEvents\n    source={{uri:'file:///pkg/assets/keys.html'}}\n    onMessage={e=>console.log('WEB_KEY',e.nativeEvent.data)}\n    onError={()=>console.log('WEB_LOAD_ERROR')}/>\n</View>;"
+    }
+  },
+  "status": "expected to reproduce; derived from our app",
+  "limitations": "No fresh-template build/device/audio/account/perf run; F-A39 native control passes in app, F-A40/41 inherited WebView observations, F-A42 pending retail.",
+  "validation": {
+    "tsxSyntaxChecked": 7,
+    "strictTypeChecked": [
+      "F-A01",
+      "F-A02",
+      "F-A03",
+      "F-A05",
+      "F-A16",
+      "F-A39"
+    ],
+    "webViewCheck": "syntax only; package not installed",
+    "shellBlocksParsed": 11,
+    "embeddedPythonSyntax": true,
+    "keyboardPageJavaScriptSyntax": true,
+    "serviceTomlParsed": true,
+    "syntheticFixturesGeneratedDecoded": 5,
+    "rootTestsPassed": 448,
+    "rootTypecheckPassed": true,
+    "freshAppBuiltOrRun": false
+  }
+}

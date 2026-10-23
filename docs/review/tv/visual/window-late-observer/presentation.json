@@ -1,0 +1,92 @@
+{
+  "label": "window-capture-with-diagnostics-disabled",
+  "revision": "ee04aee",
+  "capturedAt": "2026-10-14T06:54:33.798Z",
+  "target": "VVD OS 1.2 / aarch64 Release / Hermes",
+  "captureBackend": "window",
+  "overlay": false,
+  "speed": 1,
+  "seed": 1,
+  "muted": true,
+  "syntheticOnly": true,
+  "nativeOnly": true,
+  "corePass": false,
+  "visualPass": null,
+  "visualNote": "Read the counter and scene from the PNG pixels; JS commits alone do not prove presentation.",
+  "scenes": [
+    "judge"
+  ],
+  "snapshot": {
+    "kind": "snapshot",
+    "hermes": true,
+    "ready": true,
+    "loaded": true,
+    "connected": true,
+    "code": "KZPL",
+    "scene": "judge",
+    "phase": "judge",
+    "round": 0,
+    "mood": "normal",
+    "completed": false,
+    "paused": false,
+    "teams": 3,
+    "cues": 192,
+    "exceptions": 0,
+    "cardStage": "scored,scored,flip",
+    "banner": false,
+    "crown": false,
+    "runtime": "native"
+  },
+  "captures": [
+    {
+      "file": "01-lobby.png",
+      "captureStartedMs": 2049,
+      "captureEndedMs": 2330,
+      "sha256": "5052f7cba974b77a29c48a94ebc264f4f3a0656206ac1c5ebee89d0c1ca01b17",
+      "coreBefore": {
+        "kind": "snapshot",
+        "hermes": true,
+        "ready": true,
+        "loaded": true,
+        "connected": true,
+        "code": "KZPL",
+        "scene": "hunt",
+        "phase": "glow",
+        "round": 0,
+        "mood": "normal",
+        "completed": false,
+        "paused": false,
+        "teams": 3,
+        "cues": 130,
+        "exceptions": 0,
+        "runtime": "native"
+      },
+      "coreAfter": {
+        "kind": "snapshot",
+        "hermes": true,
+        "ready": true,
+        "loaded": true,
+        "connected": true,
+        "code": "KZPL",
+        "scene": "hunt",
+        "phase": "glow",
+        "round": 0,
+        "mood": "normal",
+        "completed": false,
+        "paused": false,
+        "teams": 3,
+        "cues": 137,
+        "exceptions": 0,
+        "runtime": "native"
+      }
+    }
+  ],
+  "voice": {
+    "lines": 2,
+    "polly": 2,
+    "fullPolly": 2
+  },
+  "exceptions": [],
+  "audioErrors": [],
+  "failure": "First Intro timed out at {\"kind\":\"snapshot\",\"hermes\":true,\"ready\":true,\"loaded\":true,\"connected\":true,\"code\":\"KZPL\",\"scene\":\"judge\",\"phase\":\"judge\",\"round\":0,\"mood\":\"normal\",\"completed\":false,\"paused\":false,\"teams\":3,\"cues\":192,\"exceptions\":0,\"cardStage\":\"scored,scored,flip\",\"banner\":false,\"crown\":false,\"runtime\":\"native\"}"
+}

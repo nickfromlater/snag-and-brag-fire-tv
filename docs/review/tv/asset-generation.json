@@ -1,0 +1,13 @@
+{
+  "verifiedAt": "2026-10-13T08:43:51.754Z",
+  "generatedFiles": 240,
+  "byteIdentical": true,
+  "aggregateSha256": "cb9b84e87ea2e249ba211b71b641c2615982252f6ae79b24165752535b6f4856",
+  "inputs": [
+    "assets/audio/manifest.json",
+    "spike/vega-app/assets/raw"
+  ],
+  "command": "pnpm --filter @snag/tv assets",
+  "generatedDirectory": "tv/assets",
+  "trackedFiles": 0
+}

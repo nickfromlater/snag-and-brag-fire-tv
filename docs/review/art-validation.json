@@ -1,0 +1,1367 @@
+{
+  "stickerComposites": [
+    {
+      "id": "portrait",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "portrait",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "portrait",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "portrait",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cactus",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cactus",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cactus",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cactus",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "record",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "record",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "record",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "record",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "lava",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "lava",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "lava",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "lava",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "book",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "book",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "book",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "book",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "pillow",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "pillow",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "pillow",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "pillow",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "remote",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "remote",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "remote",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "remote",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "mug",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "mug",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "mug",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "mug",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "sock",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "sock",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "sock",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "sock",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "controller",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "controller",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "controller",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "controller",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "banana",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "banana",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "banana",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "banana",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "tomato",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "tomato",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "tomato",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "tomato",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "kettle",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "kettle",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "kettle",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "kettle",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cheese",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cheese",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cheese",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cheese",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "donut",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "donut",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "donut",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "donut",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "whisk",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "whisk",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "whisk",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "whisk",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "spatula",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "spatula",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "spatula",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "spatula",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "pan",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "pan",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "pan",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "pan",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "glove",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "glove",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "glove",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "glove",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cereal",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cereal",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cereal",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "cereal",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "rocket",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "rocket",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "rocket",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "rocket",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "robot",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "robot",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "robot",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "robot",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "dino",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "dino",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "dino",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "dino",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "teddy",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "teddy",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "teddy",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "teddy",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "crown",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "crown",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "crown",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "crown",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "duck",
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "duck",
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "duck",
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "id": "duck",
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    }
+  ],
+  "photoComposites": [
+    {
+      "scale": 1.6,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 642,
+        "maxChannelDifference": 1,
+        "meanAbsoluteChannelDifference": 0.0016862
+      }
+    },
+    {
+      "scale": 1.6,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 115200,
+        "differingPixels": 642,
+        "maxChannelDifference": 1,
+        "meanAbsoluteChannelDifference": 0.0016862
+      }
+    },
+    {
+      "scale": 3.2,
+      "background": "#0E0B2B",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 2612,
+        "maxChannelDifference": 1,
+        "meanAbsoluteChannelDifference": 0.00193305
+      }
+    },
+    {
+      "scale": 3.2,
+      "background": "#FFF8EC",
+      "diff": {
+        "pixels": 460800,
+        "differingPixels": 2612,
+        "maxChannelDifference": 1,
+        "meanAbsoluteChannelDifference": 0.00193305
+      }
+    }
+  ],
+  "fonts": [
+    {
+      "file": "assets/fonts/LilitaOne-Regular.ttf",
+      "scale": 1,
+      "diff": {
+        "pixels": 195500,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/LilitaOne-Regular.ttf",
+      "scale": 2,
+      "diff": {
+        "pixels": 782000,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/Rubik-500.ttf",
+      "scale": 1,
+      "diff": {
+        "pixels": 195500,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/Rubik-500.ttf",
+      "scale": 2,
+      "diff": {
+        "pixels": 782000,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/Rubik-700.ttf",
+      "scale": 1,
+      "diff": {
+        "pixels": 195500,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/Rubik-700.ttf",
+      "scale": 2,
+      "diff": {
+        "pixels": 782000,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/Rubik-800.ttf",
+      "scale": 1,
+      "diff": {
+        "pixels": 195500,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/Rubik-800.ttf",
+      "scale": 2,
+      "diff": {
+        "pixels": 782000,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/Rubik-900.ttf",
+      "scale": 1,
+      "diff": {
+        "pixels": 195500,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    },
+    {
+      "file": "assets/fonts/Rubik-900.ttf",
+      "scale": 2,
+      "diff": {
+        "pixels": 782000,
+        "differingPixels": 0,
+        "maxChannelDifference": 0,
+        "meanAbsoluteChannelDifference": 0
+      }
+    }
+  ],
+  "host-neutral": {
+    "input": {
+      "t": 0,
+      "open": 0,
+      "typing": false,
+      "mood": "norm",
+      "lid": 0,
+      "brow": "norm"
+    },
+    "diff": {
+      "pixels": 278400,
+      "differingPixels": 1168,
+      "maxChannelDifference": 27,
+      "meanAbsoluteChannelDifference": 0.00219199
+    },
+    "stageDiff": {
+      "pixels": 278400,
+      "differingPixels": 2316,
+      "maxChannelDifference": 22,
+      "meanAbsoluteChannelDifference": 0.00345905
+    }
+  },
+  "host-talking": {
+    "input": {
+      "t": 0.25,
+      "open": 1,
+      "typing": true,
+      "mood": "norm",
+      "lid": 0,
+      "brow": "up"
+    },
+    "diff": {
+      "pixels": 278400,
+      "differingPixels": 17322,
+      "maxChannelDifference": 255,
+      "meanAbsoluteChannelDifference": 0.57105514
+    },
+    "stageDiff": {
+      "pixels": 278400,
+      "differingPixels": 17382,
+      "maxChannelDifference": 95,
+      "meanAbsoluteChannelDifference": 0.49377425
+    }
+  },
+  "host-glee": {
+    "input": {
+      "t": 0.45,
+      "open": 0.5,
+      "typing": false,
+      "mood": "glee",
+      "lid": 1,
+      "brow": "up"
+    },
+    "diff": {
+      "pixels": 278400,
+      "differingPixels": 17370,
+      "maxChannelDifference": 255,
+      "meanAbsoluteChannelDifference": 0.57735004
+    },
+    "stageDiff": {
+      "pixels": 278400,
+      "differingPixels": 17414,
+      "maxChannelDifference": 119,
+      "meanAbsoluteChannelDifference": 0.51391703
+    }
+  },
+  "assetBytes": 4061137,
+  "chrome": "Chrome/155.0.8059.40",
+  "sourceHashes": {
+    "reference/src/art.js": "6be22262fa73754cbd2d79136d0ce5b30cc1540609b19367c8a4e4ede9078c81",
+    "reference/src/game.js": "d51cda535fffc268cb6e1e5d40c080e537ec1f92dbc6c701793c1877be7b69fb",
+    "reference/src/style.css": "61654679d3e671ebba997b8983a0850232b58687884513f6a1d6d0457e637a0c",
+    "reference/src/body.html": "4ea6b47c3e57fdacfe67e02c337d9464b51c50ad0b2e1ea620521bd3eeab9391"
+  },
+  "lossless": "PNG encoding only; alpha-zero RGB cleared. Visible preservation proven over ink and paper."
+}

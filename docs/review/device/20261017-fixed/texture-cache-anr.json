@@ -1,0 +1,6 @@
+{
+  "CrashReason": "AppNotResponding",
+  "at": "2026-10-18T00:59:18+00:00",
+  "context": "Texture-cache experiment: native flag applied to rays, doodles, glyph text and QR; not promoted.",
+  "privacy": "Sanitized metadata and JavaScript frames only; raw report discarded"
+}

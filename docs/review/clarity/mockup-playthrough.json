@@ -1,0 +1,337 @@
+{
+  "completed": true,
+  "phases": [
+    "sc-lobby",
+    "sc-intro",
+    "sc-hunt",
+    "sc-judge",
+    "sc-stand",
+    "sc-brag",
+    "sc-show",
+    "sc-champ"
+  ],
+  "entries": [
+    {
+      "scene": "sc-lobby",
+      "round": -1,
+      "phone": "p-join",
+      "reel": null,
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-lobby",
+      "round": -1,
+      "phone": "p-lobby",
+      "reel": null,
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-lobby",
+      "round": 0,
+      "phone": "p-lobby",
+      "reel": null,
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-intro",
+      "round": 0,
+      "phone": "p-lobby",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-intro",
+      "round": 0,
+      "phone": "p-ready",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 0,
+      "phone": "p-ready",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 0,
+      "phone": "p-cam",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 0,
+      "phone": "p-glow",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 0,
+      "phone": "p-wait",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-judge",
+      "round": 0,
+      "phone": "p-wait",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-stand",
+      "round": 0,
+      "phone": "p-wait",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-stand",
+      "round": 1,
+      "phone": "p-wait",
+      "head": "COLOR RUSH",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-intro",
+      "round": 1,
+      "phone": "p-wait",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-intro",
+      "round": 1,
+      "phone": "p-ready",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 1,
+      "phone": "p-ready",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 1,
+      "phone": "p-cam",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 1,
+      "phone": "p-glow",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 1,
+      "phone": "p-wait",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-brag",
+      "round": 1,
+      "phone": "p-wait",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-brag",
+      "round": 1,
+      "phone": "p-mash",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-stand",
+      "round": 1,
+      "phone": "p-mash",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-stand",
+      "round": 2,
+      "phone": "p-wait",
+      "head": "BRAG-OFF",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-intro",
+      "round": 2,
+      "phone": "p-wait",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-intro",
+      "round": 2,
+      "phone": "p-ready",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 2,
+      "phone": "p-ready",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 2,
+      "phone": "p-cam",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 2,
+      "phone": "p-glow",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-hunt",
+      "round": 2,
+      "phone": "p-wait",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-show",
+      "round": 2,
+      "phone": "p-wait",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-show",
+      "round": 2,
+      "phone": "p-vote",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "SNAG!",
+      "win": false,
+      "mash": false
+    },
+    {
+      "scene": "sc-champ",
+      "round": 2,
+      "phone": "p-wait",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "SNAG!",
+      "win": true,
+      "mash": false
+    },
+    {
+      "scene": "sc-champ",
+      "round": 2,
+      "phone": "p-end",
+      "head": "SHOWSTOPPER",
+      "reel": false,
+      "count": "SNAG!",
+      "win": true,
+      "mash": false
+    }
+  ],
+  "errors": [],
+  "speed": 1,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio": "muted",
+  "media": "reference object art only"
+}

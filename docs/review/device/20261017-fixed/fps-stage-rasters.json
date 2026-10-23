@@ -1,0 +1,18 @@
+{
+  "scope": "Retail callie armv7l, OS2 TV Ship/515, all lobby presentation layers",
+  "build": "Stage rasters diagnostic: fixed titles and rays; native puppet transforms; synchronous background audio release",
+  "foregroundVerified": true,
+  "traceTool": "Vega perf 0.24.0, default categories; Perfetto v58.2 local analysis",
+  "frames": 661,
+  "spanSeconds": 36.15,
+  "averageFps": 18.26,
+  "maximumFrameGapMs": 529.27,
+  "gapsOver100Ms": 9,
+  "meanRasterizeMs": 40.67,
+  "shadowTreeCommits": 12,
+  "targetFps": 30,
+  "outcome": "FAIL",
+  "next": "Rasterize remaining static doodles and per-room QR; repeat measurement",
+  "privacy": "Metadata only. Raw system trace retained outside repository.",
+  "measurementCaveat": "Recorded before RAM-backed device temporary storage was cleaned. Numeric observations remain valid for that system state; use a clean-device measurement for acceptance and do not attribute comparisons to code alone."
+}

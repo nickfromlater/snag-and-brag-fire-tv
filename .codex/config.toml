@@ -1,0 +1,4 @@
+[mcp_servers.amazon-devices-buildertools]
+command = "npx"
+args = ["--yes", "@amazon-devices/amazon-devices-buildertools-mcp@1.0.17"]
+startup_timeout_sec = 30

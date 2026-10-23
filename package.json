@@ -1,0 +1,20 @@
+{
+  "name": "snag-and-brag",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Snag & Brag: a Fire TV party game played with phones as cameras and controllers.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "pnpm -r --if-present test && vitest run tools/release/package.test.mjs",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "build": "pnpm -r --if-present build",
+    "lint": "pnpm -r --if-present lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "outcome": "PASS",
+  "scope": "single diagnostic armv7 candidate archive; hardware acceptance separate",
+  "bytes": 36769248,
+  "sha256": "a0c39ce49f08f31d42b3926da6e94163d24959482167cb5c3da77aa89617c71c",
+  "stageClips": 5,
+  "notices": 7,
+  "privateSignatures": 0,
+  "appId": "com.snagbrag.tv",
+  "runtime": {
+    "relayUrl": "wss://d2q0olvpmfmvjn.cloudfront.net/ws",
+    "controlUrl": "ws://127.0.0.1:8790",
+    "directorUrl": "ws://127.0.0.1:8791/renderer",
+    "showcase": false,
+    "debug": true,
+    "offline": false,
+    "photoProbe": false
+  }
+}

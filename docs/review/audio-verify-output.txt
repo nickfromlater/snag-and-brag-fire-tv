@@ -1,0 +1,240 @@
+$ node src/build.ts --verify
+Rendered 1/118 sfx-aww
+Rendered 2/118 sfx-beep-0
+Rendered 3/118 sfx-beep-1
+Rendered 4/118 sfx-boing
+Rendered 5/118 sfx-bonk
+Rendered 6/118 sfx-boom-v1
+Rendered 7/118 sfx-boom-v2
+Rendered 8/118 sfx-boom-v3
+Rendered 9/118 sfx-buzzer
+Rendered 10/118 sfx-coin
+Rendered 11/118 sfx-crowd-2-18
+Rendered 12/118 sfx-crowd-default
+Rendered 13/118 sfx-crowd-mash-04
+Rendered 14/118 sfx-crowd-mash-06
+Rendered 15/118 sfx-crowd-mash-08
+Rendered 16/118 sfx-crowd-mash-10
+Rendered 17/118 sfx-crowd-mash-12
+Rendered 18/118 sfx-drumroll-1p4
+Rendered 19/118 sfx-drumroll-2p2
+Rendered 20/118 sfx-drumroll-2p3
+Rendered 21/118 sfx-fanfare
+Rendered 22/118 sfx-flip
+Rendered 23/118 sfx-horn
+Rendered 24/118 sfx-join
+Rendered 25/118 sfx-ko
+Rendered 26/118 sfx-lock
+Rendered 27/118 sfx-mash-0
+Rendered 28/118 sfx-mash-1
+Rendered 29/118 sfx-mash-10
+Rendered 30/118 sfx-mash-11
+Rendered 31/118 sfx-mash-12
+Rendered 32/118 sfx-mash-2
+Rendered 33/118 sfx-mash-3
+Rendered 34/118 sfx-mash-4
+Rendered 35/118 sfx-mash-5
+Rendered 36/118 sfx-mash-6
+Rendered 37/118 sfx-mash-7
+Rendered 38/118 sfx-mash-8
+Rendered 39/118 sfx-mash-9
+Rendered 40/118 sfx-mtick-0000
+Rendered 41/118 sfx-mtick-0125
+Rendered 42/118 sfx-mtick-0250
+Rendered 43/118 sfx-mtick-0375
+Rendered 44/118 sfx-mtick-0500
+Rendered 45/118 sfx-mtick-0625
+Rendered 46/118 sfx-mtick-0750
+Rendered 47/118 sfx-mtick-0875
+Rendered 48/118 sfx-mtick-1000
+Rendered 49/118 sfx-pop-0
+Rendered 50/118 sfx-pop-2
+Rendered 51/118 sfx-pop-4
+Rendered 52/118 sfx-pop-6
+Rendered 53/118 sfx-pop-8
+Rendered 54/118 sfx-react-flame-v1
+Rendered 55/118 sfx-react-flame-v2
+Rendered 56/118 sfx-react-flame-v3
+Rendered 57/118 sfx-react-heart-0
+Rendered 58/118 sfx-react-heart-1
+Rendered 59/118 sfx-react-heart-2
+Rendered 60/118 sfx-react-heart-3
+Rendered 61/118 sfx-react-heart-4
+Rendered 62/118 sfx-react-heart-5
+Rendered 63/118 sfx-react-heart-6
+Rendered 64/118 sfx-react-heart-7
+Rendered 65/118 sfx-react-heart-8
+Rendered 66/118 sfx-react-heart-9
+Rendered 67/118 sfx-react-star-0
+Rendered 68/118 sfx-react-star-1
+Rendered 69/118 sfx-react-star-2
+Rendered 70/118 sfx-react-star-3
+Rendered 71/118 sfx-react-star-4
+Rendered 72/118 sfx-react-star-5
+Rendered 73/118 sfx-react-star-6
+Rendered 74/118 sfx-react-star-7
+Rendered 75/118 sfx-react-star-8
+Rendered 76/118 sfx-react-star-9
+Rendered 77/118 sfx-react-tomato-v1
+Rendered 78/118 sfx-react-tomato-v2
+Rendered 79/118 sfx-react-tomato-v3
+Rendered 80/118 sfx-reveal
+Rendered 81/118 sfx-riser-1p2
+Rendered 82/118 sfx-rival
+Rendered 83/118 sfx-rollTick
+Rendered 84/118 sfx-scan
+Rendered 85/118 sfx-sel
+Rendered 86/118 sfx-shutter
+Rendered 87/118 sfx-slam
+Rendered 88/118 sfx-snagged
+Rendered 89/118 sfx-sparkle
+Rendered 90/118 sfx-stamp
+Rendered 91/118 sfx-taken
+Rendered 92/118 sfx-tap
+Rendered 93/118 sfx-thump
+Rendered 94/118 sfx-tick
+Rendered 95/118 sfx-voice-v01
+Rendered 96/118 sfx-voice-v02
+Rendered 97/118 sfx-voice-v03
+Rendered 98/118 sfx-voice-v04
+Rendered 99/118 sfx-voice-v05
+Rendered 100/118 sfx-voice-v06
+Rendered 101/118 sfx-voice-v07
+Rendered 102/118 sfx-voice-v08
+Rendered 103/118 sfx-voice-v09
+Rendered 104/118 sfx-voice-v10
+Rendered 105/118 sfx-voice-v11
+Rendered 106/118 sfx-voice-v12
+Rendered 107/118 sfx-voice-v13
+Rendered 108/118 sfx-voice-v14
+Rendered 109/118 sfx-voice-v15
+Rendered 110/118 sfx-voice-v16
+Rendered 111/118 sfx-whoop
+Rendered 112/118 sfx-whoosh
+Rendered 113/118 music-lobby
+Rendered 114/118 music-hunt
+Rendered 115/118 music-urgent
+Rendered 116/118 music-tension
+Rendered 117/118 music-brag
+Rendered 118/118 music-win
+Uniform makeup +10.93534137 dB; source loudest sfx-snagged -13.93534137 dBFS; target -3.0 dBFS.
+1/118 sfx-aww · 30505 samples · -19.3 dBFS · -32.4 LUFS
+2/118 sfx-beep-0 · 8126 samples · -18.5 dBFS · -70.0 LUFS
+3/118 sfx-beep-1 · 20009 samples · -16.5 dBFS · -24.0 LUFS
+4/118 sfx-boing · 14786 samples · -14.2 dBFS · -70.0 LUFS
+5/118 sfx-bonk · 7733 samples · -17.1 dBFS · -70.0 LUFS
+6/118 sfx-boom-v1 · 23356 samples · -11.6 dBFS · -22.5 LUFS
+7/118 sfx-boom-v2 · 23670 samples · -12.0 dBFS · -22.5 LUFS
+8/118 sfx-boom-v3 · 23871 samples · -11.9 dBFS · -22.5 LUFS
+9/118 sfx-buzzer · 34798 samples · -12.4 dBFS · -24.9 LUFS
+10/118 sfx-coin · 32163 samples · -14.2 dBFS · -23.7 LUFS
+11/118 sfx-crowd-2-18 · 73907 samples · -8.9 dBFS · -22.7 LUFS
+12/118 sfx-crowd-default · 56987 samples · -8.9 dBFS · -22.5 LUFS
+13/118 sfx-crowd-mash-04 · 24921 samples · -23.6 dBFS · -35.8 LUFS
+14/118 sfx-crowd-mash-06 · 24510 samples · -18.5 dBFS · -32.4 LUFS
+15/118 sfx-crowd-mash-08 · 23262 samples · -16.5 dBFS · -30.6 LUFS
+16/118 sfx-crowd-mash-10 · 24182 samples · -15.9 dBFS · -28.2 LUFS
+17/118 sfx-crowd-mash-12 · 24925 samples · -14.2 dBFS · -27.3 LUFS
+18/118 sfx-drumroll-1p4 · 66495 samples · -7.2 dBFS · -27.5 LUFS
+19/118 sfx-drumroll-2p2 · 107345 samples · -6.5 dBFS · -27.2 LUFS
+20/118 sfx-drumroll-2p3 · 110193 samples · -7.4 dBFS · -27.2 LUFS
+21/118 sfx-fanfare · 73692 samples · -3.5 dBFS · -13.4 LUFS
+22/118 sfx-flip · 5654 samples · -23.4 dBFS · -70.0 LUFS
+23/118 sfx-horn · 27400 samples · -14.0 dBFS · -25.2 LUFS
+24/118 sfx-join · 48546 samples · -5.3 dBFS · -16.0 LUFS
+25/118 sfx-ko · 32688 samples · -4.2 dBFS · -17.2 LUFS
+26/118 sfx-lock · 6454 samples · -21.5 dBFS · -70.0 LUFS
+27/118 sfx-mash-0 · 4170 samples · -28.2 dBFS · -70.0 LUFS
+28/118 sfx-mash-1 · 4173 samples · -28.7 dBFS · -70.0 LUFS
+29/118 sfx-mash-10 · 4169 samples · -28.2 dBFS · -70.0 LUFS
+30/118 sfx-mash-11 · 4172 samples · -29.0 dBFS · -70.0 LUFS
+31/118 sfx-mash-12 · 4176 samples · -27.9 dBFS · -70.0 LUFS
+32/118 sfx-mash-2 · 4159 samples · -28.4 dBFS · -70.0 LUFS
+33/118 sfx-mash-3 · 4171 samples · -29.3 dBFS · -70.0 LUFS
+34/118 sfx-mash-4 · 4174 samples · -28.7 dBFS · -70.0 LUFS
+35/118 sfx-mash-5 · 4170 samples · -28.7 dBFS · -70.0 LUFS
+36/118 sfx-mash-6 · 4173 samples · -29.3 dBFS · -70.0 LUFS
+37/118 sfx-mash-7 · 4159 samples · -28.9 dBFS · -70.0 LUFS
+38/118 sfx-mash-8 · 4171 samples · -28.5 dBFS · -70.0 LUFS
+39/118 sfx-mash-9 · 4148 samples · -28.1 dBFS · -70.0 LUFS
+40/118 sfx-mtick-0000 · 3350 samples · -34.6 dBFS · -70.0 LUFS
+41/118 sfx-mtick-0125 · 3376 samples · -34.2 dBFS · -70.0 LUFS
+42/118 sfx-mtick-0250 · 3372 samples · -33.7 dBFS · -70.0 LUFS
+43/118 sfx-mtick-0375 · 3368 samples · -34.0 dBFS · -70.0 LUFS
+44/118 sfx-mtick-0500 · 3365 samples · -34.0 dBFS · -70.0 LUFS
+45/118 sfx-mtick-0625 · 3363 samples · -33.8 dBFS · -70.0 LUFS
+46/118 sfx-mtick-0750 · 3361 samples · -33.8 dBFS · -70.0 LUFS
+47/118 sfx-mtick-0875 · 3374 samples · -34.1 dBFS · -70.0 LUFS
+48/118 sfx-mtick-1000 · 3372 samples · -33.9 dBFS · -70.0 LUFS
+49/118 sfx-pop-0 · 6287 samples · -18.5 dBFS · -70.0 LUFS
+50/118 sfx-pop-2 · 6280 samples · -18.6 dBFS · -70.0 LUFS
+51/118 sfx-pop-4 · 6296 samples · -19.6 dBFS · -70.0 LUFS
+52/118 sfx-pop-6 · 6290 samples · -19.5 dBFS · -70.0 LUFS
+53/118 sfx-pop-8 · 6286 samples · -19.5 dBFS · -70.0 LUFS
+54/118 sfx-react-flame-v1 · 5183 samples · -29.7 dBFS · -70.0 LUFS
+55/118 sfx-react-flame-v2 · 5275 samples · -29.9 dBFS · -70.0 LUFS
+56/118 sfx-react-flame-v3 · 5324 samples · -28.0 dBFS · -70.0 LUFS
+57/118 sfx-react-heart-0 · 5434 samples · -24.8 dBFS · -70.0 LUFS
+58/118 sfx-react-heart-1 · 5437 samples · -24.9 dBFS · -70.0 LUFS
+59/118 sfx-react-heart-2 · 5441 samples · -24.9 dBFS · -70.0 LUFS
+60/118 sfx-react-heart-3 · 5455 samples · -24.8 dBFS · -70.0 LUFS
+61/118 sfx-react-heart-4 · 5456 samples · -25.0 dBFS · -70.0 LUFS
+62/118 sfx-react-heart-5 · 5461 samples · -24.9 dBFS · -70.0 LUFS
+63/118 sfx-react-heart-6 · 5461 samples · -24.8 dBFS · -70.0 LUFS
+64/118 sfx-react-heart-7 · 5462 samples · -24.9 dBFS · -70.0 LUFS
+65/118 sfx-react-heart-8 · 5448 samples · -24.8 dBFS · -70.0 LUFS
+66/118 sfx-react-heart-9 · 5461 samples · -24.8 dBFS · -70.0 LUFS
+67/118 sfx-react-star-0 · 27661 samples · -23.4 dBFS · -30.5 LUFS
+68/118 sfx-react-star-1 · 27466 samples · -23.0 dBFS · -29.2 LUFS
+69/118 sfx-react-star-2 · 30370 samples · -23.0 dBFS · -30.4 LUFS
+70/118 sfx-react-star-3 · 28213 samples · -23.0 dBFS · -28.7 LUFS
+71/118 sfx-react-star-4 · 25955 samples · -23.1 dBFS · -28.7 LUFS
+72/118 sfx-react-star-5 · 27004 samples · -23.1 dBFS · -28.1 LUFS
+73/118 sfx-react-star-6 · 25945 samples · -23.1 dBFS · -27.5 LUFS
+74/118 sfx-react-star-7 · 28311 samples · -23.3 dBFS · -27.4 LUFS
+75/118 sfx-react-star-8 · 28554 samples · -23.2 dBFS · -26.6 LUFS
+76/118 sfx-react-star-9 · 28468 samples · -22.5 dBFS · -26.3 LUFS
+77/118 sfx-react-tomato-v1 · 7527 samples · -29.1 dBFS · -70.0 LUFS
+78/118 sfx-react-tomato-v2 · 7527 samples · -29.1 dBFS · -70.0 LUFS
+79/118 sfx-react-tomato-v3 · 7527 samples · -29.1 dBFS · -70.0 LUFS
+80/118 sfx-reveal · 41731 samples · -5.6 dBFS · -15.8 LUFS
+81/118 sfx-riser-1p2 · 57707 samples · -21.6 dBFS · -33.3 LUFS
+82/118 sfx-rival · 11945 samples · -13.9 dBFS · -70.0 LUFS
+83/118 sfx-rollTick · 3107 samples · -39.1 dBFS · -70.0 LUFS
+84/118 sfx-scan · 27169 samples · -25.2 dBFS · -34.1 LUFS
+85/118 sfx-sel · 8634 samples · -18.5 dBFS · -70.0 LUFS
+86/118 sfx-shutter · 6956 samples · -12.6 dBFS · -70.0 LUFS
+87/118 sfx-slam · 16315 samples · -6.5 dBFS · -70.0 LUFS
+88/118 sfx-snagged · 48786 samples · -3.0 dBFS · -13.3 LUFS
+89/118 sfx-sparkle · 28882 samples · -15.5 dBFS · -23.7 LUFS
+90/118 sfx-stamp · 11137 samples · -10.3 dBFS · -70.0 LUFS
+91/118 sfx-taken · 14027 samples · -18.8 dBFS · -70.0 LUFS
+92/118 sfx-tap · 3665 samples · -28.2 dBFS · -70.0 LUFS
+93/118 sfx-thump · 9766 samples · -11.7 dBFS · -70.0 LUFS
+94/118 sfx-tick · 3154 samples · -36.3 dBFS · -70.0 LUFS
+95/118 sfx-voice-v01 · 5015 samples · -32.4 dBFS · -70.0 LUFS
+96/118 sfx-voice-v02 · 4699 samples · -31.1 dBFS · -70.0 LUFS
+97/118 sfx-voice-v03 · 5026 samples · -33.2 dBFS · -70.0 LUFS
+98/118 sfx-voice-v04 · 4860 samples · -31.2 dBFS · -70.0 LUFS
+99/118 sfx-voice-v05 · 4836 samples · -31.6 dBFS · -70.0 LUFS
+100/118 sfx-voice-v06 · 4990 samples · -30.4 dBFS · -70.0 LUFS
+101/118 sfx-voice-v07 · 4672 samples · -32.9 dBFS · -70.0 LUFS
+102/118 sfx-voice-v08 · 4959 samples · -32.5 dBFS · -70.0 LUFS
+103/118 sfx-voice-v09 · 4799 samples · -29.9 dBFS · -70.0 LUFS
+104/118 sfx-voice-v10 · 4686 samples · -32.0 dBFS · -70.0 LUFS
+105/118 sfx-voice-v11 · 4872 samples · -33.3 dBFS · -70.0 LUFS
+106/118 sfx-voice-v12 · 5020 samples · -32.2 dBFS · -70.0 LUFS
+107/118 sfx-voice-v13 · 4877 samples · -29.8 dBFS · -70.0 LUFS
+108/118 sfx-voice-v14 · 4595 samples · -31.9 dBFS · -70.0 LUFS
+109/118 sfx-voice-v15 · 4914 samples · -30.4 dBFS · -70.0 LUFS
+110/118 sfx-voice-v16 · 4907 samples · -31.3 dBFS · -70.0 LUFS
+111/118 sfx-whoop · 13927 samples · -17.8 dBFS · -70.0 LUFS
+112/118 sfx-whoosh · 21244 samples · -9.6 dBFS · -24.8 LUFS
+113/118 music-lobby · 451764 samples · -8.4 dBFS · -25.1 LUFS · seam PASS
+114/118 music-hunt · 371613 samples · -6.6 dBFS · -22.7 LUFS · seam PASS
+115/118 music-urgent · 329143 samples · -6.5 dBFS · -22.4 LUFS · seam PASS
+116/118 music-tension · 512000 samples · -8.9 dBFS · -27.9 LUFS · seam PASS
+117/118 music-brag · 397242 samples · -7.8 dBFS · -22.8 LUFS · seam PASS
+118/118 music-win · 377705 samples · -5.7 dBFS · -22.7 LUFS · seam PASS
+Runtime overlap at unity: -1.28862966 dBFS before TV soft limiter; 0 channel samples / 0 stereo frames above 0 dBFS.
+Verified byte-identical regeneration: 118 WAVs, 118 Oggs, manifest, call-site table and all QA artifacts (248 files).

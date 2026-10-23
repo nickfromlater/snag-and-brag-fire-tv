@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-14T11:13:54.768Z",
+  "target": "native VVD / aarch64 Release / Hermes",
+  "source": "macOS ScreenCaptureKit single VVD window",
+  "syntheticOnly": true,
+  "speed": 1,
+  "audio": "silent; Mac and Chrome muted",
+  "stills": [
+    {
+      "file": "01-lobby.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/01-lobby.png",
+      "atMs": 6500,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 226987
+    },
+    {
+      "file": "02-prompt-reel.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/02-prompt-reel.png",
+      "atMs": 16490,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 183274
+    },
+    {
+      "file": "03-hunt-feeds.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/03-hunt-feeds.png",
+      "atMs": 22770,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 235345
+    },
+    {
+      "file": "04-pixel-judge.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/04-pixel-judge.png",
+      "atMs": 58458,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 233240,
+      "mask": "actual fake-camera phone mask held after all four meters settle"
+    },
+    {
+      "file": "05-brag-off-mash.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/05-brag-off-mash.png",
+      "atMs": 142482,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 264640
+    },
+    {
+      "file": "06-showstopper-win.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/06-showstopper-win.png",
+      "atMs": 203156,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 245110
+    },
+    {
+      "file": "07-standings-overtake.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/07-standings-overtake.png",
+      "atMs": 208164,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 243419
+    },
+    {
+      "file": "08-finale.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/08-finale.png",
+      "atMs": 217460,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 253166
+    },
+    {
+      "file": "09-pause-menu.jpg",
+      "master": "~/builds/snag-and-brag/footage/stills/09-pause-menu.png",
+      "atMs": 22770,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 116946
+    }
+  ],
+  "seed": 20261022,
+  "expectedScores": [
+    {
+      "name": "Sock Goblins",
+      "score": 429
+    },
+    {
+      "name": "Couch Potatoes",
+      "score": 307
+    },
+    {
+      "name": "Junk Drawer Gang",
+      "score": 347
+    },
+    {
+      "name": "Grandma's Revenge",
+      "score": 135
+    }
+  ],
+  "phone": {
+    "thumbnails": 5,
+    "snags": [
+      {
+        "round": 0,
+        "match": 99,
+        "redaction": "mediapipe",
+        "maskBytes": 72,
+        "cells": 101,
+        "jpegBytes": 32500
+      }
+    ],
+    "errors": []
+  },
+  "clip": {
+    "master": "~/builds/snag-and-brag/footage/native-gallery-1791976434764/color-rush.mp4",
+    "source": "~/builds/snag-and-brag/footage/native-gallery-1791976434764/color-rush-source.mp4",
+    "preview": "color-rush.mp4",
+    "reelAtMs": 13022,
+    "winAtMs": 58458,
+    "stopAtMs": 59108,
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_frames": "1449"
+      }
+    ],
+    "format": {
+      "duration": "48.266667",
+      "size": "6431641"
+    },
+    "endStill": "~/builds/snag-and-brag/footage/stills/04-pixel-judge.png",
+    "endHoldSeconds": 2,
+    "encoding": "libx264 / CRF 28 / preset slow / silent"
+  }
+}

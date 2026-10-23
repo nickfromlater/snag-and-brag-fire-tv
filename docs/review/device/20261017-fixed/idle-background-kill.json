@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-18T00:39:54+00:00",
+  "reason": "LowMemoryKiller",
+  "foregroundApp": "com.amazon.screensaver.main",
+  "gameState": "BACKGROUND",
+  "action": "terminate-state-background-checkquota",
+  "gamePssKiB": 83101,
+  "gameSwapPssKiB": 95424,
+  "gameDrmKiB": 193424,
+  "systemMemAvailableKiB": 159492,
+  "context": "Unprofiled candidate; screensaver took foreground before background memory quota termination. AppState snapshot had still reported active.",
+  "privacy": "Metadata only; raw report discarded",
+  "screensaverForegroundBeforeKillSeconds": 11,
+  "applicationTimeoutSeconds": 1800,
+  "conclusion": "The system screensaver can preempt phone-only play despite the component timeout. The background app is then eligible for a memory-quota kill."
+}

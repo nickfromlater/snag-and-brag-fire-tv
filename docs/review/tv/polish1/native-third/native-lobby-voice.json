@@ -1,0 +1,102 @@
+{
+  "pass": true,
+  "runtime": "native",
+  "speed": 1,
+  "muted": true,
+  "route": {
+    "kind": "voice-line",
+    "hermes": true,
+    "lineSeq": 15,
+    "trigger": "lobby.open",
+    "path": "polly",
+    "reason": "ready",
+    "latencyMs": 200,
+    "durationMs": 1000,
+    "prefetched": true,
+    "wordMarks": 17,
+    "visemeMarks": 18,
+    "runtime": "native"
+  },
+  "samples": [
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 4,
+      "jaw": 0,
+      "elapsedMs": 21,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 13,
+      "jaw": 1,
+      "elapsedMs": 69,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 18,
+      "jaw": 1,
+      "elapsedMs": 174,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 34,
+      "jaw": 1,
+      "elapsedMs": 278,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 46,
+      "jaw": 1,
+      "elapsedMs": 392,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 70,
+      "jaw": 1,
+      "elapsedMs": 605,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 87,
+      "jaw": 1,
+      "elapsedMs": 804,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 93,
+      "jaw": 0,
+      "elapsedMs": 860,
+      "talking": true,
+      "runtime": "native"
+    }
+  ]
+}

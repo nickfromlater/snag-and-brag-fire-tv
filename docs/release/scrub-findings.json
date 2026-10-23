@@ -1,0 +1,197 @@
+{
+  "scope": "Current first-party tree, no history/notes/dependencies/generated caches; values never emitted.",
+  "trackedFiles": 1857,
+  "textFilesScanned": 772,
+  "binaryFilesScanned": 1091,
+  "envFiles": [],
+  "findings": [
+    {
+      "path": "CLAUDE.md",
+      "category": "internal-reference",
+      "count": 4,
+      "lines": [
+        40,
+        42,
+        45
+      ],
+      "reviewed": null
+    },
+    {
+      "path": "DECISIONS.md",
+      "category": "internal-reference",
+      "count": 1,
+      "lines": [
+        28
+      ],
+      "reviewed": "Append-only public-repo policy prohibiting private coordination notes."
+    },
+    {
+      "path": "assets/fonts/LilitaOne-OFL.txt",
+      "category": "email",
+      "count": 1,
+      "lines": [
+        1
+      ],
+      "reviewed": "Public font-author copyright notice; preserve required attribution."
+    },
+    {
+      "path": "docs/review/voice-wav/web-lobby-speaking.png",
+      "category": "internal-reference",
+      "count": 1,
+      "lines": [
+        1595
+      ],
+      "reviewed": "Compressed image bytes can coincidentally match short words; inspect metadata separately."
+    },
+    {
+      "path": "docs/workers/release-prep.md",
+      "category": "internal-reference",
+      "count": 8,
+      "lines": [
+        21,
+        22,
+        23
+      ],
+      "reviewed": "Search terms in the public-tree scrub instructions."
+    },
+    {
+      "path": "phone/public/face-detector/wasm/vision_wasm_internal.js",
+      "category": "home-path-or-account",
+      "count": 2,
+      "lines": [
+        9
+      ],
+      "reviewed": "Unchanged upstream runtime build paths and virtual filesystem, not local project accounts."
+    },
+    {
+      "path": "phone/public/face-detector/wasm/vision_wasm_internal.wasm",
+      "category": "home-path-or-account",
+      "count": 1,
+      "lines": [
+        45104
+      ],
+      "reviewed": "Unchanged upstream runtime build paths and virtual filesystem, not local project accounts."
+    },
+    {
+      "path": "phone/public/face-detector/wasm/vision_wasm_nosimd_internal.js",
+      "category": "home-path-or-account",
+      "count": 2,
+      "lines": [
+        9
+      ],
+      "reviewed": "Unchanged upstream runtime build paths and virtual filesystem, not local project accounts."
+    },
+    {
+      "path": "phone/public/face-detector/wasm/vision_wasm_nosimd_internal.wasm",
+      "category": "home-path-or-account",
+      "count": 1,
+      "lines": [
+        42860
+      ],
+      "reviewed": "Unchanged upstream runtime build paths and virtual filesystem, not local project accounts."
+    },
+    {
+      "path": "phone/public/fonts/LilitaOne-OFL.txt",
+      "category": "email",
+      "count": 1,
+      "lines": [
+        1
+      ],
+      "reviewed": "Public font-author copyright notice; preserve required attribution."
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "category": "email",
+      "count": 3,
+      "lines": [
+        3623,
+        3627,
+        5541
+      ],
+      "reviewed": "Public dependency author metadata embedded in package specifiers."
+    },
+    {
+      "path": "reference/fonts/LilitaOne-OFL.txt",
+      "category": "email",
+      "count": 1,
+      "lines": [
+        1
+      ],
+      "reviewed": "Public font-author copyright notice; preserve required attribution."
+    },
+    {
+      "path": "relay/test/services.test.ts",
+      "category": "email",
+      "count": 1,
+      "lines": [
+        211
+      ],
+      "reviewed": "Synthetic credential-rejection URL in the reserved example.com domain."
+    },
+    {
+      "path": "spike/tooling/package-lock.json",
+      "category": "email",
+      "count": 2,
+      "lines": [
+        490,
+        1372
+      ],
+      "reviewed": "Public dependency author metadata embedded in package specifiers."
+    },
+    {
+      "path": "spike/vega-app/package-lock.json",
+      "category": "email",
+      "count": 10,
+      "lines": [
+        4032,
+        4053,
+        4149,
+        4266,
+        4787,
+        4808,
+        4882,
+        4964,
+        10028,
+        15609
+      ],
+      "reviewed": "Public dependency author metadata embedded in package specifiers."
+    },
+    {
+      "path": "spike/vega-app/src/assets/fonts/LilitaOne-OFL.txt",
+      "category": "email",
+      "count": 1,
+      "lines": [
+        1
+      ],
+      "reviewed": "Public font-author copyright notice; preserve required attribution."
+    },
+    {
+      "path": "tools/release/package.test.mjs",
+      "category": "email",
+      "count": 1,
+      "lines": [
+        22
+      ],
+      "reviewed": "Generated test Git identity using the reserved example.invalid domain."
+    },
+    {
+      "path": "tools/release/scrub.py",
+      "category": "internal-reference",
+      "count": 7,
+      "lines": [
+        21
+      ],
+      "reviewed": "Audit rule definitions; no private operational content."
+    },
+    {
+      "path": "tv/src/stage/benchmark-assets/fonts/LilitaOne-OFL.txt",
+      "category": "email",
+      "count": 1,
+      "lines": [
+        1
+      ],
+      "reviewed": "Public font-author copyright notice; preserve required attribution."
+    }
+  ],
+  "unreviewedFindings": 1
+}

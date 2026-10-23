@@ -1,0 +1,5 @@
+$ pnpm -r --if-present typecheck
+tools/render-art typecheck$ tsc --noEmit -p .
+shared typecheck$ tsc --noEmit -p .
+shared typecheck: Done
+tools/render-art typecheck: Done

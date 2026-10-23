@@ -1,0 +1,39 @@
+Worker C validation, 2026-10-13
+
+Root pnpm test: PASS
+Root pnpm typecheck: PASS
+Root pnpm lint: PASS
+
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/scene-c/tv
+
+ ✓ test/runtime-clock.test.ts (2 tests) 39ms
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  02:42:01
+   Duration  505ms (transform 174ms, setup 0ms, collect 244ms, tests 39ms, environment 0ms, prepare 52ms)
+
+
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/scene-c/shared
+
+ ✓ test/game.test.ts (36 tests) 1737ms
+
+ Test Files  1 passed (1)
+      Tests  36 passed (36)
+   Start at  02:44:26
+   Duration  2.46s (transform 230ms, setup 0ms, collect 358ms, tests 1.74s, environment 0ms, prepare 80ms)
+
+
+
+ RUN  v3.2.7 ~/Desktop/Projects/snag-wt/scene-c/tv
+
+ ✓ test/memory-photos.test.ts (2 tests) 2ms
+ ✓ test/runtime-clock.test.ts (2 tests) 41ms
+
+ Test Files  2 passed (2)
+      Tests  4 passed (4)
+   Start at  02:44:26
+   Duration  626ms (transform 176ms, setup 0ms, collect 316ms, tests 43ms, environment 0ms, prepare 126ms)
+

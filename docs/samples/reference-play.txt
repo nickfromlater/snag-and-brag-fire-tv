@@ -1,0 +1,22 @@
+2026-10-12 · core worker · approved reference play receipt
+Source: reference/mockup/snag-and-brag.html (unmodified)
+Browser: system Google Chrome, headless puppeteer-core, --mute-audio
+Method: 20x virtualized browser clock/animation timing, Join, Enter on hold-to-start,
+        aim/shutter, send glow, mash enabled sticker and choose a legal vote.
+Observed scene/phone progression:
+round=0 sc-lobby p-lobby
+round=0 sc-intro p-ready
+round=0 sc-hunt p-cam -> p-glow -> p-wait
+round=0 sc-judge p-wait
+round=0 sc-stand p-wait
+round=1 sc-intro p-ready
+round=1 sc-hunt p-cam -> p-glow -> p-wait
+round=1 sc-brag p-mash
+round=1 sc-stand p-wait
+round=2 sc-intro p-ready
+round=2 sc-hunt p-cam -> p-glow -> p-wait
+round=2 sc-show p-vote -> p-wait
+round=2 sc-stand p-wait
+round=2 sc-champ p-end
+PASS: approved mockup played from join through three rounds and end card;
+      no error-overlay message, Chrome muted. Browser and temporary tooling closed.

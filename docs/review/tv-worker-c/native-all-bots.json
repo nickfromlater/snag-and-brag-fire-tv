@@ -1,0 +1,37 @@
+{
+  "target": "VVD aarch64 Release",
+  "speed": 3,
+  "reducedProbe": false,
+  "quietProbe": false,
+  "audio": "muted",
+  "privacy": "All bots; no photographs",
+  "complete": {
+    "kind": "complete",
+    "cues": 951,
+    "exceptions": 0,
+    "teams": 3,
+    "receivedAt": 1791880090916
+  },
+  "scenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag",
+    "show",
+    "champ"
+  ],
+  "contiguousCues": true,
+  "snapshot": {
+    "kind": "snapshot",
+    "code": "FSPQ",
+    "scene": "champ",
+    "phase": "finale",
+    "completed": true,
+    "paused": false,
+    "teams": 3,
+    "cues": 951,
+    "exceptions": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "verifiedAt": "2026-10-13T23:49:04.738Z",
+  "pass": false,
+  "completed": false,
+  "target": "VVD OS 1.2 aarch64 Release / Hermes",
+  "speed": 1,
+  "nativeOnly": true,
+  "media": "Chromium built-in synthetic camera; no human photos or thumbnails persisted",
+  "relay": {
+    "ai": "mock",
+    "voice": "mock",
+    "reversePort": 8787,
+    "hostPort": null
+  },
+  "audioEnabled": true,
+  "reducedMotion": false,
+  "screensReached": {
+    "tv": [],
+    "phone": []
+  },
+  "exceptions": {
+    "native": null,
+    "phone": null
+  },
+  "audioErrors": [],
+  "durationSeconds": 30.149,
+  "phoneExitCode": null,
+  "lastNativeSnapshot": null,
+  "reason": "Native app timed out at undefined",
+  "maskEvents": [],
+  "photoEvents": [],
+  "clips": [],
+  "screenshots": [],
+  "note": "Fresh VVD initially had no active reverse ports after install/launch. Native screenshot showed the network waiting screen; reapplying 8787\u21928789 and 8790\u21928790 produced a responsive native lobby. No phone or photo was launched in this readiness timeout."
+}

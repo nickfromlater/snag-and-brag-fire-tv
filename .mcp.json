@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "amazon-devices-buildertools": {
+      "command": "npx",
+      "args": ["--yes", "@amazon-devices/amazon-devices-buildertools-mcp@1.0.17"]
+    }
+  }
+}

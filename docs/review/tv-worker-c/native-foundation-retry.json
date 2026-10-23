@@ -1,0 +1,33 @@
+{
+  "target": "VVD aarch64 Release",
+  "sourceCommit": "1a120f07e0984f8c55ef504123d2338147845ed4",
+  "speed": 3,
+  "reducedMotion": false,
+  "soundAndMusic": true,
+  "macMuted": true,
+  "build": "PASS; Vega CLI 1.4.2 / SDK 0.24.12112",
+  "result": "Timed out after core receipts stopped before Worker C scenes",
+  "complete": false,
+  "exceptions": 0,
+  "cueCount": 275,
+  "contiguousCues": true,
+  "lastPhase": {
+    "kind": "cue",
+    "seq": 269,
+    "at": 1791882428692,
+    "round": 1,
+    "cue": "phase",
+    "phase": "reel",
+    "receivedAt": 1791882385044
+  },
+  "scenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand"
+  ],
+  "freshScreenshot": "native-foundation-diagnostic.png",
+  "displayedFrame": "Getting the studio ready\u2026; not a scene acceptance screenshot",
+  "privacy": "All bots; no player photographs"
+}

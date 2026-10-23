@@ -1,0 +1,627 @@
+{
+  "viewBox": [
+    0,
+    0,
+    200,
+    240
+  ],
+  "spriteBounds": {
+    "x": -20,
+    "y": -25,
+    "width": 240,
+    "height": 290
+  },
+  "scale": 2,
+  "parts": {
+    "lower": "<path d=\"M42 128C76 146 128 146 162 128C160 160 156 190 154 244H50C48 190 44 160 42 128Z\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"5\" stroke-linejoin=\"round\"/><clipPath id=\"sx-lc\"><path d=\"M42 128C76 146 128 146 162 128C160 160 156 190 154 244H50C48 190 44 160 42 128Z\"/></clipPath><g clip-path=\"url(#sx-lc)\"><rect x=\"30\" y=\"196\" width=\"150\" height=\"14\" fill=\"#FF4FA0\"/><rect x=\"30\" y=\"218\" width=\"150\" height=\"14\" fill=\"#2B3BFF\"/><path d=\"M150 140C158 170 156 210 154 244\" stroke=\"#E6D3B4\" stroke-width=\"12\" fill=\"none\"/></g><path d=\"M78 166L100 176L78 186Z\" fill=\"#FFC21F\" stroke=\"#0E0B2B\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M126 166L104 176L126 186Z\" fill=\"#FFC21F\" stroke=\"#0E0B2B\" stroke-width=\"4\" stroke-linejoin=\"round\"/><circle cx=\"102\" cy=\"176\" r=\"7\" fill=\"#FF4FA0\" stroke=\"#0E0B2B\" stroke-width=\"4\"/>",
+    "upper": "<path d=\"M40 130C34 70 58 28 104 26C150 24 170 66 164 130Z\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M150 50C160 70 164 100 162 128\" fill=\"none\" stroke=\"#E6D3B4\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\".9\"/><g transform=\"rotate(-14 110 26)\"><path d=\"M84 30L82 -4H130L128 30Z\" fill=\"#1C1840\" stroke=\"#0E0B2B\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M83 16H129V24H83Z\" fill=\"#FF4FA0\"/><ellipse cx=\"106\" cy=\"31\" rx=\"38\" ry=\"8\" fill=\"#1C1840\" stroke=\"#0E0B2B\" stroke-width=\"5\"/></g>",
+    "white-left": "<circle cx=\"80\" cy=\"86\" r=\"19\" fill=\"#fff\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></circle>",
+    "white-right": "<circle cx=\"128\" cy=\"80\" r=\"21\" fill=\"#fff\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></circle>",
+    "pupil-left": "<circle id=\"sx-p1\" cx=\"80\" cy=\"93\" r=\"8.5\" fill=\"#0E0B2B\"></circle>",
+    "pupil-right": "<circle id=\"sx-p2\" cx=\"128\" cy=\"88\" r=\"9.5\" fill=\"#0E0B2B\"></circle>",
+    "lid-left-neutral": "<ellipse id=\"sx-l1\" cx=\"80\" cy=\"86\" rx=\"21\" ry=\"0\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></ellipse>",
+    "lid-right-neutral": "<ellipse id=\"sx-l2\" cx=\"128\" cy=\"80\" rx=\"23\" ry=\"0\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></ellipse>",
+    "lid-left-closed": "<ellipse id=\"sx-l1\" cx=\"80\" cy=\"86\" rx=\"21\" ry=\"20.5\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></ellipse>",
+    "lid-right-closed": "<ellipse id=\"sx-l2\" cx=\"128\" cy=\"80\" rx=\"23\" ry=\"22.5\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></ellipse>",
+    "happy": "<path id=\"sx-hap\" d=\"M66 92Q80 76 94 92M112 86Q128 68 144 86\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"5.5\" stroke-linecap=\"round\" opacity=\"1\"></path>",
+    "monocle": "<circle cx=\"128\" cy=\"78\" r=\"25\" fill=\"none\" stroke=\"#FFC21F\" stroke-width=\"5\"/><circle cx=\"128\" cy=\"78\" r=\"25\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"1.5\"/><path d=\"M150 92Q170 140 152 172\" fill=\"none\" stroke=\"#FFC21F\" stroke-width=\"3\" stroke-dasharray=\"4 3\"/>",
+    "mouth": "<ellipse id=\"sx-m\" cx=\"102\" cy=\"131\" rx=\"55\" ry=\"3\" fill=\"#3A0F2B\" stroke=\"#0E0B2B\" stroke-width=\"4\"></ellipse>",
+    "tongue": "<ellipse id=\"sx-tg\" cx=\"112\" cy=\"134\" rx=\"24\" ry=\"2\" fill=\"#FF6FA6\"></ellipse>",
+    "brow-norm-left": "<path id=\"sx-bl\" d=\"M58 52Q72 44 88 50\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"6\" stroke-linecap=\"round\"></path>",
+    "brow-norm-right": "<path id=\"sx-br\" d=\"M112 46Q128 38 146 46\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"6\" stroke-linecap=\"round\"></path>",
+    "brow-up-left": "<path id=\"sx-bl\" d=\"M58 40Q72 30 88 38\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"6\" stroke-linecap=\"round\"></path>",
+    "brow-up-right": "<path id=\"sx-br\" d=\"M112 34Q128 24 146 32\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"6\" stroke-linecap=\"round\"></path>",
+    "brow-down-left": "<path id=\"sx-bl\" d=\"M60 46Q74 54 88 56\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"6\" stroke-linecap=\"round\"></path>",
+    "brow-down-right": "<path id=\"sx-br\" d=\"M112 54Q128 50 144 40\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"6\" stroke-linecap=\"round\"></path>"
+  },
+  "rawAssembly": "<g id=\"sx-all\"><g id=\"sx-low\"><path d=\"M42 128C76 146 128 146 162 128C160 160 156 190 154 244H50C48 190 44 160 42 128Z\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"5\" stroke-linejoin=\"round\"></path><clipPath id=\"sx-lc\"><path d=\"M42 128C76 146 128 146 162 128C160 160 156 190 154 244H50C48 190 44 160 42 128Z\"></path></clipPath><g clip-path=\"url(#sx-lc)\"><rect x=\"30\" y=\"196\" width=\"150\" height=\"14\" fill=\"#FF4FA0\"></rect><rect x=\"30\" y=\"218\" width=\"150\" height=\"14\" fill=\"#2B3BFF\"></rect><path d=\"M150 140C158 170 156 210 154 244\" stroke=\"#E6D3B4\" stroke-width=\"12\" fill=\"none\"></path></g><path d=\"M78 166L100 176L78 186Z\" fill=\"#FFC21F\" stroke=\"#0E0B2B\" stroke-width=\"4\" stroke-linejoin=\"round\"></path><path d=\"M126 166L104 176L126 186Z\" fill=\"#FFC21F\" stroke=\"#0E0B2B\" stroke-width=\"4\" stroke-linejoin=\"round\"></path><circle cx=\"102\" cy=\"176\" r=\"7\" fill=\"#FF4FA0\" stroke=\"#0E0B2B\" stroke-width=\"4\"></circle></g><ellipse id=\"sx-m\" cx=\"102\" cy=\"131\" rx=\"55\" ry=\"3\" fill=\"#3A0F2B\" stroke=\"#0E0B2B\" stroke-width=\"4\"></ellipse><ellipse id=\"sx-tg\" cx=\"112\" cy=\"134\" rx=\"24\" ry=\"2\" fill=\"#FF6FA6\"></ellipse><g id=\"sx-up\"><path d=\"M40 130C34 70 58 28 104 26C150 24 170 66 164 130Z\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"5\" stroke-linejoin=\"round\"></path><path d=\"M150 50C160 70 164 100 162 128\" fill=\"none\" stroke=\"#E6D3B4\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\".9\"></path><g transform=\"rotate(-14 110 26)\"><path d=\"M84 30L82 -4H130L128 30Z\" fill=\"#1C1840\" stroke=\"#0E0B2B\" stroke-width=\"5\" stroke-linejoin=\"round\"></path><path d=\"M83 16H129V24H83Z\" fill=\"#FF4FA0\"></path><ellipse cx=\"106\" cy=\"31\" rx=\"38\" ry=\"8\" fill=\"#1C1840\" stroke=\"#0E0B2B\" stroke-width=\"5\"></ellipse></g><circle cx=\"80\" cy=\"86\" r=\"19\" fill=\"#fff\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></circle><circle id=\"sx-p1\" cx=\"80\" cy=\"93\" r=\"8.5\" fill=\"#0E0B2B\"></circle><circle cx=\"128\" cy=\"80\" r=\"21\" fill=\"#fff\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></circle><circle id=\"sx-p2\" cx=\"128\" cy=\"88\" r=\"9.5\" fill=\"#0E0B2B\"></circle><ellipse id=\"sx-l1\" cx=\"80\" cy=\"86\" rx=\"21\" ry=\"0\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></ellipse><ellipse id=\"sx-l2\" cx=\"128\" cy=\"80\" rx=\"23\" ry=\"0\" fill=\"#FFF3E0\" stroke=\"#0E0B2B\" stroke-width=\"4.5\"></ellipse><path id=\"sx-hap\" d=\"M66 92Q80 76 94 92M112 86Q128 68 144 86\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"5.5\" stroke-linecap=\"round\" opacity=\"0\"></path><path id=\"sx-bl\" d=\"M58 52Q72 44 88 50\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"6\" stroke-linecap=\"round\"></path><path id=\"sx-br\" d=\"M112 46Q128 38 146 46\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"6\" stroke-linecap=\"round\"></path><g id=\"sx-mono\"><circle cx=\"128\" cy=\"78\" r=\"25\" fill=\"none\" stroke=\"#FFC21F\" stroke-width=\"5\"></circle><circle cx=\"128\" cy=\"78\" r=\"25\" fill=\"none\" stroke=\"#0E0B2B\" stroke-width=\"1.5\"></circle><path d=\"M150 92Q170 140 152 172\" fill=\"none\" stroke=\"#FFC21F\" stroke-width=\"3\" stroke-dasharray=\"4 3\"></path></g></g></g>",
+  "tree": {
+    "tag": "svg",
+    "attributes": {
+      "id": "soxsvg",
+      "viewBox": "0 0 200 240",
+      "width": "0",
+      "height": "0"
+    },
+    "children": [
+      {
+        "tag": "g",
+        "attributes": {
+          "id": "sx-all"
+        },
+        "children": [
+          {
+            "tag": "g",
+            "attributes": {
+              "id": "sx-low"
+            },
+            "children": [
+              {
+                "tag": "path",
+                "attributes": {
+                  "d": "M42 128C76 146 128 146 162 128C160 160 156 190 154 244H50C48 190 44 160 42 128Z",
+                  "fill": "#FFF3E0",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "5",
+                  "stroke-linejoin": "round"
+                },
+                "children": []
+              },
+              {
+                "tag": "clipPath",
+                "attributes": {
+                  "id": "sx-lc"
+                },
+                "children": [
+                  {
+                    "tag": "path",
+                    "attributes": {
+                      "d": "M42 128C76 146 128 146 162 128C160 160 156 190 154 244H50C48 190 44 160 42 128Z"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "g",
+                "attributes": {
+                  "clip-path": "url(#sx-lc)"
+                },
+                "children": [
+                  {
+                    "tag": "rect",
+                    "attributes": {
+                      "x": "30",
+                      "y": "196",
+                      "width": "150",
+                      "height": "14",
+                      "fill": "#FF4FA0"
+                    },
+                    "children": []
+                  },
+                  {
+                    "tag": "rect",
+                    "attributes": {
+                      "x": "30",
+                      "y": "218",
+                      "width": "150",
+                      "height": "14",
+                      "fill": "#2B3BFF"
+                    },
+                    "children": []
+                  },
+                  {
+                    "tag": "path",
+                    "attributes": {
+                      "d": "M150 140C158 170 156 210 154 244",
+                      "stroke": "#E6D3B4",
+                      "stroke-width": "12",
+                      "fill": "none"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "path",
+                "attributes": {
+                  "d": "M78 166L100 176L78 186Z",
+                  "fill": "#FFC21F",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "4",
+                  "stroke-linejoin": "round"
+                },
+                "children": []
+              },
+              {
+                "tag": "path",
+                "attributes": {
+                  "d": "M126 166L104 176L126 186Z",
+                  "fill": "#FFC21F",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "4",
+                  "stroke-linejoin": "round"
+                },
+                "children": []
+              },
+              {
+                "tag": "circle",
+                "attributes": {
+                  "cx": "102",
+                  "cy": "176",
+                  "r": "7",
+                  "fill": "#FF4FA0",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "4"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "ellipse",
+            "attributes": {
+              "id": "sx-m",
+              "cx": "102",
+              "cy": "131",
+              "rx": "55",
+              "ry": "3",
+              "fill": "#3A0F2B",
+              "stroke": "#0E0B2B",
+              "stroke-width": "4"
+            },
+            "children": []
+          },
+          {
+            "tag": "ellipse",
+            "attributes": {
+              "id": "sx-tg",
+              "cx": "112",
+              "cy": "134",
+              "rx": "24",
+              "ry": "2",
+              "fill": "#FF6FA6"
+            },
+            "children": []
+          },
+          {
+            "tag": "g",
+            "attributes": {
+              "id": "sx-up"
+            },
+            "children": [
+              {
+                "tag": "path",
+                "attributes": {
+                  "d": "M40 130C34 70 58 28 104 26C150 24 170 66 164 130Z",
+                  "fill": "#FFF3E0",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "5",
+                  "stroke-linejoin": "round"
+                },
+                "children": []
+              },
+              {
+                "tag": "path",
+                "attributes": {
+                  "d": "M150 50C160 70 164 100 162 128",
+                  "fill": "none",
+                  "stroke": "#E6D3B4",
+                  "stroke-width": "12",
+                  "stroke-linecap": "round",
+                  "opacity": ".9"
+                },
+                "children": []
+              },
+              {
+                "tag": "g",
+                "attributes": {
+                  "transform": "rotate(-14 110 26)"
+                },
+                "children": [
+                  {
+                    "tag": "path",
+                    "attributes": {
+                      "d": "M84 30L82 -4H130L128 30Z",
+                      "fill": "#1C1840",
+                      "stroke": "#0E0B2B",
+                      "stroke-width": "5",
+                      "stroke-linejoin": "round"
+                    },
+                    "children": []
+                  },
+                  {
+                    "tag": "path",
+                    "attributes": {
+                      "d": "M83 16H129V24H83Z",
+                      "fill": "#FF4FA0"
+                    },
+                    "children": []
+                  },
+                  {
+                    "tag": "ellipse",
+                    "attributes": {
+                      "cx": "106",
+                      "cy": "31",
+                      "rx": "38",
+                      "ry": "8",
+                      "fill": "#1C1840",
+                      "stroke": "#0E0B2B",
+                      "stroke-width": "5"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "circle",
+                "attributes": {
+                  "cx": "80",
+                  "cy": "86",
+                  "r": "19",
+                  "fill": "#fff",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "4.5"
+                },
+                "children": []
+              },
+              {
+                "tag": "circle",
+                "attributes": {
+                  "id": "sx-p1",
+                  "cx": "80",
+                  "cy": "93",
+                  "r": "8.5",
+                  "fill": "#0E0B2B"
+                },
+                "children": []
+              },
+              {
+                "tag": "circle",
+                "attributes": {
+                  "cx": "128",
+                  "cy": "80",
+                  "r": "21",
+                  "fill": "#fff",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "4.5"
+                },
+                "children": []
+              },
+              {
+                "tag": "circle",
+                "attributes": {
+                  "id": "sx-p2",
+                  "cx": "128",
+                  "cy": "88",
+                  "r": "9.5",
+                  "fill": "#0E0B2B"
+                },
+                "children": []
+              },
+              {
+                "tag": "ellipse",
+                "attributes": {
+                  "id": "sx-l1",
+                  "cx": "80",
+                  "cy": "86",
+                  "rx": "21",
+                  "ry": "0",
+                  "fill": "#FFF3E0",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "4.5"
+                },
+                "children": []
+              },
+              {
+                "tag": "ellipse",
+                "attributes": {
+                  "id": "sx-l2",
+                  "cx": "128",
+                  "cy": "80",
+                  "rx": "23",
+                  "ry": "0",
+                  "fill": "#FFF3E0",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "4.5"
+                },
+                "children": []
+              },
+              {
+                "tag": "path",
+                "attributes": {
+                  "id": "sx-hap",
+                  "d": "M66 92Q80 76 94 92M112 86Q128 68 144 86",
+                  "fill": "none",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "5.5",
+                  "stroke-linecap": "round",
+                  "opacity": "0"
+                },
+                "children": []
+              },
+              {
+                "tag": "path",
+                "attributes": {
+                  "id": "sx-bl",
+                  "d": "M58 52Q72 44 88 50",
+                  "fill": "none",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "6",
+                  "stroke-linecap": "round"
+                },
+                "children": []
+              },
+              {
+                "tag": "path",
+                "attributes": {
+                  "id": "sx-br",
+                  "d": "M112 46Q128 38 146 46",
+                  "fill": "none",
+                  "stroke": "#0E0B2B",
+                  "stroke-width": "6",
+                  "stroke-linecap": "round"
+                },
+                "children": []
+              },
+              {
+                "tag": "g",
+                "attributes": {
+                  "id": "sx-mono"
+                },
+                "children": [
+                  {
+                    "tag": "circle",
+                    "attributes": {
+                      "cx": "128",
+                      "cy": "78",
+                      "r": "25",
+                      "fill": "none",
+                      "stroke": "#FFC21F",
+                      "stroke-width": "5"
+                    },
+                    "children": []
+                  },
+                  {
+                    "tag": "circle",
+                    "attributes": {
+                      "cx": "128",
+                      "cy": "78",
+                      "r": "25",
+                      "fill": "none",
+                      "stroke": "#0E0B2B",
+                      "stroke-width": "1.5"
+                    },
+                    "children": []
+                  },
+                  {
+                    "tag": "path",
+                    "attributes": {
+                      "d": "M150 92Q170 140 152 172",
+                      "fill": "none",
+                      "stroke": "#FFC21F",
+                      "stroke-width": "3",
+                      "stroke-dasharray": "4 3"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "brows": {
+    "norm": [
+      "M58 52Q72 44 88 50",
+      "M112 46Q128 38 146 46"
+    ],
+    "up": [
+      "M58 40Q72 30 88 38",
+      "M112 34Q128 24 146 32"
+    ],
+    "down": [
+      "M60 46Q74 54 88 56",
+      "M112 54Q128 50 144 40"
+    ]
+  },
+  "animationSource": "HOST.mood='norm';HOST.moodT=0;HOST.nb=2.5;HOST.bk=0;HOST.lid=0;HOST._mono='';\nHOST.step=function(dt,now){HOST.t+=dt;\n  if(HOST.moodT>0){HOST.moodT-=dt;if(HOST.moodT<=0){HOST.mood='norm';if(!HOST.typing)HOST.brow('norm');}}\n  HOST.nb-=dt;if(HOST.nb<=0){HOST.bk=.13;HOST.nb=rnd(2.2,5);}if(HOST.bk>0)HOST.bk-=dt;\n  var md=HOST.mood,k=HOST.typing?18:10,base=md==='shock'?.8:md==='glee'?.5:0;\n  HOST.open+=(Math.max(HOST.tgt,base)-HOST.open)*Math.min(1,dt*k);if(!HOST.typing)HOST.tgt=0;var o=HOST.open;\n  HOST.low.setAttribute('transform','translate(0 '+(o*14).toFixed(2)+')');HOST.up.setAttribute('transform','translate(0 '+(-o*5).toFixed(2)+')');HOST.m.setAttribute('ry',(3+o*13).toFixed(2));HOST.m.setAttribute('cy',(131+o*4).toFixed(2));\n  HOST.tg.setAttribute('ry',(o*6).toFixed(2));HOST.tg.setAttribute('cy',(134+o*9).toFixed(2));\n  var sw=Math.sin(HOST.t*1.6)*2.5+(HOST.typing?Math.sin(HOST.t*9)*1.6:0)+(md==='glee'?Math.sin(HOST.t*16)*4:0)+(md==='shock'?Math.sin(HOST.t*40)*1.2:0);HOST.all.setAttribute('transform','rotate('+sw.toFixed(2)+' 100 240)');\n  var lt=(md==='glee'||HOST.bk>0)?1:0;HOST.lid+=(lt-HOST.lid)*Math.min(1,dt*(HOST.bk>0?45:16));var lr=HOST.lid<.04?0:HOST.lid;\n  HOST.l1.setAttribute('ry',(lr*20.5).toFixed(2));HOST.l2.setAttribute('ry',(lr*22.5).toFixed(2));HOST.hap.setAttribute('opacity',md==='glee'?1:0);\n  var pr=md==='shock'?.55:1,lx=Math.sin(HOST.t*.7)*3,ly=Math.cos(HOST.t*1.3)*2;HOST.p1.setAttribute('r',(8.5*pr).toFixed(1));HOST.p2.setAttribute('r',(9.5*pr).toFixed(1));\n  HOST.p1.setAttribute('cx',(80+lx).toFixed(1));HOST.p1.setAttribute('cy',(93+ly).toFixed(1));HOST.p2.setAttribute('cx',(128+lx).toFixed(1));HOST.p2.setAttribute('cy',(88+ly).toFixed(1));\n  var mt=md==='shock'?'translate(5 -14) rotate(16 128 78)':'';if(mt!==HOST._mono){HOST._mono=mt;HOST.mono.setAttribute('transform',mt);}};\nHOST.react=function(m,ms){HOST.mood=m;HOST.moodT=(ms||1200)/1000;if(m!=='norm')HOST.brow('up');if(m==='glee')HOST.hop();if(m==='shock'&&!RM)A($('#host'),[{transform:'translateX(0)'},{transform:'translateX(-6px)'},{transform:'translateX(6px)'},{transform:'translateX(0)'}],{d:180,it:2,fill:'none'});};\nHOST.hop=function(){if(RM)return;A($('#host'),[{transform:'translateY(0)'},{transform:'translateY(-44px) rotate(-5deg)',offset:.35},{transform:'translateY(0) scale(1.06,.92)',offset:.72},{transform:'translateY(0)'}],{d:620,e:'cubic-bezier(.3,.7,.4,1)',fill:'none'});};\nHOST.brow=function(m){var L={norm:['M58 52Q72 44 88 50','M112 46Q128 38 146 46'],up:['M58 40Q72 30 88 38','M112 34Q128 24 146 32'],down:['M60 46Q74 54 88 56','M112 54Q128 50 144 40']}[m||'norm'];HOST.bl.setAttribute('d',L[0]);HOST.br.setAttribute('d',L[1]);};",
+  "drawOrder": [
+    "lower",
+    "mouth",
+    "tongue",
+    "upper",
+    "white-left",
+    "pupil-left",
+    "white-right",
+    "pupil-right",
+    "lid-left",
+    "lid-right",
+    "happy",
+    "brow-left",
+    "brow-right",
+    "monocle"
+  ],
+  "upperChildren": [
+    "white-left",
+    "pupil-left",
+    "white-right",
+    "pupil-right",
+    "lid-left",
+    "lid-right",
+    "happy",
+    "brow-left",
+    "brow-right",
+    "monocle"
+  ],
+  "formulas": {
+    "jawTransform": "translate(0, open * 14)",
+    "upperTransform": "translate(0, -open * 5)",
+    "mouth": {
+      "cx": 102,
+      "rx": 55,
+      "cy": "131 + open * 4",
+      "ry": "3 + open * 13",
+      "fill": "#3A0F2B",
+      "stroke": "#0E0B2B",
+      "strokeWidth": 4
+    },
+    "tongue": {
+      "cx": 112,
+      "rx": 24,
+      "cy": "134 + open * 9",
+      "ry": "open * 6",
+      "fill": "#FF6FA6"
+    },
+    "open": "open += (max(tgt, mood === shock ? .8 : mood === glee ? .5 : 0) - open) * min(1, dt * (typing ? 18 : 10))",
+    "sway": "sin(t * 1.6) * 2.5 + (typing ? sin(t * 9) * 1.6 : 0) + (glee ? sin(t * 16) * 4 : 0) + (shock ? sin(t * 40) * 1.2 : 0)",
+    "swayPivot": [
+      100,
+      240
+    ],
+    "pupilOffsets": {
+      "x": "sin(t * .7) * 3",
+      "y": "cos(t * 1.3) * 2",
+      "left": [
+        80,
+        93,
+        8.5
+      ],
+      "right": [
+        128,
+        88,
+        9.5
+      ],
+      "shockRadiusFactor": 0.55,
+      "roundToDecimals": 1
+    },
+    "lids": {
+      "left": {
+        "cx": 80,
+        "cy": 86,
+        "rx": 21,
+        "ry": "lid * 20.5"
+      },
+      "right": {
+        "cx": 128,
+        "cy": 80,
+        "rx": 23,
+        "ry": "lid * 22.5"
+      },
+      "zeroThreshold": 0.04,
+      "smoothing": "lid += (target - lid) * min(1, dt * (bk > 0 ? 45 : 16))",
+      "target": "glee || bk > 0 ? 1 : 0",
+      "blinkSeconds": 0.13,
+      "interval": [
+        2.2,
+        5
+      ],
+      "initialInterval": 2.5
+    },
+    "happyOpacity": "glee ? 1 : 0",
+    "monocleShockTransform": "translate(5 -14) rotate(16 128 78)",
+    "monocleShockPivot": [
+      128,
+      78
+    ],
+    "precision": {
+      "translate": 2,
+      "mouth": 2,
+      "tongue": 2,
+      "sway": 2,
+      "lids": 2
+    },
+    "hostTransformOrigin": [
+      100,
+      200
+    ],
+    "hop": {
+      "durationMs": 620,
+      "easing": "cubic-bezier(.3,.7,.4,1)",
+      "keyframes": [
+        {
+          "transform": "translateY(0)"
+        },
+        {
+          "transform": "translateY(-44px) rotate(-5deg)",
+          "offset": 0.35
+        },
+        {
+          "transform": "translateY(0) scale(1.06,.92)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translateY(0)"
+        }
+      ]
+    },
+    "shockShake": {
+      "durationMs": 180,
+      "iterations": 2,
+      "keyframes": [
+        "translateX(0)",
+        "translateX(-6px)",
+        "translateX(6px)",
+        "translateX(0)"
+      ]
+    },
+    "reducedMotion": "HOST.hop and shock shake disabled; HOST.step remains active"
+  },
+  "frame": {
+    "stageOrigin": [
+      30,
+      520
+    ],
+    "hostSize": [
+      200,
+      200
+    ],
+    "frameSize": [
+      180,
+      168
+    ],
+    "shadow": [
+      0,
+      8
+    ],
+    "rotation": -3,
+    "rotationPivot": [
+      90,
+      84
+    ],
+    "puppetViewport": [
+      13,
+      11,
+      164,
+      197
+    ],
+    "puppetMatrix": [
+      0.82,
+      0,
+      0,
+      0.82,
+      13,
+      11.1
+    ],
+    "clip": {
+      "x": 5,
+      "y": 5,
+      "width": 170,
+      "height": 158,
+      "rx": 21
+    },
+    "tag": {
+      "text": "SIR SOCKSWORTH",
+      "css": ".htag{position:absolute;left:14px;top:150px;padding:5px 10px 6px;background:var(--ink);color:var(--yolk);font-weight:900;font-size:13px;letter-spacing:2px;border-radius:8px;transform:rotate(-3deg);white-space:nowrap}"
+    },
+    "css": ".hcam{position:absolute;left:0;top:0;width:180px;height:168px;border:5px solid var(--ink);border-radius:26px;box-shadow:0 8px 0 var(--ink);overflow:hidden;background:radial-gradient(rgba(14,11,43,.18) 2.2px,transparent 2.6px) 0 0/12px 12px,var(--bubble);transform:rotate(-3deg)}"
+  },
+  "sequences": {
+    "mouth": "host/mouth-atlas",
+    "tongue": "host/tongue-atlas",
+    "lid-left": "host/lid-left-atlas",
+    "lid-right": "host/lid-right-atlas"
+  }
+}

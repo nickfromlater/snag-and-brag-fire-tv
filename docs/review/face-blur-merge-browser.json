@@ -1,0 +1,75 @@
+{
+  "browser": "Chrome/155.0.8059.40",
+  "checks": [
+    {
+      "check": "join stays lazy; lobby renders immediately and warms one self-hosted detector",
+      "lobbyMs": 1,
+      "loadedMs": 151.20000004768372,
+      "available": true
+    },
+    {
+      "check": "mocked drawn-face redaction precedes judging/JPEG on image, live camera and file paths; cleanup; private thumbnails",
+      "beforeColors": 2171,
+      "afterColors": 106,
+      "maxMosaicColors": 192,
+      "changedPixels": 128094,
+      "cameraJpegMatches": true,
+      "fileJpegMatches": true,
+      "judgeMatchesRedacted": true,
+      "maskMatchesRedacted": true,
+      "redactionChangedMask": true,
+      "jpegWidth": 720,
+      "jpegHeight": 720,
+      "captureCanvasesCleared": true,
+      "originalUrlCountAtDetection": 0,
+      "unreleasedUrls": 0,
+      "thumbnailColors": 46,
+      "constantBlocks": true,
+      "thumbnailFrames": 3,
+      "detectorCallsDuringThumbnails": 0,
+      "cameraMethod": "mediapipe",
+      "stoppedBeforeDetection": true
+    },
+    {
+      "check": "real BlazeFace/WASM smoke on in-memory drawn shapes (no real photos)",
+      "syntheticDetections": 1,
+      "firstPassMs": 33.30000001192093,
+      "warmedPassMs": [
+        4.199999988079071,
+        4.100000023841858,
+        3.700000047683716,
+        3.400000035762787,
+        4,
+        3.600000023841858,
+        3.600000023841858,
+        3.399999976158142,
+        3.300000011920929,
+        3.199999988079071,
+        3.5
+      ],
+      "fullSnapMs": [
+        4.699999988079071,
+        3.800000011920929,
+        3.099999964237213,
+        3.299999952316284,
+        3.099999964237213,
+        3.5,
+        3.199999988079071,
+        2.800000011920929,
+        3.199999988079071,
+        3.100000023841858,
+        2.800000011920929,
+        3.199999988079071
+      ]
+    },
+    {
+      "check": "end-card copy, original small type and button fit; no third-party runtime requests",
+      "copy": "Faces are blurred on your phone. Photos are never saved; they vanish when the show ends.",
+      "fontPx": 11,
+      "buttonFits": true,
+      "foreignRequests": 0,
+      "browserErrors": 0
+    }
+  ],
+  "playerMediaSaved": false
+}

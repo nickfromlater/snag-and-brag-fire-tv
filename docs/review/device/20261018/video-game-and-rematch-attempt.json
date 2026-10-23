@@ -1,0 +1,170 @@
+{
+  "startedAt": "2026-10-18T23:40:37.423Z",
+  "syntheticMediaOnly": true,
+  "scope": "Native render telemetry plus hosted relay and synthetic phone protocol; physical phone UX is separate",
+  "nativeRenderTelemetry": true,
+  "roundsSnagged": [
+    0
+  ],
+  "phoneScreens": [
+    "join",
+    "lobby",
+    "ready",
+    "cam",
+    "glow",
+    "wait",
+    "mash",
+    "vote",
+    "end"
+  ],
+  "nativeScenes": [
+    "champ",
+    "intro",
+    "hunt"
+  ],
+  "voicePaths": {
+    "blips": 13,
+    "polly": 16
+  },
+  "audioErrors": [],
+  "exceptions": [],
+  "photoDecodes": 6,
+  "maskObserved": false,
+  "phoneCompleted": false,
+  "nativeCompleted": false,
+  "maxSnapshotGapMs": 5094,
+  "disconnects": [],
+  "appStates": [],
+  "foregroundChecks": [
+    {
+      "atSeconds": 24.076,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 44.751,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 65.47,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 83.862,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 104.098,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 124.091,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 144.634,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 163.78,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 186.221,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 203.817,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 223.396,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 244.068,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 263.804,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 284.003,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 304.442,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 325.374,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 344.068,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 366.329,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 383.677,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 404.186,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 423.916,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 444.537,
+      "state": "VISIBLE"
+    },
+    {
+      "atSeconds": 463.348,
+      "state": "NOT_RUNNING"
+    }
+  ],
+  "games": [
+    {
+      "durationSeconds": 403.674,
+      "roundsSnagged": [
+        0,
+        1,
+        2
+      ],
+      "nativeScenes": [
+        "lobby",
+        "intro",
+        "hunt",
+        "judge",
+        "stand",
+        "brag",
+        "show",
+        "champ"
+      ],
+      "photoDecodes": 6,
+      "maskObserved": true,
+      "pollyLines": 14
+    }
+  ],
+  "stageVideo": {
+    "playingEvents": 11,
+    "errorEvents": 0,
+    "releaseRequests": 1
+  },
+  "devicePreflight": {
+    "tempUsedKiB": 0,
+    "tempAvailableKiB": 486984
+  },
+  "syntheticPhotoBytes": 40859,
+  "syntheticThumbBytes": 1001,
+  "endedAt": "2026-10-18T23:48:20.771Z",
+  "durationSeconds": 463.348,
+  "outcome": "FAIL",
+  "reason": "Lifecycle manager reports game NOT_RUNNING"
+}

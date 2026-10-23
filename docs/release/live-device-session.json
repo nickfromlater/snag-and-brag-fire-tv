@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "url": "wss://d2q0olvpmfmvjn.cloudfront.net/ws",
+      "hosted": true,
+      "startsGameRelay": false,
+      "forwardsGamePort": false,
+      "benchmarkTransport": true,
+      "outcome": "PASS"
+    },
+    {
+      "url": "ws://127.0.0.1:8787/ws",
+      "hosted": false,
+      "startsGameRelay": true,
+      "forwardsGamePort": true,
+      "benchmarkTransport": true,
+      "outcome": "PASS"
+    }
+  ],
+  "method": "Execute only step 4 with stub transports; no device actions or processes launched."
+}

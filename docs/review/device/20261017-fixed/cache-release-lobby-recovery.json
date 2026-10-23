@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-18T02:05:35.013041+00:00",
+  "outcome": "PASS",
+  "scope": "Lobby background recovery only; full-game pictures and recovery require separate verification",
+  "backgroundSeconds": 72,
+  "processPreserved": true,
+  "roomPreserved": true,
+  "graphicsCacheNativeCall": "released",
+  "returned": {
+    "active": true,
+    "connected": true,
+    "audio": true,
+    "paused": true,
+    "exceptions": 0
+  },
+  "realNativeSelectResumed": true,
+  "temporaryStorageKiBBeforeTest": 652
+}

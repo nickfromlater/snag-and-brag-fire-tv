@@ -1,0 +1,4 @@
+{
+  "platform": {"default": "vega_os", "paths": {"spike/vega-app": "vega_os"}},
+  "project": {"identifier": "snag-brag-spike"}
+}

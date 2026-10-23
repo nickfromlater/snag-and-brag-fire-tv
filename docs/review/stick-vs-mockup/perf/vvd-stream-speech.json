@@ -1,0 +1,350 @@
+{
+ "label": "verdict-e6244e5",
+ "source": "gwsi_surfacePresented (graphics category) for the game process, REALTIME-joined to native snapshots",
+ "traceSeconds": 344.1,
+ "overall": {
+  "intervals": 35695,
+  "seconds": 344.1,
+  "fps": 103.73,
+  "p95Ms": 28.7,
+  "maxMs": 143.6,
+  "over100": 1,
+  "over150": 0
+ },
+ "scenes": {
+  "lobby": {
+   "intervals": 151,
+   "seconds": 2.02,
+   "fps": 74.7,
+   "p95Ms": 24.1,
+   "maxMs": 29.0,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro": {
+   "intervals": 7205,
+   "seconds": 69.06,
+   "fps": 104.34,
+   "p95Ms": 28.7,
+   "maxMs": 45.3,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt": {
+   "intervals": 7983,
+   "seconds": 76.12,
+   "fps": 104.88,
+   "p95Ms": 29.0,
+   "maxMs": 143.6,
+   "over100": 1,
+   "over150": 0
+  },
+  "judge": {
+   "intervals": 2732,
+   "seconds": 26.04,
+   "fps": 104.91,
+   "p95Ms": 29.0,
+   "maxMs": 44.0,
+   "over100": 0,
+   "over150": 0
+  },
+  "stand": {
+   "intervals": 3581,
+   "seconds": 34.07,
+   "fps": 105.1,
+   "p95Ms": 28.7,
+   "maxMs": 42.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag": {
+   "intervals": 7980,
+   "seconds": 76.1,
+   "fps": 104.87,
+   "p95Ms": 28.7,
+   "maxMs": 38.8,
+   "over100": 0,
+   "over150": 0
+  },
+  "show": {
+   "intervals": 2927,
+   "seconds": 28.02,
+   "fps": 104.46,
+   "p95Ms": 28.5,
+   "maxMs": 51.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "champ": {
+   "intervals": 2673,
+   "seconds": 26.52,
+   "fps": 100.78,
+   "p95Ms": 28.8,
+   "maxMs": 48.0,
+   "over100": 0,
+   "over150": 0
+  }
+ },
+ "phases": {
+  "lobby": {
+   "intervals": 151,
+   "seconds": 2.02,
+   "fps": 74.7,
+   "p95Ms": 24.1,
+   "maxMs": 29.0,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro/title": {
+   "intervals": 3256,
+   "seconds": 31.02,
+   "fps": 104.96,
+   "p95Ms": 28.6,
+   "maxMs": 45.3,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro/reel": {
+   "intervals": 2899,
+   "seconds": 28.03,
+   "fps": 103.41,
+   "p95Ms": 28.9,
+   "maxMs": 41.9,
+   "over100": 0,
+   "over150": 0
+  },
+  "intro/countdown": {
+   "intervals": 1050,
+   "seconds": 10.0,
+   "fps": 104.97,
+   "p95Ms": 28.6,
+   "maxMs": 32.2,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/countdown": {
+   "intervals": 108,
+   "seconds": 1.01,
+   "fps": 106.79,
+   "p95Ms": 30.0,
+   "maxMs": 31.9,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/hunt": {
+   "intervals": 6948,
+   "seconds": 66.1,
+   "fps": 105.12,
+   "p95Ms": 29.0,
+   "maxMs": 34.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/time": {
+   "intervals": 314,
+   "seconds": 3.01,
+   "fps": 104.4,
+   "p95Ms": 29.0,
+   "maxMs": 33.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/glow": {
+   "intervals": 414,
+   "seconds": 3.99,
+   "fps": 103.82,
+   "p95Ms": 29.2,
+   "maxMs": 32.4,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/judge": {
+   "intervals": 104,
+   "seconds": 1.0,
+   "fps": 104.01,
+   "p95Ms": 28.4,
+   "maxMs": 31.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "judge/judge": {
+   "intervals": 2105,
+   "seconds": 20.04,
+   "fps": 105.05,
+   "p95Ms": 29.0,
+   "maxMs": 44.0,
+   "over100": 0,
+   "over150": 0
+  },
+  "judge/winner": {
+   "intervals": 627,
+   "seconds": 6.0,
+   "fps": 104.43,
+   "p95Ms": 29.2,
+   "maxMs": 32.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "stand/standings": {
+   "intervals": 3475,
+   "seconds": 33.07,
+   "fps": 105.07,
+   "p95Ms": 28.7,
+   "maxMs": 37.4,
+   "over100": 0,
+   "over150": 0
+  },
+  "stand/title": {
+   "intervals": 106,
+   "seconds": 1.0,
+   "fps": 106.14,
+   "p95Ms": 29.1,
+   "maxMs": 42.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/brag-intro": {
+   "intervals": 2740,
+   "seconds": 26.02,
+   "fps": 105.31,
+   "p95Ms": 28.7,
+   "maxMs": 32.5,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/brag-lines": {
+   "intervals": 944,
+   "seconds": 9.0,
+   "fps": 104.83,
+   "p95Ms": 28.6,
+   "maxMs": 32.3,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/brag-countdown": {
+   "intervals": 538,
+   "seconds": 5.08,
+   "fps": 105.88,
+   "p95Ms": 28.6,
+   "maxMs": 34.2,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/mash": {
+   "intervals": 1868,
+   "seconds": 17.95,
+   "fps": 104.09,
+   "p95Ms": 28.7,
+   "maxMs": 38.8,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/knockout": {
+   "intervals": 1890,
+   "seconds": 18.04,
+   "fps": 104.75,
+   "p95Ms": 28.8,
+   "maxMs": 34.5,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/runway": {
+   "intervals": 95,
+   "seconds": 1.01,
+   "fps": 93.85,
+   "p95Ms": 29.8,
+   "maxMs": 143.6,
+   "over100": 1,
+   "over150": 0
+  },
+  "show/runway": {
+   "intervals": 418,
+   "seconds": 3.99,
+   "fps": 104.79,
+   "p95Ms": 28.2,
+   "maxMs": 32.2,
+   "over100": 0,
+   "over150": 0
+  },
+  "show/vote": {
+   "intervals": 529,
+   "seconds": 5.05,
+   "fps": 104.76,
+   "p95Ms": 28.8,
+   "maxMs": 33.5,
+   "over100": 0,
+   "over150": 0
+  },
+  "show/tally": {
+   "intervals": 207,
+   "seconds": 1.98,
+   "fps": 104.62,
+   "p95Ms": 28.5,
+   "maxMs": 32.9,
+   "over100": 0,
+   "over150": 0
+  },
+  "show/winner": {
+   "intervals": 1773,
+   "seconds": 17.0,
+   "fps": 104.27,
+   "p95Ms": 28.5,
+   "maxMs": 51.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "champ/podium": {
+   "intervals": 316,
+   "seconds": 3.0,
+   "fps": 105.45,
+   "p95Ms": 28.7,
+   "maxMs": 32.6,
+   "over100": 0,
+   "over150": 0
+  },
+  "champ/finale": {
+   "intervals": 2357,
+   "seconds": 23.53,
+   "fps": 100.18,
+   "p95Ms": 28.8,
+   "maxMs": 48.0,
+   "over100": 0,
+   "over150": 0
+  }
+ },
+ "jsBlockingNativeWork": {
+  "native-set-volume:audio": {
+   "count": 1414,
+   "totalMs": 1126,
+   "p50Ms": 0,
+   "maxMs": 202
+  },
+  "native-get-currentTime:audio": {
+   "count": 5065,
+   "totalMs": 840,
+   "p50Ms": 0,
+   "maxMs": 119
+  },
+  "native-play:audio": {
+   "count": 674,
+   "totalMs": 514,
+   "p50Ms": 0,
+   "maxMs": 16
+  }
+ },
+ "gapsOver100": [
+  {
+   "atS": 275.02,
+   "gapMs": 143.6,
+   "phase": "hunt/runway",
+   "renderMs": 1654964,
+   "coincident": [
+    "cue:phase",
+    "cue:scene",
+    "cue:sfx",
+    "graphics-cache:show",
+    "photo-ready:"
+   ]
+  }
+ ]
+}

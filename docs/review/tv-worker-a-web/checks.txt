@@ -1,0 +1,11 @@
+Worker A verification — 2026-10-13
+Source checkpoint: 7bf0b03b57ccba6198268118bb3657c67cae1235
+Root pnpm test: PASS (exit 0)
+Root pnpm typecheck: PASS (exit 0)
+Root pnpm lint: PASS (exit 0)
+TV tests: 27 passed; TV typecheck passed.
+Web seeded three-bot game: complete; 14 captures; zero exceptions.
+SNAG!: correct 250px lime glyph outlines.
+Badge hops: 6 of 6 observed in the web renderer.
+Score-roll sound calls: 198 of 198 scheduled calls observed; audio muted.
+Native pixels: NOT ACCEPTED; see ../worker-a-native-audit.md and FRICTION.md F-TV-08.

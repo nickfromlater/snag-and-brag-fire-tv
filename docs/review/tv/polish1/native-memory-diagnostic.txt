@@ -1,0 +1,6 @@
+Diagnostic only; paused/held stage, not a UI-fluidity or release acceptance claim.
+|        19.6%       |        13.2%       |     3930.8MiB      |     2738.7MiB      |        13.3%       |      572.3MiB      |
+|        13.6%       |        34.0%       |     3930.8MiB      |     2735.0MiB      |         0.0%       |      572.3MiB      |
+|        45.2%       |        26.0%       |     3930.8MiB      |     2736.1MiB      |         0.0%       |      572.3MiB      |
+|        13.2%       |        26.8%       |     3930.8MiB      |     2737.8MiB      |         0.0%       |      572.3MiB      |
+|        38.8%       |        38.8%       |     3930.8MiB      |     2739.6MiB      |         0.0%       |      572.3MiB      |

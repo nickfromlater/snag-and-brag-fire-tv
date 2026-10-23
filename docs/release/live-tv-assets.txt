@@ -1,0 +1,3 @@
+$ node ../tools/tv-foundation/generate.mjs
+Generated 313 bitmap imports, 232 glyphs, 17 stage layers; production audio copied unchanged.
+Photo mask coverage generated (642 bytes)

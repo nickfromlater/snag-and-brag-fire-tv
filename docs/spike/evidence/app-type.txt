@@ -1,0 +1,8 @@
+[app-type] VERDICT: vegascript (gate A, exit 0)
+[app-type] reason: No @amazon-devices/webview dependency and no <WebView> in src/; a renderer_service permission (if present) is a stray/leftover with no backing usage.
+[app-type] evidence: rn_dep=2 webview_dep=0 renderer_service=0 webview_files=0 comment_strip=perl
+[app-type] evidence: entry=spike/vega-app/src/App.tsx webview_in_entry=0 initial_token=home
+[app-type] evidence: webview_on_primary=0 primary_surface_source=none initial_screen_file=none
+[app-type] evidence: screen_files=0 nav_refs=0 lightning_bundled=0
+
+Exit code: 0

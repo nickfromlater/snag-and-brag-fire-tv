@@ -1,0 +1,66 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Lilita;src:url(../../../assets/fonts/LilitaOne-Regular.ttf)}
+@font-face{font-family:Rubik;font-weight:800;src:url(../../../assets/fonts/Rubik-800.ttf)}
+@font-face{font-family:Rubik;font-weight:700;src:url(../../../assets/fonts/Rubik-700.ttf)}
+:root{--ink:#0E0B2B;--paper:#FFF8EC;--yolk:#FFD43B;--bubble:#FF4FA0;--lime:#B8F23B;--cobalt:#2B3BFF;--red:#F23B2E}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent}
+.card{position:absolute;inset:0;background:url(../../../assets/stage/base-normal.png) center/cover}
+.card::after{content:'';position:absolute;inset:0;background:url(../../../assets/stage/halftone.png) center/cover;opacity:.6}
+.pill{position:absolute;left:50%;transform:translateX(-50%) rotate(-1.5deg);bottom:72px;background:var(--paper);border:6px solid var(--ink);border-radius:999px;padding:18px 44px 14px;font:64px Lilita;color:var(--ink);white-space:nowrap;box-shadow:0 9px 0 var(--ink)}
+.pill b{color:var(--bubble);font-weight:400}
+.logo{position:absolute;display:flex;align-items:flex-end;gap:8px;left:50%;transform:translateX(-50%) rotate(-3deg)}
+.logo img{height:auto}
+.box{position:absolute;background:var(--paper);border:6px solid var(--ink);border-radius:28px;box-shadow:0 10px 0 var(--ink);padding:22px 28px;font:700 30px/1.25 Rubik;color:var(--ink);z-index:2}
+.box h3{margin:0 0 8px;font:48px Lilita;font-weight:400}
+.arrow{position:absolute;font:90px Lilita;color:var(--paper);-webkit-text-stroke:6px var(--ink);paint-order:stroke;z-index:2}
+.sticker{position:absolute;z-index:3}
+.cat{display:inline-block;margin:0 10px;padding:12px 26px 8px;border:6px solid var(--ink);border-radius:18px;font:44px Lilita;box-shadow:0 7px 0 var(--ink)}
+.title{position:absolute;left:0;right:0;text-align:center;font:96px Lilita;color:var(--yolk);-webkit-text-stroke:12px var(--ink);paint-order:stroke;z-index:2;text-shadow:0 10px 0 var(--ink)}
+.line{position:absolute;left:0;right:0;text-align:center;font:800 40px Rubik;color:var(--paper);z-index:2;text-shadow:0 3px 0 var(--ink)}
+</style></head><body><div id="root"></div><script>
+const q=new URLSearchParams(location.search), k=q.get('k'), root=document.getElementById('root');
+const R='../../../assets/';
+if(k==='caption'){root.innerHTML='<div class="pill">'+q.get('t')+'</div>';}
+if(k==='arch'){root.innerHTML='<div class="card"></div>'+
+'<div class="title" style="top:46px">HOW IT\'S BUILT</div>'+
+'<div class="box" style="left:80px;top:260px;width:470px"><h3>Fire TV app</h3>Native React Native on <b>Vega OS</b>. The TV hosts the show: state machine, timers, bots, Sir Socksworth.</div>'+
+'<div class="arrow" style="left:600px;top:330px">⇄</div>'+
+'<div class="box" style="left:735px;top:220px;width:450px"><h3>AWS game server</h3><b>EC2 + CloudFront</b> WebSockets. Rooms, clock sync, photos in memory only.<br><br><b>Amazon Polly</b> voices the host; visemes drive his mouth.<br><b>Amazon Bedrock</b> (Claude) integration built for naming finds; a built-in catalog answers while model access is pending.</div>'+
+'<div class="arrow" style="left:1235px;top:330px">⇄</div>'+
+'<div class="box" style="left:1370px;top:260px;width:470px"><h3>Every phone</h3>Scan a QR code. No app. Camera, controller and the <b>Pixel Judge</b>: on-phone computer vision and face blur.</div>'+
+'<div style="position:absolute;left:0;right:0;bottom:90px;text-align:center;z-index:2"><span class="cat" style="background:var(--yolk);transform:rotate(-3deg)">Family entertainment</span><span class="cat" style="background:var(--lime);transform:rotate(2deg)">Multi-modal UX</span><span class="cat" style="background:var(--bubble);color:var(--paper);transform:rotate(-2deg)">Computer vision</span></div>'+
+'<img class="sticker" src="'+R+'stickers/sock-384.png" style="left:60px;top:40px;width:190px;transform:rotate(-14deg)">'+
+'<img class="sticker" src="'+R+'stickers/duck-384.png" style="right:60px;top:40px;width:180px;transform:rotate(12deg)">';}
+if(k==='end'){root.innerHTML='<div class="card"></div>'+
+'<div class="logo" style="top:150px;z-index:2"><img src="'+R+'stage/title-0.png" style="width:560px"><img src="'+R+'stage/title-2.png" style="width:200px;margin-bottom:40px"><img src="'+R+'stage/title-1.png" style="width:560px"></div>'+
+'<div class="pill" style="bottom:auto;top:560px;font-size:60px">Play it with one phone: <b>solo mode</b> with bots</div>'+
+'<div class="line" style="top:770px">github.com/nickfromlater/snag-and-brag</div>'+
+'<div class="line" style="top:830px;font-size:32px;color:var(--yolk)">Fire TV · Vega OS · Amazon Polly · Amazon Bedrock · AWS</div>'+
+'<img class="sticker" src="'+R+'stickers/glove-384.png" style="left:110px;top:560px;width:230px;transform:rotate(-12deg)">'+
+'<img class="sticker" src="'+R+'stickers/crown-384.png" style="right:120px;top:540px;width:230px;transform:rotate(10deg)">';}
+
+if(k==='splitbg'){root.innerHTML='<div class="card"></div>'+
+'<div style="position:absolute;left:34px;top:136px;width:1420px;height:806px;border-radius:22px;background:var(--ink);box-shadow:0 14px 0 rgba(14,11,43,.55);z-index:2"></div>'+
+'<div style="position:absolute;left:1470px;top:62px;width:432px;height:950px;border-radius:64px;background:var(--ink);box-shadow:0 14px 0 rgba(14,11,43,.55);z-index:2"></div>';}
+if(k==='bezel'){root.innerHTML=
+'<div style="position:absolute;left:34px;top:136px;width:1408px;height:794px;border:6px solid var(--ink);border-radius:22px"></div>'+
+'<div style="position:absolute;left:1470px;top:62px;width:400px;height:918px;border:16px solid var(--ink);border-radius:64px;box-shadow:inset 0 0 0 3px #3a3560"></div>'+
+'<div style="position:absolute;left:1626px;top:84px;width:120px;height:30px;border-radius:15px;background:var(--ink)"></div>';}
+if(k==='device'){root.innerHTML='<div class="card"></div>'+
+'<div style="position:absolute;left:330px;top:70px;width:1260px;padding:22px 22px 26px;background:var(--paper);border:6px solid var(--ink);border-radius:18px;box-shadow:0 12px 0 var(--ink);transform:rotate(-1.5deg);z-index:2"><div style="width:1260px;height:760px;background:url(~/builds/snag-and-brag/footage/graphics/tv-photo.jpg) center 12%/cover;border-radius:8px"></div></div>'+
+'<div class="pill" style="bottom:40px;font-size:56px;z-index:3">Snag &amp; Brag on a real <b>Fire TV Stick 4K Select</b></div>';}
+
+if(k==='badge'){root.innerHTML='<div style="position:absolute;right:26px;bottom:44px;background:var(--ink);color:var(--paper);border:3px solid var(--paper);border-radius:999px;padding:7px 18px 6px;font:800 21px Rubik;letter-spacing:.4px"><span style="color:var(--lime)">●</span> Native Vega OS · recorded on the Vega Virtual Device</div>';}
+if(k==='badgesplit'){root.innerHTML='<div style="position:absolute;left:40px;top:84px;background:var(--ink);color:var(--paper);border:3px solid var(--paper);border-radius:999px;padding:7px 18px 6px;font:800 21px Rubik;letter-spacing:.4px"><span style="color:var(--lime)">●</span> Native Vega OS · recorded on the Vega Virtual Device</div>'+
+'<div style="position:absolute;left:1478px;top:24px;width:416px;text-align:center;font:800 21px Rubik;color:var(--paper);text-shadow:0 2px 0 var(--ink)">The real phone controller</div>';}
+if(k==='camtag'){root.innerHTML='<div style="position:absolute;left:1478px;top:1022px;width:416px;text-align:center;font:800 19px Rubik;color:var(--paper);text-shadow:0 2px 0 var(--ink)">Test camera feed for this recording</div>';}
+if(k==='urlmask'){root.innerHTML='';}
+if(k==='end2'){root.innerHTML='<div class="card"></div>'+
+'<div class="logo" style="top:110px;z-index:2"><img src="'+R+'stage/title-0.png" style="width:560px"><img src="'+R+'stage/title-2.png" style="width:200px;margin-bottom:40px"><img src="'+R+'stage/title-1.png" style="width:560px"></div>'+
+'<div class="pill" style="bottom:auto;top:500px;font-size:64px">One TV. Any phones. <b>No extra controllers.</b></div>'+
+'<div class="line" style="top:660px;font-size:44px">Solo mode with bots: play it with one phone</div>'+
+'<div class="line" style="top:760px;font-size:52px;color:var(--yolk)">github.com/nickfromlater/snag-and-brag</div>'+
+'<div class="line" style="top:850px;font-size:32px">Fire TV · Vega OS · Amazon Polly · Amazon Bedrock · AWS</div>'+
+'<img class="sticker" src="'+R+'stickers/glove-384.png" style="left:90px;top:620px;width:210px;transform:rotate(-12deg)">'+
+'<img class="sticker" src="'+R+'stickers/crown-384.png" style="right:100px;top:600px;width:210px;transform:rotate(10deg)">';}
+</script></body></html>

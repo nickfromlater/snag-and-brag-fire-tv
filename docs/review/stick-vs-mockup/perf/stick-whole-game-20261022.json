@@ -1,0 +1,1238 @@
+{
+ "label": "loopson-boot",
+ "source": "gwsi_surfacePresented (graphics category) for the game process, REALTIME-joined to native snapshots",
+ "traceSeconds": 396.5,
+ "overall": {
+  "renderP50Ms": 16,
+  "renderP95Ms": 61,
+  "over16Pct": 48,
+  "intervals": 13691,
+  "seconds": 396.47,
+  "fps": 34.53,
+  "p95Ms": 66.7,
+  "maxMs": 498.9,
+  "over100": 73,
+  "over150": 22
+ },
+ "scenes": {
+  "lobby": {
+   "renderP50Ms": 13,
+   "renderP95Ms": 29,
+   "over16Pct": 30,
+   "intervals": 215,
+   "seconds": 5.06,
+   "fps": 42.53,
+   "p95Ms": 49.7,
+   "maxMs": 128.4,
+   "over100": 1,
+   "over150": 0
+  },
+  "intro": {
+   "renderP50Ms": 15,
+   "renderP95Ms": 34,
+   "over16Pct": 18,
+   "intervals": 4087,
+   "seconds": 80.63,
+   "fps": 50.69,
+   "p95Ms": 33.9,
+   "maxMs": 414.5,
+   "over100": 22,
+   "over150": 9
+  },
+  "hunt": {
+   "renderP50Ms": 27,
+   "renderP95Ms": 49,
+   "over16Pct": 80,
+   "intervals": 2853,
+   "seconds": 89.74,
+   "fps": 31.79,
+   "p95Ms": 50.3,
+   "maxMs": 252.0,
+   "over100": 5,
+   "over150": 4
+  },
+  "judge": {
+   "renderP50Ms": 6,
+   "renderP95Ms": 21,
+   "over16Pct": 11,
+   "intervals": 2007,
+   "seconds": 38.61,
+   "fps": 51.99,
+   "p95Ms": 33.5,
+   "maxMs": 145.3,
+   "over100": 4,
+   "over150": 0
+  },
+  "stand": {
+   "renderP50Ms": 27,
+   "renderP95Ms": 62,
+   "over16Pct": 78,
+   "intervals": 976,
+   "seconds": 36.2,
+   "fps": 26.96,
+   "p95Ms": 66.9,
+   "maxMs": 200.2,
+   "over100": 12,
+   "over150": 6
+  },
+  "brag": {
+   "renderP50Ms": 56,
+   "renderP95Ms": 79,
+   "over16Pct": 87,
+   "intervals": 1362,
+   "seconds": 77.38,
+   "fps": 17.6,
+   "p95Ms": 83.5,
+   "maxMs": 498.9,
+   "over100": 18,
+   "over150": 1
+  },
+  "show": {
+   "renderP50Ms": 23,
+   "renderP95Ms": 45,
+   "over16Pct": 68,
+   "intervals": 900,
+   "seconds": 26.05,
+   "fps": 34.55,
+   "p95Ms": 50.1,
+   "maxMs": 150.4,
+   "over100": 8,
+   "over150": 1
+  },
+  "champ": {
+   "renderP50Ms": 37,
+   "renderP95Ms": 54,
+   "over16Pct": 68,
+   "intervals": 680,
+   "seconds": 23.89,
+   "fps": 28.46,
+   "p95Ms": 66.6,
+   "maxMs": 236.9,
+   "over100": 3,
+   "over150": 1
+  }
+ },
+ "phases": {
+  "lobby": {
+   "renderP50Ms": 13,
+   "renderP95Ms": 29,
+   "over16Pct": 30,
+   "intervals": 215,
+   "seconds": 5.06,
+   "fps": 42.53,
+   "p95Ms": 49.7,
+   "maxMs": 128.4,
+   "over100": 1,
+   "over150": 0
+  },
+  "intro/title": {
+   "renderP50Ms": 15,
+   "renderP95Ms": 20,
+   "over16Pct": 12,
+   "intervals": 1942,
+   "seconds": 34.52,
+   "fps": 56.26,
+   "p95Ms": 21.6,
+   "maxMs": 350.4,
+   "over100": 1,
+   "over150": 1
+  },
+  "intro/reel": {
+   "renderP50Ms": 16,
+   "renderP95Ms": 49,
+   "over16Pct": 31,
+   "intervals": 1253,
+   "seconds": 30.38,
+   "fps": 41.24,
+   "p95Ms": 50.2,
+   "maxMs": 414.5,
+   "over100": 19,
+   "over150": 8
+  },
+  "intro/countdown": {
+   "renderP50Ms": 12,
+   "renderP95Ms": 19,
+   "over16Pct": 10,
+   "intervals": 892,
+   "seconds": 15.73,
+   "fps": 56.7,
+   "p95Ms": 23.1,
+   "maxMs": 100.2,
+   "over100": 2,
+   "over150": 0
+  },
+  "hunt/countdown": {
+   "renderP50Ms": 3,
+   "renderP95Ms": 12,
+   "over16Pct": 2,
+   "intervals": 177,
+   "seconds": 3.59,
+   "fps": 49.34,
+   "p95Ms": 33.3,
+   "maxMs": 250.4,
+   "over100": 2,
+   "over150": 2
+  },
+  "hunt/hunt": {
+   "renderP50Ms": 29,
+   "renderP95Ms": 50,
+   "over16Pct": 89,
+   "intervals": 2211,
+   "seconds": 72.96,
+   "fps": 30.31,
+   "p95Ms": 50.3,
+   "maxMs": 242.3,
+   "over100": 2,
+   "over150": 1
+  },
+  "hunt/time": {
+   "renderP50Ms": 22,
+   "renderP95Ms": 52,
+   "over16Pct": 63,
+   "intervals": 106,
+   "seconds": 3.32,
+   "fps": 31.93,
+   "p95Ms": 50.5,
+   "maxMs": 252.0,
+   "over100": 1,
+   "over150": 1
+  },
+  "hunt/glow": {
+   "renderP50Ms": 23,
+   "renderP95Ms": 49,
+   "over16Pct": 78,
+   "intervals": 257,
+   "seconds": 7.31,
+   "fps": 35.17,
+   "p95Ms": 50.2,
+   "maxMs": 83.5,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/judge": {
+   "renderP50Ms": 17,
+   "renderP95Ms": 38,
+   "over16Pct": 53,
+   "intervals": 30,
+   "seconds": 0.73,
+   "fps": 40.95,
+   "p95Ms": 33.6,
+   "maxMs": 51.3,
+   "over100": 0,
+   "over150": 0
+  },
+  "judge/judge": {
+   "renderP50Ms": 5,
+   "renderP95Ms": 20,
+   "over16Pct": 9,
+   "intervals": 1666,
+   "seconds": 31.17,
+   "fps": 53.45,
+   "p95Ms": 33.5,
+   "maxMs": 145.3,
+   "over100": 4,
+   "over150": 0
+  },
+  "judge/winner": {
+   "renderP50Ms": 9,
+   "renderP95Ms": 30,
+   "over16Pct": 18,
+   "intervals": 341,
+   "seconds": 7.44,
+   "fps": 45.86,
+   "p95Ms": 36.1,
+   "maxMs": 83.5,
+   "over100": 0,
+   "over150": 0
+  },
+  "stand/standings": {
+   "renderP50Ms": 27,
+   "renderP95Ms": 60,
+   "over16Pct": 80,
+   "intervals": 901,
+   "seconds": 33.58,
+   "fps": 26.83,
+   "p95Ms": 66.9,
+   "maxMs": 200.2,
+   "over100": 11,
+   "over150": 6
+  },
+  "hunt/brag-intro": {
+   "renderP50Ms": 18,
+   "renderP95Ms": 54,
+   "over16Pct": 57,
+   "intervals": 23,
+   "seconds": 0.68,
+   "fps": 33.6,
+   "p95Ms": 50.5,
+   "maxMs": 68.2,
+   "over100": 0,
+   "over150": 0
+  },
+  "brag/brag-intro": {
+   "renderP50Ms": 44,
+   "renderP95Ms": 72,
+   "over16Pct": 71,
+   "intervals": 574,
+   "seconds": 26.79,
+   "fps": 21.42,
+   "p95Ms": 73.1,
+   "maxMs": 498.9,
+   "over100": 3,
+   "over150": 1
+  },
+  "brag/brag-lines": {
+   "renderP50Ms": 57,
+   "renderP95Ms": 75,
+   "over16Pct": 97,
+   "intervals": 185,
+   "seconds": 11.16,
+   "fps": 16.58,
+   "p95Ms": 82.2,
+   "maxMs": 114.5,
+   "over100": 1,
+   "over150": 0
+  },
+  "brag/brag-countdown": {
+   "renderP50Ms": 59,
+   "renderP95Ms": 83,
+   "over16Pct": 99,
+   "intervals": 101,
+   "seconds": 6.79,
+   "fps": 14.87,
+   "p95Ms": 83.7,
+   "maxMs": 100.1,
+   "over100": 1,
+   "over150": 0
+  },
+  "brag/mash": {
+   "renderP50Ms": 61,
+   "renderP95Ms": 91,
+   "over16Pct": 99,
+   "intervals": 269,
+   "seconds": 17.82,
+   "fps": 15.1,
+   "p95Ms": 85.5,
+   "maxMs": 103.3,
+   "over100": 5,
+   "over150": 0
+  },
+  "brag/knockout": {
+   "renderP50Ms": 60,
+   "renderP95Ms": 86,
+   "over16Pct": 100,
+   "intervals": 220,
+   "seconds": 14.03,
+   "fps": 15.68,
+   "p95Ms": 87.1,
+   "maxMs": 116.9,
+   "over100": 8,
+   "over150": 0
+  },
+  "brag/standings": {
+   "renderP50Ms": 55,
+   "renderP95Ms": 62,
+   "over16Pct": 100,
+   "intervals": 13,
+   "seconds": 0.78,
+   "fps": 16.58,
+   "p95Ms": 68.4,
+   "maxMs": 68.4,
+   "over100": 0,
+   "over150": 0
+  },
+  "stand/title": {
+   "renderP50Ms": 9,
+   "renderP95Ms": 65,
+   "over16Pct": 21,
+   "intervals": 43,
+   "seconds": 1.03,
+   "fps": 41.57,
+   "p95Ms": 66.4,
+   "maxMs": 74.1,
+   "over100": 0,
+   "over150": 0
+  },
+  "hunt/runway": {
+   "renderP50Ms": 16,
+   "renderP95Ms": 36,
+   "over16Pct": 47,
+   "intervals": 49,
+   "seconds": 1.15,
+   "fps": 42.56,
+   "p95Ms": 37.5,
+   "maxMs": 47.9,
+   "over100": 0,
+   "over150": 0
+  },
+  "show/runway": {
+   "renderP50Ms": 16,
+   "renderP95Ms": 34,
+   "over16Pct": 50,
+   "intervals": 355,
+   "seconds": 8.37,
+   "fps": 42.39,
+   "p95Ms": 34.3,
+   "maxMs": 133.6,
+   "over100": 2,
+   "over150": 0
+  },
+  "show/vote": {
+   "renderP50Ms": 24,
+   "renderP95Ms": 37,
+   "over16Pct": 76,
+   "intervals": 279,
+   "seconds": 8.06,
+   "fps": 34.62,
+   "p95Ms": 37.7,
+   "maxMs": 116.9,
+   "over100": 2,
+   "over150": 0
+  },
+  "show/tally": {
+   "renderP50Ms": 27,
+   "renderP95Ms": 40,
+   "over16Pct": 83,
+   "intervals": 75,
+   "seconds": 2.49,
+   "fps": 30.16,
+   "p95Ms": 50.1,
+   "maxMs": 150.4,
+   "over100": 1,
+   "over150": 1
+  },
+  "show/winner": {
+   "renderP50Ms": 31,
+   "renderP95Ms": 61,
+   "over16Pct": 83,
+   "intervals": 191,
+   "seconds": 7.13,
+   "fps": 26.79,
+   "p95Ms": 66.7,
+   "maxMs": 144.9,
+   "over100": 3,
+   "over150": 0
+  },
+  "stand/podium": {
+   "renderP50Ms": 45,
+   "renderP95Ms": 81,
+   "over16Pct": 97,
+   "intervals": 32,
+   "seconds": 1.59,
+   "fps": 20.19,
+   "p95Ms": 84.0,
+   "maxMs": 102.0,
+   "over100": 1,
+   "over150": 0
+  },
+  "champ/podium": {
+   "renderP50Ms": 13,
+   "renderP95Ms": 55,
+   "over16Pct": 30,
+   "intervals": 237,
+   "seconds": 5.32,
+   "fps": 44.54,
+   "p95Ms": 50.4,
+   "maxMs": 83.5,
+   "over100": 0,
+   "over150": 0
+  },
+  "champ/finale": {
+   "renderP50Ms": 41,
+   "renderP95Ms": 54,
+   "over16Pct": 88,
+   "intervals": 443,
+   "seconds": 18.57,
+   "fps": 23.86,
+   "p95Ms": 66.7,
+   "maxMs": 236.9,
+   "over100": 3,
+   "over150": 1
+  }
+ },
+ "jsBlockingNativeWork": {
+  "native-play:audio": {
+   "count": 365,
+   "totalMs": 2624,
+   "p50Ms": 2,
+   "maxMs": 148
+  },
+  "motion-table": {
+   "count": 263,
+   "totalMs": 2103,
+   "p50Ms": 3,
+   "maxMs": 152
+  },
+  "native-set-currentTime:audio": {
+   "count": 329,
+   "totalMs": 1222,
+   "p50Ms": 1,
+   "maxMs": 225
+  },
+  "native-pause:audio": {
+   "count": 328,
+   "totalMs": 812,
+   "p50Ms": 1,
+   "maxMs": 93
+  },
+  "native-set-volume:audio": {
+   "count": 416,
+   "totalMs": 630,
+   "p50Ms": 0,
+   "maxMs": 68
+  },
+  "feed-base64": {
+   "count": 9,
+   "totalMs": 368,
+   "p50Ms": 16,
+   "maxMs": 130
+  },
+  "native-appendBuffer:speech": {
+   "count": 22,
+   "totalMs": 320,
+   "p50Ms": 3,
+   "maxMs": 143
+  }
+ },
+ "gapsOver100": [
+  {
+   "atS": 7.65,
+   "gapMs": 128.4,
+   "phase": "lobby",
+   "renderMs": 139,
+   "coincident": []
+  },
+  {
+   "atS": 23.61,
+   "gapMs": 414.5,
+   "phase": "intro/reel",
+   "renderMs": 165,
+   "coincident": [
+    "cue:host-hide"
+   ]
+  },
+  {
+   "atS": 25.71,
+   "gapMs": 101.7,
+   "phase": "intro/reel",
+   "renderMs": 101,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes",
+    "cue:flash",
+    "cue:host",
+    "cue:host-react",
+    "cue:phase",
+    "cue:punch",
+    "cue:sfx",
+    "cue:shake",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 25.81,
+   "gapMs": 150.4,
+   "phase": "intro/reel",
+   "renderMs": 123,
+   "coincident": []
+  },
+  {
+   "atS": 25.96,
+   "gapMs": 147.4,
+   "phase": "intro/reel",
+   "renderMs": 155,
+   "coincident": []
+  },
+  {
+   "atS": 26.11,
+   "gapMs": 153.3,
+   "phase": "intro/reel",
+   "renderMs": 155,
+   "coincident": []
+  },
+  {
+   "atS": 26.26,
+   "gapMs": 102.2,
+   "phase": "intro/reel",
+   "renderMs": 98,
+   "coincident": [
+    "voice-line:intro.reel-land",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 38.95,
+   "gapMs": 242.3,
+   "phase": "hunt/hunt",
+   "renderMs": 47,
+   "coincident": [
+    "camera-target:",
+    "cue:feed",
+    "feed-base64: 34ms",
+    "graphics-cache:hunt"
+   ]
+  },
+  {
+   "atS": 64.58,
+   "gapMs": 252.0,
+   "phase": "hunt/time",
+   "renderMs": 245,
+   "coincident": [
+    "background-render:",
+    "cue:animate:hunt.time",
+    "cue:feed",
+    "cue:phase"
+   ]
+  },
+  {
+   "atS": 83.62,
+   "gapMs": 145.3,
+   "phase": "judge/judge",
+   "renderMs": 161,
+   "coincident": []
+  },
+  {
+   "atS": 90.38,
+   "gapMs": 113.5,
+   "phase": "judge/judge",
+   "renderMs": 44,
+   "coincident": []
+  },
+  {
+   "atS": 91.16,
+   "gapMs": 116.9,
+   "phase": "judge/judge",
+   "renderMs": 3,
+   "coincident": []
+  },
+  {
+   "atS": 99.27,
+   "gapMs": 109.2,
+   "phase": "judge/judge",
+   "renderMs": 14,
+   "coincident": []
+  },
+  {
+   "atS": 108.49,
+   "gapMs": 134.3,
+   "phase": "stand/standings",
+   "renderMs": 8,
+   "coincident": []
+  },
+  {
+   "atS": 109.53,
+   "gapMs": 183.3,
+   "phase": "stand/standings",
+   "renderMs": 38,
+   "coincident": [
+    "background-render:",
+    "graphics-cache:stand",
+    "motion-table:lane:gr 22ms"
+   ]
+  },
+  {
+   "atS": 111.58,
+   "gapMs": 117.0,
+   "phase": "stand/standings",
+   "renderMs": 17,
+   "coincident": []
+  },
+  {
+   "atS": 114.65,
+   "gapMs": 168.2,
+   "phase": "stand/standings",
+   "renderMs": 96,
+   "coincident": [
+    "cue:animate:lane:cp",
+    "cue:animate:lane:gr",
+    "cue:animate:lane:jd",
+    "cue:host",
+    "cue:host-react",
+    "cue:sfx",
+    "cue:slam:overtake:gr",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 115.82,
+   "gapMs": 100.3,
+   "phase": "stand/standings",
+   "renderMs": 86,
+   "coincident": [
+    "voice-line:stand.leader",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 137.14,
+   "gapMs": 400.4,
+   "phase": "intro/reel",
+   "renderMs": 143,
+   "coincident": [
+    "cue:host-hide"
+   ]
+  },
+  {
+   "atS": 139.26,
+   "gapMs": 102.4,
+   "phase": "intro/reel",
+   "renderMs": 10,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes",
+    "cue:flash",
+    "cue:host",
+    "cue:host-react",
+    "cue:phase",
+    "cue:punch",
+    "cue:sfx",
+    "cue:shake",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 139.36,
+   "gapMs": 147.0,
+   "phase": "intro/reel",
+   "renderMs": 228,
+   "coincident": [
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 139.51,
+   "gapMs": 100.1,
+   "phase": "intro/reel",
+   "renderMs": 108,
+   "coincident": []
+  },
+  {
+   "atS": 139.61,
+   "gapMs": 133.6,
+   "phase": "intro/reel",
+   "renderMs": 121,
+   "coincident": []
+  },
+  {
+   "atS": 139.74,
+   "gapMs": 119.5,
+   "phase": "intro/reel",
+   "renderMs": 115,
+   "coincident": []
+  },
+  {
+   "atS": 139.86,
+   "gapMs": 117.0,
+   "phase": "intro/reel",
+   "renderMs": 114,
+   "coincident": []
+  },
+  {
+   "atS": 145.98,
+   "gapMs": 183.6,
+   "phase": "intro/reel",
+   "renderMs": 199,
+   "coincident": [
+    "cue:animate:intro.arrow-left",
+    "cue:animate:intro.arrow-right",
+    "cue:animate:intro.bulbs",
+    "cue:animate:intro.reel",
+    "cue:count:intro",
+    "cue:phase",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 146.86,
+   "gapMs": 217.0,
+   "phase": "intro/reel",
+   "renderMs": 40,
+   "coincident": [
+    "motion-table:intro.bulbs 28ms"
+   ]
+  },
+  {
+   "atS": 150.74,
+   "gapMs": 100.2,
+   "phase": "intro/countdown",
+   "renderMs": 10,
+   "coincident": [
+    "native-play:audio-2 60ms"
+   ]
+  },
+  {
+   "atS": 154.16,
+   "gapMs": 250.4,
+   "phase": "hunt/countdown",
+   "renderMs": 61,
+   "coincident": [
+    "camera-target:",
+    "cue:background",
+    "cue:music",
+    "cue:phase"
+   ]
+  },
+  {
+   "atS": 160.78,
+   "gapMs": 100.2,
+   "phase": "hunt/hunt",
+   "renderMs": 93,
+   "coincident": [
+    "cue:feed",
+    "photo-decoded:",
+    "photo-ready:"
+   ]
+  },
+  {
+   "atS": 184.55,
+   "gapMs": 498.9,
+   "phase": "brag/brag-intro",
+   "renderMs": 248,
+   "coincident": [
+    "cue:animate:brag.vs",
+    "cue:eyes",
+    "cue:flash",
+    "cue:host",
+    "cue:sfx",
+    "cue:shake",
+    "photo-ready:"
+   ]
+  },
+  {
+   "atS": 196.32,
+   "gapMs": 114.5,
+   "phase": "brag/brag-lines",
+   "renderMs": 36,
+   "coincident": [
+    "cue:count:brag",
+    "cue:sfx",
+    "native-set-currentTime:audio-1 26ms"
+   ]
+  },
+  {
+   "atS": 204.91,
+   "gapMs": 100.8,
+   "phase": "brag/knockout",
+   "renderMs": 133,
+   "coincident": [
+    "cue:confetti",
+    "cue:eyes:brag.fighter-left",
+    "cue:fly-points",
+    "cue:host",
+    "cue:sfx",
+    "cue:slam:brag.ko",
+    "motion-table:brag.vs 24ms"
+   ]
+  },
+  {
+   "atS": 206.39,
+   "gapMs": 116.9,
+   "phase": "brag/knockout",
+   "renderMs": 134,
+   "coincident": [
+    "native-appendBuffer:speech-stream 27ms"
+   ]
+  },
+  {
+   "atS": 206.58,
+   "gapMs": 100.2,
+   "phase": "brag/knockout",
+   "renderMs": 83,
+   "coincident": [
+    "native-appendBuffer:speech-stream 27ms"
+   ]
+  },
+  {
+   "atS": 211.85,
+   "gapMs": 116.7,
+   "phase": "brag/brag-intro",
+   "renderMs": 114,
+   "coincident": []
+  },
+  {
+   "atS": 227.68,
+   "gapMs": 100.1,
+   "phase": "brag/mash",
+   "renderMs": 65,
+   "coincident": [
+    "cue:mash-tap",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 231.92,
+   "gapMs": 100.3,
+   "phase": "brag/mash",
+   "renderMs": 105,
+   "coincident": [
+    "cue:mash-tap",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 233.49,
+   "gapMs": 107.5,
+   "phase": "brag/knockout",
+   "renderMs": 86,
+   "coincident": []
+  },
+  {
+   "atS": 233.67,
+   "gapMs": 100.1,
+   "phase": "brag/knockout",
+   "renderMs": 107,
+   "coincident": []
+  },
+  {
+   "atS": 234.95,
+   "gapMs": 100.1,
+   "phase": "brag/knockout",
+   "renderMs": 77,
+   "coincident": [
+    "cue:host",
+    "native-set-currentTime:audio-2 76ms"
+   ]
+  },
+  {
+   "atS": 236.49,
+   "gapMs": 101.4,
+   "phase": "brag/knockout",
+   "renderMs": 89,
+   "coincident": [
+    "cue:animate:chip:gr",
+    "cue:host-finish",
+    "cue:phase",
+    "cue:ring",
+    "cue:scene",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars",
+    "voice-complete:",
+    "voice-line:brag.winner"
+   ]
+  },
+  {
+   "atS": 239.53,
+   "gapMs": 133.7,
+   "phase": "brag/brag-intro",
+   "renderMs": 12,
+   "coincident": [
+    "cue:animate:brag.fighter-left",
+    "cue:animate:brag.fighter-right",
+    "cue:animate:brag.panel-left",
+    "cue:animate:brag.panel-right",
+    "cue:animate:brag.seam",
+    "cue:background",
+    "cue:host-hide",
+    "cue:match",
+    "cue:music",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 247.33,
+   "gapMs": 100.1,
+   "phase": "brag/brag-countdown",
+   "renderMs": 77,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 247.83,
+   "gapMs": 100.3,
+   "phase": "brag/mash",
+   "renderMs": 97,
+   "coincident": [
+    "cue:mash-tap",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 247.93,
+   "gapMs": 103.3,
+   "phase": "brag/mash",
+   "renderMs": 94,
+   "coincident": [
+    "cue:mash-tap",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 248.22,
+   "gapMs": 101.7,
+   "phase": "brag/mash",
+   "renderMs": 93,
+   "coincident": [
+    "cue:mash",
+    "cue:mash-spark",
+    "cue:mash-tap",
+    "cue:sfx",
+    "cue:stars"
+   ]
+  },
+  {
+   "atS": 257.04,
+   "gapMs": 103.5,
+   "phase": "brag/knockout",
+   "renderMs": 86,
+   "coincident": []
+  },
+  {
+   "atS": 259.4,
+   "gapMs": 200.2,
+   "phase": "stand/standings",
+   "renderMs": 54,
+   "coincident": []
+  },
+  {
+   "atS": 260.51,
+   "gapMs": 166.8,
+   "phase": "stand/standings",
+   "renderMs": 92,
+   "coincident": [
+    "cue:animate:lane-badge:gr",
+    "cue:animate:lane-badge:p1",
+    "cue:animate:lane-delta:gr",
+    "cue:animate:lane-delta:p1",
+    "cue:animate:lane-fill:cp",
+    "cue:animate:lane-fill:gr",
+    "cue:animate:lane-fill:p1",
+    "cue:animate:lane-rider:cp",
+    "cue:animate:lane-rider:gr",
+    "cue:animate:lane-rider:p1",
+    "cue:roll:lane-score:cp",
+    "cue:roll:lane-score:gr",
+    "cue:roll:lane-score:p1",
+    "cue:sfx"
+   ]
+  },
+  {
+   "atS": 261.17,
+   "gapMs": 151.3,
+   "phase": "stand/standings",
+   "renderMs": 155,
+   "coincident": [
+    "motion-table:lane-fill:p1 26ms"
+   ]
+  },
+  {
+   "atS": 262.11,
+   "gapMs": 120.8,
+   "phase": "stand/standings",
+   "renderMs": 16,
+   "coincident": []
+  },
+  {
+   "atS": 281.75,
+   "gapMs": 350.4,
+   "phase": "intro/title",
+   "renderMs": 121,
+   "coincident": []
+  },
+  {
+   "atS": 283.55,
+   "gapMs": 250.2,
+   "phase": "intro/reel",
+   "renderMs": 237,
+   "coincident": [
+    "cue:host",
+    "voice-duck:"
+   ]
+  },
+  {
+   "atS": 283.8,
+   "gapMs": 167.3,
+   "phase": "intro/reel",
+   "renderMs": 154,
+   "coincident": []
+  },
+  {
+   "atS": 283.97,
+   "gapMs": 133.2,
+   "phase": "intro/reel",
+   "renderMs": 110,
+   "coincident": []
+  },
+  {
+   "atS": 284.1,
+   "gapMs": 125.6,
+   "phase": "intro/reel",
+   "renderMs": 121,
+   "coincident": []
+  },
+  {
+   "atS": 295.05,
+   "gapMs": 100.2,
+   "phase": "intro/countdown",
+   "renderMs": 34,
+   "coincident": []
+  },
+  {
+   "atS": 297.53,
+   "gapMs": 217.1,
+   "phase": "hunt/countdown",
+   "renderMs": 55,
+   "coincident": [
+    "camera-target:",
+    "cue:background",
+    "cue:music",
+    "cue:phase"
+   ]
+  },
+  {
+   "atS": 326.43,
+   "gapMs": 100.6,
+   "phase": "show/runway",
+   "renderMs": 97,
+   "coincident": [
+    "background-render:",
+    "cue:eyes:show-find:p1",
+    "cue:reaction",
+    "cue:ring",
+    "cue:sfx",
+    "cue:shake",
+    "graphics-cache:show",
+    "motion-table:show-find:p1 20ms"
+   ]
+  },
+  {
+   "atS": 327.81,
+   "gapMs": 133.6,
+   "phase": "show/runway",
+   "renderMs": 114,
+   "coincident": []
+  },
+  {
+   "atS": 337.87,
+   "gapMs": 100.0,
+   "phase": "show/vote",
+   "renderMs": 45,
+   "coincident": [
+    "cue:reaction",
+    "voice-sample:"
+   ]
+  },
+  {
+   "atS": 338.06,
+   "gapMs": 116.9,
+   "phase": "show/vote",
+   "renderMs": 37,
+   "coincident": []
+  },
+  {
+   "atS": 344.86,
+   "gapMs": 150.4,
+   "phase": "show/tally",
+   "renderMs": 28,
+   "coincident": [
+    "cue:host-finish",
+    "cue:reaction",
+    "native-set-volume:audio-1 35ms"
+   ]
+  },
+  {
+   "atS": 349.55,
+   "gapMs": 132.4,
+   "phase": "show/winner",
+   "renderMs": 75,
+   "coincident": [
+    "native-play:audio-1 74ms"
+   ]
+  },
+  {
+   "atS": 350.29,
+   "gapMs": 144.9,
+   "phase": "show/winner",
+   "renderMs": 135,
+   "coincident": [
+    "background-render:",
+    "cue:animate:chip:gr",
+    "cue:phase",
+    "cue:reaction",
+    "cue:ring",
+    "cue:scene",
+    "cue:score",
+    "cue:sfx",
+    "cue:stars"
+   ]
+  },
+  {
+   "atS": 351.49,
+   "gapMs": 117.1,
+   "phase": "show/winner",
+   "renderMs": 48,
+   "coincident": [
+    "cue:host-hide"
+   ]
+  },
+  {
+   "atS": 355.36,
+   "gapMs": 183.7,
+   "phase": "stand/standings",
+   "renderMs": 53,
+   "coincident": [
+    "background-render:",
+    "cue:animate:lane-badge:cp",
+    "cue:animate:lane-badge:gr",
+    "cue:animate:lane-badge:jd",
+    "cue:animate:lane-delta:cp",
+    "cue:animate:lane-delta:gr",
+    "cue:animate:lane-delta:jd",
+    "cue:animate:lane-fill:cp",
+    "cue:animate:lane-fill:gr",
+    "cue:animate:lane-fill:jd",
+    "cue:animate:lane-fill:p1",
+    "cue:animate:lane-rider:cp",
+    "cue:animate:lane-rider:gr",
+    "cue:animate:lane-rider:jd"
+   ]
+  },
+  {
+   "atS": 358.53,
+   "gapMs": 100.1,
+   "phase": "stand/standings",
+   "renderMs": 58,
+   "coincident": []
+  },
+  {
+   "atS": 361.0,
+   "gapMs": 102.0,
+   "phase": "stand/podium",
+   "renderMs": 155,
+   "coincident": [
+    "native-set-currentTime:audio-1 29ms"
+   ]
+  },
+  {
+   "atS": 370.82,
+   "gapMs": 236.9,
+   "phase": "champ/finale",
+   "renderMs": 134,
+   "coincident": []
+  },
+  {
+   "atS": 371.41,
+   "gapMs": 116.7,
+   "phase": "champ/finale",
+   "renderMs": 53,
+   "coincident": [
+    "cue:firework",
+    "cue:reaction",
+    "voice-complete:",
+    "voice-duck:",
+    "voice-line:champ.champion"
+   ]
+  },
+  {
+   "atS": 371.58,
+   "gapMs": 100.5,
+   "phase": "champ/finale",
+   "renderMs": 100,
+   "coincident": []
+  }
+ ]
+}

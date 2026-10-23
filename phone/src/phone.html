@@ -1,0 +1,123 @@
+<div id="ps">
+      <div class="phead"><span class="mini">S<i>&amp;</i>B</span><span class="rc" id="room-code"></span><span class="me" id="pme"></span><button class="host-toggle" id="host-toggle" aria-label="Host menu" aria-expanded="false" hidden>⋯</button></div>
+
+      <canvas id="pfx" aria-hidden="true"></canvas>
+      <div class="pscr on" id="p-join">
+        <div class="jhero">
+          <span class="kick y">Now casting</span>
+          <h1 class="h1" style="margin-top:10px">Your stuff is the <em>star</em></h1>
+          <p>Find things around the house. Make them famous on the TV.</p>
+          <div class="fan" id="fan"></div>
+        </div>
+        <p class="lbl">Team name</p>
+        <div class="field"><input class="inp" id="tname" maxlength="20" autocomplete="off" aria-label="Team name"><button class="dice" id="tdice" aria-label="Roll a random team name"><svg viewBox="0 0 24 24" fill="none" stroke="#0E0B2B" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><g fill="#0E0B2B" stroke="none"><circle cx="8.3" cy="8.3" r="1.7"/><circle cx="15.7" cy="8.3" r="1.7"/><circle cx="12" cy="12" r="1.7"/><circle cx="8.3" cy="15.7" r="1.7"/><circle cx="15.7" cy="15.7" r="1.7"/></g></svg></button></div>
+        <p class="lbl">Badge color</p>
+        <div class="swatches" id="swatches" role="radiogroup" aria-label="Badge color"></div>
+        <div class="list">
+          <div class="lrow"><span class="n">1</span><div>Snag<small>Find what the TV asks for. Fastest snag earns a bonus.</small></div><span></span></div>
+          <div class="lrow"><span class="n">2</span><div>Glow up<small>Stick on googly eyes, pick a stage name and a brag.</small></div><span></span></div>
+          <div class="lrow"><span class="n">3</span><div>Brag<small>The Pixel Judge, the room's votes and your thumbs decide.</small></div><span></span></div>
+        </div>
+        <div class="grow"></div>
+        <button class="btn pk" id="b-join"><span class="hl">Join the show</span></button>
+      </div>
+
+      <div class="pscr" id="p-lobby">
+        <div class="youare"><span id="lob-badge"></span><div><p class="lbl">You're in</p><h1 class="h1" id="lob-name" style="font-size:30px"></h1></div></div>
+        <div class="list" id="roster"></div>
+        <p class="lbl">Tonight's rundown</p>
+        <div class="list rundown" id="rundown1"></div>
+        <p class="sub" id="lobby-note"></p>
+        <button class="lrow bots-row" id="bots-toggle" aria-pressed="false" hidden>
+          <span class="bot-badges" aria-hidden="true"><span class="badge" style="--c:#FF7A1F">CP</span><span class="badge" style="--c:#B8F23B">JD</span><span class="badge" style="--c:#3FE0D0">GR</span></span>
+          <span>Play with bots<small>Fills the room with 3 rival teams</small></span>
+          <span class="bot-switch" id="bot-switch" aria-hidden="true"><span class="bot-knob" id="bot-knob"></span></span>
+        </button>
+        <div class="grow"></div>
+        <button class="btn" id="b-start"><span class="hf"></span><span class="hl" id="b-start-l">Hold to go live</span></button>
+      </div>
+
+      <div class="pscr" id="p-ready">
+        <span class="kick" id="rd-k">Round 1</span>
+        <h1 class="h1" id="rd-h">Color Rush</h1>
+        <p class="sub" id="rd-s"></p>
+        <div class="pcardp rcard" id="rd-card" hidden><span class="kick l">Your mission</span><div class="rp" id="rd-p"></div></div>
+        <div class="list rundown" id="rundown2"></div>
+        <div class="grow"></div>
+        <div class="rcount" id="rd-c"></div>
+        <p class="sub" style="text-align:center">Eyes on the TV</p>
+      </div>
+
+      <div class="pscr" id="p-cam">
+        <div class="tbar"><div class="pbar" id="cbar"><i id="cbari"></i></div><div class="ptime" id="ctime">0:35</div></div>
+        <div class="pchip" id="cchip"></div>
+        <div class="vf" id="vf" aria-label="Rear camera viewfinder">
+          <video id="camera" autoplay playsinline muted></video><div class="camera-fallback" id="camera-fallback" hidden><p>Let’s snag a photo. Your camera can open from the button below.</p><button class="btn ghost" id="fallback-pick">Take or choose a photo</button></div>
+          <div class="vig"></div><div class="grid3"></div>
+          <div class="brk" id="brk"><i></i><i></i><i></i><i></i></div>
+          <div class="vtop"><span class="glass" id="vzone">YOUR CAMERA</span><span class="glass"><i class="rec"></i>REC</span></div>
+          <div class="vfeed" id="vfeed"></div>
+          <div class="olab none" id="olab" aria-live="polite"></div>
+          <div class="vflash" id="vflash"></div>
+        </div>
+        <div class="camctl">
+          <button class="realbtn" id="b-real"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg><span>Choose<br>photo</span></button>
+          <button class="shutter" id="shutter" aria-label="Snag it"><span></span></button>
+          <span class="hintbtn" id="chint">Aim. Snap.<br>Make it a star.</span>
+        </div>
+        <input type="file" accept="image/*" capture="environment" id="realfile" class="sr" tabindex="-1" aria-hidden="true">
+      </div>
+
+      <div class="pscr" id="p-glow">
+        <div class="tbar"><span class="kick y" style="align-self:center">Glow up</span><div class="grow"></div><div class="ptime" id="gtime" style="font-size:22px"></div></div>
+        <div class="gstage" id="gstage" role="button" tabindex="0" aria-label="Stick two googly eyes on your photo"><div class="ghint" id="ghint">TAP TO STICK 2 EYES</div></div>
+        <div class="aiwait" id="aiwait" hidden><i></i><span>Sir Socksworth is squinting at your photo</span></div>
+        <p class="lbl">Stage name</p>
+        <div class="chips" id="gnames" role="radiogroup" aria-label="Stage name"></div>
+        <p class="lbl">Brag line</p>
+        <div class="brags" id="gbrags" role="radiogroup" aria-label="Brag line"></div>
+        <div class="grow"></div>
+        <button class="btn pk" id="b-send"><span class="hl">Send it to the TV</span></button>
+      </div>
+
+      <div class="pscr" id="p-wait">
+        <div class="pcardp wcard" id="w-card"></div>
+        <div class="grow"></div>
+        <div class="lookup" aria-hidden="true"><svg viewBox="0 0 64 50"><path d="M22 4l10 7 10-7" fill="none" stroke="#FFD43B" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="12" width="56" height="32" rx="7" fill="#2B3BFF" stroke="#0E0B2B" stroke-width="4"/><path d="M22 48h20" stroke="#0E0B2B" stroke-width="4" stroke-linecap="round"/><circle cx="24" cy="27" r="6" fill="#fff" stroke="#0E0B2B" stroke-width="3"/><circle cx="40" cy="27" r="6" fill="#fff" stroke="#0E0B2B" stroke-width="3"/><circle cx="25" cy="29" r="2.4" fill="#0E0B2B"/><circle cx="41" cy="29" r="2.4" fill="#0E0B2B"/></svg></div>
+        <div class="wstat" id="w-stat"></div>
+        <div class="grow"></div>
+        <div class="list wrank" id="w-rank"></div>
+        <div class="hype"><span>HYPE</span><div class="hb"><i id="w-hype"></i></div></div>
+        <div class="react" id="react"></div>
+        <p class="sub" style="text-align:center;font-size:12px">Reactions float up on the TV</p>
+      </div>
+
+      <div class="pscr" id="p-mash">
+        <span class="kick" id="m-k">Semi-final</span>
+        <h1 class="h1" id="m-h" style="font-size:30px">Mash your side</h1>
+        <div class="mgrid" id="mgrid"></div>
+        <p class="sub" id="m-s" style="text-align:center"></p>
+      </div>
+
+      <div class="pscr" id="p-vote">
+        <span class="kick y">Final vote</span>
+        <h1 class="h1" style="font-size:30px">Which one's the <em>showstopper</em>?</h1>
+        <p class="sub">You can't vote for your own find. Double points ride on this.</p>
+        <div class="vlist" id="vlist" role="radiogroup" aria-label="Vote for a find"></div>
+        <div class="grow"></div>
+        <div class="wstat" id="v-stat" style="font-size:22px"></div>
+      </div>
+
+      <div class="pscr" id="p-end">
+        <span class="kick y" style="align-self:center">That's a wrap</span>
+        <div class="place"><b id="e-rank">1</b><span id="e-suf">st</span></div>
+        <p class="sub" id="e-line" style="text-align:center;margin-top:-4px"></p>
+        <div class="tcardp" id="e-card" role="button" tabindex="0" aria-label="Tilt your best find trading card"></div>
+        <div class="list" id="e-rows"></div>
+        <p class="sub privacy">Faces are blurred on your phone. Photos are never saved; they vanish when the show ends.</p><button class="btn pk" id="b-again"><span class="hl">Run it back</span></button>
+      </div>
+    <div class="host-menu" id="host-menu" hidden><button data-control="skip">Skip this phase</button><button data-control="pause" id="pause-control">Pause</button><button data-control="end">End game</button></div>
+<div class="pause-overlay" id="pause-overlay" hidden role="status"><span class="kick y">Show paused</span><h1 class="h1">Thumbs at ease.</h1><p class="sub">We’ll be right back.</p><button class="btn" id="resume-button" hidden>Resume the show</button></div>
+<p class="connection" id="connection" hidden role="status"></p>
+<div class="inapp" id="inapp" hidden><p>Open in Safari/Chrome to use your camera.</p><button class="btn ghost" id="copy-link">Copy link</button></div>
+</div>

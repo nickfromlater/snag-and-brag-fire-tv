@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-18T02:03:04.122162+00:00",
+  "scope": "Native Toolkit/Render frame intervals; full diagnostic lobby active, connected, audio-ready, empty room, and visible throughout recording",
+  "deviceTemporaryStorageBeforeRecordingKiB": 652,
+  "nativeWindowPixels": [
+    1920,
+    1080
+  ],
+  "frames": 647,
+  "seconds": 25.97,
+  "averageFps": 24.88,
+  "maximumGapMs": 135.54,
+  "gapsOver100Ms": 2,
+  "minimumTargetFps": 30,
+  "outcome": "FAIL",
+  "appChanges": "Native puppet, static title/ray/doodle/QR rasters, bounded background clock, opaque backdrop, background audio/stage/cache release. No offscreen stage or card cache."
+}

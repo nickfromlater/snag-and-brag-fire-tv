@@ -1,0 +1,171 @@
+Historical failed run: root tests overlapped the asset generator; three suites loaded an incomplete generated photo-mask module. Superseded by the sequential final root run.
+
+$ pnpm -r --if-present test
+Scope: 9 of 10 workspace projects
+tools/render-art test$ vitest run
+tools/render-audio test$ vitest run
+shared test$ vitest run
+tools/render-audio test:
+tools/render-art test:
+tools/render-audio test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/tools/render-audio
+tools/render-audio test:
+tools/render-art test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/tools/render-art
+tools/render-art test:
+shared test:
+shared test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/shared
+shared test:
+shared test:  ✓ test/prompts.test.ts (2 tests) 2ms
+shared test:  ✓ test/mash.test.ts (2 tests) 4ms
+shared test:  ✓ test/host.test.ts (12 tests) 57ms
+shared test:  ✓ test/pixelJudge.test.ts (11 tests) 79ms
+shared test:  ✓ test/showcase.test.ts (3 tests) 409ms
+shared test:    ✓ opt-in submission showcase > replays identical cues, prompts, finds, votes and scores from its own seed  331ms
+tools/render-audio test:  ✓ test/audio.test.ts (137 tests) 355ms
+tools/render-audio test:
+tools/render-audio test:  Test Files  1 passed (1)
+tools/render-audio test:       Tests  137 passed (137)
+tools/render-audio test:    Start at  01:42:16
+tools/render-audio test:    Duration  1.57s (transform 136ms, setup 0ms, collect 477ms, tests 355ms, environment 0ms, prepare 58ms)
+tools/render-audio test:
+tools/render-audio test: Done
+tools/render-art test:  ✓ test/assets.test.ts (7 tests) 1010ms
+tools/render-art test:    ✓ shippable reference art > has trustworthy file hashes, pixel dimensions and anchors within the memory budget  745ms
+tools/render-art test:
+tools/render-art test:  Test Files  1 passed (1)
+tools/render-art test:       Tests  7 passed (7)
+tools/render-art test:    Start at  01:42:16
+tools/render-art test:    Duration  1.84s (transform 69ms, setup 0ms, collect 136ms, tests 1.01s, environment 0ms, prepare 82ms)
+tools/render-art test:
+tools/render-art test: Done
+shared test:  ✓ test/game.test.ts (40 tests) 1752ms
+shared test:
+shared test:  Test Files  6 passed (6)
+shared test:       Tests  70 passed (70)
+shared test:    Start at  01:42:16
+shared test:    Duration  2.72s (transform 340ms, setup 0ms, collect 1.42s, tests 2.30s, environment 1ms, prepare 544ms)
+shared test:
+shared test: Done
+tools/director test$ vitest run
+phone test$ vitest run
+tools/eval test$ vitest run
+relay test$ vitest run
+tools/director test:
+tools/director test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/tools/director
+tools/director test:
+tools/eval test:
+tools/eval test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/tools/eval
+tools/eval test:
+relay test:
+relay test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/relay
+relay test:
+phone test:
+phone test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/phone
+phone test:
+phone test:  ✓ test/faceBlur.test.ts (20 tests) 11ms
+phone test:  ✓ test/art.test.ts (2 tests) 3ms
+phone test:  ✓ test/logic.test.ts (17 tests) 5ms
+phone test:  ✓ test/camera.test.ts (6 tests) 61ms
+phone test:
+phone test:  Test Files  4 passed (4)
+phone test:       Tests  45 passed (45)
+phone test:    Start at  01:42:19
+phone test:    Duration  1.05s (transform 273ms, setup 0ms, collect 694ms, tests 81ms, environment 0ms, prepare 595ms)
+phone test:
+relay test:  ✓ test/deploy.test.ts (1 test) 327ms
+relay test:    ✓ rejects an untrusted static archive before extraction or replacing an installed encoder  326ms
+phone test: Done
+tv test$ pnpm lint && vitest run
+tv test: $ eslint src test --ext .ts,.tsx
+relay test:  ✓ test/voice-media.test.ts (2 tests) 148ms
+tools/director test:  ✓ test/director.test.ts (5 tests) 380ms
+tools/director test:
+tools/director test:  Test Files  1 passed (1)
+tools/director test:       Tests  5 passed (5)
+tools/director test:    Start at  01:42:19
+tools/director test:    Duration  1.64s (transform 241ms, setup 0ms, collect 526ms, tests 380ms, environment 0ms, prepare 187ms)
+tools/director test:
+tools/director test: Done
+tvsim test$ vitest run
+tvsim test:
+tvsim test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/tvsim
+tvsim test:
+relay test:  ✓ test/services.test.ts (18 tests) 148ms
+relay test:  ✓ test/wav.test.ts (3 tests) 5ms
+tools/eval test:  ✓ test/eval.test.ts (14 tests) 1321ms
+tools/eval test:    ✓ Chrome canvas integration > decodes a fixture, matches shared judging and strips source metadata on capture  1159ms
+tools/eval test:
+tools/eval test:  Test Files  1 passed (1)
+tools/eval test:       Tests  14 passed (14)
+tools/eval test:    Start at  01:42:19
+tools/eval test:    Duration  2.70s (transform 235ms, setup 0ms, collect 652ms, tests 1.32s, environment 0ms, prepare 62ms)
+tools/eval test:
+tools/eval test: Done
+tvsim test:  ✓ test/simulator.test.ts (8 tests) 231ms
+tvsim test:
+tvsim test:  Test Files  1 passed (1)
+tvsim test:       Tests  8 passed (8)
+tvsim test:    Start at  01:42:21
+tvsim test:    Duration  817ms (transform 160ms, setup 0ms, collect 211ms, tests 231ms, environment 0ms, prepare 67ms)
+tvsim test:
+tv test:
+tv test:  RUN  v3.2.7 ~/Desktop/Projects/snag-wt/polish1/tv
+tv test:
+tvsim test: Done
+tv test:  ✓ test/speech-source.test.ts (4 tests) 11ms
+tv test:  ✓ test/pixel-raster.test.ts (4 tests) 36ms
+tv test:  ✓ test/eyes-trajectory.test.ts (3 tests) 15ms
+tv test:  ✓ test/effects-text.test.ts (2 tests) 43ms
+tv test:  ✓ test/particle-plan.test.ts (2 tests) 34ms
+tv test:  ✓ test/control-isolation.test.ts (1 test) 251ms
+tv test:  ✓ test/media-transport.test.ts (6 tests) 75ms
+tv test:  ✓ test/svg-image-source.test.ts (2 tests) 1ms
+tv test:  ✓ test/instruments.test.ts (6 tests) 57ms
+tv test:  ✓ test/runtime-clock.test.ts (2 tests) 146ms
+tv test:  ✓ test/review-fixes.test.ts (7 tests) 217ms
+tv test:  ✓ test/speech.test.ts (18 tests) 9ms
+tv test:  ✓ test/cue-timing.test.ts (3 tests) 5ms
+tv test:  ✓ test/display-primitives.test.ts (8 tests) 5ms
+tv test:  ✓ test/effects.test.ts (1 test) 5ms
+tv test:  ✓ test/native-voice-lifecycle.test.ts (3 tests) 5ms
+tv test:  ✓ test/voice-audio.test.ts (2 tests) 7ms
+tv test:  ✓ test/audio-initialization.test.ts (3 tests) 6ms
+tv test:  ✓ test/decorative-clock.test.ts (2 tests) 1ms
+tv test:  ✓ test/coordinates.test.ts (2 tests) 1ms
+tv test:  ✓ test/parade-reference.test.ts (1 test) 1221ms
+tv test:    ✓ native parade follows the actual reference CSS, including alternate hops and bottom origin  1220ms
+tv test:
+tv test: ⎯⎯⎯⎯⎯⎯ Failed Suites 3 ⎯⎯⎯⎯⎯⎯⎯
+tv test:
+tv test:  FAIL  test/memory-photos.test.ts [ test/memory-photos.test.ts ]
+tv test:  FAIL  test/photo-raster.test.ts [ test/photo-raster.test.ts ]
+tv test:  FAIL  test/primitives.test.ts [ test/primitives.test.ts ]
+tv test: TypeError: Cannot read properties of undefined (reading 'endsWith')
+tv test:  ❯ imageBytes src/stage/photo-raster.ts:6:22
+tv test:       4| const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz…
+tv test:       5| export function imageBytes(base64: string): Uint8Array {
+tv test:       6|   const pad = base64.endsWith('==') ? 2 : base64.endsWith('=') ? 1 : 0;
+tv test:        |                      ^
+tv test:       7|   const bytes = new Uint8Array(base64.length / 4 * 3 - pad);
+tv test:       8|   for (let i = 0, j = 0; i < base64.length; i += 4) {
+tv test:  ❯ src/stage/photo-raster.ts:15:16
+tv test:  ❯ src/stage/photo-raster.ts:19:1
+tv test:  ❯ src/stage/memory-images.ts:1:1
+tv test:
+tv test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+tv test:
+tv test:
+tv test:  Test Files  3 failed | 21 passed (24)
+tv test:       Tests  82 passed (82)
+tv test:    Start at  01:42:22
+tv test:    Duration  1.80s (transform 1.11s, setup 0ms, collect 3.62s, tests 2.15s, environment 5ms, prepare 2.23s)
+tv test:
+tv test: Failed
+[ELIFECYCLE] Test failed. See above for more details.
+relay test: Failed
+[ELIFECYCLE] Command failed with signal SIGKILL.
+Error: ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL
+
+  × "pnpm recursive run" failed in ~/Desktop/Projects/
+  │ snag-wt/polish1/tv
+
+[ELIFECYCLE] Test failed. See above for more details.

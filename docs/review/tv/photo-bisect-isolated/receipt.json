@@ -1,0 +1,99 @@
+{
+  "verifiedAt": "2026-10-13T22:15:24.372Z",
+  "nativeOnly": true,
+  "synthetic": true,
+  "implementation": "baseline native rounded Image + animated mask rows",
+  "cases": [
+    {
+      "mode": "photo",
+      "speed": 1,
+      "seconds": 10,
+      "cycles": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "snapshotsResponsive": true,
+      "presentationAdvanced": true,
+      "exceptions": 0,
+      "maskEvents": 0,
+      "captures": [
+        "docs/review/tv/photo-bisect-isolated/native-photo-early.png",
+        "docs/review/tv/photo-bisect-isolated/native-photo-late.png"
+      ]
+    },
+    {
+      "mode": "clip",
+      "speed": 1,
+      "seconds": 10,
+      "cycles": [
+        0,
+        1,
+        2
+      ],
+      "snapshotsResponsive": true,
+      "presentationAdvanced": true,
+      "exceptions": 0,
+      "maskEvents": 0,
+      "captures": [
+        "docs/review/tv/photo-bisect-isolated/native-clip-early.png",
+        "docs/review/tv/photo-bisect-isolated/native-clip-late.png"
+      ]
+    },
+    {
+      "mode": "eyes",
+      "speed": 1,
+      "seconds": 10,
+      "cycles": [
+        0,
+        1,
+        2
+      ],
+      "snapshotsResponsive": true,
+      "presentationAdvanced": true,
+      "exceptions": 0,
+      "maskEvents": 0,
+      "captures": [
+        "docs/review/tv/photo-bisect-isolated/native-eyes-early.png",
+        "docs/review/tv/photo-bisect-isolated/native-eyes-late.png"
+      ]
+    },
+    {
+      "mode": "mask",
+      "speed": 1,
+      "seconds": 10,
+      "cycles": [
+        0,
+        1,
+        2
+      ],
+      "snapshotsResponsive": true,
+      "presentationAdvanced": true,
+      "exceptions": 0,
+      "maskEvents": 1,
+      "captures": [
+        "docs/review/tv/photo-bisect-isolated/native-mask-early.png",
+        "docs/review/tv/photo-bisect-isolated/native-mask-late.png"
+      ]
+    },
+    {
+      "mode": "judge",
+      "speed": 1,
+      "seconds": 10,
+      "cycles": [
+        0,
+        1,
+        2
+      ],
+      "snapshotsResponsive": true,
+      "presentationAdvanced": true,
+      "exceptions": 0,
+      "maskEvents": 4,
+      "captures": [
+        "docs/review/tv/photo-bisect-isolated/native-judge-early.png",
+        "docs/review/tv/photo-bisect-isolated/native-judge-late.png"
+      ]
+    }
+  ]
+}

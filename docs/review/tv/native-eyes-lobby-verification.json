@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-10-13T14:41:53.858Z",
+  "target": "VVD OS 1.2 aarch64 Release",
+  "capture": "VVD console screenrecord; 1920x1080; 8 seconds; 60 fps; silent",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "60/1",
+    "duration": "8.000000",
+    "nb_frames": "480"
+  },
+  "snapshot": {
+    "kind": "snapshot",
+    "ready": true,
+    "loaded": true,
+    "connected": true,
+    "hermes": true,
+    "code": "JPRY",
+    "scene": "lobby",
+    "phase": "lobby",
+    "completed": false,
+    "paused": false,
+    "teams": 0,
+    "cues": 17,
+    "exceptions": 0,
+    "runtime": "native"
+  },
+  "nativeOnly": true,
+  "exceptions": 0,
+  "screenshot": "docs/review/tv/native-eyes-lobby.png",
+  "clip": "docs/review/tv/native-eyes-lobby.mp4"
+}

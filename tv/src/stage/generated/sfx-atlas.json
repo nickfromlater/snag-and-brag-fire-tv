@@ -1,0 +1,454 @@
+{
+ "file": "sfx-atlas.ogg",
+ "gapSeconds": 1.5,
+ "clips": {
+  "sfx-aww": {
+   "start": 0,
+   "duration": 0.6355208333333333
+  },
+  "sfx-beep-0": {
+   "start": 2.1355208333333335,
+   "duration": 0.16929166666666667
+  },
+  "sfx-beep-1": {
+   "start": 3.8048125,
+   "duration": 0.4168541666666667
+  },
+  "sfx-boing": {
+   "start": 5.721666666666667,
+   "duration": 0.30804166666666666
+  },
+  "sfx-bonk": {
+   "start": 7.529708333333334,
+   "duration": 0.16110416666666666
+  },
+  "sfx-boom-v1": {
+   "start": 9.1908125,
+   "duration": 0.4865833333333333
+  },
+  "sfx-boom-v2": {
+   "start": 11.177395833333334,
+   "duration": 0.493125
+  },
+  "sfx-boom-v3": {
+   "start": 13.170520833333333,
+   "duration": 0.4973125
+  },
+  "sfx-buzzer": {
+   "start": 15.167833333333334,
+   "duration": 0.7249583333333334
+  },
+  "sfx-coin": {
+   "start": 17.392791666666668,
+   "duration": 0.6700625
+  },
+  "sfx-crowd-2-18": {
+   "start": 19.562854166666668,
+   "duration": 1.5397291666666666
+  },
+  "sfx-crowd-default": {
+   "start": 22.60258333333333,
+   "duration": 1.1872291666666666
+  },
+  "sfx-crowd-mash-04": {
+   "start": 25.2898125,
+   "duration": 0.5191875
+  },
+  "sfx-crowd-mash-06": {
+   "start": 27.309,
+   "duration": 0.510625
+  },
+  "sfx-crowd-mash-08": {
+   "start": 29.319625,
+   "duration": 0.484625
+  },
+  "sfx-crowd-mash-10": {
+   "start": 31.30425,
+   "duration": 0.5037916666666666
+  },
+  "sfx-crowd-mash-12": {
+   "start": 33.30804166666667,
+   "duration": 0.5192708333333333
+  },
+  "sfx-drumroll-1p4": {
+   "start": 35.3273125,
+   "duration": 1.3853125
+  },
+  "sfx-drumroll-2p2": {
+   "start": 38.212625,
+   "duration": 2.2363541666666666
+  },
+  "sfx-drumroll-2p3": {
+   "start": 41.94897916666667,
+   "duration": 2.2956875
+  },
+  "sfx-fanfare": {
+   "start": 45.74466666666667,
+   "duration": 1.53525
+  },
+  "sfx-flip": {
+   "start": 48.779916666666665,
+   "duration": 0.11779166666666667
+  },
+  "sfx-horn": {
+   "start": 50.397708333333334,
+   "duration": 0.5708333333333333
+  },
+  "sfx-join": {
+   "start": 52.46854166666667,
+   "duration": 1.011375
+  },
+  "sfx-ko": {
+   "start": 54.97991666666667,
+   "duration": 0.681
+  },
+  "sfx-lock": {
+   "start": 57.160916666666665,
+   "duration": 0.13445833333333335
+  },
+  "sfx-mash-0": {
+   "start": 58.795375,
+   "duration": 0.086875
+  },
+  "sfx-mash-1": {
+   "start": 60.38225,
+   "duration": 0.0869375
+  },
+  "sfx-mash-10": {
+   "start": 61.9691875,
+   "duration": 0.08685416666666666
+  },
+  "sfx-mash-11": {
+   "start": 63.556041666666665,
+   "duration": 0.08691666666666667
+  },
+  "sfx-mash-12": {
+   "start": 65.14295833333334,
+   "duration": 0.087
+  },
+  "sfx-mash-2": {
+   "start": 66.72995833333333,
+   "duration": 0.08664583333333334
+  },
+  "sfx-mash-3": {
+   "start": 68.31660416666666,
+   "duration": 0.08689583333333334
+  },
+  "sfx-mash-4": {
+   "start": 69.9035,
+   "duration": 0.08695833333333333
+  },
+  "sfx-mash-5": {
+   "start": 71.49045833333334,
+   "duration": 0.086875
+  },
+  "sfx-mash-6": {
+   "start": 73.07733333333333,
+   "duration": 0.0869375
+  },
+  "sfx-mash-7": {
+   "start": 74.66427083333333,
+   "duration": 0.08664583333333334
+  },
+  "sfx-mash-8": {
+   "start": 76.25091666666667,
+   "duration": 0.08689583333333334
+  },
+  "sfx-mash-9": {
+   "start": 77.8378125,
+   "duration": 0.08641666666666667
+  },
+  "sfx-mtick-0000": {
+   "start": 79.42422916666666,
+   "duration": 0.06979166666666667
+  },
+  "sfx-mtick-0125": {
+   "start": 80.99402083333334,
+   "duration": 0.07033333333333333
+  },
+  "sfx-mtick-0250": {
+   "start": 82.56435416666666,
+   "duration": 0.07025
+  },
+  "sfx-mtick-0375": {
+   "start": 84.13460416666666,
+   "duration": 0.07016666666666667
+  },
+  "sfx-mtick-0500": {
+   "start": 85.70477083333333,
+   "duration": 0.07010416666666666
+  },
+  "sfx-mtick-0625": {
+   "start": 87.274875,
+   "duration": 0.0700625
+  },
+  "sfx-mtick-0750": {
+   "start": 88.8449375,
+   "duration": 0.07002083333333334
+  },
+  "sfx-mtick-0875": {
+   "start": 90.41495833333333,
+   "duration": 0.07029166666666667
+  },
+  "sfx-mtick-1000": {
+   "start": 91.98525,
+   "duration": 0.07025
+  },
+  "sfx-pop-0": {
+   "start": 93.5555,
+   "duration": 0.13097916666666667
+  },
+  "sfx-pop-2": {
+   "start": 95.18647916666667,
+   "duration": 0.13083333333333333
+  },
+  "sfx-pop-4": {
+   "start": 96.8173125,
+   "duration": 0.13116666666666665
+  },
+  "sfx-pop-6": {
+   "start": 98.44847916666667,
+   "duration": 0.13104166666666667
+  },
+  "sfx-pop-8": {
+   "start": 100.07952083333333,
+   "duration": 0.13095833333333334
+  },
+  "sfx-react-flame-v1": {
+   "start": 101.71047916666667,
+   "duration": 0.10797916666666667
+  },
+  "sfx-react-flame-v2": {
+   "start": 103.31845833333334,
+   "duration": 0.10989583333333333
+  },
+  "sfx-react-flame-v3": {
+   "start": 104.92835416666667,
+   "duration": 0.11091666666666666
+  },
+  "sfx-react-heart-0": {
+   "start": 106.53927083333333,
+   "duration": 0.11320833333333333
+  },
+  "sfx-react-heart-1": {
+   "start": 108.15247916666667,
+   "duration": 0.11327083333333333
+  },
+  "sfx-react-heart-2": {
+   "start": 109.76575,
+   "duration": 0.11335416666666667
+  },
+  "sfx-react-heart-3": {
+   "start": 111.37910416666666,
+   "duration": 0.11364583333333333
+  },
+  "sfx-react-heart-4": {
+   "start": 112.99275,
+   "duration": 0.11366666666666667
+  },
+  "sfx-react-heart-5": {
+   "start": 114.60641666666666,
+   "duration": 0.11377083333333333
+  },
+  "sfx-react-heart-6": {
+   "start": 116.2201875,
+   "duration": 0.11377083333333333
+  },
+  "sfx-react-heart-7": {
+   "start": 117.83395833333333,
+   "duration": 0.11379166666666667
+  },
+  "sfx-react-heart-8": {
+   "start": 119.44775,
+   "duration": 0.1135
+  },
+  "sfx-react-heart-9": {
+   "start": 121.06125,
+   "duration": 0.11377083333333333
+  },
+  "sfx-react-star-0": {
+   "start": 122.67502083333333,
+   "duration": 0.5762708333333333
+  },
+  "sfx-react-star-1": {
+   "start": 124.75129166666666,
+   "duration": 0.5722083333333333
+  },
+  "sfx-react-star-2": {
+   "start": 126.8235,
+   "duration": 0.6327083333333333
+  },
+  "sfx-react-star-3": {
+   "start": 128.95620833333334,
+   "duration": 0.5877708333333334
+  },
+  "sfx-react-star-4": {
+   "start": 131.04397916666667,
+   "duration": 0.5407291666666667
+  },
+  "sfx-react-star-5": {
+   "start": 133.08470833333334,
+   "duration": 0.5625833333333333
+  },
+  "sfx-react-star-6": {
+   "start": 135.14729166666666,
+   "duration": 0.5405208333333333
+  },
+  "sfx-react-star-7": {
+   "start": 137.1878125,
+   "duration": 0.5898125
+  },
+  "sfx-react-star-8": {
+   "start": 139.277625,
+   "duration": 0.594875
+  },
+  "sfx-react-star-9": {
+   "start": 141.3725,
+   "duration": 0.5930833333333333
+  },
+  "sfx-react-tomato-v1": {
+   "start": 143.46558333333334,
+   "duration": 0.1568125
+  },
+  "sfx-react-tomato-v2": {
+   "start": 145.12239583333334,
+   "duration": 0.1568125
+  },
+  "sfx-react-tomato-v3": {
+   "start": 146.77920833333334,
+   "duration": 0.1568125
+  },
+  "sfx-reveal": {
+   "start": 148.43602083333334,
+   "duration": 0.8693958333333334
+  },
+  "sfx-riser-1p2": {
+   "start": 150.80541666666667,
+   "duration": 1.2022291666666667
+  },
+  "sfx-rival": {
+   "start": 153.50764583333333,
+   "duration": 0.24885416666666665
+  },
+  "sfx-rollTick": {
+   "start": 155.2565,
+   "duration": 0.06472916666666667
+  },
+  "sfx-scan": {
+   "start": 156.82122916666665,
+   "duration": 0.5660208333333333
+  },
+  "sfx-sel": {
+   "start": 158.88725,
+   "duration": 0.179875
+  },
+  "sfx-shutter": {
+   "start": 160.567125,
+   "duration": 0.14491666666666667
+  },
+  "sfx-slam": {
+   "start": 162.21204166666666,
+   "duration": 0.33989583333333334
+  },
+  "sfx-snagged": {
+   "start": 164.0519375,
+   "duration": 1.016375
+  },
+  "sfx-sparkle": {
+   "start": 166.5683125,
+   "duration": 0.6017083333333333
+  },
+  "sfx-stamp": {
+   "start": 168.67002083333333,
+   "duration": 0.23202083333333334
+  },
+  "sfx-taken": {
+   "start": 170.40204166666666,
+   "duration": 0.29222916666666665
+  },
+  "sfx-tap": {
+   "start": 172.19427083333332,
+   "duration": 0.07635416666666667
+  },
+  "sfx-thump": {
+   "start": 173.770625,
+   "duration": 0.20345833333333332
+  },
+  "sfx-tick": {
+   "start": 175.47408333333334,
+   "duration": 0.06570833333333333
+  },
+  "sfx-voice-v01": {
+   "start": 177.03979166666667,
+   "duration": 0.10447916666666666
+  },
+  "sfx-voice-v02": {
+   "start": 178.64427083333334,
+   "duration": 0.09789583333333333
+  },
+  "sfx-voice-v03": {
+   "start": 180.24216666666666,
+   "duration": 0.10470833333333333
+  },
+  "sfx-voice-v04": {
+   "start": 181.846875,
+   "duration": 0.10125
+  },
+  "sfx-voice-v05": {
+   "start": 183.448125,
+   "duration": 0.10075
+  },
+  "sfx-voice-v06": {
+   "start": 185.048875,
+   "duration": 0.10395833333333333
+  },
+  "sfx-voice-v07": {
+   "start": 186.65283333333332,
+   "duration": 0.09733333333333333
+  },
+  "sfx-voice-v08": {
+   "start": 188.25016666666667,
+   "duration": 0.1033125
+  },
+  "sfx-voice-v09": {
+   "start": 189.85347916666666,
+   "duration": 0.09997916666666666
+  },
+  "sfx-voice-v10": {
+   "start": 191.45345833333334,
+   "duration": 0.097625
+  },
+  "sfx-voice-v11": {
+   "start": 193.05108333333334,
+   "duration": 0.1015
+  },
+  "sfx-voice-v12": {
+   "start": 194.65258333333333,
+   "duration": 0.10458333333333333
+  },
+  "sfx-voice-v13": {
+   "start": 196.25716666666668,
+   "duration": 0.10160416666666666
+  },
+  "sfx-voice-v14": {
+   "start": 197.85877083333332,
+   "duration": 0.09572916666666667
+  },
+  "sfx-voice-v15": {
+   "start": 199.4545,
+   "duration": 0.102375
+  },
+  "sfx-voice-v16": {
+   "start": 201.056875,
+   "duration": 0.10222916666666666
+  },
+  "sfx-whoop": {
+   "start": 202.65910416666668,
+   "duration": 0.2901458333333333
+  },
+  "sfx-whoosh": {
+   "start": 204.44925,
+   "duration": 0.44258333333333333
+  }
+ }
+}

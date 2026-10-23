@@ -1,0 +1,63 @@
+{
+  "packageVersion": "0.10.14",
+  "modelVersion": 1,
+  "assets": [
+    {
+      "path": "face-detector/blaze_face_short_range.tflite",
+      "rawBytes": 229746,
+      "gzipBytes": 199179,
+      "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f",
+      "servedBytes": 199179
+    },
+    {
+      "path": "face-detector/wasm/vision_wasm_internal.js",
+      "rawBytes": 209826,
+      "gzipBytes": 52575,
+      "sha256": "9440cf0cc0cea21800e31581ec32aeedcc5fbf9df4509796bbc7d3f99e52ab9c",
+      "servedBytes": 52575
+    },
+    {
+      "path": "face-detector/wasm/vision_wasm_internal.wasm",
+      "rawBytes": 9423986,
+      "gzipBytes": 2876020,
+      "sha256": "f82a8e6c05e08a44cc9f9e7ec5f845935bcbb1b1500ebe8c2f4812fb4e2917dc",
+      "servedBytes": 2876020
+    },
+    {
+      "path": "face-detector/wasm/vision_wasm_nosimd_internal.js",
+      "rawBytes": 209735,
+      "gzipBytes": 52534,
+      "sha256": "abe9b6fbeaf86fcb53a5edce3926c82ccb0619e18fed4d9d9ce561ee7f55e054",
+      "servedBytes": 52534
+    },
+    {
+      "path": "face-detector/wasm/vision_wasm_nosimd_internal.wasm",
+      "rawBytes": 9294247,
+      "gzipBytes": 2872780,
+      "sha256": "38b61feab2fd7934e05cbe9f68baa308978a5e3b7f85c1913bb8ae89b8ef8b97",
+      "servedBytes": 2872780
+    },
+    {
+      "path": "assets/vision_bundle-hN_Qu4Za.js",
+      "rawBytes": 128667,
+      "gzipBytes": 38547,
+      "sha256": "c3722d503b3f9b680f66a0ff8ce527fee550e9589598823c96be9dc85de1ecc3",
+      "servedBytes": 38547
+    }
+  ],
+  "simdDownloadGzipBytes": 3166321,
+  "noSimdDownloadGzipBytes": 3163040,
+  "allVariantsShippedRawBytes": 19496207,
+  "allVariantsShippedGzipBytes": 6091635,
+  "targetBytes": 3000000,
+  "servedVerified": true,
+  "note": "A phone downloads one WASM/loader variant, plus model and lazy JS. Total-added fields include the measured change to the initial phone JS, compared with the parent revision.",
+  "mainChunk": {
+    "baselineRevision": "75d77e3b65bbf7a753b9e8cd66ad565d41f7b814",
+    "baselineGzipBytes": 32985,
+    "currentGzipBytes": 34722,
+    "addedGzipBytes": 1737
+  },
+  "totalAddedSimdGzipBytes": 3168058,
+  "totalAddedNoSimdGzipBytes": 3164777
+}

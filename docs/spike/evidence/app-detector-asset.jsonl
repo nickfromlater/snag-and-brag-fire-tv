@@ -1,0 +1,1 @@
+{"tool": "read_asset", "arguments": {"asset_id": "assets/scripts/detect_vega_app_type.sh"}, "result": {"content": [{"type": "text", "text": "Script saved to: ~/Desktop/Projects/snag-wt/spike/spike/.cache/tmp/asset_1791852287974.sh\nRun with appropriate interpreter (e.g., python3 ~/Desktop/Projects/snag-wt/spike/spike/.cache/tmp/asset_1791852287974.sh)"}]}}

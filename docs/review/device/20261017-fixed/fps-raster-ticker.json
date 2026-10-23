@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-18T02:10:20.360138+00:00",
+  "scope": "Native Toolkit/Render frame intervals, full direct-render diagnostic lobby; no screenshots or injected input during recording",
+  "deviceTemporaryStorageBeforeRecordingKiB": 652,
+  "nativeWindowPixels": [
+    1920,
+    1080
+  ],
+  "frames": 559,
+  "seconds": 21.79,
+  "averageFps": 25.61,
+  "maximumGapMs": 63.17,
+  "gapsOver100Ms": 0,
+  "minimumTargetFps": 30,
+  "outcome": "FAIL",
+  "change": "Eight static ticker strips with the existing Rubik800 font, spacing, copy and a native-sized filled-circle separator. Web text unchanged."
+}

@@ -1,0 +1,20 @@
+{
+  "builtAt": "2026-10-13T21:47:17.749721+00:00",
+  "pass": true,
+  "sourceCommit": "80333882e14dae8a7bebe9bd2b758394929bd32a",
+  "target": "armv7 Release",
+  "sdk": "0.24.12112",
+  "vegaCli": "1.4.2",
+  "command": "pnpm --filter @snag/tv build:release --target armv7 --use-system-js-bundles true --max-workers 2",
+  "exitCode": 0,
+  "packagePath": "~/Desktop/Projects/snag-wt/tv/tv/build/armv7-release/tv_armv7.vpkg",
+  "copiedPath": "~/builds/snag-and-brag/tv_armv7-integrated.vpkg",
+  "bytes": 24706350,
+  "sha256": "07e93730302c1604b01d30bdc0aff7a5e2a5f9a888c9efeaddac8777f833eeda",
+  "copiedSha256": "07e93730302c1604b01d30bdc0aff7a5e2a5f9a888c9efeaddac8777f833eeda",
+  "copyVerified": true,
+  "deviceTested": false,
+  "fullNativeG2Acceptance": false,
+  "g2Receipt": "docs/review/tv/g2-native-e2e.json",
+  "note": "Compiled successfully; the separate native G2 still stalls. No physical armv7 deployment or full-game pass is claimed."
+}

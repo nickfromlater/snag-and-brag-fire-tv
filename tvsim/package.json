@@ -1,0 +1,21 @@
+{
+  "name": "tvsim",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@snag/shared": "workspace:*",
+    "jpeg-js": "^0.4.4",
+    "tsx": "^4.20.6",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/ws": "^8.18.1"
+  }
+}

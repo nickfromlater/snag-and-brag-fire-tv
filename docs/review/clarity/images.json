@@ -1,0 +1,162 @@
+[
+  {
+    "name": "01-lobby",
+    "reference": "reference/screens/tv-01-lobby.png",
+    "before": "before/01-lobby.png",
+    "after": "after/01-lobby.png",
+    "compare": "01-lobby-compare.png",
+    "couch": "01-lobby-10ft.png"
+  },
+  {
+    "name": "02-round-title",
+    "reference": "docs/review/clarity/mockup/round-1-title.png",
+    "before": "before/02-round-title.png",
+    "after": "after/02-round-title.png",
+    "compare": "02-round-title-compare.png",
+    "couch": "02-round-title-10ft.png"
+  },
+  {
+    "name": "03-prompt-reel",
+    "reference": "reference/screens/tv-03-prompt-reel.png",
+    "before": "before/03-prompt-reel.png",
+    "after": "after/03-prompt-reel.png",
+    "compare": "03-prompt-reel-compare.png",
+    "couch": "03-prompt-reel-10ft.png"
+  },
+  {
+    "name": "04-countdown",
+    "reference": "docs/review/clarity/mockup/countdown.png",
+    "before": "before/04-countdown.png",
+    "after": "after/04-countdown.png",
+    "compare": "04-countdown-compare.png",
+    "couch": "04-countdown-10ft.png"
+  },
+  {
+    "name": "05-hunt",
+    "reference": "reference/screens/tv-04-hunt-live-feeds.png",
+    "before": "before/05-hunt.png",
+    "after": "after/05-hunt.png",
+    "compare": "05-hunt-compare.png",
+    "couch": "05-hunt-10ft.png"
+  },
+  {
+    "name": "06-snagged",
+    "reference": "reference/screens/tv-05-snagged.png",
+    "before": "before/06-snagged.png",
+    "after": "after/06-snagged.png",
+    "compare": "06-snagged-compare.png",
+    "couch": "06-snagged-10ft.png"
+  },
+  {
+    "name": "07-glow-up",
+    "reference": "docs/review/clarity/mockup/glow-up.png",
+    "before": "before/07-glow-up.png",
+    "after": "after/07-glow-up.png",
+    "compare": "07-glow-up-compare.png",
+    "couch": "07-glow-up-10ft.png"
+  },
+  {
+    "name": "08-pixel-judge",
+    "reference": "reference/screens/tv-06-pixel-judge.png",
+    "before": "before/08-pixel-judge.png",
+    "after": "after/08-pixel-judge.png",
+    "compare": "08-pixel-judge-compare.png",
+    "couch": "08-pixel-judge-10ft.png"
+  },
+  {
+    "name": "09-judge-winner",
+    "reference": "reference/screens/tv-06-pixel-judge.png",
+    "before": "before/09-judge-winner.png",
+    "after": "after/09-judge-winner.png",
+    "compare": "09-judge-winner-compare.png",
+    "couch": "09-judge-winner-10ft.png"
+  },
+  {
+    "name": "10-standings",
+    "reference": "reference/screens/tv-07-standings.png",
+    "before": "before/10-standings.png",
+    "after": "after/10-standings.png",
+    "compare": "10-standings-compare.png",
+    "couch": "10-standings-10ft.png"
+  },
+  {
+    "name": "11-brag-lines",
+    "reference": "reference/screens/tv-08-brag-lines.png",
+    "before": "before/11-brag-lines.png",
+    "after": "after/11-brag-lines.png",
+    "compare": "11-brag-lines-compare.png",
+    "couch": "11-brag-lines-10ft.png"
+  },
+  {
+    "name": "12-brag-mash",
+    "reference": "reference/screens/tv-09-brag-mash.png",
+    "before": "before/12-brag-mash.png",
+    "after": "after/12-brag-mash.png",
+    "compare": "12-brag-mash-compare.png",
+    "couch": "12-brag-mash-10ft.png"
+  },
+  {
+    "name": "13-brag-knockout",
+    "reference": "reference/screens/tv-10-brag-knockout.png",
+    "before": "before/13-brag-knockout.png",
+    "after": "after/13-brag-knockout.png",
+    "compare": "13-brag-knockout-compare.png",
+    "couch": "13-brag-knockout-10ft.png"
+  },
+  {
+    "name": "14-show-vote",
+    "reference": "reference/screens/tv-11-showstopper-vote.png",
+    "before": "before/14-show-vote.png",
+    "after": "after/14-show-vote.png",
+    "compare": "14-show-vote-compare.png",
+    "couch": "14-show-vote-10ft.png"
+  },
+  {
+    "name": "15-show-winner",
+    "reference": "reference/screens/tv-12-showstopper-win.png",
+    "before": "before/15-show-winner.png",
+    "after": "after/15-show-winner.png",
+    "compare": "15-show-winner-compare.png",
+    "couch": "15-show-winner-10ft.png"
+  },
+  {
+    "name": "16-finale",
+    "reference": "reference/screens/tv-13-finale.png",
+    "before": "before/16-finale.png",
+    "after": "after/16-finale.png",
+    "compare": "16-finale-compare.png",
+    "couch": "16-finale-10ft.png"
+  },
+  {
+    "name": "17-round-2-title",
+    "reference": "docs/review/clarity/mockup/round-2-title.png",
+    "before": "before/17-round-2-title.png",
+    "after": "after/17-round-2-title.png",
+    "compare": "17-round-2-title-compare.png",
+    "couch": "17-round-2-title-10ft.png"
+  },
+  {
+    "name": "18-round-3-title",
+    "reference": "docs/review/clarity/mockup/round-3-title.png",
+    "before": "before/18-round-3-title.png",
+    "after": "after/18-round-3-title.png",
+    "compare": "18-round-3-title-compare.png",
+    "couch": "18-round-3-title-10ft.png"
+  },
+  {
+    "name": "19-round-2-hunt",
+    "reference": "reference/screens/tv-04-hunt-live-feeds.png",
+    "before": "before/19-round-2-hunt.png",
+    "after": "after/19-round-2-hunt.png",
+    "compare": "19-round-2-hunt-compare.png",
+    "couch": "19-round-2-hunt-10ft.png"
+  },
+  {
+    "name": "20-round-3-hunt",
+    "reference": "reference/screens/tv-04-hunt-live-feeds.png",
+    "before": "before/20-round-3-hunt.png",
+    "after": "after/20-round-3-hunt.png",
+    "compare": "20-round-3-hunt-compare.png",
+    "couch": "20-round-3-hunt-10ft.png"
+  }
+]

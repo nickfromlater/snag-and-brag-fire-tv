@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-18T00:35:11.035383+00:00",
+  "outcome": "PASS_PACKAGE_INSPECTION",
+  "target": "armv7",
+  "buildType": "Release",
+  "candidate": "~/builds/snag-and-brag/tv_armv7-ready-candidate-release.vpkg",
+  "bytes": 23382159,
+  "sha256": "b3477359f07f0b81b75d49ffe125f17c9b96c74746cf827f932fbe778533b7f7",
+  "sourceCommit": "0531f3538bb3309c1aca0deb4fde03ad186fe784",
+  "sourceDirty": true,
+  "runtime": {
+    "relayUrl": "wss://d2q0olvpmfmvjn.cloudfront.net/ws",
+    "controlUrl": "ws://127.0.0.1:8790",
+    "directorUrl": "ws://127.0.0.1:8791/renderer",
+    "showcase": false,
+    "debug": false,
+    "offline": false,
+    "photoProbe": false
+  },
+  "systemJsBundles": true,
+  "hermesFlags": [
+    "-O",
+    "-w",
+    "-g0"
+  ],
+  "archiveEntries": 604,
+  "hermesBundleBytes": 2001608,
+  "appId": "com.snagbrag.tv",
+  "appTimeoutSeconds": 1800,
+  "remoteServiceDeclared": true,
+  "homeAccountKeySignatures": 0,
+  "sourceMaps": 0,
+  "installationVerified": false,
+  "hardwareAcceptance": "Superseded by background-resource cleanup after a screensaver/background memory kill; not promoted"
+}

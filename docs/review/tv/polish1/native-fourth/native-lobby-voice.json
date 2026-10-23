@@ -1,0 +1,162 @@
+{
+  "pass": true,
+  "runtime": "native",
+  "speed": 1,
+  "muted": true,
+  "route": {
+    "kind": "voice-line",
+    "hermes": true,
+    "lineSeq": 15,
+    "trigger": "lobby.open",
+    "path": "polly",
+    "reason": "ready",
+    "latencyMs": 13,
+    "durationMs": 1000,
+    "prefetched": true,
+    "wordMarks": 17,
+    "visemeMarks": 18,
+    "runtime": "native"
+  },
+  "samples": [
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 15,
+      "jaw": 0,
+      "elapsedMs": 116,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 18,
+      "jaw": 1,
+      "elapsedMs": 203,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 22,
+      "jaw": 0,
+      "elapsedMs": 250,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 38,
+      "jaw": 0,
+      "elapsedMs": 364,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 46,
+      "jaw": 1,
+      "elapsedMs": 401,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 51,
+      "jaw": 0,
+      "elapsedMs": 448,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 57,
+      "jaw": 1,
+      "elapsedMs": 487,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 62,
+      "jaw": 0,
+      "elapsedMs": 579,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 70,
+      "jaw": 1,
+      "elapsedMs": 625,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 75,
+      "jaw": 0,
+      "elapsedMs": 676,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 77,
+      "jaw": 1,
+      "elapsedMs": 719,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 83,
+      "jaw": 0,
+      "elapsedMs": 763,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 87,
+      "jaw": 1,
+      "elapsedMs": 810,
+      "talking": true,
+      "runtime": "native"
+    },
+    {
+      "kind": "voice-sample",
+      "hermes": true,
+      "lineSeq": 15,
+      "characters": 93,
+      "jaw": 0,
+      "elapsedMs": 850,
+      "talking": true,
+      "runtime": "native"
+    }
+  ]
+}

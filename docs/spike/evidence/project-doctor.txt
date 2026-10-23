@@ -1,0 +1,27 @@
+validating '~/Desktop/Projects/snag-wt/spike/spike/vega-app/manifest.toml' ...
+analyzing manifest.toml ...
+manifest.toml is valid
+manifest validation found 0 errors
+manifest.toml:3:1 info: [package.icon] Icon is not defined in the manifest. System default will be used.
+  help: Define icon to help users recognize your application
+
+done.
+🩺 Project Doctor
+
+  ✅ SDK manifest: 1 OS versions, 2 RN versions
+  ✅ OS versions valid: min=1.2, target=1.2
+  ✅ os.min ≤ os.target: 1.2 ≤ 1.2
+  ⚠️  Dependencies: 1 mismatched: @amazon-devices/react-native-kepler: 2.0.9000000000 -> 2.1.0+rn0.72.0. Run: vega project install --fix
+  ✅ needs.feature valid: All feature IDs known
+  ✅ Deprecated APIs: None
+  ⚠️  Scoped deps in profile: @amazon-devices/expo-asset, @amazon-devices/keplerscript-turbomodule-api not a managed OS-version package (typo, or a package the SDK does not track)
+  ✅ OS version lint: No OS version issues
+  ✅ VPT validation: Manifest passes VPT validation
+  ✅ OS-version compatibility valid: Valid
+
+💡 To fix:
+  • Run: vega project install --fix
+  • Remove unknown scoped packages or check OS version
+  • Docs: https://developer.amazon.com/docs/vega/latest/vega-get-started.html
+
+✅ All critical checks passed. 2 warning(s).

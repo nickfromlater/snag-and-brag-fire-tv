@@ -1,0 +1,733 @@
+{
+  "fixture": "deterministic synthetic showcase, 20-character team names / 18-character object names, 2 and 4 teams",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "photos": "reference object art only",
+  "held": true,
+  "captured": [
+    {
+      "name": "01-lobby",
+      "variant": "four",
+      "at": 6500,
+      "scene": "lobby",
+      "phase": "lobby",
+      "round": -1,
+      "completed": false
+    },
+    {
+      "name": "02-round-title",
+      "variant": "four",
+      "at": 11200,
+      "scene": "intro",
+      "phase": "title",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "03-prompt-reel",
+      "variant": "four",
+      "at": 16490,
+      "scene": "intro",
+      "phase": "reel",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "04-countdown",
+      "variant": "four",
+      "at": 17390,
+      "scene": "intro",
+      "phase": "countdown",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "05-hunt",
+      "variant": "four",
+      "at": 22770,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "06-snagged",
+      "variant": "four",
+      "at": 28570,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "07-glow-up",
+      "variant": "four",
+      "at": 42770,
+      "scene": "hunt",
+      "phase": "glow",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "08-pixel-judge",
+      "variant": "four",
+      "at": 47718,
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "09-judge-winner",
+      "variant": "four",
+      "at": 58458,
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "10-standings",
+      "variant": "four",
+      "at": 64158,
+      "scene": "stand",
+      "phase": "standings",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "11-brag-lines",
+      "variant": "four",
+      "at": 105858,
+      "scene": "brag",
+      "phase": "brag-lines",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "12-brag-mash",
+      "variant": "four",
+      "at": 142482,
+      "scene": "brag",
+      "phase": "mash",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "13-brag-knockout",
+      "variant": "four",
+      "at": 115738,
+      "scene": "brag",
+      "phase": "knockout",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "14-show-vote",
+      "variant": "four",
+      "at": 195956,
+      "scene": "show",
+      "phase": "vote",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "15-show-winner",
+      "variant": "four",
+      "at": 203156,
+      "scene": "show",
+      "phase": "tally",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "16-finale",
+      "variant": "four",
+      "at": 217460,
+      "scene": "champ",
+      "phase": "finale",
+      "round": 3,
+      "completed": false
+    },
+    {
+      "name": "17-round-2-title",
+      "variant": "four",
+      "at": 67280,
+      "scene": "intro",
+      "phase": "title",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "18-round-3-title",
+      "variant": "four",
+      "at": 155802,
+      "scene": "intro",
+      "phase": "title",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "19-round-2-hunt",
+      "variant": "four",
+      "at": 79054,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "20-round-3-hunt",
+      "variant": "four",
+      "at": 167406,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "01-lobby",
+      "variant": "long-four",
+      "at": 6500,
+      "scene": "lobby",
+      "phase": "lobby",
+      "round": -1,
+      "completed": false
+    },
+    {
+      "name": "02-round-title",
+      "variant": "long-four",
+      "at": 11200,
+      "scene": "intro",
+      "phase": "title",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "03-prompt-reel",
+      "variant": "long-four",
+      "at": 16490,
+      "scene": "intro",
+      "phase": "reel",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "04-countdown",
+      "variant": "long-four",
+      "at": 17390,
+      "scene": "intro",
+      "phase": "countdown",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "05-hunt",
+      "variant": "long-four",
+      "at": 22770,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "06-snagged",
+      "variant": "long-four",
+      "at": 28570,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "07-glow-up",
+      "variant": "long-four",
+      "at": 42770,
+      "scene": "hunt",
+      "phase": "glow",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "08-pixel-judge",
+      "variant": "long-four",
+      "at": 47718,
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "09-judge-winner",
+      "variant": "long-four",
+      "at": 58458,
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "10-standings",
+      "variant": "long-four",
+      "at": 64158,
+      "scene": "stand",
+      "phase": "standings",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "11-brag-lines",
+      "variant": "long-four",
+      "at": 105858,
+      "scene": "brag",
+      "phase": "brag-lines",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "12-brag-mash",
+      "variant": "long-four",
+      "at": 142482,
+      "scene": "brag",
+      "phase": "mash",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "13-brag-knockout",
+      "variant": "long-four",
+      "at": 115738,
+      "scene": "brag",
+      "phase": "knockout",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "14-show-vote",
+      "variant": "long-four",
+      "at": 195956,
+      "scene": "show",
+      "phase": "vote",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "15-show-winner",
+      "variant": "long-four",
+      "at": 203156,
+      "scene": "show",
+      "phase": "tally",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "16-finale",
+      "variant": "long-four",
+      "at": 217460,
+      "scene": "champ",
+      "phase": "finale",
+      "round": 3,
+      "completed": false
+    },
+    {
+      "name": "17-round-2-title",
+      "variant": "long-four",
+      "at": 67280,
+      "scene": "intro",
+      "phase": "title",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "18-round-3-title",
+      "variant": "long-four",
+      "at": 155802,
+      "scene": "intro",
+      "phase": "title",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "19-round-2-hunt",
+      "variant": "long-four",
+      "at": 79054,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "20-round-3-hunt",
+      "variant": "long-four",
+      "at": 167406,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "01-lobby",
+      "variant": "two",
+      "at": 6500,
+      "scene": "lobby",
+      "phase": "lobby",
+      "round": -1,
+      "completed": false
+    },
+    {
+      "name": "02-round-title",
+      "variant": "two",
+      "at": 11200,
+      "scene": "intro",
+      "phase": "title",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "03-prompt-reel",
+      "variant": "two",
+      "at": 16490,
+      "scene": "intro",
+      "phase": "reel",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "04-countdown",
+      "variant": "two",
+      "at": 17390,
+      "scene": "intro",
+      "phase": "countdown",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "05-hunt",
+      "variant": "two",
+      "at": 22770,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "06-snagged",
+      "variant": "two",
+      "at": 28570,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "07-glow-up",
+      "variant": "two",
+      "at": 42770,
+      "scene": "hunt",
+      "phase": "glow",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "08-pixel-judge",
+      "variant": "two",
+      "at": 47718,
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "09-judge-winner",
+      "variant": "two",
+      "at": 58458,
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "10-standings",
+      "variant": "two",
+      "at": 64158,
+      "scene": "stand",
+      "phase": "standings",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "11-brag-lines",
+      "variant": "two",
+      "at": 105858,
+      "scene": "brag",
+      "phase": "brag-lines",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "12-brag-mash",
+      "variant": "two",
+      "at": 142482,
+      "scene": "brag",
+      "phase": "mash",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "13-brag-knockout",
+      "variant": "two",
+      "at": 115738,
+      "scene": "brag",
+      "phase": "knockout",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "14-show-vote",
+      "variant": "two",
+      "at": 195956,
+      "scene": "show",
+      "phase": "vote",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "15-show-winner",
+      "variant": "two",
+      "at": 203156,
+      "scene": "show",
+      "phase": "tally",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "16-finale",
+      "variant": "two",
+      "at": 217460,
+      "scene": "champ",
+      "phase": "finale",
+      "round": 3,
+      "completed": false
+    },
+    {
+      "name": "17-round-2-title",
+      "variant": "two",
+      "at": 67280,
+      "scene": "intro",
+      "phase": "title",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "18-round-3-title",
+      "variant": "two",
+      "at": 155802,
+      "scene": "intro",
+      "phase": "title",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "19-round-2-hunt",
+      "variant": "two",
+      "at": 79054,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "20-round-3-hunt",
+      "variant": "two",
+      "at": 167406,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "01-lobby",
+      "variant": "long-two",
+      "at": 6500,
+      "scene": "lobby",
+      "phase": "lobby",
+      "round": -1,
+      "completed": false
+    },
+    {
+      "name": "02-round-title",
+      "variant": "long-two",
+      "at": 11200,
+      "scene": "intro",
+      "phase": "title",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "03-prompt-reel",
+      "variant": "long-two",
+      "at": 16490,
+      "scene": "intro",
+      "phase": "reel",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "04-countdown",
+      "variant": "long-two",
+      "at": 17390,
+      "scene": "intro",
+      "phase": "countdown",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "05-hunt",
+      "variant": "long-two",
+      "at": 22770,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "06-snagged",
+      "variant": "long-two",
+      "at": 28570,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "07-glow-up",
+      "variant": "long-two",
+      "at": 42770,
+      "scene": "hunt",
+      "phase": "glow",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "08-pixel-judge",
+      "variant": "long-two",
+      "at": 47718,
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "09-judge-winner",
+      "variant": "long-two",
+      "at": 58458,
+      "scene": "judge",
+      "phase": "judge",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "10-standings",
+      "variant": "long-two",
+      "at": 64158,
+      "scene": "stand",
+      "phase": "standings",
+      "round": 0,
+      "completed": false
+    },
+    {
+      "name": "11-brag-lines",
+      "variant": "long-two",
+      "at": 105858,
+      "scene": "brag",
+      "phase": "brag-lines",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "12-brag-mash",
+      "variant": "long-two",
+      "at": 142482,
+      "scene": "brag",
+      "phase": "mash",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "13-brag-knockout",
+      "variant": "long-two",
+      "at": 115738,
+      "scene": "brag",
+      "phase": "knockout",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "14-show-vote",
+      "variant": "long-two",
+      "at": 195956,
+      "scene": "show",
+      "phase": "vote",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "15-show-winner",
+      "variant": "long-two",
+      "at": 203156,
+      "scene": "show",
+      "phase": "tally",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "16-finale",
+      "variant": "long-two",
+      "at": 217460,
+      "scene": "champ",
+      "phase": "finale",
+      "round": 3,
+      "completed": false
+    },
+    {
+      "name": "17-round-2-title",
+      "variant": "long-two",
+      "at": 67280,
+      "scene": "intro",
+      "phase": "title",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "18-round-3-title",
+      "variant": "long-two",
+      "at": 155802,
+      "scene": "intro",
+      "phase": "title",
+      "round": 2,
+      "completed": false
+    },
+    {
+      "name": "19-round-2-hunt",
+      "variant": "long-two",
+      "at": 79054,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 1,
+      "completed": false
+    },
+    {
+      "name": "20-round-3-hunt",
+      "variant": "long-two",
+      "at": 167406,
+      "scene": "hunt",
+      "phase": "hunt",
+      "round": 2,
+      "completed": false
+    }
+  ],
+  "errors": [],
+  "issueCount": 0
+}

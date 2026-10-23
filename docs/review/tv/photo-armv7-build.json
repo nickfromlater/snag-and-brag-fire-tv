@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-13T23:59:00.581705+00:00",
+  "pass": true,
+  "target": "armv7 Release",
+  "sourceCommit": "3097ed916a47ea798800650ff1bab4c29e52a231",
+  "command": "pnpm --filter @snag/tv exec react-native build-vega --build-type Release --target armv7 --use-system-js-bundles true --max-workers 2",
+  "steps1Through4": "passed; docs/review/tv/g2-native-e2e.json and tv-judge-compare.png",
+  "manifestErrors": 0,
+  "archiveReadVerified": true,
+  "output": "~/builds/snag-and-brag/tv_armv7-integrated.vpkg",
+  "bytes": 24740214,
+  "sha256": "f0ceac46b89cc9fea80154f0aa4c69bf83f5408e8ecb10cb189fa06c2c1cddb7",
+  "replacedSha256": "07e93730302c1604b01d30bdc0aff7a5e2a5f9a888c9efeaddac8777f833eeda",
+  "scope": "Built and copied after native VVD acceptance; physical armv7 device execution was not requested or claimed."
+}

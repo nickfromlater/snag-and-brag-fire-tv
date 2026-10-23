@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-18",
+  "scope": "Archived live OS log during accelerated fault reproduction; metadata only",
+  "outcome": "DIAGNOSTIC",
+  "graphicsPoolTotalKiB": 241664,
+  "graphicsPoolFreeMinKiB": 1140,
+  "graphicsPoolFreeMaxKiB": 7096,
+  "separateLiveQuietRunGraphicsFreeKiB": 496,
+  "nativeImageMissingParentErrors": 18,
+  "mediaBufferTemporarilyUnavailableWarnings": 48,
+  "postKillRamFigureIsNotPreCrashMemory": true,
+  "nextExperiment": "Evict unused decoded images after committed scene swaps; measure live graphics pool through normal-speed games before acceptance."
+}

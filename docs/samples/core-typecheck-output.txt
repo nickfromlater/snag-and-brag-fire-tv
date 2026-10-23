@@ -1,0 +1,5 @@
+v24.20.0
+12.10.1
+$ pnpm -r --if-present typecheck
+$ tsc --noEmit -p .
+$ tsc --noEmit -p .

@@ -1,0 +1,82 @@
+{
+  "target": "Chrome iteration",
+  "speed": 4,
+  "audio": "muted",
+  "complete": true,
+  "teams": 4,
+  "exceptions": 0,
+  "scenes": [
+    "lobby",
+    "intro",
+    "hunt",
+    "judge",
+    "stand",
+    "brag",
+    "show",
+    "champ"
+  ],
+  "captures": [
+    "brag-lines",
+    "brag-mash",
+    "brag-knockout",
+    "show-vote",
+    "show-win",
+    "champ-finale"
+  ],
+  "synthetic": {
+    "photos": 3,
+    "photoRounds": [
+      0,
+      1,
+      2
+    ],
+    "cameras": [
+      0,
+      1,
+      2
+    ],
+    "glows": 3,
+    "votes": 1,
+    "states": [
+      "-1:join:false",
+      "-1:lobby:false",
+      "0:ready:false",
+      "0:cam:false",
+      "0:glow:false",
+      "0:wait:false",
+      "1:ready:false",
+      "1:cam:false",
+      "1:glow:false",
+      "1:wait:false",
+      "1:mash:false",
+      "1:mash:true",
+      "1:mash:false",
+      "1:mash:true",
+      "1:mash:false",
+      "1:mash:true",
+      "1:mash:false",
+      "1:wait:false",
+      "2:ready:false",
+      "2:cam:false",
+      "2:glow:false",
+      "2:wait:false",
+      "2:vote:false",
+      "2:vote:true",
+      "2:vote:false",
+      "2:wait:false",
+      "2:wait:true",
+      "2:wait:false",
+      "3:wait:false",
+      "3:end:false",
+      "3:end:true",
+      "3:end:false"
+    ],
+    "errors": []
+  },
+  "photoResponses": [
+    200,
+    200,
+    200
+  ],
+  "errors": []
+}

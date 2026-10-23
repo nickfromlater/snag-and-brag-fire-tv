@@ -1,0 +1,301 @@
+{
+  "comparison": "ff07083 original scene baseline versus lead review 2; static raster mood replaces animated backdrop during judge/finale",
+  "sceneTags": {
+    "tv/src/scenes/brag.tsx": {
+      "Motion": [
+        13,
+        13
+      ],
+      "Timer": [
+        0,
+        0
+      ],
+      "CountdownDial": [
+        0,
+        0
+      ],
+      "Loop": [
+        1,
+        1
+      ],
+      "Follow": [
+        5,
+        5
+      ],
+      "Spring": [
+        0,
+        0
+      ],
+      "HolographicSticker": [
+        0,
+        0
+      ],
+      "Sheen": [
+        0,
+        0
+      ]
+    },
+    "tv/src/scenes/champ.tsx": {
+      "Motion": [
+        8,
+        5
+      ],
+      "Timer": [
+        0,
+        0
+      ],
+      "CountdownDial": [
+        0,
+        0
+      ],
+      "Loop": [
+        0,
+        0
+      ],
+      "Follow": [
+        0,
+        0
+      ],
+      "Spring": [
+        0,
+        0
+      ],
+      "HolographicSticker": [
+        1,
+        1
+      ],
+      "Sheen": [
+        1,
+        0
+      ]
+    },
+    "tv/src/scenes/hunt.tsx": {
+      "Motion": [
+        5,
+        5
+      ],
+      "Timer": [
+        0,
+        0
+      ],
+      "CountdownDial": [
+        1,
+        1
+      ],
+      "Loop": [
+        0,
+        0
+      ],
+      "Follow": [
+        0,
+        0
+      ],
+      "Spring": [
+        0,
+        0
+      ],
+      "HolographicSticker": [
+        0,
+        0
+      ],
+      "Sheen": [
+        0,
+        0
+      ]
+    },
+    "tv/src/scenes/intro.tsx": {
+      "Motion": [
+        8,
+        8
+      ],
+      "Timer": [
+        0,
+        0
+      ],
+      "CountdownDial": [
+        0,
+        0
+      ],
+      "Loop": [
+        0,
+        0
+      ],
+      "Follow": [
+        0,
+        0
+      ],
+      "Spring": [
+        0,
+        0
+      ],
+      "HolographicSticker": [
+        0,
+        0
+      ],
+      "Sheen": [
+        0,
+        0
+      ]
+    },
+    "tv/src/scenes/judge.tsx": {
+      "Motion": [
+        6,
+        6
+      ],
+      "Timer": [
+        0,
+        0
+      ],
+      "CountdownDial": [
+        0,
+        0
+      ],
+      "Loop": [
+        0,
+        0
+      ],
+      "Follow": [
+        0,
+        0
+      ],
+      "Spring": [
+        0,
+        0
+      ],
+      "HolographicSticker": [
+        0,
+        0
+      ],
+      "Sheen": [
+        0,
+        0
+      ]
+    },
+    "tv/src/scenes/lobby.tsx": {
+      "Motion": [
+        5,
+        5
+      ],
+      "Timer": [
+        0,
+        0
+      ],
+      "CountdownDial": [
+        0,
+        0
+      ],
+      "Loop": [
+        0,
+        0
+      ],
+      "Follow": [
+        0,
+        0
+      ],
+      "Spring": [
+        0,
+        0
+      ],
+      "HolographicSticker": [
+        0,
+        0
+      ],
+      "Sheen": [
+        0,
+        0
+      ]
+    },
+    "tv/src/scenes/show.tsx": {
+      "Motion": [
+        7,
+        4
+      ],
+      "Timer": [
+        1,
+        1
+      ],
+      "CountdownDial": [
+        0,
+        0
+      ],
+      "Loop": [
+        0,
+        0
+      ],
+      "Follow": [
+        0,
+        0
+      ],
+      "Spring": [
+        0,
+        0
+      ],
+      "HolographicSticker": [
+        1,
+        1
+      ],
+      "Sheen": [
+        0,
+        0
+      ]
+    },
+    "tv/src/scenes/stand.tsx": {
+      "Motion": [
+        8,
+        7
+      ],
+      "Timer": [
+        0,
+        0
+      ],
+      "CountdownDial": [
+        0,
+        0
+      ],
+      "Loop": [
+        0,
+        0
+      ],
+      "Follow": [
+        0,
+        0
+      ],
+      "Spring": [
+        1,
+        1
+      ],
+      "HolographicSticker": [
+        0,
+        0
+      ],
+      "Sheen": [
+        0,
+        0
+      ]
+    }
+  },
+  "activity": {
+    "new Animated.Value(": [
+      12,
+      12
+    ],
+    "useSharedValue(": [
+      3,
+      3
+    ],
+    "setTimeout(": [
+      9,
+      9
+    ],
+    "setInterval(": [
+      2,
+      2
+    ],
+    "frameClock.subscribe(": [
+      7,
+      7
+    ]
+  },
+  "addedAnimatedNodes": 0,
+  "addedTimers": 0
+}

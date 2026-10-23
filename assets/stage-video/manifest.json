@@ -1,0 +1,61 @@
+{
+  "source": "reference/src/game.js BG.draw",
+  "loopDissolveFrames": 30,
+  "clips": [
+    {
+      "mood": "normal",
+      "file": "assets/stage-video/normal.mp4",
+      "bytes": 1470791,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "frames": 300,
+      "seconds": 10,
+      "audio": false
+    },
+    {
+      "mood": "urgent",
+      "file": "assets/stage-video/urgent.mp4",
+      "bytes": 2271967,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "frames": 300,
+      "seconds": 10,
+      "audio": false
+    },
+    {
+      "mood": "tension",
+      "file": "assets/stage-video/tension.mp4",
+      "bytes": 1331211,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "frames": 300,
+      "seconds": 10,
+      "audio": false
+    },
+    {
+      "mood": "party",
+      "file": "assets/stage-video/party.mp4",
+      "bytes": 2230247,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "frames": 300,
+      "seconds": 10,
+      "audio": false
+    },
+    {
+      "mood": "gold",
+      "file": "assets/stage-video/gold.mp4",
+      "bytes": 2436242,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "frames": 300,
+      "seconds": 10,
+      "audio": false
+    }
+  ]
+}

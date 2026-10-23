@@ -1,0 +1,35 @@
+{
+  "deliveredAt": "2026-10-14T06:02:37.758302+00:00",
+  "sourceCommit": "f9b41924fb835d06043a9117eaeb882948508b6e",
+  "sourcePackage": "tv/build/armv7-release/tv_armv7.vpkg",
+  "destination": "~/builds/snag-and-brag/tv_armv7-integrated.vpkg",
+  "target": "armv7",
+  "buildType": "Release",
+  "sdk": "0.24.12112",
+  "cli": "1.4.2",
+  "node": "24.20.0",
+  "systemJsBundles": true,
+  "buildCommand": "pnpm --filter @snag/tv build:release --target armv7 --use-system-js-bundles true --max-workers 2",
+  "bytes": 16695253,
+  "sha256": "a69245b5651f14614c18572036f0e9346f3e23e5be475702a2172b294015313a",
+  "replaced": {
+    "path": "~/builds/snag-and-brag/tv_armv7-integrated.vpkg",
+    "bytes": 24740214,
+    "sha256": "f0ceac46b89cc9fea80154f0aa4c69bf83f5408e8ecb10cb189fa06c2c1cddb7"
+  },
+  "gate": {
+    "receipt": "native-final/release-gate.json",
+    "runtime": "VVD aarch64 Release/Hermes",
+    "speed": 1,
+    "allBots": true,
+    "mockPollyCompleteClips": 28,
+    "runtimeExceptions": 0,
+    "audioErrors": 0
+  },
+  "rootTests": 446,
+  "rootTypecheck": "pass",
+  "nativeVisualAcceptance": "unverified: console retains Intro/reel after core completion",
+  "spokenAlexa": "unverified: signed-in retail stick required",
+  "armv7RuntimeTested": false,
+  "pnpm": "12.10.1"
+}

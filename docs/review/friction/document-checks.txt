@@ -1,0 +1,25 @@
+Documentation audit — lead-review revision, 2026-10-14
+Baseline: d9a6701; branch w/friction
+PASS raw archive: byte-identical to d9a6701; SHA-256 0642f9912bef3feada69640dfc9046de92e05605364c9c3273f4fce29e39e585
+PASS spike source: unchanged
+PASS summary: five bullets
+PASS product feedback: 17 versioned sections; all five questions answered
+PASS friction fields: 43 Amazon-facing + 4 other-tool entries; task, numbered steps, expected/actual, workaround, one suggestion, Our evidence
+PASS features: 8 descriptions, game relevance, priority and supporting findings
+PASS original coverage: all 54 main reports and 12 spike findings mapped; duplicate F-TV-08 disambiguated
+PASS minimal repros: exactly 10; fresh helloWorld-rn72 commands independent of repo; all labeled "expected to reproduce; derived from our app"
+PASS components: 7 TSX snippets (23/28/27/22/29/20/9 lines); all below 30 lines and syntax checked
+PASS component types: six pass strict checks against installed RN/Vega declarations; WebView syntax only, package not installed
+PASS command syntax: 11 shell blocks, embedded Python, keyboard-only HTML JavaScript and service TOML parse
+PASS synthetic fixtures: silence WAV/MP3/AAC-MP4/Ogg and red PNG generated/decoded with FFmpeg/ffprobe 7.1.1; temporary output removed
+PASS CLI contracts: inspected template names, generate/update-manifest/run-app/devmode help; no login or enable-device performed
+PASS boundaries: native Back passing control; inherited WebView repeat/timing; pending retail/account gates explicitly distinguished
+PASS runtime limitation: no fresh app generated/built/run; no native symptom, account onboarding or perf metric independently verified
+PASS numeric receipts preserved: G2 history/current, 28 completed mock clips, 887 ms, 224 SFX plays/10 players and transfer budget unchanged
+PASS timing limitation: native 2,000 ms permission window; original native 600 ms target uncertified
+PASS links/format: 207 local links/anchors resolve across feedback/audit/source notes; fenced blocks balanced
+PASS privacy/size: no local usernames, email addresses, AWS access-key patterns, private keys or embedded media; all edited/added files below 10 MB
+PASS scope: docs-only w/friction; protected files/game/protocol unchanged; raw logs/native evidence unchanged
+PASS root verification: pnpm test 448 passed (includes TV lint); pnpm typecheck passed; Node 24.20.0 / pnpm 12.10.1
+NOTE sandbox blocked initial mock relay listeners (listen EPERM); required root suite passed with local listener access
+PASS diff --check: clean; saved pnpm output paths normalized and trailing line padding removed

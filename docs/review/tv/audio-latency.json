@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "audio-latency",
+    "codec": "wav",
+    "warm": false,
+    "milliseconds": 59.76054200064391,
+    "advancing": true
+  },
+  {
+    "kind": "audio-latency",
+    "codec": "wav",
+    "warm": true,
+    "milliseconds": 493.642291999422,
+    "advancing": true
+  },
+  {
+    "kind": "audio-latency",
+    "codec": "ogg",
+    "warm": false,
+    "milliseconds": 56.19050000049174,
+    "advancing": true
+  },
+  {
+    "kind": "audio-latency",
+    "codec": "ogg",
+    "warm": true,
+    "milliseconds": 150.33716699946672,
+    "advancing": true
+  }
+]
